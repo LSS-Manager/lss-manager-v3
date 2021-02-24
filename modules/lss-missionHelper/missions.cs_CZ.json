@@ -3,6 +3,9 @@
         "id": 0,
         "name": "Ho\u0159\u00edc\u00ed popelnice",
         "place": "Autobusov\u00e1 zast\u00e1vka",
+        "place_array": {
+            "0": "Autobusov\u00e1 zast\u00e1vka"
+        },
         "average_credits": 110,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -24,7 +27,8 @@
     "1": {
         "id": 1,
         "name": "Ho\u0159\u00edc\u00ed kontejner",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -46,7 +50,8 @@
     "2": {
         "id": 2,
         "name": "Ho\u0159\u00edc\u00ed automobil",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 370,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -73,7 +78,8 @@
     "3": {
         "id": 3,
         "name": "Ho\u0159\u00edc\u00ed motocykl",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -98,7 +104,8 @@
     "4": {
         "id": 4,
         "name": "Po\u017e\u00e1r tr\u00e1vy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -123,7 +130,8 @@
     "5": {
         "id": 5,
         "name": "Po\u017e\u00e1r v pokoji",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -154,7 +162,8 @@
     "6": {
         "id": 6,
         "name": "Po\u017e\u00e1r zahradn\u00edho alt\u00e1nu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -176,7 +185,8 @@
     "7": {
         "id": 7,
         "name": "Po\u017e\u00e1r list\u00ed",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -201,7 +211,8 @@
     "8": {
         "id": 8,
         "name": "Ho\u0159\u00edc\u00ed hromada odpadk\u016f",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 220,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -228,7 +239,8 @@
     "9": {
         "id": 9,
         "name": "Ho\u0159\u00edc\u00ed bal\u00edk sl\u00e1my",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -254,7 +266,8 @@
     "10": {
         "id": 10,
         "name": "Ho\u0159\u00edc\u00ed traktor",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -276,7 +289,8 @@
     "11": {
         "id": 11,
         "name": "Ho\u0159\u00edc\u00ed telefonn\u00ed budka",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 240,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -298,7 +312,8 @@
     "12": {
         "id": 12,
         "name": "Strom p\u0159es cestu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -324,7 +339,8 @@
     "13": {
         "id": 13,
         "name": "Ho\u0159\u00edc\u00ed kamion",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 980,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -346,7 +362,8 @@
     "14": {
         "id": 14,
         "name": "Mal\u00fd po\u017e\u00e1r na poli",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -372,6 +389,9 @@
         "id": 15,
         "name": "Mal\u00fd p\u0159\u00edrodn\u00ed po\u017e\u00e1r",
         "place": "Les",
+        "place_array": {
+            "0": "Les"
+        },
         "average_credits": 1010,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -396,7 +416,8 @@
     "16": {
         "id": 16,
         "name": "Ho\u0159\u00edc\u00ed karavan",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -418,7 +439,8 @@
     "17": {
         "id": 17,
         "name": "Ho\u0159\u00edc\u00ed po\u0161tovn\u00ed schr\u00e1nka",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -440,7 +462,8 @@
     "18": {
         "id": 18,
         "name": "Ho\u0159\u00edc\u00ed hromada v\u011btv\u00ed",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -462,7 +485,8 @@
     "19": {
         "id": 19,
         "name": "Ho\u0159\u00edc\u00ed p\u0159\u00edv\u011bs",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -484,7 +508,8 @@
     "20": {
         "id": 20,
         "name": "Po\u017e\u00e1r ve sklep\u011b",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -512,7 +537,8 @@
     "21": {
         "id": 21,
         "name": "Ho\u0159\u00edc\u00ed kom\u00edn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2400,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -542,7 +568,8 @@
     "22": {
         "id": 22,
         "name": "Po\u017e\u00e1r st\u0159echy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2700,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -569,7 +596,8 @@
     "23": {
         "id": 23,
         "name": "Ho\u0159\u00edc\u00ed olej",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -592,6 +620,9 @@
         "id": 24,
         "name": "Po\u017e\u00e1r autobusov\u00e9 zast\u00e1vky",
         "place": "Autobusov\u00e1 zast\u00e1vka",
+        "place_array": {
+            "0": "Autobusov\u00e1 zast\u00e1vka"
+        },
         "average_credits": 900,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -613,7 +644,8 @@
     "25": {
         "id": 25,
         "name": "Dopravn\u00ed nehoda",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -642,6 +674,9 @@
         "id": 26,
         "name": "Mal\u00fd po\u017e\u00e1r v supermarketu",
         "place": "Supermarket (mal\u00fd)",
+        "place_array": {
+            "0": "Supermarket (mal\u00fd)"
+        },
         "average_credits": 1500,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -669,7 +704,8 @@
     "27": {
         "id": 27,
         "name": "Po\u017e\u00e1r gar\u00e1\u017ee",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -691,7 +727,8 @@
     "28": {
         "id": 28,
         "name": "Ho\u0159\u00edc\u00ed stroj",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2470,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -718,7 +755,8 @@
     "29": {
         "id": 29,
         "name": "\u00danik nafty z cisterny",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5300,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -745,7 +783,8 @@
     "30": {
         "id": 30,
         "name": "\u00danik plynu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -768,7 +807,8 @@
     "31": {
         "id": 31,
         "name": "Po\u017e\u00e1r krbu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1310,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -795,7 +835,8 @@
     "32": {
         "id": 32,
         "name": "Po\u017e\u00e1r \u017eac\u00edho stroje",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -818,6 +859,9 @@
         "id": 34,
         "name": "Po\u017e\u00e1r v nemocnici",
         "place": "Nemocnice",
+        "place_array": {
+            "0": "Nemocnice"
+        },
         "average_credits": 6000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -848,7 +892,8 @@
     "35": {
         "id": 35,
         "name": "Otrava alkoholem",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -873,7 +918,8 @@
     "36": {
         "id": 36,
         "name": "Bolest na hrudi",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -898,7 +944,8 @@
     "37": {
         "id": 37,
         "name": "Astmatick\u00fd z\u00e1chvat",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -923,7 +970,8 @@
     "38": {
         "id": 38,
         "name": "Z\u00e1chvat",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -948,7 +996,8 @@
     "39": {
         "id": 39,
         "name": "Hore\u010dka",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -974,7 +1023,8 @@
     "40": {
         "id": 40,
         "name": "Bezvl\u00e1dn\u00e1 osoba",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -1001,6 +1051,9 @@
         "id": 41,
         "name": "Po\u017e\u00e1r v autoservisu",
         "place": "Autoservis",
+        "place_array": {
+            "0": "Autoservis"
+        },
         "average_credits": 6000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -1035,7 +1088,8 @@
     "42": {
         "id": 42,
         "name": "Bezvl\u00e1dn\u00e1 osoba",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -1061,7 +1115,8 @@
     "43": {
         "id": 43,
         "name": "Bezvl\u00e1dn\u00e1 osoba",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -1088,6 +1143,9 @@
         "id": 44,
         "name": "Kr\u00e1de\u017e v obchod\u011b",
         "place": "Supermarket (mal\u00fd)",
+        "place_array": {
+            "0": "Supermarket (mal\u00fd)"
+        },
         "average_credits": 100,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1111,6 +1169,9 @@
         "id": 45,
         "name": "Kr\u00e1de\u017e v obchod\u011b",
         "place": "Supermarket (velk\u00fd)",
+        "place_array": {
+            "0": "Supermarket (velk\u00fd)"
+        },
         "average_credits": 100,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1134,6 +1195,9 @@
         "id": 46,
         "name": "Nehoda na parkovi\u0161ti",
         "place": "Supermarket (mal\u00fd)",
+        "place_array": {
+            "0": "Supermarket (mal\u00fd)"
+        },
         "average_credits": 120,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1158,6 +1222,9 @@
         "id": 47,
         "name": "Nehoda na parkovi\u0161ti",
         "place": "Supermarket (velk\u00fd)",
+        "place_array": {
+            "0": "Supermarket (velk\u00fd)"
+        },
         "average_credits": 120,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1182,6 +1249,9 @@
         "id": 48,
         "name": "Kr\u00e1de\u017e kovu",
         "place": "N\u00e1kladov\u00e9 n\u00e1dra\u017e\u00ed",
+        "place_array": {
+            "0": "N\u00e1kladov\u00e9 n\u00e1dra\u017e\u00ed"
+        },
         "average_credits": 150,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1205,6 +1275,9 @@
         "id": 49,
         "name": "Kaps\u00e1\u0159i",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 150,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1228,6 +1301,9 @@
         "id": 50,
         "name": "\u010cern\u00fd pasa\u017e\u00e9r",
         "place": "Autobusov\u00e1 zast\u00e1vka",
+        "place_array": {
+            "0": "Autobusov\u00e1 zast\u00e1vka"
+        },
         "average_credits": 120,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1250,6 +1326,9 @@
         "id": 51,
         "name": "\u010cern\u00fd pasa\u017e\u00e9r",
         "place": "Tramvajov\u00e1 zast\u00e1vka",
+        "place_array": {
+            "0": "Tramvajov\u00e1 zast\u00e1vka"
+        },
         "average_credits": 120,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1272,6 +1351,9 @@
         "id": 52,
         "name": "\u010cern\u00fd pasa\u017e\u00e9r",
         "place": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed doprava)",
+        "place_array": {
+            "0": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed doprava)"
+        },
         "average_credits": 120,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1294,6 +1376,9 @@
         "id": 53,
         "name": "\u010cern\u00fd pasa\u017e\u00e9r",
         "place": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed a d\u00e1lkov\u00e1 doprava)",
+        "place_array": {
+            "0": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed a d\u00e1lkov\u00e1 doprava)"
+        },
         "average_credits": 120,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1316,6 +1401,9 @@
         "id": 54,
         "name": "Nehoda na parkovi\u0161ti",
         "place": "N\u00e1kupn\u00ed centrum",
+        "place_array": {
+            "0": "N\u00e1kupn\u00ed centrum"
+        },
         "average_credits": 120,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1339,7 +1427,8 @@
     "55": {
         "id": 55,
         "name": "Rva\u010dka",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1366,7 +1455,8 @@
     "56": {
         "id": 56,
         "name": "V\u00fdtr\u017enictv\u00ed",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1392,7 +1482,8 @@
     "57": {
         "id": 57,
         "name": "Nenahl\u00e1\u0161en\u00e1 demonstrace",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10020,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1413,7 +1504,8 @@
     "58": {
         "id": 58,
         "name": "Mal\u00fd po\u017e\u00e1r v kuchyni",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -1439,6 +1531,9 @@
         "id": 59,
         "name": "Z\u00e1chrana zv\u00ed\u0159ete",
         "place": "Farma",
+        "place_array": {
+            "0": "Farma"
+        },
         "average_credits": 900,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -1462,6 +1557,9 @@
         "id": 60,
         "name": "Po\u017e\u00e1r sportovn\u00ed haly",
         "place": "\u0160kola",
+        "place_array": {
+            "0": "\u0160kola"
+        },
         "average_credits": 2000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -1490,7 +1588,8 @@
     "62": {
         "id": 62,
         "name": "St\u00ed\u017enost na hluk",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1512,7 +1611,8 @@
     "63": {
         "id": 63,
         "name": "Tranzitorn\u00ed ischemick\u00e1 ataka",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -1537,7 +1637,8 @@
     "64": {
         "id": 64,
         "name": "Nehoda autobusu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -1567,7 +1668,8 @@
     "65": {
         "id": 65,
         "name": "Mal\u00fd po\u017e\u00e1r v kuchyni",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -1592,7 +1694,8 @@
     "66": {
         "id": 66,
         "name": "Po\u017e\u00e1r v pokoji",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -1623,7 +1726,8 @@
     "67": {
         "id": 67,
         "name": "Rva\u010dka",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1651,6 +1755,9 @@
         "id": 68,
         "name": "Velk\u00fd po\u017e\u00e1r v supermarketu",
         "place": "Supermarket (velk\u00fd)",
+        "place_array": {
+            "0": "Supermarket (velk\u00fd)"
+        },
         "average_credits": 3000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -1684,7 +1791,8 @@
     "69": {
         "id": 69,
         "name": "\u00danik nafty z cisterny",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4300,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -1711,7 +1819,8 @@
     "71": {
         "id": 71,
         "name": "Krv\u00e1cen\u00ed z nosu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -1737,7 +1846,8 @@
     "72": {
         "id": 72,
         "name": "Nehoda lehk\u00e9ho letounu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -1769,7 +1879,8 @@
     "73": {
         "id": 73,
         "name": "V\u00e1\u017en\u00e1 nehoda autobusu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -1803,7 +1914,8 @@
     "74": {
         "id": 74,
         "name": "Velk\u00fd ohe\u0148",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10210,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -1828,7 +1940,8 @@
     "75": {
         "id": 75,
         "name": "D\u00edt\u011b zam\u010den\u00e9 ve vozidle",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -1857,7 +1970,8 @@
     "76": {
         "id": 76,
         "name": "Dopravn\u00ed nehoda s p\u0159evr\u00e1cen\u00edm",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -1894,7 +2008,8 @@
     "77": {
         "id": 77,
         "name": "Poran\u011bn\u00ed p\u00e1te\u0159e",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -1920,7 +2035,8 @@
     "78": {
         "id": 78,
         "name": "\u010c\u00e1ste\u010dn\u00e9 z\u0159\u00edcen\u00ed budovy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 7500,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -1954,7 +2070,8 @@
     "79": {
         "id": 79,
         "name": "Z\u0159\u00edcen\u00ed budovy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 9000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -1988,7 +2105,8 @@
     "80": {
         "id": 80,
         "name": "Pop\u00e1leniny 3. stupn\u011b",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -2014,7 +2132,8 @@
     "81": {
         "id": 81,
         "name": "V\u00e1\u017en\u00e9 poran\u011bn\u00ed hlavy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -2040,7 +2159,8 @@
     "82": {
         "id": 82,
         "name": "Amputace kon\u010detiny",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -2067,6 +2187,9 @@
         "id": 83,
         "name": "Po\u017e\u00e1r velk\u00e9 farmy",
         "place": "Farma",
+        "place_array": {
+            "0": "Farma"
+        },
         "average_credits": 9000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -2091,7 +2214,8 @@
     "84": {
         "id": 84,
         "name": "Bolest zad",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -2117,7 +2241,8 @@
     "85": {
         "id": 85,
         "name": "Dopravn\u00ed nehoda motocyklu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -2151,7 +2276,8 @@
     "86": {
         "id": 86,
         "name": "Du\u0161en\u00ed",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -2178,6 +2304,9 @@
         "id": 87,
         "name": "Po\u017e\u00e1r j\u00eddelny",
         "place": "\u0160kola",
+        "place_array": {
+            "0": "\u0160kola"
+        },
         "average_credits": 1300,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -2205,7 +2334,8 @@
     "88": {
         "id": 88,
         "name": "Zaseknut\u00fd horolezec",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -2238,6 +2368,9 @@
         "id": 89,
         "name": "Napaden\u00ed \u00fa\u0159edn\u00edka",
         "place": "Stanice metra",
+        "place_array": {
+            "0": "Stanice metra"
+        },
         "average_credits": 750,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2266,6 +2399,9 @@
         "id": 90,
         "name": "Po\u017e\u00e1r sila",
         "place": "Silo",
+        "place_array": {
+            "0": "Silo"
+        },
         "average_credits": 3000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -2290,7 +2426,8 @@
     "91": {
         "id": 91,
         "name": "Zran\u011bn\u00e1 osoba na sto\u017e\u00e1ru vysok\u00e9ho nap\u011bt\u00ed",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -2321,6 +2458,9 @@
         "id": 92,
         "name": "Po\u017e\u00e1r stohu sl\u00e1my",
         "place": "Farma",
+        "place_array": {
+            "0": "Farma"
+        },
         "average_credits": 1500,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -2344,7 +2484,8 @@
     "93": {
         "id": 93,
         "name": "Reziden\u010dn\u00ed policejn\u00ed razie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2368,6 +2509,9 @@
         "id": 105,
         "name": "Vykolejen\u00ed vlaku",
         "place": "\u017delezni\u010dn\u00ed p\u0159ejezd",
+        "place_array": {
+            "0": "\u017delezni\u010dn\u00ed p\u0159ejezd"
+        },
         "average_credits": 10000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -2401,6 +2545,9 @@
         "id": 106,
         "name": "Vykolejen\u00ed vlaku",
         "place": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed doprava)",
+        "place_array": {
+            "0": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed doprava)"
+        },
         "average_credits": 10000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -2434,6 +2581,9 @@
         "id": 107,
         "name": "Vykolejen\u00ed vlaku",
         "place": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed a d\u00e1lkov\u00e1 doprava)",
+        "place_array": {
+            "0": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed a d\u00e1lkov\u00e1 doprava)"
+        },
         "average_credits": 10000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -2466,7 +2616,8 @@
     "108": {
         "id": 108,
         "name": "Odstran\u011bn\u00ed nebezpe\u010dn\u00e9ho hmyzu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -2488,7 +2639,8 @@
     "109": {
         "id": 109,
         "name": "V\u011bze\u0148 na \u00fat\u011bku",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2514,7 +2666,8 @@
     "110": {
         "id": 110,
         "name": "Podez\u0159el\u00fd na \u00fat\u011bku",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2540,6 +2693,9 @@
         "id": 111,
         "name": "Poh\u0159e\u0161ovan\u00e1 osoba",
         "place": "Les",
+        "place_array": {
+            "0": "Les"
+        },
         "average_credits": 4500,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2572,7 +2728,8 @@
     "112": {
         "id": 112,
         "name": "P\u0159ik\u00e1zan\u00e1 pohotovost",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2600,7 +2757,8 @@
     "113": {
         "id": 113,
         "name": "Post\u0159elen\u00fd policista",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2627,7 +2785,8 @@
     "114": {
         "id": 114,
         "name": "Hled\u00e1n\u00ed vozidla",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2652,7 +2811,8 @@
     "115": {
         "id": 115,
         "name": "Mal\u00fd n\u00e1siln\u00fd protest",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2684,7 +2844,8 @@
     "116": {
         "id": 116,
         "name": "St\u0159edn\u00ed n\u00e1siln\u00fd protest",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2715,7 +2876,8 @@
     "117": {
         "id": 117,
         "name": "Obchod s drogami",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2740,6 +2902,9 @@
         "id": 118,
         "name": "Loupe\u017e na \u010derpac\u00ed stanici",
         "place": "\u010cerpac\u00ed stanice",
+        "place_array": {
+            "0": "\u010cerpac\u00ed stanice"
+        },
         "average_credits": 1250,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2765,7 +2930,8 @@
     "119": {
         "id": 119,
         "name": "St\u0159elba na policistu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4100,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2798,7 +2964,8 @@
     "120": {
         "id": 120,
         "name": "VIP vystoupen\u00ed",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2827,7 +2994,8 @@
     "121": {
         "id": 121,
         "name": "Dom\u00e1c\u00ed invaze",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1250,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2854,7 +3022,8 @@
     "122": {
         "id": 122,
         "name": "Pokus o vra\u017edu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2887,6 +3056,9 @@
         "id": 123,
         "name": "Loupe\u017e v muzeu",
         "place": "Muzeum",
+        "place_array": {
+            "0": "Muzeum"
+        },
         "average_credits": 1000,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -2911,7 +3083,8 @@
     "124": {
         "id": 124,
         "name": "Resuscitace pomoc\u00ed AED",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1300,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -2937,7 +3110,8 @@
     "125": {
         "id": 125,
         "name": "Snesen\u00ed pacienta",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1300,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -2965,6 +3139,9 @@
         "id": 126,
         "name": "Po\u017e\u00e1r v kancel\u00e1\u0159sk\u00e9 budov\u011b",
         "place": "Kancel\u00e1\u0159sk\u00e1 budova",
+        "place_array": {
+            "0": "Kancel\u00e1\u0159sk\u00e1 budova"
+        },
         "average_credits": 8500,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -2997,7 +3174,8 @@
     "127": {
         "id": 127,
         "name": "\u00daklid po dopravn\u00ed nehod\u011b",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3019,7 +3197,8 @@
     "128": {
         "id": 128,
         "name": "Neopr\u00e1vn\u011bn\u00e9 dr\u017een\u00ed zbran\u00ed",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -3042,7 +3221,8 @@
     "129": {
         "id": 129,
         "name": "Nehoda se zv\u00ed\u0159etem",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -3072,7 +3252,8 @@
     "131": {
         "id": 131,
         "name": "Nehoda auta s cyklistou",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3107,7 +3288,8 @@
     "132": {
         "id": 132,
         "name": "Nouzov\u00e9 otev\u0159en\u00ed bytu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3131,7 +3313,8 @@
     "133": {
         "id": 133,
         "name": "Nouzov\u00e9 p\u0159ist\u00e1n\u00ed vrtuln\u00edku",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3700,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3163,7 +3346,8 @@
     "134": {
         "id": 134,
         "name": "\u00danik kyseliny dusi\u010dn\u00e9",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3400,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3191,6 +3375,9 @@
         "id": 140,
         "name": "Mal\u00fd po\u017e\u00e1r v hotelu",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 3000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3225,6 +3412,9 @@
         "id": 141,
         "name": "St\u0159edn\u00ed po\u017e\u00e1r v hotelu",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 5000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3261,6 +3451,9 @@
         "id": 142,
         "name": "\u0158\u00edzen\u00ed dopravy",
         "place": "K\u0159i\u017eovatka se semafory",
+        "place_array": {
+            "0": "K\u0159i\u017eovatka se semafory"
+        },
         "average_credits": 700,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -3286,6 +3479,9 @@
         "id": 143,
         "name": "Velk\u00fd po\u017e\u00e1r v hotelu",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 8000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3324,6 +3520,9 @@
         "id": 144,
         "name": "Rozs\u00e1hl\u00fd po\u017e\u00e1r v hotelu",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 12000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3358,7 +3557,8 @@
     "145": {
         "id": 145,
         "name": "Alergick\u00e1 reakce",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -3383,7 +3583,8 @@
     "146": {
         "id": 146,
         "name": "Po\u017e\u00e1r do\u0161kov\u00e9 st\u0159echy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 8000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3416,6 +3617,9 @@
         "id": 147,
         "name": "Po\u017e\u00e1r vlakov\u00e9 soupravy",
         "place": "\u017delezni\u010dn\u00ed p\u0159ejezd",
+        "place_array": {
+            "0": "\u017delezni\u010dn\u00ed p\u0159ejezd"
+        },
         "average_credits": 3000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3442,6 +3646,9 @@
         "id": 149,
         "name": "Po\u017e\u00e1r vlakov\u00e9 soupravy",
         "place": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed doprava)",
+        "place_array": {
+            "0": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed doprava)"
+        },
         "average_credits": 3000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3468,6 +3675,9 @@
         "id": 150,
         "name": "Po\u017e\u00e1r vlakov\u00e9 soupravy",
         "place": "N\u00e1kladov\u00e9 n\u00e1dra\u017e\u00ed",
+        "place_array": {
+            "0": "N\u00e1kladov\u00e9 n\u00e1dra\u017e\u00ed"
+        },
         "average_credits": 3000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3494,6 +3704,9 @@
         "id": 151,
         "name": "Velk\u00e1 DN v tunelu",
         "place": "Tunel",
+        "place_array": {
+            "0": "Tunel"
+        },
         "average_credits": 7000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3531,6 +3744,9 @@
         "id": 152,
         "name": "Po\u017e\u00e1r v\u00edce vozidel v tunelu",
         "place": "Tunel",
+        "place_array": {
+            "0": "Tunel"
+        },
         "average_credits": 5000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3565,6 +3781,9 @@
         "id": 153,
         "name": "Po\u017e\u00e1r v rychl\u00e9m ob\u010derstven\u00ed",
         "place": "Rychl\u00e9 ob\u010derstven\u00ed",
+        "place_array": {
+            "0": "Rychl\u00e9 ob\u010derstven\u00ed"
+        },
         "average_credits": 1850,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3589,7 +3808,8 @@
     "154": {
         "id": 154,
         "name": "Po\u017e\u00e1r pr\u016fmyslov\u00e9ho objektu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5300,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3620,7 +3840,8 @@
     "155": {
         "id": 155,
         "name": "\u00danik nezn\u00e1m\u00e9 kapaliny",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4300,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3648,7 +3869,8 @@
     "156": {
         "id": 156,
         "name": "Po\u017e\u00e1r v kuchyni",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3682,6 +3904,9 @@
         "id": 157,
         "name": "\u0158\u00edzen\u00ed dopravy",
         "place": "K\u0159i\u017eovatka",
+        "place_array": {
+            "0": "K\u0159i\u017eovatka"
+        },
         "average_credits": 700,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -3706,7 +3931,8 @@
     "158": {
         "id": 158,
         "name": "Po\u017e\u00e1r elektromobilu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3731,7 +3957,8 @@
     "159": {
         "id": 159,
         "name": "Po\u017e\u00e1r automobilu na LPG",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1300,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3756,6 +3983,9 @@
         "id": 160,
         "name": "Po\u017e\u00e1r skl\u00e1dky",
         "place": "Skl\u00e1dka",
+        "place_array": {
+            "0": "Skl\u00e1dka"
+        },
         "average_credits": 2500,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3779,7 +4009,8 @@
     "161": {
         "id": 161,
         "name": "Silni\u010dn\u00ed kontrola",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -3801,7 +4032,8 @@
     "162": {
         "id": 162,
         "name": "Epileptick\u00fd z\u00e1chvat",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -3827,6 +4059,9 @@
         "id": 163,
         "name": "Po\u017e\u00e1r srubu",
         "place": "Srub",
+        "place_array": {
+            "0": "Srub"
+        },
         "average_credits": 2500,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3852,7 +4087,8 @@
     "164": {
         "id": 164,
         "name": "Komplikovan\u00fd porod",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -3878,6 +4114,9 @@
         "id": 165,
         "name": "Po\u017e\u00e1r tr\u017enice",
         "place": "Tr\u017enice",
+        "place_array": {
+            "0": "Tr\u017enice"
+        },
         "average_credits": 3700,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3910,7 +4149,8 @@
     "166": {
         "id": 166,
         "name": "Neohl\u00e1\u0161en\u00e9 p\u00e1len\u00ed",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3934,7 +4174,8 @@
     "167": {
         "id": 167,
         "name": "Otev\u0159en\u00e1 zlomenina",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -3960,6 +4201,9 @@
         "id": 168,
         "name": "Po\u017e\u00e1r truhl\u00e1rny",
         "place": "Truhl\u00e1rna",
+        "place_array": {
+            "0": "Truhl\u00e1rna"
+        },
         "average_credits": 4200,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -3991,7 +4235,8 @@
     "169": {
         "id": 169,
         "name": "Dopravn\u00ed nehoda bez zran\u011bn\u00ed",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -4017,7 +4262,8 @@
     "170": {
         "id": 170,
         "name": "Dopravn\u00ed nehoda cisterny",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -4050,7 +4296,8 @@
     "171": {
         "id": 171,
         "name": "N\u00e1lez nabouran\u00e9ho vozidla",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -4084,6 +4331,9 @@
         "id": 172,
         "name": "Nahl\u00e1\u0161ena v\u00fdbu\u0161nina ve \u0161kole",
         "place": "\u0160kola",
+        "place_array": {
+            "0": "\u0160kola"
+        },
         "average_credits": 3700,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -4112,6 +4362,9 @@
         "id": 174,
         "name": "Nahl\u00e1\u0161ena v\u00fdbu\u0161nina na vlakov\u00e9m n\u00e1dra\u017e\u00ed",
         "place": "Vlakov\u00e9 n\u00e1dra\u017e\u00ed",
+        "place_array": {
+            "0": "Vlakov\u00e9 n\u00e1dra\u017e\u00ed"
+        },
         "average_credits": 3500,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -4140,6 +4393,9 @@
         "id": 175,
         "name": "Nahl\u00e1\u0161ena v\u00fdbu\u0161nina na autobusov\u00e9m n\u00e1dra\u017e\u00ed",
         "place": "Autobusov\u00e9 n\u00e1dra\u017e\u00ed",
+        "place_array": {
+            "0": "Autobusov\u00e9 n\u00e1dra\u017e\u00ed"
+        },
         "average_credits": 3200,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -4168,6 +4424,9 @@
         "id": 176,
         "name": "Nahl\u00e1\u0161ena v\u00fdbu\u0161nina v n\u00e1kupn\u00edm centru",
         "place": "N\u00e1kupn\u00ed centrum",
+        "place_array": {
+            "0": "N\u00e1kupn\u00ed centrum"
+        },
         "average_credits": 3600,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -4196,6 +4455,9 @@
         "id": 177,
         "name": "Po\u017e\u00e1r muni\u010dn\u00edho skladu",
         "place": "Muni\u010dn\u00ed sklad",
+        "place_array": {
+            "0": "Muni\u010dn\u00ed sklad"
+        },
         "average_credits": 17000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -4234,6 +4496,9 @@
         "id": 178,
         "name": "Po\u017e\u00e1r skladu pyrotechniky",
         "place": "Sklad pyrotechniky",
+        "place_array": {
+            "0": "Sklad pyrotechniky"
+        },
         "average_credits": 13000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -4271,7 +4536,8 @@
     "179": {
         "id": 179,
         "name": "N\u00e1lez opu\u0161t\u011bn\u00e9ho zavazadla",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -4297,7 +4563,8 @@
     "180": {
         "id": 180,
         "name": "N\u00e1lez munice",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2300,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -4324,6 +4591,9 @@
         "id": 181,
         "name": "N\u00e1lez munice",
         "place": "Les",
+        "place_array": {
+            "0": "Les"
+        },
         "average_credits": 2300,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -4349,7 +4619,8 @@
     "182": {
         "id": 182,
         "name": "\u00datok aktivn\u00edho st\u0159elce",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 9000,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -4386,6 +4657,9 @@
         "id": 183,
         "name": "Zran\u011bn\u00ed motorovou pilou",
         "place": "Les",
+        "place_array": {
+            "0": "Les"
+        },
         "average_credits": 1300,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -4414,7 +4688,8 @@
     "193": {
         "id": 193,
         "name": "V\u00e1\u017en\u00e1 dopravn\u00ed nehoda",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3200,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -4448,6 +4723,9 @@
         "id": 194,
         "name": "Po\u017e\u00e1r lesa",
         "place": "Les",
+        "place_array": {
+            "0": "Les"
+        },
         "average_credits": 3700,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -4473,6 +4751,9 @@
         "id": 195,
         "name": "Po\u017e\u00e1r skladu uhl\u00ed",
         "place": "Sklad uhl\u00ed",
+        "place_array": {
+            "0": "Sklad uhl\u00ed"
+        },
         "average_credits": 4100,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -4502,6 +4783,9 @@
         "id": 196,
         "name": "Po\u017e\u00e1r \u010derpac\u00ed stanice",
         "place": "\u010cerpac\u00ed stanice",
+        "place_array": {
+            "0": "\u010cerpac\u00ed stanice"
+        },
         "average_credits": 4700,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -4537,7 +4821,8 @@
     "197": {
         "id": 197,
         "name": "Akutn\u00ed z\u00e1n\u011bt mo\u010dov\u00fdch cest",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -4562,7 +4847,8 @@
     "209": {
         "id": 209,
         "name": "Otrava j\u00eddlem",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -4587,7 +4873,8 @@
     "210": {
         "id": 210,
         "name": "Po\u017e\u00e1r domu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -4618,7 +4905,8 @@
     "211": {
         "id": 211,
         "name": "Po\u017e\u00e1r bytu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3600,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -4650,6 +4938,9 @@
         "id": 212,
         "name": "Hl\u00eddka na trhu",
         "place": "N\u00e1m\u011bst\u00ed",
+        "place_array": {
+            "0": "N\u00e1m\u011bst\u00ed"
+        },
         "average_credits": 1500,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -4674,7 +4965,8 @@
     "235": {
         "id": 235,
         "name": "Poran\u011bn\u00ed elektrick\u00fdm proudem",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -4700,6 +4992,9 @@
         "id": 253,
         "name": "Neohl\u00e1\u0161en\u00e1 demonstrace",
         "place": "N\u00e1m\u011bst\u00ed",
+        "place_array": {
+            "0": "N\u00e1m\u011bst\u00ed"
+        },
         "average_credits": 5500,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -4731,7 +5026,8 @@
     "254": {
         "id": 254,
         "name": "\u00danik pohonn\u00fdch hmot na vozovku",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -4754,6 +5050,9 @@
         "id": 255,
         "name": "Nehoda pot\u00e1p\u011b\u010de",
         "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
         "average_credits": 2000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -4784,6 +5083,9 @@
         "id": 256,
         "name": "Nehoda pot\u00e1p\u011b\u010de",
         "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
         "average_credits": 2000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -4814,6 +5116,9 @@
         "id": 257,
         "name": "Nehoda pot\u00e1p\u011b\u010de",
         "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
         "average_credits": 2000,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -4844,6 +5149,9 @@
         "id": 258,
         "name": "Nehoda pot\u00e1p\u011b\u010de",
         "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
         "average_credits": 2000,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -4874,6 +5182,9 @@
         "id": 259,
         "name": "Auto ve vod\u011b",
         "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
         "average_credits": 2800,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -4909,6 +5220,9 @@
         "id": 260,
         "name": "Auto ve vod\u011b",
         "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
         "average_credits": 2800,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -4944,6 +5258,9 @@
         "id": 261,
         "name": "Auto ve vod\u011b",
         "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
         "average_credits": 2800,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -4979,6 +5296,9 @@
         "id": 262,
         "name": "Auto ve vod\u011b",
         "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
         "average_credits": 2800,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5014,6 +5334,9 @@
         "id": 263,
         "name": "Auto ve vod\u011b",
         "place": "Mal\u00fd p\u0159\u00edstav",
+        "place_array": {
+            "0": "Mal\u00fd p\u0159\u00edstav"
+        },
         "average_credits": 2800,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -5049,6 +5372,9 @@
         "id": 264,
         "name": "Auto ve vod\u011b",
         "place": "Mal\u00fd p\u0159\u00edstav",
+        "place_array": {
+            "0": "Mal\u00fd p\u0159\u00edstav"
+        },
         "average_credits": 2800,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5084,6 +5410,9 @@
         "id": 265,
         "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
         "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
         "average_credits": 4000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -5119,6 +5448,9 @@
         "id": 266,
         "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
         "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
         "average_credits": 4000,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5154,6 +5486,9 @@
         "id": 267,
         "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
         "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
         "average_credits": 4000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -5189,6 +5524,9 @@
         "id": 268,
         "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
         "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
         "average_credits": 4000,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5224,6 +5562,9 @@
         "id": 269,
         "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
         "place": "N\u00e1kladn\u00ed p\u0159\u00edstav",
+        "place_array": {
+            "0": "N\u00e1kladn\u00ed p\u0159\u00edstav"
+        },
         "average_credits": 4000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -5259,6 +5600,9 @@
         "id": 270,
         "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
         "place": "N\u00e1kladn\u00ed p\u0159\u00edstav",
+        "place_array": {
+            "0": "N\u00e1kladn\u00ed p\u0159\u00edstav"
+        },
         "average_credits": 4000,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5294,6 +5638,9 @@
         "id": 271,
         "name": "Autobus ve vod\u011b",
         "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
         "average_credits": 4000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -5329,6 +5676,9 @@
         "id": 272,
         "name": "Autobus ve vod\u011b",
         "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
         "average_credits": 4000,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5364,6 +5714,9 @@
         "id": 273,
         "name": "Autobus ve vod\u011b",
         "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
         "average_credits": 4000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -5399,6 +5752,9 @@
         "id": 274,
         "name": "Autobus ve vod\u011b",
         "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
         "average_credits": 4000,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5434,6 +5790,9 @@
         "id": 275,
         "name": "Autobus ve vod\u011b",
         "place": "Most",
+        "place_array": {
+            "0": "Most"
+        },
         "average_credits": 4000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -5469,6 +5828,9 @@
         "id": 276,
         "name": "Autobus ve vod\u011b",
         "place": "Most",
+        "place_array": {
+            "0": "Most"
+        },
         "average_credits": 4000,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5504,6 +5866,9 @@
         "id": 277,
         "name": "Poh\u0159e\u0161ovan\u00e1 osoba v bl\u00edzkosti vody",
         "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
         "average_credits": 3000,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5543,6 +5908,9 @@
         "id": 278,
         "name": "Poh\u0159e\u0161ovan\u00e1 osoba v bl\u00edzkosti vody",
         "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
         "average_credits": 3000,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5582,6 +5950,9 @@
         "id": 279,
         "name": "Osoba ve vod\u011b",
         "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
         "average_credits": 1500,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5610,6 +5981,9 @@
         "id": 280,
         "name": "Osoba ve vod\u011b",
         "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
         "average_credits": 1500,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5638,6 +6012,9 @@
         "id": 281,
         "name": "Osoba ve vod\u011b",
         "place": "Most",
+        "place_array": {
+            "0": "Most"
+        },
         "average_credits": 1500,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5666,6 +6043,9 @@
         "id": 282,
         "name": "Osoba ve vod\u011b",
         "place": "N\u00e1kladn\u00ed p\u0159\u00edstav",
+        "place_array": {
+            "0": "N\u00e1kladn\u00ed p\u0159\u00edstav"
+        },
         "average_credits": 1500,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5694,6 +6074,9 @@
         "id": 283,
         "name": "Osoba ve vod\u011b",
         "place": "Mal\u00fd p\u0159\u00edstav",
+        "place_array": {
+            "0": "Mal\u00fd p\u0159\u00edstav"
+        },
         "average_credits": 1500,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5722,6 +6105,9 @@
         "id": 284,
         "name": "Osoba ve vod\u011b",
         "place": "P\u0159\u00edstavi\u0161t\u011b v\u00fdletn\u00edch lod\u00ed",
+        "place_array": {
+            "0": "P\u0159\u00edstavi\u0161t\u011b v\u00fdletn\u00edch lod\u00ed"
+        },
         "average_credits": 1500,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5750,6 +6136,9 @@
         "id": 285,
         "name": "Osoba ve vod\u011b",
         "place": "Plov\u00e1rna",
+        "place_array": {
+            "0": "Plov\u00e1rna"
+        },
         "average_credits": 1500,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
@@ -5778,6 +6167,9 @@
         "id": 286,
         "name": "Po\u017e\u00e1r motorestu",
         "place": "Motorest",
+        "place_array": {
+            "0": "Motorest"
+        },
         "average_credits": 5300,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -5812,6 +6204,9 @@
         "id": 296,
         "name": "Kr\u00e1de\u017e v klenotnictv\u00ed",
         "place": "N\u00e1kupn\u00ed centrum",
+        "place_array": {
+            "0": "N\u00e1kupn\u00ed centrum"
+        },
         "average_credits": 800,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -5833,7 +6228,8 @@
     "297": {
         "id": 297,
         "name": "St\u0159ep v ruce",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
@@ -5853,6 +6249,33 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        }
+    },
+    "298": {
+        "id": 298,
+        "name": "Kontrola podez\u0159el\u00e9 osoby",
+        "place": "",
+        "place_array": {},
+        "average_credits": 6000,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hodina",
+            "duration": 3600,
+            "max_possible_prisoners": 1,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
         }
     }
 }

@@ -3,6 +3,9 @@
         "id": 0,
         "name": "M\u00fclleimerbrand",
         "place": "Bushaltestelle",
+        "place_array": {
+            "0": "Bushaltestelle"
+        },
         "average_credits": 110,
         "generated_by": "Feuerwache",
         "icons": {
@@ -28,7 +31,8 @@
     "1": {
         "id": 1,
         "name": "Containerbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "Feuerwache",
         "icons": {
@@ -54,7 +58,8 @@
     "2": {
         "id": 2,
         "name": "Brennender PKW",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 370,
         "generated_by": "Feuerwache",
         "icons": {
@@ -82,7 +87,8 @@
     "3": {
         "id": 3,
         "name": "Motorrad-Brand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Feuerwache",
         "icons": {
@@ -104,7 +110,8 @@
     "4": {
         "id": 4,
         "name": "Brennendes Gras",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Feuerwache",
         "icons": {
@@ -129,7 +136,8 @@
     "5": {
         "id": 5,
         "name": "Zimmerbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Feuerwache",
         "icons": {
@@ -159,7 +167,8 @@
     "6": {
         "id": 6,
         "name": "Gartenlaubenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Feuerwache",
         "icons": {
@@ -181,7 +190,8 @@
     "7": {
         "id": 7,
         "name": "Brennendes Laub",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Feuerwache",
         "icons": {
@@ -210,7 +220,8 @@
     "8": {
         "id": 8,
         "name": "Sperrm\u00fcllbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 220,
         "generated_by": "Feuerwache",
         "icons": {
@@ -232,7 +243,8 @@
     "9": {
         "id": 9,
         "name": "Strohballen Brand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Feuerwache",
         "icons": {
@@ -254,7 +266,8 @@
     "10": {
         "id": 10,
         "name": "Traktor Brand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Feuerwache",
         "icons": {
@@ -276,7 +289,8 @@
     "11": {
         "id": 11,
         "name": "Brennende Telefonzelle",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 240,
         "generated_by": "Feuerwache",
         "icons": {
@@ -298,7 +312,8 @@
     "12": {
         "id": 12,
         "name": "Baum auf Stra\u00dfe",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Feuerwache",
         "icons": {
@@ -335,7 +350,8 @@
     "13": {
         "id": 13,
         "name": "Brennender LKW",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 980,
         "generated_by": "Feuerwache",
         "icons": {
@@ -357,7 +373,8 @@
     "14": {
         "id": 14,
         "name": "Kleiner Feldbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -385,6 +402,9 @@
         "id": 15,
         "name": "Kleiner Waldbrand",
         "place": "Wald",
+        "place_array": {
+            "0": "Wald"
+        },
         "average_credits": 1010,
         "generated_by": "Feuerwache",
         "icons": {
@@ -411,7 +431,8 @@
     "16": {
         "id": 16,
         "name": "Wohnwagenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Feuerwache",
         "icons": {
@@ -433,7 +454,8 @@
     "17": {
         "id": 17,
         "name": "Brand in Briefkasten",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Feuerwache",
         "icons": {
@@ -455,7 +477,8 @@
     "18": {
         "id": 18,
         "name": "Brennendes Geb\u00fcsch",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Feuerwache",
         "icons": {
@@ -477,7 +500,8 @@
     "19": {
         "id": 19,
         "name": "Brennender Anh\u00e4nger",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Feuerwache",
         "icons": {
@@ -499,7 +523,8 @@
     "20": {
         "id": 20,
         "name": "Kellerbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -527,7 +552,8 @@
     "21": {
         "id": 21,
         "name": "Schornsteinbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2400,
         "generated_by": "Feuerwache",
         "icons": {
@@ -557,7 +583,8 @@
     "22": {
         "id": 22,
         "name": "Dachstuhlbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2700,
         "generated_by": "Feuerwache",
         "icons": {
@@ -585,7 +612,8 @@
     "23": {
         "id": 23,
         "name": "Fettbrand in Pommesbude",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Feuerwache",
         "icons": {
@@ -608,6 +636,9 @@
         "id": 24,
         "name": "Brennendes Bus-H\u00e4uschen",
         "place": "Bushaltestelle",
+        "place_array": {
+            "0": "Bushaltestelle"
+        },
         "average_credits": 900,
         "generated_by": "Feuerwache",
         "icons": {
@@ -629,7 +660,8 @@
     "25": {
         "id": 25,
         "name": "Verkehrsunfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -658,6 +690,9 @@
         "id": 26,
         "name": "Brand im Supermarkt",
         "place": "Supermarkt (Klein)",
+        "place_array": {
+            "0": "Supermarkt (Klein)"
+        },
         "average_credits": 3510,
         "generated_by": "Feuerwache",
         "icons": {
@@ -688,7 +723,8 @@
     "28": {
         "id": 28,
         "name": "Garagenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Feuerwache",
         "icons": {
@@ -716,7 +752,8 @@
     "29": {
         "id": 29,
         "name": "Maschinenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2470,
         "generated_by": "Feuerwache",
         "icons": {
@@ -745,7 +782,8 @@
     "30": {
         "id": 30,
         "name": "Gro\u00dfe \u00d6lspur",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1900,
         "generated_by": "Feuerwache",
         "icons": {
@@ -773,7 +811,8 @@
     "31": {
         "id": 31,
         "name": "Auslaufende Betriebsstoffe",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Feuerwache",
         "icons": {
@@ -801,7 +840,8 @@
     "32": {
         "id": 32,
         "name": "Kaminbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1310,
         "generated_by": "Feuerwache",
         "icons": {
@@ -825,7 +865,8 @@
     "33": {
         "id": 33,
         "name": "M\u00e4hdrescher Brand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Feuerwache",
         "icons": {
@@ -848,6 +889,9 @@
         "id": 34,
         "name": "Brand im Supermarkt",
         "place": "Supermarkt (Gro\u00df)",
+        "place_array": {
+            "0": "Supermarkt (Gro\u00df)"
+        },
         "average_credits": 3710,
         "generated_by": "Feuerwache",
         "icons": {
@@ -884,6 +928,9 @@
         "id": 35,
         "name": "Feuer im Krankenhaus",
         "place": "Krankenhaus",
+        "place_array": {
+            "0": "Krankenhaus"
+        },
         "average_credits": 3810,
         "generated_by": "Feuerwache",
         "icons": {
@@ -916,6 +963,9 @@
         "id": 36,
         "name": "Brennender G\u00fcterwaggon",
         "place": "G\u00fcterbahnhof",
+        "place_array": {
+            "0": "G\u00fcterbahnhof"
+        },
         "average_credits": 3310,
         "generated_by": "Feuerwache",
         "icons": {
@@ -947,6 +997,9 @@
         "id": 37,
         "name": "M\u00fclleimerbrand",
         "place": "Stra\u00dfenbahnhaltestelle",
+        "place_array": {
+            "0": "Stra\u00dfenbahnhaltestelle"
+        },
         "average_credits": 110,
         "generated_by": "Feuerwache",
         "icons": {
@@ -969,6 +1022,9 @@
         "id": 38,
         "name": "M\u00fclleimerbrand",
         "place": "Bahnhof (Regionalverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regionalverkehr)"
+        },
         "average_credits": 110,
         "generated_by": "Feuerwache",
         "icons": {
@@ -991,6 +1047,9 @@
         "id": 39,
         "name": "M\u00fclleimerbrand",
         "place": "Bahnhof (Regional und Fernverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regional und Fernverkehr)"
+        },
         "average_credits": 110,
         "generated_by": "Feuerwache",
         "icons": {
@@ -1013,6 +1072,9 @@
         "id": 40,
         "name": "M\u00fclleimerbrand",
         "place": "Krankenhaus",
+        "place_array": {
+            "0": "Krankenhaus"
+        },
         "average_credits": 110,
         "generated_by": "Feuerwache",
         "icons": {
@@ -1037,7 +1099,8 @@
     "41": {
         "id": 41,
         "name": "Gro\u00dfbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10010,
         "generated_by": "Feuerwache",
         "icons": {
@@ -1067,6 +1130,9 @@
         "id": 42,
         "name": "Tankstellenbrand",
         "place": "Tankstelle",
+        "place_array": {
+            "0": "Tankstelle"
+        },
         "average_credits": 3720,
         "generated_by": "Feuerwache",
         "icons": {
@@ -1099,7 +1165,8 @@
     "43": {
         "id": 43,
         "name": "Massenkarambolage",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10010,
         "generated_by": "Feuerwache",
         "icons": {
@@ -1128,7 +1195,8 @@
     "44": {
         "id": 44,
         "name": "Alkoholintoxikation",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -1156,7 +1224,8 @@
     "45": {
         "id": 45,
         "name": "Nasenbluten unstillbar",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -1183,7 +1252,8 @@
     "46": {
         "id": 46,
         "name": "Herzinfarkt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -1210,7 +1280,8 @@
     "47": {
         "id": 47,
         "name": "akuter Asthma-Anfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -1236,7 +1307,8 @@
     "48": {
         "id": 48,
         "name": "Krampfanfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -1263,7 +1335,8 @@
     "49": {
         "id": 49,
         "name": "Fieber",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -1290,7 +1363,8 @@
     "50": {
         "id": 50,
         "name": "Gest\u00fcrzte Person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -1319,6 +1393,9 @@
         "id": 51,
         "name": "Brand in Werkstatt",
         "place": "Auto-Werkstatt",
+        "place_array": {
+            "0": "Auto-Werkstatt"
+        },
         "average_credits": 3620,
         "generated_by": "Feuerwache",
         "icons": {
@@ -1351,7 +1428,8 @@
     "57": {
         "id": 57,
         "name": "Gest\u00fcrzter Fu\u00dfg\u00e4nger",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -1377,7 +1455,8 @@
     "58": {
         "id": 58,
         "name": "Gest\u00fcrzter Radfahrer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -1403,7 +1482,8 @@
     "59": {
         "id": 59,
         "name": "Gefahrgutunfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 14010,
         "generated_by": "Feuerwache",
         "icons": {
@@ -1438,6 +1518,9 @@
         "id": 60,
         "name": "Ladendiebstahl",
         "place": "Supermarkt (Klein)",
+        "place_array": {
+            "0": "Supermarkt (Klein)"
+        },
         "average_credits": 100,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -1464,6 +1547,9 @@
         "id": 61,
         "name": "Ladendiebstahl",
         "place": "Supermarkt (Gro\u00df)",
+        "place_array": {
+            "0": "Supermarkt (Gro\u00df)"
+        },
         "average_credits": 100,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -1490,6 +1576,9 @@
         "id": 62,
         "name": "Parkendes Auto gerammt",
         "place": "Supermarkt (Klein)",
+        "place_array": {
+            "0": "Supermarkt (Klein)"
+        },
         "average_credits": 120,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -1512,6 +1601,9 @@
         "id": 63,
         "name": "Parkendes Auto gerammt",
         "place": "Supermarkt (Gro\u00df)",
+        "place_array": {
+            "0": "Supermarkt (Gro\u00df)"
+        },
         "average_credits": 120,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -1534,6 +1626,9 @@
         "id": 64,
         "name": "Metalldiebstahl",
         "place": "G\u00fcterbahnhof",
+        "place_array": {
+            "0": "G\u00fcterbahnhof"
+        },
         "average_credits": 150,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -1557,6 +1652,9 @@
         "id": 65,
         "name": "Taschendiebstahl",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 150,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -1580,6 +1678,9 @@
         "id": 66,
         "name": "Notebook aus Schule entwendet",
         "place": "Schule",
+        "place_array": {
+            "0": "Schule"
+        },
         "average_credits": 150,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -1603,6 +1704,9 @@
         "id": 67,
         "name": "Personalienaufnahme von Schwarzfahrer",
         "place": "Bushaltestelle",
+        "place_array": {
+            "0": "Bushaltestelle"
+        },
         "average_credits": 120,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -1625,6 +1729,9 @@
         "id": 68,
         "name": "Personalienaufnahme von Schwarzfahrer",
         "place": "Stra\u00dfenbahnhaltestelle",
+        "place_array": {
+            "0": "Stra\u00dfenbahnhaltestelle"
+        },
         "average_credits": 120,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -1647,6 +1754,9 @@
         "id": 69,
         "name": "Personalienaufnahme von Schwarzfahrer",
         "place": "Bahnhof (Regionalverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regionalverkehr)"
+        },
         "average_credits": 120,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -1669,6 +1779,9 @@
         "id": 70,
         "name": "Personalienaufnahme von Schwarzfahrer",
         "place": "Bahnhof (Regional und Fernverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regional und Fernverkehr)"
+        },
         "average_credits": 120,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -1691,6 +1804,9 @@
         "id": 71,
         "name": "Parkendes Auto gerammt",
         "place": "Einkaufszentrum",
+        "place_array": {
+            "0": "Einkaufszentrum"
+        },
         "average_credits": 120,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -1712,7 +1828,8 @@
     "72": {
         "id": 72,
         "name": "Bewusstloser Kranf\u00fchrer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -1746,7 +1863,8 @@
     "73": {
         "id": 73,
         "name": "Schl\u00e4gerei",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -1777,7 +1895,8 @@
     "74": {
         "id": 74,
         "name": "Randalierende Person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -1803,7 +1922,8 @@
     "75": {
         "id": 75,
         "name": "Unangemeldete Demonstration",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10020,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -1824,7 +1944,8 @@
     "76": {
         "id": 76,
         "name": "K\u00fcchenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Feuerwache",
         "icons": {
@@ -1853,7 +1974,8 @@
     "77": {
         "id": 77,
         "name": "Person hinter T\u00fcr",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -1884,7 +2006,8 @@
     "78": {
         "id": 78,
         "name": "Kleintier in Not",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 130,
         "generated_by": "Feuerwache",
         "icons": {
@@ -1909,7 +2032,8 @@
     "79": {
         "id": 79,
         "name": "Verletzte Person auf Bauger\u00fcst",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1800,
         "generated_by": "Feuerwache",
         "icons": {
@@ -1943,6 +2067,9 @@
         "id": 80,
         "name": "Rauchentwicklung in Museum",
         "place": "Museum",
+        "place_array": {
+            "0": "Museum"
+        },
         "average_credits": 2000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -1978,7 +2105,8 @@
     "81": {
         "id": 81,
         "name": "Einbruch in Keller",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -2000,7 +2128,8 @@
     "82": {
         "id": 82,
         "name": "Einbruch in Wohnung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -2026,7 +2155,8 @@
     "83": {
         "id": 83,
         "name": "Gefahrgut-LKW verungl\u00fcckt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2069,6 +2199,9 @@
         "id": 84,
         "name": "Brennende Lok",
         "place": "G\u00fcterbahnhof",
+        "place_array": {
+            "0": "G\u00fcterbahnhof"
+        },
         "average_credits": 1800,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2103,7 +2236,8 @@
     "85": {
         "id": 85,
         "name": "Sachbesch\u00e4digung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -2127,6 +2261,9 @@
         "id": 86,
         "name": "Sporthallenbrand",
         "place": "Schule",
+        "place_array": {
+            "0": "Schule"
+        },
         "average_credits": 3000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2157,7 +2294,8 @@
     "87": {
         "id": 87,
         "name": "Kleinflugzeug abgest\u00fcrzt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2192,7 +2330,8 @@
     "89": {
         "id": 89,
         "name": "LKW Auffahrunfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2228,7 +2367,8 @@
     "90": {
         "id": 90,
         "name": "Ruhest\u00f6rung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -2254,7 +2394,8 @@
     "91": {
         "id": 91,
         "name": "Keller unter Wasser",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 370,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2277,7 +2418,8 @@
     "92": {
         "id": 92,
         "name": "Schlaganfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -2304,7 +2446,8 @@
     "93": {
         "id": 93,
         "name": "Brennender Bus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2339,7 +2482,8 @@
     "94": {
         "id": 94,
         "name": "Kleine \u00d6lspur",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2357,6 +2501,7 @@
                 "1": 95
             },
             "allow_rw_instead_of_lf": true,
+            "allow_gwoil_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -2366,7 +2511,8 @@
     "95": {
         "id": 95,
         "name": "Ausgedehnte \u00d6lspur",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2397,7 +2543,8 @@
     "96": {
         "id": 96,
         "name": "Feuer in Schnellrestaurant",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2900,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2423,7 +2570,8 @@
     "97": {
         "id": 97,
         "name": "Aufgerissener \u00d6ltank",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2450,7 +2598,8 @@
     "98": {
         "id": 98,
         "name": "Angefahrene Person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -2478,7 +2627,8 @@
     "99": {
         "id": 99,
         "name": "Flugzeug abgest\u00fcrzt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 17000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2515,7 +2665,8 @@
     "100": {
         "id": 100,
         "name": "K\u00fcchenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2541,7 +2692,8 @@
     "101": {
         "id": 101,
         "name": "Zimmerbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2579,7 +2731,8 @@
     "102": {
         "id": 102,
         "name": "Feuer in Einfamilienhaus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2608,7 +2761,8 @@
     "103": {
         "id": 103,
         "name": "Feuer in Einfamilienhaus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2642,7 +2796,8 @@
     "104": {
         "id": 104,
         "name": "Feuer in Einfamilienhaus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2675,7 +2830,8 @@
     "105": {
         "id": 105,
         "name": "Feuer in Einfamilienhaus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2705,7 +2861,8 @@
     "106": {
         "id": 106,
         "name": "Massenschl\u00e4gerei",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1800,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -2729,7 +2886,8 @@
     "107": {
         "id": 107,
         "name": "Massenschl\u00e4gerei",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1800,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -2759,7 +2917,8 @@
     "108": {
         "id": 108,
         "name": "Schwangere in Notsituation",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -2786,7 +2945,8 @@
     "109": {
         "id": 109,
         "name": "Beginnende Geburt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -2813,7 +2973,8 @@
     "110": {
         "id": 110,
         "name": "Vaginale Blutung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -2840,7 +3001,8 @@
     "120": {
         "id": 120,
         "name": "LKW umgest\u00fcrzt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2876,7 +3038,8 @@
     "121": {
         "id": 121,
         "name": "LKW umgest\u00fcrzt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2913,7 +3076,8 @@
     "122": {
         "id": 122,
         "name": "Motorradunfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -2943,7 +3107,8 @@
     "123": {
         "id": 123,
         "name": "Verkehrsunfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Feuerwache",
         "icons": {
@@ -2975,7 +3140,8 @@
     "124": {
         "id": 124,
         "name": "Verkehrsunfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1600,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3006,7 +3172,8 @@
     "125": {
         "id": 125,
         "name": "Verkehrsunfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1700,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3041,7 +3208,8 @@
     "126": {
         "id": 126,
         "name": "Verkehrsunfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3071,7 +3239,8 @@
     "127": {
         "id": 127,
         "name": "Verkehrsunfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3106,7 +3275,8 @@
     "128": {
         "id": 128,
         "name": "Auffahrunfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -3144,7 +3314,8 @@
     "131": {
         "id": 131,
         "name": "Mittlerer Feldbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3177,7 +3348,8 @@
     "132": {
         "id": 132,
         "name": "Gro\u00dfer Feldbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3204,7 +3376,8 @@
     "133": {
         "id": 133,
         "name": "Gro\u00dfer Feldbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5100,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3233,6 +3406,9 @@
         "id": 134,
         "name": "Gro\u00dfer Waldbrand",
         "place": "Wald",
+        "place_array": {
+            "0": "Wald"
+        },
         "average_credits": 4000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3268,6 +3444,9 @@
         "id": 135,
         "name": "Gro\u00dfer Waldbrand",
         "place": "Wald",
+        "place_array": {
+            "0": "Wald"
+        },
         "average_credits": 4100,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3304,6 +3483,9 @@
         "id": 136,
         "name": "Gro\u00dffeuer im Wald",
         "place": "Wald",
+        "place_array": {
+            "0": "Wald"
+        },
         "average_credits": 8000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3343,6 +3525,9 @@
         "id": 137,
         "name": "Gro\u00dffeuer im Wald",
         "place": "Wald",
+        "place_array": {
+            "0": "Wald"
+        },
         "average_credits": 8100,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3381,7 +3566,8 @@
     "138": {
         "id": 138,
         "name": "Fl\u00e4chenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3406,7 +3592,8 @@
     "139": {
         "id": 139,
         "name": "Fl\u00e4chenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3436,7 +3623,8 @@
     "140": {
         "id": 140,
         "name": "Fl\u00e4chenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1600,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3462,7 +3650,8 @@
     "141": {
         "id": 141,
         "name": "Fl\u00e4chenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3600,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3493,7 +3682,8 @@
     "142": {
         "id": 142,
         "name": "Feuer auf Balkon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3521,7 +3711,8 @@
     "143": {
         "id": 143,
         "name": "Brennende Papiercontainer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3543,7 +3734,8 @@
     "144": {
         "id": 144,
         "name": "Brennende Hecke",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3565,7 +3757,8 @@
     "145": {
         "id": 145,
         "name": "Trunkenheitsfahrt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 150,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -3591,7 +3784,8 @@
     "146": {
         "id": 146,
         "name": "Brennendes Reetdachhaus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4200,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3626,7 +3820,8 @@
     "147": {
         "id": 147,
         "name": "Krankentransport",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -3650,7 +3845,8 @@
     "148": {
         "id": 148,
         "name": "Ampelausfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 100,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -3667,8 +3863,9 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -3679,7 +3876,8 @@
     "149": {
         "id": 149,
         "name": "Pannenfahrzeug",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 100,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -3701,7 +3899,8 @@
     "150": {
         "id": 150,
         "name": "Hausfriedensbruch",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 150,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -3724,7 +3923,8 @@
     "151": {
         "id": 151,
         "name": "Raub",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -3747,7 +3947,8 @@
     "152": {
         "id": 152,
         "name": "H\u00e4usliche Gewalt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -3777,7 +3978,8 @@
     "153": {
         "id": 153,
         "name": "Hilflose Person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 100,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -3801,7 +4003,8 @@
     "154": {
         "id": 154,
         "name": "Hilflose Person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 100,
         "generated_by": "Rettungswache",
         "icons": {
@@ -3832,7 +4035,8 @@
     "155": {
         "id": 155,
         "name": "Akuter Harnstau",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -3859,7 +4063,8 @@
     "156": {
         "id": 156,
         "name": "Harnleiter Blutung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -3886,7 +4091,8 @@
     "157": {
         "id": 157,
         "name": "Herzrhythmusst\u00f6rungen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -3913,7 +4119,8 @@
     "158": {
         "id": 158,
         "name": "Tiefgarage unter Wasser",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 370,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3936,7 +4143,8 @@
     "159": {
         "id": 159,
         "name": "\u00c4ste auf Fahrbahn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 120,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3959,7 +4167,8 @@
     "160": {
         "id": 160,
         "name": "Umherfliegendes Baumaterial",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 150,
         "generated_by": "Feuerwache",
         "icons": {
@@ -3981,7 +4190,8 @@
     "161": {
         "id": 161,
         "name": "Baum auf PKW",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4003,7 +4213,8 @@
     "162": {
         "id": 162,
         "name": "Baum auf PKW",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4034,7 +4245,8 @@
     "163": {
         "id": 163,
         "name": "Baum auf Dach",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4061,7 +4273,8 @@
     "164": {
         "id": 164,
         "name": "Kopfplatzwunde",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -4088,7 +4301,8 @@
     "165": {
         "id": 165,
         "name": "Gehirnersch\u00fctterung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -4115,7 +4329,8 @@
     "166": {
         "id": 166,
         "name": "Fassadenteile drohen zu fallen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4145,7 +4360,8 @@
     "167": {
         "id": 167,
         "name": "Besch\u00e4digter Dachbereich",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4176,6 +4392,9 @@
         "id": 168,
         "name": "Baum auf Gleisen",
         "place": "Bahnhof (Regionalverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regionalverkehr)"
+        },
         "average_credits": 600,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4203,6 +4422,9 @@
         "id": 169,
         "name": "Baum auf Gleisen",
         "place": "Bahnhof (Regional und Fernverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regional und Fernverkehr)"
+        },
         "average_credits": 600,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4230,6 +4452,9 @@
         "id": 170,
         "name": "Baum auf Gleisen",
         "place": "G\u00fcterbahnhof",
+        "place_array": {
+            "0": "G\u00fcterbahnhof"
+        },
         "average_credits": 600,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4256,7 +4481,8 @@
     "171": {
         "id": 171,
         "name": "Parkdeck voll Wasser gelaufen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4283,7 +4509,8 @@
     "172": {
         "id": 172,
         "name": "Stra\u00dfe unter Wasser",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4306,7 +4533,8 @@
     "173": {
         "id": 173,
         "name": "Stra\u00dfe unter Wasser",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4330,7 +4558,8 @@
     "174": {
         "id": 174,
         "name": "Erdrutsch",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1020,
         "generated_by": "THW",
         "icons": {
@@ -4366,7 +4595,8 @@
     "175": {
         "id": 175,
         "name": "Erdrutsch",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "THW",
         "icons": {
@@ -4395,7 +4625,8 @@
     "176": {
         "id": 176,
         "name": "LKW in Hauswand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2100,
         "generated_by": "THW",
         "icons": {
@@ -4434,7 +4665,8 @@
     "177": {
         "id": 177,
         "name": "Eingest\u00fcrztes Wohnhaus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4600,
         "generated_by": "THW",
         "icons": {
@@ -4482,7 +4714,8 @@
     "178": {
         "id": 178,
         "name": "Gefahrgut-LKW verungl\u00fcckt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2900,
         "generated_by": "THW",
         "icons": {
@@ -4529,7 +4762,8 @@
     "179": {
         "id": 179,
         "name": "Sch\u00e4delverletzung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -4556,7 +4790,8 @@
     "180": {
         "id": 180,
         "name": "Wirbels\u00e4ulenverletzung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -4584,7 +4819,8 @@
     "181": {
         "id": 181,
         "name": "Sturz aus H\u00f6he",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -4611,7 +4847,8 @@
     "182": {
         "id": 182,
         "name": "Sturz aus H\u00f6he",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -4638,6 +4875,9 @@
         "id": 186,
         "name": "Lagerhallenbrand",
         "place": "Lagerhalle",
+        "place_array": {
+            "0": "Lagerhalle"
+        },
         "average_credits": 5630,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4690,6 +4930,9 @@
         "id": 187,
         "name": "Feuer im Lagerraum",
         "place": "Lagerhalle",
+        "place_array": {
+            "0": "Lagerhalle"
+        },
         "average_credits": 2230,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4722,7 +4965,8 @@
     "188": {
         "id": 188,
         "name": "Personenkontrolle",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 100,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -4745,7 +4989,8 @@
     "189": {
         "id": 189,
         "name": "Verkehrsbehinderung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 80,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -4770,7 +5015,8 @@
     "190": {
         "id": 190,
         "name": "Diebstahl aus Kfz",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 150,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -4792,7 +5038,8 @@
     "191": {
         "id": 191,
         "name": "Baum auf Radweg",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4818,7 +5065,8 @@
     "192": {
         "id": 192,
         "name": "Brennende Trafostation",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1900,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4842,7 +5090,8 @@
     "193": {
         "id": 193,
         "name": "Brennende Trafostation",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4867,7 +5116,8 @@
     "194": {
         "id": 194,
         "name": "Person unter Baum eingeklemmt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -4899,7 +5149,8 @@
     "195": {
         "id": 195,
         "name": "Schwerpunkteinsatz Tageswohnungseinbr\u00fcche",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -4922,7 +5173,8 @@
     "196": {
         "id": 196,
         "name": "Schwerpunkteinsatz Verkehrs\u00fcberwachung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -4945,7 +5197,8 @@
     "197": {
         "id": 197,
         "name": "Pr\u00e4senzeinsatz Volksfest",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -4969,6 +5222,9 @@
         "id": 198,
         "name": "Jugendschutzkontrolle in Diskothek",
         "place": "Diskothek",
+        "place_array": {
+            "0": "Diskothek"
+        },
         "average_credits": 2500,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -4993,7 +5249,8 @@
     "199": {
         "id": 199,
         "name": "Gel\u00e4ndedurchsuchung nach Beweismittel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -5016,7 +5273,8 @@
     "200": {
         "id": 200,
         "name": "Geplante Razzia",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5500,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -5054,6 +5312,9 @@
         "id": 201,
         "name": "Fu\u00dfball Bundesliga-Spiel",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 9000,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -5095,6 +5356,9 @@
         "id": 204,
         "name": "Scheunenbrand",
         "place": "Bauernhof",
+        "place_array": {
+            "0": "Bauernhof"
+        },
         "average_credits": 3500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -5134,6 +5398,9 @@
         "id": 205,
         "name": "Feuer auf Bauernhof - Mittel",
         "place": "Bauernhof",
+        "place_array": {
+            "0": "Bauernhof"
+        },
         "average_credits": 5100,
         "generated_by": "Feuerwache",
         "icons": {
@@ -5177,6 +5444,9 @@
         "id": 206,
         "name": "Feuer auf Bauernhof - Gro\u00df",
         "place": "Bauernhof",
+        "place_array": {
+            "0": "Bauernhof"
+        },
         "average_credits": 10200,
         "generated_by": "THW",
         "icons": {
@@ -5228,7 +5498,8 @@
     "207": {
         "id": 207,
         "name": "Gefahrgutunfall - Gro\u00df",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 16010,
         "generated_by": "Feuerwache",
         "icons": {
@@ -5271,7 +5542,8 @@
     "208": {
         "id": 208,
         "name": "Leck in Chemikalientank",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -5316,7 +5588,8 @@
     "209": {
         "id": 209,
         "name": "Fahrraddiebstahl",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 150,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -5338,7 +5611,8 @@
     "210": {
         "id": 210,
         "name": "Unfall mit Motors\u00e4ge",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -5364,7 +5638,8 @@
     "211": {
         "id": 211,
         "name": "Unterzuckerung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -5391,7 +5666,8 @@
     "212": {
         "id": 212,
         "name": "Akute Bauchschmerzen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -5418,7 +5694,8 @@
     "213": {
         "id": 213,
         "name": "Gasexplosion",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 11200,
         "generated_by": "THW",
         "icons": {
@@ -5477,6 +5754,9 @@
         "id": 214,
         "name": "B\u00fcrobrand",
         "place": "B\u00fcrokomplex",
+        "place_array": {
+            "0": "B\u00fcrokomplex"
+        },
         "average_credits": 3000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -5515,6 +5795,9 @@
         "id": 215,
         "name": "Chlorgasaustritt",
         "place": "Schwimmbad",
+        "place_array": {
+            "0": "Schwimmbad"
+        },
         "average_credits": 4000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -5550,7 +5833,8 @@
     "221": {
         "id": 221,
         "name": "Zugungl\u00fcck (Gro\u00df)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 17000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -5596,7 +5880,8 @@
     "222": {
         "id": 222,
         "name": "Zugungl\u00fcck (Klein)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 14000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -5639,6 +5924,9 @@
         "id": 223,
         "name": "Brandsicherheitswache bei Volksfest",
         "place": "Festplatz",
+        "place_array": {
+            "0": "Festplatz"
+        },
         "average_credits": 4400,
         "generated_by": "Feuerwache",
         "icons": {
@@ -5667,6 +5955,9 @@
         "id": 224,
         "name": "Brandsicherheitswachdienst im Theater",
         "place": "Theater",
+        "place_array": {
+            "0": "Theater"
+        },
         "average_credits": 4000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -5696,6 +5987,9 @@
         "id": 225,
         "name": "Dorf/Stadtfest",
         "place": "Festplatz",
+        "place_array": {
+            "0": "Festplatz"
+        },
         "average_credits": 7000,
         "generated_by": "SEG",
         "icons": {
@@ -5725,7 +6019,8 @@
     "226": {
         "id": 226,
         "name": "Volkslauf",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5000,
         "generated_by": "SEG",
         "icons": {
@@ -5752,7 +6047,8 @@
     "227": {
         "id": 227,
         "name": "Angemeldete Demonstration",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5000,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -5790,7 +6086,8 @@
     "228": {
         "id": 228,
         "name": "Absicherung Musikumzug",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -5815,7 +6112,8 @@
     "229": {
         "id": 229,
         "name": "Absicherung Radrennen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "SEG",
         "icons": {
@@ -5844,6 +6142,9 @@
         "id": 230,
         "name": "Feuerprobealarm an Schule",
         "place": "Schule",
+        "place_array": {
+            "0": "Schule"
+        },
         "average_credits": 1000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -5868,7 +6169,8 @@
     "231": {
         "id": 231,
         "name": "Entflohener Gefangener",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -5897,7 +6199,8 @@
     "232": {
         "id": 232,
         "name": "Kabeldiebstahl",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -5922,7 +6225,8 @@
     "233": {
         "id": 233,
         "name": "Suche nach Vermissten",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4500,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -5954,7 +6258,8 @@
     "234": {
         "id": 234,
         "name": "Entsch\u00e4rfung von Weltkriegsbombe",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -5983,7 +6288,8 @@
     "235": {
         "id": 235,
         "name": "Verletzte Person auf Hochspannungsmast",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -6019,7 +6325,8 @@
     "236": {
         "id": 236,
         "name": "Verletzte Person auf Hochspannungsmast",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -6057,6 +6364,9 @@
         "id": 237,
         "name": "Verkehrsunfall mit Zug",
         "place": "Bahn\u00fcbergang",
+        "place_array": {
+            "0": "Bahn\u00fcbergang"
+        },
         "average_credits": 1700,
         "generated_by": "Feuerwache",
         "icons": {
@@ -6088,7 +6398,8 @@
     "238": {
         "id": 238,
         "name": "Verkehrsunfall mit Linienbus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -6123,7 +6434,8 @@
     "239": {
         "id": 239,
         "name": "Verkehrsunfall mit Linienbus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -6161,7 +6473,8 @@
     "240": {
         "id": 240,
         "name": "Gasgeruch",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -6201,7 +6514,8 @@
     "241": {
         "id": 241,
         "name": "Wildunfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -6224,6 +6538,9 @@
         "id": 242,
         "name": "Pfefferspray in Schule",
         "place": "Schule",
+        "place_array": {
+            "0": "Schule"
+        },
         "average_credits": 2100,
         "generated_by": "Feuerwache",
         "icons": {
@@ -6255,7 +6572,8 @@
     "243": {
         "id": 243,
         "name": "Reitunfall mit Pkw",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -6285,6 +6603,9 @@
         "id": 244,
         "name": "Person in Wasser",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": 1000,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -6307,6 +6628,9 @@
         "id": 245,
         "name": "Person in Wasser",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": 1200,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -6337,6 +6661,9 @@
         "id": 246,
         "name": "Person in Wasser",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": 1400,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -6370,6 +6697,9 @@
         "id": 247,
         "name": "Pkw in Wasser",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": 1400,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -6405,6 +6735,9 @@
         "id": 248,
         "name": "LKW in Wasser",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": 2000,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -6439,6 +6772,9 @@
         "id": 249,
         "name": "Bus in Wasser",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": 3000,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -6473,6 +6809,9 @@
         "id": 250,
         "name": "Person in Wasser",
         "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
         "average_credits": 1000,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -6495,6 +6834,9 @@
         "id": 251,
         "name": "Person in Wasser",
         "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
         "average_credits": 1200,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -6525,6 +6867,9 @@
         "id": 252,
         "name": "Person in Wasser",
         "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
         "average_credits": 1400,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -6558,6 +6903,9 @@
         "id": 253,
         "name": "Pkw in Wasser",
         "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
         "average_credits": 1400,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -6593,6 +6941,9 @@
         "id": 254,
         "name": "LKW in Wasser",
         "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
         "average_credits": 2000,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -6627,6 +6978,9 @@
         "id": 255,
         "name": "Bus in Wasser",
         "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
         "average_credits": 3000,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -6660,7 +7014,8 @@
     "256": {
         "id": 256,
         "name": "Zusammensto\u00df zweier Boote",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10010,
         "generated_by": "Feuerwache",
         "icons": {
@@ -6691,7 +7046,8 @@
     "257": {
         "id": 257,
         "name": "Verkehrs\u00fcberwachung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -6716,7 +7072,8 @@
     "258": {
         "id": 258,
         "name": "Baumaschine umgest\u00fcrzt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2800,
         "generated_by": "Feuerwache",
         "icons": {
@@ -6751,6 +7108,9 @@
         "id": 271,
         "name": "Besch\u00e4digter Kesselwagen",
         "place": "G\u00fcterbahnhof",
+        "place_array": {
+            "0": "G\u00fcterbahnhof"
+        },
         "average_credits": 6050,
         "generated_by": "Feuerwache",
         "icons": {
@@ -6785,6 +7145,9 @@
         "id": 272,
         "name": "Gew\u00e4sserverschmutzung durch \u00d6l",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": 1600,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -6816,6 +7179,9 @@
         "id": 273,
         "name": "Gew\u00e4sserverschmutzung durch \u00d6l",
         "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
         "average_credits": 1600,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -6846,7 +7212,8 @@
     "274": {
         "id": 274,
         "name": "Bewusstlose Person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -6873,6 +7240,9 @@
         "id": 275,
         "name": "Absicherung Rockkonzert",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 7000,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -6906,7 +7276,8 @@
     "276": {
         "id": 276,
         "name": "Schwertransport",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -6932,6 +7303,9 @@
         "id": 277,
         "name": "Person im Aufzug",
         "place": "B\u00fcrokomplex",
+        "place_array": {
+            "0": "B\u00fcrokomplex"
+        },
         "average_credits": 350,
         "generated_by": "Feuerwache",
         "icons": {
@@ -6960,6 +7334,9 @@
         "id": 278,
         "name": "LKW in Supermarkt",
         "place": "Supermarkt (Klein)",
+        "place_array": {
+            "0": "Supermarkt (Klein)"
+        },
         "average_credits": 2500,
         "generated_by": "THW",
         "icons": {
@@ -7004,6 +7381,9 @@
         "id": 279,
         "name": "LKW in Supermarkt",
         "place": "Supermarkt (Gro\u00df)",
+        "place_array": {
+            "0": "Supermarkt (Gro\u00df)"
+        },
         "average_credits": 2800,
         "generated_by": "THW",
         "icons": {
@@ -7048,6 +7428,9 @@
         "id": 280,
         "name": "Baum auf Oberleitung",
         "place": "Bahnhof (Regional und Fernverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regional und Fernverkehr)"
+        },
         "average_credits": 1500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -7072,7 +7455,8 @@
     "281": {
         "id": 281,
         "name": "Stromschlag",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -7100,7 +7484,8 @@
     "282": {
         "id": 282,
         "name": "Geplatzte Wasserleitung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -7128,6 +7513,9 @@
         "id": 283,
         "name": "B\u00fcrobrand (Gro\u00df)",
         "place": "B\u00fcrokomplex",
+        "place_array": {
+            "0": "B\u00fcrokomplex"
+        },
         "average_credits": 4000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -7165,6 +7553,9 @@
         "id": 292,
         "name": "Tankbetrug",
         "place": "Tankstelle",
+        "place_array": {
+            "0": "Tankstelle"
+        },
         "average_credits": 300,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -7187,7 +7578,8 @@
     "293": {
         "id": 293,
         "name": "Bluthochdruck",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -7215,6 +7607,9 @@
         "id": 294,
         "name": "Fu\u00dfball Bundesliga-Risikospiel",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 12000,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -7255,6 +7650,9 @@
         "id": 295,
         "name": "Tankstellen\u00fcberfall",
         "place": "Tankstelle",
+        "place_array": {
+            "0": "Tankstelle"
+        },
         "average_credits": 1100,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -7281,6 +7679,9 @@
         "id": 296,
         "name": "Gasunfall in Werkstatt",
         "place": "Auto-Werkstatt",
+        "place_array": {
+            "0": "Auto-Werkstatt"
+        },
         "average_credits": 2020,
         "generated_by": "Feuerwache",
         "icons": {
@@ -7311,7 +7712,8 @@
     "297": {
         "id": 297,
         "name": "Arbeitsunfall im Garten",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -7339,6 +7741,9 @@
         "id": 298,
         "name": "Hilflose Person auf Wasser",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": 1500,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -7376,6 +7781,9 @@
         "id": 299,
         "name": "Strohballen qualmen in Scheune",
         "place": "Bauernhof",
+        "place_array": {
+            "0": "Bauernhof"
+        },
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -7410,7 +7818,8 @@
     "300": {
         "id": 300,
         "name": "Abgest\u00fcrzter Kletterer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -7449,7 +7858,8 @@
     "301": {
         "id": 301,
         "name": "Tiere auf der Fahrbahn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -7464,15 +7874,16 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 120,
-                "2": 121,
-                "3": 122,
-                "4": 123,
-                "5": 124,
-                "6": 125,
-                "7": 126,
-                "8": 127,
-                "9": 128
+                "1": 27,
+                "2": 120,
+                "3": 121,
+                "4": 122,
+                "5": 123,
+                "6": 124,
+                "7": 125,
+                "8": 126,
+                "9": 127,
+                "10": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -7483,7 +7894,8 @@
     "302": {
         "id": 302,
         "name": "Brennendes Kleinflugzeug",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -7523,7 +7935,8 @@
     "303": {
         "id": 303,
         "name": "Carportbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Feuerwache",
         "icons": {
@@ -7558,7 +7971,8 @@
     "304": {
         "id": 304,
         "name": "Angemeldete Demonstration - Gefahrenpotential",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6500,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -7597,6 +8011,9 @@
         "id": 305,
         "name": "Fu\u00dfball Bundesliga-Risikospiel",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 13000,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -7635,6 +8052,9 @@
         "id": 306,
         "name": "Absicherung Rockkonzert - Gefahrenpotential",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 8000,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -7669,7 +8089,8 @@
     "307": {
         "id": 307,
         "name": "Spontaner Aufstand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6000,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -7703,7 +8124,8 @@
     "308": {
         "id": 308,
         "name": "Brennender M\u00fcllwagen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -7726,6 +8148,9 @@
         "id": 309,
         "name": "Tauchunfall",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": 1000,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -7757,6 +8182,9 @@
         "id": 310,
         "name": "Tauchunfall",
         "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
         "average_credits": 1000,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -7788,6 +8216,9 @@
         "id": 311,
         "name": "Mitarbeiter unter PKW eingeklemmt",
         "place": "Auto-Werkstatt",
+        "place_array": {
+            "0": "Auto-Werkstatt"
+        },
         "average_credits": 1100,
         "generated_by": "Feuerwache",
         "icons": {
@@ -7819,7 +8250,8 @@
     "312": {
         "id": 312,
         "name": "Verungl\u00fcckter Fallschirmspringer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -7845,7 +8277,8 @@
     "313": {
         "id": 313,
         "name": "Verungl\u00fcckter Fallschirmspringer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Feuerwache",
         "icons": {
@@ -7876,7 +8309,8 @@
     "314": {
         "id": 314,
         "name": "Verungl\u00fcckter Fallschirmspringer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1900,
         "generated_by": "Feuerwache",
         "icons": {
@@ -7910,6 +8344,9 @@
         "id": 315,
         "name": "Chemieunfall an Schule",
         "place": "Schule",
+        "place_array": {
+            "0": "Schule"
+        },
         "average_credits": 4400,
         "generated_by": "Feuerwache",
         "icons": {
@@ -7948,7 +8385,8 @@
     "316": {
         "id": 316,
         "name": "Unbekannte Substanz",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5400,
         "generated_by": "Feuerwache",
         "icons": {
@@ -7985,7 +8423,8 @@
     "317": {
         "id": 317,
         "name": "Person in Baumaschine eingeklemmt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8017,7 +8456,8 @@
     "318": {
         "id": 318,
         "name": "Ausgel\u00f6ster Heimrauchmelder",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8052,7 +8492,8 @@
     "319": {
         "id": 319,
         "name": "Person in Baugrube",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8087,6 +8528,9 @@
         "id": 320,
         "name": "Gro\u00dffeuer im Krankenhaus",
         "place": "Krankenhaus",
+        "place_array": {
+            "0": "Krankenhaus"
+        },
         "average_credits": 11500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8136,7 +8580,8 @@
     "321": {
         "id": 321,
         "name": "Saunabrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1800,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8164,6 +8609,9 @@
         "id": 322,
         "name": "Geplante Autobahnsperrung",
         "place": "Autobahnauf.- / abfahrt",
+        "place_array": {
+            "0": "Autobahnauf.- / abfahrt"
+        },
         "average_credits": 2500,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -8188,7 +8636,8 @@
     "323": {
         "id": 323,
         "name": "Dehnfugenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8224,6 +8673,9 @@
         "id": 324,
         "name": "Brand in Baumarkt",
         "place": "Baumarkt",
+        "place_array": {
+            "0": "Baumarkt"
+        },
         "average_credits": 10000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8272,7 +8724,8 @@
     "325": {
         "id": 325,
         "name": "Absicherung Castor-Transport",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 7000,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -8306,7 +8759,8 @@
     "327": {
         "id": 327,
         "name": "Tiefgaragenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8342,6 +8796,9 @@
         "id": 328,
         "name": "Rauch in Kabine",
         "place": "Flughafen (gro\u00df): Start-/Landebahn",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Start-/Landebahn"
+        },
         "average_credits": 1200,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8366,6 +8823,9 @@
         "id": 329,
         "name": "Rauch in Kabine",
         "place": "Flughafen (klein): Start-/Landebahn",
+        "place_array": {
+            "0": "Flughafen (klein): Start-/Landebahn"
+        },
         "average_credits": 700,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8388,6 +8848,9 @@
         "id": 330,
         "name": "\u00dcberhitzte Bremsen",
         "place": "Flughafen (gro\u00df): Start-/Landebahn",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Start-/Landebahn"
+        },
         "average_credits": 2000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8414,6 +8877,9 @@
         "id": 331,
         "name": "Flugzeugzusammensto\u00df am Boden",
         "place": "Flughafen (gro\u00df): Vorfeld / Standpl\u00e4tze",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Vorfeld / Standpl\u00e4tze"
+        },
         "average_credits": 3000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8448,6 +8914,9 @@
         "id": 332,
         "name": "Flugzeugbrand",
         "place": "Flughafen (gro\u00df): Vorfeld / Standpl\u00e4tze",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Vorfeld / Standpl\u00e4tze"
+        },
         "average_credits": 10000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8481,6 +8950,9 @@
         "id": 333,
         "name": "Flugzeugbrand",
         "place": "Flughafen (gro\u00df): Start-/Landebahn",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Start-/Landebahn"
+        },
         "average_credits": 10000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8514,6 +8986,9 @@
         "id": 334,
         "name": "Brennendes Kleinflugzeug",
         "place": "Flughafen (klein): Start-/Landebahn",
+        "place_array": {
+            "0": "Flughafen (klein): Start-/Landebahn"
+        },
         "average_credits": 6000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8550,6 +9025,9 @@
         "id": 335,
         "name": "Brennendes Kleinflugzeug",
         "place": "Flughafen (klein): Flugzeug Standplatz",
+        "place_array": {
+            "0": "Flughafen (klein): Flugzeug Standplatz"
+        },
         "average_credits": 6000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8586,6 +9064,9 @@
         "id": 336,
         "name": "Absicherung Betankung",
         "place": "Flughafen (gro\u00df): Vorfeld / Standpl\u00e4tze",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Vorfeld / Standpl\u00e4tze"
+        },
         "average_credits": 500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8610,6 +9091,9 @@
         "id": 337,
         "name": "Brennender PKW",
         "place": "Flughafen (gro\u00df): Parkhaus",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Parkhaus"
+        },
         "average_credits": 370,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8632,6 +9116,9 @@
         "id": 338,
         "name": "Motorrad-Brand",
         "place": "Flughafen (gro\u00df): Parkhaus",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Parkhaus"
+        },
         "average_credits": 340,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8654,6 +9141,9 @@
         "id": 339,
         "name": "Herzinfarkt",
         "place": "Flughafen (gro\u00df): Terminal",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Terminal"
+        },
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -8681,6 +9171,9 @@
         "id": 340,
         "name": "akuter Asthma-Anfall",
         "place": "Flughafen (gro\u00df): Terminal",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Terminal"
+        },
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -8707,6 +9200,9 @@
         "id": 341,
         "name": "Krampfanfall",
         "place": "Flughafen (gro\u00df): Terminal",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Terminal"
+        },
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -8734,6 +9230,9 @@
         "id": 342,
         "name": "Triebwerksbrand",
         "place": "Flughafen (gro\u00df): Vorfeld / Standpl\u00e4tze",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Vorfeld / Standpl\u00e4tze"
+        },
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8759,6 +9258,9 @@
         "id": 343,
         "name": "Triebwerksbrand",
         "place": "Flughafen (gro\u00df): Start-/Landebahn",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Start-/Landebahn"
+        },
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8784,6 +9286,9 @@
         "id": 344,
         "name": "Mehrere brennende Fahrzeuge",
         "place": "Flughafen (gro\u00df): Parkhaus",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Parkhaus"
+        },
         "average_credits": 1010,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8809,6 +9314,9 @@
         "id": 345,
         "name": "H\u00f6henrettung am Fahrgesch\u00e4ft",
         "place": "Festplatz",
+        "place_array": {
+            "0": "Festplatz"
+        },
         "average_credits": 1200,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8842,7 +9350,8 @@
     "346": {
         "id": 346,
         "name": "Geb\u00e4udesprengung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6500,
         "generated_by": "THW",
         "icons": {
@@ -8883,7 +9392,8 @@
     "347": {
         "id": 347,
         "name": "Helikopter in Baum",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8923,6 +9433,9 @@
         "id": 348,
         "name": "Explosion in Biogasanlage",
         "place": "Biogasanlage",
+        "place_array": {
+            "0": "Biogasanlage"
+        },
         "average_credits": 10000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -8972,7 +9485,8 @@
     "349": {
         "id": 349,
         "name": "Brandgeruch",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 100,
         "generated_by": "Feuerwache",
         "icons": {
@@ -9016,7 +9530,8 @@
     "350": {
         "id": 350,
         "name": "Flughafenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 17000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -9064,6 +9579,9 @@
         "id": 351,
         "name": "Brand im Terminal",
         "place": "Flughafen (gro\u00df): Terminal",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Terminal"
+        },
         "average_credits": 4000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -9098,7 +9616,8 @@
     "352": {
         "id": 352,
         "name": "Brand in Mehrfamilienhaus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 7500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -9136,7 +9655,8 @@
     "353": {
         "id": 353,
         "name": "Gro\u00dfkontrolle Bet\u00e4ubungsmittel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4500,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -9164,7 +9684,8 @@
     "354": {
         "id": 354,
         "name": "Grillunfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -9192,7 +9713,8 @@
     "355": {
         "id": 355,
         "name": "Waffenentzug",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1700,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -9218,7 +9740,8 @@
     "356": {
         "id": 356,
         "name": "H\u00e4usliche Gewalt - eskaliert",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1700,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -9249,6 +9772,9 @@
         "id": 357,
         "name": "Bank: Stiller Alarm",
         "place": "Bank",
+        "place_array": {
+            "0": "Bank"
+        },
         "average_credits": 500,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -9274,6 +9800,9 @@
         "id": 358,
         "name": "Bank\u00fcberfall",
         "place": "Bank",
+        "place_array": {
+            "0": "Bank"
+        },
         "average_credits": 4000,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -9309,7 +9838,8 @@
     "359": {
         "id": 359,
         "name": "Geplante Razzia - Verd\u00e4chtiger fl\u00fcchtig",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 9000,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -9340,7 +9870,8 @@
     "366": {
         "id": 366,
         "name": "Vollstreckung Haftbefehl",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 550,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -9369,7 +9900,8 @@
     "367": {
         "id": 367,
         "name": "Vollstreckung Haftbefehl - eskaliert",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2800,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -9402,6 +9934,9 @@
         "id": 368,
         "name": "Brennende Kirche",
         "place": "Kirche",
+        "place_array": {
+            "0": "Kirche"
+        },
         "average_credits": 7500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -9450,7 +9985,8 @@
     "369": {
         "id": 369,
         "name": "Austritt Kohlenmonoxid",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1800,
         "generated_by": "Feuerwache",
         "icons": {
@@ -9489,6 +10025,9 @@
         "id": 370,
         "name": "Geisterfahrer",
         "place": "Autobahnauf.- / abfahrt",
+        "place_array": {
+            "0": "Autobahnauf.- / abfahrt"
+        },
         "average_credits": 1000,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -9517,7 +10056,8 @@
     "377": {
         "id": 377,
         "name": "\u00dcberzuckerung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -9544,7 +10084,8 @@
     "378": {
         "id": 378,
         "name": "Observation",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4400,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -9571,6 +10112,9 @@
         "id": 379,
         "name": "PKW im Gleisbett",
         "place": "Bahnhof (Regionalverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regionalverkehr)"
+        },
         "average_credits": 900,
         "generated_by": "Feuerwache",
         "icons": {
@@ -9600,6 +10144,9 @@
         "id": 380,
         "name": "PKW im Gleisbett",
         "place": "Bahnhof (Regional und Fernverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regional und Fernverkehr)"
+        },
         "average_credits": 900,
         "generated_by": "Feuerwache",
         "icons": {
@@ -9629,6 +10176,9 @@
         "id": 381,
         "name": "PKW im Gleisbett",
         "place": "G\u00fcterbahnhof",
+        "place_array": {
+            "0": "G\u00fcterbahnhof"
+        },
         "average_credits": 900,
         "generated_by": "Feuerwache",
         "icons": {
@@ -9658,6 +10208,9 @@
         "id": 382,
         "name": "PKW im Gleisbett",
         "place": "Bahn\u00fcbergang",
+        "place_array": {
+            "0": "Bahn\u00fcbergang"
+        },
         "average_credits": 900,
         "generated_by": "Feuerwache",
         "icons": {
@@ -9689,7 +10242,8 @@
     "383": {
         "id": 383,
         "name": "Kind in PKW eingeschlossen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -9719,7 +10273,8 @@
     "384": {
         "id": 384,
         "name": "Brennende Ballenpresse",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Feuerwache",
         "icons": {
@@ -9747,6 +10302,9 @@
         "id": 385,
         "name": "Unfall beim Umpumpen von Fl\u00fcssigkeiten",
         "place": "Chemiepark",
+        "place_array": {
+            "0": "Chemiepark"
+        },
         "average_credits": 5100,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -9784,6 +10342,9 @@
         "id": 386,
         "name": "Ammoniakaustritt",
         "place": "Chemiepark",
+        "place_array": {
+            "0": "Chemiepark"
+        },
         "average_credits": 5500,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -9822,6 +10383,9 @@
         "id": 387,
         "name": "Brennende Pipeline-Isolierung",
         "place": "Chemiepark",
+        "place_array": {
+            "0": "Chemiepark"
+        },
         "average_credits": 6500,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -9861,6 +10425,9 @@
         "id": 388,
         "name": "Feuer in Verwaltungsgeb\u00e4ude",
         "place": "Chemiepark",
+        "place_array": {
+            "0": "Chemiepark"
+        },
         "average_credits": 2500,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -9893,6 +10460,9 @@
         "id": 389,
         "name": "Brand in Chemiepark - Produktion",
         "place": "Chemiepark",
+        "place_array": {
+            "0": "Chemiepark"
+        },
         "average_credits": 8500,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -9939,6 +10509,9 @@
         "id": 390,
         "name": "Sicherheitslandung",
         "place": "Flughafen (gro\u00df): Start-/Landebahn",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Start-/Landebahn"
+        },
         "average_credits": 1000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -9965,7 +10538,8 @@
     "391": {
         "id": 391,
         "name": "Vergiftung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -9991,7 +10565,8 @@
     "392": {
         "id": 392,
         "name": "Person durch Hubmaschine eingeklemmt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1900,
         "generated_by": "Feuerwache",
         "icons": {
@@ -10023,7 +10598,8 @@
     "393": {
         "id": 393,
         "name": "Einsturzgef\u00e4hrdeter Balkon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -10060,6 +10636,9 @@
         "id": 394,
         "name": "LKW auf Stauende",
         "place": "Autobahnauf.- / abfahrt",
+        "place_array": {
+            "0": "Autobahnauf.- / abfahrt"
+        },
         "average_credits": 3000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -10097,6 +10676,9 @@
         "id": 395,
         "name": "Maschinenbrand in Produktionshalle",
         "place": "Industrie-Allgemein",
+        "place_array": {
+            "0": "Industrie-Allgemein"
+        },
         "average_credits": 3000,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10129,6 +10711,9 @@
         "id": 396,
         "name": "Maschinenbrand in Produktionshalle",
         "place": "Automobilindustrie",
+        "place_array": {
+            "0": "Automobilindustrie"
+        },
         "average_credits": 3000,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10157,7 +10742,8 @@
     "397": {
         "id": 397,
         "name": "Schnittwunde",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -10185,6 +10771,9 @@
         "id": 398,
         "name": "Brennende Absauganlage",
         "place": "Automobilindustrie",
+        "place_array": {
+            "0": "Automobilindustrie"
+        },
         "average_credits": 3200,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10215,6 +10804,9 @@
         "id": 399,
         "name": "Brand in Kabelkanal",
         "place": "Industrie-Allgemein",
+        "place_array": {
+            "0": "Industrie-Allgemein"
+        },
         "average_credits": 2700,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10241,6 +10833,9 @@
         "id": 400,
         "name": "Brand in Lackiererei",
         "place": "Automobilindustrie",
+        "place_array": {
+            "0": "Automobilindustrie"
+        },
         "average_credits": 5050,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10271,6 +10866,9 @@
         "id": 401,
         "name": "Umgest\u00fcrzter Gabelstapler",
         "place": "Industrie-Allgemein",
+        "place_array": {
+            "0": "Industrie-Allgemein"
+        },
         "average_credits": 1600,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10304,6 +10902,9 @@
         "id": 402,
         "name": "Brennender PKW",
         "place": "Automobilindustrie",
+        "place_array": {
+            "0": "Automobilindustrie"
+        },
         "average_credits": 400,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10327,6 +10928,9 @@
         "id": 403,
         "name": "M\u00fclleimerbrand",
         "place": "Automobilindustrie",
+        "place_array": {
+            "0": "Automobilindustrie"
+        },
         "average_credits": 110,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10350,6 +10954,9 @@
         "id": 404,
         "name": "M\u00fclleimerbrand",
         "place": "Industrie-Allgemein",
+        "place_array": {
+            "0": "Industrie-Allgemein"
+        },
         "average_credits": 110,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10373,6 +10980,9 @@
         "id": 405,
         "name": "Brennender LKW",
         "place": "Industrie-Allgemein",
+        "place_array": {
+            "0": "Industrie-Allgemein"
+        },
         "average_credits": 980,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10396,6 +11006,9 @@
         "id": 406,
         "name": "Brennender LKW",
         "place": "Automobilindustrie",
+        "place_array": {
+            "0": "Automobilindustrie"
+        },
         "average_credits": 980,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10419,6 +11032,9 @@
         "id": 407,
         "name": "Brennende Filteranlage",
         "place": "Industrie-Allgemein",
+        "place_array": {
+            "0": "Industrie-Allgemein"
+        },
         "average_credits": 3700,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10448,6 +11064,9 @@
         "id": 408,
         "name": "Rauchentwicklung an F\u00f6rderband",
         "place": "Automobilindustrie",
+        "place_array": {
+            "0": "Automobilindustrie"
+        },
         "average_credits": 400,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10474,6 +11093,9 @@
         "id": 409,
         "name": "Brennender LKW",
         "place": "Chemiepark",
+        "place_array": {
+            "0": "Chemiepark"
+        },
         "average_credits": 980,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10497,6 +11119,9 @@
         "id": 410,
         "name": "M\u00fclleimerbrand",
         "place": "Chemiepark",
+        "place_array": {
+            "0": "Chemiepark"
+        },
         "average_credits": 110,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10519,7 +11144,8 @@
     "411": {
         "id": 411,
         "name": "Hei\u00dfluftballon in Hochspannungsmast",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5900,
         "generated_by": "Feuerwache",
         "icons": {
@@ -10561,6 +11187,9 @@
         "id": 412,
         "name": "Verpuffung",
         "place": "Chemiepark",
+        "place_array": {
+            "0": "Chemiepark"
+        },
         "average_credits": 3000,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10594,6 +11223,9 @@
         "id": 413,
         "name": "Verpuffung",
         "place": "Industrie-Allgemein",
+        "place_array": {
+            "0": "Industrie-Allgemein"
+        },
         "average_credits": 2500,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10625,6 +11257,9 @@
         "id": 414,
         "name": "Verpuffung",
         "place": "Automobilindustrie",
+        "place_array": {
+            "0": "Automobilindustrie"
+        },
         "average_credits": 3000,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10658,6 +11293,9 @@
         "id": 415,
         "name": "J\u00e4ger verletzt Passant durch Schuss",
         "place": "Wald",
+        "place_array": {
+            "0": "Wald"
+        },
         "average_credits": 200,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -10690,6 +11328,9 @@
         "id": 416,
         "name": "J\u00e4ger st\u00fcrzt von Hochsitz",
         "place": "Wald",
+        "place_array": {
+            "0": "Wald"
+        },
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -10718,6 +11359,9 @@
         "id": 417,
         "name": "J\u00e4ger durch Wildtier verletzt",
         "place": "Wald",
+        "place_array": {
+            "0": "Wald"
+        },
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -10746,6 +11390,9 @@
         "id": 418,
         "name": "Absicherung Pannen-LKW",
         "place": "Autobahnauf.- / abfahrt",
+        "place_array": {
+            "0": "Autobahnauf.- / abfahrt"
+        },
         "average_credits": 400,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -10775,6 +11422,9 @@
         "id": 419,
         "name": "Austritt Fl\u00fcssiggas",
         "place": "Industrie-Allgemein",
+        "place_array": {
+            "0": "Industrie-Allgemein"
+        },
         "average_credits": 4500,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -10813,7 +11463,8 @@
     "420": {
         "id": 420,
         "name": "Schlechter Allgemeinzustand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -10841,6 +11492,9 @@
         "id": 421,
         "name": "PKW in Bushaltestelle",
         "place": "Bushaltestelle",
+        "place_array": {
+            "0": "Bushaltestelle"
+        },
         "average_credits": 800,
         "generated_by": "Feuerwache",
         "icons": {
@@ -10872,7 +11526,8 @@
     "422": {
         "id": 422,
         "name": "Sachbesch\u00e4digung an PKW",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -10895,6 +11550,9 @@
         "id": 423,
         "name": "Brand in Klassenraum",
         "place": "Schule",
+        "place_array": {
+            "0": "Schule"
+        },
         "average_credits": 3100,
         "generated_by": "Feuerwache",
         "icons": {
@@ -10933,6 +11591,9 @@
         "id": 424,
         "name": "Gro\u00dfbrand M\u00fcllverbrennungsanlage",
         "place": "M\u00fcllverbrennungsanlage",
+        "place_array": {
+            "0": "M\u00fcllverbrennungsanlage"
+        },
         "average_credits": 8600,
         "generated_by": "Feuerwache",
         "icons": {
@@ -10984,7 +11645,8 @@
     "425": {
         "id": 425,
         "name": "Verstauchter Kn\u00f6chel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -11011,7 +11673,8 @@
     "426": {
         "id": 426,
         "name": "Gebrochenes Bein",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -11037,7 +11700,8 @@
     "427": {
         "id": 427,
         "name": "Gebrochener Arm",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -11063,7 +11727,8 @@
     "429": {
         "id": 429,
         "name": "Staubexplosion",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3100,
         "generated_by": "THW",
         "icons": {
@@ -11109,6 +11774,9 @@
         "id": 430,
         "name": "Ammoniakaustritt in Eishalle",
         "place": "Eishalle",
+        "place_array": {
+            "0": "Eishalle"
+        },
         "average_credits": 7000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -11147,7 +11815,8 @@
     "431": {
         "id": 431,
         "name": "Kreislaufkollaps",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -11173,7 +11842,8 @@
     "432": {
         "id": 432,
         "name": "Fassadenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1700,
         "generated_by": "Feuerwache",
         "icons": {
@@ -11210,6 +11880,9 @@
         "id": 433,
         "name": "Gro\u00dffeuer in Bank",
         "place": "Bank",
+        "place_array": {
+            "0": "Bank"
+        },
         "average_credits": 6000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -11249,6 +11922,9 @@
         "id": 434,
         "name": "Brand in Eloxalanlage",
         "place": "Industrie-Allgemein",
+        "place_array": {
+            "0": "Industrie-Allgemein"
+        },
         "average_credits": 5800,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -11290,6 +11966,9 @@
         "id": 435,
         "name": "Brand in Eloxalanlage",
         "place": "Automobilindustrie",
+        "place_array": {
+            "0": "Automobilindustrie"
+        },
         "average_credits": 6000,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -11332,7 +12011,8 @@
     "436": {
         "id": 436,
         "name": "Verschmutzte Fahrbahn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Feuerwache",
         "icons": {
@@ -11370,7 +12050,8 @@
     "437": {
         "id": 437,
         "name": "Taxi - Stiller Alarm",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -11399,6 +12080,9 @@
         "id": 438,
         "name": "PKW in Zapfs\u00e4ule",
         "place": "Tankstelle",
+        "place_array": {
+            "0": "Tankstelle"
+        },
         "average_credits": 2000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -11434,6 +12118,9 @@
         "id": 439,
         "name": "Einsturz Parkhaus",
         "place": "Flughafen (gro\u00df): Parkhaus",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Parkhaus"
+        },
         "average_credits": 8000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -11480,7 +12167,8 @@
     "440": {
         "id": 440,
         "name": "Akute Atemnot",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -11508,6 +12196,9 @@
         "id": 441,
         "name": "Brennende Waldh\u00fctte",
         "place": "Wald",
+        "place_array": {
+            "0": "Wald"
+        },
         "average_credits": 1600,
         "generated_by": "Feuerwache",
         "icons": {
@@ -11537,7 +12228,8 @@
     "447": {
         "id": 447,
         "name": "Eingest\u00fcrzter Balkon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -11579,7 +12271,8 @@
     "448": {
         "id": 448,
         "name": "Ermittlungen nach Unfallflucht",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 100,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -11602,6 +12295,9 @@
         "id": 449,
         "name": "PKW in Supermarkt",
         "place": "Supermarkt (Klein)",
+        "place_array": {
+            "0": "Supermarkt (Klein)"
+        },
         "average_credits": 2100,
         "generated_by": "Feuerwache",
         "icons": {
@@ -11638,6 +12334,9 @@
         "id": 450,
         "name": "PKW in Supermarkt",
         "place": "Supermarkt (Gro\u00df)",
+        "place_array": {
+            "0": "Supermarkt (Gro\u00df)"
+        },
         "average_credits": 2200,
         "generated_by": "Feuerwache",
         "icons": {
@@ -11673,7 +12372,8 @@
     "451": {
         "id": 451,
         "name": "PKW in Geb\u00e4ude",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -11710,6 +12410,9 @@
         "id": 458,
         "name": "Schwerlastkontrolle",
         "place": "Autobahnauf.- / abfahrt",
+        "place_array": {
+            "0": "Autobahnauf.- / abfahrt"
+        },
         "average_credits": 4000,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -11737,7 +12440,8 @@
     "459": {
         "id": 459,
         "name": "Brennende Baumaschine",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -11770,7 +12474,8 @@
     "460": {
         "id": 460,
         "name": "Person in Schacht",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -11807,6 +12512,9 @@
         "id": 462,
         "name": "Gro\u00dffeuer in Lagerhalle",
         "place": "Lagerhalle",
+        "place_array": {
+            "0": "Lagerhalle"
+        },
         "average_credits": 12000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -11858,6 +12566,9 @@
         "id": 463,
         "name": "Gesprengter Geldautomat",
         "place": "Bank",
+        "place_array": {
+            "0": "Bank"
+        },
         "average_credits": 1260,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -11887,7 +12598,8 @@
     "464": {
         "id": 464,
         "name": "Eingest\u00fcrzter Funkmast",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "THW",
         "icons": {
@@ -11924,6 +12636,9 @@
         "id": 465,
         "name": "Gro\u00dfbrand im Gefahrstofflager",
         "place": "Industrie-Allgemein",
+        "place_array": {
+            "0": "Industrie-Allgemein"
+        },
         "average_credits": 10112,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -11982,6 +12697,9 @@
         "id": 466,
         "name": "Badeunfall",
         "place": "Schwimmbad",
+        "place_array": {
+            "0": "Schwimmbad"
+        },
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -12009,6 +12727,9 @@
         "id": 467,
         "name": "Badeunfall",
         "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -12036,6 +12757,9 @@
         "id": 468,
         "name": "Badeunfall",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -12063,6 +12787,9 @@
         "id": 469,
         "name": "Entgleiste Stadtbahn",
         "place": "Stra\u00dfenbahnhaltestelle",
+        "place_array": {
+            "0": "Stra\u00dfenbahnhaltestelle"
+        },
         "average_credits": 1400,
         "generated_by": "Feuerwache",
         "icons": {
@@ -12098,6 +12825,9 @@
         "id": 470,
         "name": "Feuer in Museum",
         "place": "Museum",
+        "place_array": {
+            "0": "Museum"
+        },
         "average_credits": 3810,
         "generated_by": "Feuerwache",
         "icons": {
@@ -12133,6 +12863,9 @@
         "id": 471,
         "name": "Beweismittelsuche im Wasser",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": 1500,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -12158,6 +12891,9 @@
         "id": 472,
         "name": "Beweismittelsuche im Wasser",
         "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
         "average_credits": 1500,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -12183,6 +12919,9 @@
         "id": 473,
         "name": "Pfefferspray in Bahn",
         "place": "Stra\u00dfenbahnhaltestelle",
+        "place_array": {
+            "0": "Stra\u00dfenbahnhaltestelle"
+        },
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -12218,6 +12957,9 @@
         "id": 474,
         "name": "Pfefferspray in Bahn",
         "place": "Bahnhof (Regionalverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regionalverkehr)"
+        },
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -12253,6 +12995,9 @@
         "id": 475,
         "name": "Pfefferspray in Bahn",
         "place": "Bahnhof (Regional und Fernverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regional und Fernverkehr)"
+        },
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -12287,7 +13032,8 @@
     "476": {
         "id": 476,
         "name": "Angefahrener Radfahrer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -12318,6 +13064,9 @@
         "id": 477,
         "name": "Baum auf Zug",
         "place": "Bahnhof (Regionalverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regionalverkehr)"
+        },
         "average_credits": 3100,
         "generated_by": "Feuerwache",
         "icons": {
@@ -12366,6 +13115,9 @@
         "id": 478,
         "name": "Baum auf Zug",
         "place": "Bahnhof (Regional und Fernverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regional und Fernverkehr)"
+        },
         "average_credits": 3100,
         "generated_by": "Feuerwache",
         "icons": {
@@ -12414,6 +13166,9 @@
         "id": 479,
         "name": "Baum auf Zug",
         "place": "Bahn\u00fcbergang",
+        "place_array": {
+            "0": "Bahn\u00fcbergang"
+        },
         "average_credits": 3100,
         "generated_by": "Feuerwache",
         "icons": {
@@ -12462,6 +13217,9 @@
         "id": 480,
         "name": "Flugzeugreifenplatzer",
         "place": "Flughafen (klein): Start-/Landebahn",
+        "place_array": {
+            "0": "Flughafen (klein): Start-/Landebahn"
+        },
         "average_credits": 2200,
         "generated_by": "Feuerwache",
         "icons": {
@@ -12495,6 +13253,9 @@
         "id": 481,
         "name": "Flugzeugreifenplatzer",
         "place": "Flughafen (klein): Flugzeug Standplatz",
+        "place_array": {
+            "0": "Flughafen (klein): Flugzeug Standplatz"
+        },
         "average_credits": 2200,
         "generated_by": "Feuerwache",
         "icons": {
@@ -12528,6 +13289,9 @@
         "id": 482,
         "name": "Flugzeugreifenplatzer",
         "place": "Flughafen (gro\u00df): Start-/Landebahn",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Start-/Landebahn"
+        },
         "average_credits": 2700,
         "generated_by": "Feuerwache",
         "icons": {
@@ -12563,6 +13327,9 @@
         "id": 483,
         "name": "Flugzeugreifenplatzer",
         "place": "Flughafen (gro\u00df): Vorfeld / Standpl\u00e4tze",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Vorfeld / Standpl\u00e4tze"
+        },
         "average_credits": 2700,
         "generated_by": "Feuerwache",
         "icons": {
@@ -12597,7 +13364,8 @@
     "484": {
         "id": 484,
         "name": "Transportunfall mit Strahler",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2800,
         "generated_by": "Feuerwache",
         "icons": {
@@ -12638,6 +13406,9 @@
         "id": 485,
         "name": "Brand mehrerer E-Autos in Auslieferungshalle",
         "place": "Automobilindustrie",
+        "place_array": {
+            "0": "Automobilindustrie"
+        },
         "average_credits": 3700,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -12680,7 +13451,8 @@
     "486": {
         "id": 486,
         "name": "Cannabisplantage entdeckt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3200,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -12711,6 +13483,9 @@
         "id": 487,
         "name": "Kleinbrand in Kirche",
         "place": "Kirche",
+        "place_array": {
+            "0": "Kirche"
+        },
         "average_credits": 1500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -12746,6 +13521,9 @@
         "id": 488,
         "name": "Massenanfall an Erkrankten - Stadion",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 14000,
         "generated_by": "Rettungswache",
         "icons": {
@@ -12786,6 +13564,9 @@
         "id": 491,
         "name": "Massenanfall an Erkrankten - Bahnhof (Regionalverkehr)",
         "place": "Bahnhof (Regionalverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regionalverkehr)"
+        },
         "average_credits": 5000,
         "generated_by": "Rettungswache",
         "icons": {
@@ -12825,6 +13606,9 @@
         "id": 493,
         "name": "Massenanfall an Erkrankten - Diskothek",
         "place": "Diskothek",
+        "place_array": {
+            "0": "Diskothek"
+        },
         "average_credits": 2500,
         "generated_by": "Rettungswache",
         "icons": {
@@ -12862,7 +13646,8 @@
     "494": {
         "id": 494,
         "name": "Besch\u00e4digte Radarfalle",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -12886,6 +13671,9 @@
         "id": 495,
         "name": "Massenpanik in Diskothek",
         "place": "Diskothek",
+        "place_array": {
+            "0": "Diskothek"
+        },
         "average_credits": 3500,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -12916,6 +13704,9 @@
         "id": 496,
         "name": "Pferd in Jauchegrube",
         "place": "Bauernhof",
+        "place_array": {
+            "0": "Bauernhof"
+        },
         "average_credits": 1000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -12944,6 +13735,9 @@
         "id": 497,
         "name": "Personensuche nahe Gew\u00e4sser",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": 3000,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -12984,6 +13778,9 @@
         "id": 498,
         "name": "Personensuche nahe Gew\u00e4sser",
         "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
         "average_credits": 3000,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -13024,6 +13821,9 @@
         "id": 499,
         "name": "Massenkarambolage auf Autobahn",
         "place": "Autobahnauf.- / abfahrt",
+        "place_array": {
+            "0": "Autobahnauf.- / abfahrt"
+        },
         "average_credits": 11000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -13058,7 +13858,8 @@
     "500": {
         "id": 500,
         "name": "Herzkreislaufprobleme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -13086,6 +13887,9 @@
         "id": 501,
         "name": "Schwimmbaddach eingest\u00fcrzt",
         "place": "Schwimmbad",
+        "place_array": {
+            "0": "Schwimmbad"
+        },
         "average_credits": 8000,
         "generated_by": "THW",
         "icons": {
@@ -13132,7 +13936,8 @@
     "502": {
         "id": 502,
         "name": "Brand in Betreuungseinrichtung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 7500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -13168,6 +13973,9 @@
         "id": 503,
         "name": "Damm droht zu brechen",
         "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
         "average_credits": 6500,
         "generated_by": "THW",
         "icons": {
@@ -13208,6 +14016,9 @@
         "id": 504,
         "name": "Damm droht zu brechen",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": 6500,
         "generated_by": "THW",
         "icons": {
@@ -13248,6 +14059,9 @@
         "id": 505,
         "name": "Hochwasserschadenslage",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": 11500,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -13300,7 +14114,8 @@
     "506": {
         "id": 506,
         "name": "Hundeangriff",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -13329,6 +14144,9 @@
         "id": 507,
         "name": "Hochwasserschadenslage",
         "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
         "average_credits": 11500,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -13374,7 +14192,8 @@
     "508": {
         "id": 508,
         "name": "Pf\u00e4hlungsverletzung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Rettungswache",
         "icons": {
@@ -13409,6 +14228,9 @@
         "id": 509,
         "name": "Brennender Stall",
         "place": "Bauernhof",
+        "place_array": {
+            "0": "Bauernhof"
+        },
         "average_credits": 3500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -13443,7 +14265,8 @@
     "510": {
         "id": 510,
         "name": "Zwangseinweisung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -13471,6 +14294,9 @@
         "id": 511,
         "name": "Herrenloses Gep\u00e4ckst\u00fcck",
         "place": "Bahnhof (Regionalverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regionalverkehr)"
+        },
         "average_credits": 150,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -13493,6 +14319,9 @@
         "id": 512,
         "name": "Herrenloses Gep\u00e4ckst\u00fcck",
         "place": "Flughafen (gro\u00df): Terminal",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Terminal"
+        },
         "average_credits": 150,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -13514,7 +14343,8 @@
     "513": {
         "id": 513,
         "name": "Hausdach eingest\u00fcrzt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3200,
         "generated_by": "THW",
         "icons": {
@@ -13559,7 +14389,8 @@
     "514": {
         "id": 514,
         "name": "Durchsuchung - Geb\u00e4udekomplex",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6500,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -13590,6 +14421,9 @@
         "id": 515,
         "name": "Brand einer Produktionshalle",
         "place": "Industrie-Allgemein",
+        "place_array": {
+            "0": "Industrie-Allgemein"
+        },
         "average_credits": 8300,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -13639,6 +14473,9 @@
         "id": 516,
         "name": "Flugzeug Erstlandung",
         "place": "Flughafen (gro\u00df): Start-/Landebahn",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Start-/Landebahn"
+        },
         "average_credits": 1700,
         "generated_by": "Feuerwache",
         "icons": {
@@ -13664,7 +14501,8 @@
     "517": {
         "id": 517,
         "name": "Brennender Baum",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Feuerwache",
         "icons": {
@@ -13690,6 +14528,9 @@
         "id": 518,
         "name": "Brennender Baum",
         "place": "Wald",
+        "place_array": {
+            "0": "Wald"
+        },
         "average_credits": 800,
         "generated_by": "Feuerwache",
         "icons": {
@@ -13717,7 +14558,8 @@
     "519": {
         "id": 519,
         "name": "H\u00fcpfburgunfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Rettungswache",
         "icons": {
@@ -13751,7 +14593,8 @@
     "520": {
         "id": 520,
         "name": "Hotelbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 9000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -13797,6 +14640,9 @@
         "id": 521,
         "name": "Explosion in Feuerwerksfabrik",
         "place": "Industrie-Allgemein",
+        "place_array": {
+            "0": "Industrie-Allgemein"
+        },
         "average_credits": 15600,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -13861,6 +14707,9 @@
         "id": 522,
         "name": "Medizinischer Notfall in Flugzeug",
         "place": "Flughafen (klein): Flugzeug Standplatz",
+        "place_array": {
+            "0": "Flughafen (klein): Flugzeug Standplatz"
+        },
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -13891,6 +14740,9 @@
         "id": 523,
         "name": "Medizinischer Notfall in Flugzeug",
         "place": "Flughafen (gro\u00df): Vorfeld / Standpl\u00e4tze",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Vorfeld / Standpl\u00e4tze"
+        },
         "average_credits": null,
         "generated_by": "Feuerwache",
         "icons": {
@@ -13921,6 +14773,9 @@
         "id": 524,
         "name": "Brand in Sp\u00e4nebunker",
         "place": "Holzverarbeitung",
+        "place_array": {
+            "0": "Holzverarbeitung"
+        },
         "average_credits": 5000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -13973,6 +14828,9 @@
         "id": 525,
         "name": "Supermarkt eingest\u00fcrzt",
         "place": "Supermarkt (Gro\u00df)",
+        "place_array": {
+            "0": "Supermarkt (Gro\u00df)"
+        },
         "average_credits": 8500,
         "generated_by": "THW",
         "icons": {
@@ -14022,6 +14880,9 @@
         "id": 526,
         "name": "Supermarkt eingest\u00fcrzt",
         "place": "Supermarkt (Klein)",
+        "place_array": {
+            "0": "Supermarkt (Klein)"
+        },
         "average_credits": 4500,
         "generated_by": "THW",
         "icons": {
@@ -14068,7 +14929,8 @@
     "527": {
         "id": 527,
         "name": "Versch\u00fcttete Person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -14107,6 +14969,9 @@
         "id": 528,
         "name": "Fischsterben in Gew\u00e4sser",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": 5000,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -14145,6 +15010,9 @@
         "id": 529,
         "name": "Fischsterben in Gew\u00e4sser",
         "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
         "average_credits": 5000,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -14182,7 +15050,8 @@
     "530": {
         "id": 530,
         "name": "Eingest\u00fcrztes Wohnhaus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4900,
         "generated_by": "THW",
         "icons": {
@@ -14232,7 +15101,8 @@
     "531": {
         "id": 531,
         "name": "Gasexplosion",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 11500,
         "generated_by": "THW",
         "icons": {
@@ -14292,7 +15162,8 @@
     "532": {
         "id": 532,
         "name": "Suche nach Vermissten",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4800,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -14327,6 +15198,9 @@
         "id": 533,
         "name": "Personensuche nahe Gew\u00e4sser",
         "place": "See",
+        "place_array": {
+            "0": "See"
+        },
         "average_credits": 3300,
         "generated_by": "Wasserrettung",
         "icons": {
@@ -14369,6 +15243,9 @@
         "id": 534,
         "name": "Einsturz Parkhaus",
         "place": "Flughafen (gro\u00df): Parkhaus",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Parkhaus"
+        },
         "average_credits": 8300,
         "generated_by": "Feuerwache",
         "icons": {
@@ -14421,6 +15298,9 @@
         "id": 535,
         "name": "Schwimmbaddach eingest\u00fcrzt",
         "place": "Schwimmbad",
+        "place_array": {
+            "0": "Schwimmbad"
+        },
         "average_credits": 8300,
         "generated_by": "THW",
         "icons": {
@@ -14470,6 +15350,9 @@
         "id": 536,
         "name": "Einbruch in Supermarkt",
         "place": "Supermarkt (Klein)",
+        "place_array": {
+            "0": "Supermarkt (Klein)"
+        },
         "average_credits": 600,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -14493,6 +15376,9 @@
         "id": 537,
         "name": "Einbruch in Supermarkt",
         "place": "Supermarkt (Gro\u00df)",
+        "place_array": {
+            "0": "Supermarkt (Gro\u00df)"
+        },
         "average_credits": 1100,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -14520,7 +15406,8 @@
     "538": {
         "id": 538,
         "name": "Verbrennung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -14547,7 +15434,8 @@
     "539": {
         "id": 539,
         "name": "Versch\u00fcttete Personen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2300,
         "generated_by": "THW",
         "icons": {
@@ -14589,6 +15477,9 @@
         "id": 540,
         "name": "Einsturz Stadiontrib\u00fcne",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 16000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -14645,7 +15536,8 @@
     "541": {
         "id": 541,
         "name": "Erdrutsch",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1220,
         "generated_by": "THW",
         "icons": {
@@ -14681,6 +15573,9 @@
         "id": 542,
         "name": "Supermarkt eingest\u00fcrzt",
         "place": "Supermarkt (Gro\u00df)",
+        "place_array": {
+            "0": "Supermarkt (Gro\u00df)"
+        },
         "average_credits": 8500,
         "generated_by": "THW",
         "icons": {
@@ -14735,6 +15630,9 @@
         "id": 543,
         "name": "Supermarkt eingest\u00fcrzt",
         "place": "Supermarkt (Klein)",
+        "place_array": {
+            "0": "Supermarkt (Klein)"
+        },
         "average_credits": 4500,
         "generated_by": "THW",
         "icons": {
@@ -14786,7 +15684,8 @@
     "544": {
         "id": 544,
         "name": "S\u00e4ureangriff auf Hauswand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -14823,6 +15722,9 @@
         "id": 545,
         "name": "Brand bei Holzverarbeiter",
         "place": "Holzverarbeitung",
+        "place_array": {
+            "0": "Holzverarbeitung"
+        },
         "average_credits": 9500,
         "generated_by": "THW",
         "icons": {
@@ -14875,7 +15777,8 @@
     "549": {
         "id": 549,
         "name": "Absicherung Geldtransport",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4400,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -14900,7 +15803,8 @@
     "550": {
         "id": 550,
         "name": "LKW auf PKW gest\u00fcrzt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -14939,7 +15843,8 @@
     "551": {
         "id": 551,
         "name": "Einbruch auf Betriebsgel\u00e4nde",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -14963,6 +15868,9 @@
         "id": 552,
         "name": "Brand in Reifenlager",
         "place": "Auto-Werkstatt",
+        "place_array": {
+            "0": "Auto-Werkstatt"
+        },
         "average_credits": 5500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -14998,7 +15906,8 @@
     "553": {
         "id": 553,
         "name": "Ver\u00e4tzung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -15025,7 +15934,8 @@
     "554": {
         "id": 554,
         "name": "Einbruch in Wohnhaus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -15053,6 +15963,9 @@
         "id": 555,
         "name": "Phosphors\u00e4ureaustritt",
         "place": "Chemiepark",
+        "place_array": {
+            "0": "Chemiepark"
+        },
         "average_credits": 6500,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -15094,6 +16007,9 @@
         "id": 556,
         "name": "Phosphors\u00e4ureaustritt",
         "place": "Industrie-Allgemein",
+        "place_array": {
+            "0": "Industrie-Allgemein"
+        },
         "average_credits": 6500,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -15134,7 +16050,8 @@
     "557": {
         "id": 557,
         "name": "Schwerer Verkehrsunfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4800,
         "generated_by": "Feuerwache",
         "icons": {
@@ -15171,6 +16088,9 @@
         "id": 558,
         "name": "Brennende B\u00fchne",
         "place": "Festplatz",
+        "place_array": {
+            "0": "Festplatz"
+        },
         "average_credits": 7500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -15209,6 +16129,9 @@
         "id": 559,
         "name": "Unbekannte Fl\u00fcssigkeit aus LKW",
         "place": "Chemiepark",
+        "place_array": {
+            "0": "Chemiepark"
+        },
         "average_credits": 3100,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -15250,6 +16173,9 @@
         "id": 560,
         "name": "Absicherung Motocrossrennen",
         "place": "Motorsportanlage",
+        "place_array": {
+            "0": "Motorsportanlage"
+        },
         "average_credits": 3000,
         "generated_by": "SEG",
         "icons": {
@@ -15280,7 +16206,8 @@
     "561": {
         "id": 561,
         "name": "Fremdk\u00f6rper in Wunde",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -15306,6 +16233,9 @@
         "id": 562,
         "name": "Verkehrsunfall in Tunnel",
         "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -15340,7 +16270,8 @@
     "563": {
         "id": 563,
         "name": "Absicherung Staatsbesuch",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6000,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -15376,7 +16307,8 @@
     "564": {
         "id": 564,
         "name": "Geplante Festnahme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4500,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -15402,7 +16334,8 @@
     "565": {
         "id": 565,
         "name": "Zugriff bei Geld\u00fcbergabe",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5000,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -15429,6 +16362,9 @@
         "id": 566,
         "name": "Drogenhandel aufgeflogen",
         "place": "Bahnhof (Regional und Fernverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regional und Fernverkehr)"
+        },
         "average_credits": 300,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -15451,7 +16387,8 @@
     "567": {
         "id": 567,
         "name": "Diebstahl auf Baustelle",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -15473,7 +16410,8 @@
     "568": {
         "id": 568,
         "name": "Ausbruch gef\u00e4hrlicher Personen aus geschlossenem Vollzug",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6500,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -15506,6 +16444,9 @@
         "id": 569,
         "name": "Tankstellen\u00fcberfall - Eskaliert",
         "place": "Tankstelle",
+        "place_array": {
+            "0": "Tankstelle"
+        },
         "average_credits": 4000,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -15538,7 +16479,8 @@
     "570": {
         "id": 570,
         "name": "Blitzeinschlag in Wohnhaus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1600,
         "generated_by": "Feuerwache",
         "icons": {
@@ -15575,7 +16517,8 @@
     "571": {
         "id": 571,
         "name": "Dachstuhlbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -15607,7 +16550,8 @@
     "572": {
         "id": 572,
         "name": "\u00dcberfall auf Spielhalle",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1700,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -15637,6 +16581,9 @@
         "id": 573,
         "name": "Chemikalienaustritt - Kl\u00e4rwerk",
         "place": "Kl\u00e4rwerk",
+        "place_array": {
+            "0": "Kl\u00e4rwerk"
+        },
         "average_credits": 8500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -15678,7 +16625,8 @@
     "574": {
         "id": 574,
         "name": "Brandsicherheitswache bei Feuerwerk",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Feuerwache",
         "icons": {
@@ -15709,7 +16657,8 @@
     "575": {
         "id": 575,
         "name": "Unklare Rauchentwicklung",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 150,
         "generated_by": "Feuerwache",
         "icons": {
@@ -15778,6 +16727,9 @@
         "id": 576,
         "name": "Brand in Parkhaus",
         "place": "Flughafen (gro\u00df): Parkhaus",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Parkhaus"
+        },
         "average_credits": 3000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -15815,6 +16767,9 @@
         "id": 577,
         "name": "Auslaufendes Kerosin",
         "place": "Flughafen (gro\u00df): Vorfeld / Standpl\u00e4tze",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Vorfeld / Standpl\u00e4tze"
+        },
         "average_credits": 2000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -15842,7 +16797,8 @@
     "578": {
         "id": 578,
         "name": "Blaus\u00e4ureaustritt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -15880,6 +16836,9 @@
         "id": 579,
         "name": "Blaus\u00e4ureaustritt",
         "place": "Chemiepark",
+        "place_array": {
+            "0": "Chemiepark"
+        },
         "average_credits": 4800,
         "generated_by": "Werkfeuerwehr",
         "icons": {
@@ -15919,7 +16878,8 @@
     "580": {
         "id": 580,
         "name": "Ausschreitungen durch alkoholisierte Menschengruppe",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6000,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -15952,6 +16912,9 @@
         "id": 581,
         "name": "Gest\u00fcrzter Schlittschuhl\u00e4ufer",
         "place": "Eishalle",
+        "place_array": {
+            "0": "Eishalle"
+        },
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -15977,7 +16940,8 @@
     "592": {
         "id": 592,
         "name": "Unangemeldete Demonstration (Gro\u00df)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 15000,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
@@ -16015,7 +16979,8 @@
     "593": {
         "id": 593,
         "name": "Beseitigung kontaminierter Erde",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "THW",
         "icons": {
@@ -16046,6 +17011,9 @@
         "id": 594,
         "name": "Brand in Schule",
         "place": "Schule",
+        "place_array": {
+            "0": "Schule"
+        },
         "average_credits": 8000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -16087,7 +17055,8 @@
     "595": {
         "id": 595,
         "name": "Person von Blitz getroffen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
@@ -16114,7 +17083,8 @@
     "596": {
         "id": 596,
         "name": "Verkehrsunfall (Personen eingeklemmt)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -16153,6 +17123,9 @@
         "id": 606,
         "name": "Brennender Bahnhof",
         "place": "Bahnhof (Regional und Fernverkehr)",
+        "place_array": {
+            "0": "Bahnhof (Regional und Fernverkehr)"
+        },
         "average_credits": 13000,
         "generated_by": "Feuerwache",
         "icons": {
@@ -16201,6 +17174,9 @@
         "id": 607,
         "name": "Verkehrserziehung an Schule",
         "place": "Schule",
+        "place_array": {
+            "0": "Schule"
+        },
         "average_credits": 1800,
         "generated_by": "Polizeiwache",
         "icons": {
@@ -16225,7 +17201,8 @@
     "608": {
         "id": 608,
         "name": "Abgebrochener Notruf",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Polizeiwache",
         "icons": {

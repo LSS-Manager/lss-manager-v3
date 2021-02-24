@@ -3,6 +3,9 @@
         "id": 0,
         "name": "Ild i skraldespand",
         "place": "Busstoppested",
+        "place_array": {
+            "0": "Busstoppested"
+        },
         "average_credits": 110,
         "generated_by": "Brandstation",
         "icons": {
@@ -24,7 +27,8 @@
     "1": {
         "id": 1,
         "name": "Ild i container",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "Brandstation",
         "icons": {
@@ -46,7 +50,8 @@
     "2": {
         "id": 2,
         "name": "Ild i bil",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 370,
         "generated_by": "Brandstation",
         "icons": {
@@ -73,7 +78,8 @@
     "3": {
         "id": 3,
         "name": "Ild i motorcykel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Brandstation",
         "icons": {
@@ -98,7 +104,8 @@
     "4": {
         "id": 4,
         "name": "Ild i gr\u00e6s",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Brandstation",
         "icons": {
@@ -123,7 +130,8 @@
     "5": {
         "id": 5,
         "name": "Ild i v\u00e6relse",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Brandstation",
         "icons": {
@@ -151,7 +159,8 @@
     "6": {
         "id": 6,
         "name": "Ild i haveskur",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Brandstation",
         "icons": {
@@ -173,7 +182,8 @@
     "7": {
         "id": 7,
         "name": "Ild i blade",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Brandstation",
         "icons": {
@@ -198,7 +208,8 @@
     "8": {
         "id": 8,
         "name": "Ild i st\u00f8rre m\u00e6ngde affald",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 220,
         "generated_by": "Brandstation",
         "icons": {
@@ -225,7 +236,8 @@
     "9": {
         "id": 9,
         "name": "Ild i halmballe",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Brandstation",
         "icons": {
@@ -251,7 +263,8 @@
     "10": {
         "id": 10,
         "name": "Ild i traktor",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Brandstation",
         "icons": {
@@ -273,7 +286,8 @@
     "11": {
         "id": 11,
         "name": "Br\u00e6ndende telefonboks",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 240,
         "generated_by": "Brandstation",
         "icons": {
@@ -295,7 +309,8 @@
     "12": {
         "id": 12,
         "name": "Tr\u00e6 p\u00e5 vejen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Brandstation",
         "icons": {
@@ -321,7 +336,8 @@
     "13": {
         "id": 13,
         "name": "Br\u00e6ndende lastbil",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 980,
         "generated_by": "Brandstation",
         "icons": {
@@ -343,7 +359,8 @@
     "14": {
         "id": 14,
         "name": "Lille markbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brandstation",
         "icons": {
@@ -369,6 +386,9 @@
         "id": 15,
         "name": "Lille skovbrand",
         "place": "Skov",
+        "place_array": {
+            "0": "Skov"
+        },
         "average_credits": 1010,
         "generated_by": "Brandstation",
         "icons": {
@@ -390,7 +410,8 @@
     "16": {
         "id": 16,
         "name": "Ild i campingvogn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Brandstation",
         "icons": {
@@ -412,7 +433,8 @@
     "17": {
         "id": 17,
         "name": "Ild i postkasse",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Brandstation",
         "icons": {
@@ -434,7 +456,8 @@
     "18": {
         "id": 18,
         "name": "Bunke af kviste",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Brandstation",
         "icons": {
@@ -456,7 +479,8 @@
     "19": {
         "id": 19,
         "name": "Br\u00e6ndende trailer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Brandstation",
         "icons": {
@@ -478,7 +502,8 @@
     "20": {
         "id": 20,
         "name": "Ild i k\u00e6lder",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Brandstation",
         "icons": {
@@ -506,7 +531,8 @@
     "21": {
         "id": 21,
         "name": "Ild i skorsten",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2400,
         "generated_by": "Brandstation",
         "icons": {
@@ -535,7 +561,8 @@
     "22": {
         "id": 22,
         "name": "Ild i tag",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2700,
         "generated_by": "Brandstation",
         "icons": {
@@ -562,7 +589,8 @@
     "23": {
         "id": 23,
         "name": "Ild i olie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Brandstation",
         "icons": {
@@ -585,6 +613,9 @@
         "id": 24,
         "name": "Ild i busskur",
         "place": "Busstoppested",
+        "place_array": {
+            "0": "Busstoppested"
+        },
         "average_credits": 900,
         "generated_by": "Brandstation",
         "icons": {
@@ -606,7 +637,8 @@
     "25": {
         "id": 25,
         "name": "F\u00e6rdselsuheld",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brandstation",
         "icons": {
@@ -638,6 +670,9 @@
         "id": 26,
         "name": "Lille supermarkedsbrand",
         "place": "Supermarked (lille)",
+        "place_array": {
+            "0": "Supermarked (lille)"
+        },
         "average_credits": 1500,
         "generated_by": "Brandstation",
         "icons": {
@@ -665,7 +700,8 @@
     "27": {
         "id": 27,
         "name": "Ild i garage",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Brandstation",
         "icons": {
@@ -687,7 +723,8 @@
     "28": {
         "id": 28,
         "name": "Br\u00e6ndende maskine",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2470,
         "generated_by": "Brandstation",
         "icons": {
@@ -714,7 +751,8 @@
     "29": {
         "id": 29,
         "name": "Ukendt udslip fra tankvogn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5300,
         "generated_by": "Brandstation",
         "icons": {
@@ -741,7 +779,8 @@
     "30": {
         "id": 30,
         "name": "Gasl\u00e6kage",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Brandstation",
         "icons": {
@@ -764,7 +803,8 @@
     "31": {
         "id": 31,
         "name": "Ild i ildsted",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1310,
         "generated_by": "Brandstation",
         "icons": {
@@ -788,7 +828,8 @@
     "32": {
         "id": 32,
         "name": "Ild i h\u00f8stmaskine",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Brandstation",
         "icons": {
@@ -811,6 +852,9 @@
         "id": 33,
         "name": "Lille supermarkedsbrand",
         "place": "Supermarked (lille)",
+        "place_array": {
+            "0": "Supermarked (lille)"
+        },
         "average_credits": 1500,
         "generated_by": "Brandstation",
         "icons": {
@@ -839,6 +883,9 @@
         "id": 34,
         "name": "Hospitals Brand",
         "place": "Hostpital",
+        "place_array": {
+            "0": "Hostpital"
+        },
         "average_credits": 6000,
         "generated_by": "Brandstation",
         "icons": {
@@ -870,7 +917,8 @@
     "35": {
         "id": 35,
         "name": "P\u00e5virket af alkohol",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -895,7 +943,8 @@
     "36": {
         "id": 36,
         "name": "Butiks tyveri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Politistation",
         "icons": {
@@ -918,7 +967,8 @@
     "37": {
         "id": 37,
         "name": "Akut astma",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -943,7 +993,8 @@
     "38": {
         "id": 38,
         "name": "Anfald",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -968,7 +1019,8 @@
     "39": {
         "id": 39,
         "name": "Feber",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -994,7 +1046,8 @@
     "40": {
         "id": 40,
         "name": "Person er faldet",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -1021,6 +1074,9 @@
         "id": 41,
         "name": "Ild i bilv\u00e6rksted",
         "place": "Bilv\u00e6rksted",
+        "place_array": {
+            "0": "Bilv\u00e6rksted"
+        },
         "average_credits": 6000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1057,7 +1113,8 @@
     "42": {
         "id": 42,
         "name": "Person er faldet",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -1083,7 +1140,8 @@
     "43": {
         "id": 43,
         "name": "Person er faldet",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -1110,6 +1168,9 @@
         "id": 44,
         "name": "Butikstyveri",
         "place": "Supermarked (lille)",
+        "place_array": {
+            "0": "Supermarked (lille)"
+        },
         "average_credits": 100,
         "generated_by": "Politistation",
         "icons": {
@@ -1133,6 +1194,9 @@
         "id": 45,
         "name": "Butikstyveri",
         "place": "Supermarked (stort)",
+        "place_array": {
+            "0": "Supermarked (stort)"
+        },
         "average_credits": 100,
         "generated_by": "Politistation",
         "icons": {
@@ -1156,6 +1220,9 @@
         "id": 46,
         "name": "Uheld med parkeret bil",
         "place": "Supermarked (lille)",
+        "place_array": {
+            "0": "Supermarked (lille)"
+        },
         "average_credits": 120,
         "generated_by": "Politistation",
         "icons": {
@@ -1178,6 +1245,9 @@
         "id": 47,
         "name": "Uheld med parkeret bil",
         "place": "Supermarked (stort)",
+        "place_array": {
+            "0": "Supermarked (stort)"
+        },
         "average_credits": 120,
         "generated_by": "Politistation",
         "icons": {
@@ -1200,6 +1270,9 @@
         "id": 48,
         "name": "Metaltyveri",
         "place": "Godsstation",
+        "place_array": {
+            "0": "Godsstation"
+        },
         "average_credits": 150,
         "generated_by": "Politistation",
         "icons": {
@@ -1223,6 +1296,9 @@
         "id": 49,
         "name": "Lommetyveri",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 150,
         "generated_by": "Politistation",
         "icons": {
@@ -1246,6 +1322,9 @@
         "id": 50,
         "name": "Manglende billet",
         "place": "Busstoppested",
+        "place_array": {
+            "0": "Busstoppested"
+        },
         "average_credits": 120,
         "generated_by": "Politistation",
         "icons": {
@@ -1268,6 +1347,9 @@
         "id": 51,
         "name": "Manglende billet",
         "place": "Sporvognstoppested",
+        "place_array": {
+            "0": "Sporvognstoppested"
+        },
         "average_credits": 120,
         "generated_by": "Politistation",
         "icons": {
@@ -1290,6 +1372,9 @@
         "id": 52,
         "name": "Manglende billet",
         "place": "Togstation (lokal trafik)",
+        "place_array": {
+            "0": "Togstation (lokal trafik)"
+        },
         "average_credits": 120,
         "generated_by": "Politistation",
         "icons": {
@@ -1312,6 +1397,9 @@
         "id": 53,
         "name": "Manglende billet",
         "place": "Togstation (lokal og national /international trafik)",
+        "place_array": {
+            "0": "Togstation (lokal og national /international trafik)"
+        },
         "average_credits": 120,
         "generated_by": "Politistation",
         "icons": {
@@ -1334,6 +1422,9 @@
         "id": 54,
         "name": "Uheld med parkeret bil",
         "place": "Indk\u00f8bscenter",
+        "place_array": {
+            "0": "Indk\u00f8bscenter"
+        },
         "average_credits": 120,
         "generated_by": "Politistation",
         "icons": {
@@ -1355,7 +1446,8 @@
     "55": {
         "id": 55,
         "name": "Slagsm\u00e5l",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Politistation",
         "icons": {
@@ -1382,7 +1474,8 @@
     "56": {
         "id": 56,
         "name": "Opt\u00f8jer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Politistation",
         "icons": {
@@ -1408,7 +1501,8 @@
     "57": {
         "id": 57,
         "name": "Ulovlig demonstration",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10020,
         "generated_by": "Politistation",
         "icons": {
@@ -1429,7 +1523,8 @@
     "58": {
         "id": 58,
         "name": "Ild i k\u00f8kken",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1452,6 +1547,9 @@
         "id": 59,
         "name": "Hj\u00e6lp til dyr",
         "place": "G\u00e5rd",
+        "place_array": {
+            "0": "G\u00e5rd"
+        },
         "average_credits": 900,
         "generated_by": "Brandstation",
         "icons": {
@@ -1475,6 +1573,9 @@
         "id": 60,
         "name": "Ild i sportshal",
         "place": "Skole",
+        "place_array": {
+            "0": "Skole"
+        },
         "average_credits": 2000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1503,7 +1604,8 @@
     "62": {
         "id": 62,
         "name": "St\u00f8jklage",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Politistation",
         "icons": {
@@ -1525,7 +1627,8 @@
     "63": {
         "id": 63,
         "name": "Mildt slagtilf\u00e6lde",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -1550,7 +1653,8 @@
     "64": {
         "id": 64,
         "name": "Uheld med bus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1579,7 +1683,8 @@
     "65": {
         "id": 65,
         "name": "Ild i k\u00f8kken",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1601,7 +1706,8 @@
     "66": {
         "id": 66,
         "name": "Ild i v\u00e6relse",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Brandstation",
         "icons": {
@@ -1629,7 +1735,8 @@
     "67": {
         "id": 67,
         "name": "Slagsm\u00e5l",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Politistation",
         "icons": {
@@ -1657,6 +1764,9 @@
         "id": 68,
         "name": "Stor supermarkedsbrand",
         "place": "Supermarked (stort)",
+        "place_array": {
+            "0": "Supermarked (stort)"
+        },
         "average_credits": 3000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1693,7 +1803,8 @@
     "69": {
         "id": 69,
         "name": "Ukendt udslip fra tankskib",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4300,
         "generated_by": "Brandstation",
         "icons": {
@@ -1723,6 +1834,9 @@
         "id": 70,
         "name": "Stor supermarkedsbrand",
         "place": "Supermarked (stort)",
+        "place_array": {
+            "0": "Supermarked (stort)"
+        },
         "average_credits": 3000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1756,7 +1870,8 @@
     "71": {
         "id": 71,
         "name": "N\u00e6seblod",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -1782,7 +1897,8 @@
     "72": {
         "id": 72,
         "name": "Lille fly styrtet ned",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1814,7 +1930,8 @@
     "73": {
         "id": 73,
         "name": "Alvorligt uheld med bus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1849,7 +1966,8 @@
     "74": {
         "id": 74,
         "name": "Storbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10210,
         "generated_by": "Brandstation",
         "icons": {
@@ -1874,7 +1992,8 @@
     "75": {
         "id": 75,
         "name": "Bygning delvist kollapset",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 7300,
         "generated_by": "Brandstation",
         "icons": {
@@ -1904,7 +2023,8 @@
     "76": {
         "id": 76,
         "name": "Industribrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4800,
         "generated_by": "Brandstation",
         "icons": {
@@ -1934,7 +2054,8 @@
     "77": {
         "id": 77,
         "name": "Patientoverf\u00f8rsel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -1957,7 +2078,8 @@
     "78": {
         "id": 78,
         "name": "Hjertestop",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -1982,7 +2104,8 @@
     "79": {
         "id": 79,
         "name": "Respirationsstop",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -2007,7 +2130,8 @@
     "80": {
         "id": 80,
         "name": "Motorcykel Uheld",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2300,
         "generated_by": "Brandstation",
         "icons": {
@@ -2040,6 +2164,9 @@
         "id": 81,
         "name": "Bev\u00e6bnet R\u00f8veri",
         "place": "Supermarked (lille)",
+        "place_array": {
+            "0": "Supermarked (lille)"
+        },
         "average_credits": 1300,
         "generated_by": "Politistation",
         "icons": {
@@ -2066,7 +2193,8 @@
     "82": {
         "id": 82,
         "name": "F\u00e6rdselsuheld bil p\u00e5 taget",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2100,7 +2228,8 @@
     "83": {
         "id": 83,
         "name": "Carbon Monoxid Forgiftning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2300,
         "generated_by": "Brandstation",
         "icons": {
@@ -2131,7 +2260,8 @@
     "84": {
         "id": 84,
         "name": "Person Kvalt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -2157,7 +2287,8 @@
     "85": {
         "id": 85,
         "name": "Rygskade",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -2183,7 +2314,8 @@
     "86": {
         "id": 86,
         "name": "Delvist bygningskollaps",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 7500,
         "generated_by": "Brandstation",
         "icons": {
@@ -2220,7 +2352,8 @@
     "87": {
         "id": 87,
         "name": "Bygningskollaps",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 9000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2257,7 +2390,8 @@
     "88": {
         "id": 88,
         "name": "3 grads forbr\u00e6nding",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -2283,7 +2417,8 @@
     "89": {
         "id": 89,
         "name": "Seri\u00f8s Hovedskade",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -2309,7 +2444,8 @@
     "90": {
         "id": 90,
         "name": "Traumatisk Amputation",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -2336,6 +2472,9 @@
         "id": 91,
         "name": "Stor G\u00e5rd Brand",
         "place": "G\u00e5rd",
+        "place_array": {
+            "0": "G\u00e5rd"
+        },
         "average_credits": 9000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2360,7 +2499,8 @@
     "92": {
         "id": 92,
         "name": "Rygsmerter",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -2387,6 +2527,9 @@
         "id": 93,
         "name": "Ild i cafeteria",
         "place": "Skole",
+        "place_array": {
+            "0": "Skole"
+        },
         "average_credits": 1300,
         "generated_by": "Brandstation",
         "icons": {
@@ -2414,7 +2557,8 @@
     "94": {
         "id": 94,
         "name": "Klatrer sidder fast",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Brandstation",
         "icons": {
@@ -2447,6 +2591,9 @@
         "id": 95,
         "name": "Vold mod tjenestemand",
         "place": "Metrostation",
+        "place_array": {
+            "0": "Metrostation"
+        },
         "average_credits": 750,
         "generated_by": "Politistation",
         "icons": {
@@ -2475,6 +2622,9 @@
         "id": 96,
         "name": "Silobrand",
         "place": "Silo",
+        "place_array": {
+            "0": "Silo"
+        },
         "average_credits": 3000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2499,7 +2649,8 @@
     "97": {
         "id": 97,
         "name": "Tilskadekommen i h\u00f8jsp\u00e6ndingsmast",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -2530,6 +2681,9 @@
         "id": 98,
         "name": "Ild i halmoplag",
         "place": "G\u00e5rd",
+        "place_array": {
+            "0": "G\u00e5rd"
+        },
         "average_credits": 1500,
         "generated_by": "Brandstation",
         "icons": {
@@ -2553,7 +2707,8 @@
     "99": {
         "id": 99,
         "name": "Ransagning af hus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Politistation",
         "icons": {
@@ -2576,7 +2731,8 @@
     "111": {
         "id": 111,
         "name": "Ild i str\u00e5t\u00e6kt hus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 8000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2609,6 +2765,9 @@
         "id": 112,
         "name": "Godstog i brand",
         "place": "Skinnekrydsning",
+        "place_array": {
+            "0": "Skinnekrydsning"
+        },
         "average_credits": 2000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2635,6 +2794,9 @@
         "id": 113,
         "name": "Godstog i brand",
         "place": "Jernbaneovergang",
+        "place_array": {
+            "0": "Jernbaneovergang"
+        },
         "average_credits": 2000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2661,6 +2823,9 @@
         "id": 114,
         "name": "Godstog i brand",
         "place": "Togstation (lokal trafik)",
+        "place_array": {
+            "0": "Togstation (lokal trafik)"
+        },
         "average_credits": 2000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2687,6 +2852,9 @@
         "id": 115,
         "name": "Godstog i brand",
         "place": "Godsstation",
+        "place_array": {
+            "0": "Godsstation"
+        },
         "average_credits": 2000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2713,6 +2881,9 @@
         "id": 116,
         "name": "St\u00f8rre trafikuheld i tunnel",
         "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
         "average_credits": 7000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2751,6 +2922,9 @@
         "id": 117,
         "name": "Ild i flere biler i tunnel",
         "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
         "average_credits": 5000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2786,6 +2960,9 @@
         "id": 118,
         "name": "Ild i Fastfood Restaurant",
         "place": "Fast Food-restaurant",
+        "place_array": {
+            "0": "Fast Food-restaurant"
+        },
         "average_credits": 1850,
         "generated_by": "Brandstation",
         "icons": {
@@ -2810,7 +2987,8 @@
     "119": {
         "id": 119,
         "name": "Bygnings Brand Industribygning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5300,
         "generated_by": "Brandstation",
         "icons": {
@@ -2841,7 +3019,8 @@
     "120": {
         "id": 120,
         "name": "Ukendt spild fra tankvogn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4300,
         "generated_by": "Brandstation",
         "icons": {
@@ -2871,7 +3050,8 @@
     "121": {
         "id": 121,
         "name": "Ild i sovev\u00e6relse",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Brandstation",
         "icons": {
@@ -2902,6 +3082,9 @@
         "id": 122,
         "name": "Afsporet godstog",
         "place": "Jernbaneovergang",
+        "place_array": {
+            "0": "Jernbaneovergang"
+        },
         "average_credits": 10000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2940,6 +3123,9 @@
         "id": 123,
         "name": "Afsporet godstog",
         "place": "Togstation (lokal trafik)",
+        "place_array": {
+            "0": "Togstation (lokal trafik)"
+        },
         "average_credits": 10000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2978,6 +3164,9 @@
         "id": 124,
         "name": "Afsporet godstog",
         "place": "Togstation (lokal og national /international trafik)",
+        "place_array": {
+            "0": "Togstation (lokal og national /international trafik)"
+        },
         "average_credits": 10000,
         "generated_by": "Brandstation",
         "icons": {
@@ -3015,7 +3204,8 @@
     "125": {
         "id": 125,
         "name": "Gr\u00f8ft redning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Brandstation",
         "icons": {
@@ -3047,7 +3237,8 @@
     "126": {
         "id": 126,
         "name": "Fangeflugt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Politistation",
         "icons": {
@@ -3073,7 +3264,8 @@
     "127": {
         "id": 127,
         "name": "Efters\u00e6ttelse",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Politistation",
         "icons": {
@@ -3098,6 +3290,9 @@
         "id": 128,
         "name": "Savnet person",
         "place": "Skov",
+        "place_array": {
+            "0": "Skov"
+        },
         "average_credits": 4500,
         "generated_by": "Politistation",
         "icons": {
@@ -3130,7 +3325,8 @@
     "129": {
         "id": 129,
         "name": "Ransagning efter efterlyst",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Politistation",
         "icons": {
@@ -3158,7 +3354,8 @@
     "130": {
         "id": 130,
         "name": "Politibetjent s\u00e5ret",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Politistation",
         "icons": {
@@ -3185,7 +3382,8 @@
     "131": {
         "id": 131,
         "name": "Ransagning af bil",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Politistation",
         "icons": {
@@ -3208,7 +3406,8 @@
     "132": {
         "id": 132,
         "name": "Lille demonstration",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Politistation",
         "icons": {
@@ -3240,7 +3439,8 @@
     "133": {
         "id": 133,
         "name": "Mellem demonstration",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Politistation",
         "icons": {
@@ -3271,7 +3471,8 @@
     "134": {
         "id": 134,
         "name": "Narkohandel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Politistation",
         "icons": {
@@ -3296,6 +3497,9 @@
         "id": 135,
         "name": "R\u00f8veri p\u00e5 tankstation",
         "place": "Benzinstation",
+        "place_array": {
+            "0": "Benzinstation"
+        },
         "average_credits": 1250,
         "generated_by": "Politistation",
         "icons": {
@@ -3321,7 +3525,8 @@
     "136": {
         "id": 136,
         "name": "Skud mod politiet",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4100,
         "generated_by": "Politistation",
         "icons": {
@@ -3356,7 +3561,8 @@
     "137": {
         "id": 137,
         "name": "Beskyttelse af VIP",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Politistation",
         "icons": {
@@ -3387,7 +3593,8 @@
     "138": {
         "id": 138,
         "name": "Indbrud i \u00f8jeblikket",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1250,
         "generated_by": "Politistation",
         "icons": {
@@ -3414,7 +3621,8 @@
     "139": {
         "id": 139,
         "name": "Mordfors\u00f8g",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Politistation",
         "icons": {
@@ -3449,6 +3657,9 @@
         "id": 140,
         "name": "R\u00f8veri p\u00e5 museum",
         "place": "Museum",
+        "place_array": {
+            "0": "Museum"
+        },
         "average_credits": 1000,
         "generated_by": "Politistation",
         "icons": {
@@ -3475,7 +3686,8 @@
     "141": {
         "id": 141,
         "name": "Anafylaktisk shock",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -3500,7 +3712,8 @@
     "142": {
         "id": 142,
         "name": "Skadet l\u00f8ber",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -3525,7 +3738,8 @@
     "143": {
         "id": 143,
         "name": "Barn forsvundet",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Politistation",
         "icons": {
@@ -3555,6 +3769,9 @@
         "id": 144,
         "name": "Lossepladsbrand",
         "place": "Losseplads",
+        "place_array": {
+            "0": "Losseplads"
+        },
         "average_credits": 3500,
         "generated_by": "Brandstation",
         "icons": {
@@ -3581,7 +3798,8 @@
     "145": {
         "id": 145,
         "name": "Ulovlig v\u00e5benbesiddelse",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Politistation",
         "icons": {
@@ -3604,7 +3822,8 @@
     "146": {
         "id": 146,
         "name": "Bilulykke med dyr",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Politistation",
         "icons": {
@@ -3632,7 +3851,8 @@
     "147": {
         "id": 147,
         "name": "\u00d8delagt vandr\u00f8r",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brandstation",
         "icons": {
@@ -3659,7 +3879,8 @@
     "148": {
         "id": 148,
         "name": "Br\u00e6kket arm",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -3684,7 +3905,8 @@
     "149": {
         "id": 149,
         "name": "Br\u00e6kket ben",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -3709,7 +3931,8 @@
     "150": {
         "id": 150,
         "name": "Dehydreret person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -3734,7 +3957,8 @@
     "151": {
         "id": 151,
         "name": "Madforgiftning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -3761,6 +3985,9 @@
         "id": 157,
         "name": "Hotelbrand (lille)",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 3000,
         "generated_by": "Brandstation",
         "icons": {
@@ -3792,6 +4019,9 @@
         "id": 158,
         "name": "Hotelbrand (mellemstor)",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 5000,
         "generated_by": "Brandstation",
         "icons": {
@@ -3825,6 +4055,9 @@
         "id": 159,
         "name": "Fejl i lyskryds",
         "place": "Lyskryds",
+        "place_array": {
+            "0": "Lyskryds"
+        },
         "average_credits": 250,
         "generated_by": "Politistation",
         "icons": {
@@ -3850,6 +4083,9 @@
         "id": 160,
         "name": "Bil k\u00f8rt i vandet",
         "place": "S\u00f8",
+        "place_array": {
+            "0": "S\u00f8"
+        },
         "average_credits": 1400,
         "generated_by": "Vandredningsstation",
         "icons": {
@@ -3886,6 +4122,9 @@
         "id": 161,
         "name": "Lastbil k\u00f8rt i vandet",
         "place": "S\u00f8",
+        "place_array": {
+            "0": "S\u00f8"
+        },
         "average_credits": 2000,
         "generated_by": "Vandredningsstation",
         "icons": {
@@ -3921,6 +4160,9 @@
         "id": 162,
         "name": "Bus k\u00f8rt i vandet",
         "place": "S\u00f8",
+        "place_array": {
+            "0": "S\u00f8"
+        },
         "average_credits": 3000,
         "generated_by": "Vandredningsstation",
         "icons": {
@@ -3956,6 +4198,9 @@
         "id": 163,
         "name": "Dykkerulykke",
         "place": "S\u00f8",
+        "place_array": {
+            "0": "S\u00f8"
+        },
         "average_credits": 1000,
         "generated_by": "Vandredningsstation",
         "icons": {
@@ -3986,6 +4231,9 @@
         "id": 164,
         "name": "Mand over bord - Person i vandet",
         "place": "S\u00f8",
+        "place_array": {
+            "0": "S\u00f8"
+        },
         "average_credits": 3000,
         "generated_by": "Vandredningsstation",
         "icons": {
@@ -4027,6 +4275,9 @@
         "id": 165,
         "name": "Person faldet i vandet",
         "place": "S\u00f8",
+        "place_array": {
+            "0": "S\u00f8"
+        },
         "average_credits": 1200,
         "generated_by": "Vandredningsstation",
         "icons": {
@@ -4056,6 +4307,9 @@
         "id": 166,
         "name": "Person faldet i vandet",
         "place": "Flod",
+        "place_array": {
+            "0": "Flod"
+        },
         "average_credits": 1200,
         "generated_by": "Vandredningsstation",
         "icons": {
@@ -4085,6 +4339,9 @@
         "id": 167,
         "name": "Hotelbrand (stor)",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 8000,
         "generated_by": "Brandstation",
         "icons": {
@@ -4127,6 +4384,9 @@
         "id": 168,
         "name": "Hotelbrand (enorm)",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 12000,
         "generated_by": "Brandstation",
         "icons": {
@@ -4164,7 +4424,8 @@
     "169": {
         "id": 169,
         "name": "Allergisk reaktion",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -4190,6 +4451,9 @@
         "id": 170,
         "name": "Person p\u00e5 spor",
         "place": "Togstation (lokal trafik)",
+        "place_array": {
+            "0": "Togstation (lokal trafik)"
+        },
         "average_credits": 900,
         "generated_by": "Politistation",
         "icons": {
@@ -4216,6 +4480,9 @@
         "id": 171,
         "name": "Person p\u00e5 spor",
         "place": "Togstation (lokal og national /international trafik)",
+        "place_array": {
+            "0": "Togstation (lokal og national /international trafik)"
+        },
         "average_credits": 900,
         "generated_by": "Politistation",
         "icons": {
@@ -4242,6 +4509,9 @@
         "id": 172,
         "name": "Person ramt af tog",
         "place": "Togstation (lokal trafik)",
+        "place_array": {
+            "0": "Togstation (lokal trafik)"
+        },
         "average_credits": 3000,
         "generated_by": "Brandstation",
         "icons": {
@@ -4277,6 +4547,9 @@
         "id": 173,
         "name": "Person ramt af tog",
         "place": "Togstation (lokal og national /international trafik)",
+        "place_array": {
+            "0": "Togstation (lokal og national /international trafik)"
+        },
         "average_credits": 3000,
         "generated_by": "Brandstation",
         "icons": {
@@ -4312,6 +4585,9 @@
         "id": 174,
         "name": "Bil brand i tunnel",
         "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
         "average_credits": 1500,
         "generated_by": "Brandstation",
         "icons": {
@@ -4343,7 +4619,8 @@
     "175": {
         "id": 175,
         "name": "Narkorazzia",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Politistation",
         "icons": {
@@ -4369,6 +4646,9 @@
         "id": 176,
         "name": "Brand p\u00e5 kraftv\u00e6rk",
         "place": "Kraftv\u00e6rk",
+        "place_array": {
+            "0": "Kraftv\u00e6rk"
+        },
         "average_credits": 14500,
         "generated_by": "Brandstation",
         "icons": {
@@ -4408,6 +4688,9 @@
         "id": 177,
         "name": "Massepanik p\u00e5 diskotek",
         "place": "Diskotek",
+        "place_array": {
+            "0": "Diskotek"
+        },
         "average_credits": 3500,
         "generated_by": "Politistation",
         "icons": {
@@ -4438,6 +4721,9 @@
         "id": 178,
         "name": "Brand i kontorbygning",
         "place": "Kontorbygning",
+        "place_array": {
+            "0": "Kontorbygning"
+        },
         "average_credits": 7000,
         "generated_by": "Brandstation",
         "icons": {
@@ -4476,6 +4762,9 @@
         "id": 179,
         "name": "Brand p\u00e5 Genbrugs Center",
         "place": "Genbrugscenter",
+        "place_array": {
+            "0": "Genbrugscenter"
+        },
         "average_credits": 10000,
         "generated_by": "Brandstation",
         "icons": {
@@ -4512,7 +4801,8 @@
     "180": {
         "id": 180,
         "name": "Kemikalie Forbranding Uheld",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -4538,6 +4828,9 @@
         "id": 181,
         "name": "Mindre Farbriks Brand",
         "place": "Fabrik",
+        "place_array": {
+            "0": "Fabrik"
+        },
         "average_credits": 2000,
         "generated_by": "Brandstation",
         "icons": {
@@ -4566,6 +4859,9 @@
         "id": 182,
         "name": "Mega Farbriks Brand",
         "place": "Fabrik",
+        "place_array": {
+            "0": "Fabrik"
+        },
         "average_credits": 9000,
         "generated_by": "Brandstation",
         "icons": {
@@ -4604,6 +4900,9 @@
         "id": 183,
         "name": "Ulovlig Varer Smugleri",
         "place": "Containerhavn",
+        "place_array": {
+            "0": "Containerhavn"
+        },
         "average_credits": 800,
         "generated_by": "Politistation",
         "icons": {
@@ -4628,6 +4927,9 @@
         "id": 184,
         "name": "Ulovlig Varer Smugleri",
         "place": "Krydstogthavn",
+        "place_array": {
+            "0": "Krydstogthavn"
+        },
         "average_credits": 800,
         "generated_by": "Politistation",
         "icons": {
@@ -4652,6 +4954,9 @@
         "id": 185,
         "name": "Ulovlig Varer Smugleri",
         "place": "Godsstation",
+        "place_array": {
+            "0": "Godsstation"
+        },
         "average_credits": 800,
         "generated_by": "Politistation",
         "icons": {
@@ -4675,7 +4980,8 @@
     "186": {
         "id": 186,
         "name": "Brand i Kloak",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Brandstation",
         "icons": {
@@ -4698,7 +5004,8 @@
     "187": {
         "id": 187,
         "name": "Person fanget under tr\u00e6",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brandstation",
         "icons": {
@@ -4729,6 +5036,9 @@
         "id": 188,
         "name": "Koncert",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 7000,
         "generated_by": "Brandstation",
         "icons": {
@@ -4758,6 +5068,9 @@
         "id": 189,
         "name": "Brand p\u00e5 museum",
         "place": "Museum",
+        "place_array": {
+            "0": "Museum"
+        },
         "average_credits": 7500,
         "generated_by": "Brandstation",
         "icons": {
@@ -4791,7 +5104,8 @@
     "190": {
         "id": 190,
         "name": "Lille voldelig demonstration",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Politistation",
         "icons": {
@@ -4825,7 +5139,8 @@
     "191": {
         "id": 191,
         "name": "Mellem voldelig demonstration",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Politistation",
         "icons": {
@@ -4859,6 +5174,9 @@
         "id": 192,
         "name": "Blind passager fundet",
         "place": "Godsstation",
+        "place_array": {
+            "0": "Godsstation"
+        },
         "average_credits": 2000,
         "generated_by": "Politistation",
         "icons": {
@@ -4893,6 +5211,9 @@
         "id": 193,
         "name": "Blind passager fundet",
         "place": "Containerhavn",
+        "place_array": {
+            "0": "Containerhavn"
+        },
         "average_credits": 2000,
         "generated_by": "Politistation",
         "icons": {
@@ -4927,6 +5248,9 @@
         "id": 194,
         "name": "Blind passager fundet",
         "place": "Krydstogthavn",
+        "place_array": {
+            "0": "Krydstogthavn"
+        },
         "average_credits": 2000,
         "generated_by": "Politistation",
         "icons": {
@@ -4961,6 +5285,9 @@
         "id": 195,
         "name": "Demonstranter p\u00e5 landingsbane",
         "place": "Lille lufthavn (landingsbane)",
+        "place_array": {
+            "0": "Lille lufthavn (landingsbane)"
+        },
         "average_credits": 1200,
         "generated_by": "Politistation",
         "icons": {
@@ -4994,6 +5321,9 @@
         "id": 196,
         "name": "Demonstranter p\u00e5 landingsbane",
         "place": "Stor lufthavn (landingsbane)",
+        "place_array": {
+            "0": "Stor lufthavn (landingsbane)"
+        },
         "average_credits": 1200,
         "generated_by": "Politistation",
         "icons": {
@@ -5025,7 +5355,8 @@
     "197": {
         "id": 197,
         "name": "Aktiveret overfaldsalarm",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Politistation",
         "icons": {
@@ -5056,6 +5387,9 @@
         "id": 198,
         "name": "Unders\u00f8gelse af formodet kriminalitet",
         "place": "Kontorbygning",
+        "place_array": {
+            "0": "Kontorbygning"
+        },
         "average_credits": 4000,
         "generated_by": "Politistation",
         "icons": {
@@ -5084,6 +5418,9 @@
         "id": 199,
         "name": "Kontor brugt til krypterings angreb",
         "place": "Kontorbygning",
+        "place_array": {
+            "0": "Kontorbygning"
+        },
         "average_credits": 6000,
         "generated_by": "Politistation",
         "icons": {
@@ -5112,7 +5449,8 @@
     "200": {
         "id": 200,
         "name": "Gemmested for cyber-kriminel organisation",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3600,
         "generated_by": "Politistation",
         "icons": {
@@ -5140,6 +5478,9 @@
         "id": 201,
         "name": "Kontor indblandet i korruption",
         "place": "Kontorbygning",
+        "place_array": {
+            "0": "Kontorbygning"
+        },
         "average_credits": 1900,
         "generated_by": "Politistation",
         "icons": {
@@ -5165,7 +5506,8 @@
     "211": {
         "id": 211,
         "name": "Ulykke med motorsav",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -5191,6 +5533,9 @@
         "id": 212,
         "name": "Br\u00e6ndende Godsvogn",
         "place": "Godsstation",
+        "place_array": {
+            "0": "Godsstation"
+        },
         "average_credits": 1500,
         "generated_by": "Brandstation",
         "icons": {
@@ -5213,7 +5558,8 @@
     "213": {
         "id": 213,
         "name": "Laserkontrol",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Politistation",
         "icons": {
@@ -5239,6 +5585,9 @@
         "id": 214,
         "name": "T\u00f8mrerv\u00e6rksteds Brand",
         "place": "T\u00f8mrer V\u00e6rksted",
+        "place_array": {
+            "0": "T\u00f8mrer V\u00e6rksted"
+        },
         "average_credits": 4200,
         "generated_by": "Brandstation",
         "icons": {
@@ -5273,6 +5622,9 @@
         "id": 215,
         "name": "Restaurant Brand",
         "place": "Restaurant",
+        "place_array": {
+            "0": "Restaurant"
+        },
         "average_credits": 5000,
         "generated_by": "Brandstation",
         "icons": {
@@ -5310,7 +5662,8 @@
     "224": {
         "id": 224,
         "name": "Mist\u00e6nkelig person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Politistation",
         "icons": {
@@ -5333,7 +5686,8 @@
     "225": {
         "id": 225,
         "name": "Elektrisk st\u00f8d",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -5359,6 +5713,9 @@
         "id": 226,
         "name": "Patrulje p\u00e5 g\u00e5gade",
         "place": "Bycenter",
+        "place_array": {
+            "0": "Bycenter"
+        },
         "average_credits": 1500,
         "generated_by": "Politistation",
         "icons": {
@@ -5383,7 +5740,8 @@
     "227": {
         "id": 227,
         "name": "Br\u00e6ndende bus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Brandstation",
         "icons": {
@@ -5411,7 +5769,8 @@
     "228": {
         "id": 228,
         "name": "Knust person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -5441,6 +5800,9 @@
         "id": 269,
         "name": "Mountain Biker uheld p\u00e5 sti",
         "place": "Skov",
+        "place_array": {
+            "0": "Skov"
+        },
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -5467,6 +5829,9 @@
         "id": 270,
         "name": "Stor Vej Blokade",
         "place": "Bro",
+        "place_array": {
+            "0": "Bro"
+        },
         "average_credits": 6000,
         "generated_by": "Politistation",
         "icons": {
@@ -5492,6 +5857,9 @@
         "id": 271,
         "name": "Lejligheds Brand i lejlighedskompleks",
         "place": "Skyskraber",
+        "place_array": {
+            "0": "Skyskraber"
+        },
         "average_credits": 1500,
         "generated_by": "Brandstation",
         "icons": {
@@ -5520,7 +5888,8 @@
     "272": {
         "id": 272,
         "name": "Transport K\u00f8ret\u00f8j V\u00e6ltet",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -5550,7 +5919,8 @@
     "273": {
         "id": 273,
         "name": "Ulovlig Internet Aktivitet",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Politistation",
         "icons": {
@@ -5573,7 +5943,8 @@
     "274": {
         "id": 274,
         "name": "Motions l\u00f8b",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 8000,
         "generated_by": "Politistation",
         "icons": {
@@ -5604,6 +5975,9 @@
         "id": 275,
         "name": "Sports Event",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -5633,6 +6007,9 @@
         "id": 276,
         "name": "Brand p\u00e5 stadion",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 8000,
         "generated_by": "Brandstation",
         "icons": {
@@ -5673,6 +6050,9 @@
         "id": 277,
         "name": "Masse sl\u00e5skamp ved match",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 8000,
         "generated_by": "Politistation",
         "icons": {
@@ -5707,6 +6087,9 @@
         "id": 278,
         "name": "Derby kamp",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 12000,
         "generated_by": "Politistation",
         "icons": {
@@ -5739,6 +6122,9 @@
         "id": 279,
         "name": "Masse sl\u00e5skamp ved Derby match",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 14500,
         "generated_by": "Politistation",
         "icons": {
@@ -5771,6 +6157,9 @@
         "id": 280,
         "name": "Kollapset bro",
         "place": "Bro",
+        "place_array": {
+            "0": "Bro"
+        },
         "average_credits": 7000,
         "generated_by": "Brandstation",
         "icons": {
@@ -5810,6 +6199,9 @@
         "id": 281,
         "name": "Drukne ulykke",
         "place": "Sv\u00f8mmehal",
+        "place_array": {
+            "0": "Sv\u00f8mmehal"
+        },
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -5836,6 +6228,9 @@
         "id": 282,
         "name": "Klor forgiftning",
         "place": "Sv\u00f8mmehal",
+        "place_array": {
+            "0": "Sv\u00f8mmehal"
+        },
         "average_credits": 500,
         "generated_by": "Brandstation",
         "icons": {
@@ -5870,6 +6265,9 @@
         "id": 283,
         "name": "Evakuering for klorudslip",
         "place": "Sv\u00f8mmehal",
+        "place_array": {
+            "0": "Sv\u00f8mmehal"
+        },
         "average_credits": 1200,
         "generated_by": "Brandstation",
         "icons": {
@@ -5905,7 +6303,8 @@
     "284": {
         "id": 284,
         "name": "Kat i tr\u00e6",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 375,
         "generated_by": "Brandstation",
         "icons": {
@@ -5927,7 +6326,8 @@
     "285": {
         "id": 285,
         "name": "Mist\u00e6nkelig pakke",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Politistation",
         "icons": {
@@ -5951,6 +6351,9 @@
         "id": 286,
         "name": "R\u00f8veri hos guldsmed",
         "place": "Indk\u00f8bscenter",
+        "place_array": {
+            "0": "Indk\u00f8bscenter"
+        },
         "average_credits": 800,
         "generated_by": "Politistation",
         "icons": {
@@ -5972,7 +6375,8 @@
     "287": {
         "id": 287,
         "name": "Tilskadekommen parkour ud\u00f8ver",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -6001,7 +6405,8 @@
     "288": {
         "id": 288,
         "name": "Glassk\u00e5r i h\u00e5nd",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulancestation",
         "icons": {
@@ -6026,7 +6431,8 @@
     "289": {
         "id": 289,
         "name": "Observation af mist\u00e6nkt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6000,
         "generated_by": "Politistation",
         "icons": {

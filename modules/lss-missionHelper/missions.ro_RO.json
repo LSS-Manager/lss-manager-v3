@@ -3,6 +3,9 @@
         "id": 0,
         "name": "Co\u0219 de gunoi \u00een fl\u0103c\u0103ri",
         "place": "Sta\u021bie de autobuz",
+        "place_array": {
+            "0": "Sta\u021bie de autobuz"
+        },
         "average_credits": 110,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -24,7 +27,8 @@
     "1": {
         "id": 1,
         "name": "Container \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -46,7 +50,8 @@
     "2": {
         "id": 2,
         "name": "Automobil \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 370,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -73,7 +78,8 @@
     "3": {
         "id": 3,
         "name": "Motociclet\u0103 \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -98,7 +104,8 @@
     "4": {
         "id": 4,
         "name": "Iarb\u0103 \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -123,7 +130,8 @@
     "5": {
         "id": 5,
         "name": "Camer\u0103 \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -151,7 +159,8 @@
     "6": {
         "id": 6,
         "name": "\u0218opron \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -173,7 +182,8 @@
     "7": {
         "id": 7,
         "name": "Frunze \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -198,7 +208,8 @@
     "8": {
         "id": 8,
         "name": "Depozit de de\u0219euri \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 220,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -225,7 +236,8 @@
     "9": {
         "id": 9,
         "name": "Balot de paie \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -251,7 +263,8 @@
     "10": {
         "id": 10,
         "name": "Tractor \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -273,7 +286,8 @@
     "11": {
         "id": 11,
         "name": "Cabin\u0103 telefonic\u0103 \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 240,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -295,7 +309,8 @@
     "12": {
         "id": 12,
         "name": "Copac c\u0103zut pe strad\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -321,7 +336,8 @@
     "13": {
         "id": 13,
         "name": "Camion \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 980,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -343,7 +359,8 @@
     "14": {
         "id": 14,
         "name": "C\u00e2mp mic \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -369,6 +386,9 @@
         "id": 15,
         "name": "Incendiu de vegeta\u021bie mic",
         "place": "P\u0103dure",
+        "place_array": {
+            "0": "P\u0103dure"
+        },
         "average_credits": 1010,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -390,7 +410,8 @@
     "16": {
         "id": 16,
         "name": "Caravan\u0103 \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -412,7 +433,8 @@
     "17": {
         "id": 17,
         "name": "Cutie po\u0219tal\u0103 \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -434,7 +456,8 @@
     "18": {
         "id": 18,
         "name": "Gr\u0103mad\u0103 de crengi uscate",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -456,7 +479,8 @@
     "19": {
         "id": 19,
         "name": "Rulot\u0103 \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -478,7 +502,8 @@
     "20": {
         "id": 20,
         "name": "Subsol \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -506,7 +531,8 @@
     "21": {
         "id": 21,
         "name": "\u0218emineu \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2400,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -535,7 +561,8 @@
     "22": {
         "id": 22,
         "name": "Acoperi\u0219 \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2700,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -562,7 +589,8 @@
     "23": {
         "id": 23,
         "name": "Incendiu \u00een buc\u0103t\u0103rie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -585,6 +613,9 @@
         "id": 24,
         "name": "Sta\u021bie de autobuz \u00een fl\u0103c\u0103ri",
         "place": "Sta\u021bie de autobuz",
+        "place_array": {
+            "0": "Sta\u021bie de autobuz"
+        },
         "average_credits": 900,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -606,7 +637,8 @@
     "25": {
         "id": 25,
         "name": "Accident rutier",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -638,6 +670,9 @@
         "id": 26,
         "name": "Incendiu \u00eentr-un supermarket mic",
         "place": "Supermarket (mic)",
+        "place_array": {
+            "0": "Supermarket (mic)"
+        },
         "average_credits": 1500,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -665,7 +700,8 @@
     "27": {
         "id": 27,
         "name": "Garaj \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -687,7 +723,8 @@
     "28": {
         "id": 28,
         "name": "Ma\u0219in\u0103 \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2470,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -714,7 +751,8 @@
     "29": {
         "id": 29,
         "name": "Scurgere dintr-o cistern\u0103 necunoscut\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5300,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -741,7 +779,8 @@
     "30": {
         "id": 30,
         "name": "Scurgere de gaze",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -764,7 +803,8 @@
     "31": {
         "id": 31,
         "name": "Incendiu \u00eentr-un c\u0103min",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1310,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -788,7 +828,8 @@
     "32": {
         "id": 32,
         "name": "Combin\u0103 agricol\u0103 \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -811,6 +852,9 @@
         "id": 33,
         "name": "Incendiu \u00eentr-un supermarket mic",
         "place": "Supermarket (mic)",
+        "place_array": {
+            "0": "Supermarket (mic)"
+        },
         "average_credits": 1500,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -839,6 +883,9 @@
         "id": 34,
         "name": "Incendiu \u00eentr-un spital",
         "place": "Spital",
+        "place_array": {
+            "0": "Spital"
+        },
         "average_credits": 6000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -869,7 +916,8 @@
     "35": {
         "id": 35,
         "name": "Intoxica\u021bie alcoolic\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -894,7 +942,8 @@
     "36": {
         "id": 36,
         "name": "Dureri \u00een piept",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -919,7 +968,8 @@
     "37": {
         "id": 37,
         "name": "Criz\u0103 de astm",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -944,7 +994,8 @@
     "38": {
         "id": 38,
         "name": "Convulsii",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -969,7 +1020,8 @@
     "39": {
         "id": 39,
         "name": "Febr\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -995,7 +1047,8 @@
     "40": {
         "id": 40,
         "name": "Persoan\u0103 c\u0103zut\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -1022,6 +1075,9 @@
         "id": 41,
         "name": "Incendiu \u00eentr-un atelier auto",
         "place": "Atelier auto",
+        "place_array": {
+            "0": "Atelier auto"
+        },
         "average_credits": 6000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1056,7 +1112,8 @@
     "42": {
         "id": 42,
         "name": "Persoan\u0103 c\u0103zut\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -1082,7 +1139,8 @@
     "43": {
         "id": 43,
         "name": "Persoan\u0103 c\u0103zut\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -1109,6 +1167,9 @@
         "id": 44,
         "name": "Furt din magazin",
         "place": "Supermarket (mic)",
+        "place_array": {
+            "0": "Supermarket (mic)"
+        },
         "average_credits": 100,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1132,6 +1193,9 @@
         "id": 45,
         "name": "Furt din magazin",
         "place": "Supermarket (mare)",
+        "place_array": {
+            "0": "Supermarket (mare)"
+        },
         "average_credits": 100,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1155,6 +1219,9 @@
         "id": 46,
         "name": "Accident cu ma\u0219ina parcat\u0103",
         "place": "Supermarket (mic)",
+        "place_array": {
+            "0": "Supermarket (mic)"
+        },
         "average_credits": 120,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1177,6 +1244,9 @@
         "id": 47,
         "name": "Accident cu ma\u0219ina parcat\u0103",
         "place": "Supermarket (mare)",
+        "place_array": {
+            "0": "Supermarket (mare)"
+        },
         "average_credits": 120,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1199,6 +1269,9 @@
         "id": 48,
         "name": "Furt de metal",
         "place": "Sta\u021bie de marf\u0103",
+        "place_array": {
+            "0": "Sta\u021bie de marf\u0103"
+        },
         "average_credits": 150,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1222,6 +1295,9 @@
         "id": 49,
         "name": "Furt din buzunare",
         "place": "Parc",
+        "place_array": {
+            "0": "Parc"
+        },
         "average_credits": 150,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1245,6 +1321,9 @@
         "id": 50,
         "name": "C\u0103l\u0103tor f\u0103r\u0103 bilet",
         "place": "Sta\u021bie de autobuz",
+        "place_array": {
+            "0": "Sta\u021bie de autobuz"
+        },
         "average_credits": 120,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1267,6 +1346,9 @@
         "id": 51,
         "name": "C\u0103l\u0103tor f\u0103r\u0103 bilet",
         "place": "Sta\u021bie de tramvai",
+        "place_array": {
+            "0": "Sta\u021bie de tramvai"
+        },
         "average_credits": 120,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1289,6 +1371,9 @@
         "id": 52,
         "name": "C\u0103l\u0103tor f\u0103r\u0103 bilet",
         "place": "Gar\u0103 (trafic regional)",
+        "place_array": {
+            "0": "Gar\u0103 (trafic regional)"
+        },
         "average_credits": 120,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1311,6 +1396,9 @@
         "id": 53,
         "name": "C\u0103l\u0103tor f\u0103r\u0103 bilet",
         "place": "Gar\u0103 (trafic regional \u0219i deplas\u0103ri pe distan\u021be lungi)",
+        "place_array": {
+            "0": "Gar\u0103 (trafic regional \u0219i deplas\u0103ri pe distan\u021be lungi)"
+        },
         "average_credits": 120,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1333,6 +1421,9 @@
         "id": 54,
         "name": "Accident cu ma\u0219ina parcat\u0103",
         "place": "Centru comercial",
+        "place_array": {
+            "0": "Centru comercial"
+        },
         "average_credits": 120,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1354,7 +1445,8 @@
     "55": {
         "id": 55,
         "name": "\u00cenc\u0103ierare",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1381,7 +1473,8 @@
     "56": {
         "id": 56,
         "name": "Protestatar",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1407,7 +1500,8 @@
     "57": {
         "id": 57,
         "name": "Protest f\u0103r\u0103 aprobare",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10020,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1428,7 +1522,8 @@
     "58": {
         "id": 58,
         "name": "Buc\u0103t\u0103rie \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1451,6 +1546,9 @@
         "id": 59,
         "name": "Salvare animale",
         "place": "Ferm\u0103",
+        "place_array": {
+            "0": "Ferm\u0103"
+        },
         "average_credits": 900,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1474,6 +1572,9 @@
         "id": 60,
         "name": "Incendiu \u00eentr-o sal\u0103 de sport",
         "place": "\u0218coal\u0103",
+        "place_array": {
+            "0": "\u0218coal\u0103"
+        },
         "average_credits": 2000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1503,6 +1604,9 @@
         "id": 61,
         "name": "Accident de avion u\u0219or (Aerodrom)",
         "place": "Aeroport mic (pist\u0103)",
+        "place_array": {
+            "0": "Aeroport mic (pist\u0103)"
+        },
         "average_credits": 2500,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1530,7 +1634,8 @@
     "62": {
         "id": 62,
         "name": "Pl\u00e2ngere pentru g\u0103l\u0103gie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1552,7 +1657,8 @@
     "63": {
         "id": 63,
         "name": "Atac ischemic trec\u0103tor",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -1577,7 +1683,8 @@
     "64": {
         "id": 64,
         "name": "Accident \u00een care este implicat un autobuz",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1605,7 +1712,8 @@
     "65": {
         "id": 65,
         "name": "Buc\u0103t\u0103rie \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1627,7 +1735,8 @@
     "66": {
         "id": 66,
         "name": "Camer\u0103 \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1655,7 +1764,8 @@
     "67": {
         "id": 67,
         "name": "\u00cenc\u0103ierare",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -1683,6 +1793,9 @@
         "id": 68,
         "name": "Incendiu \u00eentr-un supermarket mare",
         "place": "Supermarket (mare)",
+        "place_array": {
+            "0": "Supermarket (mare)"
+        },
         "average_credits": 3000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1716,7 +1829,8 @@
     "69": {
         "id": 69,
         "name": "Scurgere dintr-o cistern\u0103 necunoscut\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4300,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1744,6 +1858,9 @@
         "id": 70,
         "name": "Incendiu \u00eentr-un supermarket mare",
         "place": "Supermarket (mare)",
+        "place_array": {
+            "0": "Supermarket (mare)"
+        },
         "average_credits": 3000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1777,7 +1894,8 @@
     "71": {
         "id": 71,
         "name": "S\u00e2ngerare nazal\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -1803,7 +1921,8 @@
     "72": {
         "id": 72,
         "name": "Accident de avion u\u0219or",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1835,7 +1954,8 @@
     "73": {
         "id": 73,
         "name": "Accident grav \u00een care este implicat un autobuz",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1867,7 +1987,8 @@
     "74": {
         "id": 74,
         "name": "Incendiu major",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10210,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1892,7 +2013,8 @@
     "86": {
         "id": 86,
         "name": "Salvare din tran\u0219eea",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1924,7 +2046,8 @@
     "87": {
         "id": 87,
         "name": "Anafilaxie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -1949,7 +2072,8 @@
     "88": {
         "id": 88,
         "name": "Alerg\u0103tor ranit",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -1974,7 +2098,8 @@
     "89": {
         "id": 89,
         "name": "Copil pierdut",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -2002,6 +2127,9 @@
         "id": 90,
         "name": "Incendiu la depozitul",
         "place": "Depozit de de\u0219euri",
+        "place_array": {
+            "0": "Depozit de de\u0219euri"
+        },
         "average_credits": 3500,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2028,7 +2156,8 @@
     "91": {
         "id": 91,
         "name": "Persoan\u0103 \u00eenarmat\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -2051,7 +2180,8 @@
     "92": {
         "id": 92,
         "name": "Accident rutier cu animale",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -2079,7 +2209,8 @@
     "93": {
         "id": 93,
         "name": "Spargerea conductei",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2106,7 +2237,8 @@
     "94": {
         "id": 94,
         "name": "M\u00e2n\u0103 fracturat\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -2131,7 +2263,8 @@
     "95": {
         "id": 95,
         "name": "Picior fracturat",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -2156,7 +2289,8 @@
     "96": {
         "id": 96,
         "name": "Persoan\u0103 deshidratat\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -2181,7 +2315,8 @@
     "97": {
         "id": 97,
         "name": "Intoxica\u021bie alimentar\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -2208,6 +2343,9 @@
         "id": 103,
         "name": "Incendiu mic \u00een hotel",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 3000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2238,6 +2376,9 @@
         "id": 104,
         "name": "Incendiu mediu \u00een hotel",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 5000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2270,6 +2411,9 @@
         "id": 105,
         "name": "Semafor defect",
         "place": "Intersec\u021bie cu semafor",
+        "place_array": {
+            "0": "Intersec\u021bie cu semafor"
+        },
         "average_credits": 250,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -2295,6 +2439,9 @@
         "id": 106,
         "name": "Incendiu mare \u00een hotel",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 8000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2334,6 +2481,9 @@
         "id": 107,
         "name": "Incendiu major \u00een hotel",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 12000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2368,7 +2518,8 @@
     "108": {
         "id": 108,
         "name": "Reac\u0163ie alergic\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -2394,6 +2545,9 @@
         "id": 109,
         "name": "Pasager pe cale ferat\u0103",
         "place": "Gar\u0103 (trafic regional)",
+        "place_array": {
+            "0": "Gar\u0103 (trafic regional)"
+        },
         "average_credits": 900,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -2420,6 +2574,9 @@
         "id": 110,
         "name": "Pasager pe cale ferat\u0103",
         "place": "Gar\u0103 (trafic regional \u0219i deplas\u0103ri pe distan\u021be lungi)",
+        "place_array": {
+            "0": "Gar\u0103 (trafic regional \u0219i deplas\u0103ri pe distan\u021be lungi)"
+        },
         "average_credits": 900,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -2446,6 +2603,9 @@
         "id": 111,
         "name": "Persoan\u0103 lovit\u0103 de tren",
         "place": "Gar\u0103 (trafic regional)",
+        "place_array": {
+            "0": "Gar\u0103 (trafic regional)"
+        },
         "average_credits": 3000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2479,6 +2639,9 @@
         "id": 112,
         "name": "Persoan\u0103 lovit\u0103 de tren",
         "place": "Gar\u0103 (trafic regional \u0219i deplas\u0103ri pe distan\u021be lungi)",
+        "place_array": {
+            "0": "Gar\u0103 (trafic regional \u0219i deplas\u0103ri pe distan\u021be lungi)"
+        },
         "average_credits": 3000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2512,6 +2675,9 @@
         "id": 113,
         "name": "Incendiu de singur vehicol \u00een tunel",
         "place": "Tunel",
+        "place_array": {
+            "0": "Tunel"
+        },
         "average_credits": 1500,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2544,6 +2710,9 @@
         "id": 114,
         "name": "Central\u0103 electric\u0103 \u00een fl\u0103c\u0103ri",
         "place": "Central\u0103 electric\u0103",
+        "place_array": {
+            "0": "Central\u0103 electric\u0103"
+        },
         "average_credits": 14500,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2580,6 +2749,9 @@
         "id": 115,
         "name": "Panic\u0103 \u00een mas\u0103 la o discotec\u0103",
         "place": "Discotec\u0103",
+        "place_array": {
+            "0": "Discotec\u0103"
+        },
         "average_credits": 3500,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -2608,6 +2780,9 @@
         "id": 116,
         "name": "Incendiu \u00eentr-o cl\u0103dire de birouri",
         "place": "Cl\u0103dire de birouri",
+        "place_array": {
+            "0": "Cl\u0103dire de birouri"
+        },
         "average_credits": 7000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2640,7 +2815,8 @@
     "117": {
         "id": 117,
         "name": "Incendiu \u00een caban\u0103 cu stuf",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 8000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2673,6 +2849,9 @@
         "id": 118,
         "name": "Incendiu tren comerical",
         "place": "Trecere de nivel",
+        "place_array": {
+            "0": "Trecere de nivel"
+        },
         "average_credits": 2000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2699,6 +2878,9 @@
         "id": 119,
         "name": "Incendiu tren comerical",
         "place": "Trecere de cale ferat\u0103",
+        "place_array": {
+            "0": "Trecere de cale ferat\u0103"
+        },
         "average_credits": 2000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2725,6 +2907,9 @@
         "id": 120,
         "name": "Incendiu tren comerical",
         "place": "Gar\u0103 (trafic regional)",
+        "place_array": {
+            "0": "Gar\u0103 (trafic regional)"
+        },
         "average_credits": 2000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2751,6 +2936,9 @@
         "id": 121,
         "name": "Incendiu tren comerical",
         "place": "Sta\u021bie de marf\u0103",
+        "place_array": {
+            "0": "Sta\u021bie de marf\u0103"
+        },
         "average_credits": 2000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2777,6 +2965,9 @@
         "id": 122,
         "name": "Accident grav \u00een tunel",
         "place": "Tunel",
+        "place_array": {
+            "0": "Tunel"
+        },
         "average_credits": 7000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2812,6 +3003,9 @@
         "id": 123,
         "name": "Incendiu de multiple vehicule \u00een tunel",
         "place": "Tunel",
+        "place_array": {
+            "0": "Tunel"
+        },
         "average_credits": 5000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2846,6 +3040,9 @@
         "id": 124,
         "name": "Incendiu \u00een restaurant fast-food",
         "place": "Restaurant fast-food",
+        "place_array": {
+            "0": "Restaurant fast-food"
+        },
         "average_credits": 1850,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2870,7 +3067,8 @@
     "125": {
         "id": 125,
         "name": "Incendiu industrial",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5300,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2901,7 +3099,8 @@
     "126": {
         "id": 126,
         "name": "Scurgere din rezervor necunoscut",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4300,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2929,7 +3128,8 @@
     "127": {
         "id": 127,
         "name": "Incendiu mic \u00een buc\u0103tarie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2960,6 +3160,9 @@
         "id": 128,
         "name": "Incendiu la centrul de reciclare",
         "place": "Centru de reciclare",
+        "place_array": {
+            "0": "Centru de reciclare"
+        },
         "average_credits": 10000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -2994,7 +3197,8 @@
     "129": {
         "id": 129,
         "name": "Arsuri de la substan\u021be chimice",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -3020,6 +3224,9 @@
         "id": 130,
         "name": "Foc mic \u00een fabrica",
         "place": "Fabric\u0103",
+        "place_array": {
+            "0": "Fabric\u0103"
+        },
         "average_credits": 2000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3048,6 +3255,9 @@
         "id": 131,
         "name": "Incendiu major \u00een fabrica",
         "place": "Fabric\u0103",
+        "place_array": {
+            "0": "Fabric\u0103"
+        },
         "average_credits": 9000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3083,6 +3293,9 @@
         "id": 132,
         "name": "Contrabanda cu bunuri ilegale",
         "place": "Port pentru m\u0103rfuri",
+        "place_array": {
+            "0": "Port pentru m\u0103rfuri"
+        },
         "average_credits": 800,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -3106,6 +3319,9 @@
         "id": 133,
         "name": "Contrabanda cu bunuri ilegale",
         "place": "Doc pentru nave de croazier\u0103",
+        "place_array": {
+            "0": "Doc pentru nave de croazier\u0103"
+        },
         "average_credits": 800,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -3129,6 +3345,9 @@
         "id": 134,
         "name": "Contrabanda cu bunuri ilegale",
         "place": "Sta\u021bie de marf\u0103",
+        "place_array": {
+            "0": "Sta\u021bie de marf\u0103"
+        },
         "average_credits": 800,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -3151,7 +3370,8 @@
     "135": {
         "id": 135,
         "name": "Incendiu de trap\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3174,7 +3394,8 @@
     "136": {
         "id": 136,
         "name": "Persoan\u0103 prins\u0103 sub copac",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3205,6 +3426,9 @@
         "id": 137,
         "name": "Concert",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 7000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3234,6 +3458,9 @@
         "id": 138,
         "name": "Incendiu \u00een muzeu",
         "place": "Muzeu",
+        "place_array": {
+            "0": "Muzeu"
+        },
         "average_credits": 7500,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3265,7 +3492,8 @@
     "148": {
         "id": 148,
         "name": "Accident cu drujba",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -3291,6 +3519,9 @@
         "id": 149,
         "name": "Vagon de marfa \u00een fl\u0103c\u0103ri",
         "place": "Sta\u021bie de marf\u0103",
+        "place_array": {
+            "0": "Sta\u021bie de marf\u0103"
+        },
         "average_credits": 1500,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3313,7 +3544,8 @@
     "150": {
         "id": 150,
         "name": "Radar de vitez\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -3339,6 +3571,9 @@
         "id": 151,
         "name": "Incendiu la atelierul de t\u00e2mpl\u0103rie",
         "place": "Atelier de t\u00e2mpl\u0103rie",
+        "place_array": {
+            "0": "Atelier de t\u00e2mpl\u0103rie"
+        },
         "average_credits": 4200,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3373,6 +3608,9 @@
         "id": 152,
         "name": "Incendiu in restaurant",
         "place": "Restaurant",
+        "place_array": {
+            "0": "Restaurant"
+        },
         "average_credits": 5000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3409,7 +3647,8 @@
     "161": {
         "id": 161,
         "name": "Persoan\u0103 suspect\u0103",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -3432,7 +3671,8 @@
     "162": {
         "id": 162,
         "name": "Lovitura la coloana",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -3458,7 +3698,8 @@
     "163": {
         "id": 163,
         "name": "Pr\u0103bu\u0219irea par\u021bial\u0103 a unei cl\u0103diri ",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 7500,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3492,7 +3733,8 @@
     "164": {
         "id": 164,
         "name": "Cladire prabusita",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 9000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3526,7 +3768,8 @@
     "165": {
         "id": 165,
         "name": "Arsuri de gradul 3",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -3552,7 +3795,8 @@
     "166": {
         "id": 166,
         "name": "Lovitura grava la cap",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -3578,7 +3822,8 @@
     "167": {
         "id": 167,
         "name": "Amputarea traumatic\u0103 a membrelor",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -3605,6 +3850,9 @@
         "id": 168,
         "name": "Foc mare \u00een Ferma",
         "place": "Ferm\u0103",
+        "place_array": {
+            "0": "Ferm\u0103"
+        },
         "average_credits": 9000,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3629,7 +3877,8 @@
     "169": {
         "id": 169,
         "name": "Dureri de spate",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -3655,7 +3904,8 @@
     "170": {
         "id": 170,
         "name": "Electrocutare",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -3681,6 +3931,9 @@
         "id": 171,
         "name": "Patrularea pie\u021bii de strad\u0103",
         "place": "Pia\u021ba or\u0103\u0219eneasc\u0103",
+        "place_array": {
+            "0": "Pia\u021ba or\u0103\u0219eneasc\u0103"
+        },
         "average_credits": 1500,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -3705,7 +3958,8 @@
     "172": {
         "id": 172,
         "name": "Autobuz \u00een fl\u0103c\u0103ri",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3734,6 +3988,9 @@
         "id": 173,
         "name": "Alunecare de teren",
         "place": "Munte",
+        "place_array": {
+            "0": "Munte"
+        },
         "average_credits": 1500,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3763,6 +4020,9 @@
         "id": 197,
         "name": "Biciclist c\u0103zut de pe munte",
         "place": "Munte",
+        "place_array": {
+            "0": "Munte"
+        },
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -3789,6 +4049,9 @@
         "id": 198,
         "name": "Blocaj major \u00een trafic",
         "place": "Pod",
+        "place_array": {
+            "0": "Pod"
+        },
         "average_credits": 6000,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -3814,6 +4077,9 @@
         "id": 199,
         "name": "Foc \u00een bloc inalt",
         "place": "Bloc cu multe etaje",
+        "place_array": {
+            "0": "Bloc cu multe etaje"
+        },
         "average_credits": 1500,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3842,7 +4108,8 @@
     "200": {
         "id": 200,
         "name": "TIR r\u0103sturnat",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -3872,7 +4139,8 @@
     "201": {
         "id": 201,
         "name": "Activitate ilegala pe internet",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -3895,7 +4163,8 @@
     "202": {
         "id": 202,
         "name": "Pisica blocata \u00een copac",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 375,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -3917,7 +4186,8 @@
     "212": {
         "id": 212,
         "name": "Pachet suspect",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -3940,6 +4210,9 @@
         "id": 213,
         "name": "Jaf la magazinul de bijuterii",
         "place": "Centru comercial",
+        "place_array": {
+            "0": "Centru comercial"
+        },
         "average_credits": 800,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {
@@ -3961,7 +4234,8 @@
     "214": {
         "id": 214,
         "name": "Freerunner ranit",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -3990,7 +4264,8 @@
     "215": {
         "id": 215,
         "name": "Cioburi de sticla \u00een palma",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
         "icons": {
@@ -4015,7 +4290,8 @@
     "216": {
         "id": 216,
         "name": "Filarea unui suspect",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6000,
         "generated_by": "Sec\u021bie de poli\u021bie",
         "icons": {

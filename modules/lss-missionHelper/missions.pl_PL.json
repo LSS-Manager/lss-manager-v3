@@ -3,6 +3,9 @@
         "id": 0,
         "name": "Po\u017car kosza na \u015bmieci",
         "place": "Przystanek autobusowy",
+        "place_array": {
+            "0": "Przystanek autobusowy"
+        },
         "average_credits": 110,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -25,7 +28,8 @@
     "1": {
         "id": 1,
         "name": "Po\u017car kontenera",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -48,7 +52,8 @@
     "2": {
         "id": 2,
         "name": "P\u0142on\u0105cy samoch\u00f3d",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 370,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -76,7 +81,8 @@
     "3": {
         "id": 3,
         "name": "P\u0142on\u0105cy motocykl",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -102,7 +108,8 @@
     "4": {
         "id": 4,
         "name": "P\u0142on\u0105ca trawa",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -128,7 +135,8 @@
     "5": {
         "id": 5,
         "name": "Po\u017car pomieszczenia",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -157,7 +165,8 @@
     "6": {
         "id": 6,
         "name": "Po\u017car altanki",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -180,7 +189,8 @@
     "7": {
         "id": 7,
         "name": "P\u0142on\u0105ce li\u015bcie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -206,7 +216,8 @@
     "8": {
         "id": 8,
         "name": "Po\u017car gabaryt\u00f3w",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 220,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -234,7 +245,8 @@
     "9": {
         "id": 9,
         "name": "Po\u017car beli s\u0142omy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -261,7 +273,8 @@
     "10": {
         "id": 10,
         "name": "Po\u017car traktora",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -284,7 +297,8 @@
     "11": {
         "id": 11,
         "name": "Zwarcie w instalacji elektrycznej",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 240,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -307,7 +321,8 @@
     "12": {
         "id": 12,
         "name": "Drzewo na drodze",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -333,7 +348,8 @@
     "13": {
         "id": 13,
         "name": "P\u0142on\u0105ca ci\u0119\u017car\u00f3wka",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 980,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -356,7 +372,8 @@
     "14": {
         "id": 14,
         "name": "Ma\u0142y po\u017car pola",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -383,6 +400,9 @@
         "id": 15,
         "name": "Ma\u0142y po\u017car lasu",
         "place": "Las",
+        "place_array": {
+            "0": "Las"
+        },
         "average_credits": 1010,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -405,7 +425,8 @@
     "16": {
         "id": 16,
         "name": "Po\u017car przyczepy kempingowej",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -428,7 +449,8 @@
     "17": {
         "id": 17,
         "name": "P\u0142on\u0105ca skrzynka na listy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -451,7 +473,8 @@
     "18": {
         "id": 18,
         "name": "Sterta ga\u0142\u0119zi",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -473,7 +496,8 @@
     "19": {
         "id": 19,
         "name": "P\u0142on\u0105ca przyczepa",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -496,7 +520,8 @@
     "20": {
         "id": 20,
         "name": "Po\u017car piwnicy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -525,7 +550,8 @@
     "21": {
         "id": 21,
         "name": "Po\u017car komina",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2400,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -555,7 +581,8 @@
     "22": {
         "id": 22,
         "name": "Po\u017car dachu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2700,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -583,7 +610,8 @@
     "23": {
         "id": 23,
         "name": "P\u0142on\u0105cy t\u0142uszcz",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -607,6 +635,9 @@
         "id": 24,
         "name": "P\u0142on\u0105cy przystanek autobusowy",
         "place": "Przystanek autobusowy",
+        "place_array": {
+            "0": "Przystanek autobusowy"
+        },
         "average_credits": 900,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -629,7 +660,8 @@
     "25": {
         "id": 25,
         "name": "Kolizja drogowa",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -658,6 +690,9 @@
         "id": 26,
         "name": "Po\u017car ma\u0142ego supermarketu",
         "place": "Supermarket (ma\u0142y)",
+        "place_array": {
+            "0": "Supermarket (ma\u0142y)"
+        },
         "average_credits": 1500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -686,7 +721,8 @@
     "27": {
         "id": 27,
         "name": "Po\u017car gara\u017cu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -709,7 +745,8 @@
     "28": {
         "id": 28,
         "name": "P\u0142on\u0105ca maszyna",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2470,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -737,7 +774,8 @@
     "29": {
         "id": 29,
         "name": "Wyciek nieznanej substancji z cysterny",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5300,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -765,7 +803,8 @@
     "30": {
         "id": 30,
         "name": "Wyciek paliwa",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -788,7 +827,8 @@
     "31": {
         "id": 31,
         "name": "Po\u017car kominka",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1310,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -813,7 +853,8 @@
     "32": {
         "id": 32,
         "name": "Po\u017car kombajnu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -837,6 +878,9 @@
         "id": 33,
         "name": "Po\u017car ma\u0142ego supermarketu",
         "place": "Supermarket (ma\u0142y)",
+        "place_array": {
+            "0": "Supermarket (ma\u0142y)"
+        },
         "average_credits": 1500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -865,6 +909,9 @@
         "id": 34,
         "name": "Po\u017car w szpitalu",
         "place": "Szpital",
+        "place_array": {
+            "0": "Szpital"
+        },
         "average_credits": 6400,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -898,7 +945,8 @@
     "35": {
         "id": 35,
         "name": "Zatrucie alkoholem",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -923,7 +971,8 @@
     "36": {
         "id": 36,
         "name": "B\u00f3l w klatce piersiowej",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -950,7 +999,8 @@
     "37": {
         "id": 37,
         "name": "Zaostrzenie astmy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -975,7 +1025,8 @@
     "38": {
         "id": 38,
         "name": "Napad padaczkowy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -1001,7 +1052,8 @@
     "39": {
         "id": 39,
         "name": "Gor\u0105czka",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -1028,6 +1080,9 @@
         "id": 41,
         "name": "Po\u017car warsztatu samochodowego",
         "place": "Warsztat samochodowy",
+        "place_array": {
+            "0": "Warsztat samochodowy"
+        },
         "average_credits": 6000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1064,7 +1119,8 @@
     "42": {
         "id": 42,
         "name": "Upadek",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -1091,6 +1147,9 @@
         "id": 44,
         "name": "Kradzie\u017c sklepowa",
         "place": "Supermarket (ma\u0142y)",
+        "place_array": {
+            "0": "Supermarket (ma\u0142y)"
+        },
         "average_credits": 100,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1114,6 +1173,9 @@
         "id": 45,
         "name": "Kradzie\u017c sklepowa",
         "place": "Supermarket (du\u017cy)",
+        "place_array": {
+            "0": "Supermarket (du\u017cy)"
+        },
         "average_credits": 100,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1137,6 +1199,9 @@
         "id": 46,
         "name": "Incydent z zaparkowanym pojazdem",
         "place": "Supermarket (ma\u0142y)",
+        "place_array": {
+            "0": "Supermarket (ma\u0142y)"
+        },
         "average_credits": 120,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1159,6 +1224,9 @@
         "id": 47,
         "name": "Incydent z zaparkowanym pojazdem",
         "place": "Supermarket (du\u017cy)",
+        "place_array": {
+            "0": "Supermarket (du\u017cy)"
+        },
         "average_credits": 120,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1181,6 +1249,9 @@
         "id": 48,
         "name": "Kradzie\u017c metalu",
         "place": "Stacja towarowa",
+        "place_array": {
+            "0": "Stacja towarowa"
+        },
         "average_credits": 150,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1204,6 +1275,9 @@
         "id": 49,
         "name": "Kradzie\u017c kieszonkowa",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 150,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1227,6 +1301,9 @@
         "id": 50,
         "name": "Jazda bez biletu",
         "place": "Przystanek autobusowy",
+        "place_array": {
+            "0": "Przystanek autobusowy"
+        },
         "average_credits": 120,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1249,6 +1326,9 @@
         "id": 51,
         "name": "Jazda bez biletu",
         "place": "Przystanek tramwajowy",
+        "place_array": {
+            "0": "Przystanek tramwajowy"
+        },
         "average_credits": 120,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1271,6 +1351,9 @@
         "id": 52,
         "name": "Jazda bez biletu",
         "place": "Dworzec kolejowy (ruch podmiejski)",
+        "place_array": {
+            "0": "Dworzec kolejowy (ruch podmiejski)"
+        },
         "average_credits": 120,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1293,6 +1376,9 @@
         "id": 53,
         "name": "Jazda bez biletu",
         "place": "Dworzec kolejowy (ruch podmiejski i dalekobie\u017cny)",
+        "place_array": {
+            "0": "Dworzec kolejowy (ruch podmiejski i dalekobie\u017cny)"
+        },
         "average_credits": 120,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1315,6 +1401,9 @@
         "id": 54,
         "name": "Incydent z zaparkowanym pojazdem",
         "place": "Centrum handlowe",
+        "place_array": {
+            "0": "Centrum handlowe"
+        },
         "average_credits": 120,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1336,7 +1425,8 @@
     "55": {
         "id": 55,
         "name": "B\u00f3jka",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1363,7 +1453,8 @@
     "56": {
         "id": 56,
         "name": "Zamieszki",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1389,7 +1480,8 @@
     "57": {
         "id": 57,
         "name": "Nielegalna demonstracja",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10020,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1410,7 +1502,8 @@
     "58": {
         "id": 58,
         "name": "Po\u017car kuchni",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1434,6 +1527,9 @@
         "id": 59,
         "name": "Uwi\u0119zione zwierz\u0119",
         "place": "Gospodarstwo rolne",
+        "place_array": {
+            "0": "Gospodarstwo rolne"
+        },
         "average_credits": 900,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1457,6 +1553,9 @@
         "id": 60,
         "name": "Po\u017car hali sportowej",
         "place": "Szko\u0142a",
+        "place_array": {
+            "0": "Szko\u0142a"
+        },
         "average_credits": 2000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1487,7 +1586,8 @@
     "62": {
         "id": 62,
         "name": "Skarga na ha\u0142as",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1509,7 +1609,8 @@
     "63": {
         "id": 63,
         "name": "Przemijaj\u0105cy incydent niedokrwienny",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -1535,7 +1636,8 @@
     "64": {
         "id": 64,
         "name": "Wypadek z udzia\u0142em autobusu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1565,7 +1667,8 @@
     "66": {
         "id": 66,
         "name": "Po\u017car pomieszczenia",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1593,7 +1696,8 @@
     "67": {
         "id": 67,
         "name": "B\u00f3jka",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1621,6 +1725,9 @@
         "id": 68,
         "name": "Po\u017car du\u017cego supermarketu",
         "place": "Supermarket (du\u017cy)",
+        "place_array": {
+            "0": "Supermarket (du\u017cy)"
+        },
         "average_credits": 6000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1658,7 +1765,8 @@
     "71": {
         "id": 71,
         "name": "Krwawienie z nosa",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -1684,7 +1792,8 @@
     "72": {
         "id": 72,
         "name": "Katastrofa awionetki",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1719,7 +1828,8 @@
     "73": {
         "id": 73,
         "name": "Powa\u017cny wypadek z udzia\u0142em autobusu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1754,7 +1864,8 @@
     "74": {
         "id": 74,
         "name": "Du\u017cy po\u017car",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10210,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1779,7 +1890,8 @@
     "75": {
         "id": 75,
         "name": "Agresywny pasa\u017cer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -1805,7 +1917,8 @@
     "83": {
         "id": 83,
         "name": "Osoba uwi\u0119ziona pod maszyn\u0105",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1836,7 +1949,8 @@
     "84": {
         "id": 84,
         "name": "Uszkodzony dach",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1861,7 +1975,8 @@
     "85": {
         "id": 85,
         "name": "Dachowanie samochodu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1300,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1895,7 +2010,8 @@
     "86": {
         "id": 86,
         "name": "Po\u017car samochodu ci\u0119\u017carowego z naczep\u0105",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1919,6 +2035,9 @@
         "id": 87,
         "name": "Wypadek traktora",
         "place": "Gospodarstwo rolne",
+        "place_array": {
+            "0": "Gospodarstwo rolne"
+        },
         "average_credits": 1700,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1950,7 +2069,8 @@
     "101": {
         "id": 101,
         "name": "P\u0142on\u0105cy pojazd ci\u0119\u017carowy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -1979,7 +2099,8 @@
     "102": {
         "id": 102,
         "name": "P\u0142on\u0105ca \u015bmieciarka",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2006,7 +2127,8 @@
     "103": {
         "id": 103,
         "name": "Wypadek motocyklowy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2300,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2039,7 +2161,8 @@
     "104": {
         "id": 104,
         "name": "Wypadek dw\u00f3ch samochod\u00f3w - Zderzenie boczne",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2075,7 +2198,8 @@
     "105": {
         "id": 105,
         "name": "Najechanie na ty\u0142 samochodu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2110,7 +2234,8 @@
     "106": {
         "id": 106,
         "name": "Wypadek dw\u00f3ch samochod\u00f3w - Zderzenie czo\u0142owe",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2147,6 +2272,9 @@
         "id": 107,
         "name": "Wypadek na przeje\u017adzie kolejowym",
         "place": "Przejazd kolejowy",
+        "place_array": {
+            "0": "Przejazd kolejowy"
+        },
         "average_credits": 3700,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2182,7 +2310,8 @@
     "108": {
         "id": 108,
         "name": "Nag\u0142e zatrzymanie kr\u0105\u017cenia",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -2209,7 +2338,8 @@
     "109": {
         "id": 109,
         "name": "Udar m\u00f3zgu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -2236,7 +2366,8 @@
     "110": {
         "id": 110,
         "name": "Ci\u0119\u017cki uraz miednicy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -2263,7 +2394,8 @@
     "111": {
         "id": 111,
         "name": "Amputacja urazowa ko\u0144czyny",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -2290,7 +2422,8 @@
     "112": {
         "id": 112,
         "name": "Uraz g\u0142owy wymagaj\u0105cy pilnej interwencji neurochirurgicznej",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -2317,7 +2450,8 @@
     "113": {
         "id": 113,
         "name": "Oparzenie II\u00ba i III\u00ba przekraczaj\u0105ce 20% powierzchni cia\u0142a",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -2344,7 +2478,8 @@
     "114": {
         "id": 114,
         "name": "Uraz kr\u0119gos\u0142upa",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -2371,7 +2506,8 @@
     "115": {
         "id": 115,
         "name": "Pomoc Policji w otwarciu mieszkania",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2400,7 +2536,8 @@
     "116": {
         "id": 116,
         "name": "Czujka czadu w budynku mieszkalnym",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2434,7 +2571,8 @@
     "117": {
         "id": 117,
         "name": "Rozszczelnienie Butli z gazem",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1800,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2462,6 +2600,9 @@
         "id": 118,
         "name": "Po\u017car Ma\u0142ego Magazynu",
         "place": "Magazyn",
+        "place_array": {
+            "0": "Magazyn"
+        },
         "average_credits": 6500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2486,7 +2627,10 @@
     "119": {
         "id": 119,
         "name": "Po\u017car Ma\u0142ego Magazynu",
-        "place": null,
+        "place": "",
+        "place_array": {
+            "0": ""
+        },
         "average_credits": 6500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2512,6 +2656,9 @@
         "id": 120,
         "name": "Po\u017car Ma\u0142ego Magazynu",
         "place": "Fabryka",
+        "place_array": {
+            "0": "Fabryka"
+        },
         "average_credits": 6500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2536,6 +2683,9 @@
         "id": 121,
         "name": "Po\u017car Du\u017cego Magazynu",
         "place": "Magazyn",
+        "place_array": {
+            "0": "Magazyn"
+        },
         "average_credits": 10000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2563,7 +2713,10 @@
     "122": {
         "id": 122,
         "name": "Po\u017car Du\u017cego Magazynu",
-        "place": null,
+        "place": "",
+        "place_array": {
+            "0": ""
+        },
         "average_credits": 10000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2592,6 +2745,9 @@
         "id": 123,
         "name": "Po\u017car Du\u017cego Magazynu",
         "place": "Fabryka",
+        "place_array": {
+            "0": "Fabryka"
+        },
         "average_credits": 10000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2619,7 +2775,8 @@
     "124": {
         "id": 124,
         "name": "Po\u017car Pustostanu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2654,6 +2811,9 @@
         "id": 125,
         "name": "Po\u017car chlewni",
         "place": "Gospodarstwo rolne",
+        "place_array": {
+            "0": "Gospodarstwo rolne"
+        },
         "average_credits": 6500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2688,7 +2848,8 @@
     "126": {
         "id": 126,
         "name": "Zad\u0142awienie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -2716,6 +2877,9 @@
         "id": 128,
         "name": "Po\u017car w sto\u0142\u00f3wce",
         "place": "Szko\u0142a",
+        "place_array": {
+            "0": "Szko\u0142a"
+        },
         "average_credits": 1300,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2744,7 +2908,8 @@
     "130": {
         "id": 130,
         "name": "Zatrzymanie akcji serca",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -2771,7 +2936,8 @@
     "131": {
         "id": 131,
         "name": "Unieruchomiony Wspinacz",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2803,7 +2969,8 @@
     "132": {
         "id": 132,
         "name": "Pochylone drzewo na budynek mieszkalny",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2826,6 +2993,9 @@
         "id": 133,
         "name": "Zagro\u017cenie dla urz\u0119dnika pa\u0144stwowego",
         "place": "Stacja metra",
+        "place_array": {
+            "0": "Stacja metra"
+        },
         "average_credits": 750,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -2853,7 +3023,8 @@
     "134": {
         "id": 134,
         "name": "Zwierz\u0119 uwi\u0119zione w studni",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2876,6 +3047,9 @@
         "id": 135,
         "name": "Po\u017car silosu",
         "place": "Silos",
+        "place_array": {
+            "0": "Silos"
+        },
         "average_credits": 3000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2900,7 +3074,8 @@
     "136": {
         "id": 136,
         "name": "Po\u017car Stodo\u0142y",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2926,7 +3101,8 @@
     "137": {
         "id": 137,
         "name": "Poszkodowana osoba przez s\u0142up wysokiego napi\u0119cia",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -2957,7 +3133,8 @@
     "138": {
         "id": 138,
         "name": "Uwi\u0119ziony pies w rzece",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -2980,6 +3157,9 @@
         "id": 139,
         "name": "P\u0142on\u0105cy stos bel s\u0142omy",
         "place": "Gospodarstwo rolne",
+        "place_array": {
+            "0": "Gospodarstwo rolne"
+        },
         "average_credits": 1500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3004,7 +3184,8 @@
     "140": {
         "id": 140,
         "name": "Zalana piwnica",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3026,7 +3207,8 @@
     "141": {
         "id": 141,
         "name": "Nalot policyjny na rezydencj\u0119",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3049,7 +3231,8 @@
     "142": {
         "id": 142,
         "name": "Ucieczka wi\u0119\u017ania",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3075,7 +3258,8 @@
     "143": {
         "id": 143,
         "name": "Uciekaj\u0105cy podejrzany",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3101,6 +3285,9 @@
         "id": 144,
         "name": "Poszukiwana osoba",
         "place": "Las",
+        "place_array": {
+            "0": "Las"
+        },
         "average_credits": 4500,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3133,7 +3320,8 @@
     "145": {
         "id": 145,
         "name": "Oczekuj\u0105cy nakaz",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3161,7 +3349,8 @@
     "146": {
         "id": 146,
         "name": "Ranny funkcjonariusz",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3188,7 +3377,8 @@
     "147": {
         "id": 147,
         "name": "Przeszukanie pojazdu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3211,7 +3401,8 @@
     "148": {
         "id": 148,
         "name": "Ma\u0142y niebezpieczny protest",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3243,7 +3434,8 @@
     "149": {
         "id": 149,
         "name": "\u015aredni niebezpieczny protest",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3275,7 +3467,8 @@
     "150": {
         "id": 150,
         "name": "Handel Narkotykami",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3300,6 +3493,9 @@
         "id": 151,
         "name": "Napad na stacj\u0119 benzynow\u0105",
         "place": "Stacja paliw",
+        "place_array": {
+            "0": "Stacja paliw"
+        },
         "average_credits": 1250,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3325,7 +3521,8 @@
     "152": {
         "id": 152,
         "name": "Policjant pod ostrza\u0142em",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4100,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3359,7 +3556,8 @@
     "153": {
         "id": 153,
         "name": "Przem\u00f3wienie VIPa",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3387,7 +3585,8 @@
     "154": {
         "id": 154,
         "name": "Najazd na dom",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1250,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3414,7 +3613,8 @@
     "155": {
         "id": 155,
         "name": "Usi\u0142owanie morderstwa",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3448,6 +3648,9 @@
         "id": 156,
         "name": "Napad na muzeum",
         "place": "Muzeum",
+        "place_array": {
+            "0": "Muzeum"
+        },
         "average_credits": 1000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3472,7 +3675,8 @@
     "168": {
         "id": 168,
         "name": "Wybuch gazu w mieszkaniu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3506,7 +3710,8 @@
     "169": {
         "id": 169,
         "name": "Ulatniaj\u0105cy si\u0119 gaz",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3533,7 +3738,8 @@
     "170": {
         "id": 170,
         "name": "Zatrzymanie obywatelskie (pijany kierowca)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3555,7 +3761,8 @@
     "171": {
         "id": 171,
         "name": "Zatrzymanie obywatelskie (pr\u00f3ba ucieczki sprawcy wypadku)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3577,7 +3784,8 @@
     "172": {
         "id": 172,
         "name": "Podejrzana osoba pod szko\u0142\u0105 (diler)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3599,7 +3807,8 @@
     "173": {
         "id": 173,
         "name": "Pr\u00f3ba samob\u00f3jcza (skok z budynku)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3631,7 +3840,8 @@
     "174": {
         "id": 174,
         "name": "Po\u017car autokaru",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3655,7 +3865,8 @@
     "175": {
         "id": 175,
         "name": "Zalany dom",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3677,7 +3888,8 @@
     "176": {
         "id": 176,
         "name": "Zalany gara\u017c",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3699,7 +3911,8 @@
     "177": {
         "id": 177,
         "name": "Kot na drzewie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3724,7 +3937,8 @@
     "179": {
         "id": 179,
         "name": "Potr\u0105cenie na przej\u015bciu dla pieszych",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3756,7 +3970,8 @@
     "180": {
         "id": 180,
         "name": "Wypadek ma\u0142ego busa przewo\u017c\u0105cego osoby",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3791,7 +4006,8 @@
     "181": {
         "id": 181,
         "name": "Po\u017car transformatora",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3814,7 +4030,8 @@
     "182": {
         "id": 182,
         "name": "Rozleg\u0142y po\u017car wysypiska \u015bmieci",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3845,7 +4062,8 @@
     "183": {
         "id": 183,
         "name": "Potrzebne Wsparcie Podczas Zatrzymania",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3871,7 +4089,8 @@
     "184": {
         "id": 184,
         "name": "Gniazdo szerszeni w budynku mieszkalnym",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3893,7 +4112,8 @@
     "185": {
         "id": 185,
         "name": "Poszukiwania zaginionej osoby",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3925,6 +4145,9 @@
         "id": 186,
         "name": "Zabezpieczenie meczu pi\u0142karskiego",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 3700,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -3958,6 +4181,9 @@
         "id": 187,
         "name": "Po\u017car rafinerii",
         "place": "Fabryka",
+        "place_array": {
+            "0": "Fabryka"
+        },
         "average_credits": 10000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -3989,7 +4215,8 @@
     "188": {
         "id": 188,
         "name": "Zawalenie si\u0119 wie\u017cy ko\u015bcio\u0142a",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 8000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -4023,6 +4250,9 @@
         "id": 189,
         "name": "Zderzenie wozu stra\u017cackiego z samochodem osobowym",
         "place": "Zjazd z autostrady",
+        "place_array": {
+            "0": "Zjazd z autostrady"
+        },
         "average_credits": 2500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -4058,6 +4288,9 @@
         "id": 190,
         "name": "Zderzenie radiowozu z samochodem osobowym",
         "place": "Zjazd z autostrady",
+        "place_array": {
+            "0": "Zjazd z autostrady"
+        },
         "average_credits": 2500,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -4094,6 +4327,9 @@
         "id": 191,
         "name": "Zderzenie karetki z samochodem osobowym",
         "place": "Zjazd z autostrady",
+        "place_array": {
+            "0": "Zjazd z autostrady"
+        },
         "average_credits": 2500,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -4129,7 +4365,8 @@
     "192": {
         "id": 192,
         "name": "Rozpylona nieznana substancja w markecie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6650,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -4158,7 +4395,8 @@
     "193": {
         "id": 193,
         "name": "Wybuch agregatu ch\u0142odz\u0105cego",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4900,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -4194,6 +4432,9 @@
         "id": 194,
         "name": "Po\u017car w fabryce opon",
         "place": "Fabryka",
+        "place_array": {
+            "0": "Fabryka"
+        },
         "average_credits": 10000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -4230,6 +4471,9 @@
         "id": 195,
         "name": "Wypadek wi\u0119ziennego autobusu",
         "place": "Zjazd z autostrady",
+        "place_array": {
+            "0": "Zjazd z autostrady"
+        },
         "average_credits": 3700,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -4269,6 +4513,9 @@
         "id": 196,
         "name": "Pokazy Po\u017carnicze w przedszkolu",
         "place": "Szko\u0142a",
+        "place_array": {
+            "0": "Szko\u0142a"
+        },
         "average_credits": 800,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -4291,7 +4538,8 @@
     "197": {
         "id": 197,
         "name": "Zwisaj\u0105ca ga\u0142\u0105\u017a",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -4318,6 +4566,9 @@
         "id": 198,
         "name": "Wypadek podczas nurkowania",
         "place": "Jezioro",
+        "place_array": {
+            "0": "Jezioro"
+        },
         "average_credits": 2000,
         "generated_by": "Stacja WOPR",
         "icons": {
@@ -4349,6 +4600,9 @@
         "id": 199,
         "name": "Zaginiona osoba w pobli\u017cu wody",
         "place": "Jezioro",
+        "place_array": {
+            "0": "Jezioro"
+        },
         "average_credits": 5500,
         "generated_by": "Stacja WOPR",
         "icons": {
@@ -4391,6 +4645,9 @@
         "id": 200,
         "name": "Osoba ton\u0105ca w wodzie",
         "place": "Jezioro",
+        "place_array": {
+            "0": "Jezioro"
+        },
         "average_credits": 800,
         "generated_by": "Stacja WOPR",
         "icons": {
@@ -4414,6 +4671,9 @@
         "id": 201,
         "name": "Osoba ton\u0105ca w wodzie",
         "place": "Jezioro",
+        "place_array": {
+            "0": "Jezioro"
+        },
         "average_credits": 1200,
         "generated_by": "Stacja WOPR",
         "icons": {
@@ -4444,6 +4704,9 @@
         "id": 202,
         "name": "Samoch\u00f3d w wodzie",
         "place": "Jezioro",
+        "place_array": {
+            "0": "Jezioro"
+        },
         "average_credits": 2000,
         "generated_by": "Stacja WOPR",
         "icons": {
@@ -4481,6 +4744,9 @@
         "id": 203,
         "name": "Ci\u0119\u017car\u00f3wka w wodzie",
         "place": "Jezioro",
+        "place_array": {
+            "0": "Jezioro"
+        },
         "average_credits": 3400,
         "generated_by": "Stacja WOPR",
         "icons": {
@@ -4517,6 +4783,9 @@
         "id": 204,
         "name": "Bus w Wodzie",
         "place": "Jezioro",
+        "place_array": {
+            "0": "Jezioro"
+        },
         "average_credits": 4000,
         "generated_by": "Stacja WOPR",
         "icons": {
@@ -4552,6 +4821,9 @@
         "id": 210,
         "name": "Napad na sklep w centrum handlowym",
         "place": "Centrum handlowe",
+        "place_array": {
+            "0": "Centrum handlowe"
+        },
         "average_credits": 7300,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -4592,6 +4864,9 @@
         "id": 211,
         "name": "Po\u017car wagon\u00f3w kolejowych na bocznicy",
         "place": "Przejazd kolejowy",
+        "place_array": {
+            "0": "Przejazd kolejowy"
+        },
         "average_credits": 4000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -4619,6 +4894,9 @@
         "id": 212,
         "name": "Po\u017car Fabryki Chemikali\u00f3w",
         "place": "Fabryka",
+        "place_array": {
+            "0": "Fabryka"
+        },
         "average_credits": 15000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -4651,7 +4929,8 @@
     "213": {
         "id": 213,
         "name": "Du\u017cy po\u017car pola",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3800,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -4677,6 +4956,9 @@
         "id": 214,
         "name": "Uruchomiony ROP (R\u0119czny ostrzegacz po\u017carowy) w galerii handlowej",
         "place": "Centrum handlowe",
+        "place_array": {
+            "0": "Centrum handlowe"
+        },
         "average_credits": 2100,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -4701,7 +4983,8 @@
     "215": {
         "id": 215,
         "name": "Wybuch - przerwany gazoci\u0105g",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 8700,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -4739,7 +5022,8 @@
     "216": {
         "id": 216,
         "name": "Po\u017car sadzy w kominie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -4768,7 +5052,8 @@
     "217": {
         "id": 217,
         "name": "Podpalacz",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -4787,7 +5072,8 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 182
+                "2": 226,
+                "3": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -4800,7 +5086,8 @@
     "218": {
         "id": 218,
         "name": "Pomoc Zespo\u0142owi Ratownictwa Medycznego",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1170,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -4833,7 +5120,8 @@
     "219": {
         "id": 219,
         "name": "Zabezpieczenie l\u0105dowiska LPR  podczas wypadku",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1010,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -4863,7 +5151,8 @@
     "220": {
         "id": 220,
         "name": "Z\u0142amanie otwarte r\u0119ki",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 810,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -4889,7 +5178,8 @@
     "221": {
         "id": 221,
         "name": "Otwarte z\u0142amanie nogi",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 810,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -4915,7 +5205,8 @@
     "222": {
         "id": 222,
         "name": "Zatrucie pokarmowe",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 810,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -4942,7 +5233,8 @@
     "223": {
         "id": 223,
         "name": "Rodz\u0105ca Kobieta",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 810,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -4969,7 +5261,8 @@
     "224": {
         "id": 224,
         "name": "Porwanie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -4999,7 +5292,8 @@
     "225": {
         "id": 225,
         "name": "Podejrzany pakunek w autobusie/tramwaju",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5028,7 +5322,8 @@
     "227": {
         "id": 227,
         "name": "Po\u017car w zajezdni tramwajowej",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3600,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -5064,7 +5359,8 @@
     "228": {
         "id": 228,
         "name": "Potr\u0105cenie przez poci\u0105g",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5425,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -5100,7 +5396,8 @@
     "229": {
         "id": 229,
         "name": "Nieprzytomna osoba na chodniku",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -5128,6 +5425,9 @@
         "id": 230,
         "name": "Nieprzytomna osoba na przystanku autobusowym",
         "place": "Przystanek autobusowy",
+        "place_array": {
+            "0": "Przystanek autobusowy"
+        },
         "average_credits": 1500,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -5155,6 +5455,9 @@
         "id": 231,
         "name": "Z\u0142amanie otwarte",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 1500,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -5183,6 +5486,9 @@
         "id": 232,
         "name": "Pr\u00f3ba samob\u00f3jcza - podci\u0119cie \u017cy\u0142",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 1900,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -5216,6 +5522,9 @@
         "id": 233,
         "name": "Pilny transport mi\u0119dzyszpitalny",
         "place": "Szpital",
+        "place_array": {
+            "0": "Szpital"
+        },
         "average_credits": 1500,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -5243,7 +5552,8 @@
     "234": {
         "id": 234,
         "name": "Zawa\u0142",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -5272,7 +5582,8 @@
     "235": {
         "id": 235,
         "name": "Przedawkowanie Lek\u00f3w",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -5301,7 +5612,8 @@
     "236": {
         "id": 236,
         "name": "Atak Hakera na Stron\u0119 Rz\u0105dow\u0105",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5324,7 +5636,8 @@
     "237": {
         "id": 237,
         "name": "Po\u017car skrzyd\u0142a turbiny wiatrowej",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1700,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -5350,7 +5663,8 @@
     "238": {
         "id": 238,
         "name": "Po\u017car \u017curawia na budowie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -5378,7 +5692,8 @@
     "239": {
         "id": 239,
         "name": "Po\u017car komina hutniczego",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -5406,7 +5721,8 @@
     "240": {
         "id": 240,
         "name": "Po\u017car biurowca",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 20000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -5446,6 +5762,9 @@
         "id": 241,
         "name": "Karambol w tunelu",
         "place": "Tunel",
+        "place_array": {
+            "0": "Tunel"
+        },
         "average_credits": 3200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -5478,7 +5797,8 @@
     "242": {
         "id": 242,
         "name": "Przewr\u00f3cenie Si\u0119 Cysterny Z Paliwem",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -5513,6 +5833,9 @@
         "id": 243,
         "name": "Po\u017car w szkole",
         "place": "Szko\u0142a",
+        "place_array": {
+            "0": "Szko\u0142a"
+        },
         "average_credits": 6500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -5544,7 +5867,8 @@
     "244": {
         "id": 244,
         "name": "Po\u017car bloku",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -5579,7 +5903,8 @@
     "245": {
         "id": 245,
         "name": "Pow\u00f3d\u017a - uk\u0142adanie work\u00f3w z piaskiem",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -5602,7 +5927,8 @@
     "246": {
         "id": 246,
         "name": "Po\u017car domu jednorodzinnego",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -5633,7 +5959,8 @@
     "247": {
         "id": 247,
         "name": "Po\u017car stolarni",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2800,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -5659,7 +5986,8 @@
     "248": {
         "id": 248,
         "name": "Zakorkowanie Ulicy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5684,7 +6012,8 @@
     "249": {
         "id": 249,
         "name": "Uszkodzenie Mienia",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5706,7 +6035,8 @@
     "250": {
         "id": 250,
         "name": "Pobicie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5732,7 +6062,8 @@
     "260": {
         "id": 260,
         "name": "Jazda pod pr\u0105d",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5757,7 +6088,8 @@
     "261": {
         "id": 261,
         "name": "St\u0142uczka",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5782,7 +6114,8 @@
     "262": {
         "id": 262,
         "name": "Jazda bez w\u0142\u0105czonych \u015bwiate\u0142",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5807,7 +6140,8 @@
     "263": {
         "id": 263,
         "name": "Niezabezpieczony \u0142adunek w poje\u017adzie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5832,7 +6166,8 @@
     "264": {
         "id": 264,
         "name": "Zaparkowanie pojazdu na chodniku",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5857,7 +6192,8 @@
     "265": {
         "id": 265,
         "name": "Pojazd Stoj\u0105cy na Zakazie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5882,7 +6218,8 @@
     "266": {
         "id": 266,
         "name": "Poruszanie Si\u0119 Uszkodzonego Pojazdu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5907,7 +6244,8 @@
     "267": {
         "id": 267,
         "name": "Pojazd Blokuj\u0105cy Wjazd na Posesj\u0119",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5932,7 +6270,8 @@
     "268": {
         "id": 268,
         "name": "Nietrze\u017awy Kierowca",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5957,7 +6296,8 @@
     "269": {
         "id": 269,
         "name": "Grupa nielegalnych imigrant\u00f3w",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1300,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5981,7 +6321,8 @@
     "270": {
         "id": 270,
         "name": "Nielegalny imigrant",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -6009,6 +6350,9 @@
         "id": 271,
         "name": "Wypadek drogowy z udzia\u0142em samochodu ci\u0119\u017carowego",
         "place": "Zjazd z autostrady",
+        "place_array": {
+            "0": "Zjazd z autostrady"
+        },
         "average_credits": 2300,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6038,7 +6382,8 @@
     "272": {
         "id": 272,
         "name": "Publiczne Spozywanie Alkoholu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -6061,6 +6406,9 @@
         "id": 273,
         "name": "Wypadek samochodowy z udzia\u0142em ci\u0119\u017car\u00f3wki w tunelu",
         "place": "Tunel",
+        "place_array": {
+            "0": "Tunel"
+        },
         "average_credits": 3000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6092,7 +6440,8 @@
     "274": {
         "id": 274,
         "name": "Doprowadzenie Do S\u0105du",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -6114,7 +6463,8 @@
     "275": {
         "id": 275,
         "name": "Po\u017car tartaku",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1900,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6139,7 +6489,8 @@
     "276": {
         "id": 276,
         "name": "Pijacka B\u00f3jka",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -6165,7 +6516,8 @@
     "277": {
         "id": 277,
         "name": "Karambol",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4300,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6200,7 +6552,8 @@
     "278": {
         "id": 278,
         "name": "Stalking",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -6223,6 +6576,9 @@
         "id": 279,
         "name": "Wypadek rowerzysty na trasie rowerowej",
         "place": "Las",
+        "place_array": {
+            "0": "Las"
+        },
         "average_credits": 1900,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -6254,7 +6610,8 @@
     "297": {
         "id": 297,
         "name": "Niebezpiecznie przechylony baner reklamowy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6280,7 +6637,8 @@
     "298": {
         "id": 298,
         "name": "Zak\u0142\u00f3canie Porz\u0105dku Publicznego",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -6302,7 +6660,8 @@
     "299": {
         "id": 299,
         "name": "Katastrofa budowlana",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 9800,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6338,7 +6697,8 @@
     "300": {
         "id": 300,
         "name": "Drzewo powalone na samoch\u00f3d",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 850,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6362,7 +6722,8 @@
     "301": {
         "id": 301,
         "name": "Zalany magazyn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 850,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6384,7 +6745,8 @@
     "312": {
         "id": 312,
         "name": "Pojazd w rowie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6409,7 +6771,8 @@
     "313": {
         "id": 313,
         "name": "Od\u0142amany Konar",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6433,6 +6796,9 @@
         "id": 314,
         "name": "Awaria Windy",
         "place": "Wie\u017cowiec",
+        "place_array": {
+            "0": "Wie\u017cowiec"
+        },
         "average_credits": 800,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6462,7 +6828,8 @@
     "315": {
         "id": 315,
         "name": "Niezidentyfikowana Substancja Chemiczna",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6490,6 +6857,9 @@
         "id": 316,
         "name": "Substancja Ropopochodna Na Rzece",
         "place": "Rzeka",
+        "place_array": {
+            "0": "Rzeka"
+        },
         "average_credits": 2000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6517,6 +6887,9 @@
         "id": 317,
         "name": "Substancja Ropopochodna W Jeziorze",
         "place": "Jezioro",
+        "place_array": {
+            "0": "Jezioro"
+        },
         "average_credits": 2000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6543,7 +6916,8 @@
     "318": {
         "id": 318,
         "name": "Podpalenie Samochodu",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6567,7 +6941,8 @@
     "319": {
         "id": 319,
         "name": "Napad Na Konw\u00f3j Z Pieni\u0119dzmi",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -6598,7 +6973,8 @@
     "320": {
         "id": 320,
         "name": "Zawalenie Budynku Mieszkalnego",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6633,6 +7009,9 @@
         "id": 321,
         "name": "Zawalenie Wie\u017cowca",
         "place": "Wie\u017cowiec",
+        "place_array": {
+            "0": "Wie\u017cowiec"
+        },
         "average_credits": 14000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6674,6 +7053,9 @@
         "id": 322,
         "name": "Po\u017car Domku Letniskowego",
         "place": "Las",
+        "place_array": {
+            "0": "Las"
+        },
         "average_credits": 2500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6707,7 +7089,8 @@
     "323": {
         "id": 323,
         "name": "Sprzeda\u017c Alkoholu Nieletnim",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -6729,7 +7112,8 @@
     "324": {
         "id": 324,
         "name": "Grafficiarz",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -6751,7 +7135,8 @@
     "325": {
         "id": 325,
         "name": "Awantura Domowa",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -6773,7 +7158,8 @@
     "335": {
         "id": 335,
         "name": "Zatrucie Czadem",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1470,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -6805,7 +7191,8 @@
     "336": {
         "id": 336,
         "name": "Odwodnienie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 810,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -6831,7 +7218,8 @@
     "337": {
         "id": 337,
         "name": "Silny b\u00f3l brzucha",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -6857,7 +7245,8 @@
     "338": {
         "id": 338,
         "name": "Pogryzienie przez psa",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 850,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -6883,7 +7272,8 @@
     "339": {
         "id": 339,
         "name": "Krwotok wewn\u0119trzny",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -6909,7 +7299,8 @@
     "340": {
         "id": 340,
         "name": "Uraz wielonarz\u0105dowy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 810,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -6936,7 +7327,8 @@
     "341": {
         "id": 341,
         "name": "Hipotermia",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -6963,7 +7355,8 @@
     "342": {
         "id": 342,
         "name": "Oparzenie twarzy",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 950,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -6990,7 +7383,8 @@
     "343": {
         "id": 343,
         "name": "Zaburzenia rytmu serca",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -7017,7 +7411,8 @@
     "344": {
         "id": 344,
         "name": "Zaburzenie \u015bwiadomo\u015bci",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 680,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -7043,7 +7438,8 @@
     "345": {
         "id": 345,
         "name": "Zaburzenie poruszania",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
@@ -7069,7 +7465,8 @@
     "346": {
         "id": 346,
         "name": "Masowe zatrucie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2250,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {

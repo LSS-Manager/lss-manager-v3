@@ -3,6 +3,9 @@
         "id": 0,
         "name": "Bin fire",
         "place": "Bus stop",
+        "place_array": {
+            "0": "Bus stop"
+        },
         "average_credits": 110,
         "generated_by": "Fire station",
         "icons": {
@@ -24,7 +27,8 @@
     "1": {
         "id": 1,
         "name": "Container fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "Fire station",
         "icons": {
@@ -46,7 +50,8 @@
     "2": {
         "id": 2,
         "name": "Burning car",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 370,
         "generated_by": "Fire station",
         "icons": {
@@ -73,7 +78,8 @@
     "3": {
         "id": 3,
         "name": "Burning motorbike",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Fire station",
         "icons": {
@@ -98,7 +104,8 @@
     "4": {
         "id": 4,
         "name": "Burning grass",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Fire station",
         "icons": {
@@ -123,7 +130,8 @@
     "5": {
         "id": 5,
         "name": "Room fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Fire station",
         "icons": {
@@ -165,7 +173,8 @@
     "6": {
         "id": 6,
         "name": "Garden shed fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Fire station",
         "icons": {
@@ -187,7 +196,8 @@
     "7": {
         "id": 7,
         "name": "Burning leaves",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Fire station",
         "icons": {
@@ -212,7 +222,8 @@
     "8": {
         "id": 8,
         "name": "Bulk trash fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 220,
         "generated_by": "Fire station",
         "icons": {
@@ -241,7 +252,8 @@
     "9": {
         "id": 9,
         "name": "Bale of straw fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Fire station",
         "icons": {
@@ -267,7 +279,8 @@
     "10": {
         "id": 10,
         "name": "Tractor fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Fire station",
         "icons": {
@@ -292,7 +305,8 @@
     "11": {
         "id": 11,
         "name": "Burning callbox",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 240,
         "generated_by": "Fire station",
         "icons": {
@@ -314,7 +328,8 @@
     "12": {
         "id": 12,
         "name": "Tree on the road",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Fire station",
         "icons": {
@@ -340,7 +355,8 @@
     "13": {
         "id": 13,
         "name": "Burning truck",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 980,
         "generated_by": "Fire station",
         "icons": {
@@ -362,7 +378,8 @@
     "14": {
         "id": 14,
         "name": "Little field fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Fire station",
         "icons": {
@@ -389,6 +406,9 @@
         "id": 15,
         "name": "Little wildfire",
         "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
         "average_credits": 1010,
         "generated_by": "Fire station",
         "icons": {
@@ -413,7 +433,8 @@
     "16": {
         "id": 16,
         "name": "Caravan fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Fire station",
         "icons": {
@@ -435,7 +456,8 @@
     "17": {
         "id": 17,
         "name": "Mailbox on fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Fire station",
         "icons": {
@@ -457,7 +479,8 @@
     "18": {
         "id": 18,
         "name": "Brush pile",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Fire station",
         "icons": {
@@ -479,7 +502,8 @@
     "19": {
         "id": 19,
         "name": "Burning trailer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Fire station",
         "icons": {
@@ -501,7 +525,8 @@
     "20": {
         "id": 20,
         "name": "Basement fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Fire station",
         "icons": {
@@ -547,7 +572,8 @@
     "21": {
         "id": 21,
         "name": "Chimney fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2400,
         "generated_by": "Fire station",
         "icons": {
@@ -576,7 +602,8 @@
     "22": {
         "id": 22,
         "name": "Roof fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2700,
         "generated_by": "Fire station",
         "icons": {
@@ -607,7 +634,8 @@
     "23": {
         "id": 23,
         "name": "Grease Fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Fire station",
         "icons": {
@@ -633,6 +661,9 @@
         "id": 24,
         "name": "Burning bus shelter",
         "place": "Bus stop",
+        "place_array": {
+            "0": "Bus stop"
+        },
         "average_credits": 900,
         "generated_by": "Fire station",
         "icons": {
@@ -654,7 +685,8 @@
     "25": {
         "id": 25,
         "name": "Road accident",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Fire station",
         "icons": {
@@ -698,7 +730,8 @@
     "26": {
         "id": 26,
         "name": "Garage fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Fire station",
         "icons": {
@@ -720,7 +753,8 @@
     "27": {
         "id": 27,
         "name": "Gas Leak",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Fire station",
         "icons": {
@@ -747,7 +781,8 @@
     "28": {
         "id": 28,
         "name": "Fireplace fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1310,
         "generated_by": "Fire station",
         "icons": {
@@ -771,7 +806,8 @@
     "29": {
         "id": 29,
         "name": "Harvester fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Fire station",
         "icons": {
@@ -794,6 +830,9 @@
         "id": 30,
         "name": "Wastebin fire",
         "place": "Tram stop",
+        "place_array": {
+            "0": "Tram stop"
+        },
         "average_credits": 110,
         "generated_by": "Fire station",
         "icons": {
@@ -819,6 +858,9 @@
         "id": 31,
         "name": "Wastebin fire",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 110,
         "generated_by": "Fire station",
         "icons": {
@@ -841,6 +883,9 @@
         "id": 32,
         "name": "Wastebin fire",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 110,
         "generated_by": "Fire station",
         "icons": {
@@ -863,6 +908,9 @@
         "id": 33,
         "name": "Wastebin fire",
         "place": "Hospital",
+        "place_array": {
+            "0": "Hospital"
+        },
         "average_credits": 110,
         "generated_by": "Fire station",
         "icons": {
@@ -884,7 +932,8 @@
     "34": {
         "id": 34,
         "name": "Alcoholic intoxication",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -912,7 +961,8 @@
     "35": {
         "id": 35,
         "name": "Nosebleed",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -942,7 +992,8 @@
     "36": {
         "id": 36,
         "name": "Chest Pains",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -978,7 +1029,8 @@
     "37": {
         "id": 37,
         "name": "Acute asthma",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -1011,7 +1063,8 @@
     "38": {
         "id": 38,
         "name": "Seizure",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -1072,7 +1125,8 @@
     "39": {
         "id": 39,
         "name": "Fever",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -1101,7 +1155,8 @@
     "40": {
         "id": 40,
         "name": "Fallen person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -1140,7 +1195,8 @@
     "41": {
         "id": 41,
         "name": "Major fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10210,
         "generated_by": "Fire station",
         "icons": {
@@ -1167,7 +1223,8 @@
     "42": {
         "id": 42,
         "name": "Manhole Fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Fire station",
         "icons": {
@@ -1190,7 +1247,8 @@
     "43": {
         "id": 43,
         "name": "Diabetic problems",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -1222,7 +1280,8 @@
     "44": {
         "id": 44,
         "name": "Burning machine",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2470,
         "generated_by": "Fire station",
         "icons": {
@@ -1252,6 +1311,9 @@
         "id": 45,
         "name": "Burning locomotive",
         "place": "Goods station",
+        "place_array": {
+            "0": "Goods station"
+        },
         "average_credits": 1800,
         "generated_by": "Fire station",
         "icons": {
@@ -1289,6 +1351,9 @@
         "id": 46,
         "name": "Gas station fire",
         "place": "Gas station",
+        "place_array": {
+            "0": "Gas station"
+        },
         "average_credits": 3920,
         "generated_by": "Fire station",
         "icons": {
@@ -1326,7 +1391,8 @@
     "47": {
         "id": 47,
         "name": "Dangerous goods truck accident",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Fire station",
         "icons": {
@@ -1367,6 +1433,9 @@
         "id": 48,
         "name": "Shoplifting",
         "place": "Supermarket (small)",
+        "place_array": {
+            "0": "Supermarket (small)"
+        },
         "average_credits": 100,
         "generated_by": "Police station",
         "icons": {
@@ -1390,6 +1459,9 @@
         "id": 49,
         "name": "Shoplifting",
         "place": "Supermarket (big)",
+        "place_array": {
+            "0": "Supermarket (big)"
+        },
         "average_credits": 100,
         "generated_by": "Police station",
         "icons": {
@@ -1413,6 +1485,9 @@
         "id": 50,
         "name": "Parked car accident",
         "place": "Supermarket (small)",
+        "place_array": {
+            "0": "Supermarket (small)"
+        },
         "average_credits": 120,
         "generated_by": "Police station",
         "icons": {
@@ -1435,6 +1510,9 @@
         "id": 51,
         "name": "Parked car accident",
         "place": "Supermarket (big)",
+        "place_array": {
+            "0": "Supermarket (big)"
+        },
         "average_credits": 120,
         "generated_by": "Police station",
         "icons": {
@@ -1457,6 +1535,9 @@
         "id": 52,
         "name": "Metal burglary",
         "place": "Goods station",
+        "place_array": {
+            "0": "Goods station"
+        },
         "average_credits": 150,
         "generated_by": "Police station",
         "icons": {
@@ -1480,6 +1561,9 @@
         "id": 53,
         "name": "Pickpocketing",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 150,
         "generated_by": "Police station",
         "icons": {
@@ -1503,6 +1587,9 @@
         "id": 54,
         "name": "Fare dodger",
         "place": "Bus stop",
+        "place_array": {
+            "0": "Bus stop"
+        },
         "average_credits": 120,
         "generated_by": "Police station",
         "icons": {
@@ -1525,6 +1612,9 @@
         "id": 55,
         "name": "Fare dodger",
         "place": "Tram stop",
+        "place_array": {
+            "0": "Tram stop"
+        },
         "average_credits": 120,
         "generated_by": "Police station",
         "icons": {
@@ -1547,6 +1637,9 @@
         "id": 56,
         "name": "Fare dodger",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 120,
         "generated_by": "Police station",
         "icons": {
@@ -1569,6 +1662,9 @@
         "id": 57,
         "name": "Fare dodger",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 120,
         "generated_by": "Police station",
         "icons": {
@@ -1591,6 +1687,9 @@
         "id": 58,
         "name": "Parked car accident",
         "place": "Mall",
+        "place_array": {
+            "0": "Mall"
+        },
         "average_credits": 120,
         "generated_by": "Police station",
         "icons": {
@@ -1612,7 +1711,8 @@
     "59": {
         "id": 59,
         "name": "Brawl",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Police station",
         "icons": {
@@ -1653,7 +1753,8 @@
     "60": {
         "id": 60,
         "name": "Rioter",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Police station",
         "icons": {
@@ -1682,7 +1783,8 @@
     "61": {
         "id": 61,
         "name": "Unannounced demonstration",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10020,
         "generated_by": "Police station",
         "icons": {
@@ -1703,7 +1805,8 @@
     "62": {
         "id": 62,
         "name": "Pile-up",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10010,
         "generated_by": "Fire station",
         "icons": {
@@ -1735,7 +1838,8 @@
     "72": {
         "id": 72,
         "name": "Person check",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 100,
         "generated_by": "Police station",
         "icons": {
@@ -1761,7 +1865,8 @@
     "73": {
         "id": 73,
         "name": "Obstruction of traffic",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 80,
         "generated_by": "Police station",
         "icons": {
@@ -1783,7 +1888,8 @@
     "74": {
         "id": 74,
         "name": "Theft of property from vehicles",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 150,
         "generated_by": "Police station",
         "icons": {
@@ -1805,7 +1911,8 @@
     "75": {
         "id": 75,
         "name": "Tree on bikeway",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Fire station",
         "icons": {
@@ -1828,7 +1935,8 @@
     "76": {
         "id": 76,
         "name": "Burning substation",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1900,
         "generated_by": "Fire station",
         "icons": {
@@ -1852,7 +1960,8 @@
     "77": {
         "id": 77,
         "name": "Burning substation",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Fire station",
         "icons": {
@@ -1877,7 +1986,8 @@
     "78": {
         "id": 78,
         "name": "Person under tree",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Fire station",
         "icons": {
@@ -1910,7 +2020,8 @@
     "86": {
         "id": 86,
         "name": "MVA Rollover",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -1948,7 +2059,8 @@
     "87": {
         "id": 87,
         "name": "Industrial Fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5300,
         "generated_by": "Fire station",
         "icons": {
@@ -1988,7 +2100,8 @@
     "88": {
         "id": 88,
         "name": "Partial Building Collapse",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 7300,
         "generated_by": "Fire station",
         "icons": {
@@ -2021,7 +2134,8 @@
     "89": {
         "id": 89,
         "name": "Trench Rescue",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Fire station",
         "icons": {
@@ -2056,7 +2170,8 @@
     "90": {
         "id": 90,
         "name": "Officer Down",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Police station",
         "icons": {
@@ -2115,6 +2230,9 @@
         "id": 91,
         "name": "Concert",
         "place": "Stadium",
+        "place_array": {
+            "0": "Stadium"
+        },
         "average_credits": 4400,
         "generated_by": "Fire station",
         "icons": {
@@ -2147,6 +2265,9 @@
         "id": 92,
         "name": "Soccer Game",
         "place": "Stadium",
+        "place_array": {
+            "0": "Stadium"
+        },
         "average_credits": 3400,
         "generated_by": "Fire station",
         "icons": {
@@ -2179,6 +2300,9 @@
         "id": 93,
         "name": "Baseball Game",
         "place": "Stadium",
+        "place_array": {
+            "0": "Stadium"
+        },
         "average_credits": 4400,
         "generated_by": "Fire station",
         "icons": {
@@ -2210,7 +2334,8 @@
     "94": {
         "id": 94,
         "name": "Prisoner Escape",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Police station",
         "icons": {
@@ -2236,7 +2361,8 @@
     "95": {
         "id": 95,
         "name": "Fleeing Suspect",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Police station",
         "icons": {
@@ -2262,6 +2388,9 @@
         "id": 96,
         "name": "Missing Person",
         "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
         "average_credits": 4500,
         "generated_by": "Police station",
         "icons": {
@@ -2297,7 +2426,8 @@
     "97": {
         "id": 97,
         "name": "Warrant Standby",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Police station",
         "icons": {
@@ -2325,7 +2455,8 @@
     "98": {
         "id": 98,
         "name": "Unknown Tanker Spill",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5300,
         "generated_by": "Fire station",
         "icons": {
@@ -2359,7 +2490,8 @@
     "99": {
         "id": 99,
         "name": "Commercial Fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Fire station",
         "icons": {
@@ -2395,7 +2527,8 @@
     "100": {
         "id": 100,
         "name": "Animal Attack",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Police station",
         "icons": {
@@ -2440,7 +2573,8 @@
     "101": {
         "id": 101,
         "name": "Unknown Tanker Spill",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4300,
         "generated_by": "Fire station",
         "icons": {
@@ -2475,6 +2609,9 @@
         "id": 102,
         "name": "High Rise Fire",
         "place": "High Rise",
+        "place_array": {
+            "0": "High Rise"
+        },
         "average_credits": 4000,
         "generated_by": "Fire station",
         "icons": {
@@ -2512,7 +2649,8 @@
     "103": {
         "id": 103,
         "name": "Domestic Dispute",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Police station",
         "icons": {
@@ -2537,7 +2675,8 @@
     "104": {
         "id": 104,
         "name": "Hostage Taken",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Police station",
         "icons": {
@@ -2586,7 +2725,8 @@
     "105": {
         "id": 105,
         "name": "Active Shooter",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2800,
         "generated_by": "Police station",
         "icons": {
@@ -2629,7 +2769,8 @@
     "106": {
         "id": 106,
         "name": "High-Risk Warrant",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Police station",
         "icons": {
@@ -2652,7 +2793,8 @@
     "107": {
         "id": 107,
         "name": "Drug Warrant",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Police station",
         "icons": {
@@ -2675,7 +2817,8 @@
     "108": {
         "id": 108,
         "name": "Anaphylaxis",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -2732,7 +2875,8 @@
     "109": {
         "id": 109,
         "name": "Noise Complaint",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Police station",
         "icons": {
@@ -2754,7 +2898,8 @@
     "110": {
         "id": 110,
         "name": "Residential Fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1750,
         "generated_by": "Fire station",
         "icons": {
@@ -2788,7 +2933,8 @@
     "111": {
         "id": 111,
         "name": "Stabbing",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Police station",
         "icons": {
@@ -2826,7 +2972,8 @@
     "112": {
         "id": 112,
         "name": "Bomb Explosion",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 14000,
         "generated_by": "Fire station",
         "icons": {
@@ -2858,6 +3005,9 @@
         "id": 113,
         "name": "Smoke in Cabin",
         "place": "Small Airport (Runway)",
+        "place_array": {
+            "0": "Small Airport (Runway)"
+        },
         "average_credits": 1200,
         "generated_by": "Fire station",
         "icons": {
@@ -2881,6 +3031,9 @@
         "id": 114,
         "name": "Smoke in Cabin",
         "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
         "average_credits": 1200,
         "generated_by": "Fire station",
         "icons": {
@@ -2904,6 +3057,9 @@
         "id": 115,
         "name": "Braking Overheat",
         "place": "Small Airport (Runway)",
+        "place_array": {
+            "0": "Small Airport (Runway)"
+        },
         "average_credits": 900,
         "generated_by": "Fire station",
         "icons": {
@@ -2929,6 +3085,9 @@
         "id": 116,
         "name": "Braking Overheat",
         "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
         "average_credits": 900,
         "generated_by": "Fire station",
         "icons": {
@@ -2954,6 +3113,9 @@
         "id": 117,
         "name": "Engine Fire",
         "place": "Small Airport (Runway)",
+        "place_array": {
+            "0": "Small Airport (Runway)"
+        },
         "average_credits": 1200,
         "generated_by": "Fire station",
         "icons": {
@@ -2979,6 +3141,9 @@
         "id": 118,
         "name": "Engine Fire",
         "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
         "average_credits": 1900,
         "generated_by": "Fire station",
         "icons": {
@@ -3003,7 +3168,8 @@
     "119": {
         "id": 119,
         "name": "Food Poisoning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -3033,6 +3199,9 @@
         "id": 120,
         "name": "Large Aircraft Crash",
         "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
         "average_credits": 6000,
         "generated_by": "Fire station",
         "icons": {
@@ -3069,6 +3238,9 @@
         "id": 121,
         "name": "Aircraft Hijack",
         "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
         "average_credits": 5000,
         "generated_by": "Police station",
         "icons": {
@@ -3103,7 +3275,8 @@
     "122": {
         "id": 122,
         "name": "Carbon Monoxide Alarm",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 100,
         "generated_by": "Fire station",
         "icons": {
@@ -3126,6 +3299,9 @@
         "id": 123,
         "name": "Bank Robbery",
         "place": "Bank",
+        "place_array": {
+            "0": "Bank"
+        },
         "average_credits": 1600,
         "generated_by": "Police station",
         "icons": {
@@ -3148,7 +3324,8 @@
     "124": {
         "id": 124,
         "name": "Shooting",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1750,
         "generated_by": "Police station",
         "icons": {
@@ -3187,7 +3364,8 @@
     "125": {
         "id": 125,
         "name": "Vehicle Accident - Entrapment",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -3221,7 +3399,8 @@
     "126": {
         "id": 126,
         "name": "Overdose",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Police station",
         "icons": {
@@ -3264,6 +3443,9 @@
         "id": 127,
         "name": "Fire in an Office Building",
         "place": "Office Building",
+        "place_array": {
+            "0": "Office Building"
+        },
         "average_credits": 7000,
         "generated_by": "Fire station",
         "icons": {
@@ -3303,6 +3485,9 @@
         "id": 128,
         "name": "Aggressive Passenger",
         "place": "Small Airport (Runway)",
+        "place_array": {
+            "0": "Small Airport (Runway)"
+        },
         "average_credits": 600,
         "generated_by": "Police station",
         "icons": {
@@ -3326,6 +3511,9 @@
         "id": 129,
         "name": "Aggressive Passenger",
         "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
         "average_credits": 600,
         "generated_by": "Police station",
         "icons": {
@@ -3348,7 +3536,8 @@
     "130": {
         "id": 130,
         "name": "Powerline Down",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Fire station",
         "icons": {
@@ -3370,7 +3559,8 @@
     "131": {
         "id": 131,
         "name": "Parole Violation",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Police station",
         "icons": {
@@ -3393,7 +3583,8 @@
     "132": {
         "id": 132,
         "name": "Allergic Reaction",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -3430,7 +3621,8 @@
     "133": {
         "id": 133,
         "name": "Stolen Credit Card",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Police station",
         "icons": {
@@ -3453,7 +3645,8 @@
     "134": {
         "id": 134,
         "name": "Search of a vehicle",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Police station",
         "icons": {
@@ -3476,7 +3669,8 @@
     "135": {
         "id": 135,
         "name": "Small Violent Protest",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Police station",
         "icons": {
@@ -3512,7 +3706,8 @@
     "136": {
         "id": 136,
         "name": "Medium Violent Protest",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Police station",
         "icons": {
@@ -3547,7 +3742,8 @@
     "137": {
         "id": 137,
         "name": "Drug Deal",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Police station",
         "icons": {
@@ -3571,7 +3767,8 @@
     "138": {
         "id": 138,
         "name": "Smoke Investigation",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Fire station",
         "icons": {
@@ -3598,7 +3795,8 @@
     "139": {
         "id": 139,
         "name": "Drug Lab Fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -3642,6 +3840,9 @@
         "id": 140,
         "name": "Gas Station Robbery",
         "place": "Gas station",
+        "place_array": {
+            "0": "Gas station"
+        },
         "average_credits": 1250,
         "generated_by": "Police station",
         "icons": {
@@ -3668,6 +3869,9 @@
         "id": 141,
         "name": "Elevator Rescue",
         "place": "Office Building",
+        "place_array": {
+            "0": "Office Building"
+        },
         "average_credits": 400,
         "generated_by": "Fire station",
         "icons": {
@@ -3691,6 +3895,9 @@
         "id": 142,
         "name": "Warehouse Fire",
         "place": "Warehouse",
+        "place_array": {
+            "0": "Warehouse"
+        },
         "average_credits": 10000,
         "generated_by": "Fire station",
         "icons": {
@@ -3728,7 +3935,8 @@
     "143": {
         "id": 143,
         "name": "Assassination Threat",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4400,
         "generated_by": "Police station",
         "icons": {
@@ -3754,7 +3962,8 @@
     "144": {
         "id": 144,
         "name": "Truck in House Wall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4400,
         "generated_by": "Fire station",
         "icons": {
@@ -3785,7 +3994,8 @@
     "145": {
         "id": 145,
         "name": "Burning Garbage Truck",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Fire station",
         "icons": {
@@ -3807,7 +4017,8 @@
     "146": {
         "id": 146,
         "name": "Child Birth",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -3847,7 +4058,8 @@
     "147": {
         "id": 147,
         "name": "Keys Locked in Vehicle",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Police station",
         "icons": {
@@ -3869,7 +4081,8 @@
     "148": {
         "id": 148,
         "name": "Stuck Climber",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Fire station",
         "icons": {
@@ -3904,7 +4117,8 @@
     "149": {
         "id": 149,
         "name": "Smoke Detector Check",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Fire station",
         "icons": {
@@ -3930,6 +4144,9 @@
         "id": 150,
         "name": "Freight Train Derailment",
         "place": "Railroad Crossing",
+        "place_array": {
+            "0": "Railroad Crossing"
+        },
         "average_credits": 10000,
         "generated_by": "Fire station",
         "icons": {
@@ -3968,6 +4185,9 @@
         "id": 151,
         "name": "Freight Train Derailment",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 10000,
         "generated_by": "Fire station",
         "icons": {
@@ -4006,6 +4226,9 @@
         "id": 152,
         "name": "Freight Train Derailment",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 10000,
         "generated_by": "Fire station",
         "icons": {
@@ -4044,6 +4267,9 @@
         "id": 153,
         "name": "Barn Fire",
         "place": "Farm",
+        "place_array": {
+            "0": "Farm"
+        },
         "average_credits": 1800,
         "generated_by": "Fire station",
         "icons": {
@@ -4070,6 +4296,9 @@
         "id": 154,
         "name": "Chlorine leak",
         "place": "Swimming bath",
+        "place_array": {
+            "0": "Swimming bath"
+        },
         "average_credits": 3500,
         "generated_by": "Fire station",
         "icons": {
@@ -4116,6 +4345,9 @@
         "id": 155,
         "name": "Fire in Hospital",
         "place": "Hospital",
+        "place_array": {
+            "0": "Hospital"
+        },
         "average_credits": 6000,
         "generated_by": "Fire station",
         "icons": {
@@ -4152,6 +4384,9 @@
         "id": 156,
         "name": "Turbulence Injury",
         "place": "Small Airport (Runway)",
+        "place_array": {
+            "0": "Small Airport (Runway)"
+        },
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -4184,6 +4419,9 @@
         "id": 157,
         "name": "Turbulence Injury",
         "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -4215,7 +4453,8 @@
     "158": {
         "id": 158,
         "name": "Accident Involving a Bus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Fire station",
         "icons": {
@@ -4246,7 +4485,8 @@
     "159": {
         "id": 159,
         "name": "Serious Accident Involving a Bus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Fire station",
         "icons": {
@@ -4281,7 +4521,8 @@
     "160": {
         "id": 160,
         "name": "Lost Child",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Police station",
         "icons": {
@@ -4311,7 +4552,8 @@
     "161": {
         "id": 161,
         "name": "DUI Checkpoint",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Police station",
         "icons": {
@@ -4337,6 +4579,9 @@
         "id": 162,
         "name": "Light Aircraft Crash (Airfield)",
         "place": "Small Airport (Runway)",
+        "place_array": {
+            "0": "Small Airport (Runway)"
+        },
         "average_credits": 2500,
         "generated_by": "Fire station",
         "icons": {
@@ -4367,7 +4612,8 @@
     "163": {
         "id": 163,
         "name": "Light Aircraft Crash",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Fire station",
         "icons": {
@@ -4402,7 +4648,8 @@
     "164": {
         "id": 164,
         "name": "Cable theft",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 550,
         "generated_by": "Police station",
         "icons": {
@@ -4427,6 +4674,9 @@
         "id": 165,
         "name": "Drowning",
         "place": "Lake",
+        "place_array": {
+            "0": "Lake"
+        },
         "average_credits": 1250,
         "generated_by": "",
         "icons": {
@@ -4470,6 +4720,9 @@
         "id": 166,
         "name": "Drowning",
         "place": "River",
+        "place_array": {
+            "0": "River"
+        },
         "average_credits": 1250,
         "generated_by": "",
         "icons": {
@@ -4513,6 +4766,9 @@
         "id": 167,
         "name": "Car in river",
         "place": "River",
+        "place_array": {
+            "0": "River"
+        },
         "average_credits": 1400,
         "generated_by": "",
         "icons": {
@@ -4549,6 +4805,9 @@
         "id": 168,
         "name": "Car in lake",
         "place": "Lake",
+        "place_array": {
+            "0": "Lake"
+        },
         "average_credits": 1400,
         "generated_by": "",
         "icons": {
@@ -4584,7 +4843,8 @@
     "169": {
         "id": 169,
         "name": "Small flooding",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 550,
         "generated_by": "Fire station",
         "icons": {
@@ -4622,7 +4882,8 @@
     "170": {
         "id": 170,
         "name": "Medium flooding",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1550,
         "generated_by": "",
         "icons": {
@@ -4663,7 +4924,8 @@
     "171": {
         "id": 171,
         "name": "Large flooding",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "",
         "icons": {
@@ -4705,7 +4967,8 @@
     "172": {
         "id": 172,
         "name": "Giant flooding",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "",
         "icons": {
@@ -4748,6 +5011,9 @@
         "id": 173,
         "name": "Light aircraft crash in water",
         "place": "River",
+        "place_array": {
+            "0": "River"
+        },
         "average_credits": 4000,
         "generated_by": "",
         "icons": {
@@ -4785,6 +5051,9 @@
         "id": 174,
         "name": "Light aircraft crash in water",
         "place": "Lake",
+        "place_array": {
+            "0": "Lake"
+        },
         "average_credits": 4000,
         "generated_by": "",
         "icons": {
@@ -4822,6 +5091,9 @@
         "id": 175,
         "name": "Bridge collapse",
         "place": "Bridge",
+        "place_array": {
+            "0": "Bridge"
+        },
         "average_credits": 7000,
         "generated_by": "",
         "icons": {
@@ -4861,7 +5133,8 @@
     "176": {
         "id": 176,
         "name": "Stroke",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -4901,7 +5174,8 @@
     "177": {
         "id": 177,
         "name": "Unconscious Person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -4940,7 +5214,8 @@
     "178": {
         "id": 178,
         "name": "Hemorrhage",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -4979,7 +5254,8 @@
     "179": {
         "id": 179,
         "name": "Burst water main",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Fire station",
         "icons": {
@@ -5021,7 +5297,8 @@
     "180": {
         "id": 180,
         "name": "Shots fired at Officer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4100,
         "generated_by": "Police station",
         "icons": {
@@ -5066,6 +5343,9 @@
         "id": 181,
         "name": "School fire",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 6000,
         "generated_by": "Fire station",
         "icons": {
@@ -5105,6 +5385,9 @@
         "id": 182,
         "name": "Cafeteria fire",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 1300,
         "generated_by": "Fire station",
         "icons": {
@@ -5136,6 +5419,9 @@
         "id": 183,
         "name": "Fire in fast food restaurant",
         "place": "Fast Food Restaurant",
+        "place_array": {
+            "0": "Fast Food Restaurant"
+        },
         "average_credits": 1850,
         "generated_by": "Fire station",
         "icons": {
@@ -5161,6 +5447,9 @@
         "id": 184,
         "name": "Container Ship Fire",
         "place": "Cargo port",
+        "place_array": {
+            "0": "Cargo port"
+        },
         "average_credits": 10000,
         "generated_by": "Fire station",
         "icons": {
@@ -5201,6 +5490,9 @@
         "id": 185,
         "name": "Dock Crane fire",
         "place": "Cargo port",
+        "place_array": {
+            "0": "Cargo port"
+        },
         "average_credits": 6000,
         "generated_by": "Fire station",
         "icons": {
@@ -5235,6 +5527,9 @@
         "id": 186,
         "name": "Recycling Centre fire",
         "place": "Recycling Centre",
+        "place_array": {
+            "0": "Recycling Centre"
+        },
         "average_credits": 10000,
         "generated_by": "Fire station",
         "icons": {
@@ -5273,6 +5568,9 @@
         "id": 187,
         "name": "Kidnapping",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 2000,
         "generated_by": "Fire station",
         "icons": {
@@ -5325,6 +5623,9 @@
         "id": 188,
         "name": "Cruise ship sinking",
         "place": "Cruise ship dock",
+        "place_array": {
+            "0": "Cruise ship dock"
+        },
         "average_credits": 15000,
         "generated_by": "Fire station",
         "icons": {
@@ -5363,6 +5664,9 @@
         "id": 189,
         "name": "Sinking boat",
         "place": "River",
+        "place_array": {
+            "0": "River"
+        },
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -5398,6 +5702,9 @@
         "id": 190,
         "name": "Sinking boat",
         "place": "Lake",
+        "place_array": {
+            "0": "Lake"
+        },
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -5433,6 +5740,9 @@
         "id": 191,
         "name": "Sinking boat",
         "place": "Marina",
+        "place_array": {
+            "0": "Marina"
+        },
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -5468,6 +5778,9 @@
         "id": 192,
         "name": "Traffic accident with train",
         "place": "Rail Crossing",
+        "place_array": {
+            "0": "Rail Crossing"
+        },
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -5507,6 +5820,9 @@
         "id": 193,
         "name": "Animal Rescue",
         "place": "Farm",
+        "place_array": {
+            "0": "Farm"
+        },
         "average_credits": 900,
         "generated_by": "Fire station",
         "icons": {
@@ -5530,6 +5846,9 @@
         "id": 194,
         "name": "Large MVA in tunnel",
         "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
         "average_credits": 7000,
         "generated_by": "Fire station",
         "icons": {
@@ -5574,6 +5893,9 @@
         "id": 195,
         "name": "Single vehicle fire in tunnel",
         "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -5607,7 +5929,8 @@
     "196": {
         "id": 196,
         "name": "Kitchen Fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Fire station",
         "icons": {
@@ -5633,6 +5956,9 @@
         "id": 197,
         "name": "Small boat fire",
         "place": "Marina",
+        "place_array": {
+            "0": "Marina"
+        },
         "average_credits": 1250,
         "generated_by": "Fire station",
         "icons": {
@@ -5658,6 +5984,9 @@
         "id": 198,
         "name": "Small boat fire",
         "place": "River",
+        "place_array": {
+            "0": "River"
+        },
         "average_credits": 1250,
         "generated_by": "Fire station",
         "icons": {
@@ -5683,6 +6012,9 @@
         "id": 199,
         "name": "Small boat fire",
         "place": "Lake",
+        "place_array": {
+            "0": "Lake"
+        },
         "average_credits": 1250,
         "generated_by": "Fire station",
         "icons": {
@@ -5707,7 +6039,8 @@
     "200": {
         "id": 200,
         "name": "Person with a weapon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Police station",
         "icons": {
@@ -5731,7 +6064,8 @@
     "201": {
         "id": 201,
         "name": "VIP appearance",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Police station",
         "icons": {
@@ -5759,7 +6093,8 @@
     "202": {
         "id": 202,
         "name": "Large Field Fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -5783,7 +6118,8 @@
     "203": {
         "id": 203,
         "name": "Natural gas odor",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Fire station",
         "icons": {
@@ -5806,6 +6142,9 @@
         "id": 204,
         "name": "Ammonia Leak (Gas Alarm System)",
         "place": "Cold Storage Warehouse",
+        "place_array": {
+            "0": "Cold Storage Warehouse"
+        },
         "average_credits": 5000,
         "generated_by": "Fire station",
         "icons": {
@@ -5855,6 +6194,9 @@
         "id": 205,
         "name": "Multiple vehicle fire in tunnel",
         "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
         "average_credits": 5000,
         "generated_by": "Fire station",
         "icons": {
@@ -5891,7 +6233,8 @@
     "206": {
         "id": 206,
         "name": "Transformer fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Fire station",
         "icons": {
@@ -5913,7 +6256,8 @@
     "207": {
         "id": 207,
         "name": "Caller Hangup",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Police station",
         "icons": {
@@ -5936,6 +6280,9 @@
         "id": 208,
         "name": "Power Plant fire",
         "place": "Power Plant",
+        "place_array": {
+            "0": "Power Plant"
+        },
         "average_credits": 14500,
         "generated_by": "Fire station",
         "icons": {
@@ -5975,6 +6322,9 @@
         "id": 209,
         "name": "Factory fire minor",
         "place": "Factory",
+        "place_array": {
+            "0": "Factory"
+        },
         "average_credits": 2000,
         "generated_by": "Fire station",
         "icons": {
@@ -6006,6 +6356,9 @@
         "id": 210,
         "name": "Factory fire major",
         "place": "Factory",
+        "place_array": {
+            "0": "Factory"
+        },
         "average_credits": 9000,
         "generated_by": "Fire station",
         "icons": {
@@ -6043,7 +6396,8 @@
     "211": {
         "id": 211,
         "name": "Multiple vehicles on fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Fire station",
         "icons": {
@@ -6070,6 +6424,9 @@
         "id": 212,
         "name": "Fire on farm medium",
         "place": "Farm",
+        "place_array": {
+            "0": "Farm"
+        },
         "average_credits": 6000,
         "generated_by": "Fire station",
         "icons": {
@@ -6099,6 +6456,9 @@
         "id": 213,
         "name": "Fire on farm large",
         "place": "Farm",
+        "place_array": {
+            "0": "Farm"
+        },
         "average_credits": 11000,
         "generated_by": "Fire station",
         "icons": {
@@ -6125,6 +6485,9 @@
         "id": 214,
         "name": "Scrapyard fire",
         "place": "Scrap yard",
+        "place_array": {
+            "0": "Scrap yard"
+        },
         "average_credits": 5000,
         "generated_by": "Fire station",
         "icons": {
@@ -6153,7 +6516,8 @@
     "215": {
         "id": 215,
         "name": "Animal rescue from drain",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 275,
         "generated_by": "Fire station",
         "icons": {
@@ -6175,7 +6539,8 @@
     "216": {
         "id": 216,
         "name": "Home Invasion",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1250,
         "generated_by": "Police station",
         "icons": {
@@ -6203,6 +6568,9 @@
         "id": 217,
         "name": "Museum Fire",
         "place": "Museum",
+        "place_array": {
+            "0": "Museum"
+        },
         "average_credits": 7500,
         "generated_by": "Fire station",
         "icons": {
@@ -6234,7 +6602,8 @@
     "218": {
         "id": 218,
         "name": "Cardiac Arrest",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -6262,7 +6631,8 @@
     "219": {
         "id": 219,
         "name": "Respiratory Arrest",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -6291,7 +6661,8 @@
     "220": {
         "id": 220,
         "name": "Difficulty Breathing",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -6320,7 +6691,8 @@
     "221": {
         "id": 221,
         "name": "Difficulty Breathing",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -6355,7 +6727,8 @@
     "222": {
         "id": 222,
         "name": "Difficulty Breathing",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -6384,7 +6757,8 @@
     "223": {
         "id": 223,
         "name": "Back Pain",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -6417,7 +6791,8 @@
     "224": {
         "id": 224,
         "name": "Vehicle Pursuit ",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Police station",
         "icons": {
@@ -6444,6 +6819,9 @@
         "id": 225,
         "name": "Landing Gear failure",
         "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -6473,6 +6851,9 @@
         "id": 226,
         "name": "Landing Gear failure",
         "place": "Small Airport (Runway)",
+        "place_array": {
+            "0": "Small Airport (Runway)"
+        },
         "average_credits": 2000,
         "generated_by": "Fire station",
         "icons": {
@@ -6500,6 +6881,9 @@
         "id": 227,
         "name": "Airport Terminal Collapse (Small)",
         "place": "Airport Terminal",
+        "place_array": {
+            "0": "Airport Terminal"
+        },
         "average_credits": 5000,
         "generated_by": "Fire station",
         "icons": {
@@ -6535,6 +6919,9 @@
         "id": 228,
         "name": "Airport Terminal Collapse (Large)",
         "place": "Airport Terminal",
+        "place_array": {
+            "0": "Airport Terminal"
+        },
         "average_credits": 7000,
         "generated_by": "Fire station",
         "icons": {
@@ -6573,6 +6960,9 @@
         "id": 229,
         "name": "Airport Terminal Collapse (Major)",
         "place": "Airport Terminal",
+        "place_array": {
+            "0": "Airport Terminal"
+        },
         "average_credits": 11000,
         "generated_by": "Fire station",
         "icons": {
@@ -6611,6 +7001,9 @@
         "id": 230,
         "name": "Hazardous materials truck fire in tunnel",
         "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
         "average_credits": 6500,
         "generated_by": "Fire station",
         "icons": {
@@ -6687,7 +7080,8 @@
     "231": {
         "id": 231,
         "name": "Hazardous materials truck fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Fire station",
         "icons": {
@@ -6763,7 +7157,8 @@
     "232": {
         "id": 232,
         "name": "Full  Building Collapse",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10000,
         "generated_by": "Fire station",
         "icons": {
@@ -6800,6 +7195,9 @@
         "id": 233,
         "name": "Person Hit by Train",
         "place": "Subway station",
+        "place_array": {
+            "0": "Subway station"
+        },
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -6836,6 +7234,9 @@
         "id": 234,
         "name": "Person Hit by Train",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -6872,6 +7273,9 @@
         "id": 235,
         "name": "Person Hit by Train",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -6908,6 +7312,9 @@
         "id": 236,
         "name": "Electrical fire on subway tracks",
         "place": "Subway station",
+        "place_array": {
+            "0": "Subway station"
+        },
         "average_credits": 1200,
         "generated_by": "Fire station",
         "icons": {
@@ -6930,7 +7337,8 @@
     "237": {
         "id": 237,
         "name": "ALPR Checkpoint",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Police station",
         "icons": {
@@ -6956,6 +7364,9 @@
         "id": 238,
         "name": "Bulk hazardous storage tank leak (Small)",
         "place": "Small chemical storage tank",
+        "place_array": {
+            "0": "Small chemical storage tank"
+        },
         "average_credits": 4000,
         "generated_by": "Fire station",
         "icons": {
@@ -7004,6 +7415,9 @@
         "id": 239,
         "name": "Bulk hazardous storage tank leak (Large)",
         "place": "Large chemical storage tank",
+        "place_array": {
+            "0": "Large chemical storage tank"
+        },
         "average_credits": 6000,
         "generated_by": "Fire station",
         "icons": {
@@ -7053,6 +7467,9 @@
         "id": 240,
         "name": "Fire in Subway station",
         "place": "Subway station",
+        "place_array": {
+            "0": "Subway station"
+        },
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -7104,6 +7521,9 @@
         "id": 241,
         "name": "Fire in Subway station (Large)",
         "place": "Subway station",
+        "place_array": {
+            "0": "Subway station"
+        },
         "average_credits": 7000,
         "generated_by": "Fire station",
         "icons": {
@@ -7160,7 +7580,8 @@
     "242": {
         "id": 242,
         "name": "Truck Rear-Ended with Entrapment",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1250,
         "generated_by": "Fire station",
         "icons": {
@@ -7193,7 +7614,8 @@
     "243": {
         "id": 243,
         "name": "Attempted Homicide",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Police station",
         "icons": {
@@ -7261,6 +7683,9 @@
         "id": 244,
         "name": "Fare dodger",
         "place": "Subway station",
+        "place_array": {
+            "0": "Subway station"
+        },
         "average_credits": 120,
         "generated_by": "Police station",
         "icons": {
@@ -7282,7 +7707,8 @@
     "245": {
         "id": 245,
         "name": "Medical emergency on crane",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 950,
         "generated_by": "Fire station",
         "icons": {
@@ -7359,7 +7785,8 @@
     "246": {
         "id": 246,
         "name": "Patient Transfer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -7398,7 +7825,8 @@
     "247": {
         "id": 247,
         "name": "Possible Sepsis",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -7437,7 +7865,8 @@
     "248": {
         "id": 248,
         "name": "Mental health concern",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Police station",
         "icons": {
@@ -7508,6 +7937,9 @@
         "id": 249,
         "name": "Car workshop fire",
         "place": "Car workshop",
+        "place_array": {
+            "0": "Car workshop"
+        },
         "average_credits": 6000,
         "generated_by": "Fire station",
         "icons": {
@@ -7558,6 +7990,9 @@
         "id": 250,
         "name": "Car workshop fire with explosion",
         "place": "Car workshop",
+        "place_array": {
+            "0": "Car workshop"
+        },
         "average_credits": 10000,
         "generated_by": "Fire station",
         "icons": {
@@ -7611,6 +8046,9 @@
         "id": 251,
         "name": "Patient transfer from flight",
         "place": "Small Airport (Runway)",
+        "place_array": {
+            "0": "Small Airport (Runway)"
+        },
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -7639,6 +8077,9 @@
         "id": 252,
         "name": "Patient transfer from flight",
         "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -7667,6 +8108,9 @@
         "id": 253,
         "name": "Hotel fire small",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -7713,6 +8157,9 @@
         "id": 254,
         "name": "Hotel fire medium",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 5000,
         "generated_by": "Fire station",
         "icons": {
@@ -7761,6 +8208,9 @@
         "id": 255,
         "name": "Hotel fire large",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 8000,
         "generated_by": "Fire station",
         "icons": {
@@ -7816,6 +8266,9 @@
         "id": 256,
         "name": "Hotel fire major",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 12000,
         "generated_by": "Fire station",
         "icons": {
@@ -7866,7 +8319,8 @@
     "257": {
         "id": 257,
         "name": "Attempted Homicide",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Police station",
         "icons": {
@@ -7931,7 +8385,8 @@
     "258": {
         "id": 258,
         "name": "Attempted Homicide",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2100,
         "generated_by": "Police station",
         "icons": {
@@ -7996,6 +8451,9 @@
         "id": 259,
         "name": "Small Supermarket Fire",
         "place": "Supermarket (small)",
+        "place_array": {
+            "0": "Supermarket (small)"
+        },
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -8040,6 +8498,9 @@
         "id": 260,
         "name": "Big Supermarket Fire",
         "place": "Supermarket (big)",
+        "place_array": {
+            "0": "Supermarket (big)"
+        },
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -8092,6 +8553,9 @@
         "id": 261,
         "name": "Bar Fight",
         "place": "Bar",
+        "place_array": {
+            "0": "Bar"
+        },
         "average_credits": 1000,
         "generated_by": "Police station",
         "icons": {
@@ -8128,7 +8592,8 @@
     "262": {
         "id": 262,
         "name": "Damaged Roof",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Fire station",
         "icons": {
@@ -8153,7 +8618,8 @@
     "263": {
         "id": 263,
         "name": "Unsafe Cladding",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Fire station",
         "icons": {
@@ -8178,7 +8644,8 @@
     "264": {
         "id": 264,
         "name": "Unsafe Scaffolding",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Fire station",
         "icons": {
@@ -8204,6 +8671,9 @@
         "id": 265,
         "name": "Sports hall fire",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 2000,
         "generated_by": "Fire station",
         "icons": {
@@ -8250,6 +8720,9 @@
         "id": 266,
         "name": "Landfill fire",
         "place": "Landfill site",
+        "place_array": {
+            "0": "Landfill site"
+        },
         "average_credits": 3500,
         "generated_by": "Fire station",
         "icons": {
@@ -8276,7 +8749,8 @@
     "267": {
         "id": 267,
         "name": "Arm caught in industrial machine",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Fire station",
         "icons": {
@@ -8314,7 +8788,8 @@
     "268": {
         "id": 268,
         "name": "Person trapped under machine",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Fire station",
         "icons": {
@@ -8352,7 +8827,8 @@
     "269": {
         "id": 269,
         "name": "Transient Ischemic Attack",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -8393,6 +8869,9 @@
         "id": 270,
         "name": "Vehicle fire in parking garage",
         "place": "Parking Garage",
+        "place_array": {
+            "0": "Parking Garage"
+        },
         "average_credits": 1000,
         "generated_by": "Fire station",
         "icons": {
@@ -8418,6 +8897,9 @@
         "id": 271,
         "name": "Large parking garage fire",
         "place": "Parking Garage",
+        "place_array": {
+            "0": "Parking Garage"
+        },
         "average_credits": 6000,
         "generated_by": "Fire station",
         "icons": {
@@ -8470,6 +8952,9 @@
         "id": 272,
         "name": "Museum robbery",
         "place": "Museum",
+        "place_array": {
+            "0": "Museum"
+        },
         "average_credits": 1000,
         "generated_by": "Police station",
         "icons": {
@@ -8494,7 +8979,8 @@
     "273": {
         "id": 273,
         "name": "Natural Gas explosion",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5000,
         "generated_by": "Fire station",
         "icons": {
@@ -8555,7 +9041,8 @@
     "274": {
         "id": 274,
         "name": "Large Natural Gas explosion",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10000,
         "generated_by": "Fire station",
         "icons": {
@@ -8628,6 +9115,9 @@
         "id": 275,
         "name": "Swimmer in distress",
         "place": "Lake",
+        "place_array": {
+            "0": "Lake"
+        },
         "average_credits": 900,
         "generated_by": "",
         "icons": {
@@ -8669,6 +9159,9 @@
         "id": 276,
         "name": "Swimmer in distress",
         "place": "River",
+        "place_array": {
+            "0": "River"
+        },
         "average_credits": 900,
         "generated_by": "",
         "icons": {
@@ -8709,7 +9202,8 @@
     "277": {
         "id": 277,
         "name": "Unknown structure fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 110,
         "generated_by": "Fire station",
         "icons": {
@@ -8744,7 +9238,8 @@
     "278": {
         "id": 278,
         "name": "Electrical Cupboard Fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Fire station",
         "icons": {
@@ -8766,7 +9261,8 @@
     "279": {
         "id": 279,
         "name": "Electrical Cupboard Fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 350,
         "generated_by": "Fire station",
         "icons": {
@@ -8788,7 +9284,8 @@
     "280": {
         "id": 280,
         "name": "Smoking Electrical Equipment",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Fire station",
         "icons": {
@@ -8810,7 +9307,8 @@
     "281": {
         "id": 281,
         "name": "Storage Cupboard Fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Fire station",
         "icons": {
@@ -8832,7 +9330,8 @@
     "282": {
         "id": 282,
         "name": "Storage Cupboard Fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Fire station",
         "icons": {
@@ -8855,6 +9354,9 @@
         "id": 283,
         "name": "Illegal goods smuggling",
         "place": "Cargo port",
+        "place_array": {
+            "0": "Cargo port"
+        },
         "average_credits": 800,
         "generated_by": "Police station",
         "icons": {
@@ -8879,6 +9381,9 @@
         "id": 284,
         "name": "Illegal goods smuggling",
         "place": "Cruise ship dock",
+        "place_array": {
+            "0": "Cruise ship dock"
+        },
         "average_credits": 800,
         "generated_by": "Police station",
         "icons": {
@@ -8903,6 +9408,9 @@
         "id": 285,
         "name": "Illegal goods smuggling",
         "place": "Goods station",
+        "place_array": {
+            "0": "Goods station"
+        },
         "average_credits": 800,
         "generated_by": "Police station",
         "icons": {
@@ -8927,6 +9435,9 @@
         "id": 286,
         "name": "Stowaways found",
         "place": "Goods station",
+        "place_array": {
+            "0": "Goods station"
+        },
         "average_credits": 2000,
         "generated_by": "Police station",
         "icons": {
@@ -8962,6 +9473,9 @@
         "id": 287,
         "name": "Stowaways found",
         "place": "Cargo port",
+        "place_array": {
+            "0": "Cargo port"
+        },
         "average_credits": 2000,
         "generated_by": "Police station",
         "icons": {
@@ -8997,6 +9511,9 @@
         "id": 288,
         "name": "Stowaways found",
         "place": "Cruise ship dock",
+        "place_array": {
+            "0": "Cruise ship dock"
+        },
         "average_credits": 2000,
         "generated_by": "Police station",
         "icons": {
@@ -9032,6 +9549,9 @@
         "id": 289,
         "name": "Customs search operation",
         "place": "Goods station",
+        "place_array": {
+            "0": "Goods station"
+        },
         "average_credits": 1000,
         "generated_by": "Police station",
         "icons": {
@@ -9058,6 +9578,9 @@
         "id": 290,
         "name": "Customs search operation",
         "place": "Cruise ship dock",
+        "place_array": {
+            "0": "Cruise ship dock"
+        },
         "average_credits": 1000,
         "generated_by": "Police station",
         "icons": {
@@ -9084,6 +9607,9 @@
         "id": 291,
         "name": "Customs search operation",
         "place": "Cargo port",
+        "place_array": {
+            "0": "Cargo port"
+        },
         "average_credits": 1000,
         "generated_by": "Police station",
         "icons": {
@@ -9109,7 +9635,8 @@
     "292": {
         "id": 292,
         "name": "Heatstroke",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -9140,7 +9667,8 @@
     "293": {
         "id": 293,
         "name": "Acid burns (Accidental)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -9174,7 +9702,8 @@
     "294": {
         "id": 294,
         "name": "Acid burns (Accidental)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Fire station",
         "icons": {
@@ -9213,7 +9742,8 @@
     "295": {
         "id": 295,
         "name": "Hit and Run",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Police station",
         "icons": {
@@ -9243,7 +9773,8 @@
     "296": {
         "id": 296,
         "name": "Ceiling Collapse",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Fire station",
         "icons": {
@@ -9278,7 +9809,8 @@
     "297": {
         "id": 297,
         "name": "Electrocution",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -9314,7 +9846,8 @@
     "298": {
         "id": 298,
         "name": "Large brawl",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Police station",
         "icons": {
@@ -9360,6 +9893,9 @@
         "id": 299,
         "name": "Pepper spray discharged on train",
         "place": "Tram stop",
+        "place_array": {
+            "0": "Tram stop"
+        },
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -9407,6 +9943,9 @@
         "id": 300,
         "name": "Pepper spray discharged on train",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -9448,6 +9987,9 @@
         "id": 301,
         "name": "Pepper spray discharged on train",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -9489,6 +10031,9 @@
         "id": 302,
         "name": "Passenger train derailment (Small)",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 8000,
         "generated_by": "Fire station",
         "icons": {
@@ -9526,6 +10071,9 @@
         "id": 303,
         "name": "Passenger train derailment (Small)",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 8000,
         "generated_by": "Fire station",
         "icons": {
@@ -9563,6 +10111,9 @@
         "id": 304,
         "name": "Passenger train derailment (Small)",
         "place": "Railroad Crossing",
+        "place_array": {
+            "0": "Railroad Crossing"
+        },
         "average_credits": 8000,
         "generated_by": "Fire station",
         "icons": {
@@ -9600,6 +10151,9 @@
         "id": 305,
         "name": "Passenger train derailment (Small)",
         "place": "Rail Crossing",
+        "place_array": {
+            "0": "Rail Crossing"
+        },
         "average_credits": 8000,
         "generated_by": "Fire station",
         "icons": {
@@ -9637,6 +10191,9 @@
         "id": 306,
         "name": "Passenger train derailment (Large)",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 11000,
         "generated_by": "Fire station",
         "icons": {
@@ -9675,6 +10232,9 @@
         "id": 307,
         "name": "Passenger train derailment (Large)",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 11000,
         "generated_by": "Fire station",
         "icons": {
@@ -9713,6 +10273,9 @@
         "id": 308,
         "name": "Passenger train derailment (Large)",
         "place": "Railroad Crossing",
+        "place_array": {
+            "0": "Railroad Crossing"
+        },
         "average_credits": 11000,
         "generated_by": "Fire station",
         "icons": {
@@ -9751,6 +10314,9 @@
         "id": 309,
         "name": "Passenger train derailment (Large)",
         "place": "Rail Crossing",
+        "place_array": {
+            "0": "Rail Crossing"
+        },
         "average_credits": 11000,
         "generated_by": "Fire station",
         "icons": {
@@ -9789,6 +10355,9 @@
         "id": 310,
         "name": "Passenger train derailment (Major)",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 14000,
         "generated_by": "Fire station",
         "icons": {
@@ -9826,6 +10395,9 @@
         "id": 311,
         "name": "Passenger train derailment (Major)",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 14000,
         "generated_by": "Fire station",
         "icons": {
@@ -9863,6 +10435,9 @@
         "id": 312,
         "name": "Passenger train derailment (Major)",
         "place": "Railroad Crossing",
+        "place_array": {
+            "0": "Railroad Crossing"
+        },
         "average_credits": 14000,
         "generated_by": "Fire station",
         "icons": {
@@ -9900,6 +10475,9 @@
         "id": 313,
         "name": "Passenger train derailment (Major)",
         "place": "Rail Crossing",
+        "place_array": {
+            "0": "Rail Crossing"
+        },
         "average_credits": 14000,
         "generated_by": "Fire station",
         "icons": {
@@ -9937,6 +10515,9 @@
         "id": 314,
         "name": "Bus in river",
         "place": "River",
+        "place_array": {
+            "0": "River"
+        },
         "average_credits": 4000,
         "generated_by": "",
         "icons": {
@@ -9975,6 +10556,9 @@
         "id": 315,
         "name": "Chemistry accident at school",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 900,
         "generated_by": "Fire station",
         "icons": {
@@ -10021,7 +10605,8 @@
     "316": {
         "id": 316,
         "name": "Bus on fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Fire station",
         "icons": {
@@ -10066,6 +10651,9 @@
         "id": 317,
         "name": "Subway Collapse",
         "place": "Subway station",
+        "place_array": {
+            "0": "Subway station"
+        },
         "average_credits": 12000,
         "generated_by": "Fire station",
         "icons": {
@@ -10102,6 +10690,9 @@
         "id": 318,
         "name": "Subway train on fire",
         "place": "Subway station",
+        "place_array": {
+            "0": "Subway station"
+        },
         "average_credits": 5000,
         "generated_by": "Fire station",
         "icons": {
@@ -10158,6 +10749,9 @@
         "id": 319,
         "name": "Damaged tank car",
         "place": "Goods station",
+        "place_array": {
+            "0": "Goods station"
+        },
         "average_credits": 950,
         "generated_by": "Fire station",
         "icons": {
@@ -10183,6 +10777,9 @@
         "id": 320,
         "name": "Tanker ship on fire",
         "place": "Cargo port",
+        "place_array": {
+            "0": "Cargo port"
+        },
         "average_credits": 15000,
         "generated_by": "Fire station",
         "icons": {
@@ -10237,7 +10834,8 @@
     "321": {
         "id": 321,
         "name": "Car vs tree",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Fire station",
         "icons": {
@@ -10277,7 +10875,8 @@
     "322": {
         "id": 322,
         "name": "Car vs tree (entrapment)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Fire station",
         "icons": {
@@ -10313,6 +10912,9 @@
         "id": 323,
         "name": "Protestors on runway",
         "place": "Small Airport (Runway)",
+        "place_array": {
+            "0": "Small Airport (Runway)"
+        },
         "average_credits": 700,
         "generated_by": "Police station",
         "icons": {
@@ -10346,6 +10948,9 @@
         "id": 324,
         "name": "Protestors on runway",
         "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
         "average_credits": 1200,
         "generated_by": "Police station",
         "icons": {
@@ -10380,7 +10985,8 @@
     "325": {
         "id": 325,
         "name": "Sick person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -10423,7 +11029,8 @@
     "326": {
         "id": 326,
         "name": "Panic button activation",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Police station",
         "icons": {
@@ -10462,7 +11069,8 @@
     "340": {
         "id": 340,
         "name": "Restraining Order Violation",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Police station",
         "icons": {
@@ -10488,7 +11096,8 @@
     "341": {
         "id": 341,
         "name": "Vehicle Crash - Property Damage",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Police station",
         "icons": {
@@ -10517,7 +11126,8 @@
     "342": {
         "id": 342,
         "name": "Child Locked in Vehicle",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Police station",
         "icons": {
@@ -10559,7 +11169,8 @@
     "343": {
         "id": 343,
         "name": "Residential burglar alarm triggered",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Police station",
         "icons": {
@@ -10583,6 +11194,9 @@
         "id": 344,
         "name": "Animal on the tracks",
         "place": "Rail Crossing",
+        "place_array": {
+            "0": "Rail Crossing"
+        },
         "average_credits": 200,
         "generated_by": "Fire station",
         "icons": {
@@ -10605,6 +11219,9 @@
         "id": 345,
         "name": "Animal on the tracks",
         "place": "Railroad Crossing",
+        "place_array": {
+            "0": "Railroad Crossing"
+        },
         "average_credits": 200,
         "generated_by": "Fire station",
         "icons": {
@@ -10627,6 +11244,9 @@
         "id": 346,
         "name": "Animal on the tracks",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 200,
         "generated_by": "Fire station",
         "icons": {
@@ -10649,6 +11269,9 @@
         "id": 347,
         "name": "Animal on the tracks",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 200,
         "generated_by": "Fire station",
         "icons": {
@@ -10670,7 +11293,8 @@
     "348": {
         "id": 348,
         "name": "Cooking fire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Fire station",
         "icons": {
@@ -10696,6 +11320,9 @@
         "id": 349,
         "name": "Propane depot explosion",
         "place": "Propane depot",
+        "place_array": {
+            "0": "Propane depot"
+        },
         "average_credits": 8000,
         "generated_by": "Fire station",
         "icons": {
@@ -10749,7 +11376,8 @@
     "350": {
         "id": 350,
         "name": "Choking",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -10781,7 +11409,8 @@
     "351": {
         "id": 351,
         "name": "Injured person on high voltage mast",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Ambulance station",
         "icons": {
@@ -10825,6 +11454,9 @@
         "id": 352,
         "name": "Large Ferry Fire",
         "place": "Large Ferry Dock",
+        "place_array": {
+            "0": "Large Ferry Dock"
+        },
         "average_credits": 9000,
         "generated_by": "Fire station",
         "icons": {
@@ -10870,7 +11502,8 @@
     "353": {
         "id": 353,
         "name": "Residential police raid",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Police station",
         "icons": {
@@ -10894,6 +11527,9 @@
         "id": 354,
         "name": "Straw bale stack on fire",
         "place": "Farm",
+        "place_array": {
+            "0": "Farm"
+        },
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -10917,7 +11553,8 @@
     "355": {
         "id": 355,
         "name": "Injured free runner",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Ambulance station",
         "icons": {
@@ -10949,6 +11586,9 @@
         "id": 356,
         "name": "Cruise ship fire",
         "place": "Cruise ship dock",
+        "place_array": {
+            "0": "Cruise ship dock"
+        },
         "average_credits": 9000,
         "generated_by": "Fire station",
         "icons": {
@@ -10991,7 +11631,8 @@
     "357": {
         "id": 357,
         "name": "Vehicle lost its load",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Police station",
         "icons": {
@@ -11017,7 +11658,8 @@
     "369": {
         "id": 369,
         "name": "Medium Wildfire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Fire station",
         "icons": {
@@ -11049,7 +11691,8 @@
     "370": {
         "id": 370,
         "name": "Large Wildfire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6500,
         "generated_by": "Fire station",
         "icons": {
@@ -11081,7 +11724,8 @@
     "371": {
         "id": 371,
         "name": "Major Wildfire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10000,
         "generated_by": "Fire station",
         "icons": {
@@ -11113,7 +11757,8 @@
     "372": {
         "id": 372,
         "name": "Medium Controlled Burn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1300,
         "generated_by": "Fire station",
         "icons": {
@@ -11143,7 +11788,8 @@
     "373": {
         "id": 373,
         "name": "Large Controlled Burn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1800,
         "generated_by": "Fire station",
         "icons": {
@@ -11172,6 +11818,9 @@
         "id": 374,
         "name": "Firebreak Clearing",
         "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
         "average_credits": 600,
         "generated_by": "Fire station",
         "icons": {
@@ -11195,6 +11844,9 @@
         "id": 375,
         "name": "Lightning Strike in Forest",
         "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
         "average_credits": 700,
         "generated_by": "Fire station",
         "icons": {
@@ -11224,6 +11876,9 @@
         "id": 376,
         "name": "Plane off the runway",
         "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -11262,7 +11917,8 @@
     "377": {
         "id": 377,
         "name": "Off-road Rescue",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -11294,6 +11950,9 @@
         "id": 378,
         "name": "SCUBA Injury",
         "place": "Lake",
+        "place_array": {
+            "0": "Lake"
+        },
         "average_credits": 600,
         "generated_by": "Ambulance station",
         "icons": {
@@ -11322,6 +11981,9 @@
         "id": 379,
         "name": "SCUBA Injury",
         "place": "Marina",
+        "place_array": {
+            "0": "Marina"
+        },
         "average_credits": 600,
         "generated_by": "Ambulance station",
         "icons": {
@@ -11350,6 +12012,9 @@
         "id": 380,
         "name": "Boat Leaking Fuel",
         "place": "Marina",
+        "place_array": {
+            "0": "Marina"
+        },
         "average_credits": 1000,
         "generated_by": "Fire station",
         "icons": {
@@ -11375,6 +12040,9 @@
         "id": 381,
         "name": "Small Earthquake",
         "place": "Fault line",
+        "place_array": {
+            "0": "Fault line"
+        },
         "average_credits": 500,
         "generated_by": "Fire station",
         "icons": {
@@ -11402,6 +12070,9 @@
         "id": 382,
         "name": "Large Earthquake",
         "place": "Fault line",
+        "place_array": {
+            "0": "Fault line"
+        },
         "average_credits": 2100,
         "generated_by": "Fire station",
         "icons": {
@@ -11447,6 +12118,9 @@
         "id": 383,
         "name": "Medium Earthquake",
         "place": "Fault line",
+        "place_array": {
+            "0": "Fault line"
+        },
         "average_credits": 1200,
         "generated_by": "Fire station",
         "icons": {
@@ -11492,6 +12166,9 @@
         "id": 384,
         "name": "Major Earthquake",
         "place": "Fault line",
+        "place_array": {
+            "0": "Fault line"
+        },
         "average_credits": 3200,
         "generated_by": "Fire station",
         "icons": {
@@ -11535,6 +12212,9 @@
         "id": 385,
         "name": "Trespasser on Tracks",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 900,
         "generated_by": "Police station",
         "icons": {
@@ -11561,6 +12241,9 @@
         "id": 386,
         "name": "Trespasser on Tracks",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 900,
         "generated_by": "Police station",
         "icons": {
@@ -11587,6 +12270,9 @@
         "id": 387,
         "name": "Trespasser on Tracks",
         "place": "Railroad Crossing",
+        "place_array": {
+            "0": "Railroad Crossing"
+        },
         "average_credits": 900,
         "generated_by": "Police station",
         "icons": {
@@ -11613,6 +12299,9 @@
         "id": 388,
         "name": "Trespasser on Tracks",
         "place": "Rail Crossing",
+        "place_array": {
+            "0": "Rail Crossing"
+        },
         "average_credits": 900,
         "generated_by": "Police station",
         "icons": {
@@ -11639,6 +12328,9 @@
         "id": 389,
         "name": "Small forest fire",
         "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
         "average_credits": 2000,
         "generated_by": "Fire station",
         "icons": {
@@ -11671,6 +12363,9 @@
         "id": 390,
         "name": "Cliff collapse on highway",
         "place": "Highway exit",
+        "place_array": {
+            "0": "Highway exit"
+        },
         "average_credits": 7000,
         "generated_by": "Fire station",
         "icons": {
@@ -11699,6 +12394,9 @@
         "id": 391,
         "name": "Cabin fire",
         "place": "Forest Cabin",
+        "place_array": {
+            "0": "Forest Cabin"
+        },
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -11754,6 +12452,9 @@
         "id": 392,
         "name": "Campsite fire",
         "place": "Campsite",
+        "place_array": {
+            "0": "Campsite"
+        },
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -11807,6 +12508,9 @@
         "id": 393,
         "name": "Medium forest fire",
         "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
         "average_credits": 5500,
         "generated_by": "Fire station",
         "icons": {
@@ -11839,6 +12543,9 @@
         "id": 394,
         "name": "Large Forest Fire",
         "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
         "average_credits": 8000,
         "generated_by": "Fire station",
         "icons": {
@@ -11872,6 +12579,9 @@
         "id": 395,
         "name": "Major Forest Fire",
         "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
         "average_credits": 11000,
         "generated_by": "Fire station",
         "icons": {
@@ -11908,6 +12618,9 @@
         "id": 396,
         "name": "Fire Watch",
         "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -11934,6 +12647,9 @@
         "id": 397,
         "name": "Burning Bus Terminal",
         "place": "Bus Terminal",
+        "place_array": {
+            "0": "Bus Terminal"
+        },
         "average_credits": 2000,
         "generated_by": "Fire station",
         "icons": {
@@ -11977,7 +12693,8 @@
     "398": {
         "id": 398,
         "name": "Traffic light failure",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Police station",
         "icons": {
@@ -12003,6 +12720,9 @@
         "id": 399,
         "name": "Train station fire (small)",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 4000,
         "generated_by": "Fire station",
         "icons": {
@@ -12056,6 +12776,9 @@
         "id": 400,
         "name": "Train station fire (medium)",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 6000,
         "generated_by": "Fire station",
         "icons": {
@@ -12111,6 +12834,9 @@
         "id": 401,
         "name": "Train station fire (small)",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 4000,
         "generated_by": "Fire station",
         "icons": {
@@ -12164,6 +12890,9 @@
         "id": 402,
         "name": "Train station fire (medium)",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 6000,
         "generated_by": "Fire station",
         "icons": {
@@ -12219,6 +12948,9 @@
         "id": 420,
         "name": "Pier on fire",
         "place": "Pier",
+        "place_array": {
+            "0": "Pier"
+        },
         "average_credits": 5000,
         "generated_by": "Fire station",
         "icons": {
@@ -12245,7 +12977,8 @@
     "421": {
         "id": 421,
         "name": "Panic attack",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -12273,7 +13006,8 @@
     "422": {
         "id": 422,
         "name": "Community Engagement",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Fire station",
         "icons": {
@@ -12303,6 +13037,9 @@
         "id": 423,
         "name": "Train station fire (Large)",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 10000,
         "generated_by": "Fire station",
         "icons": {
@@ -12366,6 +13103,9 @@
         "id": 424,
         "name": "Train station fire (Large)",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 10000,
         "generated_by": "Fire station",
         "icons": {
@@ -12428,7 +13168,8 @@
     "425": {
         "id": 425,
         "name": "Construction vehicle accident",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 950,
         "generated_by": "Fire station",
         "icons": {
@@ -12463,6 +13204,9 @@
         "id": 426,
         "name": "Medical emergency on ship",
         "place": "Cargo port",
+        "place_array": {
+            "0": "Cargo port"
+        },
         "average_credits": 700,
         "generated_by": "Ambulance station",
         "icons": {
@@ -12498,6 +13242,9 @@
         "id": 427,
         "name": "Medical emergency on ship",
         "place": "Cruise ship dock",
+        "place_array": {
+            "0": "Cruise ship dock"
+        },
         "average_credits": 700,
         "generated_by": "Ambulance station",
         "icons": {
@@ -12532,7 +13279,8 @@
     "428": {
         "id": 428,
         "name": "Security Check",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Police station",
         "icons": {
@@ -12556,7 +13304,8 @@
     "429": {
         "id": 429,
         "name": "Car vs Powerline",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Fire station",
         "icons": {
@@ -12591,6 +13340,9 @@
         "id": 430,
         "name": "Subway train derailment",
         "place": "Subway station",
+        "place_array": {
+            "0": "Subway station"
+        },
         "average_credits": 4000,
         "generated_by": "Fire station",
         "icons": {
@@ -12626,6 +13378,9 @@
         "id": 431,
         "name": "Electrocution from third rail",
         "place": "Subway station",
+        "place_array": {
+            "0": "Subway station"
+        },
         "average_credits": 400,
         "generated_by": "Ambulance station",
         "icons": {
@@ -12656,7 +13411,8 @@
     "432": {
         "id": 432,
         "name": "Small Wildfire",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Fire station",
         "icons": {
@@ -12687,7 +13443,8 @@
     "433": {
         "id": 433,
         "name": "Small Controlled Burn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Fire station",
         "icons": {
@@ -12718,6 +13475,9 @@
         "id": 434,
         "name": "Restaurant fire",
         "place": "Restaurant",
+        "place_array": {
+            "0": "Restaurant"
+        },
         "average_credits": 5000,
         "generated_by": "Fire station",
         "icons": {
@@ -12760,7 +13520,8 @@
     "435": {
         "id": 435,
         "name": "Overturned tanker truck",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Fire station",
         "icons": {
@@ -12803,7 +13564,8 @@
     "436": {
         "id": 436,
         "name": "Concussion",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -12834,7 +13596,8 @@
     "437": {
         "id": 437,
         "name": "Reported fraud",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Police station",
         "icons": {
@@ -12857,7 +13620,8 @@
     "438": {
         "id": 438,
         "name": "Serve court order",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 150,
         "generated_by": "Police station",
         "icons": {
@@ -12883,7 +13647,8 @@
     "439": {
         "id": 439,
         "name": "Serve eviction notice",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 150,
         "generated_by": "Police station",
         "icons": {
@@ -12906,7 +13671,8 @@
     "440": {
         "id": 440,
         "name": "Eviction standby",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Police station",
         "icons": {
@@ -12932,6 +13698,9 @@
         "id": 441,
         "name": "Office Investigation",
         "place": "Office Building",
+        "place_array": {
+            "0": "Office Building"
+        },
         "average_credits": 500,
         "generated_by": "Federal Police Station",
         "icons": {
@@ -12960,6 +13729,9 @@
         "id": 442,
         "name": "Office used for crypto attacks",
         "place": "Office Building",
+        "place_array": {
+            "0": "Office Building"
+        },
         "average_credits": 1600,
         "generated_by": "Federal Police Station",
         "icons": {
@@ -12989,6 +13761,9 @@
         "id": 443,
         "name": "Office embedded in corruption",
         "place": "Office Building",
+        "place_array": {
+            "0": "Office Building"
+        },
         "average_credits": 1900,
         "generated_by": "Federal Police Station",
         "icons": {
@@ -13014,7 +13789,8 @@
     "444": {
         "id": 444,
         "name": "Cyber-Criminal organization hideout",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3600,
         "generated_by": "Federal Police Station",
         "icons": {
@@ -13044,6 +13820,9 @@
         "id": 445,
         "name": "Restaurant Investigation",
         "place": "Fast Food Restaurant",
+        "place_array": {
+            "0": "Fast Food Restaurant"
+        },
         "average_credits": 500,
         "generated_by": "Federal Police Station",
         "icons": {
@@ -13070,6 +13849,9 @@
         "id": 446,
         "name": "Money laundry operations inside restaurant",
         "place": "Fast Food Restaurant",
+        "place_array": {
+            "0": "Fast Food Restaurant"
+        },
         "average_credits": 1700,
         "generated_by": "Federal Police Station",
         "icons": {
@@ -13098,7 +13880,8 @@
     "447": {
         "id": 447,
         "name": "Criminal organization meeting",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3700,
         "generated_by": "Federal Police Station",
         "icons": {
@@ -13128,6 +13911,9 @@
         "id": 448,
         "name": "Notebook stolen from school",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 150,
         "generated_by": "Police station",
         "icons": {
@@ -13150,7 +13936,8 @@
     "449": {
         "id": 449,
         "name": "Burglary in basement",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Police station",
         "icons": {
@@ -13172,7 +13959,8 @@
     "450": {
         "id": 450,
         "name": "Property damaged",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Police station",
         "icons": {
@@ -13195,7 +13983,8 @@
     "451": {
         "id": 451,
         "name": "Disturbance of peace",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Police station",
         "icons": {
@@ -13218,7 +14007,8 @@
     "452": {
         "id": 452,
         "name": "Motorcycle accident",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Police station",
         "icons": {
@@ -13251,7 +14041,8 @@
     "453": {
         "id": 453,
         "name": "Drunk driving",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 150,
         "generated_by": "Police station",
         "icons": {
@@ -13273,7 +14064,8 @@
     "454": {
         "id": 454,
         "name": "Breakdown of vehicle",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 100,
         "generated_by": "Police station",
         "icons": {
@@ -13295,7 +14087,8 @@
     "455": {
         "id": 455,
         "name": "Robbery",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Police station",
         "icons": {
@@ -13319,7 +14112,8 @@
     "456": {
         "id": 456,
         "name": "Domestic violence",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Police station",
         "icons": {
@@ -13350,7 +14144,8 @@
     "457": {
         "id": 457,
         "name": "Bicycle stolen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 150,
         "generated_by": "Police station",
         "icons": {
@@ -13372,7 +14167,8 @@
     "458": {
         "id": 458,
         "name": "Safeguarding of musical parade",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Police station",
         "icons": {
@@ -13397,7 +14193,8 @@
     "459": {
         "id": 459,
         "name": "Horse riding accident with vehicle",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Police station",
         "icons": {
@@ -13428,7 +14225,8 @@
     "460": {
         "id": 460,
         "name": "Traffic surveillance",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Police station",
         "icons": {
@@ -13455,6 +14253,9 @@
         "id": 461,
         "name": "Petrol fraud",
         "place": "Gas station",
+        "place_array": {
+            "0": "Gas station"
+        },
         "average_credits": 300,
         "generated_by": "Police station",
         "icons": {
@@ -13477,7 +14278,8 @@
     "462": {
         "id": 462,
         "name": "Illegal gun withdrawal",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1700,
         "generated_by": "Police station",
         "icons": {
@@ -13504,6 +14306,9 @@
         "id": 463,
         "name": "Silent alarm triggered inside bank",
         "place": "Bank",
+        "place_array": {
+            "0": "Bank"
+        },
         "average_credits": 500,
         "generated_by": "Police station",
         "icons": {
@@ -13525,7 +14330,8 @@
     "464": {
         "id": 464,
         "name": "Warrant enforcement",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 550,
         "generated_by": "Police station",
         "icons": {
@@ -13550,6 +14356,9 @@
         "id": 465,
         "name": "Wrong-way driver",
         "place": "Highway exit",
+        "place_array": {
+            "0": "Highway exit"
+        },
         "average_credits": 1000,
         "generated_by": "Police station",
         "icons": {
@@ -13572,6 +14381,9 @@
         "id": 466,
         "name": "Hunter accidently injured trespasser",
         "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
         "average_credits": 200,
         "generated_by": "Police station",
         "icons": {
@@ -13605,6 +14417,9 @@
         "id": 467,
         "name": "Mass panic in discotheque",
         "place": "Discotheque",
+        "place_array": {
+            "0": "Discotheque"
+        },
         "average_credits": 3500,
         "generated_by": "Police station",
         "icons": {
@@ -13639,6 +14454,9 @@
         "id": 468,
         "name": "Abandoned luggage",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 150,
         "generated_by": "Police station",
         "icons": {
@@ -13661,6 +14479,9 @@
         "id": 469,
         "name": "Abandoned luggage",
         "place": "Bridge",
+        "place_array": {
+            "0": "Bridge"
+        },
         "average_credits": 150,
         "generated_by": "Police station",
         "icons": {
@@ -13682,7 +14503,8 @@
     "470": {
         "id": 470,
         "name": "Small wildfire cleanup",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Fire station",
         "icons": {
@@ -13704,7 +14526,8 @@
     "471": {
         "id": 471,
         "name": "Medium wildfire cleanup",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Fire station",
         "icons": {
@@ -13728,7 +14551,8 @@
     "472": {
         "id": 472,
         "name": "Large wildfire cleanup",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4500,
         "generated_by": "Fire station",
         "icons": {
@@ -13753,7 +14577,8 @@
     "473": {
         "id": 473,
         "name": "Major wildfire cleanup",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 9500,
         "generated_by": "Fire station",
         "icons": {
@@ -13780,6 +14605,9 @@
         "id": 474,
         "name": "Carpentry workshop fire",
         "place": "Carpentry Workshop",
+        "place_array": {
+            "0": "Carpentry Workshop"
+        },
         "average_credits": 4200,
         "generated_by": "Fire station",
         "icons": {
@@ -13817,6 +14645,9 @@
         "id": 475,
         "name": "Person stuck on playground equipment",
         "place": "Playground",
+        "place_array": {
+            "0": "Playground"
+        },
         "average_credits": 500,
         "generated_by": "Fire station",
         "icons": {
@@ -13849,6 +14680,9 @@
         "id": 476,
         "name": "Train station collapse (Small) (Fire alarm system)",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 4000,
         "generated_by": "Fire station",
         "icons": {
@@ -13881,6 +14715,9 @@
         "id": 477,
         "name": "Train station collapse (Small) (Fire alarm system)",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 3200,
         "generated_by": "Fire station",
         "icons": {
@@ -13913,6 +14750,9 @@
         "id": 478,
         "name": "Train station collapse (Medium)",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 6000,
         "generated_by": "Fire station",
         "icons": {
@@ -13947,6 +14787,9 @@
         "id": 479,
         "name": "Train station collapse (Medium)",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 6000,
         "generated_by": "Fire station",
         "icons": {
@@ -13981,6 +14824,9 @@
         "id": 480,
         "name": "Train station collapse (Large)",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 9800,
         "generated_by": "Fire station",
         "icons": {
@@ -14017,6 +14863,9 @@
         "id": 481,
         "name": "Train station collapse (Large)",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 9800,
         "generated_by": "Fire station",
         "icons": {
@@ -14053,6 +14902,9 @@
         "id": 482,
         "name": "Train station collapse (Major)",
         "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
         "average_credits": 15000,
         "generated_by": "Fire station",
         "icons": {
@@ -14089,6 +14941,9 @@
         "id": 483,
         "name": "Train station collapse (Major)",
         "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
         "average_credits": 15000,
         "generated_by": "Fire station",
         "icons": {
@@ -14124,7 +14979,8 @@
     "484": {
         "id": 484,
         "name": "Accident with chainsaw",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Ambulance station",
         "icons": {
@@ -14154,6 +15010,9 @@
         "id": 485,
         "name": "Burning freight car",
         "place": "Goods station",
+        "place_array": {
+            "0": "Goods station"
+        },
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -14176,7 +15035,8 @@
     "486": {
         "id": 486,
         "name": "Speed radar",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Police station",
         "icons": {
@@ -14202,6 +15062,9 @@
         "id": 487,
         "name": "Bird strike",
         "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
         "average_credits": 2500,
         "generated_by": "Fire station",
         "icons": {
@@ -14229,6 +15092,9 @@
         "id": 488,
         "name": "Bird strike",
         "place": "Small Airport (Runway)",
+        "place_array": {
+            "0": "Small Airport (Runway)"
+        },
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -14251,7 +15117,8 @@
     "489": {
         "id": 489,
         "name": "Possible Cannabis Farm",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Police station",
         "icons": {
@@ -14278,7 +15145,8 @@
     "490": {
         "id": 490,
         "name": "Suspicious package",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Police station",
         "icons": {
@@ -14301,7 +15169,8 @@
     "491": {
         "id": 491,
         "name": "Suspicious Person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Police station",
         "icons": {
@@ -14324,7 +15193,8 @@
     "492": {
         "id": 492,
         "name": "Arrhythmia",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -14355,6 +15225,9 @@
         "id": 493,
         "name": "Street market patrol",
         "place": "City centre",
+        "place_array": {
+            "0": "City centre"
+        },
         "average_credits": 1500,
         "generated_by": "Police station",
         "icons": {
@@ -14379,7 +15252,8 @@
     "494": {
         "id": 494,
         "name": "Object stuck in person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -14407,7 +15281,8 @@
     "495": {
         "id": 495,
         "name": "Counterfeit Goods raid",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Police station",
         "icons": {
@@ -14431,6 +15306,9 @@
         "id": 496,
         "name": "Debris on runway",
         "place": "Small Airport (Runway)",
+        "place_array": {
+            "0": "Small Airport (Runway)"
+        },
         "average_credits": 350,
         "generated_by": "Fire station",
         "icons": {
@@ -14453,6 +15331,9 @@
         "id": 497,
         "name": "Debris on runway",
         "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
         "average_credits": 350,
         "generated_by": "Fire station",
         "icons": {
@@ -14475,6 +15356,9 @@
         "id": 498,
         "name": "Landslide",
         "place": "Hill",
+        "place_array": {
+            "0": "Hill"
+        },
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -14508,7 +15392,8 @@
     "499": {
         "id": 499,
         "name": "Crushed person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -14542,6 +15427,9 @@
         "id": 510,
         "name": "Biker fell off mountain-road",
         "place": "Hill",
+        "place_array": {
+            "0": "Hill"
+        },
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -14575,6 +15463,9 @@
         "id": 511,
         "name": "Major road block",
         "place": "Bridge",
+        "place_array": {
+            "0": "Bridge"
+        },
         "average_credits": 6000,
         "generated_by": "Police station",
         "icons": {
@@ -14600,6 +15491,9 @@
         "id": 512,
         "name": "Apartment fire in High Rise",
         "place": "High Rise",
+        "place_array": {
+            "0": "High Rise"
+        },
         "average_credits": 2000,
         "generated_by": "Fire station",
         "icons": {
@@ -14636,7 +15530,8 @@
     "513": {
         "id": 513,
         "name": "Transporter fell on side",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -14676,7 +15571,8 @@
     "514": {
         "id": 514,
         "name": "Illegal internet activity",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Federal Police Station",
         "icons": {
@@ -14703,7 +15599,8 @@
     "515": {
         "id": 515,
         "name": "Chlorine Exposure",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Fire station",
         "icons": {
@@ -14744,6 +15641,9 @@
         "id": 516,
         "name": "Containment Breach at Lab",
         "place": "Laboratory",
+        "place_array": {
+            "0": "Laboratory"
+        },
         "average_credits": 7500,
         "generated_by": "Fire station",
         "icons": {
@@ -14791,6 +15691,9 @@
         "id": 517,
         "name": "Agricultural Chemical Leak",
         "place": "Farm",
+        "place_array": {
+            "0": "Farm"
+        },
         "average_credits": 3500,
         "generated_by": "Fire station",
         "icons": {
@@ -14833,7 +15736,8 @@
     "518": {
         "id": 518,
         "name": "Container Leaking Unknown Substance",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -14863,6 +15767,9 @@
         "id": 519,
         "name": "Aircraft Leaking Fuel",
         "place": "Small Airport (Runway)",
+        "place_array": {
+            "0": "Small Airport (Runway)"
+        },
         "average_credits": 1500,
         "generated_by": "Fire station",
         "icons": {
@@ -14894,6 +15801,9 @@
         "id": 520,
         "name": "Aircraft Leaking Fuel",
         "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
         "average_credits": 2500,
         "generated_by": "Fire station",
         "icons": {
@@ -14925,6 +15835,9 @@
         "id": 521,
         "name": "Radioactive Exposure",
         "place": "Hospital",
+        "place_array": {
+            "0": "Hospital"
+        },
         "average_credits": 2500,
         "generated_by": "Fire station",
         "icons": {
@@ -14964,6 +15877,9 @@
         "id": 522,
         "name": "Fuel Spill in Waterway",
         "place": "River",
+        "place_array": {
+            "0": "River"
+        },
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -14994,6 +15910,9 @@
         "id": 523,
         "name": "Fuel Spill in Waterway",
         "place": "Lake",
+        "place_array": {
+            "0": "Lake"
+        },
         "average_credits": 3000,
         "generated_by": "Fire station",
         "icons": {
@@ -15026,7 +15945,8 @@
     "524": {
         "id": 524,
         "name": "Cat stuck in tree",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Fire station",
         "icons": {
@@ -15050,6 +15970,9 @@
         "id": 525,
         "name": "Jewelry store robbery",
         "place": "Mall",
+        "place_array": {
+            "0": "Mall"
+        },
         "average_credits": 800,
         "generated_by": "Police station",
         "icons": {
@@ -15071,7 +15994,8 @@
     "526": {
         "id": 526,
         "name": "Glass shard embedded in hand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance station",
         "icons": {
@@ -15099,7 +16023,8 @@
     "527": {
         "id": 527,
         "name": "Observation of a suspect",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6000,
         "generated_by": "Police station",
         "icons": {

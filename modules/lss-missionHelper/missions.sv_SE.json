@@ -3,6 +3,9 @@
         "id": 0,
         "name": "Brand ute - soptunna",
         "place": "Bussh\u00e5llplats",
+        "place_array": {
+            "0": "Bussh\u00e5llplats"
+        },
         "average_credits": 110,
         "generated_by": "Brandstation",
         "icons": {
@@ -24,7 +27,8 @@
     "1": {
         "id": 1,
         "name": "Brand ute - container",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "Brandstation",
         "icons": {
@@ -46,7 +50,8 @@
     "2": {
         "id": 2,
         "name": "Brand ute - fordon, personbil",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 370,
         "generated_by": "Brandstation",
         "icons": {
@@ -73,7 +78,8 @@
     "3": {
         "id": 3,
         "name": "Brand ute - fordon, motorcykel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Brandstation",
         "icons": {
@@ -98,7 +104,8 @@
     "4": {
         "id": 4,
         "name": "Brand ute - terr\u00e4ng, gr\u00e4sbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Brandstation",
         "icons": {
@@ -123,7 +130,8 @@
     "5": {
         "id": 5,
         "name": "Brand i byggnad - flerfamiljshus, l\u00e4genhet",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Brandstation",
         "icons": {
@@ -151,7 +159,8 @@
     "6": {
         "id": 6,
         "name": "Brand i byggnad - mindre, frist\u00e5ende",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Brandstation",
         "icons": {
@@ -173,7 +182,8 @@
     "7": {
         "id": 7,
         "name": "Brand ute - l\u00f6v",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Brandstation",
         "icons": {
@@ -198,7 +208,8 @@
     "8": {
         "id": 8,
         "name": "Brand ute - sopor",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 220,
         "generated_by": "Brandstation",
         "icons": {
@@ -225,7 +236,8 @@
     "9": {
         "id": 9,
         "name": "Brand ute - h\u00f6bal",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Brandstation",
         "icons": {
@@ -251,7 +263,8 @@
     "10": {
         "id": 10,
         "name": "Brand ute - fordon, arbetsmaskin",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Brandstation",
         "icons": {
@@ -273,7 +286,8 @@
     "11": {
         "id": 11,
         "name": "Brand ute - telefonkiosk",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 240,
         "generated_by": "Brandstation",
         "icons": {
@@ -295,7 +309,8 @@
     "12": {
         "id": 12,
         "name": "Hinder p\u00e5 v\u00e4g",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Brandstation",
         "icons": {
@@ -321,7 +336,8 @@
     "13": {
         "id": 13,
         "name": "Brand ute - fordon, lastbil",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 980,
         "generated_by": "Brandstation",
         "icons": {
@@ -343,7 +359,8 @@
     "14": {
         "id": 14,
         "name": "Brand ute - terr\u00e4ng, skogsbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brandstation",
         "icons": {
@@ -369,6 +386,9 @@
         "id": 15,
         "name": "Brand ute - terr\u00e4ng",
         "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
         "average_credits": 1010,
         "generated_by": "Brandstation",
         "icons": {
@@ -390,7 +410,8 @@
     "16": {
         "id": 16,
         "name": "Brand ute - fordon, husvagn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Brandstation",
         "icons": {
@@ -412,7 +433,8 @@
     "17": {
         "id": 17,
         "name": "Brand ute - postl\u00e5da",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Brandstation",
         "icons": {
@@ -434,7 +456,8 @@
     "18": {
         "id": 18,
         "name": "Brand ute - rish\u00f6g",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Brandstation",
         "icons": {
@@ -456,7 +479,8 @@
     "19": {
         "id": 19,
         "name": "Brand ute - fordon, sl\u00e4pvagn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Brandstation",
         "icons": {
@@ -478,7 +502,8 @@
     "20": {
         "id": 20,
         "name": "Brand i byggnad - flerfamiljshus, k\u00e4llare",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Brandstation",
         "icons": {
@@ -506,7 +531,8 @@
     "21": {
         "id": 21,
         "name": "Soteld",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2400,
         "generated_by": "Brandstation",
         "icons": {
@@ -535,7 +561,8 @@
     "22": {
         "id": 22,
         "name": "Brand i byggnad - flerfamiljshus, vind",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2700,
         "generated_by": "Brandstation",
         "icons": {
@@ -562,7 +589,8 @@
     "23": {
         "id": 23,
         "name": "Brinnande fett",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Brandstation",
         "icons": {
@@ -585,6 +613,9 @@
         "id": 24,
         "name": "Brand ute - busskur",
         "place": "Bussh\u00e5llplats",
+        "place_array": {
+            "0": "Bussh\u00e5llplats"
+        },
         "average_credits": 900,
         "generated_by": "Brandstation",
         "icons": {
@@ -606,7 +637,8 @@
     "25": {
         "id": 25,
         "name": "Trafikolycka - singel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brandstation",
         "icons": {
@@ -638,6 +670,9 @@
         "id": 26,
         "name": "Brand i byggnad - publik lokal, mataff\u00e4r",
         "place": "Mataff\u00e4r",
+        "place_array": {
+            "0": "Mataff\u00e4r"
+        },
         "average_credits": 1500,
         "generated_by": "Brandstation",
         "icons": {
@@ -665,7 +700,8 @@
     "27": {
         "id": 27,
         "name": "Brand i byggnad - parkeringshus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Brandstation",
         "icons": {
@@ -687,7 +723,8 @@
     "28": {
         "id": 28,
         "name": "Brand i byggnad - industri, maskin",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2470,
         "generated_by": "Brandstation",
         "icons": {
@@ -714,7 +751,8 @@
     "29": {
         "id": 29,
         "name": "Utsl\u00e4pp farligt \u00e4mne - \u00f6vrigt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5300,
         "generated_by": "Brandstation",
         "icons": {
@@ -741,7 +779,8 @@
     "30": {
         "id": 30,
         "name": "Utsl\u00e4pp farligt \u00e4mne - gas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Brandstation",
         "icons": {
@@ -764,7 +803,8 @@
     "31": {
         "id": 31,
         "name": "Brand i byggnad - villa",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1310,
         "generated_by": "Brandstation",
         "icons": {
@@ -788,7 +828,8 @@
     "32": {
         "id": 32,
         "name": "Brand ute - fordon, sk\u00f6rdetr\u00f6ska",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Brandstation",
         "icons": {
@@ -811,6 +852,9 @@
         "id": 33,
         "name": "Brand i byggnad - publik lokal, mataff\u00e4r",
         "place": "Mataff\u00e4r",
+        "place_array": {
+            "0": "Mataff\u00e4r"
+        },
         "average_credits": 1500,
         "generated_by": "Brandstation",
         "icons": {
@@ -839,6 +883,9 @@
         "id": 34,
         "name": "Brand i byggnad - v\u00e5rd, sjukhus",
         "place": "Sjukhus",
+        "place_array": {
+            "0": "Sjukhus"
+        },
         "average_credits": 6000,
         "generated_by": "Brandstation",
         "icons": {
@@ -869,7 +916,8 @@
     "35": {
         "id": 35,
         "name": "Fylleri/LOB",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -894,7 +942,8 @@
     "36": {
         "id": 36,
         "name": "Br\u00f6stsm\u00e4rta",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -919,7 +968,8 @@
     "37": {
         "id": 37,
         "name": "Andningsbesv\u00e4r",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -944,7 +994,8 @@
     "38": {
         "id": 38,
         "name": "Misst\u00e4nkt stroke",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -969,7 +1020,8 @@
     "39": {
         "id": 39,
         "name": "Akut buk",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -995,7 +1047,8 @@
     "40": {
         "id": 40,
         "name": "Trauma",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -1022,6 +1075,9 @@
         "id": 41,
         "name": "Brand i byggnad - industri, verkstad",
         "place": "Bilverkstad",
+        "place_array": {
+            "0": "Bilverkstad"
+        },
         "average_credits": 6000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1056,7 +1112,8 @@
     "42": {
         "id": 42,
         "name": "Misst\u00e4nkt fraktur",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -1082,7 +1139,8 @@
     "43": {
         "id": 43,
         "name": "Fallolycka",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -1109,6 +1167,9 @@
         "id": 44,
         "name": "St\u00f6ld",
         "place": "Mataff\u00e4r",
+        "place_array": {
+            "0": "Mataff\u00e4r"
+        },
         "average_credits": 100,
         "generated_by": "Polisstation",
         "icons": {
@@ -1132,6 +1193,9 @@
         "id": 45,
         "name": "St\u00f6ld",
         "place": "Stormarknad",
+        "place_array": {
+            "0": "Stormarknad"
+        },
         "average_credits": 100,
         "generated_by": "Polisstation",
         "icons": {
@@ -1155,6 +1219,9 @@
         "id": 46,
         "name": "Trafikolycka, singel",
         "place": "Mataff\u00e4r",
+        "place_array": {
+            "0": "Mataff\u00e4r"
+        },
         "average_credits": 120,
         "generated_by": "Polisstation",
         "icons": {
@@ -1177,6 +1244,9 @@
         "id": 47,
         "name": "Trafikolycka",
         "place": "Stormarknad",
+        "place_array": {
+            "0": "Stormarknad"
+        },
         "average_credits": 120,
         "generated_by": "Polisstation",
         "icons": {
@@ -1199,6 +1269,9 @@
         "id": 48,
         "name": "P\u00e5g\u00e5ende inbrott",
         "place": "Varustation",
+        "place_array": {
+            "0": "Varustation"
+        },
         "average_credits": 150,
         "generated_by": "Polisstation",
         "icons": {
@@ -1222,6 +1295,9 @@
         "id": 49,
         "name": "Personr\u00e5n",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 150,
         "generated_by": "Polisstation",
         "icons": {
@@ -1245,6 +1321,9 @@
         "id": 50,
         "name": "Bedr\u00e4geri",
         "place": "Bussh\u00e5llplats",
+        "place_array": {
+            "0": "Bussh\u00e5llplats"
+        },
         "average_credits": 120,
         "generated_by": "Polisstation",
         "icons": {
@@ -1267,6 +1346,9 @@
         "id": 51,
         "name": "Bedr\u00e4geri",
         "place": "Sp\u00e5rvagnsh\u00e5llplats",
+        "place_array": {
+            "0": "Sp\u00e5rvagnsh\u00e5llplats"
+        },
         "average_credits": 120,
         "generated_by": "Polisstation",
         "icons": {
@@ -1289,6 +1371,9 @@
         "id": 52,
         "name": "Bedr\u00e4geri",
         "place": "T\u00e5gstation (regionalt\u00e5g)",
+        "place_array": {
+            "0": "T\u00e5gstation (regionalt\u00e5g)"
+        },
         "average_credits": 120,
         "generated_by": "Polisstation",
         "icons": {
@@ -1311,6 +1396,9 @@
         "id": 53,
         "name": "Bedr\u00e4geri",
         "place": "T\u00e5gstation (regional- och fj\u00e4rrt\u00e5g)",
+        "place_array": {
+            "0": "T\u00e5gstation (regional- och fj\u00e4rrt\u00e5g)"
+        },
         "average_credits": 120,
         "generated_by": "Polisstation",
         "icons": {
@@ -1333,6 +1421,9 @@
         "id": 54,
         "name": "Trafikolycka, singel",
         "place": "K\u00f6pcentrum",
+        "place_array": {
+            "0": "K\u00f6pcentrum"
+        },
         "average_credits": 120,
         "generated_by": "Polisstation",
         "icons": {
@@ -1354,7 +1445,8 @@
     "55": {
         "id": 55,
         "name": "Br\u00e5k",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Polisstation",
         "icons": {
@@ -1381,7 +1473,8 @@
     "56": {
         "id": 56,
         "name": "Misshandel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Polisstation",
         "icons": {
@@ -1407,7 +1500,8 @@
     "57": {
         "id": 57,
         "name": "Ordningslagen, demonstration",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10020,
         "generated_by": "Polisstation",
         "icons": {
@@ -1428,7 +1522,8 @@
     "58": {
         "id": 58,
         "name": "Brand i byggnad - flerfamiljshus, k\u00f6k",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1451,6 +1546,9 @@
         "id": 59,
         "name": "Djurr\u00e4ddning",
         "place": "Bondg\u00e5rd",
+        "place_array": {
+            "0": "Bondg\u00e5rd"
+        },
         "average_credits": 900,
         "generated_by": "Brandstation",
         "icons": {
@@ -1474,6 +1572,9 @@
         "id": 60,
         "name": "Brand i byggnad - publik lokal, idrottshall",
         "place": "Skola",
+        "place_array": {
+            "0": "Skola"
+        },
         "average_credits": 2000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1502,7 +1603,8 @@
     "62": {
         "id": 62,
         "name": "Ordningslagen, ov\u00e4sen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Polisstation",
         "icons": {
@@ -1524,7 +1626,8 @@
     "63": {
         "id": 63,
         "name": "Misst\u00e4nkt stroke",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -1549,7 +1652,8 @@
     "64": {
         "id": 64,
         "name": "Trafikolycka - singel, buss",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1577,7 +1681,8 @@
     "65": {
         "id": 65,
         "name": "Brand i byggnad - flerfamiljshus, l\u00e4genhet",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1599,7 +1704,8 @@
     "66": {
         "id": 66,
         "name": "Brand i byggnad - radhus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Brandstation",
         "icons": {
@@ -1627,7 +1733,8 @@
     "67": {
         "id": 67,
         "name": "Misshandel, grov",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Polisstation",
         "icons": {
@@ -1655,6 +1762,9 @@
         "id": 68,
         "name": "Brand i byggnad - publik lokal, stormarknad",
         "place": "Stormarknad",
+        "place_array": {
+            "0": "Stormarknad"
+        },
         "average_credits": 3000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1688,7 +1798,8 @@
     "69": {
         "id": 69,
         "name": "Utsl\u00e4pp farligt \u00e4mne - \u00f6vrigt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4300,
         "generated_by": "Brandstation",
         "icons": {
@@ -1716,6 +1827,9 @@
         "id": 70,
         "name": "Brand i byggnad - publik lokal, stormarknad",
         "place": "Stormarknad",
+        "place_array": {
+            "0": "Stormarknad"
+        },
         "average_credits": 3000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1749,7 +1863,8 @@
     "71": {
         "id": 71,
         "name": "Bl\u00f6dning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -1775,7 +1890,8 @@
     "72": {
         "id": 72,
         "name": "Flygh\u00e4ndelse - varningslarm",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1807,7 +1923,8 @@
     "73": {
         "id": 73,
         "name": "Trafikolycka - flera fordon, buss",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Brandstation",
         "icons": {
@@ -1839,7 +1956,8 @@
     "74": {
         "id": 74,
         "name": "Stor brand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10210,
         "generated_by": "Brandstation",
         "icons": {
@@ -1864,7 +1982,8 @@
     "75": {
         "id": 75,
         "name": "Olaga hot",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Polisstation",
         "icons": {
@@ -1890,7 +2009,8 @@
     "83": {
         "id": 83,
         "name": "Fastkl\u00e4md",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Brandstation",
         "icons": {
@@ -1920,7 +2040,8 @@
     "84": {
         "id": 84,
         "name": "L\u00f6sa f\u00f6rem\u00e5l",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Brandstation",
         "icons": {
@@ -1945,7 +2066,8 @@
     "85": {
         "id": 85,
         "name": "Trafikolycka - flera fordon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1300,
         "generated_by": "Brandstation",
         "icons": {
@@ -1977,7 +2099,8 @@
     "86": {
         "id": 86,
         "name": "Brand ute - fordon, lastbil",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Brandstation",
         "icons": {
@@ -2000,6 +2123,9 @@
         "id": 87,
         "name": "Trafikolycka - arbetsmaskin",
         "place": "Bondg\u00e5rd",
+        "place_array": {
+            "0": "Bondg\u00e5rd"
+        },
         "average_credits": 1000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2028,7 +2154,8 @@
     "101": {
         "id": 101,
         "name": "Brand ute - fordon, lastfordon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Brandstation",
         "icons": {
@@ -2056,7 +2183,8 @@
     "102": {
         "id": 102,
         "name": "Brand ute - fordon, sopbil",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2082,7 +2210,8 @@
     "103": {
         "id": 103,
         "name": "Trafikolycka - motorcykel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2300,
         "generated_by": "Brandstation",
         "icons": {
@@ -2112,7 +2241,8 @@
     "104": {
         "id": 104,
         "name": "Utsl\u00e4pp farligt \u00e4mne - kolmonoxid",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2300,
         "generated_by": "Brandstation",
         "icons": {
@@ -2145,7 +2275,8 @@
     "105": {
         "id": 105,
         "name": "R\u00e5n, v\u00e4pnat",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1300,
         "generated_by": "Polisstation",
         "icons": {
@@ -2176,6 +2307,9 @@
         "id": 106,
         "name": "V\u00e5ld/hot mot tj\u00e4nsteman",
         "place": "Tunnelbanestation",
+        "place_array": {
+            "0": "Tunnelbanestation"
+        },
         "average_credits": 750,
         "generated_by": "Polisstation",
         "icons": {
@@ -2203,7 +2337,8 @@
     "107": {
         "id": 107,
         "name": "Trafikolycka - singel, volt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2235,7 +2370,8 @@
     "108": {
         "id": 108,
         "name": "Ofri luftv\u00e4g",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -2261,7 +2397,8 @@
     "109": {
         "id": 109,
         "name": "Ryggtrauma",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -2287,7 +2424,8 @@
     "110": {
         "id": 110,
         "name": "Ras/skred",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 7500,
         "generated_by": "Brandstation",
         "icons": {
@@ -2321,7 +2459,8 @@
     "111": {
         "id": 111,
         "name": "Ras/skred - byggnad",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 9000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2355,7 +2494,8 @@
     "112": {
         "id": 112,
         "name": "Allvarlig br\u00e4nnskada",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -2381,7 +2521,8 @@
     "113": {
         "id": 113,
         "name": "Skallskada",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -2407,7 +2548,8 @@
     "114": {
         "id": 114,
         "name": "Amputationsskada",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -2434,6 +2576,9 @@
         "id": 115,
         "name": "Brand i byggnad - ladug\u00e5rd",
         "place": "Bondg\u00e5rd",
+        "place_array": {
+            "0": "Bondg\u00e5rd"
+        },
         "average_credits": 9000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2458,7 +2603,8 @@
     "116": {
         "id": 116,
         "name": "Ryggsm\u00e4rtor",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -2485,6 +2631,9 @@
         "id": 117,
         "name": "Brand i byggnad - skola",
         "place": "Skola",
+        "place_array": {
+            "0": "Skola"
+        },
         "average_credits": 1300,
         "generated_by": "Brandstation",
         "icons": {
@@ -2512,7 +2661,8 @@
     "118": {
         "id": 118,
         "name": "Person - sv\u00e5r bel\u00e4genhet",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Brandstation",
         "icons": {
@@ -2544,7 +2694,8 @@
     "119": {
         "id": 119,
         "name": "Explosion - inomhus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3400,
         "generated_by": "Brandstation",
         "icons": {
@@ -2576,6 +2727,9 @@
         "id": 120,
         "name": "Brand i byggnad - Silo",
         "place": "Silo",
+        "place_array": {
+            "0": "Silo"
+        },
         "average_credits": 3000,
         "generated_by": "Brandstation",
         "icons": {
@@ -2600,7 +2754,8 @@
     "121": {
         "id": 121,
         "name": "Personskada av h\u00f6gsp\u00e4nning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Brandstation",
         "icons": {
@@ -2630,7 +2785,8 @@
     "123": {
         "id": 123,
         "name": "Explosion - \u00d6verh\u00e4ngande fara",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1950,
         "generated_by": "Brandstation",
         "icons": {
@@ -2655,7 +2811,8 @@
     "124": {
         "id": 124,
         "name": "Kramper",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -2680,7 +2837,8 @@
     "136": {
         "id": 136,
         "name": "F\u00f6rs\u00f6k till rymning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Polisstation",
         "icons": {
@@ -2706,7 +2864,8 @@
     "137": {
         "id": 137,
         "name": "F\u00f6rf\u00f6ljande",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Polisstation",
         "icons": {
@@ -2732,6 +2891,9 @@
         "id": 138,
         "name": "F\u00f6rsvunnen person",
         "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
         "average_credits": 4500,
         "generated_by": "Polisstation",
         "icons": {
@@ -2765,7 +2927,8 @@
     "139": {
         "id": 139,
         "name": "Husrannsakan",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Polisstation",
         "icons": {
@@ -2791,7 +2954,8 @@
     "140": {
         "id": 140,
         "name": "Vapenlagen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Polisstation",
         "icons": {
@@ -2819,7 +2983,8 @@
     "141": {
         "id": 141,
         "name": "Kontroll av fordon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Polisstation",
         "icons": {
@@ -2847,7 +3012,8 @@
     "142": {
         "id": 142,
         "name": "Ordningslagen, demonstration med tillst\u00e5nd",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Polisstation",
         "icons": {
@@ -2866,7 +3032,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -2882,7 +3050,8 @@
     "143": {
         "id": 143,
         "name": "Ordningslagen, demonstration utan tillst\u00e5nd",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Polisstation",
         "icons": {
@@ -2918,7 +3087,8 @@
     "144": {
         "id": 144,
         "name": "\u00d6verl\u00e5telse",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Polisstation",
         "icons": {
@@ -2944,7 +3114,8 @@
     "145": {
         "id": 145,
         "name": "\u00d6verfallslarm",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1250,
         "generated_by": "Polisstation",
         "icons": {
@@ -2972,7 +3143,8 @@
     "146": {
         "id": 146,
         "name": "Polis beskjuten",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4100,
         "generated_by": "Polisstation",
         "icons": {
@@ -3005,7 +3177,8 @@
     "147": {
         "id": 147,
         "name": "Statsbes\u00f6k",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Polisstation",
         "icons": {
@@ -3035,7 +3208,8 @@
     "148": {
         "id": 148,
         "name": "Grovt r\u00e5n",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1250,
         "generated_by": "Polisstation",
         "icons": {
@@ -3062,7 +3236,8 @@
     "149": {
         "id": 149,
         "name": "F\u00f6rs\u00f6k till mord/dr\u00e5p",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Polisstation",
         "icons": {
@@ -3093,6 +3268,9 @@
         "id": 150,
         "name": "Bankr\u00e5n med gisslan",
         "place": "Bank",
+        "place_array": {
+            "0": "Bank"
+        },
         "average_credits": 2000,
         "generated_by": "Polisstation",
         "icons": {
@@ -3117,7 +3295,8 @@
     "151": {
         "id": 151,
         "name": "Trafikolycka - mindre motorfordon, moped",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Brandstation",
         "icons": {
@@ -3147,7 +3326,8 @@
     "152": {
         "id": 152,
         "name": "Hundbett",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Polisstation",
         "icons": {
@@ -3177,6 +3357,9 @@
         "id": 153,
         "name": "H\u00e4stolycka",
         "place": "Arena",
+        "place_array": {
+            "0": "Arena"
+        },
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -3203,6 +3386,9 @@
         "id": 154,
         "name": "Upplopp - evenemang, arena",
         "place": "Arena",
+        "place_array": {
+            "0": "Arena"
+        },
         "average_credits": 6000,
         "generated_by": "Polisstation",
         "icons": {
@@ -3231,7 +3417,8 @@
     "155": {
         "id": 155,
         "name": "Narkotikabrott",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Polisstation",
         "icons": {
@@ -3255,6 +3442,9 @@
         "id": 156,
         "name": "Trafikolycka - vilt",
         "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
         "average_credits": 1010,
         "generated_by": "Brandstation",
         "icons": {
@@ -3285,7 +3475,8 @@
     "157": {
         "id": 157,
         "name": "Yrsel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -3314,6 +3505,9 @@
         "id": 158,
         "name": "Trafikolycka - singel, personbil i vatten",
         "place": "Sj\u00f6",
+        "place_array": {
+            "0": "Sj\u00f6"
+        },
         "average_credits": 1400,
         "generated_by": "Sj\u00f6r\u00e4ddning",
         "icons": {
@@ -3348,6 +3542,9 @@
         "id": 159,
         "name": "Trafikolycka - singel, lastbil i vatten",
         "place": "Sj\u00f6",
+        "place_array": {
+            "0": "Sj\u00f6"
+        },
         "average_credits": 2000,
         "generated_by": "Sj\u00f6r\u00e4ddning",
         "icons": {
@@ -3381,6 +3578,9 @@
         "id": 160,
         "name": "Trafikolycka - singel, buss i vatten",
         "place": "Sj\u00f6",
+        "place_array": {
+            "0": "Sj\u00f6"
+        },
         "average_credits": 3000,
         "generated_by": "Sj\u00f6r\u00e4ddning",
         "icons": {
@@ -3414,6 +3614,9 @@
         "id": 161,
         "name": "Dykolycka",
         "place": "Sj\u00f6",
+        "place_array": {
+            "0": "Sj\u00f6"
+        },
         "average_credits": 1000,
         "generated_by": "Sj\u00f6r\u00e4ddning",
         "icons": {
@@ -3444,6 +3647,9 @@
         "id": 162,
         "name": "F\u00f6rsvunnen person - vid vatten",
         "place": "Sj\u00f6",
+        "place_array": {
+            "0": "Sj\u00f6"
+        },
         "average_credits": 3000,
         "generated_by": "Sj\u00f6r\u00e4ddning",
         "icons": {
@@ -3483,6 +3689,9 @@
         "id": 163,
         "name": "Drunkning",
         "place": "Sj\u00f6",
+        "place_array": {
+            "0": "Sj\u00f6"
+        },
         "average_credits": 1000,
         "generated_by": "Sj\u00f6r\u00e4ddning",
         "icons": {
@@ -3505,6 +3714,9 @@
         "id": 164,
         "name": "Drunkning",
         "place": "Sj\u00f6",
+        "place_array": {
+            "0": "Sj\u00f6"
+        },
         "average_credits": 1200,
         "generated_by": "Sj\u00f6r\u00e4ddning",
         "icons": {
@@ -3534,6 +3746,9 @@
         "id": 165,
         "name": "Snatteri",
         "place": "Mataff\u00e4r",
+        "place_array": {
+            "0": "Mataff\u00e4r"
+        },
         "average_credits": 400,
         "generated_by": "Polisstation",
         "icons": {
@@ -3556,6 +3771,9 @@
         "id": 166,
         "name": "Hissn\u00f6dl\u00e4ge",
         "place": "Kontorsbyggnad",
+        "place_array": {
+            "0": "Kontorsbyggnad"
+        },
         "average_credits": 450,
         "generated_by": "Brandstation",
         "icons": {
@@ -3578,7 +3796,8 @@
     "167": {
         "id": 167,
         "name": "Explosion - utomhus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2110,
         "generated_by": "Brandstation",
         "icons": {
@@ -3610,6 +3829,9 @@
         "id": 168,
         "name": "Drunkning - bass\u00e4ng",
         "place": "Badhus",
+        "place_array": {
+            "0": "Badhus"
+        },
         "average_credits": 600,
         "generated_by": "Brandstation",
         "icons": {
@@ -3638,6 +3860,9 @@
         "id": 169,
         "name": "Transport mellan v\u00e5rdinr\u00e4ttningar",
         "place": "Sjukhus",
+        "place_array": {
+            "0": "Sjukhus"
+        },
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -3664,7 +3889,8 @@
     "170": {
         "id": 170,
         "name": "Misst\u00e4nkt blindtarm",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -3689,7 +3915,8 @@
     "176": {
         "id": 176,
         "name": "P\u00e5tr\u00e4ffad person, \u00f6verfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Polisstation",
         "icons": {
@@ -3716,7 +3943,8 @@
     "177": {
         "id": 177,
         "name": "F\u00f6rlossning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 590,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -3743,7 +3971,8 @@
     "178": {
         "id": 178,
         "name": "Vinglig f\u00e4rd",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Polisstation",
         "icons": {
@@ -3768,7 +3997,8 @@
     "179": {
         "id": 179,
         "name": "Flygande besiktning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1450,
         "generated_by": "Polisstation",
         "icons": {
@@ -3793,7 +4023,8 @@
     "180": {
         "id": 180,
         "name": "Hj\u00e4rtstopp",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -3819,7 +4050,8 @@
     "181": {
         "id": 181,
         "name": "Intoxikation",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -3848,6 +4080,9 @@
         "id": 182,
         "name": "Brand i byggnad - Snabbmatsrestaurang",
         "place": "Snabbmatsrestaurang",
+        "place_array": {
+            "0": "Snabbmatsrestaurang"
+        },
         "average_credits": 1850,
         "generated_by": "Brandstation",
         "icons": {
@@ -3872,7 +4107,8 @@
     "183": {
         "id": 183,
         "name": "Okontaktbar",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -3900,7 +4136,8 @@
     "184": {
         "id": 184,
         "name": "Panik\u00e5ngest",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -3928,7 +4165,8 @@
     "185": {
         "id": 185,
         "name": "Misst\u00e4nkt skogsbrand, unders\u00f6kning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Brandstation",
         "icons": {
@@ -3959,7 +4197,8 @@
     "186": {
         "id": 186,
         "name": "Skogsbrand, mellan",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Brandstation",
         "icons": {
@@ -3993,7 +4232,8 @@
     "187": {
         "id": 187,
         "name": "Skogsbrand, utbredd",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6500,
         "generated_by": "Brandstation",
         "icons": {
@@ -4029,7 +4269,8 @@
     "188": {
         "id": 188,
         "name": "Skogsbrand, toppbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10000,
         "generated_by": "Brandstation",
         "icons": {
@@ -4064,7 +4305,8 @@
     "189": {
         "id": 189,
         "name": "Kontrollerad brand, liten",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Brandstation",
         "icons": {
@@ -4091,7 +4333,8 @@
     "190": {
         "id": 190,
         "name": "Kontrollerad brand, mellan",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1300,
         "generated_by": "Brandstation",
         "icons": {
@@ -4118,7 +4361,8 @@
     "191": {
         "id": 191,
         "name": "Kontrollerad brand, utbredd",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1800,
         "generated_by": "Brandstation",
         "icons": {
@@ -4144,6 +4388,9 @@
         "id": 192,
         "name": "Skogsbrand, eftersl\u00e4ckning",
         "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
         "average_credits": 600,
         "generated_by": "Brandstation",
         "icons": {
@@ -4168,6 +4415,9 @@
         "id": 193,
         "name": "Panik p\u00e5 discot",
         "place": "Nattklubb",
+        "place_array": {
+            "0": "Nattklubb"
+        },
         "average_credits": 3500,
         "generated_by": "Polisstation",
         "icons": {
@@ -4195,7 +4445,8 @@
     "194": {
         "id": 194,
         "name": "IVPA - I v\u00e4ntan p\u00e5 ambulans",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -4227,7 +4478,8 @@
     "195": {
         "id": 195,
         "name": "S\u00e4nkt allm\u00e4ntillst\u00e5nd",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -4258,7 +4510,8 @@
     "196": {
         "id": 196,
         "name": "Brand i byggnad - underjordsanl\u00e4ggning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10210,
         "generated_by": "Brandstation",
         "icons": {
@@ -4284,7 +4537,8 @@
     "197": {
         "id": 197,
         "name": "M\u00e4nniskorov",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 7000,
         "generated_by": "Polisstation",
         "icons": {
@@ -4319,7 +4573,8 @@
     "198": {
         "id": 198,
         "name": "Inbrott - 'smash and grab'",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4500,
         "generated_by": "Polisstation",
         "icons": {
@@ -4347,6 +4602,9 @@
         "id": 199,
         "name": "F\u00f6rberedelse f\u00f6r grovt brott",
         "place": "H\u00f6ghus",
+        "place_array": {
+            "0": "H\u00f6ghus"
+        },
         "average_credits": 1000,
         "generated_by": "Polisstation",
         "icons": {
@@ -4378,6 +4636,9 @@
         "id": 200,
         "name": "Brand i byggnad - publik lokal, museum",
         "place": "Museum",
+        "place_array": {
+            "0": "Museum"
+        },
         "average_credits": 2000,
         "generated_by": "Brandstation",
         "icons": {
@@ -4408,6 +4669,9 @@
         "id": 210,
         "name": "Kommendering - musikfestival",
         "place": "Arena",
+        "place_array": {
+            "0": "Arena"
+        },
         "average_credits": 8000,
         "generated_by": "Polisstation",
         "icons": {
@@ -4440,6 +4704,9 @@
         "id": 211,
         "name": "Patrullering - park",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 1000,
         "generated_by": "Polisstation",
         "icons": {
@@ -4464,6 +4731,9 @@
         "id": 212,
         "name": "Patrullering - stadsmilj\u00f6",
         "place": "Centrum",
+        "place_array": {
+            "0": "Centrum"
+        },
         "average_credits": 1900,
         "generated_by": "Polisstation",
         "icons": {
@@ -4488,6 +4758,9 @@
         "id": 213,
         "name": "Patrullering - krogmilj\u00f6",
         "place": "Nattklubb",
+        "place_array": {
+            "0": "Nattklubb"
+        },
         "average_credits": 3000,
         "generated_by": "Polisstation",
         "icons": {
@@ -4512,6 +4785,9 @@
         "id": 214,
         "name": "Kommendering - torgm\u00f6te",
         "place": "Torg",
+        "place_array": {
+            "0": "Torg"
+        },
         "average_credits": 2500,
         "generated_by": "Polisstation",
         "icons": {
@@ -4539,7 +4815,8 @@
     "215": {
         "id": 215,
         "name": "R\u00f6klukt - ute",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Brandstation",
         "icons": {
@@ -4579,6 +4856,9 @@
         "id": 216,
         "name": "\u00d6vrig r\u00e4ddning, d\u00f6rrbryt",
         "place": "H\u00f6ghus",
+        "place_array": {
+            "0": "H\u00f6ghus"
+        },
         "average_credits": 400,
         "generated_by": "Brandstation",
         "icons": {
@@ -4604,6 +4884,9 @@
         "id": 217,
         "name": "Inbrottslarm, H\u00f6ghus",
         "place": "H\u00f6ghus",
+        "place_array": {
+            "0": "H\u00f6ghus"
+        },
         "average_credits": 500,
         "generated_by": "Polisstation",
         "icons": {
@@ -4627,6 +4910,9 @@
         "id": 218,
         "name": "R\u00e4ddning, kontroll efter brand",
         "place": "H\u00f6ghus",
+        "place_array": {
+            "0": "H\u00f6ghus"
+        },
         "average_credits": 1000,
         "generated_by": "Brandstation",
         "icons": {
@@ -4657,7 +4943,8 @@
     "236": {
         "id": 236,
         "name": "R\u00f6klukt - byggnad",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Brandstation",
         "icons": {
@@ -4684,6 +4971,9 @@
         "id": 237,
         "name": "L\u00e4genhetsunders\u00f6kning",
         "place": "L\u00e4genhetskomplex",
+        "place_array": {
+            "0": "L\u00e4genhetskomplex"
+        },
         "average_credits": 450,
         "generated_by": "Polisstation",
         "icons": {
@@ -4716,6 +5006,9 @@
         "id": 238,
         "name": "Person fast i lekplatsst\u00e4llning",
         "place": "Lekpark",
+        "place_array": {
+            "0": "Lekpark"
+        },
         "average_credits": 1000,
         "generated_by": "Brandstation",
         "icons": {
@@ -4744,6 +5037,9 @@
         "id": 239,
         "name": "J\u00e4gareolycka - civilperson",
         "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -4772,6 +5068,9 @@
         "id": 240,
         "name": "Kvargl\u00f6mt bagage",
         "place": "Bussh\u00e5llplats",
+        "place_array": {
+            "0": "Bussh\u00e5llplats"
+        },
         "average_credits": 150,
         "generated_by": "Polisstation",
         "icons": {
@@ -4794,6 +5093,9 @@
         "id": 241,
         "name": "Kvargl\u00f6mt bagage",
         "place": "Sp\u00e5rvagnsh\u00e5llplats",
+        "place_array": {
+            "0": "Sp\u00e5rvagnsh\u00e5llplats"
+        },
         "average_credits": 150,
         "generated_by": "Polisstation",
         "icons": {
@@ -4816,6 +5118,9 @@
         "id": 242,
         "name": "Kvargl\u00f6mt bagage",
         "place": "T\u00e5gstation (regionalt\u00e5g)",
+        "place_array": {
+            "0": "T\u00e5gstation (regionalt\u00e5g)"
+        },
         "average_credits": 150,
         "generated_by": "Polisstation",
         "icons": {
@@ -4838,6 +5143,9 @@
         "id": 243,
         "name": "Kvargl\u00f6mt bagage",
         "place": "T\u00e5gstation (regional- och fj\u00e4rrt\u00e5g)",
+        "place_array": {
+            "0": "T\u00e5gstation (regional- och fj\u00e4rrt\u00e5g)"
+        },
         "average_credits": 150,
         "generated_by": "Polisstation",
         "icons": {
@@ -4860,6 +5168,9 @@
         "id": 254,
         "name": "Kvargl\u00f6mt bagage",
         "place": "Bro",
+        "place_array": {
+            "0": "Bro"
+        },
         "average_credits": 350,
         "generated_by": "Polisstation",
         "icons": {
@@ -4881,7 +5192,8 @@
     "255": {
         "id": 255,
         "name": "V\u00e5ld i hemmet",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1250,
         "generated_by": "Polisstation",
         "icons": {
@@ -4909,6 +5221,9 @@
         "id": 256,
         "name": "Hastighetskontroll",
         "place": "Avfart",
+        "place_array": {
+            "0": "Avfart"
+        },
         "average_credits": 2750,
         "generated_by": "Polisstation",
         "icons": {
@@ -4934,6 +5249,9 @@
         "id": 257,
         "name": "Brand ute - soptipp",
         "place": "Soptipp",
+        "place_array": {
+            "0": "Soptipp"
+        },
         "average_credits": 2470,
         "generated_by": "Brandstation",
         "icons": {
@@ -4959,6 +5277,9 @@
         "id": 258,
         "name": "Kvargl\u00f6mt bagage",
         "place": "Bro",
+        "place_array": {
+            "0": "Bro"
+        },
         "average_credits": 450,
         "generated_by": "Polisstation",
         "icons": {
@@ -4981,6 +5302,9 @@
         "id": 259,
         "name": "J\u00e4rnv\u00e4g - p\u00e5k\u00f6rd person",
         "place": "J\u00e4rnv\u00e4gs\u00f6verg\u00e5ng",
+        "place_array": {
+            "0": "J\u00e4rnv\u00e4gs\u00f6verg\u00e5ng"
+        },
         "average_credits": 2500,
         "generated_by": "Brandstation",
         "icons": {
@@ -5016,7 +5340,8 @@
     "260": {
         "id": 260,
         "name": "J\u00e4rnv\u00e4g - kollision/ursp\u00e5rning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6000,
         "generated_by": "Brandstation",
         "icons": {
@@ -5046,6 +5371,9 @@
         "id": 261,
         "name": "Skogsbrand, liten",
         "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
         "average_credits": 2000,
         "generated_by": "Brandstation",
         "icons": {
@@ -5078,6 +5406,9 @@
         "id": 262,
         "name": "Brand i byggnad - skogsstuga",
         "place": "Skogsstuga",
+        "place_array": {
+            "0": "Skogsstuga"
+        },
         "average_credits": 3000,
         "generated_by": "Brandstation",
         "icons": {
@@ -5115,6 +5446,9 @@
         "id": 263,
         "name": "Brand ute \u2013 brand i eldstad",
         "place": "Eldstad",
+        "place_array": {
+            "0": "Eldstad"
+        },
         "average_credits": 3000,
         "generated_by": "Brandstation",
         "icons": {
@@ -5151,6 +5485,9 @@
         "id": 264,
         "name": "Blixtnedslag i skog",
         "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
         "average_credits": 700,
         "generated_by": "Brandstation",
         "icons": {
@@ -5178,6 +5515,9 @@
         "id": 265,
         "name": "Vegetationsbrand, liten ",
         "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
         "average_credits": 3400,
         "generated_by": "Brandstation",
         "icons": {
@@ -5210,6 +5550,9 @@
         "id": 266,
         "name": "Vegetationsbrand, mellan",
         "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
         "average_credits": 5800,
         "generated_by": "Brandstation",
         "icons": {
@@ -5243,6 +5586,9 @@
         "id": 267,
         "name": "Vegetationsbrand, stor",
         "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
         "average_credits": 12000,
         "generated_by": "Brandstation",
         "icons": {
@@ -5276,6 +5622,9 @@
         "id": 277,
         "name": "Brokollaps",
         "place": "Bro",
+        "place_array": {
+            "0": "Bro"
+        },
         "average_credits": 7000,
         "generated_by": "Brandstation",
         "icons": {
@@ -5310,6 +5659,9 @@
         "id": 278,
         "name": "R\u00e5n - museum",
         "place": "Museum",
+        "place_array": {
+            "0": "Museum"
+        },
         "average_credits": 1000,
         "generated_by": "Polisstation",
         "icons": {
