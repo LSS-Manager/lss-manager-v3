@@ -1,7 +1,7 @@
 ((I18n) => {
     const LSS_DESTFILTER_STORAGE = 'LSS_DESTFILTER_STORAGE';
     
-    const gefkwCountries = ['de_DE'];
+    const gefkwCountries = ['de_DE', 'nl_NL'];
 
     I18n.translations.de_DE.lssm.destfilter = {
         title: 'Zielort Filter',
@@ -200,8 +200,8 @@
             tax: 'Verberg bestemmingen met een Kosten hoger dan x%.',
             cells: 'Verberg volle cellen',
             cellsYellow: 'Verberg politiebureaus/cellencomplexen met minder vrije cellen dan nodig zijn',
-            firstOwn: 'first x own hospitals',
-            seeInfos: 'see infos in request window'
+            firstOwn: 'Eerste x aantal eigen ziekenhuizen',
+            seeInfos: 'Instellingen in spraakaanvraagscherm'
         }
     };
 
