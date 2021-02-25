@@ -11,6 +11,7 @@
   "averageMinimumEmployeesFire": "Moyenne minimale Pompiers",
   "averageMinimumEmployeesHoehen": "Spécialistes IMP requis",
   "averageMinimumEmployeesPolice": "Moyenne minimale Policiers",
+  "criticalchance": "Probabilité qu'un médecin soit",
   "education": "Personnel formé requis",
   "ambulance_only": "Cette mission est réservée aux ambulances !",
   "title": "Aide à la mission",
@@ -111,6 +112,8 @@
     "boats": "BLS",
     "brush_truck": "CCF",
     "elw3": "VLHR",
+    "kdow_orgl": "PC DSM",
+    "orgl": "PC DSM",
     "allow_rw_instead_of_lf": "Camions de pompiers ou sauvetage lourd ou Véhicule Tout Usage"
   }
 }

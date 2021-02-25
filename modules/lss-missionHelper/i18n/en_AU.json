@@ -2,7 +2,7 @@
   "diy_mission": "This mission seems to be a large scale alliance mission.",
   "averageMinimumEmployeesFire": "Average min . Fire Personnel",
   "averageMinimumEmployeesPolice": "Average min . Police Personnel",
-  "criticalchance": "Critical Care Chance",
+  "criticalchance": "Intensive Care Chance",
   "settings": {
     "name": {
       "label": "Name",
@@ -86,6 +86,8 @@
     "arff": "ARFF",
     "helicopter": "Air Ambulance",
     "k9": "K-9 Unit",
+    "kdow_orgl": "Paramedic Supervisor",
+    "orgl": "Paramedic Supervisor",
     "pmotorcycle": "Police Motorcycle",
     "swat_armored_vehicle": "SWAT Armoured Vehicle",
     "swat_suv": "SWAT SUV",
