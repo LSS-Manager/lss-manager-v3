@@ -3,6 +3,9 @@
         "id": 0,
         "name": "Bidone in fiamme",
         "place": "Fermata dell'autobus",
+        "place_array": {
+            "0": "Fermata dell'autobus"
+        },
         "average_credits": 110,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -24,7 +27,8 @@
     "1": {
         "id": 1,
         "name": "Container in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -46,7 +50,8 @@
     "2": {
         "id": 2,
         "name": "Auto in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 370,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -73,7 +78,8 @@
     "3": {
         "id": 3,
         "name": "Moto in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -98,7 +104,8 @@
     "4": {
         "id": 4,
         "name": "Erba che brucia",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -123,7 +130,8 @@
     "5": {
         "id": 5,
         "name": "Stanza in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -162,7 +170,8 @@
     "6": {
         "id": 6,
         "name": "Casotto nel giardino in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -184,7 +193,8 @@
     "7": {
         "id": 7,
         "name": "Foglie che bruciano",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -209,7 +219,8 @@
     "8": {
         "id": 8,
         "name": "Rifiuti sparsi in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 220,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -236,7 +247,8 @@
     "9": {
         "id": 9,
         "name": "Balla di paglia in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -262,7 +274,8 @@
     "10": {
         "id": 10,
         "name": "Trattore in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -284,7 +297,8 @@
     "11": {
         "id": 11,
         "name": "Cabina telefonica in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 240,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -306,7 +320,8 @@
     "12": {
         "id": 12,
         "name": "Albero su strada",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -332,7 +347,8 @@
     "13": {
         "id": 13,
         "name": "Camion in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 980,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -354,7 +370,8 @@
     "14": {
         "id": 14,
         "name": "Piccolo campo in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -380,6 +397,9 @@
         "id": 15,
         "name": "Piccolo incendio boschivo",
         "place": "Bosco",
+        "place_array": {
+            "0": "Bosco"
+        },
         "average_credits": 1010,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -401,7 +421,8 @@
     "16": {
         "id": 16,
         "name": "Roulotte in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -423,7 +444,8 @@
     "17": {
         "id": 17,
         "name": "Buca delle lettere in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -445,7 +467,8 @@
     "18": {
         "id": 18,
         "name": "Mucchio di arbusti",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -467,7 +490,8 @@
     "19": {
         "id": 19,
         "name": "Rimorchio in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -489,7 +513,8 @@
     "20": {
         "id": 20,
         "name": "Seminterrato in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -528,7 +553,8 @@
     "21": {
         "id": 21,
         "name": "Camino in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -554,7 +580,8 @@
     "22": {
         "id": 22,
         "name": "Tetto in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -578,7 +605,8 @@
     "23": {
         "id": 23,
         "name": "Incendio da grasso",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -601,6 +629,9 @@
         "id": 24,
         "name": "Incendio fermata autobus",
         "place": "Fermata dell'autobus",
+        "place_array": {
+            "0": "Fermata dell'autobus"
+        },
         "average_credits": 900,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -622,7 +653,8 @@
     "25": {
         "id": 25,
         "name": "Incidente stradale",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -669,6 +701,9 @@
         "id": 26,
         "name": "Incendio in supermercato (PICCOLO)",
         "place": "Supermercato (piccolo)",
+        "place_array": {
+            "0": "Supermercato (piccolo)"
+        },
         "average_credits": 1300,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -707,7 +742,8 @@
     "27": {
         "id": 27,
         "name": "Garage in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -729,7 +765,8 @@
     "28": {
         "id": 28,
         "name": "Macchinario in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1700,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -752,7 +789,8 @@
     "29": {
         "id": 29,
         "name": "Fuoriuscita sconosciuta da autocisterna",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -778,7 +816,8 @@
     "30": {
         "id": 30,
         "name": "Perdita di gas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -802,7 +841,8 @@
     "31": {
         "id": 31,
         "name": "Camino in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1310,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -825,7 +865,8 @@
     "32": {
         "id": 32,
         "name": "Mietitrice in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -848,6 +889,9 @@
         "id": 33,
         "name": "Incendio in supermercato (PICCOLO)",
         "place": "Supermercato (piccolo)",
+        "place_array": {
+            "0": "Supermercato (piccolo)"
+        },
         "average_credits": 1100,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -887,6 +931,9 @@
         "id": 34,
         "name": "Incendio in ospedale",
         "place": "Ospedale",
+        "place_array": {
+            "0": "Ospedale"
+        },
         "average_credits": 8200,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -929,7 +976,8 @@
     "35": {
         "id": 35,
         "name": "Intossicazione da alcol",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -964,7 +1012,8 @@
     "36": {
         "id": 36,
         "name": "Dolore toracico",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -999,7 +1048,8 @@
     "37": {
         "id": 37,
         "name": "Asma acuto",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -1032,7 +1082,8 @@
     "38": {
         "id": 38,
         "name": "Epilessia",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -1067,7 +1118,8 @@
     "39": {
         "id": 39,
         "name": "Febbre",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -1101,7 +1153,8 @@
     "40": {
         "id": 40,
         "name": "Caduta accidentale",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -1143,6 +1196,9 @@
         "id": 41,
         "name": "Incendio in officina meccanica",
         "place": "Officina meccanica",
+        "place_array": {
+            "0": "Officina meccanica"
+        },
         "average_credits": 5500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -1192,7 +1248,8 @@
     "42": {
         "id": 42,
         "name": "Caduta accidentale",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -1227,7 +1284,8 @@
     "43": {
         "id": 43,
         "name": "Caduta accidentale",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -1266,6 +1324,9 @@
         "id": 44,
         "name": "Taccheggio",
         "place": "Supermercato (piccolo)",
+        "place_array": {
+            "0": "Supermercato (piccolo)"
+        },
         "average_credits": 100,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1289,6 +1350,9 @@
         "id": 45,
         "name": "Taccheggio",
         "place": "Supermercato (grande)",
+        "place_array": {
+            "0": "Supermercato (grande)"
+        },
         "average_credits": 100,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1312,6 +1376,9 @@
         "id": 46,
         "name": "Incidente contro auto parcheggiata",
         "place": "Supermercato (piccolo)",
+        "place_array": {
+            "0": "Supermercato (piccolo)"
+        },
         "average_credits": 120,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1334,6 +1401,9 @@
         "id": 47,
         "name": "Incidente contro auto parcheggiata",
         "place": "Supermercato (grande)",
+        "place_array": {
+            "0": "Supermercato (grande)"
+        },
         "average_credits": 120,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1356,6 +1426,9 @@
         "id": 48,
         "name": "Furto di metalli",
         "place": "Stazione merci",
+        "place_array": {
+            "0": "Stazione merci"
+        },
         "average_credits": 150,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1379,6 +1452,9 @@
         "id": 49,
         "name": "Borseggio",
         "place": "Parco",
+        "place_array": {
+            "0": "Parco"
+        },
         "average_credits": 150,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1402,6 +1478,9 @@
         "id": 50,
         "name": "Passeggero senza biglietto",
         "place": "Fermata dell'autobus",
+        "place_array": {
+            "0": "Fermata dell'autobus"
+        },
         "average_credits": 120,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1424,6 +1503,9 @@
         "id": 51,
         "name": "Passeggero senza biglietto",
         "place": "Fermata del tram",
+        "place_array": {
+            "0": "Fermata del tram"
+        },
         "average_credits": 120,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1446,6 +1528,9 @@
         "id": 52,
         "name": "Passeggero senza biglietto",
         "place": "Stazione ferroviaria (traffico regionale)",
+        "place_array": {
+            "0": "Stazione ferroviaria (traffico regionale)"
+        },
         "average_credits": 120,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1468,6 +1553,9 @@
         "id": 53,
         "name": "Passeggero senza biglietto",
         "place": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)",
+        "place_array": {
+            "0": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)"
+        },
         "average_credits": 120,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1490,6 +1578,9 @@
         "id": 54,
         "name": "Incidente contro auto parcheggiata",
         "place": "Centro commerciale",
+        "place_array": {
+            "0": "Centro commerciale"
+        },
         "average_credits": 120,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1511,7 +1602,8 @@
     "55": {
         "id": 55,
         "name": "Rissa",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1554,7 +1646,8 @@
     "56": {
         "id": 56,
         "name": "Manifestante violento",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1580,7 +1673,8 @@
     "57": {
         "id": 57,
         "name": "Manifestazione non autorizzata",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10020,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1601,7 +1695,8 @@
     "58": {
         "id": 58,
         "name": "Cucina in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -1624,6 +1719,9 @@
         "id": 59,
         "name": "Soccorso animali",
         "place": "Azienda agricola",
+        "place_array": {
+            "0": "Azienda agricola"
+        },
         "average_credits": 900,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -1647,6 +1745,9 @@
         "id": 60,
         "name": "Palestra in fiamme",
         "place": "Scuola",
+        "place_array": {
+            "0": "Scuola"
+        },
         "average_credits": 3000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -1686,7 +1787,8 @@
     "62": {
         "id": 62,
         "name": "Lamentele per disturbo della quiete",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1708,7 +1810,8 @@
     "63": {
         "id": 63,
         "name": "Attacco ischemico transitorio",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -1746,7 +1849,8 @@
     "64": {
         "id": 64,
         "name": "Incidente con autobus coinvolto",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -1787,7 +1891,8 @@
     "65": {
         "id": 65,
         "name": "Cucina in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -1809,7 +1914,8 @@
     "66": {
         "id": 66,
         "name": "Stanza in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -1845,7 +1951,8 @@
     "67": {
         "id": 67,
         "name": "Rissa",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -1889,6 +1996,9 @@
         "id": 68,
         "name": "Incendio in supermercato (GRANDE)",
         "place": "Supermercato (grande)",
+        "place_array": {
+            "0": "Supermercato (grande)"
+        },
         "average_credits": 4500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -1935,7 +2045,8 @@
     "69": {
         "id": 69,
         "name": "Fuoriuscita chimica da autocisterna",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -1963,6 +2074,9 @@
         "id": 70,
         "name": "Incendio in supermercato (GRANDE)",
         "place": "Supermercato (grande)",
+        "place_array": {
+            "0": "Supermercato (grande)"
+        },
         "average_credits": 4500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2009,7 +2123,8 @@
     "71": {
         "id": 71,
         "name": "Epistassi",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -2045,7 +2160,8 @@
     "72": {
         "id": 72,
         "name": "Incidente aereo (LIEVE)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3200,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2087,7 +2203,8 @@
     "73": {
         "id": 73,
         "name": "Grave incidente con autobus coinvolto",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2130,7 +2247,8 @@
     "74": {
         "id": 74,
         "name": "Grande incendio",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 9800,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2155,7 +2273,8 @@
     "82": {
         "id": 82,
         "name": "Persona intrappolata sotto un macchinario",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2195,7 +2314,8 @@
     "84": {
         "id": 84,
         "name": "Collisione multipla",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2220,7 +2340,8 @@
     "85": {
         "id": 85,
         "name": "Tubo acquedotto rotto",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2243,7 +2364,8 @@
     "99": {
         "id": 99,
         "name": "Veicolo di trasporto merci pesante in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2268,7 +2390,8 @@
     "100": {
         "id": 100,
         "name": "Veicolo della nettezza urbana in fiamme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2294,6 +2417,9 @@
         "id": 101,
         "name": "Incidente con trattore",
         "place": "Azienda agricola",
+        "place_array": {
+            "0": "Azienda agricola"
+        },
         "average_credits": 1000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2331,7 +2457,8 @@
     "102": {
         "id": 102,
         "name": "Esplosione in box auto",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1900,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2372,6 +2499,9 @@
         "id": 103,
         "name": "Cisterna treno danneggiata",
         "place": "Stazione merci",
+        "place_array": {
+            "0": "Stazione merci"
+        },
         "average_credits": 1400,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2396,7 +2526,8 @@
     "104": {
         "id": 104,
         "name": "Soccorso a persona",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2440,7 +2571,8 @@
     "105": {
         "id": 105,
         "name": "Intossicazione da monossido",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2481,7 +2613,8 @@
     "106": {
         "id": 106,
         "name": "Maxi tamponamento",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3800,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2525,7 +2658,8 @@
     "107": {
         "id": 107,
         "name": "Auto ribaltata",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2569,6 +2703,9 @@
         "id": 108,
         "name": "Tir in bilico sul cavalcavia",
         "place": "Ponte",
+        "place_array": {
+            "0": "Ponte"
+        },
         "average_credits": 3500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2613,7 +2750,8 @@
     "109": {
         "id": 109,
         "name": "Incidente con veicoli particolari",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2655,7 +2793,8 @@
     "110": {
         "id": 110,
         "name": "Crollo palazzina",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2701,7 +2840,8 @@
     "111": {
         "id": 111,
         "name": "Crollo parziale palazzina",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 7500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2749,7 +2889,8 @@
     "112": {
         "id": 112,
         "name": "Trauma spinale",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -2786,6 +2927,9 @@
         "id": 113,
         "name": "Caduta da parete rocciosa",
         "place": "Bosco",
+        "place_array": {
+            "0": "Bosco"
+        },
         "average_credits": 1200,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -2824,7 +2968,8 @@
     "114": {
         "id": 114,
         "name": "Chiamata muta",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -2850,6 +2995,9 @@
         "id": 115,
         "name": "Deragliamento treno (MEDIO)",
         "place": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)",
+        "place_array": {
+            "0": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)"
+        },
         "average_credits": 14000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2900,6 +3048,9 @@
         "id": 116,
         "name": "Nave cisterna in fiamme",
         "place": "Porto mercantile",
+        "place_array": {
+            "0": "Porto mercantile"
+        },
         "average_credits": 12000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2950,6 +3101,9 @@
         "id": 117,
         "name": "Persona scomparsa nel bosco",
         "place": "Bosco",
+        "place_array": {
+            "0": "Bosco"
+        },
         "average_credits": 6000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -2997,7 +3151,8 @@
     "118": {
         "id": 118,
         "name": "Incidente auto-bici",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -3039,7 +3194,8 @@
     "119": {
         "id": 119,
         "name": "Violenza domestica",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -3078,7 +3234,8 @@
     "120": {
         "id": 120,
         "name": "Soffocamento",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -3112,7 +3269,8 @@
     "121": {
         "id": 121,
         "name": "Scoppio bombola del gas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -3156,6 +3314,9 @@
         "id": 122,
         "name": "Incendio mensa scolastica",
         "place": "Scuola",
+        "place_array": {
+            "0": "Scuola"
+        },
         "average_credits": 1200,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -3194,6 +3355,9 @@
         "id": 123,
         "name": "Incendio stadio",
         "place": "Stadio",
+        "place_array": {
+            "0": "Stadio"
+        },
         "average_credits": 3800,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -3245,6 +3409,9 @@
         "id": 124,
         "name": "Scalatore in difficolt\u00e0",
         "place": "Bosco",
+        "place_array": {
+            "0": "Bosco"
+        },
         "average_credits": 1200,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -3291,6 +3458,9 @@
         "id": 125,
         "name": "Ostacolo in corsia",
         "place": "Uscita autostradale",
+        "place_array": {
+            "0": "Uscita autostradale"
+        },
         "average_credits": 500,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -3312,7 +3482,8 @@
     "126": {
         "id": 126,
         "name": "Aggressione a pubblico ufficiale",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -3353,7 +3524,8 @@
     "127": {
         "id": 127,
         "name": "Spray urticante in luogo pubblico",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1800,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -3400,6 +3572,9 @@
         "id": 128,
         "name": "Silos in fiamme",
         "place": "Silos",
+        "place_array": {
+            "0": "Silos"
+        },
         "average_credits": 3500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -3426,7 +3601,8 @@
     "129": {
         "id": 129,
         "name": "Blitz attivit\u00e0 commerciale illegale",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -3451,7 +3627,8 @@
     "130": {
         "id": 130,
         "name": "Ferito sul traliccio dell'alta tensione",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -3496,6 +3673,9 @@
         "id": 131,
         "name": "Auto nel fiume",
         "place": "Fiume",
+        "place_array": {
+            "0": "Fiume"
+        },
         "average_credits": 2500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -3542,6 +3722,9 @@
         "id": 132,
         "name": "Balle di fieno in fiamme",
         "place": "Azienda agricola",
+        "place_array": {
+            "0": "Azienda agricola"
+        },
         "average_credits": 1500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -3566,7 +3749,8 @@
     "133": {
         "id": 133,
         "name": "Aggressione a sanitari",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -3608,7 +3792,8 @@
     "134": {
         "id": 134,
         "name": "Raid residenziale della polizia",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -3631,7 +3816,8 @@
     "135": {
         "id": 135,
         "name": "Ascensore bloccato",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -3658,6 +3844,9 @@
         "id": 147,
         "name": "Dipendente intrappolato sotto il ponte auto",
         "place": "Officina meccanica",
+        "place_array": {
+            "0": "Officina meccanica"
+        },
         "average_credits": 3800,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -3702,7 +3891,8 @@
     "148": {
         "id": 148,
         "name": "Bonifica insetti",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -3727,6 +3917,9 @@
         "id": 149,
         "name": "Incendio cisterna chimica",
         "place": "Grande serbatoio di accumulo sostanze chimiche",
+        "place_array": {
+            "0": "Grande serbatoio di accumulo sostanze chimiche"
+        },
         "average_credits": 8500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -3775,7 +3968,8 @@
     "150": {
         "id": 150,
         "name": "Incendio barbecue",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -3799,7 +3993,8 @@
     "151": {
         "id": 151,
         "name": "Evasione",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -3825,7 +4020,8 @@
     "152": {
         "id": 152,
         "name": "Sospetto in fuga",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -3849,7 +4045,8 @@
     "153": {
         "id": 153,
         "name": "Mandato di arresto",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -3875,7 +4072,8 @@
     "154": {
         "id": 154,
         "name": "Sparatoria in corso",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1600,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -3914,7 +4112,8 @@
     "155": {
         "id": 155,
         "name": "Perquisizione veicolo",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -3937,7 +4136,8 @@
     "156": {
         "id": 156,
         "name": "Piccola protesta violenta",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -3980,7 +4180,8 @@
     "157": {
         "id": 157,
         "name": "Media protesta violenta",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -4024,7 +4225,8 @@
     "158": {
         "id": 158,
         "name": "Spaccio di droga",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -4049,6 +4251,9 @@
         "id": 159,
         "name": "Rapina al benzinaio",
         "place": "Stazione di servizio",
+        "place_array": {
+            "0": "Stazione di servizio"
+        },
         "average_credits": 1250,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -4072,7 +4277,8 @@
     "160": {
         "id": 160,
         "name": "Sparatoria al posto di blocco",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4100,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -4113,7 +4319,8 @@
     "161": {
         "id": 161,
         "name": "Protezione VIP",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -4141,7 +4348,8 @@
     "162": {
         "id": 162,
         "name": "Furto in appartamento",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1250,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -4164,7 +4372,8 @@
     "163": {
         "id": 163,
         "name": "Tentato omicidio",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -4203,6 +4412,9 @@
         "id": 164,
         "name": "Furto al museo",
         "place": "Museo",
+        "place_array": {
+            "0": "Museo"
+        },
         "average_credits": 1000,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -4226,6 +4438,9 @@
         "id": 165,
         "name": "Incendio albergo (PICCOLO)",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 6500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4273,6 +4488,9 @@
         "id": 166,
         "name": "Incendio cisterna chimica (PICCOLA)",
         "place": "Piccolo serbatoio di accumulo sostanze chimiche",
+        "place_array": {
+            "0": "Piccolo serbatoio di accumulo sostanze chimiche"
+        },
         "average_credits": 6000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4321,7 +4539,8 @@
     "167": {
         "id": 167,
         "name": "Allagamento appartamento",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4344,6 +4563,9 @@
         "id": 168,
         "name": "Giostra ferma sulle rotaie",
         "place": "Luna park",
+        "place_array": {
+            "0": "Luna park"
+        },
         "average_credits": 1500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4384,7 +4606,8 @@
     "169": {
         "id": 169,
         "name": "Dissesto statico",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4406,7 +4629,8 @@
     "170": {
         "id": 170,
         "name": "Incidente Skydiver",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4449,6 +4673,9 @@
         "id": 171,
         "name": "Incendio albergo (GRANDE)",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 10900,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4495,7 +4722,8 @@
     "172": {
         "id": 172,
         "name": "Guasto al semaforo",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 550,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -4523,6 +4751,9 @@
         "id": 173,
         "name": "Incendio palazzetto dello sport",
         "place": "Stadio",
+        "place_array": {
+            "0": "Stadio"
+        },
         "average_credits": 7500,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -4572,7 +4803,8 @@
     "174": {
         "id": 174,
         "name": "Apertura porta",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4596,6 +4828,9 @@
         "id": 175,
         "name": "Deragliamento treno (PICCOLO)",
         "place": "Stazione ferroviaria (traffico regionale)",
+        "place_array": {
+            "0": "Stazione ferroviaria (traffico regionale)"
+        },
         "average_credits": 5200,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4642,7 +4877,8 @@
     "176": {
         "id": 176,
         "name": "Terremoto (PICCOLO)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4686,7 +4922,8 @@
     "177": {
         "id": 177,
         "name": "Terremoto (MEDIO)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1900,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4731,7 +4968,8 @@
     "178": {
         "id": 178,
         "name": "Terremoto (GRANDE)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2650,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4777,7 +5015,8 @@
     "179": {
         "id": 179,
         "name": "Voragine stradale",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4803,6 +5042,9 @@
         "id": 180,
         "name": "Incendio industria (PICCOLO)",
         "place": "Fabbrica",
+        "place_array": {
+            "0": "Fabbrica"
+        },
         "average_credits": 1000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4843,6 +5085,9 @@
         "id": 181,
         "name": "Incendio industria (MEDIO)",
         "place": "Fabbrica",
+        "place_array": {
+            "0": "Fabbrica"
+        },
         "average_credits": 1200,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4884,6 +5129,9 @@
         "id": 182,
         "name": "Incendio industria (GRANDE)",
         "place": "Fabbrica",
+        "place_array": {
+            "0": "Fabbrica"
+        },
         "average_credits": 2500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4927,7 +5175,8 @@
     "183": {
         "id": 183,
         "name": "Incendio capannone",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4955,7 +5204,8 @@
     "189": {
         "id": 189,
         "name": "Incendio palo elettrico",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 850,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -4979,7 +5229,8 @@
     "190": {
         "id": 190,
         "name": "Overdose",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -5022,7 +5273,8 @@
     "191": {
         "id": 191,
         "name": "Anuria",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5057,7 +5309,8 @@
     "196": {
         "id": 196,
         "name": "Dispnea",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5093,6 +5346,9 @@
         "id": 197,
         "name": "Incendio galleria",
         "place": "Galleria",
+        "place_array": {
+            "0": "Galleria"
+        },
         "average_credits": 5800,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -5136,7 +5392,8 @@
     "198": {
         "id": 198,
         "name": "Ipoglicemia ",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5167,7 +5424,8 @@
     "199": {
         "id": 199,
         "name": "Cambio catetere",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5202,7 +5460,8 @@
     "200": {
         "id": 200,
         "name": "Frattura di femore",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5237,7 +5496,8 @@
     "201": {
         "id": 201,
         "name": "Dolore addominale",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5272,7 +5532,8 @@
     "202": {
         "id": 202,
         "name": "Infarto",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5310,7 +5571,8 @@
     "203": {
         "id": 203,
         "name": "Ictus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5345,7 +5607,8 @@
     "204": {
         "id": 204,
         "name": "Arresto cardiaco",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5380,7 +5643,8 @@
     "205": {
         "id": 205,
         "name": "Rottura delle acque",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5413,7 +5677,8 @@
     "206": {
         "id": 206,
         "name": "Decadimento in pz oncologico",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5446,7 +5711,8 @@
     "207": {
         "id": 207,
         "name": "Medica/Non identificata",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5479,7 +5745,8 @@
     "208": {
         "id": 208,
         "name": "Cefalea",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5517,7 +5784,10 @@
     "209": {
         "id": 209,
         "name": "Auto travolta al passaggio a livello",
-        "place": null,
+        "place": "",
+        "place_array": {
+            "0": ""
+        },
         "average_credits": 1200,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -5555,7 +5825,8 @@
     "210": {
         "id": 210,
         "name": "Rilievi incidente stradale",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 550,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -5577,7 +5848,8 @@
     "211": {
         "id": 211,
         "name": "Caduta da motorino",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 550,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5615,6 +5887,9 @@
         "id": 212,
         "name": "Incendio grattacielo",
         "place": "Grattacielo",
+        "place_array": {
+            "0": "Grattacielo"
+        },
         "average_credits": 8500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -5662,7 +5937,8 @@
     "213": {
         "id": 213,
         "name": "Incidente auto-moto",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 550,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5702,7 +5978,8 @@
     "214": {
         "id": 214,
         "name": "Trasporto secondario",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5726,6 +6003,9 @@
         "id": 215,
         "name": "Crollo ponte",
         "place": "Ponte",
+        "place_array": {
+            "0": "Ponte"
+        },
         "average_credits": 5100,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -5774,7 +6054,8 @@
     "216": {
         "id": 216,
         "name": "Investimento pedone",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 550,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5813,6 +6094,9 @@
         "id": 217,
         "name": "Crollo galleria",
         "place": "Galleria",
+        "place_array": {
+            "0": "Galleria"
+        },
         "average_credits": 8500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -5861,7 +6145,8 @@
     "218": {
         "id": 218,
         "name": "Caduta da bicicletta",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 550,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5899,6 +6184,9 @@
         "id": 219,
         "name": "Caduta sugli scogli",
         "place": "Lago",
+        "place_array": {
+            "0": "Lago"
+        },
         "average_credits": 550,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -5941,7 +6229,8 @@
     "220": {
         "id": 220,
         "name": "Frana",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -5973,7 +6262,8 @@
     "221": {
         "id": 221,
         "name": "Persone sotto le macerie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -6023,6 +6313,9 @@
         "id": 222,
         "name": "Chiusura uscita autostradale",
         "place": "Uscita autostradale",
+        "place_array": {
+            "0": "Uscita autostradale"
+        },
         "average_credits": 2500,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6047,7 +6340,8 @@
     "223": {
         "id": 223,
         "name": "Sversamento di olio su strada",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 580,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -6078,6 +6372,9 @@
         "id": 224,
         "name": "Frodi sul carburante",
         "place": "Stazione di servizio",
+        "place_array": {
+            "0": "Stazione di servizio"
+        },
         "average_credits": 550,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6100,6 +6397,9 @@
         "id": 225,
         "name": "Albero su rotaie",
         "place": "Stazione ferroviaria (traffico regionale)",
+        "place_array": {
+            "0": "Stazione ferroviaria (traffico regionale)"
+        },
         "average_credits": 1000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -6127,7 +6427,8 @@
     "226": {
         "id": 226,
         "name": "Accoltellamento",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 850,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6171,6 +6472,9 @@
         "id": 227,
         "name": "Cacciatore ferito da un cinghiale",
         "place": "Bosco",
+        "place_array": {
+            "0": "Bosco"
+        },
         "average_credits": 550,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -6207,7 +6511,8 @@
     "228": {
         "id": 228,
         "name": "Soccorso Paziente Bariatrico",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -6248,6 +6553,9 @@
         "id": 229,
         "name": "Crollo fabbrica (GRANDE)",
         "place": "Fabbrica",
+        "place_array": {
+            "0": "Fabbrica"
+        },
         "average_credits": 15500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -6295,6 +6603,9 @@
         "id": 230,
         "name": "Incendio centrale elettrica (MEDIA)",
         "place": "Centrale elettrica",
+        "place_array": {
+            "0": "Centrale elettrica"
+        },
         "average_credits": 4000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -6347,7 +6658,8 @@
     "231": {
         "id": 231,
         "name": "Controllo rilevatore antincendio",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -6370,7 +6682,8 @@
     "232": {
         "id": 232,
         "name": "Incendio centrale elettrica (GRANDE)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 8000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -6424,7 +6737,8 @@
     "233": {
         "id": 233,
         "name": "Maxitamponamento in galleria",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -6473,6 +6787,9 @@
         "id": 234,
         "name": "Assideramento",
         "place": "Magazzino a celle frigorifere",
+        "place_array": {
+            "0": "Magazzino a celle frigorifere"
+        },
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -6508,6 +6825,9 @@
         "id": 235,
         "name": "Guidatore Contromano",
         "place": "Uscita autostradale",
+        "place_array": {
+            "0": "Uscita autostradale"
+        },
         "average_credits": 1000,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6536,6 +6856,9 @@
         "id": 236,
         "name": "Controlli doganali",
         "place": "Porto mercantile",
+        "place_array": {
+            "0": "Porto mercantile"
+        },
         "average_credits": 850,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6563,6 +6886,9 @@
         "id": 237,
         "name": "Controlli doganali",
         "place": "Molo navi da crociera",
+        "place_array": {
+            "0": "Molo navi da crociera"
+        },
         "average_credits": 850,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6590,6 +6916,9 @@
         "id": 238,
         "name": "Controlli doganali",
         "place": "Terminal aeroporto",
+        "place_array": {
+            "0": "Terminal aeroporto"
+        },
         "average_credits": 850,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6617,6 +6946,9 @@
         "id": 239,
         "name": "Controllo igienico sanitario",
         "place": "Tavola calda",
+        "place_array": {
+            "0": "Tavola calda"
+        },
         "average_credits": 560,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6641,6 +6973,9 @@
         "id": 240,
         "name": "Pacco sospetto",
         "place": "Stazione metropolitana",
+        "place_array": {
+            "0": "Stazione metropolitana"
+        },
         "average_credits": 1200,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6667,6 +7002,9 @@
         "id": 241,
         "name": "Pacco sospetto",
         "place": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)",
+        "place_array": {
+            "0": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)"
+        },
         "average_credits": 1200,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6693,6 +7031,9 @@
         "id": 242,
         "name": "Pacco sospetto",
         "place": "Terminal aeroporto",
+        "place_array": {
+            "0": "Terminal aeroporto"
+        },
         "average_credits": 1200,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6719,6 +7060,9 @@
         "id": 243,
         "name": "Verifica esercizio commerciale",
         "place": "Supermercato (grande)",
+        "place_array": {
+            "0": "Supermercato (grande)"
+        },
         "average_credits": 680,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6743,6 +7087,9 @@
         "id": 244,
         "name": "Verifica esercizio commerciale",
         "place": "Supermercato (piccolo)",
+        "place_array": {
+            "0": "Supermercato (piccolo)"
+        },
         "average_credits": 680,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6767,6 +7114,9 @@
         "id": 245,
         "name": "Container sospetto",
         "place": "Porto mercantile",
+        "place_array": {
+            "0": "Porto mercantile"
+        },
         "average_credits": 1500,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6792,6 +7142,9 @@
         "id": 246,
         "name": "Controllo fiscale",
         "place": "Edificio adibito a uffici",
+        "place_array": {
+            "0": "Edificio adibito a uffici"
+        },
         "average_credits": 700,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6815,7 +7168,8 @@
     "247": {
         "id": 247,
         "name": "Disinnesco ordigno bellico",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2800,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6844,7 +7198,8 @@
     "248": {
         "id": 248,
         "name": "Perquisizione domestica",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6869,6 +7224,9 @@
         "id": 249,
         "name": "Controllo mezzi pesanti",
         "place": "Porto mercantile",
+        "place_array": {
+            "0": "Porto mercantile"
+        },
         "average_credits": 1100,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6893,6 +7251,9 @@
         "id": 250,
         "name": "Controllo mezzi pesanti",
         "place": "Uscita autostradale",
+        "place_array": {
+            "0": "Uscita autostradale"
+        },
         "average_credits": 1100,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6916,7 +7277,8 @@
     "251": {
         "id": 251,
         "name": "Sgombero area abusiva (PICCOLO)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6940,7 +7302,8 @@
     "252": {
         "id": 252,
         "name": "Sgombero area abusiva (MEDIO)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1800,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6965,7 +7328,8 @@
     "253": {
         "id": 253,
         "name": "Sgombero area abusiva (GRANDE)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -6997,6 +7361,9 @@
         "id": 263,
         "name": "Inalazione di sostanze nocive",
         "place": "Piccolo serbatoio di accumulo sostanze chimiche",
+        "place_array": {
+            "0": "Piccolo serbatoio di accumulo sostanze chimiche"
+        },
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -7036,6 +7403,9 @@
         "id": 264,
         "name": "Rapina in banca",
         "place": "Banca",
+        "place_array": {
+            "0": "Banca"
+        },
         "average_credits": 2400,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -7076,6 +7446,9 @@
         "id": 265,
         "name": "Taglio anello in Ospedale",
         "place": "Ospedale",
+        "place_array": {
+            "0": "Ospedale"
+        },
         "average_credits": 800,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -7098,7 +7471,8 @@
     "266": {
         "id": 266,
         "name": "Grande protesta violenta",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3900,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -7145,6 +7519,9 @@
         "id": 267,
         "name": "Pulsante antipanico in banca",
         "place": "Banca",
+        "place_array": {
+            "0": "Banca"
+        },
         "average_credits": 750,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -7170,6 +7547,9 @@
         "id": 268,
         "name": "Incendio Discoteca",
         "place": "Discoteca",
+        "place_array": {
+            "0": "Discoteca"
+        },
         "average_credits": 6000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -7225,6 +7605,9 @@
         "id": 269,
         "name": "Controllo antidroga",
         "place": "Scuola",
+        "place_array": {
+            "0": "Scuola"
+        },
         "average_credits": 1000,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -7251,6 +7634,9 @@
         "id": 270,
         "name": "Rissa in discoteca",
         "place": "Discoteca",
+        "place_array": {
+            "0": "Discoteca"
+        },
         "average_credits": 950,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -7291,6 +7677,9 @@
         "id": 271,
         "name": "Malore a bordo",
         "place": "Molo navi da crociera",
+        "place_array": {
+            "0": "Molo navi da crociera"
+        },
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -7327,7 +7716,8 @@
     "272": {
         "id": 272,
         "name": "Allagamento (PICCOLO)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -7370,7 +7760,8 @@
     "290": {
         "id": 290,
         "name": "Allagamento (MEDIO)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -7416,7 +7807,8 @@
     "291": {
         "id": 291,
         "name": "Demolizione programmata",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 8000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -7449,6 +7841,9 @@
         "id": 292,
         "name": "Persona sui binari",
         "place": "Stazione ferroviaria (traffico regionale)",
+        "place_array": {
+            "0": "Stazione ferroviaria (traffico regionale)"
+        },
         "average_credits": 1000,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -7474,6 +7869,9 @@
         "id": 293,
         "name": "Persona sui binari",
         "place": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)",
+        "place_array": {
+            "0": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)"
+        },
         "average_credits": 1000,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -7499,6 +7897,9 @@
         "id": 294,
         "name": "Persona investita dal treno",
         "place": "Stazione ferroviaria (traffico regionale)",
+        "place_array": {
+            "0": "Stazione ferroviaria (traffico regionale)"
+        },
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -7531,6 +7932,9 @@
         "id": 295,
         "name": "Persona investita dal treno",
         "place": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)",
+        "place_array": {
+            "0": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)"
+        },
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -7562,7 +7966,8 @@
     "296": {
         "id": 296,
         "name": "Allagamento (GRANDE)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 8500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -7612,6 +8017,9 @@
         "id": 297,
         "name": "Crollo fabbrica (PICCOLO)",
         "place": "Fabbrica",
+        "place_array": {
+            "0": "Fabbrica"
+        },
         "average_credits": 5500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -7656,6 +8064,9 @@
         "id": 298,
         "name": "Incendio centrale elettrica (PICCOLO)",
         "place": "Centrale elettrica",
+        "place_array": {
+            "0": "Centrale elettrica"
+        },
         "average_credits": 4500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -7705,7 +8116,8 @@
     "309": {
         "id": 309,
         "name": "Sequestro merce contraffatta",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 850,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -7729,7 +8141,8 @@
     "310": {
         "id": 310,
         "name": "Incidente con persone incastrate",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1800,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -7772,7 +8185,8 @@
     "311": {
         "id": 311,
         "name": "Investimento persona con monopattino elettrico",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -7809,7 +8223,8 @@
     "312": {
         "id": 312,
         "name": "Amputazione traumatica arto",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -7847,6 +8262,9 @@
         "id": 313,
         "name": "Crollo parcheggio sotterraneo",
         "place": "Parcheggio coperto",
+        "place_array": {
+            "0": "Parcheggio coperto"
+        },
         "average_credits": 4500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -7894,6 +8312,9 @@
         "id": 314,
         "name": "Auto nell'acqua",
         "place": "Lago",
+        "place_array": {
+            "0": "Lago"
+        },
         "average_credits": 2000,
         "generated_by": "Caserma soccorso acquatico VVF",
         "icons": {
@@ -7939,6 +8360,9 @@
         "id": 315,
         "name": "Camion nell'acqua",
         "place": "Lago",
+        "place_array": {
+            "0": "Lago"
+        },
         "average_credits": 2500,
         "generated_by": "Caserma soccorso acquatico VVF",
         "icons": {
@@ -7983,6 +8407,9 @@
         "id": 316,
         "name": "Bus nell'acqua",
         "place": "Lago",
+        "place_array": {
+            "0": "Lago"
+        },
         "average_credits": 4200,
         "generated_by": "Caserma soccorso acquatico VVF",
         "icons": {
@@ -8029,6 +8456,9 @@
         "id": 317,
         "name": "Incidente sommozzatore",
         "place": "Lago",
+        "place_array": {
+            "0": "Lago"
+        },
         "average_credits": 3500,
         "generated_by": "Caserma soccorso acquatico VVF",
         "icons": {
@@ -8072,6 +8502,9 @@
         "id": 318,
         "name": "Persona dispersa in mare",
         "place": "Lago",
+        "place_array": {
+            "0": "Lago"
+        },
         "average_credits": 4200,
         "generated_by": "Caserma soccorso acquatico VVF",
         "icons": {
@@ -8120,6 +8553,9 @@
         "id": 319,
         "name": "Segnalazione di persona in acqua",
         "place": "Fiume",
+        "place_array": {
+            "0": "Fiume"
+        },
         "average_credits": 1000,
         "generated_by": "Caserma soccorso acquatico VVF",
         "icons": {
@@ -8144,6 +8580,9 @@
         "id": 320,
         "name": "Segnalazione di persona in acqua",
         "place": "Lago",
+        "place_array": {
+            "0": "Lago"
+        },
         "average_credits": 2500,
         "generated_by": "Caserma soccorso acquatico VVF",
         "icons": {
@@ -8186,7 +8625,8 @@
     "321": {
         "id": 321,
         "name": "Impalcatura pericolante",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 980,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -8211,7 +8651,8 @@
     "322": {
         "id": 322,
         "name": "Sottopasso allagato",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 980,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -8236,7 +8677,8 @@
     "323": {
         "id": 323,
         "name": "Caduta calcinacci",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 980,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -8259,7 +8701,8 @@
     "324": {
         "id": 324,
         "name": "Crollo impalcatura",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -8303,6 +8746,9 @@
         "id": 325,
         "name": "Concerto",
         "place": "Teatro",
+        "place_array": {
+            "0": "Teatro"
+        },
         "average_credits": 12000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -8334,6 +8780,9 @@
         "id": 326,
         "name": "Incendio boschivo (PICCOLO)",
         "place": "Bosco",
+        "place_array": {
+            "0": "Bosco"
+        },
         "average_credits": 1250,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -8359,6 +8808,9 @@
         "id": 327,
         "name": "Incendio boschivo (MEDIO)",
         "place": "Bosco",
+        "place_array": {
+            "0": "Bosco"
+        },
         "average_credits": 3900,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -8388,6 +8840,9 @@
         "id": 328,
         "name": "Incendio boschivo (GRANDE)",
         "place": "Bosco",
+        "place_array": {
+            "0": "Bosco"
+        },
         "average_credits": 8500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
@@ -8416,7 +8871,8 @@
     "329": {
         "id": 329,
         "name": "Stipsi",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
@@ -8451,6 +8907,9 @@
         "id": 330,
         "name": "Partita di calcio",
         "place": "Stadio",
+        "place_array": {
+            "0": "Stadio"
+        },
         "average_credits": 8500,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {

@@ -3,6 +3,9 @@
         "id": 0,
         "name": "Brandende afvalbak",
         "place": "Bushalte",
+        "place_array": {
+            "0": "Bushalte"
+        },
         "average_credits": 110,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -24,7 +27,8 @@
     "1": {
         "id": 1,
         "name": "Brandende container",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -46,7 +50,8 @@
     "2": {
         "id": 2,
         "name": "Brandende personenauto",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 370,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -68,7 +73,8 @@
     "3": {
         "id": 3,
         "name": "Brandende motorfiets",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -90,7 +96,8 @@
     "4": {
         "id": 4,
         "name": "Brandend gras",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -115,7 +122,8 @@
     "5": {
         "id": 5,
         "name": "Brand in woonkamer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -143,7 +151,8 @@
     "6": {
         "id": 6,
         "name": "Brand in tuinhuis",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -165,7 +174,8 @@
     "7": {
         "id": 7,
         "name": "Brandende boom",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -187,7 +197,8 @@
     "8": {
         "id": 8,
         "name": "Brandend afval",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 220,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -212,7 +223,8 @@
     "9": {
         "id": 9,
         "name": "Brandend hooi",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -234,7 +246,8 @@
     "10": {
         "id": 10,
         "name": "Brandende traktor",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -259,7 +272,8 @@
     "11": {
         "id": 11,
         "name": "Brandende bromfiets",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 240,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -281,7 +295,8 @@
     "12": {
         "id": 12,
         "name": "Boom op de weg",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -304,7 +319,8 @@
     "13": {
         "id": 13,
         "name": "Brandende vrachtwagen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 980,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -331,6 +347,9 @@
         "id": 14,
         "name": "Heidebrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 1895,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -355,6 +374,9 @@
         "id": 15,
         "name": "Bosbrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -379,7 +401,8 @@
     "16": {
         "id": 16,
         "name": "Brand in woonwagen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1350,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -409,7 +432,8 @@
     "17": {
         "id": 17,
         "name": "Brandende dixi",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -431,7 +455,8 @@
     "18": {
         "id": 18,
         "name": "Brandende struik",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -456,7 +481,8 @@
     "19": {
         "id": 19,
         "name": "Brandende aanhangwagen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -478,7 +504,8 @@
     "20": {
         "id": 20,
         "name": "Brand in kelder",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2810,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -512,7 +539,8 @@
     "21": {
         "id": 21,
         "name": "Schoorsteenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 840,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -537,7 +565,8 @@
     "22": {
         "id": 22,
         "name": "Brandend dak",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -567,7 +596,8 @@
     "23": {
         "id": 23,
         "name": "Brand in cafetaria",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -593,6 +623,9 @@
         "id": 24,
         "name": "Brandend bushokje",
         "place": "Bushalte",
+        "place_array": {
+            "0": "Bushalte"
+        },
         "average_credits": 900,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -614,7 +647,8 @@
     "25": {
         "id": 25,
         "name": "Verkeersongeval met beknelling",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1420,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -647,6 +681,9 @@
         "id": 26,
         "name": "Brand in supermarkt",
         "place": "Supermarkt",
+        "place_array": {
+            "0": "Supermarkt"
+        },
         "average_credits": 3510,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -678,6 +715,9 @@
         "id": 28,
         "name": "Brand in landbouwschuur",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 1600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -705,7 +745,8 @@
     "29": {
         "id": 29,
         "name": "Brand in werkplaats",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2470,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -742,7 +783,8 @@
     "30": {
         "id": 30,
         "name": "Lekkende dieseltank",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 190,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -767,7 +809,8 @@
     "31": {
         "id": 31,
         "name": "Oliespoor",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -789,7 +832,8 @@
     "32": {
         "id": 32,
         "name": "Schoorsteenbrand woning met rietenkap",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1350,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -813,7 +857,8 @@
     "33": {
         "id": 33,
         "name": "Brandende landbouwmachine",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -839,6 +884,9 @@
         "id": 34,
         "name": "Brand in supermarkt",
         "place": "Supermarkt",
+        "place_array": {
+            "0": "Supermarkt"
+        },
         "average_credits": 2100,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -865,6 +913,9 @@
         "id": 35,
         "name": "Brand in ziekenhuis",
         "place": "Ziekenhuis",
+        "place_array": {
+            "0": "Ziekenhuis"
+        },
         "average_credits": 2510,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -895,6 +946,9 @@
         "id": 36,
         "name": "Brandende goederenwagon",
         "place": "Rangeeremplacement",
+        "place_array": {
+            "0": "Rangeeremplacement"
+        },
         "average_credits": 3110,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -925,6 +979,9 @@
         "id": 37,
         "name": "Brandende afvalbak",
         "place": "Tramhalte",
+        "place_array": {
+            "0": "Tramhalte"
+        },
         "average_credits": 110,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -947,6 +1004,9 @@
         "id": 38,
         "name": "Brandende afvalbak",
         "place": "Station",
+        "place_array": {
+            "0": "Station"
+        },
         "average_credits": 110,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -969,6 +1029,9 @@
         "id": 39,
         "name": "Brandende afvalbak",
         "place": "Centraal Station",
+        "place_array": {
+            "0": "Centraal Station"
+        },
         "average_credits": 110,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -991,6 +1054,9 @@
         "id": 40,
         "name": "Brandende afvalbak",
         "place": "Ziekenhuis",
+        "place_array": {
+            "0": "Ziekenhuis"
+        },
         "average_credits": 110,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1012,7 +1078,8 @@
     "41": {
         "id": 41,
         "name": "Brand in kantoorpand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1039,6 +1106,9 @@
         "id": 42,
         "name": "Brand in tankstation",
         "place": "Tankstation",
+        "place_array": {
+            "0": "Tankstation"
+        },
         "average_credits": 3720,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1074,7 +1144,8 @@
     "43": {
         "id": 43,
         "name": "Kettingbotsing",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1105,7 +1176,8 @@
     "44": {
         "id": 44,
         "name": "Liftopsluiting",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1128,7 +1200,8 @@
     "45": {
         "id": 45,
         "name": "Overdosis alcohol",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -1154,7 +1227,8 @@
     "46": {
         "id": 46,
         "name": "Bloedneus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -1180,7 +1254,8 @@
     "47": {
         "id": 47,
         "name": "Pijn op de borst",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -1205,7 +1280,8 @@
     "48": {
         "id": 48,
         "name": "Astma aanval",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -1230,7 +1306,8 @@
     "49": {
         "id": 49,
         "name": "Beroerte",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -1255,7 +1332,8 @@
     "50": {
         "id": 50,
         "name": "Koortsstuip",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -1280,7 +1358,8 @@
     "51": {
         "id": 51,
         "name": "Gevallen persoon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -1306,6 +1385,9 @@
         "id": 52,
         "name": "Brand in garagebedrijf",
         "place": "Garagebedrijf",
+        "place_array": {
+            "0": "Garagebedrijf"
+        },
         "average_credits": 1800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1330,6 +1412,9 @@
         "id": 53,
         "name": "Brand in sporthal",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 1700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1363,6 +1448,9 @@
         "id": 54,
         "name": "Brand in sporthal",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 230,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1388,6 +1476,9 @@
         "id": 55,
         "name": "Brand in sporthal",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 1000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1412,6 +1503,9 @@
         "id": 56,
         "name": "Brand in sporthal",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 6260,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1446,7 +1540,8 @@
     "57": {
         "id": 57,
         "name": "Kat in boom",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1471,7 +1566,8 @@
     "58": {
         "id": 58,
         "name": "Buitenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1493,7 +1589,8 @@
     "59": {
         "id": 59,
         "name": "Brand in opslagloods",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 15000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1521,7 +1618,8 @@
     "60": {
         "id": 60,
         "name": "Brand in slaapkamer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1547,7 +1645,8 @@
     "61": {
         "id": 61,
         "name": "Brand in slaapkamer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1575,7 +1674,8 @@
     "62": {
         "id": 62,
         "name": "Brand in keuken",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1602,7 +1702,8 @@
     "63": {
         "id": 63,
         "name": "Brand in keuken",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1627,7 +1728,8 @@
     "64": {
         "id": 64,
         "name": "Brand in keuken",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1653,7 +1755,8 @@
     "65": {
         "id": 65,
         "name": "Takken op de weg",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1676,7 +1779,8 @@
     "66": {
         "id": 66,
         "name": "Boom op fietspad",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1699,7 +1803,8 @@
     "67": {
         "id": 67,
         "name": "Omgewaaide bouwsteiger",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 320,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1724,7 +1829,8 @@
     "68": {
         "id": 68,
         "name": "Boom op auto",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 350,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1750,7 +1856,8 @@
     "69": {
         "id": 69,
         "name": "Persoon bekneld onder boom",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1080,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1783,6 +1890,9 @@
         "id": 70,
         "name": "Winkeldiefstal",
         "place": "Buurtsuper",
+        "place_array": {
+            "0": "Buurtsuper"
+        },
         "average_credits": 200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -1806,6 +1916,9 @@
         "id": 71,
         "name": "Winkeldiefstal",
         "place": "Supermarkt",
+        "place_array": {
+            "0": "Supermarkt"
+        },
         "average_credits": 200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -1829,6 +1942,9 @@
         "id": 72,
         "name": "Winkeldiefstal",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -1855,7 +1971,8 @@
     "73": {
         "id": 73,
         "name": "Tasjesdief",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -1882,7 +1999,8 @@
     "74": {
         "id": 74,
         "name": "Huiselijk geweld",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -1905,7 +2023,8 @@
     "75": {
         "id": 75,
         "name": "Bestuurder onder invloed",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -1928,7 +2047,8 @@
     "76": {
         "id": 76,
         "name": "Klein vliegtuig neergestort",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1962,7 +2082,8 @@
     "77": {
         "id": 77,
         "name": "Klein vliegtuig neergestort",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -1995,7 +2116,8 @@
     "78": {
         "id": 78,
         "name": "Rookontwikkeling in winkel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 350,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2023,7 +2145,8 @@
     "79": {
         "id": 79,
         "name": "Gevallen fietser",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -2048,7 +2171,8 @@
     "80": {
         "id": 80,
         "name": "Allergische reactie ",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -2073,7 +2197,8 @@
     "81": {
         "id": 81,
         "name": "Verward persoon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -2099,7 +2224,8 @@
     "82": {
         "id": 82,
         "name": "Vrachtwagen gekanteld",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -2131,7 +2257,8 @@
     "83": {
         "id": 83,
         "name": "Val van hoogte (> 5m)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -2157,7 +2284,8 @@
     "84": {
         "id": 84,
         "name": "Ernstige brandwonden",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -2183,7 +2311,8 @@
     "85": {
         "id": 85,
         "name": "Aanrijding voetganger (> 30km/h)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -2213,6 +2342,9 @@
         "id": 86,
         "name": "Aanrijding door trein",
         "place": "Centraal Station",
+        "place_array": {
+            "0": "Centraal Station"
+        },
         "average_credits": 1000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -2241,7 +2373,8 @@
     "87": {
         "id": 87,
         "name": "Beginnende geboorte",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -2266,7 +2399,8 @@
     "88": {
         "id": 88,
         "name": "Hersenbloeding",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -2291,7 +2425,8 @@
     "89": {
         "id": 89,
         "name": "Nek- wervelletsel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -2316,7 +2451,8 @@
     "90": {
         "id": 90,
         "name": "Ontwrichting",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -2341,7 +2477,8 @@
     "91": {
         "id": 91,
         "name": "Psychiatrisch beeld",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -2366,7 +2503,8 @@
     "92": {
         "id": 92,
         "name": "Botbreuk",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -2391,7 +2529,8 @@
     "93": {
         "id": 93,
         "name": "Gebroken rib",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -2416,7 +2555,8 @@
     "94": {
         "id": 94,
         "name": "Hoofdletsel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -2441,7 +2581,8 @@
     "95": {
         "id": 95,
         "name": "Hyperventilatie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -2466,7 +2607,8 @@
     "96": {
         "id": 96,
         "name": "Hittekramp",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -2491,7 +2633,8 @@
     "97": {
         "id": 97,
         "name": "Hoofdwond",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -2516,7 +2659,8 @@
     "98": {
         "id": 98,
         "name": "Vreemde lucht",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2545,7 +2689,8 @@
     "99": {
         "id": 99,
         "name": "Stankoverlast",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 550,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2572,7 +2717,8 @@
     "100": {
         "id": 100,
         "name": "Ammoniakalarm in opslagloods",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2605,7 +2751,8 @@
     "101": {
         "id": 101,
         "name": "Koolmonoxide vrijgekomen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1660,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2639,6 +2786,9 @@
         "id": 102,
         "name": "Lekkende goederenwagon",
         "place": "Rangeeremplacement",
+        "place_array": {
+            "0": "Rangeeremplacement"
+        },
         "average_credits": 1200,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2663,7 +2813,8 @@
     "103": {
         "id": 103,
         "name": "Schoorsteenbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 840,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2691,7 +2842,8 @@
     "104": {
         "id": 104,
         "name": "Brandgerucht",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 130,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2716,7 +2868,8 @@
     "105": {
         "id": 105,
         "name": "Buitensluiting",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 140,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2739,6 +2892,9 @@
         "id": 106,
         "name": "Schaap in sloot",
         "place": "Sloot",
+        "place_array": {
+            "0": "Sloot"
+        },
         "average_credits": 140,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2760,7 +2916,8 @@
     "107": {
         "id": 107,
         "name": "Persoon bekneld in machine",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 540,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2795,6 +2952,9 @@
         "id": 108,
         "name": "Ongeval met trein en personenauto",
         "place": "Spoorwegovergang",
+        "place_array": {
+            "0": "Spoorwegovergang"
+        },
         "average_credits": 1240,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2828,6 +2988,9 @@
         "id": 109,
         "name": "Ongeval met trein en persoon",
         "place": "Spoorwegovergang",
+        "place_array": {
+            "0": "Spoorwegovergang"
+        },
         "average_credits": 740,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2861,7 +3024,8 @@
     "110": {
         "id": 110,
         "name": "Brand in vakantiewoning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2886,7 +3050,8 @@
     "111": {
         "id": 111,
         "name": "Brand in vakantiewoning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2915,6 +3080,9 @@
         "id": 112,
         "name": "Overval winkel",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 400,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -2938,6 +3106,9 @@
         "id": 113,
         "name": "Overval winkel",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 1000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -2960,7 +3131,8 @@
     "114": {
         "id": 114,
         "name": "Brandend dak",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -2983,7 +3155,8 @@
     "115": {
         "id": 115,
         "name": "Brandend dak",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3010,6 +3183,9 @@
         "id": 116,
         "name": "Voetbalwedstrijd",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 3000,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -3039,6 +3215,9 @@
         "id": 117,
         "name": "Voetbalwedstrijd, risicowedstrijd",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 6000,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -3067,7 +3246,8 @@
     "118": {
         "id": 118,
         "name": "Hardloopevenement",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3094,7 +3274,8 @@
     "119": {
         "id": 119,
         "name": "Begeleiding orkest",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -3119,7 +3300,8 @@
     "120": {
         "id": 120,
         "name": "Begeleiding wielrenners",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -3148,6 +3330,9 @@
         "id": 121,
         "name": "Test brandalarm school",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 1000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3174,6 +3359,9 @@
         "id": 122,
         "name": "Overval winkel",
         "place": "Buurtsuper",
+        "place_array": {
+            "0": "Buurtsuper"
+        },
         "average_credits": 4000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -3198,6 +3386,9 @@
         "id": 123,
         "name": "Overval winkel",
         "place": "Supermarkt",
+        "place_array": {
+            "0": "Supermarkt"
+        },
         "average_credits": 4000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -3221,7 +3412,8 @@
     "124": {
         "id": 124,
         "name": "Achtervolging personenauto",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -3246,6 +3438,9 @@
         "id": 126,
         "name": "Brand in landbouwschuur",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3271,6 +3466,9 @@
         "id": 127,
         "name": "Brand in landbouwschuur",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 3245,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3299,6 +3497,9 @@
         "id": 128,
         "name": "Heidebrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 400,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3324,6 +3525,9 @@
         "id": 129,
         "name": "Heidebrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 2035,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3347,7 +3551,8 @@
     "130": {
         "id": 130,
         "name": "Brand in cafetaria",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3375,7 +3580,8 @@
     "131": {
         "id": 131,
         "name": "Brand in cafetaria",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3406,7 +3612,8 @@
     "132": {
         "id": 132,
         "name": "Brandende bus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3428,7 +3635,8 @@
     "133": {
         "id": 133,
         "name": "Brandende bestelwagen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3450,7 +3658,8 @@
     "134": {
         "id": 134,
         "name": "Brandende haag",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 240,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3472,7 +3681,8 @@
     "135": {
         "id": 135,
         "name": "Brandende papiercontainer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3494,7 +3704,8 @@
     "136": {
         "id": 136,
         "name": "Brandende caravan",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 240,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3516,7 +3727,8 @@
     "137": {
         "id": 137,
         "name": "Besteld vervoer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -3540,7 +3752,8 @@
     "138": {
         "id": 138,
         "name": "Brand in meterkast",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3565,7 +3778,8 @@
     "139": {
         "id": 139,
         "name": "Natuurbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 110,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3591,6 +3805,9 @@
         "id": 140,
         "name": "Natuurbrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 1895,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3615,6 +3832,9 @@
         "id": 141,
         "name": "Natuurbrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 2905,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3642,6 +3862,9 @@
         "id": 142,
         "name": "Natuurbrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 4230,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3670,6 +3893,9 @@
         "id": 143,
         "name": "Natuurbrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 6470,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3702,6 +3928,9 @@
         "id": 144,
         "name": "Natuurbrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 9425,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3732,7 +3961,8 @@
     "145": {
         "id": 145,
         "name": "Natuurbrand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 26410,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3760,7 +3990,8 @@
     "155": {
         "id": 155,
         "name": "Gaslekkage",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 890,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3791,7 +4022,8 @@
     "156": {
         "id": 156,
         "name": "Gaslekkage",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3824,6 +4056,9 @@
         "id": 157,
         "name": "Brand in ziekenhuis",
         "place": "Ziekenhuis",
+        "place_array": {
+            "0": "Ziekenhuis"
+        },
         "average_credits": 4070,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3858,6 +4093,9 @@
         "id": 158,
         "name": "Brand in ziekenhuis",
         "place": "Ziekenhuis",
+        "place_array": {
+            "0": "Ziekenhuis"
+        },
         "average_credits": 350,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3880,6 +4118,9 @@
         "id": 159,
         "name": "Brand in sporthal",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 1500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -3910,6 +4151,9 @@
         "id": 180,
         "name": "Bergen object uit water voor politie",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 1000,
         "generated_by": "",
         "icons": {
@@ -3936,6 +4180,9 @@
         "id": 181,
         "name": "Verkeersongeval met beknelling",
         "place": "Sloot",
+        "place_array": {
+            "0": "Sloot"
+        },
         "average_credits": 2090,
         "generated_by": "",
         "icons": {
@@ -3972,6 +4219,9 @@
         "id": 182,
         "name": "Personenauto in sloot",
         "place": "Sloot",
+        "place_array": {
+            "0": "Sloot"
+        },
         "average_credits": 1400,
         "generated_by": "",
         "icons": {
@@ -4008,6 +4258,9 @@
         "id": 183,
         "name": "Paard in sloot",
         "place": "Sloot",
+        "place_array": {
+            "0": "Sloot"
+        },
         "average_credits": 1200,
         "generated_by": "",
         "icons": {
@@ -4035,6 +4288,9 @@
         "id": 184,
         "name": "Eend verstrikt in visdraad",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 400,
         "generated_by": "",
         "icons": {
@@ -4060,6 +4316,9 @@
         "id": 185,
         "name": "Verlaten kinderfiets langs waterkant",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 1200,
         "generated_by": "",
         "icons": {
@@ -4085,7 +4344,8 @@
     "186": {
         "id": 186,
         "name": "Parkeergarage onder water",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 490,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4110,7 +4370,8 @@
     "187": {
         "id": 187,
         "name": "Kelder onder water",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 390,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4135,7 +4396,8 @@
     "188": {
         "id": 188,
         "name": "Gevaarlijk hangende tak",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4160,7 +4422,8 @@
     "189": {
         "id": 189,
         "name": "Boom op dak",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 330,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4185,7 +4448,8 @@
     "190": {
         "id": 190,
         "name": "Straat onder water",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 490,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4210,7 +4474,8 @@
     "191": {
         "id": 191,
         "name": "Losgewaaide dakbedekking",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 420,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4235,7 +4500,8 @@
     "192": {
         "id": 192,
         "name": "Parkeerterrein onder water",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 490,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4261,6 +4527,9 @@
         "id": 193,
         "name": "Koe in sloot",
         "place": "Sloot",
+        "place_array": {
+            "0": "Sloot"
+        },
         "average_credits": 140,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4286,6 +4555,9 @@
         "id": 194,
         "name": "Koe in gierput",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 190,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4311,6 +4583,9 @@
         "id": 195,
         "name": "Lekkende woonboot",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 420,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4335,7 +4610,8 @@
     "196": {
         "id": 196,
         "name": "Brand in woonwagen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 190,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4357,7 +4633,8 @@
     "197": {
         "id": 197,
         "name": "Brandende vrachtwagen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 190,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4379,7 +4656,8 @@
     "198": {
         "id": 198,
         "name": "Brand in woonkamer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 190,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4404,7 +4682,8 @@
     "199": {
         "id": 199,
         "name": "Inbraak in woning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -4430,7 +4709,8 @@
     "200": {
         "id": 200,
         "name": "Drugslab aangetroffen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -4459,6 +4739,9 @@
         "id": 201,
         "name": "Vechtpartij in caf\u00e9",
         "place": "Caf\u00e9/Club",
+        "place_array": {
+            "0": "Caf\u00e9/Club"
+        },
         "average_credits": 850,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -4488,7 +4771,8 @@
     "202": {
         "id": 202,
         "name": "Steekincident",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -4519,7 +4803,8 @@
     "203": {
         "id": 203,
         "name": "Verkeersongeval met gevaarlijke stoffen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4554,7 +4839,8 @@
     "204": {
         "id": 204,
         "name": "Verkeersongeval met gevaarlijke stoffen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4594,6 +4880,9 @@
         "id": 205,
         "name": "Persoon te water",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 850,
         "generated_by": "",
         "icons": {
@@ -4631,6 +4920,9 @@
         "id": 206,
         "name": "Persoon te water",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 1100,
         "generated_by": "",
         "icons": {
@@ -4667,6 +4959,9 @@
         "id": 207,
         "name": "Personenauto te water",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 900,
         "generated_by": "",
         "icons": {
@@ -4706,6 +5001,9 @@
         "id": 208,
         "name": "Personenauto te water",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 1200,
         "generated_by": "",
         "icons": {
@@ -4745,6 +5043,9 @@
         "id": 209,
         "name": "Aanvaring met vrachtschip en motorboot",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 1100,
         "generated_by": "",
         "icons": {
@@ -4783,6 +5084,9 @@
         "id": 210,
         "name": "Aanvaring met vrachtschip en motorboot",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 1500,
         "generated_by": "",
         "icons": {
@@ -4822,6 +5126,9 @@
         "id": 211,
         "name": "Aanvaring met vrachtschip en motorboot",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 2000,
         "generated_by": "",
         "icons": {
@@ -4865,6 +5172,9 @@
         "id": 212,
         "name": "Omgeslagen zeilboot",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 900,
         "generated_by": "",
         "icons": {
@@ -4900,6 +5210,9 @@
         "id": 213,
         "name": "Omgeslagen zeilboot",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 1100,
         "generated_by": "",
         "icons": {
@@ -4936,6 +5249,9 @@
         "id": 214,
         "name": "Bosbrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 1555,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4959,6 +5275,9 @@
         "id": 215,
         "name": "Bosbrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 2905,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -4986,6 +5305,9 @@
         "id": 216,
         "name": "Bosbrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 3985,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -5015,6 +5337,9 @@
         "id": 217,
         "name": "Plofkraak",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 620,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -5038,6 +5363,9 @@
         "id": 218,
         "name": "Plofkraak",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 1100,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -5067,6 +5395,9 @@
         "id": 219,
         "name": "Open dag, klein",
         "place": "Marktplein",
+        "place_array": {
+            "0": "Marktplein"
+        },
         "average_credits": 2000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -5094,6 +5425,9 @@
         "id": 220,
         "name": "Open dag, groot",
         "place": "Marktplein",
+        "place_array": {
+            "0": "Marktplein"
+        },
         "average_credits": 3000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -5125,7 +5459,8 @@
     "221": {
         "id": 221,
         "name": "Inval in woning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -5151,7 +5486,8 @@
     "222": {
         "id": 222,
         "name": "Inbraak in woning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -5179,7 +5515,8 @@
     "223": {
         "id": 223,
         "name": "Brand in kelder",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -5202,7 +5539,8 @@
     "224": {
         "id": 224,
         "name": "Brand in kelder",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -5224,7 +5562,8 @@
     "225": {
         "id": 225,
         "name": "Benauwdheid",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -5249,7 +5588,8 @@
     "226": {
         "id": 226,
         "name": "Val van trap",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -5275,6 +5615,9 @@
         "id": 227,
         "name": "Assistentie treinconducteur",
         "place": "Station",
+        "place_array": {
+            "0": "Station"
+        },
         "average_credits": 750,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -5298,6 +5641,9 @@
         "id": 228,
         "name": "Assistentie treinconducteur",
         "place": "Centraal Station",
+        "place_array": {
+            "0": "Centraal Station"
+        },
         "average_credits": 750,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -5321,6 +5667,9 @@
         "id": 229,
         "name": "Brand in tankstation",
         "place": "Tankstation",
+        "place_array": {
+            "0": "Tankstation"
+        },
         "average_credits": 1700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -5357,7 +5706,8 @@
     "230": {
         "id": 230,
         "name": "Onwelwording",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -5383,6 +5733,9 @@
         "id": 231,
         "name": "Vernieling bushokje",
         "place": "Bushalte",
+        "place_array": {
+            "0": "Bushalte"
+        },
         "average_credits": 800,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -5405,6 +5758,9 @@
         "id": 232,
         "name": "Buspassagier weigert te betalen",
         "place": "Bushalte",
+        "place_array": {
+            "0": "Bushalte"
+        },
         "average_credits": 800,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -5427,7 +5783,8 @@
     "233": {
         "id": 233,
         "name": "Brand in tuinhuis",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -5453,7 +5810,8 @@
     "234": {
         "id": 234,
         "name": "Vliegtuig neergestort",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 11500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -5488,7 +5846,8 @@
     "235": {
         "id": 235,
         "name": "Overdosis drugs",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -5516,7 +5875,8 @@
     "236": {
         "id": 236,
         "name": "Schietincident",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -5547,7 +5907,8 @@
     "237": {
         "id": 237,
         "name": "Brand in werkplaats",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 780,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -5576,7 +5937,8 @@
     "238": {
         "id": 238,
         "name": "Brand in werkplaats",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -5598,7 +5960,8 @@
     "239": {
         "id": 239,
         "name": "Verstikking",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -5623,7 +5986,8 @@
     "240": {
         "id": 240,
         "name": "Vergiftiging",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -5649,6 +6013,9 @@
         "id": 241,
         "name": "Zwemmer vermist",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 1150,
         "generated_by": "",
         "icons": {
@@ -5684,6 +6051,9 @@
         "id": 242,
         "name": "Verlaten kleding langs waterkant",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 900,
         "generated_by": "",
         "icons": {
@@ -5714,7 +6084,8 @@
     "243": {
         "id": 243,
         "name": "Verdachte situatie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -5741,6 +6112,9 @@
         "id": 244,
         "name": "Persoon van podium gevallen",
         "place": "Theater",
+        "place_array": {
+            "0": "Theater"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -5765,7 +6139,8 @@
     "245": {
         "id": 245,
         "name": "Ontruimen kraakpand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -5794,7 +6169,8 @@
     "246": {
         "id": 246,
         "name": "Persoon vermist",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -5816,7 +6192,8 @@
     "247": {
         "id": 247,
         "name": "Persoon vermist",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -5842,7 +6219,8 @@
     "248": {
         "id": 248,
         "name": "Persoon vermist",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -5869,7 +6247,8 @@
     "249": {
         "id": 249,
         "name": "Straatroof",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2700,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -5893,7 +6272,8 @@
     "250": {
         "id": 250,
         "name": "Opnemen aangifte inbraak",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -5916,6 +6296,9 @@
         "id": 251,
         "name": "Vrachtwagen te water",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 1000,
         "generated_by": "",
         "icons": {
@@ -5954,6 +6337,9 @@
         "id": 252,
         "name": "Vrachtwagen te water",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 1300,
         "generated_by": "",
         "icons": {
@@ -5992,6 +6378,9 @@
         "id": 254,
         "name": "Brandende goederenwagon",
         "place": "Rangeeremplacement",
+        "place_array": {
+            "0": "Rangeeremplacement"
+        },
         "average_credits": 650,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6019,6 +6408,9 @@
         "id": 255,
         "name": "Brandende goederenwagon",
         "place": "Rangeeremplacement",
+        "place_array": {
+            "0": "Rangeeremplacement"
+        },
         "average_credits": 1700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6046,7 +6438,8 @@
     "256": {
         "id": 256,
         "name": "Geluidsoverlast",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -6068,7 +6461,8 @@
     "257": {
         "id": 257,
         "name": "Auto-inbraak",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -6090,7 +6484,8 @@
     "258": {
         "id": 258,
         "name": "Brand in flatwoning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6115,7 +6510,8 @@
     "259": {
         "id": 259,
         "name": "Brand in flatwoning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1050,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6147,6 +6543,9 @@
         "id": 260,
         "name": "Brandend speeltoestel",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 220,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6168,7 +6567,8 @@
     "261": {
         "id": 261,
         "name": "Persoon door glas gevallen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -6193,7 +6593,8 @@
     "262": {
         "id": 262,
         "name": "Burenruzie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 430,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -6216,6 +6617,9 @@
         "id": 263,
         "name": "Brandende personenauto in parkeergarage",
         "place": "Vliegveld (groot): Parkeergarage",
+        "place_array": {
+            "0": "Vliegveld (groot): Parkeergarage"
+        },
         "average_credits": 300,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6238,6 +6642,9 @@
         "id": 264,
         "name": "Brandende personenauto in parkeergarage",
         "place": "Vliegveld (groot): Parkeergarage",
+        "place_array": {
+            "0": "Vliegveld (groot): Parkeergarage"
+        },
         "average_credits": 650,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6266,6 +6673,9 @@
         "id": 265,
         "name": "Vliegtuig met hydraulisch probleem",
         "place": "Vliegveld (groot): Start-/Landingsbaan",
+        "place_array": {
+            "0": "Vliegveld (groot): Start-/Landingsbaan"
+        },
         "average_credits": 1550,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6292,6 +6702,9 @@
         "id": 266,
         "name": "Vliegtuig met rook in cabine",
         "place": "Vliegveld (groot): Start-/Landingsbaan",
+        "place_array": {
+            "0": "Vliegveld (groot): Start-/Landingsbaan"
+        },
         "average_credits": 1550,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6318,6 +6731,9 @@
         "id": 267,
         "name": "Vliegtuig met brandgeur in cabine",
         "place": "Vliegveld (groot): Start-/Landingsbaan",
+        "place_array": {
+            "0": "Vliegveld (groot): Start-/Landingsbaan"
+        },
         "average_credits": 1550,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6344,6 +6760,9 @@
         "id": 268,
         "name": "Vliegtuig met probleem met landingsgestel",
         "place": "Vliegveld (groot): Start-/Landingsbaan",
+        "place_array": {
+            "0": "Vliegveld (groot): Start-/Landingsbaan"
+        },
         "average_credits": 2600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6384,6 +6803,9 @@
         "id": 269,
         "name": "Vliegtuig met brandmelding in vrachtruim",
         "place": "Vliegveld (groot): Start-/Landingsbaan",
+        "place_array": {
+            "0": "Vliegveld (groot): Start-/Landingsbaan"
+        },
         "average_credits": 2700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6418,6 +6840,9 @@
         "id": 270,
         "name": "Vliegtuig buiten start-/landingsbaan beland",
         "place": "Vliegveld (groot): Start-/Landingsbaan",
+        "place_array": {
+            "0": "Vliegveld (groot): Start-/Landingsbaan"
+        },
         "average_credits": 1800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6451,6 +6876,9 @@
         "id": 271,
         "name": "Rookontwikkeling in vrachtruim vliegtuig",
         "place": "Vliegveld (groot): Platform / Gate",
+        "place_array": {
+            "0": "Vliegveld (groot): Platform / Gate"
+        },
         "average_credits": 1125,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6476,6 +6904,9 @@
         "id": 272,
         "name": "Klein vliegtuig met motorisch probleem",
         "place": "Vliegveld (klein): Start-/Landingsbaan",
+        "place_array": {
+            "0": "Vliegveld (klein): Start-/Landingsbaan"
+        },
         "average_credits": 1100,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6510,6 +6941,9 @@
         "id": 273,
         "name": "Klein vliegtuig neergestort",
         "place": "Vliegveld (klein): Start-/Landingsbaan",
+        "place_array": {
+            "0": "Vliegveld (klein): Start-/Landingsbaan"
+        },
         "average_credits": 2100,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6545,6 +6979,9 @@
         "id": 274,
         "name": "Klein vliegtuig neergestort",
         "place": "Vliegveld (klein): Start-/Landingsbaan",
+        "place_array": {
+            "0": "Vliegveld (klein): Start-/Landingsbaan"
+        },
         "average_credits": 3000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6586,6 +7023,9 @@
         "id": 275,
         "name": "Brandend klein vliegtuig",
         "place": "Vliegveld (klein): Vliegtuig parkeerplaats",
+        "place_array": {
+            "0": "Vliegveld (klein): Vliegtuig parkeerplaats"
+        },
         "average_credits": 1650,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6614,6 +7054,9 @@
         "id": 276,
         "name": "Brandend klein vliegtuig",
         "place": "Vliegveld (klein): Vliegtuig parkeerplaats",
+        "place_array": {
+            "0": "Vliegveld (klein): Vliegtuig parkeerplaats"
+        },
         "average_credits": 2500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6646,6 +7089,9 @@
         "id": 277,
         "name": "Pijn op de borst",
         "place": "Vliegveld (groot): Terminal",
+        "place_array": {
+            "0": "Vliegveld (groot): Terminal"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -6671,6 +7117,9 @@
         "id": 278,
         "name": "Beroerte",
         "place": "Vliegveld (groot): Terminal",
+        "place_array": {
+            "0": "Vliegveld (groot): Terminal"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -6695,7 +7144,8 @@
     "279": {
         "id": 279,
         "name": "Bedreiging",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -6718,6 +7168,9 @@
         "id": 280,
         "name": "Brand in garagebedrijf",
         "place": "Garagebedrijf",
+        "place_array": {
+            "0": "Garagebedrijf"
+        },
         "average_credits": 850,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6743,6 +7196,9 @@
         "id": 281,
         "name": "Brand in garagebedrijf",
         "place": "Garagebedrijf",
+        "place_array": {
+            "0": "Garagebedrijf"
+        },
         "average_credits": 2700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6776,6 +7232,9 @@
         "id": 282,
         "name": "Brand in garagebedrijf",
         "place": "Garagebedrijf",
+        "place_array": {
+            "0": "Garagebedrijf"
+        },
         "average_credits": 3620,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6816,6 +7275,9 @@
         "id": 283,
         "name": "Val van paard",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -6841,7 +7303,8 @@
     "284": {
         "id": 284,
         "name": "Gevaarlijk rijgedrag",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -6864,6 +7327,9 @@
         "id": 285,
         "name": "Brand in supermarkt",
         "place": "Supermarkt",
+        "place_array": {
+            "0": "Supermarkt"
+        },
         "average_credits": 1400,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6889,6 +7355,9 @@
         "id": 286,
         "name": "Kind vast in boom",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 340,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6919,6 +7388,9 @@
         "id": 287,
         "name": "Brand in magazijn",
         "place": "Magazijn",
+        "place_array": {
+            "0": "Magazijn"
+        },
         "average_credits": 350,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6944,6 +7416,9 @@
         "id": 288,
         "name": "Brand in magazijn",
         "place": "Magazijn",
+        "place_array": {
+            "0": "Magazijn"
+        },
         "average_credits": 1750,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -6968,6 +7443,9 @@
         "id": 289,
         "name": "Brand in magazijn",
         "place": "Magazijn",
+        "place_array": {
+            "0": "Magazijn"
+        },
         "average_credits": 2150,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7001,6 +7479,9 @@
         "id": 290,
         "name": "Brand in magazijn",
         "place": "Magazijn",
+        "place_array": {
+            "0": "Magazijn"
+        },
         "average_credits": 3000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7037,6 +7518,9 @@
         "id": 291,
         "name": "Brand in magazijn",
         "place": "Magazijn",
+        "place_array": {
+            "0": "Magazijn"
+        },
         "average_credits": 4200,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7072,6 +7556,9 @@
         "id": 292,
         "name": "Ongeval met trein en vrachtwagen",
         "place": "Spoorwegovergang",
+        "place_array": {
+            "0": "Spoorwegovergang"
+        },
         "average_credits": 1575,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7106,6 +7593,9 @@
         "id": 293,
         "name": "Ongeval met trein en vrachtwagen",
         "place": "Spoorwegovergang",
+        "place_array": {
+            "0": "Spoorwegovergang"
+        },
         "average_credits": 2450,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7140,6 +7630,9 @@
         "id": 294,
         "name": "Overlast jeugd",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 550,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -7162,6 +7655,9 @@
         "id": 295,
         "name": "Overlast zwervers",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 450,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -7184,6 +7680,9 @@
         "id": 296,
         "name": "Brand in museum",
         "place": "Museum",
+        "place_array": {
+            "0": "Museum"
+        },
         "average_credits": 900,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7209,6 +7708,9 @@
         "id": 297,
         "name": "Brand in museum",
         "place": "Museum",
+        "place_array": {
+            "0": "Museum"
+        },
         "average_credits": 1500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7238,6 +7740,9 @@
         "id": 298,
         "name": "Brand in museum",
         "place": "Museum",
+        "place_array": {
+            "0": "Museum"
+        },
         "average_credits": 2200,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7277,6 +7782,9 @@
         "id": 299,
         "name": "Brandend plezierjacht",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 900,
         "generated_by": "",
         "icons": {
@@ -7307,6 +7815,9 @@
         "id": 300,
         "name": "Brandend plezierjacht",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 1450,
         "generated_by": "",
         "icons": {
@@ -7340,7 +7851,8 @@
     "301": {
         "id": 301,
         "name": "Inbraakalarm",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -7363,6 +7875,9 @@
         "id": 302,
         "name": "Brand in kantoorgebouw",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 850,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7388,6 +7903,9 @@
         "id": 303,
         "name": "Brand in kantoorgebouw",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 1650,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7414,6 +7932,9 @@
         "id": 304,
         "name": "Brand in kantoorgebouw",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 2400,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7446,7 +7967,8 @@
     "305": {
         "id": 305,
         "name": "Verkeersongeval met touringcar",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1450,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7479,7 +8001,8 @@
     "306": {
         "id": 306,
         "name": "Verkeersongeval met touringcar",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2100,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7513,7 +8036,8 @@
     "307": {
         "id": 307,
         "name": "Verkeersongeval met touringcar",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3250,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7550,6 +8074,9 @@
         "id": 308,
         "name": "Natuurbrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 12020,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7582,6 +8109,9 @@
         "id": 309,
         "name": "Natuurbrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 17930,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7611,7 +8141,8 @@
     "310": {
         "id": 310,
         "name": "Verkeersongeval met scooter en fietser",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -7640,7 +8171,8 @@
     "311": {
         "id": 311,
         "name": "Verkeersongeval met fietser en fietser",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -7669,6 +8201,9 @@
         "id": 312,
         "name": "Lekkende goederenwagon",
         "place": "Rangeeremplacement",
+        "place_array": {
+            "0": "Rangeeremplacement"
+        },
         "average_credits": 4000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7709,6 +8244,9 @@
         "id": 313,
         "name": "Brand in passagierstrein",
         "place": "Centraal Station",
+        "place_array": {
+            "0": "Centraal Station"
+        },
         "average_credits": 1000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7733,6 +8271,9 @@
         "id": 314,
         "name": "Brand in passagierstrein",
         "place": "Centraal Station",
+        "place_array": {
+            "0": "Centraal Station"
+        },
         "average_credits": 2100,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7766,6 +8307,9 @@
         "id": 315,
         "name": "Brand in passagierstrein",
         "place": "Centraal Station",
+        "place_array": {
+            "0": "Centraal Station"
+        },
         "average_credits": 3250,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7807,7 +8351,8 @@
     "316": {
         "id": 316,
         "name": "Bedreiging met vuurwapen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -7830,7 +8375,8 @@
     "317": {
         "id": 317,
         "name": "Bedreiging met vuurwapen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -7854,6 +8400,9 @@
         "id": 318,
         "name": "Brand op binnenvaartschip",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 1450,
         "generated_by": "",
         "icons": {
@@ -7880,6 +8429,9 @@
         "id": 319,
         "name": "Brand op binnenvaartschip",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 3100,
         "generated_by": "",
         "icons": {
@@ -7913,6 +8465,9 @@
         "id": 320,
         "name": "Brand op binnenvaartschip",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 4750,
         "generated_by": "",
         "icons": {
@@ -7955,6 +8510,9 @@
         "id": 321,
         "name": "Brandende wegberm",
         "place": "Snelweg oprit / afrit",
+        "place_array": {
+            "0": "Snelweg oprit / afrit"
+        },
         "average_credits": 300,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -7977,6 +8535,9 @@
         "id": 322,
         "name": "Brandende wegberm",
         "place": "Snelweg oprit / afrit",
+        "place_array": {
+            "0": "Snelweg oprit / afrit"
+        },
         "average_credits": 1000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8002,7 +8563,8 @@
     "323": {
         "id": 323,
         "name": "Verkeersongeval met motorfiets",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -8030,7 +8592,8 @@
     "324": {
         "id": 324,
         "name": "Verkeersongeval met personenauto en motorfiets",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -8059,7 +8622,8 @@
     "325": {
         "id": 325,
         "name": "Verkeersongeval met fietser en motorfiets",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -8089,6 +8653,9 @@
         "id": 326,
         "name": "Brand in landbouwschuur",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 5635,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8127,6 +8694,9 @@
         "id": 327,
         "name": "Brand in landbouwschuur",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 8760,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8165,6 +8735,9 @@
         "id": 328,
         "name": "Persoon onwel na mixen mest",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8202,7 +8775,8 @@
     "329": {
         "id": 329,
         "name": "Verwaarloosde hond in woning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 350,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -8227,6 +8801,9 @@
         "id": 330,
         "name": "Vechtpartij in caf\u00e9",
         "place": "Caf\u00e9/Club",
+        "place_array": {
+            "0": "Caf\u00e9/Club"
+        },
         "average_credits": 2250,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -8259,6 +8836,9 @@
         "id": 331,
         "name": "Inbraak in bedrijfspand",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 1500,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -8284,6 +8864,9 @@
         "id": 332,
         "name": "Inbraak in bedrijfspand",
         "place": "Magazijn",
+        "place_array": {
+            "0": "Magazijn"
+        },
         "average_credits": 1500,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -8309,6 +8892,9 @@
         "id": 333,
         "name": "Inbraak in bedrijfspand",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 2000,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -8336,6 +8922,9 @@
         "id": 334,
         "name": "Brand in schoolgebouw",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 850,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8361,6 +8950,9 @@
         "id": 335,
         "name": "Brand in schoolgebouw",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 1750,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8389,6 +8981,9 @@
         "id": 336,
         "name": "Brand in schoolgebouw",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 2850,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8421,7 +9016,8 @@
     "337": {
         "id": 337,
         "name": "Huiselijk geweld",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -8449,7 +9045,8 @@
     "338": {
         "id": 338,
         "name": "Huiselijk geweld",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1550,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -8480,6 +9077,9 @@
         "id": 339,
         "name": "Lekkende LPG installatie",
         "place": "Tankstation",
+        "place_array": {
+            "0": "Tankstation"
+        },
         "average_credits": 1150,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8513,6 +9113,9 @@
         "id": 340,
         "name": "Lekkende LPG installatie",
         "place": "Tankstation",
+        "place_array": {
+            "0": "Tankstation"
+        },
         "average_credits": 2500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8548,6 +9151,9 @@
         "id": 341,
         "name": "Nacontrole brand",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8573,6 +9179,9 @@
         "id": 342,
         "name": "Nacontrole brand",
         "place": "Museum",
+        "place_array": {
+            "0": "Museum"
+        },
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8597,7 +9206,8 @@
     "343": {
         "id": 343,
         "name": "Nacontrole brand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8624,6 +9234,9 @@
         "id": 344,
         "name": "Vreemde lucht in kantoorgebouw",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 1375,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8660,6 +9273,9 @@
         "id": 345,
         "name": "Vreemde lucht in kantoorgebouw",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 2850,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8700,7 +9316,8 @@
     "346": {
         "id": 346,
         "name": "Brand in opslagloods met gevaarlijke stoffen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 18500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8731,7 +9348,8 @@
     "347": {
         "id": 347,
         "name": "Brand bij afvalverwerker",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 17500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8763,6 +9381,9 @@
         "id": 348,
         "name": "Zwemmer vermist",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 1750,
         "generated_by": "",
         "icons": {
@@ -8801,6 +9422,9 @@
         "id": 349,
         "name": "Zwemmer vermist",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 3150,
         "generated_by": "",
         "icons": {
@@ -8838,7 +9462,8 @@
     "350": {
         "id": 350,
         "name": "Insluiping in woning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2350,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -8863,7 +9488,8 @@
     "351": {
         "id": 351,
         "name": "Inbraakalarm woning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -8889,6 +9515,9 @@
         "id": 352,
         "name": "Brand in terminal",
         "place": "Vliegveld (groot): Terminal",
+        "place_array": {
+            "0": "Vliegveld (groot): Terminal"
+        },
         "average_credits": 1400,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8916,6 +9545,9 @@
         "id": 353,
         "name": "Brand in terminal",
         "place": "Vliegveld (groot): Terminal",
+        "place_array": {
+            "0": "Vliegveld (groot): Terminal"
+        },
         "average_credits": 3300,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8949,6 +9581,9 @@
         "id": 354,
         "name": "Brand in terminal",
         "place": "Vliegveld (groot): Terminal",
+        "place_array": {
+            "0": "Vliegveld (groot): Terminal"
+        },
         "average_credits": 5150,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -8989,6 +9624,9 @@
         "id": 355,
         "name": "Heidebrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 4230,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9018,6 +9656,9 @@
         "id": 356,
         "name": "Heidebrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 8020,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9051,6 +9692,9 @@
         "id": 357,
         "name": "Natuurbrand",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 23740,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9080,7 +9724,8 @@
     "358": {
         "id": 358,
         "name": "Hoge bloeddruk",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -9105,7 +9750,8 @@
     "359": {
         "id": 359,
         "name": "Lage bloeddruk",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -9130,7 +9776,8 @@
     "360": {
         "id": 360,
         "name": "Brand in bovenwoning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9155,7 +9802,8 @@
     "361": {
         "id": 361,
         "name": "Brand in bovenwoning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1150,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9187,7 +9835,8 @@
     "362": {
         "id": 362,
         "name": "Brand in flatwoning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2350,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9224,6 +9873,9 @@
         "id": 363,
         "name": "Brand op passagiersschip",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 1450,
         "generated_by": "",
         "icons": {
@@ -9258,6 +9910,9 @@
         "id": 364,
         "name": "Brand op passagiersschip",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 3250,
         "generated_by": "",
         "icons": {
@@ -9293,6 +9948,9 @@
         "id": 365,
         "name": "Brand op passagiersschip",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 4800,
         "generated_by": "",
         "icons": {
@@ -9338,6 +9996,9 @@
         "id": 366,
         "name": "Personen op dak school",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 550,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -9361,6 +10022,9 @@
         "id": 367,
         "name": "Gestolen scooter gevonden",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 400,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -9382,7 +10046,8 @@
     "368": {
         "id": 368,
         "name": "Verkeersongeval met vrachtwagen en fietser",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -9410,7 +10075,8 @@
     "369": {
         "id": 369,
         "name": "Verkeersongeval met vrachtwagen en fietser",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1150,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -9439,7 +10105,8 @@
     "370": {
         "id": 370,
         "name": "Verkeersongeval met vrachtwagen en fietser",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -9474,6 +10141,9 @@
         "id": 376,
         "name": "Persoon te water",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 3000,
         "generated_by": "",
         "icons": {
@@ -9512,6 +10182,9 @@
         "id": 377,
         "name": "Persoon te water",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 5200,
         "generated_by": "",
         "icons": {
@@ -9552,6 +10225,9 @@
         "id": 378,
         "name": "Vreemde lucht in winkelcentrum",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 1950,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9587,6 +10263,9 @@
         "id": 379,
         "name": "Vreemde lucht in winkelcentrum",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 4000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9623,7 +10302,8 @@
     "380": {
         "id": 380,
         "name": "Epileptische aanval",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -9648,7 +10328,8 @@
     "381": {
         "id": 381,
         "name": "Hevige bloeding",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -9673,7 +10354,8 @@
     "382": {
         "id": 382,
         "name": "Suikertekort",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -9699,6 +10381,9 @@
         "id": 383,
         "name": "Brand in parkeergarage",
         "place": "Parkeergarage",
+        "place_array": {
+            "0": "Parkeergarage"
+        },
         "average_credits": 900,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9724,6 +10409,9 @@
         "id": 384,
         "name": "Brand in parkeergarage",
         "place": "Parkeergarage",
+        "place_array": {
+            "0": "Parkeergarage"
+        },
         "average_credits": 2150,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9752,6 +10440,9 @@
         "id": 385,
         "name": "Brand in parkeergarage",
         "place": "Parkeergarage",
+        "place_array": {
+            "0": "Parkeergarage"
+        },
         "average_credits": 3650,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9788,6 +10479,9 @@
         "id": 386,
         "name": "Brand in parkeergarage",
         "place": "Parkeergarage",
+        "place_array": {
+            "0": "Parkeergarage"
+        },
         "average_credits": 5100,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9824,6 +10518,9 @@
         "id": 387,
         "name": "Bouwvakker van hoogte gevallen",
         "place": "Bouwterrein",
+        "place_array": {
+            "0": "Bouwterrein"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -9849,6 +10546,9 @@
         "id": 388,
         "name": "Bouwvakker van hoogte gevallen",
         "place": "Bouwterrein",
+        "place_array": {
+            "0": "Bouwterrein"
+        },
         "average_credits": 400,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9878,6 +10578,9 @@
         "id": 389,
         "name": "Bouwvakker bekneld onder bouwmateriaal",
         "place": "Bouwterrein",
+        "place_array": {
+            "0": "Bouwterrein"
+        },
         "average_credits": 900,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9913,6 +10616,9 @@
         "id": 390,
         "name": "Brand bij afvalverwerker",
         "place": "Afvalverwerker",
+        "place_array": {
+            "0": "Afvalverwerker"
+        },
         "average_credits": 800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9938,6 +10644,9 @@
         "id": 391,
         "name": "Brand bij afvalverwerker",
         "place": "Afvalverwerker",
+        "place_array": {
+            "0": "Afvalverwerker"
+        },
         "average_credits": 1500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9966,6 +10675,9 @@
         "id": 392,
         "name": "Brand bij afvalverwerker",
         "place": "Afvalverwerker",
+        "place_array": {
+            "0": "Afvalverwerker"
+        },
         "average_credits": 2600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -9999,6 +10711,9 @@
         "id": 393,
         "name": "Brand bij afvalverwerker",
         "place": "Afvalverwerker",
+        "place_array": {
+            "0": "Afvalverwerker"
+        },
         "average_credits": 4800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10035,6 +10750,9 @@
         "id": 394,
         "name": "Brand bij afvalverwerker",
         "place": "Afvalverwerker",
+        "place_array": {
+            "0": "Afvalverwerker"
+        },
         "average_credits": 6800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10070,6 +10788,9 @@
         "id": 395,
         "name": "Brand bij afvalverwerker",
         "place": "Afvalverwerker",
+        "place_array": {
+            "0": "Afvalverwerker"
+        },
         "average_credits": 9500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10105,6 +10826,9 @@
         "id": 396,
         "name": "Lekkende LPG installatie",
         "place": "Tankstation",
+        "place_array": {
+            "0": "Tankstation"
+        },
         "average_credits": 2600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10137,7 +10861,8 @@
     "397": {
         "id": 397,
         "name": "Gaslekkage",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10170,6 +10895,9 @@
         "id": 398,
         "name": "Vreemde lucht in kantoorgebouw",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 1750,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10206,6 +10934,9 @@
         "id": 399,
         "name": "Inbraakalarm bedrijfspand",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 1850,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -10233,6 +10964,9 @@
         "id": 400,
         "name": "Inbraakalarm bedrijfspand",
         "place": "Magazijn",
+        "place_array": {
+            "0": "Magazijn"
+        },
         "average_credits": 1850,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -10260,6 +10994,9 @@
         "id": 401,
         "name": "Overvalalarm supermarkt",
         "place": "Supermarkt",
+        "place_array": {
+            "0": "Supermarkt"
+        },
         "average_credits": 2250,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -10285,6 +11022,9 @@
         "id": 402,
         "name": "Persoon van laadklep gevallen",
         "place": "Supermarkt",
+        "place_array": {
+            "0": "Supermarkt"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -10310,6 +11050,9 @@
         "id": 403,
         "name": "Persoon van laadklep gevallen",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -10335,6 +11078,9 @@
         "id": 404,
         "name": "Persoon van laadklep gevallen",
         "place": "Buurtsuper",
+        "place_array": {
+            "0": "Buurtsuper"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -10359,7 +11105,8 @@
     "405": {
         "id": 405,
         "name": "Motorrijder gevallen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 150,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -10387,7 +11134,8 @@
     "406": {
         "id": 406,
         "name": "Persoon van dak gevallen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -10414,6 +11162,9 @@
         "id": 407,
         "name": "Nacontrole brand",
         "place": "Kerkgebouw",
+        "place_array": {
+            "0": "Kerkgebouw"
+        },
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10439,6 +11190,9 @@
         "id": 408,
         "name": "Brand in kerkgebouw",
         "place": "Kerkgebouw",
+        "place_array": {
+            "0": "Kerkgebouw"
+        },
         "average_credits": 800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10464,6 +11218,9 @@
         "id": 409,
         "name": "Brand in kerkgebouw",
         "place": "Kerkgebouw",
+        "place_array": {
+            "0": "Kerkgebouw"
+        },
         "average_credits": 1500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10488,6 +11245,9 @@
         "id": 410,
         "name": "Brand in kerkgebouw",
         "place": "Kerkgebouw",
+        "place_array": {
+            "0": "Kerkgebouw"
+        },
         "average_credits": 2500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10525,6 +11285,9 @@
         "id": 411,
         "name": "Brand in kerkgebouw",
         "place": "Kerkgebouw",
+        "place_array": {
+            "0": "Kerkgebouw"
+        },
         "average_credits": 2650,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10564,6 +11327,9 @@
         "id": 412,
         "name": "Brand in kerkgebouw",
         "place": "Kerkgebouw",
+        "place_array": {
+            "0": "Kerkgebouw"
+        },
         "average_credits": 4850,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10601,6 +11367,9 @@
         "id": 413,
         "name": "Brand in kerkgebouw",
         "place": "Kerkgebouw",
+        "place_array": {
+            "0": "Kerkgebouw"
+        },
         "average_credits": 6700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10638,6 +11407,9 @@
         "id": 414,
         "name": "Brand in transformatorhuisje",
         "place": "Transformatorhuisje",
+        "place_array": {
+            "0": "Transformatorhuisje"
+        },
         "average_credits": 800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10663,6 +11435,9 @@
         "id": 415,
         "name": "Brand in transformatorhuisje",
         "place": "Transformatorhuisje",
+        "place_array": {
+            "0": "Transformatorhuisje"
+        },
         "average_credits": 1800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10689,6 +11464,9 @@
         "id": 416,
         "name": "Brand in transformatorhuisje",
         "place": "Transformatorhuisje",
+        "place_array": {
+            "0": "Transformatorhuisje"
+        },
         "average_credits": 3000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10719,6 +11497,9 @@
         "id": 417,
         "name": "Verkeersongeval met lijnbus en voetganger",
         "place": "Bushalte",
+        "place_array": {
+            "0": "Bushalte"
+        },
         "average_credits": 1000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -10747,6 +11528,9 @@
         "id": 418,
         "name": "Verkeersongeval met lijnbus en voetganger",
         "place": "Bushalte",
+        "place_array": {
+            "0": "Bushalte"
+        },
         "average_credits": 1150,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -10776,6 +11560,9 @@
         "id": 419,
         "name": "Verkeersongeval met lijnbus en fietser",
         "place": "Bushalte",
+        "place_array": {
+            "0": "Bushalte"
+        },
         "average_credits": 1000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -10804,6 +11591,9 @@
         "id": 420,
         "name": "Verkeersongeval met lijnbus en fietser",
         "place": "Bushalte",
+        "place_array": {
+            "0": "Bushalte"
+        },
         "average_credits": 1200,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10838,6 +11628,9 @@
         "id": 421,
         "name": "Overvalalarm bankkantoor",
         "place": "Bankkantoor",
+        "place_array": {
+            "0": "Bankkantoor"
+        },
         "average_credits": 2200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -10860,6 +11653,9 @@
         "id": 422,
         "name": "Overval bankkantoor",
         "place": "Bankkantoor",
+        "place_array": {
+            "0": "Bankkantoor"
+        },
         "average_credits": 2200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -10883,6 +11679,9 @@
         "id": 423,
         "name": "Overval bankkantoor",
         "place": "Bankkantoor",
+        "place_array": {
+            "0": "Bankkantoor"
+        },
         "average_credits": 4100,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -10909,6 +11708,9 @@
         "id": 424,
         "name": "Overval bankkantoor",
         "place": "Bankkantoor",
+        "place_array": {
+            "0": "Bankkantoor"
+        },
         "average_credits": 4500,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -10937,6 +11739,9 @@
         "id": 425,
         "name": "Brand in bouwmarkt",
         "place": "Bouwmarkt",
+        "place_array": {
+            "0": "Bouwmarkt"
+        },
         "average_credits": 850,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10962,6 +11767,9 @@
         "id": 426,
         "name": "Brand in bouwmarkt",
         "place": "Bouwmarkt",
+        "place_array": {
+            "0": "Bouwmarkt"
+        },
         "average_credits": 1550,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -10988,6 +11796,9 @@
         "id": 427,
         "name": "Brand in bouwmarkt",
         "place": "Bouwmarkt",
+        "place_array": {
+            "0": "Bouwmarkt"
+        },
         "average_credits": 2500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11021,6 +11832,9 @@
         "id": 428,
         "name": "Brand in bouwmarkt",
         "place": "Bouwmarkt",
+        "place_array": {
+            "0": "Bouwmarkt"
+        },
         "average_credits": 4850,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11058,6 +11872,9 @@
         "id": 429,
         "name": "Brand in bouwmarkt",
         "place": "Bouwmarkt",
+        "place_array": {
+            "0": "Bouwmarkt"
+        },
         "average_credits": 6850,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11095,6 +11912,9 @@
         "id": 430,
         "name": "Persoon bekneld tussen containers",
         "place": "Haventerrein",
+        "place_array": {
+            "0": "Haventerrein"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -11120,6 +11940,9 @@
         "id": 431,
         "name": "Persoon bekneld tussen containers",
         "place": "Haventerrein",
+        "place_array": {
+            "0": "Haventerrein"
+        },
         "average_credits": 950,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11153,6 +11976,9 @@
         "id": 432,
         "name": "Persoon bekneld onder heftruck",
         "place": "Haventerrein",
+        "place_array": {
+            "0": "Haventerrein"
+        },
         "average_credits": 1050,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11187,6 +12013,9 @@
         "id": 433,
         "name": "Lekkende tankwagen",
         "place": "Haventerrein",
+        "place_array": {
+            "0": "Haventerrein"
+        },
         "average_credits": 1200,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11223,6 +12052,9 @@
         "id": 434,
         "name": "Lekkende tankwagen",
         "place": "Haventerrein",
+        "place_array": {
+            "0": "Haventerrein"
+        },
         "average_credits": 3800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11257,6 +12089,9 @@
         "id": 435,
         "name": "Lekkende tankwagen",
         "place": "Haventerrein",
+        "place_array": {
+            "0": "Haventerrein"
+        },
         "average_credits": 4000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11293,6 +12128,9 @@
         "id": 436,
         "name": "Persoon te water",
         "place": "Haventerrein",
+        "place_array": {
+            "0": "Haventerrein"
+        },
         "average_credits": 900,
         "generated_by": "",
         "icons": {
@@ -11330,6 +12168,9 @@
         "id": 437,
         "name": "Persoon te water",
         "place": "Haventerrein",
+        "place_array": {
+            "0": "Haventerrein"
+        },
         "average_credits": 1150,
         "generated_by": "",
         "icons": {
@@ -11368,6 +12209,9 @@
         "id": 438,
         "name": "Duiker vermist",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 850,
         "generated_by": "",
         "icons": {
@@ -11405,6 +12249,9 @@
         "id": 439,
         "name": "Duiker vermist",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 1100,
         "generated_by": "",
         "icons": {
@@ -11443,6 +12290,9 @@
         "id": 440,
         "name": "Brand in gevangenis",
         "place": "Gevangenis",
+        "place_array": {
+            "0": "Gevangenis"
+        },
         "average_credits": 950,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11476,6 +12326,9 @@
         "id": 441,
         "name": "Brand in gevangenis",
         "place": "Gevangenis",
+        "place_array": {
+            "0": "Gevangenis"
+        },
         "average_credits": 1950,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11510,6 +12363,9 @@
         "id": 442,
         "name": "Brand in gevangenis",
         "place": "Gevangenis",
+        "place_array": {
+            "0": "Gevangenis"
+        },
         "average_credits": 2300,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11546,6 +12402,9 @@
         "id": 443,
         "name": "Brand in hotel",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 750,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11571,6 +12430,9 @@
         "id": 444,
         "name": "Brand in hotel",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 1550,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11597,6 +12459,9 @@
         "id": 445,
         "name": "Brand in hotel",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 2500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11634,6 +12499,9 @@
         "id": 446,
         "name": "Brand in hotel",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 2600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11672,6 +12540,9 @@
         "id": 447,
         "name": "Brand in hotel",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 4900,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11710,7 +12581,8 @@
     "448": {
         "id": 448,
         "name": "Suikertekort",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -11735,7 +12607,8 @@
     "449": {
         "id": 449,
         "name": "Val van skateboard",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -11760,7 +12633,8 @@
     "450": {
         "id": 450,
         "name": "Open botbreuk",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -11786,6 +12660,9 @@
         "id": 451,
         "name": "Zwaan met gebroken poot",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 400,
         "generated_by": "",
         "icons": {
@@ -11812,7 +12689,8 @@
     "452": {
         "id": 452,
         "name": "Vogel vast in schoorsteen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 350,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11840,6 +12718,9 @@
         "id": 453,
         "name": "Vissen met zuurstoftekort",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 300,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11861,7 +12742,8 @@
     "454": {
         "id": 454,
         "name": "Kat op dak",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 320,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11888,6 +12770,9 @@
         "id": 455,
         "name": "Ree vast in hek",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 300,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11911,6 +12796,9 @@
         "id": 456,
         "name": "Brand in manege",
         "place": "Manege",
+        "place_array": {
+            "0": "Manege"
+        },
         "average_credits": 800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11938,6 +12826,9 @@
         "id": 457,
         "name": "Brand in manege",
         "place": "Manege",
+        "place_array": {
+            "0": "Manege"
+        },
         "average_credits": 1950,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11966,6 +12857,9 @@
         "id": 458,
         "name": "Brand in manege",
         "place": "Manege",
+        "place_array": {
+            "0": "Manege"
+        },
         "average_credits": 2750,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -11994,6 +12888,9 @@
         "id": 459,
         "name": "Brandende vliegtuigtrekker",
         "place": "Vliegveld (groot): Platform / Gate",
+        "place_array": {
+            "0": "Vliegveld (groot): Platform / Gate"
+        },
         "average_credits": 600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12020,6 +12917,9 @@
         "id": 460,
         "name": "Brandende vliegtuigtrekker",
         "place": "Vliegveld (groot): Platform / Gate",
+        "place_array": {
+            "0": "Vliegveld (groot): Platform / Gate"
+        },
         "average_credits": 1350,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12044,6 +12944,9 @@
         "id": 461,
         "name": "Vliegtuig met motorisch probleem",
         "place": "Vliegveld (groot): Start-/Landingsbaan",
+        "place_array": {
+            "0": "Vliegveld (groot): Start-/Landingsbaan"
+        },
         "average_credits": 2950,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12084,6 +12987,9 @@
         "id": 462,
         "name": "Drugsafval aangetroffen",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 1600,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -12114,6 +13020,9 @@
         "id": 463,
         "name": "Verdachte vaten aangetroffen",
         "place": "Bos",
+        "place_array": {
+            "0": "Bos"
+        },
         "average_credits": 1600,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -12143,7 +13052,8 @@
     "464": {
         "id": 464,
         "name": "Stankoverlast",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 550,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12178,6 +13088,9 @@
         "id": 465,
         "name": "Brand in verzorgingshuis",
         "place": "Verzorgingshuis",
+        "place_array": {
+            "0": "Verzorgingshuis"
+        },
         "average_credits": 950,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12213,6 +13126,9 @@
         "id": 466,
         "name": "Brand in verzorgingshuis",
         "place": "Verzorgingshuis",
+        "place_array": {
+            "0": "Verzorgingshuis"
+        },
         "average_credits": 1600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12247,6 +13163,9 @@
         "id": 467,
         "name": "Brand in verzorgingshuis",
         "place": "Verzorgingshuis",
+        "place_array": {
+            "0": "Verzorgingshuis"
+        },
         "average_credits": 2750,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12282,6 +13201,9 @@
         "id": 468,
         "name": "Brand in verzorgingshuis",
         "place": "Verzorgingshuis",
+        "place_array": {
+            "0": "Verzorgingshuis"
+        },
         "average_credits": 4950,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12324,6 +13246,9 @@
         "id": 469,
         "name": "Brand in verzorgingshuis",
         "place": "Verzorgingshuis",
+        "place_array": {
+            "0": "Verzorgingshuis"
+        },
         "average_credits": 7000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12365,6 +13290,9 @@
         "id": 470,
         "name": "Personen onwel door hitte",
         "place": "Camping",
+        "place_array": {
+            "0": "Camping"
+        },
         "average_credits": 700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12397,6 +13325,9 @@
         "id": 471,
         "name": "Personen onwel door hitte",
         "place": "Camping",
+        "place_array": {
+            "0": "Camping"
+        },
         "average_credits": 1100,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12432,6 +13363,9 @@
         "id": 472,
         "name": "Personen onwel door hitte",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12464,6 +13398,9 @@
         "id": 473,
         "name": "Personen onwel door hitte",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 1100,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12499,6 +13436,9 @@
         "id": 474,
         "name": "Brand in kantoorgebouw",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 5000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12532,6 +13472,9 @@
         "id": 475,
         "name": "Brand in kantoorgebouw",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 5250,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12570,7 +13513,8 @@
     "476": {
         "id": 476,
         "name": "Verkeersongeval scooter",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -12595,7 +13539,8 @@
     "477": {
         "id": 477,
         "name": "Verkeersongeval scooter",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -12623,7 +13568,8 @@
     "478": {
         "id": 478,
         "name": "Liftopsluiting",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12646,7 +13592,8 @@
     "479": {
         "id": 479,
         "name": "Liftopsluiting",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12670,6 +13617,9 @@
         "id": 480,
         "name": "Watersporter vermist",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 850,
         "generated_by": "",
         "icons": {
@@ -12707,6 +13657,9 @@
         "id": 481,
         "name": "Watersporter vermist",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 1750,
         "generated_by": "",
         "icons": {
@@ -12745,6 +13698,9 @@
         "id": 482,
         "name": "Watersporter vermist",
         "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
         "average_credits": 3000,
         "generated_by": "",
         "icons": {
@@ -12783,6 +13739,9 @@
         "id": 483,
         "name": "Vat met gevaarlijke stoffen omgevallen",
         "place": "Industrieterrein",
+        "place_array": {
+            "0": "Industrieterrein"
+        },
         "average_credits": 1150,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12818,6 +13777,9 @@
         "id": 484,
         "name": "Vat met gevaarlijke stoffen omgevallen",
         "place": "Industrieterrein",
+        "place_array": {
+            "0": "Industrieterrein"
+        },
         "average_credits": 3600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12853,6 +13815,9 @@
         "id": 485,
         "name": "Vat met gevaarlijke stoffen omgevallen",
         "place": "Industrieterrein",
+        "place_array": {
+            "0": "Industrieterrein"
+        },
         "average_credits": 4000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12891,6 +13856,9 @@
         "id": 486,
         "name": "Wateroverlast",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12916,6 +13884,9 @@
         "id": 487,
         "name": "Wateroverlast",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12941,6 +13912,9 @@
         "id": 488,
         "name": "Wateroverlast",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12966,6 +13940,9 @@
         "id": 489,
         "name": "Wateroverlast",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -12991,6 +13968,9 @@
         "id": 490,
         "name": "Wateroverlast",
         "place": "Kantoorgebouw",
+        "place_array": {
+            "0": "Kantoorgebouw"
+        },
         "average_credits": 1650,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13023,6 +14003,9 @@
         "id": 491,
         "name": "Wateroverlast",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 1650,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13055,6 +14038,9 @@
         "id": 492,
         "name": "Ongeregeldheden voetbalsupporters horeca",
         "place": "Caf\u00e9/Club",
+        "place_array": {
+            "0": "Caf\u00e9/Club"
+        },
         "average_credits": 2000,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -13082,6 +14068,9 @@
         "id": 493,
         "name": "Ongeregeldheden voetbalsupporters horeca",
         "place": "Caf\u00e9/Club",
+        "place_array": {
+            "0": "Caf\u00e9/Club"
+        },
         "average_credits": 1650,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -13109,6 +14098,9 @@
         "id": 494,
         "name": "Personenauto in sloot",
         "place": "Sloot",
+        "place_array": {
+            "0": "Sloot"
+        },
         "average_credits": 1400,
         "generated_by": "",
         "icons": {
@@ -13145,6 +14137,9 @@
         "id": 495,
         "name": "Personenauto in sloot",
         "place": "Sloot",
+        "place_array": {
+            "0": "Sloot"
+        },
         "average_credits": 1400,
         "generated_by": "",
         "icons": {
@@ -13181,6 +14176,9 @@
         "id": 496,
         "name": "Personenauto te water",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 900,
         "generated_by": "",
         "icons": {
@@ -13220,6 +14218,9 @@
         "id": 497,
         "name": "Personenauto te water",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 4850,
         "generated_by": "",
         "icons": {
@@ -13259,7 +14260,8 @@
     "498": {
         "id": 498,
         "name": "Verkeersongeval materieel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 550,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -13284,7 +14286,8 @@
     "499": {
         "id": 499,
         "name": "Verkeersongeval materieel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -13306,7 +14309,8 @@
     "500": {
         "id": 500,
         "name": "Kettingbotsing",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13340,7 +14344,8 @@
     "501": {
         "id": 501,
         "name": "Kettingbotsing",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13374,6 +14379,9 @@
         "id": 502,
         "name": "Kettingbotsing",
         "place": "Snelweg oprit / afrit",
+        "place_array": {
+            "0": "Snelweg oprit / afrit"
+        },
         "average_credits": 2000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13406,6 +14414,9 @@
         "id": 503,
         "name": "Kettingbotsing",
         "place": "Snelweg oprit / afrit",
+        "place_array": {
+            "0": "Snelweg oprit / afrit"
+        },
         "average_credits": 6060,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13442,6 +14453,9 @@
         "id": 504,
         "name": "Brand in fabriekshal",
         "place": "Industrieterrein",
+        "place_array": {
+            "0": "Industrieterrein"
+        },
         "average_credits": 900,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13469,6 +14483,9 @@
         "id": 505,
         "name": "Brand in fabriekshal",
         "place": "Industrieterrein",
+        "place_array": {
+            "0": "Industrieterrein"
+        },
         "average_credits": 1600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13502,6 +14519,9 @@
         "id": 506,
         "name": "Brand in fabriekshal",
         "place": "Industrieterrein",
+        "place_array": {
+            "0": "Industrieterrein"
+        },
         "average_credits": 2800,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13540,6 +14560,9 @@
         "id": 507,
         "name": "Brand in fabriekshal",
         "place": "Industrieterrein",
+        "place_array": {
+            "0": "Industrieterrein"
+        },
         "average_credits": 2950,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13582,6 +14605,9 @@
         "id": 508,
         "name": "Brand in fabriekshal",
         "place": "Industrieterrein",
+        "place_array": {
+            "0": "Industrieterrein"
+        },
         "average_credits": 5000,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13620,6 +14646,9 @@
         "id": 509,
         "name": "Brand in fabriekshal",
         "place": "Industrieterrein",
+        "place_array": {
+            "0": "Industrieterrein"
+        },
         "average_credits": 7200,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13656,7 +14685,8 @@
     "510": {
         "id": 510,
         "name": "Brand in schuurtje",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13681,7 +14711,8 @@
     "511": {
         "id": 511,
         "name": "Brand in schuurtje",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1850,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13713,7 +14744,8 @@
     "512": {
         "id": 512,
         "name": "Brand in garagebox",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13738,7 +14770,8 @@
     "513": {
         "id": 513,
         "name": "Brand in garagebox",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1900,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -13771,6 +14804,9 @@
         "id": 514,
         "name": "Aanvaring met vrachtschip en passagiersschip",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 1750,
         "generated_by": "",
         "icons": {
@@ -13810,6 +14846,9 @@
         "id": 515,
         "name": "Aanvaring met vrachtschip en passagiersschip",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 1850,
         "generated_by": "",
         "icons": {
@@ -13849,6 +14888,9 @@
         "id": 516,
         "name": "Aanvaring met vrachtschip en passagiersschip",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 3000,
         "generated_by": "",
         "icons": {
@@ -13888,6 +14930,9 @@
         "id": 517,
         "name": "Aanvaring met vrachtschip en passagiersschip",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 3100,
         "generated_by": "",
         "icons": {
@@ -13932,6 +14977,9 @@
         "id": 518,
         "name": "Aanvaring met vrachtschip en passagiersschip",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 3300,
         "generated_by": "",
         "icons": {
@@ -13975,6 +15023,9 @@
         "id": 519,
         "name": "Aanvaring met vrachtschip en passagiersschip",
         "place": "Rivier",
+        "place_array": {
+            "0": "Rivier"
+        },
         "average_credits": 4750,
         "generated_by": "",
         "icons": {
@@ -14020,7 +15071,8 @@
     "520": {
         "id": 520,
         "name": "Gebroken arm",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -14045,7 +15097,8 @@
     "521": {
         "id": 521,
         "name": "Gebroken arm",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -14070,7 +15123,8 @@
     "522": {
         "id": 522,
         "name": "Gebroken been",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -14095,7 +15149,8 @@
     "523": {
         "id": 523,
         "name": "Gebroken been",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -14120,7 +15175,8 @@
     "524": {
         "id": 524,
         "name": "Schouder uit de kom",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -14146,6 +15202,9 @@
         "id": 548,
         "name": "Steekincident (groot)",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 4200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -14183,6 +15242,9 @@
         "id": 549,
         "name": "Steekincident (groot)",
         "place": "Centraal Station",
+        "place_array": {
+            "0": "Centraal Station"
+        },
         "average_credits": 4200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -14220,6 +15282,9 @@
         "id": 550,
         "name": "Brand in theater",
         "place": "Theater",
+        "place_array": {
+            "0": "Theater"
+        },
         "average_credits": 850,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -14248,6 +15313,9 @@
         "id": 551,
         "name": "Brand in theater",
         "place": "Theater",
+        "place_array": {
+            "0": "Theater"
+        },
         "average_credits": 1600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -14277,6 +15345,9 @@
         "id": 552,
         "name": "Brand in theater",
         "place": "Theater",
+        "place_array": {
+            "0": "Theater"
+        },
         "average_credits": 2200,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -14313,7 +15384,8 @@
     "553": {
         "id": 553,
         "name": "Hennepkwekerij aangetroffen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -14337,6 +15409,9 @@
         "id": 554,
         "name": "Monteur in aanraking met hoogspanning",
         "place": "Transformatorhuisje",
+        "place_array": {
+            "0": "Transformatorhuisje"
+        },
         "average_credits": 3800,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -14370,7 +15445,8 @@
     "555": {
         "id": 555,
         "name": "Persoon in aanraking met laagspanning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -14396,6 +15472,9 @@
         "id": 556,
         "name": "Brand in theater",
         "place": "Theater",
+        "place_array": {
+            "0": "Theater"
+        },
         "average_credits": 3200,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -14431,6 +15510,9 @@
         "id": 557,
         "name": "Brand in theater",
         "place": "Theater",
+        "place_array": {
+            "0": "Theater"
+        },
         "average_credits": 6400,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -14474,6 +15556,9 @@
         "id": 558,
         "name": "Brand in theater",
         "place": "Theater",
+        "place_array": {
+            "0": "Theater"
+        },
         "average_credits": 10714,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -14516,7 +15601,8 @@
     "559": {
         "id": 559,
         "name": "Geschreeuw in woning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -14538,7 +15624,8 @@
     "560": {
         "id": 560,
         "name": "Geschreeuw in woning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -14562,6 +15649,9 @@
         "id": 561,
         "name": "Rijden onder invloed van lachgas",
         "place": "Snelweg oprit / afrit",
+        "place_array": {
+            "0": "Snelweg oprit / afrit"
+        },
         "average_credits": 400,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -14585,6 +15675,9 @@
         "id": 564,
         "name": "Voetganger onder tram",
         "place": "Tramhalte",
+        "place_array": {
+            "0": "Tramhalte"
+        },
         "average_credits": 2040,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -14618,6 +15711,9 @@
         "id": 565,
         "name": "Fietser onder tram",
         "place": "Tramhalte",
+        "place_array": {
+            "0": "Tramhalte"
+        },
         "average_credits": 2140,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -14650,7 +15746,8 @@
     "566": {
         "id": 566,
         "name": "Auto tegen woonhuis",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1540,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -14682,7 +15779,8 @@
     "567": {
         "id": 567,
         "name": "Verward persoon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -14708,7 +15806,8 @@
     "568": {
         "id": 568,
         "name": "Verward persoon (Hoge dreiging)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -14746,7 +15845,8 @@
     "569": {
         "id": 569,
         "name": "Verward persoon draait gaskraan open",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -14787,7 +15887,8 @@
     "570": {
         "id": 570,
         "name": "Geplande aanhouding vuurwapengevaarlijke verdachte",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -14818,6 +15919,9 @@
         "id": 571,
         "name": "Voedselvergiftiging",
         "place": "Restaurant",
+        "place_array": {
+            "0": "Restaurant"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -14842,7 +15946,8 @@
     "572": {
         "id": 572,
         "name": "Zwangere vrouw in noodsituatie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -14867,7 +15972,8 @@
     "573": {
         "id": 573,
         "name": "Vlam in de pan",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 370,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -14894,6 +16000,9 @@
         "id": 574,
         "name": "Assistentie handhaving",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 300,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -14917,6 +16026,9 @@
         "id": 575,
         "name": "Assistentie handhaving",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -14940,6 +16052,9 @@
         "id": 576,
         "name": "Zwemmer in nood",
         "place": "Zwembad",
+        "place_array": {
+            "0": "Zwembad"
+        },
         "average_credits": 510,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -14970,6 +16085,9 @@
         "id": 577,
         "name": "Zwemmer in nood",
         "place": "Zwembad",
+        "place_array": {
+            "0": "Zwembad"
+        },
         "average_credits": 1010,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -15001,6 +16119,9 @@
         "id": 589,
         "name": "Voorzorgslanding klein vliegtuig",
         "place": "Vliegveld (klein): Start-/Landingsbaan",
+        "place_array": {
+            "0": "Vliegveld (klein): Start-/Landingsbaan"
+        },
         "average_credits": 1980,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -15034,6 +16155,9 @@
         "id": 590,
         "name": "Noodlanding groot vliegtuig",
         "place": "Vliegveld (groot): Start-/Landingsbaan",
+        "place_array": {
+            "0": "Vliegveld (groot): Start-/Landingsbaan"
+        },
         "average_credits": 8640,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -15076,6 +16200,9 @@
         "id": 591,
         "name": "Uitslaande brand in veestal",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 10775,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -15116,6 +16243,9 @@
         "id": 592,
         "name": "Brand op bedrijventerrein",
         "place": "Bedrijventerrein",
+        "place_array": {
+            "0": "Bedrijventerrein"
+        },
         "average_credits": 12540,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -15155,7 +16285,8 @@
     "593": {
         "id": 593,
         "name": "Begeleiding demonstratie (klein)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -15183,7 +16314,8 @@
     "594": {
         "id": 594,
         "name": "Begeleiding demonstratie (groot)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6500,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -15215,7 +16347,8 @@
     "595": {
         "id": 595,
         "name": "Ongeval bijtend middel (huishoudelijk)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -15240,7 +16373,8 @@
     "596": {
         "id": 596,
         "name": "Ongeval bijtend middel (huishoudelijk)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -15267,6 +16401,9 @@
         "id": 597,
         "name": "Brand in asielzoekerscentrum",
         "place": "Asielzoekerscentrum",
+        "place_array": {
+            "0": "Asielzoekerscentrum"
+        },
         "average_credits": 170,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -15292,6 +16429,9 @@
         "id": 598,
         "name": "Brand in asielzoekerscentrum (wasserette)",
         "place": "Asielzoekerscentrum",
+        "place_array": {
+            "0": "Asielzoekerscentrum"
+        },
         "average_credits": 1360,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -15324,6 +16464,9 @@
         "id": 599,
         "name": "Tanken zonder betalen",
         "place": "Tankstation",
+        "place_array": {
+            "0": "Tankstation"
+        },
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -15349,6 +16492,9 @@
         "id": 600,
         "name": "Tanken zonder betalen",
         "place": "Tankstation",
+        "place_array": {
+            "0": "Tankstation"
+        },
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -15375,6 +16521,9 @@
         "id": 601,
         "name": "Bewusteloos persoon op een bankje",
         "place": "Marktplein",
+        "place_array": {
+            "0": "Marktplein"
+        },
         "average_credits": 500,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -15403,6 +16552,9 @@
         "id": 602,
         "name": "Beveiliger aangevallen",
         "place": "Caf\u00e9/Club",
+        "place_array": {
+            "0": "Caf\u00e9/Club"
+        },
         "average_credits": 510,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -15435,6 +16587,9 @@
         "id": 603,
         "name": "Brand in silo",
         "place": "Silo",
+        "place_array": {
+            "0": "Silo"
+        },
         "average_credits": 1020,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -15462,6 +16617,9 @@
         "id": 604,
         "name": "Brand in Silo",
         "place": "Silo",
+        "place_array": {
+            "0": "Silo"
+        },
         "average_credits": 5455,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -15501,6 +16659,9 @@
         "id": 605,
         "name": "Brand in Silo",
         "place": "Silo",
+        "place_array": {
+            "0": "Silo"
+        },
         "average_credits": 11760,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -15545,6 +16706,9 @@
         "id": 606,
         "name": "Onbevoegden op spoor",
         "place": "Rangeeremplacement",
+        "place_array": {
+            "0": "Rangeeremplacement"
+        },
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -15568,6 +16732,9 @@
         "id": 607,
         "name": "Onbevoegden op spoor",
         "place": "Spoorwegovergang",
+        "place_array": {
+            "0": "Spoorwegovergang"
+        },
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -15590,7 +16757,8 @@
     "608": {
         "id": 608,
         "name": "Persoon aangevallen door hond",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -15620,6 +16788,9 @@
         "id": 609,
         "name": "Assistentie huisarts",
         "place": "Huisartsenpraktijk",
+        "place_array": {
+            "0": "Huisartsenpraktijk"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -15645,6 +16816,9 @@
         "id": 610,
         "name": "Brand in nachtclub",
         "place": "Caf\u00e9/Club",
+        "place_array": {
+            "0": "Caf\u00e9/Club"
+        },
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -15670,6 +16844,9 @@
         "id": 611,
         "name": "Brand in nachtclub",
         "place": "Caf\u00e9/Club",
+        "place_array": {
+            "0": "Caf\u00e9/Club"
+        },
         "average_credits": 3350,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -15708,6 +16885,9 @@
         "id": 612,
         "name": "Brand in nachtclub",
         "place": "Caf\u00e9/Club",
+        "place_array": {
+            "0": "Caf\u00e9/Club"
+        },
         "average_credits": 11020,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -15752,7 +16932,8 @@
     "613": {
         "id": 613,
         "name": "Doorzoeking risicopand",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4210,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -15783,7 +16964,8 @@
     "614": {
         "id": 614,
         "name": "Verward persoon op dak",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4390,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -15818,6 +17000,9 @@
         "id": 615,
         "name": "Sportblessure opgelopen",
         "place": "Sporthal",
+        "place_array": {
+            "0": "Sporthal"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -15843,6 +17028,9 @@
         "id": 616,
         "name": "Sportblessure opgelopen",
         "place": "Sportveld",
+        "place_array": {
+            "0": "Sportveld"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -15868,6 +17056,9 @@
         "id": 622,
         "name": "Auto tankstation ingereden",
         "place": "Tankstation",
+        "place_array": {
+            "0": "Tankstation"
+        },
         "average_credits": 2610,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -15905,6 +17096,9 @@
         "id": 623,
         "name": "Auto tankstation ingereden",
         "place": "Tankstation",
+        "place_array": {
+            "0": "Tankstation"
+        },
         "average_credits": 1930,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -15938,6 +17132,9 @@
         "id": 624,
         "name": "Onbeheerde bagage gevonden",
         "place": "Centraal Station",
+        "place_array": {
+            "0": "Centraal Station"
+        },
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -15963,6 +17160,9 @@
         "id": 625,
         "name": "Onbeheerde bagage gevonden",
         "place": "Centraal Station",
+        "place_array": {
+            "0": "Centraal Station"
+        },
         "average_credits": 1970,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -15989,7 +17189,8 @@
     "626": {
         "id": 626,
         "name": "Onbeheerde bagage gevonden",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -16012,6 +17213,9 @@
         "id": 627,
         "name": "Kind vast in hek",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 1420,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -16046,6 +17250,9 @@
         "id": 628,
         "name": "Kind vast in klimtoestel",
         "place": "School",
+        "place_array": {
+            "0": "School"
+        },
         "average_credits": 1420,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -16080,6 +17287,9 @@
         "id": 629,
         "name": "Lek/zinken plezierjacht",
         "place": "Jachthaven",
+        "place_array": {
+            "0": "Jachthaven"
+        },
         "average_credits": 2320,
         "generated_by": "",
         "icons": {
@@ -16109,6 +17319,9 @@
         "id": 630,
         "name": "Lek/zinken plezierjacht",
         "place": "Jachthaven",
+        "place_array": {
+            "0": "Jachthaven"
+        },
         "average_credits": 3160,
         "generated_by": "",
         "icons": {
@@ -16146,6 +17359,9 @@
         "id": 631,
         "name": "Brandende frituurpan",
         "place": "Frietkraam",
+        "place_array": {
+            "0": "Frietkraam"
+        },
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -16171,6 +17387,9 @@
         "id": 632,
         "name": "Brandende frietkraam",
         "place": "Frietkraam",
+        "place_array": {
+            "0": "Frietkraam"
+        },
         "average_credits": 3040,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -16204,6 +17423,9 @@
         "id": 633,
         "name": "Brandwonden door frituurolie",
         "place": "Frietkraam",
+        "place_array": {
+            "0": "Frietkraam"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -16230,6 +17452,9 @@
         "id": 634,
         "name": "Overval frietkraam",
         "place": "Frietkraam",
+        "place_array": {
+            "0": "Frietkraam"
+        },
         "average_credits": 2180,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -16254,6 +17479,9 @@
         "id": 635,
         "name": "Ladingdiefstal",
         "place": "Verzorgingsplaats (Snelweg)",
+        "place_array": {
+            "0": "Verzorgingsplaats (Snelweg)"
+        },
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -16277,6 +17505,9 @@
         "id": 636,
         "name": "Personen aangetroffen in vrachtwagen",
         "place": "Verzorgingsplaats (Snelweg)",
+        "place_array": {
+            "0": "Verzorgingsplaats (Snelweg)"
+        },
         "average_credits": 3330,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -16312,6 +17543,9 @@
         "id": 637,
         "name": "Personen aangetroffen in vrachtwagen",
         "place": "Verzorgingsplaats (Snelweg)",
+        "place_array": {
+            "0": "Verzorgingsplaats (Snelweg)"
+        },
         "average_credits": 5680,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -16345,7 +17579,8 @@
     "638": {
         "id": 638,
         "name": "Baby van commode gevallen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -16371,7 +17606,8 @@
     "639": {
         "id": 639,
         "name": "Baby uit wieg gevallen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -16398,6 +17634,9 @@
         "id": 640,
         "name": "Brand in hangaar",
         "place": "Vliegveld (klein): Hangaar",
+        "place_array": {
+            "0": "Vliegveld (klein): Hangaar"
+        },
         "average_credits": 910,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -16424,6 +17663,9 @@
         "id": 641,
         "name": "Brand in hangaar",
         "place": "Vliegveld (klein): Hangaar",
+        "place_array": {
+            "0": "Vliegveld (klein): Hangaar"
+        },
         "average_credits": 1930,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -16456,6 +17698,9 @@
         "id": 642,
         "name": "Brand in hangaar",
         "place": "Vliegveld (klein): Hangaar",
+        "place_array": {
+            "0": "Vliegveld (klein): Hangaar"
+        },
         "average_credits": 10580,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -16499,6 +17744,9 @@
         "id": 643,
         "name": "Heterdaad fietsendiefstal",
         "place": "Station",
+        "place_array": {
+            "0": "Station"
+        },
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -16522,6 +17770,9 @@
         "id": 644,
         "name": "Heterdaad fietsendiefstal",
         "place": "Centraal Station",
+        "place_array": {
+            "0": "Centraal Station"
+        },
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -16544,7 +17795,8 @@
     "645": {
         "id": 645,
         "name": "Zorg om welzijn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -16573,6 +17825,9 @@
         "id": 646,
         "name": "Brand in restaurant",
         "place": "Restaurant",
+        "place_array": {
+            "0": "Restaurant"
+        },
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -16599,6 +17854,9 @@
         "id": 647,
         "name": "Brand in restaurant",
         "place": "Restaurant",
+        "place_array": {
+            "0": "Restaurant"
+        },
         "average_credits": 2540,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -16634,6 +17892,9 @@
         "id": 648,
         "name": "Brand in restaurant",
         "place": "Restaurant",
+        "place_array": {
+            "0": "Restaurant"
+        },
         "average_credits": 9500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -16674,6 +17935,9 @@
         "id": 649,
         "name": "Persoon valt voorbijgangers lastig",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -16697,6 +17961,9 @@
         "id": 650,
         "name": "Personen vallen voorbijgangers lastig",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 840,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -16720,6 +17987,9 @@
         "id": 651,
         "name": "Aanrijding heftruck",
         "place": "Bedrijventerrein",
+        "place_array": {
+            "0": "Bedrijventerrein"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -16745,6 +18015,9 @@
         "id": 652,
         "name": "Stellingkast op persoon gevallen",
         "place": "Bedrijventerrein",
+        "place_array": {
+            "0": "Bedrijventerrein"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -16770,6 +18043,9 @@
         "id": 653,
         "name": "Brand bij zendmast",
         "place": "Zendmast",
+        "place_array": {
+            "0": "Zendmast"
+        },
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -16795,6 +18071,9 @@
         "id": 654,
         "name": "Brand bij zendmast",
         "place": "Zendmast",
+        "place_array": {
+            "0": "Zendmast"
+        },
         "average_credits": 2030,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -16826,6 +18105,9 @@
         "id": 655,
         "name": "Koperdiefstal",
         "place": "Rangeeremplacement",
+        "place_array": {
+            "0": "Rangeeremplacement"
+        },
         "average_credits": 840,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -16851,6 +18133,9 @@
         "id": 656,
         "name": "Koperdiefstal",
         "place": "Rangeeremplacement",
+        "place_array": {
+            "0": "Rangeeremplacement"
+        },
         "average_credits": 2480,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -16877,7 +18162,8 @@
     "657": {
         "id": 657,
         "name": "Hoge koorts",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -16902,7 +18188,8 @@
     "658": {
         "id": 658,
         "name": "Hand in keukenmixer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -16928,6 +18215,9 @@
         "id": 659,
         "name": "Brand in hoogspanningsruimte",
         "place": "Transformatorhuisje",
+        "place_array": {
+            "0": "Transformatorhuisje"
+        },
         "average_credits": 1250,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -16958,6 +18248,9 @@
         "id": 660,
         "name": "Brand in hoogspanningsruimte",
         "place": "Transformatorhuisje",
+        "place_array": {
+            "0": "Transformatorhuisje"
+        },
         "average_credits": 2180,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -16994,6 +18287,9 @@
         "id": 661,
         "name": "Brand in hoogspanningsruimte",
         "place": "Transformatorhuisje",
+        "place_array": {
+            "0": "Transformatorhuisje"
+        },
         "average_credits": 10660,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -17034,7 +18330,8 @@
     "662": {
         "id": 662,
         "name": "Verkeerscontrole",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2205,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -17060,6 +18357,9 @@
         "id": 663,
         "name": "Verkeerscontrole",
         "place": "Verzorgingsplaats (Snelweg)",
+        "place_array": {
+            "0": "Verzorgingsplaats (Snelweg)"
+        },
         "average_credits": 6450,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -17084,7 +18384,8 @@
     "664": {
         "id": 664,
         "name": "Acute buikpijn door stomp",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -17112,7 +18413,8 @@
     "665": {
         "id": 665,
         "name": "Acute buikpijn door val",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -17137,7 +18439,8 @@
     "666": {
         "id": 666,
         "name": "Ongeval met hete luchtballon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2440,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -17169,7 +18472,8 @@
     "667": {
         "id": 667,
         "name": "Ongeval met hete luchtballon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4420,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -17204,7 +18508,8 @@
     "668": {
         "id": 668,
         "name": "Beroving met geweld",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -17232,6 +18537,9 @@
         "id": 669,
         "name": "Toezicht Park",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 2110,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -17257,6 +18565,9 @@
         "id": 670,
         "name": "Toezicht Winkelcentrum",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 2210,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -17282,6 +18593,9 @@
         "id": 671,
         "name": "Toezicht Horeca",
         "place": "Caf\u00e9/Club",
+        "place_array": {
+            "0": "Caf\u00e9/Club"
+        },
         "average_credits": 7245,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -17311,6 +18625,9 @@
         "id": 672,
         "name": "Vluchtende verdachte in voetgangersgebied",
         "place": "Supermarkt",
+        "place_array": {
+            "0": "Supermarkt"
+        },
         "average_credits": 945,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -17335,6 +18652,9 @@
         "id": 673,
         "name": "Ruzie tijdens uitgaansnacht",
         "place": "Caf\u00e9/Club",
+        "place_array": {
+            "0": "Caf\u00e9/Club"
+        },
         "average_credits": 2415,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -17365,6 +18685,9 @@
         "id": 674,
         "name": "Aanhouding verdachte in winkelcentrum",
         "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
         "average_credits": 1055,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -17388,7 +18711,8 @@
     "675": {
         "id": 675,
         "name": "Beroving met geweld",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1170,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -17418,7 +18742,8 @@
     "676": {
         "id": 676,
         "name": "Hevige hoofdpijn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -17443,7 +18768,8 @@
     "677": {
         "id": 677,
         "name": "Ernstige griepverschijnselen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -17469,6 +18795,9 @@
         "id": 678,
         "name": "Dienstverlening SEH ziekenhuis",
         "place": "Ziekenhuis",
+        "place_array": {
+            "0": "Ziekenhuis"
+        },
         "average_credits": 910,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -17492,7 +18821,8 @@
     "679": {
         "id": 679,
         "name": "Heling",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -17514,7 +18844,8 @@
     "680": {
         "id": 680,
         "name": "Heling",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -17538,6 +18869,9 @@
         "id": 681,
         "name": "Medische assistentie",
         "place": "Gevangenis",
+        "place_array": {
+            "0": "Gevangenis"
+        },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -17563,6 +18897,9 @@
         "id": 682,
         "name": "Gevangenisbewaarder aangevallen",
         "place": "Gevangenis",
+        "place_array": {
+            "0": "Gevangenis"
+        },
         "average_credits": 500,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -17590,7 +18927,8 @@
     "683": {
         "id": 683,
         "name": "Geweld tegen hulpverleners",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -17617,7 +18955,8 @@
     "684": {
         "id": 684,
         "name": "Geweld tegen hulpverleners",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1510,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -17645,7 +18984,8 @@
     "685": {
         "id": 685,
         "name": "Geweld tegen hulpverleners",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3150,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -17678,7 +19018,8 @@
     "686": {
         "id": 686,
         "name": "Brand zonnepanelen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 840,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -17704,7 +19045,8 @@
     "687": {
         "id": 687,
         "name": "Brand zonnepanelen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2030,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -17738,7 +19080,8 @@
     "703": {
         "id": 703,
         "name": "Plotselinge verlammingsverschijnselen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -17763,7 +19106,8 @@
     "704": {
         "id": 704,
         "name": "Acute bewustzijnsdaling",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -17788,7 +19132,8 @@
     "705": {
         "id": 705,
         "name": "Brandstichting",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -17813,7 +19158,8 @@
     "706": {
         "id": 706,
         "name": "Brandstichting",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1180,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -17840,6 +19186,9 @@
         "id": 707,
         "name": "ANPR hit: Rijden zonder rijbewijs",
         "place": "Snelweg oprit / afrit",
+        "place_array": {
+            "0": "Snelweg oprit / afrit"
+        },
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -17866,6 +19215,9 @@
         "id": 708,
         "name": "ANPR hit: Gesignaleerd persoon",
         "place": "Snelweg oprit / afrit",
+        "place_array": {
+            "0": "Snelweg oprit / afrit"
+        },
         "average_credits": 840,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
@@ -17892,6 +19244,9 @@
         "id": 709,
         "name": "Brand in boerderij",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 2650,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -17928,6 +19283,9 @@
         "id": 710,
         "name": "Brand in boerderij",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 5945,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -17966,6 +19324,9 @@
         "id": 711,
         "name": "Brand in boerderij",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 12540,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -18005,6 +19366,9 @@
         "id": 712,
         "name": "Brand in hooischuur",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 2575,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -18036,6 +19400,9 @@
         "id": 713,
         "name": "Brand in hooischuur",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 4515,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -18073,6 +19440,9 @@
         "id": 714,
         "name": "Brand in hooischuur",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 13595,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -18112,6 +19482,9 @@
         "id": 715,
         "name": "Akkerbrand",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 2515,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -18142,6 +19515,9 @@
         "id": 716,
         "name": "Akkerbrand",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 10330,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -18179,6 +19555,9 @@
         "id": 717,
         "name": "Akkerbrand",
         "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
         "average_credits": 16895,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -18212,7 +19591,8 @@
     "718": {
         "id": 718,
         "name": "Acute luchtweginfectie",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -18237,7 +19617,8 @@
     "719": {
         "id": 719,
         "name": "Klaplong",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -18262,7 +19643,8 @@
     "720": {
         "id": 720,
         "name": "Grote vechtpartij",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2650,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -18290,7 +19672,8 @@
     "721": {
         "id": 721,
         "name": "Rellen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5980,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
@@ -18319,7 +19702,8 @@
     "722": {
         "id": 722,
         "name": "Explosie in woonhuis",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3150,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -18357,7 +19741,8 @@
     "723": {
         "id": 723,
         "name": "Explosie in woonhuis",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5490,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -18398,7 +19783,8 @@
     "724": {
         "id": 724,
         "name": "Explosie in woonhuis",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 12075,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -18440,7 +19826,8 @@
     "725": {
         "id": 725,
         "name": "Hartritmestoornissen",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {
@@ -18465,7 +19852,8 @@
     "726": {
         "id": 726,
         "name": "Bewusteloos persoon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": {

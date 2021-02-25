@@ -369,7 +369,12 @@ else if (I18n.locale == "fr_FR") {
         "21": ["CCFS", 0],
         "22": ["CCFM", 0],
         "23": ["CCFL", 0],
-        "24": ["VLHR", 0]
+        "24": ["VLHR", 0],
+        "25": ["VSAV", 0],
+        "26": ["VL SSSM", 0],
+        "27": ["VLM", 1],
+        "28": ["AR", 1],
+        "29": ["PC DSM", 1]
     };
 }
 else if (I18n.locale == "ko_KR") {

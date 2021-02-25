@@ -3,6 +3,9 @@
         "id": 0,
         "name": "Brennende s\u00f8ppeldunk",
         "place": "Busstopp",
+        "place_array": {
+            "0": "Busstopp"
+        },
         "average_credits": 110,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -24,7 +27,8 @@
     "1": {
         "id": 1,
         "name": "Containerbrann",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -46,7 +50,8 @@
     "2": {
         "id": 2,
         "name": "Brennende bil",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 370,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -73,7 +78,8 @@
     "3": {
         "id": 3,
         "name": "Brennende motorsykkel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -98,7 +104,8 @@
     "4": {
         "id": 4,
         "name": "Gressbrann",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -123,7 +130,8 @@
     "5": {
         "id": 5,
         "name": "Brann i rom",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -151,7 +159,8 @@
     "6": {
         "id": 6,
         "name": "Brennende hageskur",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -173,7 +182,8 @@
     "7": {
         "id": 7,
         "name": "Brennende l\u00f8v",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -198,7 +208,8 @@
     "8": {
         "id": 8,
         "name": "S\u00f8ppelbrann",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 220,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -225,7 +236,8 @@
     "9": {
         "id": 9,
         "name": "Brennende halmball",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -251,7 +263,8 @@
     "10": {
         "id": 10,
         "name": "Brennende traktor",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -273,7 +286,8 @@
     "11": {
         "id": 11,
         "name": "Brennende telefonkiosk",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 240,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -295,7 +309,8 @@
     "12": {
         "id": 12,
         "name": "Tre p\u00e5 veien",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -321,7 +336,8 @@
     "13": {
         "id": 13,
         "name": "Brennende lastebil",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 980,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -343,7 +359,8 @@
     "14": {
         "id": 14,
         "name": "Liten \u00e5kerbrann",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -369,6 +386,9 @@
         "id": 15,
         "name": "Liten buskbrann",
         "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
         "average_credits": 1010,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -390,7 +410,8 @@
     "16": {
         "id": 16,
         "name": "Brennende bobil",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -412,7 +433,8 @@
     "17": {
         "id": 17,
         "name": "Brennende postkasse",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -434,7 +456,8 @@
     "18": {
         "id": 18,
         "name": "Haug med kvister",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -456,7 +479,8 @@
     "19": {
         "id": 19,
         "name": "Brennende trailer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -478,7 +502,8 @@
     "20": {
         "id": 20,
         "name": "Kjellerbrann",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -506,7 +531,8 @@
     "21": {
         "id": 21,
         "name": "Skorsteinsbrann",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2400,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -535,7 +561,8 @@
     "22": {
         "id": 22,
         "name": "Takbrann",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2700,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -562,7 +589,8 @@
     "23": {
         "id": 23,
         "name": "Fettbrann",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -585,6 +613,9 @@
         "id": 24,
         "name": "Brennende busskur",
         "place": "Busstopp",
+        "place_array": {
+            "0": "Busstopp"
+        },
         "average_credits": 900,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -606,7 +637,8 @@
     "25": {
         "id": 25,
         "name": "Veiulykke",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -638,6 +670,9 @@
         "id": 26,
         "name": "Liten brann i matvarebutikk",
         "place": "Matvarebutikk (liten)",
+        "place_array": {
+            "0": "Matvarebutikk (liten)"
+        },
         "average_credits": 1500,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -665,7 +700,8 @@
     "27": {
         "id": 27,
         "name": "Brennende garasje",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -687,7 +723,8 @@
     "28": {
         "id": 28,
         "name": "Brennende maskin",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2470,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -714,7 +751,8 @@
     "29": {
         "id": 29,
         "name": "Ukjent tankutslipp",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5300,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -741,7 +779,8 @@
     "30": {
         "id": 30,
         "name": "Gasslekkasje",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -764,7 +803,8 @@
     "31": {
         "id": 31,
         "name": "B\u00e5lbrann",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1310,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -788,7 +828,8 @@
     "32": {
         "id": 32,
         "name": "Brennende tresker",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -811,6 +852,9 @@
         "id": 33,
         "name": "Liten brann i matvarebutikk",
         "place": "Matvarebutikk (liten)",
+        "place_array": {
+            "0": "Matvarebutikk (liten)"
+        },
         "average_credits": 1500,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -839,6 +883,9 @@
         "id": 34,
         "name": "Brann p\u00e5 sykehus",
         "place": "Sykehus",
+        "place_array": {
+            "0": "Sykehus"
+        },
         "average_credits": 6000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -869,7 +916,8 @@
     "35": {
         "id": 35,
         "name": "Alkoholrus",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -895,7 +943,8 @@
     "36": {
         "id": 36,
         "name": "Brystsmerter",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -921,7 +970,8 @@
     "37": {
         "id": 37,
         "name": "Akutt astma",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -946,7 +996,8 @@
     "38": {
         "id": 38,
         "name": "Anfall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -972,7 +1023,8 @@
     "39": {
         "id": 39,
         "name": "Feber",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -998,7 +1050,8 @@
     "40": {
         "id": 40,
         "name": "Fall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -1026,6 +1079,9 @@
         "id": 41,
         "name": "Brann i verksted",
         "place": "Bilverksted",
+        "place_array": {
+            "0": "Bilverksted"
+        },
         "average_credits": 6000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -1060,7 +1116,8 @@
     "42": {
         "id": 42,
         "name": "Fall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -1087,7 +1144,8 @@
     "43": {
         "id": 43,
         "name": "Fall",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -1115,6 +1173,9 @@
         "id": 44,
         "name": "Butikktyveri",
         "place": "Matvarebutikk (liten)",
+        "place_array": {
+            "0": "Matvarebutikk (liten)"
+        },
         "average_credits": 100,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1138,6 +1199,9 @@
         "id": 45,
         "name": "Butikktyveri",
         "place": "Matvarebutikk (stor)",
+        "place_array": {
+            "0": "Matvarebutikk (stor)"
+        },
         "average_credits": 100,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1161,6 +1225,9 @@
         "id": 46,
         "name": "Ulykke med parkert bil",
         "place": "Matvarebutikk (liten)",
+        "place_array": {
+            "0": "Matvarebutikk (liten)"
+        },
         "average_credits": 120,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1183,6 +1250,9 @@
         "id": 47,
         "name": "Ulykke med parkert bil",
         "place": "Matvarebutikk (stor)",
+        "place_array": {
+            "0": "Matvarebutikk (stor)"
+        },
         "average_credits": 120,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1205,6 +1275,9 @@
         "id": 48,
         "name": "Innbrudd",
         "place": "Godsstasjon",
+        "place_array": {
+            "0": "Godsstasjon"
+        },
         "average_credits": 150,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1228,6 +1301,9 @@
         "id": 49,
         "name": "Lommetyveri",
         "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
         "average_credits": 150,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1251,6 +1327,9 @@
         "id": 50,
         "name": "Billettsniking",
         "place": "Busstopp",
+        "place_array": {
+            "0": "Busstopp"
+        },
         "average_credits": 120,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1273,6 +1352,9 @@
         "id": 51,
         "name": "Billettsniking",
         "place": "Trikkestopp",
+        "place_array": {
+            "0": "Trikkestopp"
+        },
         "average_credits": 120,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1295,6 +1377,9 @@
         "id": 52,
         "name": "Billettsniking",
         "place": "Togstasjon (regional)",
+        "place_array": {
+            "0": "Togstasjon (regional)"
+        },
         "average_credits": 120,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1317,6 +1402,9 @@
         "id": 53,
         "name": "Billettsniking",
         "place": "Togstasjon (regional og langdistanse)",
+        "place_array": {
+            "0": "Togstasjon (regional og langdistanse)"
+        },
         "average_credits": 120,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1339,6 +1427,9 @@
         "id": 54,
         "name": "Ulykke med parkert bil",
         "place": "Kj\u00f8pesenter",
+        "place_array": {
+            "0": "Kj\u00f8pesenter"
+        },
         "average_credits": 120,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1360,7 +1451,8 @@
     "55": {
         "id": 55,
         "name": "Sl\u00e5sskamp",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1387,7 +1479,8 @@
     "56": {
         "id": 56,
         "name": "Oppr\u00f8r",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1413,7 +1506,8 @@
     "57": {
         "id": 57,
         "name": "Ikke kunngjort demonstrasjon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10020,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1434,7 +1528,8 @@
     "58": {
         "id": 58,
         "name": "Kj\u00f8kkenbrann",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -1457,6 +1552,9 @@
         "id": 59,
         "name": "Dyreredning",
         "place": "G\u00e5rd",
+        "place_array": {
+            "0": "G\u00e5rd"
+        },
         "average_credits": 900,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -1480,6 +1578,9 @@
         "id": 60,
         "name": "Brennende sportshall",
         "place": "Skole",
+        "place_array": {
+            "0": "Skole"
+        },
         "average_credits": 2000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -1508,7 +1609,8 @@
     "62": {
         "id": 62,
         "name": "St\u00f8yklage",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1530,7 +1632,8 @@
     "63": {
         "id": 63,
         "name": "Transitorisk iskemisk anfall (drypp)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -1555,7 +1658,8 @@
     "64": {
         "id": 64,
         "name": "Ulykke med buss",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -1583,7 +1687,8 @@
     "65": {
         "id": 65,
         "name": "Kj\u00f8kkenbrann",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -1605,7 +1710,8 @@
     "66": {
         "id": 66,
         "name": "Brann i rom",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -1633,7 +1739,8 @@
     "67": {
         "id": 67,
         "name": "Sl\u00e5sskamp",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Politistasjon",
         "icons": {
@@ -1661,6 +1768,9 @@
         "id": 68,
         "name": "Stor brann i matvarebutikk",
         "place": "Matvarebutikk (stor)",
+        "place_array": {
+            "0": "Matvarebutikk (stor)"
+        },
         "average_credits": 3000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -1694,7 +1804,8 @@
     "69": {
         "id": 69,
         "name": "Ukjent tankutslipp",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4300,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -1722,6 +1833,9 @@
         "id": 70,
         "name": "Stor brann i matvarebutikk",
         "place": "Matvarebutikk (stor)",
+        "place_array": {
+            "0": "Matvarebutikk (stor)"
+        },
         "average_credits": 3000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -1755,7 +1869,8 @@
     "71": {
         "id": 71,
         "name": "Nesebl\u00f8dning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -1781,7 +1896,8 @@
     "72": {
         "id": 72,
         "name": "Krasj med lettfly",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -1813,7 +1929,8 @@
     "73": {
         "id": 73,
         "name": "Alvorlig ulykke med buss",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -1845,7 +1962,8 @@
     "74": {
         "id": 74,
         "name": "Storbrann",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10210,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -1870,7 +1988,8 @@
     "75": {
         "id": 75,
         "name": "Delvis kollapset bygning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 7300,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -1900,7 +2019,8 @@
     "76": {
         "id": 76,
         "name": "Industribrann",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4800,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -1930,7 +2050,8 @@
     "77": {
         "id": 77,
         "name": "Pasienttransport",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -1953,7 +2074,8 @@
     "78": {
         "id": 78,
         "name": "Hjertestans",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -1979,7 +2101,8 @@
     "79": {
         "id": 79,
         "name": "Pustestopp",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -2005,7 +2128,8 @@
     "80": {
         "id": 80,
         "name": "Motorsykkelulykke",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2300,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -2036,6 +2160,9 @@
         "id": 81,
         "name": "V\u00e6pnet ran",
         "place": "Matvarebutikk (liten)",
+        "place_array": {
+            "0": "Matvarebutikk (liten)"
+        },
         "average_credits": 1300,
         "generated_by": "Politistasjon",
         "icons": {
@@ -2062,7 +2189,8 @@
     "82": {
         "id": 82,
         "name": "Bilulykke",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -2094,7 +2222,8 @@
     "83": {
         "id": 83,
         "name": "CO-forgiftning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2300,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -2125,7 +2254,8 @@
     "84": {
         "id": 84,
         "name": "Fremmedlegeme",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -2152,7 +2282,8 @@
     "85": {
         "id": 85,
         "name": "Ryggmargskade",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -2179,7 +2310,8 @@
     "86": {
         "id": 86,
         "name": "Takras",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 7500,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -2213,7 +2345,8 @@
     "87": {
         "id": 87,
         "name": "Sammenrast bygning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 9000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -2247,7 +2380,8 @@
     "88": {
         "id": 88,
         "name": "Brannskade (3. grads)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -2274,7 +2408,8 @@
     "89": {
         "id": 89,
         "name": "Hodeskade",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -2301,7 +2436,8 @@
     "90": {
         "id": 90,
         "name": "Amputasjon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -2329,6 +2465,9 @@
         "id": 91,
         "name": "G\u00e5rdsbrann (stor)",
         "place": "G\u00e5rd",
+        "place_array": {
+            "0": "G\u00e5rd"
+        },
         "average_credits": 9000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -2353,7 +2492,8 @@
     "92": {
         "id": 92,
         "name": "Ryggsmerter",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -2380,6 +2520,9 @@
         "id": 93,
         "name": "Brann i kafeteria",
         "place": "Skole",
+        "place_array": {
+            "0": "Skole"
+        },
         "average_credits": 1300,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -2407,7 +2550,8 @@
     "94": {
         "id": 94,
         "name": "Klatreulykke",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -2440,6 +2584,9 @@
         "id": 95,
         "name": "Vold mot offentlig tjenesteperson",
         "place": "Metrostasjon",
+        "place_array": {
+            "0": "Metrostasjon"
+        },
         "average_credits": 750,
         "generated_by": "Politistasjon",
         "icons": {
@@ -2468,6 +2615,9 @@
         "id": 96,
         "name": "Silobrann",
         "place": "Silo",
+        "place_array": {
+            "0": "Silo"
+        },
         "average_credits": 3000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -2492,7 +2642,8 @@
     "97": {
         "id": 97,
         "name": "Personskade p\u00e5 h\u00f8yspentmast",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -2523,6 +2674,9 @@
         "id": 98,
         "name": "Brann i halmballer",
         "place": "G\u00e5rd",
+        "place_array": {
+            "0": "G\u00e5rd"
+        },
         "average_credits": 1500,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -2546,7 +2700,8 @@
     "99": {
         "id": 99,
         "name": "Ransaking av bolig",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Politistasjon",
         "icons": {
@@ -2569,7 +2724,10 @@
     "111": {
         "id": 111,
         "name": "Avsporet godstog ",
-        "place": null,
+        "place": "",
+        "place_array": {
+            "0": ""
+        },
         "average_credits": 10000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -2604,6 +2762,9 @@
         "id": 112,
         "name": "Avsporet godstog ",
         "place": "Trikkestopp",
+        "place_array": {
+            "0": "Trikkestopp"
+        },
         "average_credits": 10000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -2638,6 +2799,9 @@
         "id": 113,
         "name": "Avsporet godstog ",
         "place": "Togstasjon (regional og langdistanse)",
+        "place_array": {
+            "0": "Togstasjon (regional og langdistanse)"
+        },
         "average_credits": 10000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -2671,7 +2835,8 @@
     "114": {
         "id": 114,
         "name": "Gr\u00f8ftredning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -2703,7 +2868,8 @@
     "115": {
         "id": 115,
         "name": "Fange som r\u00f8mmer",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Politistasjon",
         "icons": {
@@ -2729,7 +2895,8 @@
     "116": {
         "id": 116,
         "name": "Mistenkt som flykter",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Politistasjon",
         "icons": {
@@ -2755,6 +2922,9 @@
         "id": 117,
         "name": "Savnet person",
         "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
         "average_credits": 4500,
         "generated_by": "Politistasjon",
         "icons": {
@@ -2787,7 +2957,8 @@
     "118": {
         "id": 118,
         "name": "Arrestordre",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Politistasjon",
         "icons": {
@@ -2815,7 +2986,8 @@
     "119": {
         "id": 119,
         "name": "Politibetjent nede",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Politistasjon",
         "icons": {
@@ -2842,7 +3014,8 @@
     "120": {
         "id": 120,
         "name": "Ransakelse av kj\u00f8ret\u00f8y",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Politistasjon",
         "icons": {
@@ -2865,7 +3038,8 @@
     "121": {
         "id": 121,
         "name": "Liten demonstrasjon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2200,
         "generated_by": "Politistasjon",
         "icons": {
@@ -2897,7 +3071,8 @@
     "122": {
         "id": 122,
         "name": "Mellomstor demonstrasjon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Politistasjon",
         "icons": {
@@ -2928,7 +3103,8 @@
     "123": {
         "id": 123,
         "name": "Narkotikasalg",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Politistasjon",
         "icons": {
@@ -2953,6 +3129,9 @@
         "id": 124,
         "name": "Bensinstasjonsran",
         "place": "Bensinstasjon",
+        "place_array": {
+            "0": "Bensinstasjon"
+        },
         "average_credits": 1250,
         "generated_by": "Politistasjon",
         "icons": {
@@ -2978,7 +3157,8 @@
     "125": {
         "id": 125,
         "name": "Skudd avfyrt mot politibetjent",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4100,
         "generated_by": "Politistasjon",
         "icons": {
@@ -3011,7 +3191,8 @@
     "126": {
         "id": 126,
         "name": "VIP oppdrag",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Politistasjon",
         "icons": {
@@ -3040,7 +3221,8 @@
     "127": {
         "id": 127,
         "name": "Innbrudd",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1250,
         "generated_by": "Politistasjon",
         "icons": {
@@ -3067,7 +3249,8 @@
     "128": {
         "id": 128,
         "name": "Drapsfors\u00f8k",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Politistasjon",
         "icons": {
@@ -3100,6 +3283,9 @@
         "id": 129,
         "name": "Innbrudd p\u00e5 museum",
         "place": "Museum",
+        "place_array": {
+            "0": "Museum"
+        },
         "average_credits": 1000,
         "generated_by": "Politistasjon",
         "icons": {
@@ -3124,7 +3310,8 @@
     "130": {
         "id": 130,
         "name": "Anafylaktisk sjokk",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -3149,7 +3336,8 @@
     "131": {
         "id": 131,
         "name": "Skadet l\u00f8per",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -3174,7 +3362,8 @@
     "132": {
         "id": 132,
         "name": "Barn forsvunnet",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Politistasjon",
         "icons": {
@@ -3202,6 +3391,9 @@
         "id": 133,
         "name": "Deponibrann",
         "place": "Avfallsdeponi",
+        "place_array": {
+            "0": "Avfallsdeponi"
+        },
         "average_credits": 3500,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3228,7 +3420,8 @@
     "134": {
         "id": 134,
         "name": "Ulovlig v\u00e5penbesittelse",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Politistasjon",
         "icons": {
@@ -3251,7 +3444,8 @@
     "135": {
         "id": 135,
         "name": "Bilulykke med dyr",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Politistasjon",
         "icons": {
@@ -3279,7 +3473,8 @@
     "136": {
         "id": 136,
         "name": "\u00d8delagt vannr\u00f8r",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3306,7 +3501,8 @@
     "137": {
         "id": 137,
         "name": "Armbrudd",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -3331,7 +3527,8 @@
     "138": {
         "id": 138,
         "name": "Benbrudd",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -3356,7 +3553,8 @@
     "139": {
         "id": 139,
         "name": "Dehydrert person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -3381,7 +3579,8 @@
     "140": {
         "id": 140,
         "name": "Matforgiftning",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -3407,7 +3606,8 @@
     "146": {
         "id": 146,
         "name": "Brann i hytte med halmtak",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 8000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3440,6 +3640,9 @@
         "id": 147,
         "name": "Togbrann (godstog)",
         "place": "Planovergang",
+        "place_array": {
+            "0": "Planovergang"
+        },
         "average_credits": 2000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3465,7 +3668,10 @@
     "148": {
         "id": 148,
         "name": "Togbrann (godstog)",
-        "place": null,
+        "place": "",
+        "place_array": {
+            "0": ""
+        },
         "average_credits": 2000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3492,6 +3698,9 @@
         "id": 149,
         "name": "Togbrann (godstog)",
         "place": "Togstasjon (regional)",
+        "place_array": {
+            "0": "Togstasjon (regional)"
+        },
         "average_credits": 2000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3518,6 +3727,9 @@
         "id": 150,
         "name": "Togbrann (godstog)",
         "place": "Godsstasjon",
+        "place_array": {
+            "0": "Godsstasjon"
+        },
         "average_credits": 2000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3544,6 +3756,9 @@
         "id": 151,
         "name": "Stor trafikkulykke i tunnel",
         "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
         "average_credits": 7000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3579,6 +3794,9 @@
         "id": 152,
         "name": "Flere kj\u00f8ret\u00f8y i brann i tunnel",
         "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
         "average_credits": 5000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3612,6 +3830,9 @@
         "id": 153,
         "name": "Brann p\u00e5 gatekj\u00f8kken",
         "place": "Gatekj\u00f8kken",
+        "place_array": {
+            "0": "Gatekj\u00f8kken"
+        },
         "average_credits": 1850,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3636,7 +3857,8 @@
     "154": {
         "id": 154,
         "name": "Industribrann",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5300,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3666,7 +3888,8 @@
     "155": {
         "id": 155,
         "name": "Ukjent kjemikalielekkasje",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4300,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3693,7 +3916,8 @@
     "156": {
         "id": 156,
         "name": "Brann p\u00e5 soverom ",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3724,6 +3948,9 @@
         "id": 157,
         "name": "Hotellbrann (liten)",
         "place": "Hotell",
+        "place_array": {
+            "0": "Hotell"
+        },
         "average_credits": 3000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3754,6 +3981,9 @@
         "id": 158,
         "name": "Hotellbrann (middels)",
         "place": "Hotell",
+        "place_array": {
+            "0": "Hotell"
+        },
         "average_credits": 5000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3786,6 +4016,9 @@
         "id": 159,
         "name": "\u00d8delagt trafikklys",
         "place": "Lyskryss",
+        "place_array": {
+            "0": "Lyskryss"
+        },
         "average_credits": 250,
         "generated_by": "Politistasjon",
         "icons": {
@@ -3811,6 +4044,9 @@
         "id": 160,
         "name": "Hotellbrann (stor)",
         "place": "Hotell",
+        "place_array": {
+            "0": "Hotell"
+        },
         "average_credits": 8000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3848,6 +4084,9 @@
         "id": 161,
         "name": "Hotellbrann (enorm)",
         "place": "Hotell",
+        "place_array": {
+            "0": "Hotell"
+        },
         "average_credits": 12000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3880,7 +4119,8 @@
     "162": {
         "id": 162,
         "name": "Allergisk reaksjon",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -3906,6 +4146,9 @@
         "id": 163,
         "name": "Uvedkommende p\u00e5 togbanespor",
         "place": "Togstasjon (regional)",
+        "place_array": {
+            "0": "Togstasjon (regional)"
+        },
         "average_credits": 900,
         "generated_by": "Politistasjon",
         "icons": {
@@ -3932,6 +4175,9 @@
         "id": 164,
         "name": "Uvedkommende p\u00e5 togbanespor",
         "place": "Togstasjon (regional og langdistanse)",
+        "place_array": {
+            "0": "Togstasjon (regional og langdistanse)"
+        },
         "average_credits": 900,
         "generated_by": "Politistasjon",
         "icons": {
@@ -3958,6 +4204,9 @@
         "id": 165,
         "name": "Person p\u00e5kj\u00f8rt av tog",
         "place": "Togstasjon (regional)",
+        "place_array": {
+            "0": "Togstasjon (regional)"
+        },
         "average_credits": 3000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -3992,6 +4241,9 @@
         "id": 166,
         "name": "Person p\u00e5kj\u00f8rt av tog",
         "place": "Togstasjon (regional og langdistanse)",
+        "place_array": {
+            "0": "Togstasjon (regional og langdistanse)"
+        },
         "average_credits": 3000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -4026,6 +4278,9 @@
         "id": 167,
         "name": "Bilbrann i tunnel",
         "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
         "average_credits": 1500,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -4057,7 +4312,8 @@
     "168": {
         "id": 168,
         "name": "Ransakelsesordre",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Politistasjon",
         "icons": {
@@ -4081,6 +4337,9 @@
         "id": 169,
         "name": "Brann i kraftverk",
         "place": "Kraftverk",
+        "place_array": {
+            "0": "Kraftverk"
+        },
         "average_credits": 14500,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -4117,6 +4376,9 @@
         "id": 170,
         "name": "Massepanikk p\u00e5 diskotek",
         "place": "Nattklubb",
+        "place_array": {
+            "0": "Nattklubb"
+        },
         "average_credits": 3500,
         "generated_by": "Politistasjon",
         "icons": {
@@ -4145,6 +4407,9 @@
         "id": 171,
         "name": "Brann i kontorbygg",
         "place": "Kontorbygning",
+        "place_array": {
+            "0": "Kontorbygning"
+        },
         "average_credits": 7000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -4178,6 +4443,9 @@
         "id": 172,
         "name": "Brann p\u00e5 gjenvinningsanlegg",
         "place": "Gjenvinningssenter",
+        "place_array": {
+            "0": "Gjenvinningssenter"
+        },
         "average_credits": 10000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -4212,7 +4480,8 @@
     "173": {
         "id": 173,
         "name": "Uhell med syre",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -4238,6 +4507,9 @@
         "id": 174,
         "name": "Liten brann p\u00e5 fabrikk",
         "place": "Fabrikk",
+        "place_array": {
+            "0": "Fabrikk"
+        },
         "average_credits": 2000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -4266,6 +4538,9 @@
         "id": 175,
         "name": "Stor brann i fabrikk",
         "place": "Fabrikk",
+        "place_array": {
+            "0": "Fabrikk"
+        },
         "average_credits": 9000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -4301,6 +4576,9 @@
         "id": 176,
         "name": "Smuglingsfors\u00f8k",
         "place": "Cargohavn",
+        "place_array": {
+            "0": "Cargohavn"
+        },
         "average_credits": 800,
         "generated_by": "Politistasjon",
         "icons": {
@@ -4325,6 +4603,9 @@
         "id": 177,
         "name": "Smuglingsfors\u00f8k",
         "place": "Cruisehavn",
+        "place_array": {
+            "0": "Cruisehavn"
+        },
         "average_credits": 800,
         "generated_by": "Politistasjon",
         "icons": {
@@ -4349,6 +4630,9 @@
         "id": 178,
         "name": "Smuglingsfors\u00f8k",
         "place": "Godsstasjon",
+        "place_array": {
+            "0": "Godsstasjon"
+        },
         "average_credits": 800,
         "generated_by": "Politistasjon",
         "icons": {
@@ -4373,6 +4657,9 @@
         "id": 179,
         "name": "Bil under vann",
         "place": "Innsj\u00f8",
+        "place_array": {
+            "0": "Innsj\u00f8"
+        },
         "average_credits": 1400,
         "generated_by": "Vannredning",
         "icons": {
@@ -4407,6 +4694,9 @@
         "id": 180,
         "name": "Lastebil under vann",
         "place": "Innsj\u00f8",
+        "place_array": {
+            "0": "Innsj\u00f8"
+        },
         "average_credits": 2000,
         "generated_by": "Vannredning",
         "icons": {
@@ -4440,6 +4730,9 @@
         "id": 181,
         "name": "Buss under vann",
         "place": "Innsj\u00f8",
+        "place_array": {
+            "0": "Innsj\u00f8"
+        },
         "average_credits": 3000,
         "generated_by": "Vannredning",
         "icons": {
@@ -4473,6 +4766,9 @@
         "id": 182,
         "name": "Dykkerulykke",
         "place": "Innsj\u00f8",
+        "place_array": {
+            "0": "Innsj\u00f8"
+        },
         "average_credits": 1000,
         "generated_by": "Vannredning",
         "icons": {
@@ -4503,6 +4799,9 @@
         "id": 183,
         "name": "Savnet person ved vann",
         "place": "Innsj\u00f8",
+        "place_array": {
+            "0": "Innsj\u00f8"
+        },
         "average_credits": 3000,
         "generated_by": "Vannredning",
         "icons": {
@@ -4542,6 +4841,9 @@
         "id": 184,
         "name": "Person i vann",
         "place": "Innsj\u00f8",
+        "place_array": {
+            "0": "Innsj\u00f8"
+        },
         "average_credits": 1000,
         "generated_by": "Vannredning",
         "icons": {
@@ -4564,6 +4866,9 @@
         "id": 185,
         "name": "Person i vann",
         "place": "Innsj\u00f8",
+        "place_array": {
+            "0": "Innsj\u00f8"
+        },
         "average_credits": 1200,
         "generated_by": "Vannredning",
         "icons": {
@@ -4592,7 +4897,8 @@
     "186": {
         "id": 186,
         "name": "Brann i kum",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -4615,7 +4921,8 @@
     "187": {
         "id": 187,
         "name": "Person fastklemt under tre",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -4646,6 +4953,9 @@
         "id": 188,
         "name": "Konsert",
         "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
         "average_credits": 7000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -4675,6 +4985,9 @@
         "id": 189,
         "name": "Brann i museum",
         "place": "Museum",
+        "place_array": {
+            "0": "Museum"
+        },
         "average_credits": 7500,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -4706,7 +5019,8 @@
     "199": {
         "id": 199,
         "name": "Uhell med motorsag",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -4733,6 +5047,9 @@
         "id": 200,
         "name": "Brann i godsvogn",
         "place": "Godsstasjon",
+        "place_array": {
+            "0": "Godsstasjon"
+        },
         "average_credits": 1500,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -4755,7 +5072,8 @@
     "201": {
         "id": 201,
         "name": "Trafikkuhell uten personskade",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Politistasjon",
         "icons": {
@@ -4781,7 +5099,8 @@
     "202": {
         "id": 202,
         "name": "Lastebilvelt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3500,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -4814,7 +5133,8 @@
     "203": {
         "id": 203,
         "name": "Bil i gr\u00f8ften",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Politistasjon",
         "icons": {
@@ -4844,7 +5164,8 @@
     "204": {
         "id": 204,
         "name": "Trafikkstopp (Ingen forsikring)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Politistasjon",
         "icons": {
@@ -4868,7 +5189,8 @@
     "205": {
         "id": 205,
         "name": "Trafikkstopp (Vinglete kj\u00f8ring)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Politistasjon",
         "icons": {
@@ -4892,7 +5214,8 @@
     "206": {
         "id": 206,
         "name": "Trafikkstopp (Ikke EU godkjent)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Politistasjon",
         "icons": {
@@ -4916,7 +5239,8 @@
     "207": {
         "id": 207,
         "name": "Trafikkstopp (Uaktsom kj\u00f8ring)",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Politistasjon",
         "icons": {
@@ -4940,7 +5264,8 @@
     "208": {
         "id": 208,
         "name": "Promillekontroll",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Politistasjon",
         "icons": {
@@ -4966,7 +5291,8 @@
     "209": {
         "id": 209,
         "name": "Laserkontroll",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Politistasjon",
         "icons": {
@@ -4992,6 +5318,9 @@
         "id": 210,
         "name": "Brann i snekkerverksted",
         "place": "Snekkerverksted",
+        "place_array": {
+            "0": "Snekkerverksted"
+        },
         "average_credits": 4200,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -5026,6 +5355,9 @@
         "id": 211,
         "name": "Brann i restaurant",
         "place": "Restaurant",
+        "place_array": {
+            "0": "Restaurant"
+        },
         "average_credits": 5000,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -5062,7 +5394,8 @@
     "220": {
         "id": 220,
         "name": "Mistenkelig person",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Politistasjon",
         "icons": {
@@ -5085,7 +5418,8 @@
     "221": {
         "id": 221,
         "name": "Elektrisk st\u00f8t",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -5111,6 +5445,9 @@
         "id": 222,
         "name": "Fotpatrulje",
         "place": "Sentrum",
+        "place_array": {
+            "0": "Sentrum"
+        },
         "average_credits": 1500,
         "generated_by": "Politistasjon",
         "icons": {
@@ -5135,7 +5472,8 @@
     "223": {
         "id": 223,
         "name": "Diabetes",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -5160,7 +5498,8 @@
     "224": {
         "id": 224,
         "name": "Dyreangrep",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Politistasjon",
         "icons": {
@@ -5188,7 +5527,8 @@
     "225": {
         "id": 225,
         "name": "F\u00f8dsel",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -5214,7 +5554,8 @@
     "226": {
         "id": 226,
         "name": "Brann i buss",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1500,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -5243,6 +5584,9 @@
         "id": 251,
         "name": "Syklist falt p\u00e5 sti",
         "place": "Bratt skr\u00e5ning",
+        "place_array": {
+            "0": "Bratt skr\u00e5ning"
+        },
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -5269,6 +5613,9 @@
         "id": 270,
         "name": "Nedfall fra tunneltak",
         "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
         "average_credits": 2800,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -5294,6 +5641,9 @@
         "id": 271,
         "name": "Leilighetsbrann i h\u00f8yblokk",
         "place": "Skyskraper",
+        "place_array": {
+            "0": "Skyskraper"
+        },
         "average_credits": 1500,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -5322,7 +5672,8 @@
     "272": {
         "id": 272,
         "name": "Veltet varebil",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -5352,7 +5703,8 @@
     "273": {
         "id": 273,
         "name": "Ulovlig aktivitet p\u00e5 internett",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Politistasjon",
         "icons": {
@@ -5375,7 +5727,8 @@
     "274": {
         "id": 274,
         "name": "Katt i tre",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 375,
         "generated_by": "Brannstasjon",
         "icons": {
@@ -5397,7 +5750,8 @@
     "284": {
         "id": 284,
         "name": "Mistenkelig pakke",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 800,
         "generated_by": "Politistasjon",
         "icons": {
@@ -5421,6 +5775,9 @@
         "id": 285,
         "name": "Gullsmedran",
         "place": "Kj\u00f8pesenter",
+        "place_array": {
+            "0": "Kj\u00f8pesenter"
+        },
         "average_credits": 800,
         "generated_by": "Politistasjon",
         "icons": {
@@ -5442,7 +5799,8 @@
     "286": {
         "id": 286,
         "name": "Skadet fril\u00f8per",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -5471,7 +5829,8 @@
     "287": {
         "id": 287,
         "name": "Glassk\u00e5r i h\u00e5nd",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
         "icons": {
@@ -5496,7 +5855,8 @@
     "288": {
         "id": 288,
         "name": "Observasjon av en mistenkt",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 6000,
         "generated_by": "Politistasjon",
         "icons": {

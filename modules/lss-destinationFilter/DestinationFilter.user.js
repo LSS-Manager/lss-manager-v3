@@ -1,7 +1,7 @@
 ((I18n) => {
     const LSS_DESTFILTER_STORAGE = 'LSS_DESTFILTER_STORAGE';
     
-    const gefkwCountries = ['de_DE'];
+    const gefkwCountries = ['de_DE', 'nl_NL'];
 
     I18n.translations.de_DE.lssm.destfilter = {
         title: 'Zielort Filter',
@@ -15,7 +15,9 @@
             distance: 'Ziele über x km Entfernung ausblenden (0 deaktiviert)',
             tax: 'Ziele mit einer Abgabe von mehr als x% ausblenden',
             cells: 'Volle Polizeistationen/Zellen ausblenden',
-            cellsYellow: 'Polizeistationen/Zellen mit weniger freien Zellen als benötigt ausblenden'
+            cellsYellow: 'Polizeistationen/Zellen mit weniger freien Zellen als benötigt ausblenden',
+            firstOwn: 'Erste x eigene Krankenhäuser',
+            seeInfos: 'Einstellungen im Requestwindow'
         }
     };
     I18n.translations.en_US.lssm.destfilter = {
@@ -30,7 +32,9 @@
             distance: 'Hide destinations above x km distance (0 deactivates)',
             tax: 'Hide destinations with a TAX higher than x%',
             cells: 'Hide full cells',
-            cellsYellow: 'Hide police stations/cells with fewer free cells than required'
+            cellsYellow: 'Hide police stations/cells with fewer free cells than required',
+            firstOwn: 'first x own hospitals',
+            seeInfos: 'see infos in request window'
         }
     };
     I18n.translations.cs_CZ.lssm.destfilter = {
@@ -195,7 +199,9 @@
             distance: 'Verberg bestemmingen boven x km afstand (0 wordt gedeactiveerd)',
             tax: 'Verberg bestemmingen met een Kosten hoger dan x%.',
             cells: 'Verberg volle cellen',
-            cellsYellow: 'Verberg politiebureaus/cellencomplexen met minder vrije cellen dan nodig zijn'
+            cellsYellow: 'Verberg politiebureaus/cellencomplexen met minder vrije cellen dan nodig zijn',
+            firstOwn: 'Eerste x aantal eigen ziekenhuizen',
+            seeInfos: 'Instellingen in spraakaanvraagscherm'
         }
     };
 
@@ -234,6 +240,14 @@
                     type: 'checkbox'
                 }
             },
+            firstOwn: {
+                default: 50,
+                ui: {
+                    label: I18n.t('lssm.destfilter.settings.firstOwn'),
+                    type: 'number',
+                    min: 0,
+                },
+            },
             ...gefkwCountries.includes(I18n.locale) && {
                 cellsYellow: {
                     default: false,
@@ -249,7 +263,7 @@
                     label: I18n.t('lssm.destfilter.settings.distance'),
                     type: 'number',
                     min: 0,
-                }
+                },
             },
             tax: {
                 default: 50,
@@ -259,6 +273,13 @@
                     min: 0,
                     max: 50,
                     step: 10
+                }
+            },
+            seeInfos: {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.destfilter.settings.seeInfos'),
+                    type: 'checkbox',
                 }
             }
         }
@@ -273,6 +294,7 @@
     const getSetting = key => lssm.managedSettings.getSetting(LSS_DESTFILTER_STORAGE, key);
     const filter = () => {
         if (mode === 'hospital') {
+            let counter = 1;
             document.querySelectorAll('.col-md-9 tbody > tr .visible-xs').forEach(el => {
                 const hide = () => el.parentNode.parentNode.classList.add('hidden');
                 el.parentNode.parentNode.classList.remove('hidden');
@@ -285,9 +307,11 @@
                 if (taxMatch) tax = parseInt(taxMatch[0].replace(/\D+/g, ''));
                 if (getSetting('distance') > 0) distance > getSetting('distance') && hide();
                 getSetting('beds') && freeBeds === 0 && hide();
-                getSetting('beds1') > 0; freeBeds < getSetting('beds1') && hide();
+                getSetting('beds1') > 0 && freeBeds < getSetting('beds1') && hide();
+                getSetting('firstOwn') > 0 && !tax && counter > getSetting('firstOwn') && hide();
                 getSetting('department') && !department && hide();
                 tax > getSetting('tax') && hide();
+                counter++;
             });
         } else {
             document.querySelectorAll('.alert-info a.btn[href*="/gefangener/"]').forEach(el => {
@@ -356,6 +380,21 @@
     settingsNode.classList.add('row');
     settingsNode.id = 'destfilterSettings';
 
+    let settingViewButton = document.createElement('a');
+    settingViewButton.innerHTML = '<i class="glyphicon glyphicon-eye-close"></i>';
+    settingViewButton.id = 'destfilterSettingsViewToggle';
+    settingViewButton.addEventListener('click', e => {
+        if(getSetting('seeInfos')) {
+            settingsNode.classList.add('hidden');
+            managedSettings.settings['seeInfos'].value = false;
+            lssm.managedSettings.update(managedSettings);
+        } else {
+            settingsNode.classList.remove('hidden');
+            managedSettings.settings['seeInfos'].value = true;
+            lssm.managedSettings.update(managedSettings);
+        }
+    })
+
     mode === 'hospital' && settingsNode.appendChild(settingNode('beds', 'checkbox'));
     mode === 'hospital' && settingsNode.appendChild(settingNode('department', 'checkbox'));
     mode === 'prison' && settingsNode.appendChild(settingNode('cells', 'checkbox'));
@@ -368,11 +407,16 @@
         max: 50,
         step: 10
     }));
+    mode === 'hospital' && settingsNode.appendChild(settingNode('firstOwn', 'number', {
+        min: 0
+    }));
     mode === 'hospital' && settingsNode.appendChild(settingNode('beds1', 'number', {
         min: 0,
         max: 30
     }));
 
     document.querySelector('.alert-info').insertAdjacentElement('afterend', settingsNode);
+    document.querySelector('.alert-info').insertAdjacentElement('afterend', settingViewButton);
+    getSetting('seeInfos') ? settingsNode.classList.remove('hidden') : settingsNode.classList.add('hidden');
     filter();
 })(I18n);
