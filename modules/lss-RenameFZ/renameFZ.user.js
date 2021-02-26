@@ -947,7 +947,7 @@
                 2: 'EPA',
                 3: 'VLCG',
                 4: 'VSR',
-                5: 'UMH',
+                5: 'ASSU',
                 6: 'CCGC',
                 7: 'VIRT',
                 8: 'Véhicule de patrouille',
@@ -966,7 +966,12 @@
                 21: 'CCFS',
                 22: 'CCFM',
                 23: 'CCFL',
-                24: 'VLHR'
+                24: 'VLHR',
+                25: 'VSAV',
+                26: 'VL SSSM',
+                27: 'VLM',
+                28: 'AR',
+                29: 'PC DSM'
             }
         }
     };
