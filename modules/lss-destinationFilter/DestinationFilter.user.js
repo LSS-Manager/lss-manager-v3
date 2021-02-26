@@ -305,11 +305,11 @@
                 let tax = 0;
                 let taxMatch = info.match(new RegExp(`${I18n.t('lssm.destfilter.tax')}: \\d+ %`));
                 if (taxMatch) tax = parseInt(taxMatch[0].replace(/\D+/g, ''));
-                if (getSetting('distance') > 0) distance > getSetting('distance') && hide();
-                getSetting('beds') && freeBeds === 0 && hide();
-                getSetting('beds1') > 0 && freeBeds < getSetting('beds1') && hide();
+                if (getSetting('distance') > 0) distance > getSetting('distance') && counter-- && hide();
+                getSetting('beds') && freeBeds === 0 && counter-- && hide();
+                getSetting('beds1') > 0 && freeBeds < getSetting('beds1')  && counter-- && hide();
+                getSetting('department') && !department && counter-- && hide();
                 getSetting('firstOwn') > 0 && !tax && counter > getSetting('firstOwn') && hide();
-                getSetting('department') && !department && hide();
                 tax > getSetting('tax') && hide();
                 counter++;
             });
