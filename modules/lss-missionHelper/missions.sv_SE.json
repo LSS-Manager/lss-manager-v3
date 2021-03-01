@@ -690,6 +690,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
@@ -742,7 +743,8 @@
             "water_tankers": 30
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 5
@@ -872,6 +874,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
@@ -906,6 +909,7 @@
         "additional": {
             "possible_patient": 25,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
@@ -1101,6 +1105,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
@@ -1593,6 +1598,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
@@ -1787,6 +1793,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
@@ -1852,6 +1859,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
@@ -2651,6 +2659,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
@@ -2715,6 +2724,7 @@
         "additional": {
             "possible_patient": 5,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": false,
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -3817,6 +3827,7 @@
         "additional": {
             "possible_patient": 3,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": false,
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -4098,7 +4109,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 6
@@ -4659,6 +4671,7 @@
                 "0": 111
             },
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -5681,6 +5694,40 @@
         },
         "prerequisites": {
             "police_stations": 9
+        }
+    },
+    "279": {
+        "id": 279,
+        "name": "Gaslukt - ute",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/gas_gruen.png",
+            "1": "/images/gas_gelb.png",
+            "2": "/images/gas_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "hazmat_vehicles": 30,
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "expansion_missions_ids": {},
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 4
         }
     }
 }

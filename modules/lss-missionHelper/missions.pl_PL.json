@@ -711,6 +711,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -765,7 +766,8 @@
             "water_tankers": 30
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 5
@@ -898,6 +900,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -935,6 +938,7 @@
         "additional": {
             "possible_patient": 25,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -1108,6 +1112,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -1576,6 +1581,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -1754,6 +1760,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -2560,6 +2567,7 @@
                 "0": 5
             },
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -2898,6 +2906,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -4974,7 +4983,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 6
@@ -7488,6 +7498,86 @@
         },
         "prerequisites": {
             "rescue_stations": 8
+        }
+    },
+    "347": {
+        "id": 347,
+        "name": "Katastrofa samolotu pasa\u017cerskiego",
+        "place": "",
+        "place_array": {},
+        "average_credits": 25000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "water_needed": 80000,
+            "firetrucks": 20,
+            "fwk": 3,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 5,
+            "heavy_rescue_vehicles": 15,
+            "water_tankers": 5,
+            "mobile_air_vehicles": 3,
+            "hazmat_vehicles": 2,
+            "police_helicopters": 2,
+            "police_cars": 10
+        },
+        "chances": {
+            "patient_transport": 75,
+            "helicopter": 60
+        },
+        "additional": {
+            "possible_patient": 70,
+            "possible_patient_min": 50,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 20,
+            "police_stations": 15,
+            "fire_stations": 25
+        }
+    },
+    "348": {
+        "id": 348,
+        "name": "Po\u017car spalarni \u015bmieci",
+        "place": "",
+        "place_array": {},
+        "average_credits": 12000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 70000,
+            "firetrucks": 14,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 5,
+            "water_tankers": 4,
+            "mobile_air_vehicles": 3,
+            "hazmat_vehicles": 3,
+            "police_cars": 4
+        },
+        "chances": {
+            "battalion_chief_vehicles": 27,
+            "platform_trucks": 33,
+            "heavy_rescue_vehicles": 46,
+            "water_tankers": 34
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 5,
+            "fire_stations": 25
         }
     }
 }
