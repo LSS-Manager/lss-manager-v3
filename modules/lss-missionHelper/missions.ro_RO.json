@@ -690,6 +690,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Internist general"
         },
         "prerequisites": {
@@ -742,7 +743,8 @@
             "water_tankers": 30
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 5
@@ -872,6 +874,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Internist general"
         },
         "prerequisites": {
@@ -906,6 +909,7 @@
         "additional": {
             "possible_patient": 25,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Internist general"
         },
         "prerequisites": {
@@ -1101,6 +1105,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Internist general"
         },
         "prerequisites": {
@@ -1593,6 +1598,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Internist general"
         },
         "prerequisites": {
@@ -1818,6 +1824,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Internist general"
         },
         "prerequisites": {
@@ -1883,6 +1890,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Internist general"
         },
         "prerequisites": {
@@ -2737,6 +2745,7 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Internist general"
         },
         "prerequisites": {
@@ -2804,6 +2813,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Internist general"
         },
         "prerequisites": {
@@ -3058,7 +3068,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 6
@@ -3089,6 +3100,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Chirurg general"
         },
         "prerequisites": {
@@ -3244,6 +3256,7 @@
         "additional": {
             "possible_patient": 3,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Internist general"
         },
         "prerequisites": {
@@ -3281,6 +3294,7 @@
         "additional": {
             "possible_patient": 7,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Internist general"
         },
         "prerequisites": {
@@ -3482,7 +3496,8 @@
             "water_tankers": 20
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "police_stations": 2,
@@ -4098,6 +4113,7 @@
         "additional": {
             "possible_patient": 20,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Internist general"
         },
         "prerequisites": {
@@ -4312,6 +4328,34 @@
         },
         "prerequisites": {
             "police_stations": 2
+        }
+    },
+    "217": {
+        "id": 217,
+        "name": "Debarcaderul \u00een fl\u0103c\u0103ri",
+        "place": "Debarcader",
+        "place_array": {
+            "0": "Debarcader"
+        },
+        "average_credits": 5000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 7
         }
     }
 }

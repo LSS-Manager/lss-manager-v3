@@ -732,6 +732,7 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -780,7 +781,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 5
@@ -920,6 +922,7 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -966,6 +969,7 @@
                 "1": "Medicina interna generale",
                 "2": "Medicina interna generale"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -1237,6 +1241,7 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -1777,6 +1782,7 @@
                 "1": "Medicina interna generale",
                 "2": "Medicina interna generale"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -2034,6 +2040,7 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -2112,6 +2119,7 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -3344,6 +3352,7 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -6414,9 +6423,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 193
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -8935,6 +8942,69 @@
             "rescue_stations": 2,
             "police_stations": 2,
             "fire_stations": 6
+        }
+    },
+    "340": {
+        "id": 340,
+        "name": "Frammenti di vetro nell'occhio",
+        "place": "",
+        "place_array": {},
+        "average_credits": 950,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC11R",
+                "1": "KC11G",
+                "2": "LC11G"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Chirurgia generale",
+                "1": "Oculistica",
+                "2": "Chirurgia generale",
+                "3": "Oculistica",
+                "4": "Chirurgia generale",
+                "5": "Oculistica"
+            }
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "341": {
+        "id": 341,
+        "name": "Controllo bancarelle abusive",
+        "place": "",
+        "place_array": {},
+        "average_credits": 850,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "commerce_police": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "commerce_police_stations": 3
         }
     }
 }

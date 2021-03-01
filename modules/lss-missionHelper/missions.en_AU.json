@@ -692,6 +692,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -744,7 +745,8 @@
             "water_tankers": 30
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 5
@@ -879,6 +881,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -916,6 +919,7 @@
         "additional": {
             "possible_patient": 25,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -1117,6 +1121,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -1611,6 +1616,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -1809,6 +1815,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -1850,6 +1857,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -2040,6 +2048,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -2573,6 +2582,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4790,6 +4800,7 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4858,6 +4869,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4889,7 +4901,8 @@
             "platform_trucks": 50
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 8
@@ -4984,6 +4997,7 @@
         "additional": {
             "possible_patient": 3,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5021,6 +5035,7 @@
         "additional": {
             "possible_patient": 7,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5266,7 +5281,8 @@
             "water_tankers": 20
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "police_stations": 2,
@@ -5722,6 +5738,7 @@
         "additional": {
             "possible_patient": 20,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6138,6 +6155,34 @@
         },
         "prerequisites": {
             "rescue_stations": 20
+        }
+    },
+    "291": {
+        "id": 291,
+        "name": "Pier on fire",
+        "place": "Pier",
+        "place_array": {
+            "0": "Pier"
+        },
+        "average_credits": 5000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 7
         }
     }
 }

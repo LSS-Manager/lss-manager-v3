@@ -1301,7 +1301,8 @@
             "mobile_air_vehicles": 20
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 5
@@ -1380,6 +1381,7 @@
         },
         "additional": {
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "personnel_educations": {
                 "HazMat": 4
             }
@@ -1950,7 +1952,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "max_police_stations": 4,
@@ -2087,6 +2090,7 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Surgeon",
             "personnel_educations": {
                 "HazMat": 4
@@ -2516,6 +2520,7 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -2639,6 +2644,7 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -2922,6 +2928,7 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -3473,6 +3480,7 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -3825,6 +3833,7 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal",
             "personnel_educations": {
                 "HazMat": 4
@@ -3924,6 +3933,7 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4373,6 +4383,7 @@
             "patient_us_code_possible": {
                 "0": "29-D-4"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5374,6 +5385,7 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5408,6 +5420,7 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5437,7 +5450,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 6
@@ -6310,6 +6324,7 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6345,6 +6360,7 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6385,6 +6401,7 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6592,7 +6609,8 @@
             "water_tankers": 20
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "police_stations": 2,
@@ -7509,6 +7527,7 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -7566,6 +7585,7 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal",
             "personnel_educations": {
                 "HazMat": 4
@@ -7978,6 +7998,7 @@
                 "7": "7-B-2F",
                 "8": "7-A-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -8146,6 +8167,7 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -8487,6 +8509,7 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -8541,6 +8564,7 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -8709,6 +8733,7 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9229,7 +9254,8 @@
                 "9": 28,
                 "10": 22
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 1
@@ -15520,6 +15546,7 @@
                 "0": "7-C-1F",
                 "1": "7-A-2"
             },
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -16045,6 +16072,39 @@
         },
         "prerequisites": {
             "police_stations": 2
+        }
+    },
+    "537": {
+        "id": 537,
+        "name": "Welfare Check",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/bus_gruen.png",
+            "1": "/images/bus_gelb.png",
+            "2": "/images/bus_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "23-B-1"
+            },
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
         }
     }
 }

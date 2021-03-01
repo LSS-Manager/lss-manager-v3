@@ -691,6 +691,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
@@ -744,7 +745,8 @@
             "water_tankers": 30
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 5
@@ -876,6 +878,7 @@
         "additional": {
             "possible_patient": 25,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
@@ -1072,6 +1075,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
@@ -1454,6 +1458,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
@@ -1595,6 +1600,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
@@ -1838,6 +1844,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
@@ -2943,6 +2950,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
@@ -3241,7 +3249,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 6
@@ -3272,6 +3281,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Cirurgia Geral"
         },
         "prerequisites": {
@@ -4573,6 +4583,7 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
@@ -4686,6 +4697,36 @@
         "prerequisites": {
             "rescue_stations": 5,
             "fire_stations": 6
+        }
+    },
+    "255": {
+        "id": 255,
+        "name": "Queda de poste de Ilumina\u00e7\u00e3o",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 6,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "fire_stations": 7
         }
     }
 }
