@@ -1473,9 +1473,11 @@
     },
     "58": {
         "id": 58,
-        "name": "Feu de cuisine",
-        "place": "",
-        "place_array": {},
+        "name": "Feu de bar",
+        "place": "Bar",
+        "place_array": {
+            "0": "Bar"
+        },
         "average_credits": 1000,
         "generated_by": "Centre de secours",
         "icons": {
@@ -1486,16 +1488,15 @@
         "requirements": {
             "firetrucks": 2,
             "battalion_chief_vehicles": 1,
-            "platform_trucks": 1
+            "platform_trucks": 1,
+            "police_cars": 2
         },
-        "chances": {
-            "battalion_chief_vehicles": 10,
-            "platform_trucks": 10
-        },
+        "chances": {},
         "additional": {
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "police_stations": 2,
             "fire_stations": 2
         }
     },
@@ -3254,7 +3255,7 @@
         "place": "",
         "place_array": {},
         "average_credits": 2200,
-        "generated_by": "Poste Ambulancier",
+        "generated_by": "Centre de secours",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -3274,8 +3275,7 @@
             "expansion_missions_ids": {
                 "0": 149
             },
-            "height_rescue_personnel": 5,
-            "filter_id": "ambulance_station_missions",
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
@@ -3291,7 +3291,7 @@
         "place": "",
         "place_array": {},
         "average_credits": 2400,
-        "generated_by": "Poste Ambulancier",
+        "generated_by": "Centre de secours",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -3310,7 +3310,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "height_rescue_personnel": 5,
-            "filter_id": "ambulance_station_missions",
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
@@ -3378,7 +3378,7 @@
     },
     "152": {
         "id": 152,
-        "name": "Essouflement - Ant\u00e9c\u00e9dants cardiaques",
+        "name": "Essouflement - Ant\u00e9c\u00e9dents cardiaques",
         "place": "",
         "place_array": {},
         "average_credits": 880,
@@ -3390,8 +3390,7 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 100,
-            "patient_critical_care": 100
+            "patient_transport": 100
         },
         "additional": {
             "possible_patient": 1,
@@ -3464,7 +3463,10 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
-            "police_cars": 1
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
         },
         "chances": {
             "patient_transport": 40
@@ -3477,7 +3479,8 @@
         },
         "prerequisites": {
             "rescue_stations": 3,
-            "police_stations": 3
+            "police_stations": 3,
+            "fire_stations": 6
         }
     },
     "156": {
@@ -3582,13 +3585,15 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 80
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 313
+            },
             "filter_id": "ambulance_station_missions",
-            "patient_allow_first_responder_chance": 80,
             "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -3616,8 +3621,8 @@
             "water_rescue": 1,
             "boats": 1,
             "personnel_educations": {
-                "2": 2,
-                "1": 3
+                "gw_taucher": 2,
+                "gw_wasserrettung": 3
             }
         },
         "chances": {
@@ -3664,8 +3669,8 @@
             "water_rescue": 1,
             "boats": 1,
             "personnel_educations": {
-                "2": 2,
-                "1": 3
+                "gw_taucher": 2,
+                "gw_wasserrettung": 3
             }
         },
         "chances": {
@@ -3708,7 +3713,7 @@
             "water_rescue": 1,
             "boats": 1,
             "personnel_educations": {
-                "2": 3
+                "gw_taucher": 3
             }
         },
         "chances": {},
@@ -3743,7 +3748,7 @@
             "water_rescue": 1,
             "boats": 1,
             "personnel_educations": {
-                "2": 3
+                "gw_taucher": 3
             }
         },
         "chances": {
@@ -3787,7 +3792,7 @@
             "water_rescue": 2,
             "boats": 2,
             "personnel_educations": {
-                "1": 6
+                "gw_wasserrettung": 6
             },
             "rth": 1
         },
@@ -3833,7 +3838,7 @@
             "water_rescue": 1,
             "boats": 1,
             "personnel_educations": {
-                "1": 3
+                "gw_wasserrettung": 3
             }
         },
         "chances": {
@@ -3877,8 +3882,8 @@
             "water_rescue": 2,
             "boats": 1,
             "personnel_educations": {
-                "2": 3,
-                "1": 4
+                "gw_taucher": 3,
+                "gw_wasserrettung": 4
             }
         },
         "chances": {
@@ -3924,8 +3929,8 @@
             "water_rescue": 2,
             "boats": 2,
             "personnel_educations": {
-                "2": 6,
-                "1": 4
+                "gw_taucher": 6,
+                "gw_wasserrettung": 4
             }
         },
         "chances": {
@@ -3969,7 +3974,7 @@
             "water_rescue": 1,
             "boats": 1,
             "personnel_educations": {
-                "1": 3
+                "gw_wasserrettung": 3
             }
         },
         "chances": {
@@ -4074,8 +4079,8 @@
             "police_cars": 1,
             "boats": 1,
             "personnel_educations": {
-                "2": 3,
-                "1": 3
+                "gw_taucher": 3,
+                "gw_wasserrettung": 3
             }
         },
         "chances": {
@@ -4120,8 +4125,8 @@
             "police_cars": 1,
             "boats": 1,
             "personnel_educations": {
-                "2": 3,
-                "1": 3
+                "gw_taucher": 3,
+                "gw_wasserrettung": 3
             }
         },
         "chances": {
@@ -6113,9 +6118,7 @@
             "1": "/images/medicalstore_gelb.png",
             "2": "/images/medicalstore_rot.png"
         },
-        "requirements": {
-            "heavy_rescue_vehicles": 1
-        },
+        "requirements": {},
         "chances": {
             "patient_transport": 70
         },
@@ -6126,8 +6129,7 @@
             "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
         },
         "prerequisites": {
-            "rescue_stations": 1,
-            "fire_stations": 4
+            "rescue_stations": 1
         }
     },
     "296": {
@@ -6144,9 +6146,9 @@
         },
         "requirements": {
             "firetrucks": 2,
+            "ambulances": 3,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
-            "heavy_rescue_vehicles": 3,
             "police_cars": 2
         },
         "chances": {
@@ -6195,9 +6197,9 @@
         "average_credits": null,
         "generated_by": "Poste Ambulancier",
         "icons": {
-            "0": "/images/ambulance_gruen.png",
-            "1": "/images/ambulance_gelb.png",
-            "2": "/images/ambulance_rot.png"
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
         "chances": {
@@ -6274,14 +6276,14 @@
             "patient_critical_care": 100
         },
         "additional": {
-            "possible_patient": 8,
-            "possible_patient_min": 1,
+            "possible_patient": 16,
+            "possible_patient_min": 8,
             "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
-            "rescue_stations": 4,
+            "rescue_stations": 6,
             "police_stations": 4,
             "fire_stations": 11
         }
@@ -6372,30 +6374,32 @@
     },
     "313": {
         "id": 313,
-        "name": "Mass poisoning",
+        "name": "Intoxication alimentaire - Nombreuses victimes",
         "place": "",
         "place_array": {},
         "average_credits": null,
         "generated_by": "Poste Ambulancier",
         "icons": {
-            "0": "/images/ambulance_gruen.png",
-            "1": "/images/ambulance_gelb.png",
-            "2": "/images/ambulance_rot.png"
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "requirements": {},
+        "requirements": {
+            "police_cars": 2
+        },
         "chances": {
-            "patient_transport": 40,
+            "patient_transport": 70,
             "helicopter": 10,
             "patient_critical_care": 60
         },
         "additional": {
-            "possible_patient": 10,
-            "possible_patient_min": 5,
+            "possible_patient": 20,
+            "possible_patient_min": 8,
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
         },
         "prerequisites": {
-            "rescue_stations": 20
+            "rescue_stations": 16
         }
     },
     "314": {
