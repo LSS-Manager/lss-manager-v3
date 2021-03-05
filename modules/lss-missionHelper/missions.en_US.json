@@ -1371,7 +1371,7 @@
             "mobile_air_vehicles": 1,
             "hazmat_vehicles": 1,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -1408,7 +1408,7 @@
             "heavy_rescue_vehicles": 1,
             "hazmat_vehicles": 1,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -2078,7 +2078,7 @@
             "platform_trucks": 2,
             "hazmat_vehicles": 1,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -2476,7 +2476,7 @@
             "hazmat_vehicles": 2,
             "police_cars": 3,
             "personnel_educations": {
-                "-1": 8
+                "gw_gefahrgut": 8
             }
         },
         "chances": {},
@@ -2595,7 +2595,7 @@
             "hazmat_vehicles": 1,
             "police_cars": 3,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {},
@@ -3819,7 +3819,7 @@
             "hazmat_vehicles": 2,
             "police_cars": 4,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -4323,7 +4323,7 @@
             "heavy_rescue_vehicles": 1,
             "hazmat_vehicles": 1,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -5880,7 +5880,7 @@
             "hazmat_vehicles": 1,
             "police_cars": 3,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -6175,7 +6175,7 @@
             "hazmat_vehicles": 1,
             "police_cars": 3,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -7038,7 +7038,7 @@
             "hazmat_vehicles": 1,
             "police_cars": 4,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -7115,7 +7115,7 @@
             "hazmat_vehicles": 1,
             "police_cars": 2,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -7560,7 +7560,7 @@
             "hazmat_vehicles": 1,
             "police_cars": 4,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -9084,7 +9084,7 @@
             "hazmat_vehicles": 1,
             "police_cars": 2,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -9935,7 +9935,7 @@
             "hazmat_vehicles": 1,
             "police_cars": 6,
             "personnel_educations": {
-                "-1": 2
+                "gw_gefahrgut": 2
             }
         },
         "chances": {
@@ -10596,7 +10596,7 @@
             "firetrucks": 1,
             "hazmat_vehicles": 1,
             "personnel_educations": {
-                "-1": 2
+                "gw_gefahrgut": 2
             }
         },
         "chances": {
@@ -10734,7 +10734,7 @@
             "hazmat_vehicles": 1,
             "police_cars": 2,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -11367,7 +11367,7 @@
             "hazmat_vehicles": 1,
             "police_cars": 3,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -13084,7 +13084,7 @@
             "hazmat_vehicles": 1,
             "police_cars": 8,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -13150,7 +13150,7 @@
             "hazmat_vehicles": 1,
             "police_cars": 8,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -13563,7 +13563,7 @@
             "hazmat_vehicles": 1,
             "police_cars": 2,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -15639,7 +15639,7 @@
             "firetrucks": 1,
             "hazmat_vehicles": 1,
             "personnel_educations": {
-                "-1": 2
+                "gw_gefahrgut": 2
             }
         },
         "chances": {
@@ -15686,7 +15686,7 @@
             "hazmat_vehicles": 1,
             "police_cars": 2,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -15733,7 +15733,7 @@
             "battalion_chief_vehicles": 1,
             "hazmat_vehicles": 1,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -15776,7 +15776,7 @@
             "firetrucks": 1,
             "hazmat_vehicles": 1,
             "personnel_educations": {
-                "-1": 2
+                "gw_gefahrgut": 2
             }
         },
         "chances": {},
@@ -15810,7 +15810,7 @@
             "arff": 1,
             "hazmat_vehicles": 1,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {},
@@ -15844,7 +15844,7 @@
             "arff": 1,
             "hazmat_vehicles": 1,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {},
@@ -15877,7 +15877,7 @@
             "battalion_chief_vehicles": 1,
             "hazmat_vehicles": 1,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {
@@ -15919,7 +15919,7 @@
             "battalion_chief_vehicles": 1,
             "hazmat_vehicles": 1,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {},
@@ -15953,7 +15953,7 @@
             "hazmat_vehicles": 1,
             "boats": 1,
             "personnel_educations": {
-                "-1": 4
+                "gw_gefahrgut": 4
             }
         },
         "chances": {},

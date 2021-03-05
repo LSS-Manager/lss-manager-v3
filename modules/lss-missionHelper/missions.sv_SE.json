@@ -5720,7 +5720,9 @@
         },
         "additional": {
             "possible_patient": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 281
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },

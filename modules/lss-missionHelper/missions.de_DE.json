@@ -2193,7 +2193,8 @@
         "additional": {
             "possible_patient": 1,
             "expansion_missions_ids": {
-                "0": 213
+                "0": 213,
+                "1": 610
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
@@ -5353,7 +5354,8 @@
                 "0": 44,
                 "1": 74,
                 "2": 106,
-                "3": 107
+                "3": 107,
+                "4": 611
             },
             "max_possible_prisoners": 5,
             "filter_id": "riot_police_missions",
@@ -8104,7 +8106,7 @@
         "name": "Spontaner Aufstand",
         "place": "",
         "place_array": {},
-        "average_credits": 6000,
+        "average_credits": 7500,
         "generated_by": "Bereitschaftspolizei",
         "icons": {
             "0": "/images/baseball_gruen.png",
@@ -16996,6 +16998,7 @@
         "additional": {
             "possible_patient": 20,
             "possible_patient_min": 5,
+            "followup_missions_ids": {},
             "max_possible_prisoners": 10,
             "filter_id": "riot_police_missions",
             "patient_specializations": "Allgemeine Innere"
@@ -17313,6 +17316,47 @@
         },
         "prerequisites": {
             "fire_stations": 4
+        }
+    },
+    "610": {
+        "id": 610,
+        "name": "Gefahrgut-LKW in Brand",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 3,
+            "mobile_air_vehicles": 1,
+            "gwmess": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 6,
+            "hazmat_dekon": 1
+        },
+        "chances": {
+            "hazmat_dekon": 20,
+            "nef": 40,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 213
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 18
         }
     }
 }
