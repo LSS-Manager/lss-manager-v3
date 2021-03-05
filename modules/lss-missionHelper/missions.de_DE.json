@@ -626,7 +626,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 3
@@ -714,7 +715,8 @@
         },
         "additional": {
             "average_min_fire_personnel": 25,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 4
@@ -773,7 +775,8 @@
             "mobile_air_vehicles": 20
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 5
@@ -918,6 +921,7 @@
             "possible_patient": 3,
             "average_min_fire_personnel": 30,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -953,7 +957,8 @@
             "expansion_missions_ids": {
                 "0": 320
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 5
@@ -987,7 +992,8 @@
             "hazmat_dekon": 10
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": false
         },
         "prerequisites": {
             "fire_stations": 10
@@ -1156,7 +1162,8 @@
             "hazmat_vehicles": 70
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 11
@@ -1419,6 +1426,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -2094,6 +2102,7 @@
                 "0": 470
             },
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -2285,7 +2294,8 @@
             "mobile_air_vehicles": 50
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 13
@@ -2561,6 +2571,7 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -3863,9 +3874,8 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 27,
-                "1": 43,
-                "2": 83
+                "0": 43,
+                "1": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -4914,6 +4924,7 @@
                 "0": 462
             },
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -4954,7 +4965,8 @@
             "expansion_missions_ids": {
                 "0": 186
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "rescue_stations": 9,
@@ -5783,6 +5795,7 @@
             "possible_patient": 10,
             "possible_patient_min": 5,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -7541,6 +7554,7 @@
             "possible_patient": 10,
             "possible_patient_min": 5,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -7874,16 +7888,15 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 27,
-                "2": 120,
-                "3": 121,
-                "4": 122,
-                "5": 123,
-                "6": 124,
-                "7": 125,
-                "8": 126,
-                "9": 127,
-                "10": 128
+                "1": 120,
+                "2": 121,
+                "3": 122,
+                "4": 123,
+                "5": 124,
+                "6": 125,
+                "7": 126,
+                "8": 127,
+                "9": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -8564,6 +8577,7 @@
             "possible_patient": 40,
             "possible_patient_min": 15,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -8708,6 +8722,7 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -8784,6 +8799,7 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10448,6 +10464,7 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "factory_fire_brigade_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10496,6 +10513,7 @@
         "additional": {
             "possible_patient": 3,
             "filter_id": "factory_fire_brigade_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10700,7 +10718,8 @@
             "expansion_missions_ids": {
                 "0": 515
             },
-            "filter_id": "factory_fire_brigade_missions"
+            "filter_id": "factory_fire_brigade_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "werkfeuerwehr": 1,
@@ -10732,7 +10751,8 @@
             "mobile_air_vehicles": 10
         },
         "additional": {
-            "filter_id": "factory_fire_brigade_missions"
+            "filter_id": "factory_fire_brigade_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "werkfeuerwehr": 1,
@@ -10793,7 +10813,8 @@
             "mobile_air_vehicles": 20
         },
         "additional": {
-            "filter_id": "factory_fire_brigade_missions"
+            "filter_id": "factory_fire_brigade_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "werkfeuerwehr": 1,
@@ -10822,7 +10843,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "factory_fire_brigade_missions"
+            "filter_id": "factory_fire_brigade_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "werkfeuerwehr": 1,
@@ -10855,7 +10877,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "factory_fire_brigade_missions"
+            "filter_id": "factory_fire_brigade_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "werkfeuerwehr": 1,
@@ -11053,7 +11076,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "factory_fire_brigade_missions"
+            "filter_id": "factory_fire_brigade_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "werkfeuerwehr": 1,
@@ -11082,7 +11106,8 @@
             "expansion_missions_ids": {
                 "0": 396
             },
-            "filter_id": "factory_fire_brigade_missions"
+            "filter_id": "factory_fire_brigade_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "werkfeuerwehr": 1,
@@ -11804,6 +11829,7 @@
         "additional": {
             "possible_patient": 20,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -12549,6 +12575,7 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -12679,6 +12706,7 @@
         "additional": {
             "possible_patient": 20,
             "filter_id": "factory_fire_brigade_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -12851,6 +12879,7 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -13961,6 +13990,7 @@
         "additional": {
             "possible_patient": 30,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -14456,6 +14486,7 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "factory_fire_brigade_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {

@@ -694,6 +694,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -746,7 +747,8 @@
             "water_tankers": 30
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 5
@@ -882,6 +884,7 @@
         "additional": {
             "possible_patient": 25,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -1077,6 +1080,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -1578,6 +1582,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -1780,6 +1785,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -2324,6 +2330,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -3163,6 +3170,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -3799,7 +3807,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 6
@@ -3830,6 +3839,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
@@ -6276,6 +6286,36 @@
         },
         "prerequisites": {
             "police_stations": 2
+        }
+    },
+    "299": {
+        "id": 299,
+        "name": "P\u00e1d osoby z v\u00fd\u0161ky",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 1
         }
     }
 }
