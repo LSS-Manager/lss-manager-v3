@@ -6479,9 +6479,7 @@
             "police_cars": 2,
             "water_rescue": 1
         },
-        "chances": {
-            "water_rescue": 30
-        },
+        "chances": {},
         "additional": {
             "filter_id": "firehouse_missions"
         },
