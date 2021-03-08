@@ -6725,9 +6725,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 294
-            },
+            "expansion_missions_ids": {},
             "average_min_fire_personnel": 17,
             "filter_id": "firehouse_missions"
         },
@@ -6785,14 +6783,129 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 296
-            },
+            "expansion_missions_ids": {},
             "average_min_fire_personnel": 17,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 8
+        }
+    },
+    "291": {
+        "id": 291,
+        "name": "Person under train",
+        "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
+        "average_credits": 7000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 4,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 5
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 28,
+            "patient_uk_code_possible": {
+                "0": "C-1"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "police_stations": 5,
+            "fire_stations": 14
+        }
+    },
+    "292": {
+        "id": 292,
+        "name": "Person under train",
+        "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
+        "average_credits": 7000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 4,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 5
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 28,
+            "patient_uk_code_possible": {
+                "0": "C-1"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "police_stations": 5,
+            "fire_stations": 14
+        }
+    },
+    "293": {
+        "id": 293,
+        "name": "Person under train",
+        "place": "Subway station",
+        "place_array": {
+            "0": "Subway station"
+        },
+        "average_credits": 7000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 4,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 5
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 28,
+            "patient_uk_code_possible": {
+                "0": "C-1"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "police_stations": 5,
+            "fire_stations": 14
         }
     }
 }

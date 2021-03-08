@@ -3042,9 +3042,7 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {
-                "0": 132
-            },
+            "expansion_missions_ids": {},
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -5720,15 +5718,38 @@
         },
         "additional": {
             "possible_patient": 1,
-            "expansion_missions_ids": {
-                "0": 281
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions",
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
             "rescue_stations": 1,
             "police_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "280": {
+        "id": 280,
+        "name": "Vattenfylld v\u00e4g",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4,
             "fire_stations": 4
         }
     }

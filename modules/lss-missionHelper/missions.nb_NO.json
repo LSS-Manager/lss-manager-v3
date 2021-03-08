@@ -5924,5 +5924,31 @@
         "prerequisites": {
             "fire_stations": 7
         }
+    },
+    "290": {
+        "id": 290,
+        "name": "Panikkanfall",
+        "place": "",
+        "place_array": {},
+        "average_credits": 250,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }

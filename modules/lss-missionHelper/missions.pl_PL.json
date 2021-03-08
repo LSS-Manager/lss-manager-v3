@@ -7579,5 +7579,85 @@
             "police_stations": 5,
             "fire_stations": 25
         }
+    },
+    "349": {
+        "id": 349,
+        "name": "Wykolejenie si\u0119 poci\u0105gu z substancj\u0105 radioaktywn\u0105",
+        "place": "",
+        "place_array": {},
+        "average_credits": 15000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 15000,
+            "firetrucks": 30,
+            "fwk": 2,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 10,
+            "mobile_air_vehicles": 5,
+            "hazmat_vehicles": 8,
+            "police_cars": 10
+        },
+        "chances": {
+            "patient_transport": 75,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 5,
+            "fire_stations": 20
+        }
+    },
+    "350": {
+        "id": 350,
+        "name": "Po\u017car oczyszcalni \u015bciek\u00f3w",
+        "place": "",
+        "place_array": {},
+        "average_credits": 15000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 50000,
+            "firetrucks": 25,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 6,
+            "water_tankers": 3,
+            "mobile_air_vehicles": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 5,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 25
+        }
     }
 }
