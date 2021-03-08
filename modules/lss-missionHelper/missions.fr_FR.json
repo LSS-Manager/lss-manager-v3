@@ -6488,5 +6488,31 @@
             "police_stations": 2,
             "fire_stations": 10
         }
+    },
+    "317": {
+        "id": 317,
+        "name": "Crise de panique",
+        "place": "",
+        "place_array": {},
+        "average_credits": 250,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }
