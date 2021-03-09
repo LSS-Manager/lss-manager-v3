@@ -7891,15 +7891,16 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 120,
-                "2": 121,
-                "3": 122,
-                "4": 123,
-                "5": 124,
-                "6": 125,
-                "7": 126,
-                "8": 127,
-                "9": 128
+                "1": 27,
+                "2": 120,
+                "3": 121,
+                "4": 122,
+                "5": 123,
+                "6": 124,
+                "7": 125,
+                "8": 126,
+                "9": 127,
+                "10": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -16999,7 +17000,10 @@
         "additional": {
             "possible_patient": 20,
             "possible_patient_min": 5,
-            "followup_missions_ids": {},
+            "followup_missions_ids": {
+                "0": 611,
+                "1": 612
+            },
             "max_possible_prisoners": 10,
             "filter_id": "riot_police_missions",
             "patient_specializations": "Allgemeine Innere"

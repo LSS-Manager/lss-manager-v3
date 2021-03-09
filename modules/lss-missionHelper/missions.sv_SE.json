@@ -3042,9 +3042,7 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {
-                "0": 132
-            },
+            "expansion_missions_ids": {},
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -5720,9 +5718,7 @@
         },
         "additional": {
             "possible_patient": 1,
-            "expansion_missions_ids": {
-                "0": 281
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions",
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
