@@ -16999,10 +16999,7 @@
         "additional": {
             "possible_patient": 20,
             "possible_patient_min": 5,
-            "followup_missions_ids": {
-                "0": 611,
-                "1": 612
-            },
+            "followup_missions_ids": {},
             "max_possible_prisoners": 10,
             "filter_id": "riot_police_missions",
             "patient_specializations": "Allgemeine Innere"
