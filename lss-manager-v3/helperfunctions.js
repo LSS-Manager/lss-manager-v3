@@ -603,7 +603,8 @@ else if (I18n.locale == "de_DE") {
         "93": ["MTW-OV", 3],
         "94": ["DHuFüKw", 2],
         "95": ["Polizeimotorrad", 2],
-        "96": ["Außenlastbehälter (allgemein)", 2]
+        "96": ["Außenlastbehälter (allgemein)", 2],
+        "97": ["ITW", 1]
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
