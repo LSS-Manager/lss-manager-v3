@@ -6725,7 +6725,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 294
+            },
             "average_min_fire_personnel": 17,
             "filter_id": "firehouse_missions"
         },
@@ -6783,7 +6785,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 296
+            },
             "average_min_fire_personnel": 17,
             "filter_id": "firehouse_missions"
         },

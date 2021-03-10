@@ -3875,9 +3875,8 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 27,
-                "1": 43,
-                "2": 83
+                "0": 43,
+                "1": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -5355,8 +5354,7 @@
                 "0": 44,
                 "1": 74,
                 "2": 106,
-                "3": 107,
-                "4": 611
+                "3": 107
             },
             "max_possible_prisoners": 5,
             "filter_id": "riot_police_missions",
@@ -16999,10 +16997,7 @@
         "additional": {
             "possible_patient": 20,
             "possible_patient_min": 5,
-            "followup_missions_ids": {
-                "0": 611,
-                "1": 612
-            },
+            "followup_missions_ids": {},
             "max_possible_prisoners": 10,
             "filter_id": "riot_police_missions",
             "patient_specializations": "Allgemeine Innere"
@@ -17362,5 +17357,28 @@
             "police_stations": 2,
             "fire_stations": 18
         }
+    },
+    "613": {
+        "id": 613,
+        "name": "Intensivverlegung",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "<span class=\"translation_missing localeapp\" title=\"translation missing: de_DE.-\"> </span>",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions"
+        },
+        "prerequisites": {}
     }
 }

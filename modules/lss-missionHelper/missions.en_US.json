@@ -16122,8 +16122,7 @@
         "requirements": {},
         "chances": {
             "patient_transport": 50,
-            "helicopter": 50,
-            "patient_critical_care": 10
+            "helicopter": 50
         },
         "additional": {
             "possible_patient": 1,
