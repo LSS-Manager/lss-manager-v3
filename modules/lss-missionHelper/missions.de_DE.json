@@ -3875,8 +3875,9 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -5354,7 +5355,9 @@
                 "0": 44,
                 "1": 74,
                 "2": 106,
-                "3": 107
+                "3": 107,
+				"4": 611,
+                "5": 612
             },
             "max_possible_prisoners": 5,
             "filter_id": "riot_police_missions",
@@ -7889,15 +7892,16 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 120,
-                "2": 121,
-                "3": 122,
-                "4": 123,
-                "5": 124,
-                "6": 125,
-                "7": 126,
-                "8": 127,
-                "9": 128
+                "1": 27,
+                "2": 120,
+                "3": 121,
+                "4": 122,
+                "5": 123,
+                "6": 124,
+                "7": 125,
+                "8": 126,
+                "9": 127,
+                "10": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -16997,7 +17001,10 @@
         "additional": {
             "possible_patient": 20,
             "possible_patient_min": 5,
-            "followup_missions_ids": {},
+            "followup_missions_ids": {
+                "0": 611,
+                "1": 612
+            },
             "max_possible_prisoners": 10,
             "filter_id": "riot_police_missions",
             "patient_specializations": "Allgemeine Innere"
@@ -17358,13 +17365,96 @@
             "fire_stations": 18
         }
     },
+    "611": {
+        "id": 611,
+        "name": "Ausschreitungen verfeindeter Gruppen (Klein)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 7000,
+        "generated_by": "Bereitschaftspolizei",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "lebefkw": 3,
+            "gefkw": 1,
+            "police_cars": 10,
+            "grukw": 9,
+            "fukw": 1,
+            "k9": 1
+        },
+        "chances": {
+            "k9": 40,
+            "nef": 40,
+            "patient_transport": 35
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 307,
+                "1": 612
+            },
+            "max_possible_prisoners": 10,
+            "filter_id": "riot_police_missions",
+            "patient_specializations": "Allgemeine Chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 10,
+            "bereitschaftspolizei": 2,
+            "guard_dog_count": 1
+        }
+    },
+    "612": {
+        "id": 612,
+        "name": "Ausschreitungen verfeindeter Gruppen (Gro\u00df)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 10000,
+        "generated_by": "Bereitschaftspolizei",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "lebefkw": 8,
+            "gefkw": 3,
+            "police_helicopters": 1,
+            "police_cars": 17,
+            "grukw": 24,
+            "fukw": 2,
+            "k9": 2
+        },
+        "chances": {
+            "nef": 40,
+            "patient_transport": 35
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 5,
+            "max_possible_prisoners": 25,
+            "filter_id": "riot_police_missions",
+            "patient_specializations": "Allgemeine Chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 14,
+            "police_helicopter_stations": 1,
+            "bereitschaftspolizei": 3,
+            "guard_dog_count": 1
+        }
+    },
     "613": {
         "id": 613,
         "name": "Intensivverlegung",
         "place": "",
         "place_array": {},
         "average_credits": null,
-        "generated_by": "<span class=\"translation_missing localeapp\" title=\"translation missing: de_DE.-\"> </span>",
+        "generated_by": "Rettungswache",
         "icons": {
             "0": "/images/ambulance_gruen.png",
             "1": "/images/ambulance_gelb.png",
