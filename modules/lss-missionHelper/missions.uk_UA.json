@@ -4293,5 +4293,35 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "218": {
+        "id": 218,
+        "name": "\u0412\u0456\u0434\u043a\u0440\u0438\u0442\u0438\u0439 \u0443\u0440\u043e\u043a \u041e\u0411\u0416",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 \u0445\u0432\u0438\u043b\u0438\u043d",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 1
+        }
     }
 }

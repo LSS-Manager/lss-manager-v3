@@ -662,8 +662,7 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2,
-                "2": 29
+                "1": 2
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -4922,6 +4921,36 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        }
+    },
+    "228": {
+        "id": 228,
+        "name": "65 Yhteis\u00f6tapahtumaan osallistuminen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 minuuttia",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 1
         }
     }
 }

@@ -5082,7 +5082,8 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 182
+                "2": 226,
+                "3": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -7657,6 +7658,76 @@
             "rescue_stations": 8,
             "police_stations": 2,
             "fire_stations": 25
+        }
+    },
+    "351": {
+        "id": 351,
+        "name": "Rozleg\u0142y po\u017car lasu",
+        "place": "Las",
+        "place_array": {
+            "0": "Las"
+        },
+        "average_credits": 10000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 50000,
+            "firetrucks": 30,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 2,
+            "water_tankers": 5,
+            "mobile_air_vehicles": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 20
+        }
+    },
+    "352": {
+        "id": 352,
+        "name": "Wybuch zbiornik\u00f3w chemicznych",
+        "place": "",
+        "place_array": {},
+        "average_credits": 11455,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 80000,
+            "firetrucks": 40,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 5,
+            "heavy_rescue_vehicles": 10,
+            "water_tankers": 5,
+            "mobile_air_vehicles": 10,
+            "hazmat_vehicles": 5,
+            "police_cars": 10
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 5,
+            "fire_stations": 35
         }
     }
 }

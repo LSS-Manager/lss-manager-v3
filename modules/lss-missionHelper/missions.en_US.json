@@ -16136,5 +16136,60 @@
         "prerequisites": {
             "rescue_stations": 2
         }
+    },
+    "539": {
+        "id": 539,
+        "name": "Bomb Explosion at Chemical Plant",
+        "place": "Large chemical storage tank",
+        "place_array": {
+            "0": "Large chemical storage tank"
+        },
+        "average_credits": 35000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 25,
+            "battalion_chief_vehicles": 10,
+            "mobile_command_vehicles": 2,
+            "platform_trucks": 10,
+            "heavy_rescue_vehicles": 12,
+            "water_tankers": 6,
+            "mobile_air_vehicles": 4,
+            "hazmat_vehicles": 4,
+            "police_cars": 12,
+            "personnel_educations": {
+                "gw_gefahrgut": 16
+            }
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 80,
+            "possible_patient_min": 30,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "6-C-1",
+                "1": "6-D-1",
+                "2": "6-D-2",
+                "3": "20-D-1",
+                "4": "20-D-0",
+                "5": "20-B-1",
+                "6": "22-B-1",
+                "7": "22-B-2"
+            },
+            "patient_specializations": "Traumatology",
+            "personnel_educations": {
+                "HazMat": 16
+            }
+        },
+        "prerequisites": {
+            "rescue_stations": 20,
+            "fire_stations": 25
+        }
     }
 }

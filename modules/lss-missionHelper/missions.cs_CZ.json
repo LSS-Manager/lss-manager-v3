@@ -6354,5 +6354,31 @@
             "police_stations": 6,
             "fire_stations": 15
         }
+    },
+    "301": {
+        "id": 301,
+        "name": "Panick\u00fd z\u00e1chvat",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "V\u0161eobecn\u00fd chirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }
