@@ -16173,14 +16173,14 @@
             "possible_patient_min": 30,
             "filter_id": "firehouse_missions",
             "patient_us_code_possible": {
-                "0": "6-C-1",
-                "1": "6-D-1",
-                "2": "6-D-2",
-                "3": "20-D-1",
-                "4": "20-D-0",
-                "5": "20-B-1",
-                "6": "22-B-1",
-                "7": "22-B-2"
+                "0": "7-D-3E",
+                "1": "7-D-4E",
+                "2": "7-C-2E",
+                "3": "7-C-4E",
+                "4": "7-B-1E",
+                "5": "7-A-3E",
+                "6": "8-D-5C",
+                "7": "8-D-6C"
             },
             "patient_specializations": "Traumatology",
             "personnel_educations": {
