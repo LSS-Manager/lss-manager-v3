@@ -2,7 +2,10 @@
     "0": {
         "id": 0,
         "name": "Papelera incendiada",
-        "place": "Bosque",
+        "place": "Parada de autob\u00fas",
+        "place_array": {
+            "0": "Parada de autob\u00fas"
+        },
         "average_credits": 110,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -24,7 +27,8 @@
     "1": {
         "id": 1,
         "name": "Contenedor incendiado",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -46,7 +50,8 @@
     "2": {
         "id": 2,
         "name": "Coche en llamas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 370,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -73,7 +78,8 @@
     "3": {
         "id": 3,
         "name": "Moto en llamas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -98,7 +104,8 @@
     "4": {
         "id": 4,
         "name": "Incendio en jard\u00edn",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -123,7 +130,8 @@
     "5": {
         "id": 5,
         "name": "Cuarto incendiado",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -151,7 +159,8 @@
     "6": {
         "id": 6,
         "name": "Cobertizo en llamas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -173,7 +182,8 @@
     "7": {
         "id": 7,
         "name": "Hojas ardiendo",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -198,7 +208,8 @@
     "8": {
         "id": 8,
         "name": "Basura industrial en llamas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 220,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -225,7 +236,8 @@
     "9": {
         "id": 9,
         "name": "Fardo de paja ardiendo",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -251,7 +263,8 @@
     "10": {
         "id": 10,
         "name": "Tractor incendiado",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -273,7 +286,8 @@
     "11": {
         "id": 11,
         "name": "Cabina ardiendo",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 240,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -295,7 +309,8 @@
     "12": {
         "id": 12,
         "name": "\u00c1rbol en la carretera",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -321,7 +336,8 @@
     "13": {
         "id": 13,
         "name": "Cami\u00f3n en llamas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 980,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -343,7 +359,8 @@
     "14": {
         "id": 14,
         "name": "Incendio en campo peque\u00f1o",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -368,7 +385,10 @@
     "15": {
         "id": 15,
         "name": "Incendio forestal peque\u00f1o",
-        "place": null,
+        "place": "Bosque",
+        "place_array": {
+            "0": "Bosque"
+        },
         "average_credits": 1010,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -390,7 +410,8 @@
     "16": {
         "id": 16,
         "name": "Caravana en llamas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -412,7 +433,8 @@
     "17": {
         "id": 17,
         "name": "Buz\u00f3n en llamas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -434,7 +456,8 @@
     "18": {
         "id": 18,
         "name": "Arbusto en llamas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -456,7 +479,8 @@
     "19": {
         "id": 19,
         "name": "Tr\u00e1iler ardiendo",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -478,7 +502,8 @@
     "20": {
         "id": 20,
         "name": "Incendio en s\u00f3tano",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -491,7 +516,8 @@
             "battalion_chief_vehicles": 1
         },
         "chances": {
-            "battalion_chief_vehicles": 90
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 2,
@@ -505,7 +531,8 @@
     "21": {
         "id": 21,
         "name": "Incendio en chimenea",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2400,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -532,7 +559,8 @@
     "22": {
         "id": 22,
         "name": "Incendio en tejado",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2700,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -559,7 +587,8 @@
     "23": {
         "id": 23,
         "name": "Incendio por aceite",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -581,7 +610,10 @@
     "24": {
         "id": 24,
         "name": "Estaci\u00f3n de autobuses ardiendo",
-        "place": "Bosque",
+        "place": "Parada de autob\u00fas",
+        "place_array": {
+            "0": "Parada de autob\u00fas"
+        },
         "average_credits": 900,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -603,7 +635,8 @@
     "25": {
         "id": 25,
         "name": "Accidente de tr\u00e1fico",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -635,6 +668,9 @@
         "id": 26,
         "name": "Incendio en supermercado peque\u00f1o",
         "place": "Supermercado (peque\u00f1o)",
+        "place_array": {
+            "0": "Supermercado (peque\u00f1o)"
+        },
         "average_credits": 1500,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -652,6 +688,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna general"
         },
         "prerequisites": {
@@ -662,7 +699,8 @@
     "27": {
         "id": 27,
         "name": "Garaje en llamas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -684,7 +722,8 @@
     "28": {
         "id": 28,
         "name": "M\u00e1quina ardiendo",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2470,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -702,7 +741,8 @@
             "water_tankers": 30
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 5
@@ -711,7 +751,8 @@
     "29": {
         "id": 29,
         "name": "Vertido de cami\u00f3n desconocido",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5300,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -738,7 +779,8 @@
     "30": {
         "id": 30,
         "name": "Escape de gas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -761,7 +803,8 @@
     "31": {
         "id": 31,
         "name": "Incendio por parrilla",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1310,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -785,7 +828,8 @@
     "32": {
         "id": 32,
         "name": "Cosechadora incendiada",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -808,6 +852,9 @@
         "id": 33,
         "name": "Incendio en supermercado peque\u00f1o",
         "place": "Supermercado (peque\u00f1o)",
+        "place_array": {
+            "0": "Supermercado (peque\u00f1o)"
+        },
         "average_credits": 1500,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -825,6 +872,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna general"
         },
         "prerequisites": {
@@ -836,6 +884,9 @@
         "id": 34,
         "name": "Incendio en hospital",
         "place": "Hospital",
+        "place_array": {
+            "0": "Hospital"
+        },
         "average_credits": 6000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -856,6 +907,7 @@
         "additional": {
             "possible_patient": 25,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna general"
         },
         "prerequisites": {
@@ -866,34 +918,34 @@
     "35": {
         "id": 35,
         "name": "Coma et\u00edlico",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
-        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "generated_by": "Parque de ambulancias",
         "icons": {
-            "0": "/images/bar_coktail_gruen.png",
-            "1": "/images/bar_coktail_gelb.png",
-            "2": "/images/bar_coktail_rot.png"
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "requirements": {
-            "police_cars": 1
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
         },
-        "chances": {},
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "police_station_missions",
-            "patient_at_end_of_mission": true,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Medicina interna general"
         },
         "prerequisites": {
-            "rescue_stations": 1,
-            "police_stations": 1
+            "rescue_stations": 1
         }
     },
     "36": {
         "id": 36,
         "name": "Dolor tor\u00e1cico",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -918,7 +970,8 @@
     "37": {
         "id": 37,
         "name": "Ataque de asma",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -943,7 +996,8 @@
     "38": {
         "id": 38,
         "name": "Convulsiones",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -968,7 +1022,8 @@
     "39": {
         "id": 39,
         "name": "Fiebre",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -984,6 +1039,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Medicina interna general"
         },
         "prerequisites": {
@@ -993,7 +1049,8 @@
     "40": {
         "id": 40,
         "name": "Ca\u00edda",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -1009,6 +1066,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traumatolog\u00eda"
         },
         "prerequisites": {
@@ -1019,6 +1077,9 @@
         "id": 41,
         "name": "Incendio en taller",
         "place": "Taller",
+        "place_array": {
+            "0": "Taller"
+        },
         "average_credits": 6000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1042,6 +1103,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna general"
         },
         "prerequisites": {
@@ -1053,7 +1115,8 @@
     "42": {
         "id": 42,
         "name": "Ca\u00edda",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -1069,6 +1132,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traumatolog\u00eda"
         },
         "prerequisites": {
@@ -1078,7 +1142,8 @@
     "43": {
         "id": 43,
         "name": "Ca\u00edda",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -1094,6 +1159,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traumatolog\u00eda"
         },
         "prerequisites": {
@@ -1104,6 +1170,9 @@
         "id": 44,
         "name": "Robo",
         "place": "Supermercado (peque\u00f1o)",
+        "place_array": {
+            "0": "Supermercado (peque\u00f1o)"
+        },
         "average_credits": 100,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1127,6 +1196,9 @@
         "id": 45,
         "name": "Robo",
         "place": "Supermercado (grande)",
+        "place_array": {
+            "0": "Supermercado (grande)"
+        },
         "average_credits": 100,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1150,6 +1222,9 @@
         "id": 46,
         "name": "Accidente en aparcamiento",
         "place": "Supermercado (peque\u00f1o)",
+        "place_array": {
+            "0": "Supermercado (peque\u00f1o)"
+        },
         "average_credits": 120,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1172,6 +1247,9 @@
         "id": 47,
         "name": "Accidente en aparcamiento",
         "place": "Supermercado (grande)",
+        "place_array": {
+            "0": "Supermercado (grande)"
+        },
         "average_credits": 120,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1194,6 +1272,9 @@
         "id": 48,
         "name": "Robo de metal",
         "place": "Estaci\u00f3n de mercan\u00edas",
+        "place_array": {
+            "0": "Estaci\u00f3n de mercan\u00edas"
+        },
         "average_credits": 150,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1217,6 +1298,9 @@
         "id": 49,
         "name": "Carterista",
         "place": "Parque",
+        "place_array": {
+            "0": "Parque"
+        },
         "average_credits": 150,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1239,7 +1323,10 @@
     "50": {
         "id": 50,
         "name": "Viajero sin ticket",
-        "place": "Bosque",
+        "place": "Parada de autob\u00fas",
+        "place_array": {
+            "0": "Parada de autob\u00fas"
+        },
         "average_credits": 120,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1262,6 +1349,9 @@
         "id": 51,
         "name": "Viajero sin ticket",
         "place": "Parada de tranv\u00eda",
+        "place_array": {
+            "0": "Parada de tranv\u00eda"
+        },
         "average_credits": 120,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1284,6 +1374,9 @@
         "id": 52,
         "name": "Viajero sin ticket",
         "place": "Parada de tren (cercan\u00edas)",
+        "place_array": {
+            "0": "Parada de tren (cercan\u00edas)"
+        },
         "average_credits": 120,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1306,6 +1399,9 @@
         "id": 53,
         "name": "Viajero sin ticket",
         "place": "Parada de tren (cercan\u00edas y larga distancia)",
+        "place_array": {
+            "0": "Parada de tren (cercan\u00edas y larga distancia)"
+        },
         "average_credits": 120,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1328,6 +1424,9 @@
         "id": 54,
         "name": "Accidente en aparcamiento",
         "place": "Centro comercial",
+        "place_array": {
+            "0": "Centro comercial"
+        },
         "average_credits": 120,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1349,7 +1448,8 @@
     "55": {
         "id": 55,
         "name": "Pelea",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1360,7 +1460,9 @@
         "requirements": {
             "police_cars": 3
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
@@ -1374,7 +1476,8 @@
     "56": {
         "id": 56,
         "name": "Disturbios",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1400,7 +1503,8 @@
     "57": {
         "id": 57,
         "name": "Manifestaci\u00f3n no anunciada",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10020,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1421,7 +1525,8 @@
     "58": {
         "id": 58,
         "name": "Incendio en cocina",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1444,6 +1549,9 @@
         "id": 59,
         "name": "Rescate de animal",
         "place": "Granja",
+        "place_array": {
+            "0": "Granja"
+        },
         "average_credits": 900,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1467,6 +1575,9 @@
         "id": 60,
         "name": "Estadio en llamas",
         "place": "Escuela",
+        "place_array": {
+            "0": "Escuela"
+        },
         "average_credits": 2000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1485,6 +1596,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna general"
         },
         "prerequisites": {
@@ -1496,6 +1608,9 @@
         "id": 61,
         "name": "Accidente de avioneta (aeropuerto)",
         "place": "Aeropuerto peque\u00f1o (pista)",
+        "place_array": {
+            "0": "Aeropuerto peque\u00f1o (pista)"
+        },
         "average_credits": 2500,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1524,7 +1639,8 @@
     "62": {
         "id": 62,
         "name": "Denuncia por exceso de ruido",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1546,7 +1662,8 @@
     "63": {
         "id": 63,
         "name": "Accidente isqu\u00e9mico transitorio",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -1571,7 +1688,8 @@
     "64": {
         "id": 64,
         "name": "Accidente de autob\u00fas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1599,7 +1717,8 @@
     "65": {
         "id": 65,
         "name": "Incendio en cocina",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1621,7 +1740,8 @@
     "66": {
         "id": 66,
         "name": "Cuarto incendiado",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1649,7 +1769,8 @@
     "67": {
         "id": 67,
         "name": "Pelea",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1660,7 +1781,9 @@
         "requirements": {
             "police_cars": 3
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
@@ -1675,6 +1798,9 @@
         "id": 68,
         "name": "Incendio en supermercado grande",
         "place": "Supermercado (grande)",
+        "place_array": {
+            "0": "Supermercado (grande)"
+        },
         "average_credits": 3000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1697,6 +1823,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna general"
         },
         "prerequisites": {
@@ -1708,7 +1835,8 @@
     "69": {
         "id": 69,
         "name": "Vertido de cami\u00f3n desconocido",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4300,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1736,6 +1864,9 @@
         "id": 70,
         "name": "Incendio en supermercado grande",
         "place": "Supermercado (grande)",
+        "place_array": {
+            "0": "Supermercado (grande)"
+        },
         "average_credits": 3000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1758,6 +1889,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna general"
         },
         "prerequisites": {
@@ -1769,7 +1901,8 @@
     "71": {
         "id": 71,
         "name": "Sangrado nasal",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -1778,11 +1911,14 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Cirug\u00eda general"
         },
         "prerequisites": {
@@ -1792,7 +1928,8 @@
     "72": {
         "id": 72,
         "name": "Accidente de avioneta",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1824,7 +1961,8 @@
     "73": {
         "id": 73,
         "name": "Accidente de autob\u00fas serio",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1856,7 +1994,8 @@
     "74": {
         "id": 74,
         "name": "Gran incendio",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10210,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1881,7 +2020,8 @@
     "84": {
         "id": 84,
         "name": "Ciclista golpeado por un cami\u00f3n de mercanc\u00edas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1913,6 +2053,9 @@
         "id": 85,
         "name": "Incendio en la escuela",
         "place": "Escuela",
+        "place_array": {
+            "0": "Escuela"
+        },
         "average_credits": 5300,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1930,6 +2073,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna general"
         },
         "prerequisites": {
@@ -1940,7 +2084,8 @@
     "93": {
         "id": 93,
         "name": "Pasajero agresivo",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 300,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -1966,7 +2111,8 @@
     "94": {
         "id": 94,
         "name": "Persona atrapada bajo maquinaria",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -1996,7 +2142,8 @@
     "95": {
         "id": 95,
         "name": "Techo da\u00f1ado",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 450,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2021,7 +2168,8 @@
     "96": {
         "id": 96,
         "name": "Apilamiento de coches",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1300,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2054,7 +2202,8 @@
     "97": {
         "id": 97,
         "name": "Cami\u00f3n con semirremolque en llamas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 900,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2077,6 +2226,9 @@
         "id": 98,
         "name": "Accidente de tractor",
         "place": "Granja",
+        "place_array": {
+            "0": "Granja"
+        },
         "average_credits": 1000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2105,7 +2257,8 @@
     "112": {
         "id": 112,
         "name": "Veh\u00edculo de mercanc\u00eda pesada en llamas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2133,7 +2286,8 @@
     "113": {
         "id": 113,
         "name": "Cami\u00f3n de la basura en llamas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2159,7 +2313,8 @@
     "114": {
         "id": 114,
         "name": "Accidente de motocicleta",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2300,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2189,7 +2344,8 @@
     "115": {
         "id": 115,
         "name": "Intoxicaci\u00f3n por mon\u00f3xido de carbono",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2300,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2222,7 +2378,8 @@
     "116": {
         "id": 116,
         "name": "Vuelco de veh\u00edculo a motor",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 3000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2255,6 +2412,9 @@
         "id": 117,
         "name": "Robo a mano armada",
         "place": "Supermercado (peque\u00f1o)",
+        "place_array": {
+            "0": "Supermercado (peque\u00f1o)"
+        },
         "average_credits": 1300,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -2265,7 +2425,9 @@
         "requirements": {
             "police_cars": 5
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "max_possible_prisoners": 2,
@@ -2279,7 +2441,8 @@
     "118": {
         "id": 118,
         "name": "Fuego en la cocina",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2304,7 +2467,8 @@
     "119": {
         "id": 119,
         "name": "Asfixia",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -2320,6 +2484,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Medicina interna general"
         },
         "prerequisites": {
@@ -2330,6 +2495,9 @@
         "id": 120,
         "name": "Fuego en la cafeter\u00eda",
         "place": "Escuela",
+        "place_array": {
+            "0": "Escuela"
+        },
         "average_credits": 1300,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2347,6 +2515,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna general"
         },
         "prerequisites": {
@@ -2357,7 +2526,8 @@
     "121": {
         "id": 121,
         "name": "Escalador atascador",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2371,7 +2541,8 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {
-            "platform_trucks": 50
+            "platform_trucks": 50,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -2389,6 +2560,9 @@
         "id": 122,
         "name": "Amenaza a un oficial",
         "place": "Estaci\u00f3n de metro",
+        "place_array": {
+            "0": "Estaci\u00f3n de metro"
+        },
         "average_credits": 750,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -2399,7 +2573,9 @@
         "requirements": {
             "police_cars": 2
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "max_possible_prisoners": 2,
@@ -2415,6 +2591,9 @@
         "id": 123,
         "name": "Fuego en el granero",
         "place": "Granero",
+        "place_array": {
+            "0": "Granero"
+        },
         "average_credits": 3000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2439,7 +2618,8 @@
     "124": {
         "id": 124,
         "name": "Persona herida en un poste de alto voltaje",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -2470,6 +2650,9 @@
         "id": 125,
         "name": "Incendio de una pila de paja",
         "place": "Granja",
+        "place_array": {
+            "0": "Granja"
+        },
         "average_credits": 1500,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2493,7 +2676,8 @@
     "126": {
         "id": 126,
         "name": "Redada policial residencial",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -2516,7 +2700,10 @@
     "138": {
         "id": 138,
         "name": "Descarrilamiento del tren de carga",
-        "place": null,
+        "place": "",
+        "place_array": {
+            "0": ""
+        },
         "average_credits": 10000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2553,6 +2740,9 @@
         "id": 139,
         "name": "Descarrilamiento del tren de carga",
         "place": "Parada de tren (cercan\u00edas y larga distancia)",
+        "place_array": {
+            "0": "Parada de tren (cercan\u00edas y larga distancia)"
+        },
         "average_credits": 10000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2589,6 +2779,9 @@
         "id": 140,
         "name": "Descarrilamiento del tren de carga",
         "place": "Parada de tren (cercan\u00edas)",
+        "place_array": {
+            "0": "Parada de tren (cercan\u00edas)"
+        },
         "average_credits": 10000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2624,7 +2817,8 @@
     "141": {
         "id": 141,
         "name": "Rescate en zanjas",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2638,7 +2832,9 @@
             "heavy_rescue_vehicles": 2,
             "police_cars": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 2,
@@ -2654,7 +2850,8 @@
     "142": {
         "id": 142,
         "name": "Choque anafil\u00e1ctico",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -2679,7 +2876,8 @@
     "143": {
         "id": 143,
         "name": "Corredor lesionado",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -2704,7 +2902,8 @@
     "144": {
         "id": 144,
         "name": "Ni\u00f1o desaparecido",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -2731,7 +2930,8 @@
     "145": {
         "id": 145,
         "name": "Lesi\u00f3n medular",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -2757,7 +2957,8 @@
     "146": {
         "id": 146,
         "name": "Derrumbe parcial de un edificio",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 7500,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2791,7 +2992,8 @@
     "147": {
         "id": 147,
         "name": "Derrumbe de un edificio",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 9000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2825,7 +3027,8 @@
     "148": {
         "id": 148,
         "name": "Quemaduras de tercer grado",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -2851,7 +3054,8 @@
     "149": {
         "id": 149,
         "name": "Traumatismo cerebral",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -2877,7 +3081,8 @@
     "150": {
         "id": 150,
         "name": "Amputaci\u00f3n traum\u00e1tica de la extremidad",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -2904,6 +3109,9 @@
         "id": 151,
         "name": "Gran incendio en una granja",
         "place": "Granja",
+        "place_array": {
+            "0": "Granja"
+        },
         "average_credits": 9000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2928,7 +3136,8 @@
     "152": {
         "id": 152,
         "name": "Dolor de espalda",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -2955,6 +3164,9 @@
         "id": 153,
         "name": "Incendio en vertedero",
         "place": "Vertedero",
+        "place_array": {
+            "0": "Vertedero"
+        },
         "average_credits": 3500,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -2981,7 +3193,8 @@
     "154": {
         "id": 154,
         "name": "Persona con arma de fuego",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -3004,7 +3217,8 @@
     "155": {
         "id": 155,
         "name": "Accidente de transporte de animales",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -3032,7 +3246,8 @@
     "156": {
         "id": 156,
         "name": "Tuber\u00eda de agua rota",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -3059,7 +3274,8 @@
     "157": {
         "id": 157,
         "name": "Brazo roto",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -3084,7 +3300,8 @@
     "158": {
         "id": 158,
         "name": "Pierna rota",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -3109,7 +3326,8 @@
     "159": {
         "id": 159,
         "name": "Deshidrataci\u00f3n",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -3134,7 +3352,8 @@
     "160": {
         "id": 160,
         "name": "Intoxicaci\u00f3n alimentaria",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -3143,153 +3362,27 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Cirug\u00eda general"
         },
         "prerequisites": {
             "rescue_stations": 1
         }
     },
-    "161": {
-        "id": 161,
-        "name": "Insolaci\u00f3n",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Parque de ambulancias",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 10
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Vie, 26/Jun/2020 a las 10:00:00 +0200",
-            "date_end": "Jue, 01/Oct/2020 a las 00:00:00 +0200",
-            "patient_specializations": "Medicina interna general"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "162": {
-        "id": 162,
-        "name": "Golpe de calor",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Parque de ambulancias",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 60
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Vie, 26/Jun/2020 a las 10:00:00 +0200",
-            "date_end": "Jue, 01/Oct/2020 a las 00:00:00 +0200",
-            "patient_specializations": "Medicina interna general"
-        },
-        "prerequisites": {
-            "rescue_stations": 4
-        }
-    },
-    "163": {
-        "id": 163,
-        "name": "Calambre por calor",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Parque de ambulancias",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Vie, 26/Jun/2020 a las 10:00:00 +0200",
-            "date_end": "Jue, 01/Oct/2020 a las 00:00:00 +0200",
-            "patient_specializations": "Medicina interna general"
-        },
-        "prerequisites": {
-            "rescue_stations": 4
-        }
-    },
-    "164": {
-        "id": 164,
-        "name": "Persona deshidratada",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Parque de ambulancias",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Vie, 26/Jun/2020 a las 10:00:00 +0200",
-            "date_end": "Jue, 01/Oct/2020 a las 00:00:00 +0200",
-            "patient_specializations": "Medicina interna general"
-        },
-        "prerequisites": {
-            "rescue_stations": 3
-        }
-    },
-    "165": {
-        "id": 165,
-        "name": "Incendio por barbacoa",
-        "place": null,
-        "average_credits": 600,
-        "generated_by": "Parque de bomberos",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "Vie, 26/Jun/2020 a las 10:00:00 +0200",
-            "date_end": "Jue, 01/Oct/2020 a las 00:00:00 +0200"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
     "166": {
         "id": 166,
         "name": "Incendio en hotel (peque\u00f1o)",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 3000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -3320,6 +3413,9 @@
         "id": 167,
         "name": "Incendio en hotel (medio)",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 5000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -3352,6 +3448,9 @@
         "id": 168,
         "name": "Fallo de sem\u00e1foro",
         "place": "Intersecci\u00f3n con sem\u00e1foros",
+        "place_array": {
+            "0": "Intersecci\u00f3n con sem\u00e1foros"
+        },
         "average_credits": 250,
         "generated_by": "Comisar\u00eda de polic\u00eda",
         "icons": {
@@ -3364,7 +3463,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "20 minutter",
+            "duration_text": "20 minutos",
+            "duration": 1200,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -3376,6 +3476,9 @@
         "id": 169,
         "name": "Incendio en hotel (grande)",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 8000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -3415,6 +3518,9 @@
         "id": 170,
         "name": "Incendio en hotel (mayor)",
         "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
         "average_credits": 12000,
         "generated_by": "Parque de bomberos",
         "icons": {
@@ -3449,7 +3555,8 @@
     "171": {
         "id": 171,
         "name": "Reacci\u00f3n al\u00e9rgica",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Parque de ambulancias",
         "icons": {
@@ -3469,6 +3576,1733 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        }
+    },
+    "172": {
+        "id": 172,
+        "name": "Persona en las v\u00edas del tren",
+        "place": "Parada de tren (cercan\u00edas)",
+        "place_array": {
+            "0": "Parada de tren (cercan\u00edas)"
+        },
+        "average_credits": 900,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 174
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "173": {
+        "id": 173,
+        "name": "Persona en las v\u00edas del tren",
+        "place": "Parada de tren (cercan\u00edas y larga distancia)",
+        "place_array": {
+            "0": "Parada de tren (cercan\u00edas y larga distancia)"
+        },
+        "average_credits": 900,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 175
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "174": {
+        "id": 174,
+        "name": "Persona arrollada por tren",
+        "place": "Parada de tren (cercan\u00edas)",
+        "place_array": {
+            "0": "Parada de tren (cercan\u00edas)"
+        },
+        "average_credits": 3000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "175": {
+        "id": 175,
+        "name": "Persona arrollada por tren",
+        "place": "Parada de tren (cercan\u00edas y larga distancia)",
+        "place_array": {
+            "0": "Parada de tren (cercan\u00edas y larga distancia)"
+        },
+        "average_credits": 3000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "176": {
+        "id": 176,
+        "name": "Incendio de veh\u00edculo en el t\u00fanel",
+        "place": "T\u00fanel",
+        "place_array": {
+            "0": "T\u00fanel"
+        },
+        "average_credits": 1500,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "177": {
+        "id": 177,
+        "name": "Incendio en central el\u00e9ctrica",
+        "place": "Central el\u00e9ctrica",
+        "place_array": {
+            "0": "Central el\u00e9ctrica"
+        },
+        "average_credits": 14500,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 2,
+            "mobile_air_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 15
+        }
+    },
+    "178": {
+        "id": 178,
+        "name": "Histeria colectiva en discoteca",
+        "place": "Discoteca",
+        "place_array": {
+            "0": "Discoteca"
+        },
+        "average_credits": 3500,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 9
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 17,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Cirug\u00eda general"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 9
+        }
+    },
+    "179": {
+        "id": 179,
+        "name": "Incendio en bloque de oficinas",
+        "place": "Edificio de oficinas",
+        "place_array": {
+            "0": "Edificio de oficinas"
+        },
+        "average_credits": 7000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "180": {
+        "id": 180,
+        "name": "Incendio en el centro de reciclaje",
+        "place": "Centro de reciclaje",
+        "place_array": {
+            "0": "Centro de reciclaje"
+        },
+        "average_credits": 10000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 3,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 15
+        }
+    },
+    "181": {
+        "id": 181,
+        "name": "Accidente con quemaduras de \u00e1cido",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "182": {
+        "id": 182,
+        "name": "Incendio menor en una f\u00e1brica",
+        "place": "F\u00e1brica",
+        "place_array": {
+            "0": "F\u00e1brica"
+        },
+        "average_credits": 2000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "183": {
+        "id": 183,
+        "name": "Incendio mayor en una f\u00e1brica",
+        "place": "F\u00e1brica",
+        "place_array": {
+            "0": "F\u00e1brica"
+        },
+        "average_credits": 9000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 7,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 2,
+            "fire_stations": 15
+        }
+    },
+    "184": {
+        "id": 184,
+        "name": "Contrabando de mercanc\u00edas ilegales",
+        "place": "Puerto de mercanc\u00edas",
+        "place_array": {
+            "0": "Puerto de mercanc\u00edas"
+        },
+        "average_credits": 800,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "185": {
+        "id": 185,
+        "name": "Contrabando de mercanc\u00edas ilegales",
+        "place": "Cubierta de yate",
+        "place_array": {
+            "0": "Cubierta de yate"
+        },
+        "average_credits": 800,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "186": {
+        "id": 186,
+        "name": "Contrabando de mercanc\u00edas ilegales",
+        "place": "Estaci\u00f3n de mercan\u00edas",
+        "place_array": {
+            "0": "Estaci\u00f3n de mercan\u00edas"
+        },
+        "average_credits": 800,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "187": {
+        "id": 187,
+        "name": "Incendio en alcantarilla",
+        "place": "",
+        "place_array": {},
+        "average_credits": 210,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "188": {
+        "id": 188,
+        "name": "Persona atrapada bajo \u00e1rbol",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "fire_stations": 6
+        }
+    },
+    "189": {
+        "id": 189,
+        "name": "Concierto",
+        "place": "Estadio",
+        "place_array": {
+            "0": "Estadio"
+        },
+        "average_credits": 7000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 1,
+            "police_cars": 7
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hora",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 5,
+            "fire_stations": 3
+        }
+    },
+    "190": {
+        "id": 190,
+        "name": "Incendio en museo",
+        "place": "Museo",
+        "place_array": {
+            "0": "Museo"
+        },
+        "average_credits": 7500,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "water_tankers": 20
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "191": {
+        "id": 191,
+        "name": "Accidente con motosierra",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "192": {
+        "id": 192,
+        "name": "Incendio de vag\u00f3n de carga",
+        "place": "Estaci\u00f3n de mercan\u00edas",
+        "place_array": {
+            "0": "Estaci\u00f3n de mercan\u00edas"
+        },
+        "average_credits": 1500,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "210": {
+        "id": 210,
+        "name": "Radar de velocidad",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 minutos",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "211": {
+        "id": 211,
+        "name": "Prisionero Fugado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 10,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7,
+            "police_helicopter_stations": 1
+        }
+    },
+    "212": {
+        "id": 212,
+        "name": "Sospechoso a la Fuga",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "police_helicopter_stations": 1
+        }
+    },
+    "213": {
+        "id": 213,
+        "name": "Persona Desaparecida",
+        "place": "Bosque",
+        "place_array": {
+            "0": "Bosque"
+        },
+        "average_credits": 4500,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 5
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "police_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "214": {
+        "id": 214,
+        "name": "Orden de Busca y Caputra",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 215
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "police_helicopter_stations": 1
+        }
+    },
+    "215": {
+        "id": 215,
+        "name": "Agente Herido",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "swat_suv": 2,
+            "police_cars": 6
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Cirug\u00eda general"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "216": {
+        "id": 216,
+        "name": "B\u00fasqueda de Veh\u00edculo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "217": {
+        "id": 217,
+        "name": "Peque\u00f1a protesta violenta",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2200,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "swat_armored_vehicle": 2,
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "expansion_missions_ids": {
+                "0": 218
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 6
+        }
+    },
+    "218": {
+        "id": 218,
+        "name": "Protesta violenta media",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "swat_armored_vehicle": 4,
+            "police_helicopters": 1,
+            "police_cars": 7,
+            "k9": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 5,
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 7,
+            "police_helicopter_stations": 1
+        }
+    },
+    "219": {
+        "id": 219,
+        "name": "Tr\u00e1fico de drogas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "220": {
+        "id": 220,
+        "name": "Robo en Gasolinera",
+        "place": "Gasolinera",
+        "place_array": {
+            "0": "Gasolinera"
+        },
+        "average_credits": 1250,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/gas_gruen.png",
+            "1": "/images/gas_gelb.png",
+            "2": "/images/gas_rot.png"
+        },
+        "requirements": {
+            "swat_suv": 4,
+            "police_helicopters": 1,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 8,
+            "police_helicopter_stations": 1
+        }
+    },
+    "221": {
+        "id": 221,
+        "name": "Disparos a un polic\u00eda",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4100,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "swat_suv": 2,
+            "police_helicopters": 1,
+            "police_cars": 8,
+            "k9": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 10,
+            "police_helicopter_stations": 1
+        }
+    },
+    "222": {
+        "id": 222,
+        "name": "Escolta de Personalidad",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "swat_suv": 4,
+            "swat_armored_vehicle": 2,
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "k9": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 minutos",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 15
+        }
+    },
+    "223": {
+        "id": 223,
+        "name": "Allanamiento de Morada",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1250,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "swat_suv": 1,
+            "police_helicopters": 1,
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 9,
+            "police_helicopter_stations": 1
+        }
+    },
+    "224": {
+        "id": 224,
+        "name": "Intento de Homicidio",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "swat_suv": 2,
+            "police_cars": 6
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 9
+        }
+    },
+    "225": {
+        "id": 225,
+        "name": "Robo en el Museo",
+        "place": "Museo",
+        "place_array": {
+            "0": "Museo"
+        },
+        "average_credits": 1000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "swat_suv": 2,
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 9
+        }
+    },
+    "226": {
+        "id": 226,
+        "name": "Incendio en taller de carpinter\u00eda",
+        "place": "Taller de carpinter\u00eda",
+        "place_array": {
+            "0": "Taller de carpinter\u00eda"
+        },
+        "average_credits": 4200,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "227": {
+        "id": 227,
+        "name": "Incendio en restaurante",
+        "place": "Restaurante",
+        "place_array": {
+            "0": "Restaurante"
+        },
+        "average_credits": 5000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "platform_trucks": 50,
+            "water_tankers": 20,
+            "mobile_air_vehicles": 20,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 5,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 10
+        }
+    },
+    "228": {
+        "id": 228,
+        "name": "Persona sospechosa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "229": {
+        "id": 229,
+        "name": "Electrocuci\u00f3n",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "230": {
+        "id": 230,
+        "name": "Patrulla de mercado callejero",
+        "place": "Centro de la ciudad",
+        "place_array": {
+            "0": "Centro de la ciudad"
+        },
+        "average_credits": 1500,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 minutos",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "231": {
+        "id": 231,
+        "name": "Autob\u00fas en llamas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 12,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "fire_stations": 6
+        }
+    },
+    "232": {
+        "id": 232,
+        "name": "Deslizamiento de tierra",
+        "place": "Monta\u00f1a",
+        "place_array": {
+            "0": "Monta\u00f1a"
+        },
+        "average_credits": 1500,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 5,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 8
+        }
+    },
+    "243": {
+        "id": 243,
+        "name": "Accidente motociclista en una carretera de monta\u00f1a",
+        "place": "Monta\u00f1a",
+        "place_array": {
+            "0": "Monta\u00f1a"
+        },
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cirug\u00eda general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "244": {
+        "id": 244,
+        "name": "Bloqueo de carretera principal",
+        "place": "Puente",
+        "place_array": {
+            "0": "Puente"
+        },
+        "average_credits": 6000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hora",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 5
+        }
+    },
+    "245": {
+        "id": 245,
+        "name": "Incendio en edificio alto",
+        "place": "Rascacielos",
+        "place_array": {
+            "0": "Rascacielos"
+        },
+        "average_credits": 1500,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 4,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 10
+        }
+    },
+    "246": {
+        "id": 246,
+        "name": "Ca\u00edda de un transportista",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cirug\u00eda general"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "247": {
+        "id": 247,
+        "name": "Actividad ilegal en Internet",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "248": {
+        "id": 248,
+        "name": "Gato atrapado en \u00e1rbol",
+        "place": "",
+        "place_array": {},
+        "average_credits": 375,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "249": {
+        "id": 249,
+        "name": "Paquete sospechoso",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "250": {
+        "id": 250,
+        "name": "Robo en una joyer\u00eda",
+        "place": "Centro comercial",
+        "place_array": {
+            "0": "Centro comercial"
+        },
+        "average_credits": 800,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "251": {
+        "id": 251,
+        "name": "Corredor herido",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cirug\u00eda general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "252": {
+        "id": 252,
+        "name": "Fragmento de vidrio incrustado en mano",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cirug\u00eda general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "253": {
+        "id": 253,
+        "name": "Observaci\u00f3n de sospechoso",
+        "place": "",
+        "place_array": {},
+        "average_credits": 6000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hora",
+            "duration": 3600,
+            "max_possible_prisoners": 1,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "263": {
+        "id": 263,
+        "name": "Muelle en llamas",
+        "place": "Muelle",
+        "place_array": {
+            "0": "Muelle"
+        },
+        "average_credits": 5000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 7
+        }
+    },
+    "264": {
+        "id": 264,
+        "name": "Ataque de p\u00e1nico",
+        "place": "",
+        "place_array": {},
+        "average_credits": 250,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cirug\u00eda general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "265": {
+        "id": 265,
+        "name": "Jornada de puertas abiertas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 minutos",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 1
         }
     }
 }

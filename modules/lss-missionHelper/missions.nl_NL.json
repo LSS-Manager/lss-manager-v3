@@ -20084,5 +20084,57 @@
             "police_stations": 2,
             "fire_stations": 6
         }
+    },
+    "757": {
+        "id": 757,
+        "name": "Overdosis medicatie",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "758": {
+        "id": 758,
+        "name": "Plotselinge verwardheid",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Neurologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }

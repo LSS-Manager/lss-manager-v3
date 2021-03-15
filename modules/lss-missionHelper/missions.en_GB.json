@@ -6911,5 +6911,151 @@
             "police_stations": 5,
             "fire_stations": 14
         }
+    },
+    "294": {
+        "id": 294,
+        "name": "Train station fire (Large)",
+        "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
+        "average_credits": 8000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 6,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "water_tankers": 10
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 295
+            },
+            "average_min_fire_personnel": 42,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "295": {
+        "id": 295,
+        "name": "Train station fire (Major)",
+        "place": "Train station (regional traffic)",
+        "place_array": {
+            "0": "Train station (regional traffic)"
+        },
+        "average_credits": 15000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {
+            "average_min_fire_personnel": 63,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "fire_stations": 20
+        }
+    },
+    "296": {
+        "id": 296,
+        "name": "Train station fire (Large)",
+        "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
+        "average_credits": 8000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 6,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "water_tankers": 10
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 297
+            },
+            "average_min_fire_personnel": 42,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "297": {
+        "id": 297,
+        "name": "Train station fire (Major)",
+        "place": "Train station (regional traffic and long-distance travel)",
+        "place_array": {
+            "0": "Train station (regional traffic and long-distance travel)"
+        },
+        "average_credits": 15000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {
+            "average_min_fire_personnel": 63,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "fire_stations": 20
+        }
     }
 }

@@ -6526,5 +6526,35 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "301": {
+        "id": 301,
+        "name": "\u00c5bent hus",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 minutter",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 1
+        }
     }
 }

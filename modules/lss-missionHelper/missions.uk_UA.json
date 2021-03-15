@@ -3,6 +3,9 @@
         "id": 0,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0443\u0440\u043d\u0438",
         "place": "\u0410\u0432\u0442\u043e\u0431\u0443\u0441\u043d\u0430 \u0437\u0443\u043f\u0438\u043d\u043a\u0430",
+        "place_array": {
+            "0": "\u0410\u0432\u0442\u043e\u0431\u0443\u0441\u043d\u0430 \u0437\u0443\u043f\u0438\u043d\u043a\u0430"
+        },
         "average_credits": 110,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -24,7 +27,8 @@
     "1": {
         "id": 1,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u043a\u043e\u043d\u0442\u0435\u0439\u043d\u0435\u0440\u0430",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 170,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -46,7 +50,8 @@
     "2": {
         "id": 2,
         "name": "\u041f\u0430\u043b\u0430\u044e\u0447\u0438\u0439 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u044c",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 370,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -73,7 +78,8 @@
     "3": {
         "id": 3,
         "name": "\u041f\u0430\u043b\u0430\u044e\u0447\u0438\u0439 \u043c\u043e\u0442\u043e\u0446\u0438\u043a\u043b",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -98,7 +104,8 @@
     "4": {
         "id": 4,
         "name": "\u041f\u0430\u043b\u0430\u044e\u0447\u0430 \u0442\u0440\u0430\u0432\u0430",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 200,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -123,7 +130,8 @@
     "5": {
         "id": 5,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0443 \u043f\u0440\u0438\u043c\u0456\u0449\u0435\u043d\u043d\u0456",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -151,7 +159,8 @@
     "6": {
         "id": 6,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0443 \u0441\u0430\u0440\u0430\u0457",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -173,7 +182,8 @@
     "7": {
         "id": 7,
         "name": "\u041f\u0430\u043b\u0430\u044e\u0447\u0435 \u043b\u0438\u0441\u0442\u044f",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 210,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -198,7 +208,8 @@
     "8": {
         "id": 8,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0441\u043c\u0456\u0442\u0442\u044f",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 220,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -225,7 +236,8 @@
     "9": {
         "id": 9,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0442\u044e\u043a\u0430 \u0441\u043e\u043b\u043e\u043c\u0438",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 250,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -251,7 +263,8 @@
     "10": {
         "id": 10,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0442\u0440\u0430\u043a\u0442\u043e\u0440\u0430",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 600,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -273,7 +286,8 @@
     "11": {
         "id": 11,
         "name": "\u041f\u0430\u043b\u0430\u044e\u0447\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043d\u0430 \u0431\u0443\u0434\u043a\u0430",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 240,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -295,7 +309,8 @@
     "12": {
         "id": 12,
         "name": "\u0414\u0435\u0440\u0435\u0432\u043e \u043d\u0430 \u0434\u043e\u0440\u043e\u0437\u0456",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 310,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -321,7 +336,8 @@
     "13": {
         "id": 13,
         "name": "\u041f\u0430\u043b\u0430\u044e\u0447\u0430 \u0432\u0430\u043d\u0442\u0430\u0436\u0456\u0432\u043a\u0430",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 980,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -343,7 +359,8 @@
     "14": {
         "id": 14,
         "name": "\u041d\u0435\u0432\u0435\u043b\u0438\u043a\u0435 \u0437\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u043d\u0430 \u043f\u043e\u043b\u0456",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -369,6 +386,9 @@
         "id": 15,
         "name": "\u041d\u0435\u0432\u0435\u043b\u0438\u043a\u0430 \u043b\u0456\u0441\u043e\u0432\u0430 \u043f\u043e\u0436\u0435\u0436\u0430",
         "place": "\u041b\u0456\u0441",
+        "place_array": {
+            "0": "\u041b\u0456\u0441"
+        },
         "average_credits": 1010,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -390,7 +410,8 @@
     "16": {
         "id": 16,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0443 \u0430\u0432\u0442\u043e\u0434\u043e\u043c\u0456",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1100,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -412,7 +433,8 @@
     "17": {
         "id": 17,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0457 \u0441\u043a\u0440\u0438\u043d\u044c\u043a\u0438",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 340,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -434,7 +456,8 @@
     "18": {
         "id": 18,
         "name": "\u041a\u0443\u043f\u0430 \u0445\u043c\u0438\u0437\u0443",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -456,7 +479,8 @@
     "19": {
         "id": 19,
         "name": "\u041f\u0430\u043b\u0430\u044e\u0447\u0438\u0439 \u043f\u0440\u0438\u0447\u0435\u043f",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -478,7 +502,8 @@
     "20": {
         "id": 20,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0443 \u043f\u0456\u0434\u0432\u0430\u043b\u0456",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -491,7 +516,8 @@
             "battalion_chief_vehicles": 1
         },
         "chances": {
-            "battalion_chief_vehicles": 90
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 2,
@@ -505,7 +531,8 @@
     "21": {
         "id": 21,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0443 \u0434\u0438\u043c\u043e\u0445\u043e\u0434\u0456",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2400,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -534,7 +561,8 @@
     "22": {
         "id": 22,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u043d\u0430 \u0434\u0430\u0445\u0443",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2700,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -561,7 +589,8 @@
     "23": {
         "id": 23,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0436\u0438\u0440\u0443",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -584,6 +613,9 @@
         "id": 24,
         "name": "\u041f\u0430\u043b\u0430\u044e\u0447\u0430 \u0430\u0432\u0442\u043e\u0431\u0443\u0441\u043d\u0430 \u0437\u0443\u043f\u0438\u043d\u043a\u0430",
         "place": "\u0410\u0432\u0442\u043e\u0431\u0443\u0441\u043d\u0430 \u0437\u0443\u043f\u0438\u043d\u043a\u0430",
+        "place_array": {
+            "0": "\u0410\u0432\u0442\u043e\u0431\u0443\u0441\u043d\u0430 \u0437\u0443\u043f\u0438\u043d\u043a\u0430"
+        },
         "average_credits": 900,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -605,7 +637,8 @@
     "25": {
         "id": 25,
         "name": "\u0414\u0422\u041f",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -637,6 +670,9 @@
         "id": 26,
         "name": "\u041c\u0430\u043b\u0435 \u0437\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0443 \u0441\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442\u0456",
         "place": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u043c\u0430\u043b\u0438\u0439)",
+        "place_array": {
+            "0": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u043c\u0430\u043b\u0438\u0439)"
+        },
         "average_credits": 1500,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -654,6 +690,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
         },
         "prerequisites": {
@@ -664,7 +701,8 @@
     "27": {
         "id": 27,
         "name": "\u041f\u043e\u0436\u0435\u0436\u0430 \u0443 \u0433\u0430\u0440\u0430\u0436\u0456",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -686,7 +724,8 @@
     "28": {
         "id": 28,
         "name": "\u041f\u0430\u043b\u0430\u044e\u0447\u0438\u0439 \u043c\u0435\u0445\u0430\u043d\u0456\u0437\u043c",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2470,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -704,7 +743,8 @@
             "water_tankers": 30
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
         },
         "prerequisites": {
             "fire_stations": 5
@@ -713,7 +753,8 @@
     "29": {
         "id": 29,
         "name": "\u0412\u0438\u043b\u0438\u0432 \u0437 \u043d\u0435\u0432\u0456\u0434\u043e\u043c\u043e\u0457 \u0446\u0438\u0441\u0442\u0435\u0440\u043d\u0438",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 5300,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -740,7 +781,8 @@
     "30": {
         "id": 30,
         "name": "\u0412\u0438\u0442\u0456\u043a \u0433\u0430\u0437\u0443",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -763,7 +805,8 @@
     "31": {
         "id": 31,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0443 \u043a\u0430\u043c\u0456\u043d\u0456",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1310,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -787,7 +830,8 @@
     "32": {
         "id": 32,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u043a\u043e\u043c\u0431\u0430\u0439\u043d\u0443",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -810,6 +854,9 @@
         "id": 33,
         "name": "\u041c\u0430\u043b\u0435 \u0437\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0443 \u0441\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442\u0456",
         "place": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u043c\u0430\u043b\u0438\u0439)",
+        "place_array": {
+            "0": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u043c\u0430\u043b\u0438\u0439)"
+        },
         "average_credits": 1500,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -827,6 +874,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
         },
         "prerequisites": {
@@ -838,6 +886,9 @@
         "id": 34,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0443 \u043b\u0456\u043a\u0430\u0440\u043d\u0456",
         "place": "\u041b\u0456\u043a\u0430\u0440\u043d\u044f",
+        "place_array": {
+            "0": "\u041b\u0456\u043a\u0430\u0440\u043d\u044f"
+        },
         "average_credits": 6000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -858,6 +909,7 @@
         "additional": {
             "possible_patient": 25,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
         },
         "prerequisites": {
@@ -868,34 +920,34 @@
     "35": {
         "id": 35,
         "name": "\u0410\u043b\u043a\u043e\u0433\u043e\u043b\u044c\u043d\u0435 \u043e\u0442\u0440\u0443\u0454\u043d\u043d\u044f",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
-        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
-            "0": "/images/bar_coktail_gruen.png",
-            "1": "/images/bar_coktail_gelb.png",
-            "2": "/images/bar_coktail_rot.png"
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "requirements": {
-            "police_cars": 1
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
         },
-        "chances": {},
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "police_station_missions",
-            "patient_at_end_of_mission": true,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
         },
         "prerequisites": {
-            "rescue_stations": 1,
-            "police_stations": 1
+            "rescue_stations": 1
         }
     },
     "36": {
         "id": 36,
         "name": "\u0411\u0456\u043b\u044c \u0443 \u0433\u0440\u0443\u0434\u044f\u0445",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -920,7 +972,8 @@
     "37": {
         "id": 37,
         "name": "\u0413\u043e\u0441\u0442\u0440\u0438\u0439 \u043d\u0430\u043f\u0430\u0434 \u0430\u0441\u0442\u043c\u0438",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -945,7 +998,8 @@
     "38": {
         "id": 38,
         "name": "\u041f\u0440\u0438\u043f\u0430\u0434\u043e\u043a",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -970,7 +1024,8 @@
     "39": {
         "id": 39,
         "name": "\u0416\u0430\u0440",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -986,6 +1041,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
         },
         "prerequisites": {
@@ -995,7 +1051,8 @@
     "40": {
         "id": 40,
         "name": "\u041f\u0430\u0434\u0456\u043d\u043d\u044f \u043b\u044e\u0434\u0438\u043d\u0438",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -1011,6 +1068,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0456\u044f"
         },
         "prerequisites": {
@@ -1021,6 +1079,9 @@
         "id": 41,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0443 \u0430\u0432\u0442\u043e\u043c\u0430\u0439\u0441\u0442\u0435\u0440\u043d\u0456",
         "place": "\u0410\u0432\u0442\u043e\u043c\u0430\u0439\u0441\u0442\u0435\u0440\u043d\u044f",
+        "place_array": {
+            "0": "\u0410\u0432\u0442\u043e\u043c\u0430\u0439\u0441\u0442\u0435\u0440\u043d\u044f"
+        },
         "average_credits": 6000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1044,6 +1105,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
         },
         "prerequisites": {
@@ -1055,7 +1117,8 @@
     "42": {
         "id": 42,
         "name": "\u041f\u0430\u0434\u0456\u043d\u043d\u044f \u043b\u044e\u0434\u0438\u043d\u0438",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -1071,6 +1134,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0456\u044f"
         },
         "prerequisites": {
@@ -1080,7 +1144,8 @@
     "43": {
         "id": 43,
         "name": "\u041f\u0430\u0434\u0456\u043d\u043d\u044f \u043b\u044e\u0434\u0438\u043d\u0438",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -1096,6 +1161,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0456\u044f"
         },
         "prerequisites": {
@@ -1106,6 +1172,9 @@
         "id": 44,
         "name": "\u041a\u0440\u0430\u0434\u0456\u0436\u043a\u0430 \u0443 \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0456",
         "place": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u043c\u0430\u043b\u0438\u0439)",
+        "place_array": {
+            "0": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u043c\u0430\u043b\u0438\u0439)"
+        },
         "average_credits": 100,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1129,6 +1198,9 @@
         "id": 45,
         "name": "\u041a\u0440\u0430\u0434\u0456\u0436\u043a\u0430 \u0443 \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0456",
         "place": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u0432\u0435\u043b\u0438\u043a\u0438\u0439)",
+        "place_array": {
+            "0": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u0432\u0435\u043b\u0438\u043a\u0438\u0439)"
+        },
         "average_credits": 100,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1152,6 +1224,9 @@
         "id": 46,
         "name": "\u0414\u0422\u041f \u0456\u0437 \u043f\u0440\u0438\u043f\u0430\u0440\u043a\u043e\u0432\u0430\u043d\u0438\u043c \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u0435\u043c",
         "place": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u043c\u0430\u043b\u0438\u0439)",
+        "place_array": {
+            "0": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u043c\u0430\u043b\u0438\u0439)"
+        },
         "average_credits": 120,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1174,6 +1249,9 @@
         "id": 47,
         "name": "\u0414\u0422\u041f \u0456\u0437 \u043f\u0440\u0438\u043f\u0430\u0440\u043a\u043e\u0432\u0430\u043d\u0438\u043c \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u0435\u043c",
         "place": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u0432\u0435\u043b\u0438\u043a\u0438\u0439)",
+        "place_array": {
+            "0": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u0432\u0435\u043b\u0438\u043a\u0438\u0439)"
+        },
         "average_credits": 120,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1196,6 +1274,9 @@
         "id": 48,
         "name": "\u041a\u0440\u0430\u0434\u0456\u0436\u043a\u0430 \u043c\u0435\u0442\u0430\u043b\u0443 \u0437\u0456 \u0437\u043b\u0430\u043c\u043e\u043c",
         "place": "\u0422\u043e\u0432\u0430\u0440\u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0456\u044f",
+        "place_array": {
+            "0": "\u0422\u043e\u0432\u0430\u0440\u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0456\u044f"
+        },
         "average_credits": 150,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1219,6 +1300,9 @@
         "id": 49,
         "name": "\u041a\u0438\u0448\u0435\u043d\u044c\u043a\u043e\u0432\u0430 \u043a\u0440\u0430\u0434\u0456\u0436\u043a\u0430",
         "place": "\u041f\u0430\u0440\u043a",
+        "place_array": {
+            "0": "\u041f\u0430\u0440\u043a"
+        },
         "average_credits": 150,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1242,6 +1326,9 @@
         "id": 50,
         "name": "\u0411\u0435\u0437\u0431\u0456\u043b\u0435\u0442\u043d\u0438\u043a",
         "place": "\u0410\u0432\u0442\u043e\u0431\u0443\u0441\u043d\u0430 \u0437\u0443\u043f\u0438\u043d\u043a\u0430",
+        "place_array": {
+            "0": "\u0410\u0432\u0442\u043e\u0431\u0443\u0441\u043d\u0430 \u0437\u0443\u043f\u0438\u043d\u043a\u0430"
+        },
         "average_credits": 120,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1264,6 +1351,9 @@
         "id": 51,
         "name": "\u0411\u0435\u0437\u0431\u0456\u043b\u0435\u0442\u043d\u0438\u043a",
         "place": "\u0422\u0440\u0430\u043c\u0432\u0430\u0439\u043d\u0430 \u0437\u0443\u043f\u0438\u043d\u043a\u0430",
+        "place_array": {
+            "0": "\u0422\u0440\u0430\u043c\u0432\u0430\u0439\u043d\u0430 \u0437\u0443\u043f\u0438\u043d\u043a\u0430"
+        },
         "average_credits": 120,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1286,6 +1376,9 @@
         "id": 52,
         "name": "\u0411\u0435\u0437\u0431\u0456\u043b\u0435\u0442\u043d\u0438\u043a",
         "place": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0456\u044f",
+        "place_array": {
+            "0": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0456\u044f"
+        },
         "average_credits": 120,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1308,6 +1401,9 @@
         "id": 53,
         "name": "\u0411\u0435\u0437\u0431\u0456\u043b\u0435\u0442\u043d\u0438\u043a",
         "place": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+        "place_array": {
+            "0": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b"
+        },
         "average_credits": 120,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1330,6 +1426,9 @@
         "id": 54,
         "name": "\u0414\u0422\u041f \u0456\u0437 \u043f\u0440\u0438\u043f\u0430\u0440\u043a\u043e\u0432\u0430\u043d\u0438\u043c \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u0435\u043c",
         "place": "\u0422\u043e\u0440\u0433\u0456\u0432\u0435\u043b\u044c\u043d\u0438\u0439 \u0446\u0435\u043d\u0442\u0440",
+        "place_array": {
+            "0": "\u0422\u043e\u0440\u0433\u0456\u0432\u0435\u043b\u044c\u043d\u0438\u0439 \u0446\u0435\u043d\u0442\u0440"
+        },
         "average_credits": 120,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1351,7 +1450,8 @@
     "55": {
         "id": 55,
         "name": "\u0411\u0456\u0439\u043a\u0430",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1362,7 +1462,9 @@
         "requirements": {
             "police_cars": 3
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
@@ -1376,7 +1478,8 @@
     "56": {
         "id": 56,
         "name": "\u0423\u0447\u0430\u0441\u043d\u0438\u043a \u0437\u0430\u0432\u043e\u0440\u0443\u0448\u0435\u043d\u044c",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 500,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1402,7 +1505,8 @@
     "57": {
         "id": 57,
         "name": "\u041d\u0435\u043e\u0433\u043e\u043b\u043e\u0448\u0435\u043d\u0430 \u0434\u0435\u043c\u043e\u043d\u0441\u0442\u0440\u0430\u0446\u0456\u044f",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10020,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1423,7 +1527,8 @@
     "58": {
         "id": 58,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u043d\u0430 \u043a\u0443\u0445\u043d\u0456",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1446,6 +1551,9 @@
         "id": 59,
         "name": "\u041f\u043e\u0440\u044f\u0442\u0443\u043d\u043e\u043a \u0442\u0432\u0430\u0440\u0438\u043d\u0438",
         "place": "\u0424\u0435\u0440\u043c\u0430",
+        "place_array": {
+            "0": "\u0424\u0435\u0440\u043c\u0430"
+        },
         "average_credits": 900,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1469,6 +1577,9 @@
         "id": 60,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0443 \u0441\u043f\u043e\u0440\u0442\u0437\u0430\u043b\u0456",
         "place": "\u0428\u043a\u043e\u043b\u0430",
+        "place_array": {
+            "0": "\u0428\u043a\u043e\u043b\u0430"
+        },
         "average_credits": 2000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1487,6 +1598,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
         },
         "prerequisites": {
@@ -1497,7 +1609,8 @@
     "62": {
         "id": 62,
         "name": "\u0421\u043a\u0430\u0440\u0433\u0438 \u043d\u0430 \u0448\u0443\u043c",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 400,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1519,7 +1632,8 @@
     "63": {
         "id": 63,
         "name": "\u0422\u0440\u0430\u043d\u0437\u0438\u0442\u043e\u0440\u043d\u0430 \u0456\u0448\u0435\u043c\u0456\u0447\u043d\u0430 \u0430\u0442\u0430\u043a\u0430",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -1544,7 +1658,8 @@
     "64": {
         "id": 64,
         "name": "\u0414\u0422\u041f \u0437\u0430 \u0443\u0447\u0430\u0441\u0442\u044e \u0430\u0432\u0442\u043e\u0431\u0443\u0441\u0430",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1572,7 +1687,8 @@
     "65": {
         "id": 65,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u043d\u0430 \u043a\u0443\u0445\u043d\u0456",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1594,7 +1710,8 @@
     "66": {
         "id": 66,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0443 \u043f\u0440\u0438\u043c\u0456\u0449\u0435\u043d\u043d\u0456",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1400,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1622,7 +1739,8 @@
     "67": {
         "id": 67,
         "name": "\u0411\u0456\u0439\u043a\u0430",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1633,7 +1751,9 @@
         "requirements": {
             "police_cars": 3
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
@@ -1648,6 +1768,9 @@
         "id": 68,
         "name": "\u0412\u0435\u043b\u0438\u043a\u0435 \u0437\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0443 \u0441\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442\u0456",
         "place": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u0432\u0435\u043b\u0438\u043a\u0438\u0439)",
+        "place_array": {
+            "0": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u0432\u0435\u043b\u0438\u043a\u0438\u0439)"
+        },
         "average_credits": 3000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1670,6 +1793,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
         },
         "prerequisites": {
@@ -1681,7 +1805,8 @@
     "69": {
         "id": 69,
         "name": "\u0412\u0438\u043b\u0438\u0432 \u0437 \u043d\u0435\u0432\u0456\u0434\u043e\u043c\u043e\u0457 \u0446\u0438\u0441\u0442\u0435\u0440\u043d\u0438",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4300,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1709,6 +1834,9 @@
         "id": 70,
         "name": "\u0412\u0435\u043b\u0438\u043a\u0435 \u0437\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0443 \u0441\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442\u0456",
         "place": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u0432\u0435\u043b\u0438\u043a\u0438\u0439)",
+        "place_array": {
+            "0": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u0432\u0435\u043b\u0438\u043a\u0438\u0439)"
+        },
         "average_credits": 3000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1731,6 +1859,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
         },
         "prerequisites": {
@@ -1742,7 +1871,8 @@
     "71": {
         "id": 71,
         "name": "\u041a\u0440\u043e\u0432\u043e\u0442\u0435\u0447\u0430 \u0437 \u043d\u043e\u0441\u0443",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -1751,11 +1881,14 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "\u0425\u0456\u0440\u0443\u0440\u0433 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
         },
         "prerequisites": {
@@ -1765,7 +1898,8 @@
     "72": {
         "id": 72,
         "name": "\u041a\u0430\u0442\u0430\u0441\u0442\u0440\u043e\u0444\u0430 \u043b\u0435\u0433\u043a\u043e\u043c\u043e\u0442\u043e\u0440\u043d\u043e\u0433\u043e \u043b\u0456\u0442\u0430\u043a\u0430",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 4000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1797,7 +1931,8 @@
     "73": {
         "id": 73,
         "name": "\u0421\u0435\u0440\u0439\u043e\u0437\u043d\u0430 \u0414\u0422\u041f \u0437\u0430 \u0443\u0447\u0430\u0441\u0442\u044e \u0430\u0432\u0442\u043e\u0431\u0443\u0441\u0430",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1829,7 +1964,8 @@
     "74": {
         "id": 74,
         "name": "\u0412\u0435\u043b\u0438\u043a\u0435 \u0437\u0430\u0439\u043c\u0430\u043d\u043d\u044f",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 10210,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1855,6 +1991,9 @@
         "id": 75,
         "name": "\u041a\u0430\u0432'\u044f\u0440\u043d\u044f \u0443 \u0432\u043e\u0433\u043d\u0456",
         "place": "\u0428\u043a\u043e\u043b\u0430",
+        "place_array": {
+            "0": "\u0428\u043a\u043e\u043b\u0430"
+        },
         "average_credits": 1300,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1872,6 +2011,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
         },
         "prerequisites": {
@@ -1882,7 +2022,8 @@
     "76": {
         "id": 76,
         "name": "\u0417\u0430\u0441\u0442\u0440\u044f\u0433\u043b\u0438\u0439 \u0430\u043b\u044c\u043f\u0456\u043d\u0456\u0441\u0442",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1896,7 +2037,8 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {
-            "platform_trucks": 50
+            "platform_trucks": 50,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -1914,6 +2056,9 @@
         "id": 77,
         "name": "\u041d\u0430\u0441\u0438\u043b\u044c\u0441\u0442\u0432\u043e \u0441\u043b\u0443\u0436\u0431\u043e\u0432\u0456\u0439 \u043e\u0441\u043e\u0431\u0456",
         "place": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u043c\u0435\u0442\u0440\u043e",
+        "place_array": {
+            "0": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u043c\u0435\u0442\u0440\u043e"
+        },
         "average_credits": 750,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -1924,7 +2069,9 @@
         "requirements": {
             "police_cars": 2
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "max_possible_prisoners": 2,
@@ -1940,6 +2087,9 @@
         "id": 78,
         "name": "\u0421\u043f\u0430\u043b\u0430\u0445 \u0441\u0438\u043b\u043e\u0441\u0430",
         "place": "\u0421\u0438\u043b\u043e\u0441",
+        "place_array": {
+            "0": "\u0421\u0438\u043b\u043e\u0441"
+        },
         "average_credits": 3000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -1964,7 +2114,8 @@
     "79": {
         "id": 79,
         "name": "\u041f\u043e\u0441\u0442\u0440\u0430\u0436\u0434\u0430\u043b\u0438\u0439 \u043d\u0430 \u043b\u0456\u043d\u0456\u0457 \u0432\u0438\u0441\u043e\u043a\u043e\u0432\u043e\u043b\u044c\u0442\u043d\u0438\u0445 \u043f\u0435\u0440\u0435\u0434\u0430\u0447",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 650,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -1995,6 +2146,9 @@
         "id": 80,
         "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0442\u044e\u043a\u0430 \u0441\u043e\u043b\u043e\u043c\u0438",
         "place": "\u0424\u0435\u0440\u043c\u0430",
+        "place_array": {
+            "0": "\u0424\u0435\u0440\u043c\u0430"
+        },
         "average_credits": 1500,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -2018,7 +2172,8 @@
     "81": {
         "id": 81,
         "name": "\u0420\u0435\u0439\u0434 \u043f\u043e\u043b\u0456\u0446\u0456\u0457 \u043d\u0430 \u0436\u0438\u0442\u043b\u043e\u0432\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 750,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -2041,7 +2196,10 @@
     "93": {
         "id": 93,
         "name": "\u0421\u0445\u043e\u0434\u0436\u0435\u043d\u043d\u044f \u0442\u043e\u0432\u0430\u0440\u043d\u043e\u0433\u043e \u043f\u043e\u0442\u044f\u0433\u0430 \u0437 \u0440\u0435\u0439\u043e\u043a",
-        "place": null,
+        "place": "",
+        "place_array": {
+            "0": ""
+        },
         "average_credits": 10000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -2076,6 +2234,9 @@
         "id": 94,
         "name": "\u0421\u0445\u043e\u0434\u0436\u0435\u043d\u043d\u044f \u0442\u043e\u0432\u0430\u0440\u043d\u043e\u0433\u043e \u043f\u043e\u0442\u044f\u0433\u0430 \u0437 \u0440\u0435\u0439\u043e\u043a",
         "place": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0456\u044f",
+        "place_array": {
+            "0": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0456\u044f"
+        },
         "average_credits": 10000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -2110,6 +2271,9 @@
         "id": 95,
         "name": "\u0421\u0445\u043e\u0434\u0436\u0435\u043d\u043d\u044f \u0442\u043e\u0432\u0430\u0440\u043d\u043e\u0433\u043e \u043f\u043e\u0442\u044f\u0433\u0430 \u0437 \u0440\u0435\u0439\u043e\u043a",
         "place": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+        "place_array": {
+            "0": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b"
+        },
         "average_credits": 10000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -2143,7 +2307,8 @@
     "96": {
         "id": 96,
         "name": "\u041f\u043e\u0440\u044f\u0442\u0443\u043d\u043e\u043a \u0456\u0437 \u0442\u0440\u0430\u043d\u0448\u0435\u0457",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -2157,7 +2322,9 @@
             "heavy_rescue_vehicles": 2,
             "police_cars": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 2,
@@ -2173,7 +2340,8 @@
     "97": {
         "id": 97,
         "name": "\u0410\u043d\u0430\u0444\u0456\u043b\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 \u0448\u043e\u043a",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -2198,7 +2366,8 @@
     "98": {
         "id": 98,
         "name": "\u0422\u0440\u0430\u0432\u043c\u043e\u0432\u0430\u043d\u0438\u0439 \u0431\u0456\u0433\u0443\u043d",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -2223,7 +2392,8 @@
     "99": {
         "id": 99,
         "name": "\u0417\u043d\u0438\u043a\u043d\u0435\u043d\u043d\u044f \u0434\u0438\u0442\u0438\u043d\u0438",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 700,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -2251,6 +2421,9 @@
         "id": 100,
         "name": "\u041f\u043e\u0436\u0435\u0436\u0430 \u043d\u0430 \u0437\u0432\u0430\u043b\u0438\u0449\u0456",
         "place": "\u0421\u043c\u0456\u0442\u0442\u0454\u0437\u0432\u0430\u043b\u0438\u0449\u0435",
+        "place_array": {
+            "0": "\u0421\u043c\u0456\u0442\u0442\u0454\u0437\u0432\u0430\u043b\u0438\u0449\u0435"
+        },
         "average_credits": 3500,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -2277,7 +2450,8 @@
     "101": {
         "id": 101,
         "name": "\u041d\u0435\u0437\u0430\u043a\u043e\u043d\u043d\u0435 \u0432\u043e\u043b\u043e\u0434\u0456\u043d\u043d\u044f \u0437\u0431\u0440\u043e\u0454\u044e",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 2500,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -2300,7 +2474,8 @@
     "102": {
         "id": 102,
         "name": "\u0414\u0422\u041f \u0437\u0430 \u0443\u0447\u0430\u0441\u0442\u044e \u0442\u0432\u0430\u0440\u0438\u043d\u0438",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1200,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -2328,7 +2503,8 @@
     "103": {
         "id": 103,
         "name": "\u041f\u043e\u043b\u043e\u043c\u043a\u0430 \u0432\u043e\u0434\u043e\u043f\u0440\u043e\u0432\u043e\u0434\u0443",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": 1000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -2355,7 +2531,8 @@
     "104": {
         "id": 104,
         "name": "\u041f\u0435\u0440\u0435\u043b\u043e\u043c \u0440\u0443\u043a\u0438",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -2380,7 +2557,8 @@
     "105": {
         "id": 105,
         "name": "\u041f\u0435\u0440\u0435\u043b\u043e\u043c \u043d\u043e\u0433\u0438",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -2405,7 +2583,8 @@
     "106": {
         "id": 106,
         "name": "\u0421\u0438\u043b\u044c\u043d\u0435 \u0437\u043d\u0435\u0432\u043e\u0434\u043d\u0435\u043d\u043d\u044f",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -2430,7 +2609,8 @@
     "107": {
         "id": 107,
         "name": "\u0425\u0430\u0440\u0447\u043e\u0432\u0435 \u043e\u0442\u0440\u0443\u0454\u043d\u043d\u044f",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -2439,153 +2619,27 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "\u0425\u0456\u0440\u0443\u0440\u0433 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
         },
         "prerequisites": {
             "rescue_stations": 1
         }
     },
-    "108": {
-        "id": 108,
-        "name": "\u0421\u043e\u043d\u044f\u0447\u043d\u0438\u0439 \u0443\u0434\u0430\u0440",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 10
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "\u041f\u0442, 26 \u0427\u0435\u0440 2020 10:00:00 +0300",
-            "date_end": "\u0427\u0442, 01 \u0416\u043e\u0432 2020 00:00:00 +0300",
-            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "109": {
-        "id": 109,
-        "name": "\u0422\u0435\u043f\u043b\u043e\u0432\u0438\u0439 \u0443\u0434\u0430\u0440",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 60
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "\u041f\u0442, 26 \u0427\u0435\u0440 2020 10:00:00 +0300",
-            "date_end": "\u0427\u0442, 01 \u0416\u043e\u0432 2020 00:00:00 +0300",
-            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
-        },
-        "prerequisites": {
-            "rescue_stations": 4
-        }
-    },
-    "110": {
-        "id": 110,
-        "name": "\u0422\u0435\u043f\u043b\u043e\u0432\u0456 \u0441\u0443\u0434\u043e\u043c\u0438",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "\u041f\u0442, 26 \u0427\u0435\u0440 2020 10:00:00 +0300",
-            "date_end": "\u0427\u0442, 01 \u0416\u043e\u0432 2020 00:00:00 +0300",
-            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
-        },
-        "prerequisites": {
-            "rescue_stations": 4
-        }
-    },
-    "111": {
-        "id": 111,
-        "name": "\u0417\u043d\u0435\u0432\u043e\u0434\u0436\u0435\u043d\u0430 \u043b\u044e\u0434\u0438\u043d\u0430",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "\u041f\u0442, 26 \u0427\u0435\u0440 2020 10:00:00 +0300",
-            "date_end": "\u0427\u0442, 01 \u0416\u043e\u0432 2020 00:00:00 +0300",
-            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
-        },
-        "prerequisites": {
-            "rescue_stations": 3
-        }
-    },
-    "112": {
-        "id": 112,
-        "name": "\u0411\u0430\u0433\u0430\u0442\u0442\u044f \u0434\u043b\u044f \u0448\u0430\u0448\u043b\u0438\u043a\u0456\u0432",
-        "place": null,
-        "average_credits": 600,
-        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "\u041f\u0442, 26 \u0427\u0435\u0440 2020 10:00:00 +0300",
-            "date_end": "\u0427\u0442, 01 \u0416\u043e\u0432 2020 00:00:00 +0300"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
     "113": {
         "id": 113,
         "name": "\u041c\u0430\u043b\u0430 \u043f\u043e\u0436\u0435\u0436\u0430 \u0432 \u0433\u043e\u0442\u0435\u043b\u0456",
         "place": "\u0413\u043e\u0442\u0435\u043b\u044c",
+        "place_array": {
+            "0": "\u0413\u043e\u0442\u0435\u043b\u044c"
+        },
         "average_credits": 3000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -2616,6 +2670,9 @@
         "id": 114,
         "name": "\u0421\u0435\u0440\u0435\u0434\u043d\u044f \u043f\u043e\u0436\u0435\u0436\u0430 \u0432 \u0433\u043e\u0442\u0435\u043b\u0456",
         "place": "\u0413\u043e\u0442\u0435\u043b\u044c",
+        "place_array": {
+            "0": "\u0413\u043e\u0442\u0435\u043b\u044c"
+        },
         "average_credits": 5000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -2648,6 +2705,9 @@
         "id": 115,
         "name": "\u041d\u0435\u0441\u043f\u0440\u0430\u0432\u043d\u0456\u0441\u0442\u044c \u0441\u0432\u0456\u0442\u043b\u043e\u0444\u043e\u0440\u0443",
         "place": "\u041f\u0435\u0440\u0435\u0445\u0440\u0435\u0441\u0442\u044f \u0437 \u0441\u0432\u0456\u0442\u043b\u043e\u0444\u043e\u0440\u0430\u043c\u0438",
+        "place_array": {
+            "0": "\u041f\u0435\u0440\u0435\u0445\u0440\u0435\u0441\u0442\u044f \u0437 \u0441\u0432\u0456\u0442\u043b\u043e\u0444\u043e\u0440\u0430\u043c\u0438"
+        },
         "average_credits": 250,
         "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
         "icons": {
@@ -2660,7 +2720,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "20 minutes",
+            "duration_text": "20 \u0445\u0432\u0438\u043b\u0438\u043d",
+            "duration": 1200,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -2672,6 +2733,9 @@
         "id": 116,
         "name": "\u0412\u0435\u043b\u0438\u0447\u0435\u0437\u043d\u0430 \u043f\u043e\u0436\u0435\u0436\u0430 \u0432 \u0433\u043e\u0442\u0435\u043b\u0456",
         "place": "\u0413\u043e\u0442\u0435\u043b\u044c",
+        "place_array": {
+            "0": "\u0413\u043e\u0442\u0435\u043b\u044c"
+        },
         "average_credits": 8000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -2709,6 +2773,9 @@
         "id": 117,
         "name": "\u0412\u0435\u043b\u0438\u043a\u0430 \u043f\u043e\u0436\u0435\u0436\u0430 \u0432 \u0433\u043e\u0442\u0435\u043b\u0456",
         "place": "\u0413\u043e\u0442\u0435\u043b\u044c",
+        "place_array": {
+            "0": "\u0413\u043e\u0442\u0435\u043b\u044c"
+        },
         "average_credits": 12000,
         "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
         "icons": {
@@ -2741,7 +2808,8 @@
     "118": {
         "id": 118,
         "name": "\u0410\u043b\u0435\u0440\u0433\u0456\u0447\u043d\u0430 \u0440\u0435\u0430\u043a\u0446\u0456\u044f",
-        "place": null,
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
         "icons": {
@@ -2761,6 +2829,1499 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        }
+    },
+    "119": {
+        "id": 119,
+        "name": "\u041b\u044e\u0434\u0438\u043d\u0430 \u043d\u0430 \u043a\u043e\u043b\u0456\u0457",
+        "place": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0456\u044f",
+        "place_array": {
+            "0": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0456\u044f"
+        },
+        "average_credits": 900,
+        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 121
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "120": {
+        "id": 120,
+        "name": "\u041b\u044e\u0434\u0438\u043d\u0430 \u043d\u0430 \u043a\u043e\u043b\u0456\u0457",
+        "place": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+        "place_array": {
+            "0": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b"
+        },
+        "average_credits": 900,
+        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 122
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "121": {
+        "id": 121,
+        "name": "\u0417\u0431\u0438\u0442\u0430 \u043d\u0430 \u043a\u043e\u043b\u0456\u0457 \u043b\u044e\u0434\u0438\u043d\u0430",
+        "place": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0456\u044f",
+        "place_array": {
+            "0": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0456\u044f"
+        },
+        "average_credits": 3000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0456\u044f"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "122": {
+        "id": 122,
+        "name": "\u0417\u0431\u0438\u0442\u0430 \u043d\u0430 \u043a\u043e\u043b\u0456\u0457 \u043b\u044e\u0434\u0438\u043d\u0430",
+        "place": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+        "place_array": {
+            "0": "\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b"
+        },
+        "average_credits": 3000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0456\u044f"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "123": {
+        "id": 123,
+        "name": "\u0417\u0430\u0439\u043c\u0430\u043d\u043d\u044f \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u044f \u0443 \u0442\u0443\u043d\u0435\u043b\u0456",
+        "place": "\u0422\u0443\u043d\u0435\u043b\u044c",
+        "place_array": {
+            "0": "\u0422\u0443\u043d\u0435\u043b\u044c"
+        },
+        "average_credits": 1500,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "124": {
+        "id": 124,
+        "name": "\u041f\u043e\u0436\u0435\u0436\u0430 \u043d\u0430 \u0435\u043b\u0435\u043a\u0442\u0440\u043e\u0441\u0442\u0430\u043d\u0446\u0456\u0457",
+        "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d \u0448\u0432\u0438\u0434\u043a\u043e\u0433\u043e \u0445\u0430\u0440\u0447\u0443\u0432\u0430\u043d\u043d\u044f",
+        "place_array": {
+            "0": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d \u0448\u0432\u0438\u0434\u043a\u043e\u0433\u043e \u0445\u0430\u0440\u0447\u0443\u0432\u0430\u043d\u043d\u044f"
+        },
+        "average_credits": 1850,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "125": {
+        "id": 125,
+        "name": "\u041c\u0430\u0441\u043e\u0432\u0430 \u043f\u0430\u043d\u0456\u043a\u0430 \u043d\u0430 \u0434\u0438\u0441\u043a\u043e\u0442\u0435\u0446\u0456",
+        "place": "\u0414\u0438\u0441\u043a\u043e\u0442\u0435\u043a\u0430",
+        "place_array": {
+            "0": "\u0414\u0438\u0441\u043a\u043e\u0442\u0435\u043a\u0430"
+        },
+        "average_credits": 3500,
+        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 9
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 17,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "\u0425\u0456\u0440\u0443\u0440\u0433 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 9
+        }
+    },
+    "126": {
+        "id": 126,
+        "name": "\u041f\u043e\u0436\u0435\u0436\u0430 \u0432 \u043e\u0444\u0456\u0441\u043d\u0456\u0439 \u0431\u0443\u0434\u0456\u0432\u043b\u0456",
+        "place": "\u041e\u0444\u0456\u0441\u043d\u0430 \u0431\u0443\u0434\u0456\u0432\u043b\u044f",
+        "place_array": {
+            "0": "\u041e\u0444\u0456\u0441\u043d\u0430 \u0431\u0443\u0434\u0456\u0432\u043b\u044f"
+        },
+        "average_credits": 7000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "127": {
+        "id": 127,
+        "name": "\u041f\u043e\u0436\u0435\u0436\u0430 \u0443 \u0446\u0435\u043d\u0442\u0440\u0456 \u043f\u0435\u0440\u0435\u0440\u043e\u0431\u043a\u0438",
+        "place": "\u0426\u0435\u043d\u0442\u0440 \u043f\u0435\u0440\u0435\u0440\u043e\u0431\u043a\u0438 \u0432\u0456\u0434\u0445\u043e\u0434\u0456\u0432",
+        "place_array": {
+            "0": "\u0426\u0435\u043d\u0442\u0440 \u043f\u0435\u0440\u0435\u0440\u043e\u0431\u043a\u0438 \u0432\u0456\u0434\u0445\u043e\u0434\u0456\u0432"
+        },
+        "average_credits": 10000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 3,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 15
+        }
+    },
+    "128": {
+        "id": 128,
+        "name": "\u0425\u0456\u043c\u0456\u0447\u043d\u0456 \u043e\u043f\u0456\u043a\u0438",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0456\u044f"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "129": {
+        "id": 129,
+        "name": "\u041d\u0435\u0432\u0435\u043b\u0438\u043a\u0430 \u043f\u043e\u0436\u0435\u0436\u0430 \u043d\u0430 \u0432\u0438\u0440\u043e\u0431\u043d\u0438\u0446\u0442\u0432\u0456",
+        "place": "\u0424\u0430\u0431\u0440\u0438\u043a\u0430",
+        "place_array": {
+            "0": "\u0424\u0430\u0431\u0440\u0438\u043a\u0430"
+        },
+        "average_credits": 2000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "130": {
+        "id": 130,
+        "name": "\u0417\u043d\u0430\u0447\u043d\u0430 \u043f\u043e\u0436\u0435\u0436\u0430 \u043d\u0430 \u0432\u0438\u0440\u043e\u0431\u043d\u0438\u0446\u0442\u0432\u0456",
+        "place": "\u0424\u0430\u0431\u0440\u0438\u043a\u0430",
+        "place_array": {
+            "0": "\u0424\u0430\u0431\u0440\u0438\u043a\u0430"
+        },
+        "average_credits": 9000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 4,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 7,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 2,
+            "fire_stations": 15
+        }
+    },
+    "131": {
+        "id": 131,
+        "name": "\u041a\u043e\u043d\u0442\u0440\u0430\u0431\u0430\u043d\u0434\u0430 \u043d\u0435\u0437\u0430\u043a\u043e\u043d\u043d\u0438\u0445 \u0442\u043e\u0432\u0430\u0440\u0456\u0432",
+        "place": "\u0412\u0430\u043d\u0442\u0430\u0436\u043d\u0438\u0439 \u043f\u043e\u0440\u0442",
+        "place_array": {
+            "0": "\u0412\u0430\u043d\u0442\u0430\u0436\u043d\u0438\u0439 \u043f\u043e\u0440\u0442"
+        },
+        "average_credits": 800,
+        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "132": {
+        "id": 132,
+        "name": "\u041a\u043e\u043d\u0442\u0440\u0430\u0431\u0430\u043d\u0434\u0430 \u043d\u0435\u0437\u0430\u043a\u043e\u043d\u043d\u0438\u0445 \u0442\u043e\u0432\u0430\u0440\u0456\u0432",
+        "place": "\u041f\u0440\u0438\u0447\u0430\u043b \u043a\u0440\u0443\u0457\u0437\u043d\u0438\u0445 \u043b\u0430\u0439\u043d\u0435\u0440\u0456\u0432",
+        "place_array": {
+            "0": "\u041f\u0440\u0438\u0447\u0430\u043b \u043a\u0440\u0443\u0457\u0437\u043d\u0438\u0445 \u043b\u0430\u0439\u043d\u0435\u0440\u0456\u0432"
+        },
+        "average_credits": 800,
+        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "133": {
+        "id": 133,
+        "name": "\u041a\u043e\u043d\u0442\u0440\u0430\u0431\u0430\u043d\u0434\u0430 \u043d\u0435\u0437\u0430\u043a\u043e\u043d\u043d\u0438\u0445 \u0442\u043e\u0432\u0430\u0440\u0456\u0432",
+        "place": "\u0422\u043e\u0432\u0430\u0440\u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0456\u044f",
+        "place_array": {
+            "0": "\u0422\u043e\u0432\u0430\u0440\u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0456\u044f"
+        },
+        "average_credits": 800,
+        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "134": {
+        "id": 134,
+        "name": "\u041f\u043e\u0436\u0435\u0436\u0430 \u0443 \u043b\u044e\u0446\u0456",
+        "place": "",
+        "place_array": {},
+        "average_credits": 210,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "135": {
+        "id": 135,
+        "name": "\u041b\u044e\u0434\u0438\u043d\u0430 \u043f\u0456\u0434 \u043f\u043e\u0432\u0430\u043b\u0435\u043d\u0438\u043c \u0434\u0435\u0440\u0435\u0432\u043e\u043c",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0456\u044f"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "fire_stations": 6
+        }
+    },
+    "136": {
+        "id": 136,
+        "name": "\u041a\u043e\u043d\u0446\u0435\u0440\u0442",
+        "place": "\u0421\u0442\u0430\u0434\u0456\u043e\u043d",
+        "place_array": {
+            "0": "\u0421\u0442\u0430\u0434\u0456\u043e\u043d"
+        },
+        "average_credits": 7000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 1,
+            "police_cars": 7
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 \u0433\u043e\u0434\u0438\u043d\u0430",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 5,
+            "fire_stations": 3
+        }
+    },
+    "137": {
+        "id": 137,
+        "name": "\u041f\u043e\u0436\u0435\u0436\u0430 \u0443 \u043c\u0443\u0437\u0435\u0457",
+        "place": "\u041c\u0443\u0437\u0435\u0439",
+        "place_array": {
+            "0": "\u041c\u0443\u0437\u0435\u0439"
+        },
+        "average_credits": 7500,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "water_tankers": 20
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "147": {
+        "id": 147,
+        "name": "\u0412\u0438\u043f\u0430\u0434\u043e\u043a \u0437 \u0431\u0435\u043d\u0437\u043e\u043f\u0438\u043b\u043e\u044e",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0456\u044f"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "148": {
+        "id": 148,
+        "name": "\u041f\u0430\u043b\u0430\u044e\u0447\u0438\u0439 \u0432\u0430\u043d\u0442\u0430\u0436\u043d\u0438\u0439 \u0432\u0430\u0433\u043e\u043d",
+        "place": "\u0422\u043e\u0432\u0430\u0440\u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0456\u044f",
+        "place_array": {
+            "0": "\u0422\u043e\u0432\u0430\u0440\u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0456\u044f"
+        },
+        "average_credits": 1500,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "149": {
+        "id": 149,
+        "name": "\u041a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u0448\u0432\u0438\u0434\u043a\u043e\u0441\u0442\u0456",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 \u0445\u0432\u0438\u043b\u0438\u043d",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "150": {
+        "id": 150,
+        "name": "\u041f\u043e\u0436\u0435\u0436\u0430 \u0443 \u0441\u0442\u043e\u043b\u044f\u0440\u043d\u0456\u0439 \u043c\u0430\u0439\u0441\u0442\u0435\u0440\u043d\u0456",
+        "place": "\u0421\u0442\u043e\u043b\u044f\u0440\u043d\u0430 \u043c\u0430\u0439\u0441\u0442\u0435\u0440\u043d\u044f",
+        "place_array": {
+            "0": "\u0421\u0442\u043e\u043b\u044f\u0440\u043d\u0430 \u043c\u0430\u0439\u0441\u0442\u0435\u0440\u043d\u044f"
+        },
+        "average_credits": 4200,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 4,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "151": {
+        "id": 151,
+        "name": "\u041f\u043e\u0436\u0435\u0436\u0430 \u0443 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0456",
+        "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+        "place_array": {
+            "0": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        },
+        "average_credits": 5000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "platform_trucks": 50,
+            "water_tankers": 20,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 5,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 10
+        }
+    },
+    "160": {
+        "id": 160,
+        "name": "\u041f\u043e\u0448\u043a\u043e\u0434\u0436\u0435\u043d\u043d\u044f \u0445\u0440\u0435\u0431\u0442\u0430",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u0425\u0456\u0440\u0443\u0440\u0433 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "161": {
+        "id": 161,
+        "name": "\u0427\u0430\u0441\u0442\u043a\u043e\u0432\u0435 \u043e\u0431\u0432\u0430\u043b\u0435\u043d\u043d\u044f \u0431\u0443\u0434\u0456\u0432\u043b\u0456",
+        "place": "",
+        "place_array": {},
+        "average_credits": 7500,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 8,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0456\u044f"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "162": {
+        "id": 162,
+        "name": "\u041e\u0431\u0432\u0430\u043b\u0435\u043d\u043d\u044f \u0431\u0443\u0434\u0456\u0432\u043b\u0456",
+        "place": "",
+        "place_array": {},
+        "average_credits": 9000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 8,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0456\u044f"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 1,
+            "fire_stations": 7
+        }
+    },
+    "163": {
+        "id": 163,
+        "name": "\u041e\u043f\u0456\u043a\u0438 3-\u0433\u043e \u0441\u0442\u0443\u043f\u0435\u043d\u044e",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u0425\u0456\u0440\u0443\u0440\u0433 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "164": {
+        "id": 164,
+        "name": "\u0421\u0435\u0440\u0439\u043e\u0437\u043d\u0430 \u0442\u0440\u0430\u0432\u043c\u0430 \u0433\u043e\u043b\u043e\u0432\u0438",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u041d\u0435\u0439\u0440\u043e\u0445\u0456\u0440\u0443\u0440\u0433\u0456\u044f"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "165": {
+        "id": 165,
+        "name": "\u0410\u043c\u043f\u0443\u0442\u0430\u0446\u0456\u044f \u0442\u0440\u0430\u0432\u043c\u043e\u0432\u0430\u043d\u043e\u0457 \u043a\u0456\u043d\u0446\u0456\u0432\u043a\u0438",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u0425\u0456\u0440\u0443\u0440\u0433 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "166": {
+        "id": 166,
+        "name": "\u0412\u0435\u043b\u0438\u043a\u0430 \u043f\u043e\u0436\u0435\u0436\u0430 \u043d\u0430 \u0444\u0435\u0440\u043c\u0456",
+        "place": "\u0424\u0435\u0440\u043c\u0430",
+        "place_array": {
+            "0": "\u0424\u0435\u0440\u043c\u0430"
+        },
+        "average_credits": 9000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "water_tankers": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "167": {
+        "id": 167,
+        "name": "\u0411\u0456\u043b\u044c \u0443 \u0441\u043f\u0438\u043d\u0456",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "168": {
+        "id": 168,
+        "name": "\u041f\u0456\u0434\u043e\u0437\u0440\u0456\u043b\u0430 \u043e\u0441\u043e\u0431\u0430",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "169": {
+        "id": 169,
+        "name": "\u0423\u0440\u0430\u0436\u0435\u043d\u043d\u044f \u0435\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u043d\u0438\u043c \u0441\u0442\u0440\u0443\u043c\u043e\u043c",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "170": {
+        "id": 170,
+        "name": "\u041f\u0430\u0442\u0440\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0432\u0435\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u0440\u0438\u043d\u043a\u0443",
+        "place": "\u0426\u0435\u043d\u0442\u0440 \u043c\u0456\u0441\u0442\u0430",
+        "place_array": {
+            "0": "\u0426\u0435\u043d\u0442\u0440 \u043c\u0456\u0441\u0442\u0430"
+        },
+        "average_credits": 1500,
+        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 \u0445\u0432\u0438\u043b\u0438\u043d",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "171": {
+        "id": 171,
+        "name": "\u0410\u0432\u0442\u043e\u0431\u0443\u0441 \u0443 \u0432\u043e\u0433\u043d\u0456",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 12,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "fire_stations": 6
+        }
+    },
+    "172": {
+        "id": 172,
+        "name": "\u0417\u0441\u0443\u0432\u0430\u043d\u043d\u044f \u0433\u0440\u0443\u043d\u0442\u0443",
+        "place": "\u041f\u0430\u0433\u043e\u0440\u0431",
+        "place_array": {
+            "0": "\u041f\u0430\u0433\u043e\u0440\u0431"
+        },
+        "average_credits": 1500,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 5,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0456\u044f"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 8
+        }
+    },
+    "196": {
+        "id": 196,
+        "name": "\u041c\u043e\u0442\u043e\u0430\u0432\u0430\u0440\u0456\u044f \u043d\u0430 \u0433\u0456\u0440\u0441\u044c\u043a\u0456\u0439 \u0434\u043e\u0440\u043e\u0437\u0456",
+        "place": "\u041f\u0430\u0433\u043e\u0440\u0431",
+        "place_array": {
+            "0": "\u041f\u0430\u0433\u043e\u0440\u0431"
+        },
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u0425\u0456\u0440\u0443\u0440\u0433 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "197": {
+        "id": 197,
+        "name": "\u041c\u0430\u0441\u0442\u0430\u0431\u043d\u0438\u0439 \u0431\u043b\u043e\u043a \u0434\u043e\u0440\u043e\u0433\u0438",
+        "place": "\u041c\u0456\u0441\u0442",
+        "place_array": {
+            "0": "\u041c\u0456\u0441\u0442"
+        },
+        "average_credits": 6000,
+        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 \u0433\u043e\u0434\u0438\u043d\u0430",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 5
+        }
+    },
+    "198": {
+        "id": 198,
+        "name": "\u041f\u043e\u0436\u0435\u0436\u0430 \u0443 \u043a\u0432\u0430\u0440\u0442\u0438\u0440\u0456 \u0445\u043c\u0430\u0440\u043e\u0447\u043e\u0441\u0443",
+        "place": "\u0412\u0438\u0441\u043e\u0442\u043a\u0430",
+        "place_array": {
+            "0": "\u0412\u0438\u0441\u043e\u0442\u043a\u0430"
+        },
+        "average_credits": 1500,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 4,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 10
+        }
+    },
+    "199": {
+        "id": 199,
+        "name": "\u041f\u0435\u0440\u0435\u043a\u0438\u0434\u0430\u043d\u043d\u044f \u0432\u0430\u043d\u0442\u0430\u0436\u0456\u0432\u043a\u0438",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u0425\u0456\u0440\u0443\u0440\u0433 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "200": {
+        "id": 200,
+        "name": "\u041d\u0435\u0437\u0430\u043a\u043e\u043d\u043d\u0430 \u0434\u0456\u044f\u043b\u044c\u043d\u0456\u0441\u0442\u044c \u0432 \u0456\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0456",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "201": {
+        "id": 201,
+        "name": "\u041a\u0456\u0442 \u043d\u0430 \u0434\u0435\u0440\u0435\u0432\u0456",
+        "place": "",
+        "place_array": {},
+        "average_credits": 375,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "211": {
+        "id": 211,
+        "name": "\u041f\u0456\u0434\u043e\u0437\u0440\u0456\u043b\u0438\u0439 \u043f\u0430\u043a\u0443\u043d\u043e\u043a",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "212": {
+        "id": 212,
+        "name": "\u041f\u043e\u0433\u0440\u0430\u0431\u0443\u0432\u0430\u043d\u043d\u044f \u044e\u0432\u0435\u043b\u0456\u0440\u043d\u043e\u0433\u043e \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0443",
+        "place": "\u0422\u043e\u0440\u0433\u0456\u0432\u0435\u043b\u044c\u043d\u0438\u0439 \u0446\u0435\u043d\u0442\u0440",
+        "place_array": {
+            "0": "\u0422\u043e\u0440\u0433\u0456\u0432\u0435\u043b\u044c\u043d\u0438\u0439 \u0446\u0435\u043d\u0442\u0440"
+        },
+        "average_credits": 800,
+        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "213": {
+        "id": 213,
+        "name": "\u0422\u0440\u0430\u0432\u043c\u043e\u0432\u0430\u043d\u0438\u0439 \u043f\u0430\u0440\u043a\u0443\u0440\u0449\u0438\u043a",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u0425\u0456\u0440\u0443\u0440\u0433 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "214": {
+        "id": 214,
+        "name": "\u0423\u043b\u0430\u043c\u043e\u043a \u0441\u043a\u043b\u0430 \u0432 \u0440\u0443\u0446\u0456",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u0425\u0456\u0440\u0443\u0440\u0433 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "215": {
+        "id": 215,
+        "name": "\u0421\u043f\u043e\u0441\u0442\u0435\u0440\u0435\u0436\u0435\u043d\u043d\u044f \u0437\u0430 \u043f\u0456\u0434\u043e\u0437\u0440\u044e\u0432\u0430\u043d\u0438\u043c",
+        "place": "",
+        "place_array": {},
+        "average_credits": 6000,
+        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 \u0433\u043e\u0434\u0438\u043d\u0430",
+            "duration": 3600,
+            "max_possible_prisoners": 1,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "216": {
+        "id": 216,
+        "name": "\u041f\u043e\u0436\u0435\u0436\u0430 \u043d\u0430 \u043f\u0456\u0440\u0441\u0456",
+        "place": "\u041f\u0456\u0440\u0441",
+        "place_array": {
+            "0": "\u041f\u0456\u0440\u0441"
+        },
+        "average_credits": 5000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 7
+        }
+    },
+    "217": {
+        "id": 217,
+        "name": "\u041f\u0430\u043d\u0456\u0447\u043d\u0430 \u0430\u0442\u0430\u043a\u0430",
+        "place": "",
+        "place_array": {},
+        "average_credits": 250,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0456\u044f \u0448\u0432\u0438\u0434\u043a\u043e\u0457 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u0425\u0456\u0440\u0443\u0440\u0433 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "218": {
+        "id": 218,
+        "name": "\u0412\u0456\u0434\u043a\u0440\u0438\u0442\u0438\u0439 \u0443\u0440\u043e\u043a \u041e\u0411\u0416",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 \u0445\u0432\u0438\u043b\u0438\u043d",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 1
         }
     }
 }

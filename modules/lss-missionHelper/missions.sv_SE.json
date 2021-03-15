@@ -3042,7 +3042,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -5718,7 +5720,9 @@
         },
         "additional": {
             "possible_patient": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 281
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
@@ -5751,6 +5755,45 @@
         "prerequisites": {
             "police_stations": 4,
             "fire_stations": 4
+        }
+    },
+    "281": {
+        "id": 281,
+        "name": "Farligt utsl\u00e4pp - fosfor",
+        "place": "Sm\u00e5b\u00e5tshamn",
+        "place_array": {
+            "0": "Sm\u00e5b\u00e5tshamn"
+        },
+        "average_credits": 6500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "mobile_air_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "mobile_command_vehicles": 30,
+            "nef": 40,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 3,
+            "fire_stations": 13
         }
     }
 }
