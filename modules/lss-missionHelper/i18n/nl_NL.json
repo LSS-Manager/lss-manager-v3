@@ -98,7 +98,7 @@
     "elw3": "Commandowagen",
     "ambulances": "Ambulances",
     "nef": "MMT-arts",
-    "grukw": "ME Groepsvoertuig",
+    "grukw": "ME Flexbus",
     "lebefkw": "ME Commandovoertuigen",
     "police_helicopters": "Politiehelikopter",
     "diver_units": "Waterongevallenvoertuigen / Oppervlaktereddingsteams",
@@ -113,6 +113,7 @@
     "bike_police": "Biketeams",
     "spokesman": "Voorlichter",
     "detention_unit": "ME - Aanhoudingseenheid",
+    "gefkw": "DB Arrestantenvervoer",
     "allow_rw_instead_of_lf": "Tankautospuiten of Hulpverleningsvoertuigen of Hulpverleningshaakarmbakken"
   }
 }
