@@ -7057,5 +7057,185 @@
             "police_stations": 4,
             "fire_stations": 20
         }
+    },
+    "302": {
+        "id": 302,
+        "name": "Leprechaun causing public mischief",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Wed, 17 Mar 2021 10:00:00 GMT",
+            "date_end": "Thu, 18 Mar 2021 10:00:00 GMT"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "303": {
+        "id": 303,
+        "name": "Driver blinded by green decorative lights",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "police_station_missions",
+            "date_start": "Wed, 17 Mar 2021 10:00:00 GMT",
+            "date_end": "Thu, 18 Mar 2021 10:00:00 GMT",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "304": {
+        "id": 304,
+        "name": "Leprechaun stuck on tree",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 10
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Wed, 17 Mar 2021 10:00:00 GMT",
+            "date_end": "Thu, 18 Mar 2021 10:00:00 GMT"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "305": {
+        "id": 305,
+        "name": "Protecting shamrock fields from St. Patricks Day enthusiasts",
+        "place": "",
+        "place_array": {},
+        "average_credits": 12000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hour",
+            "duration": 3600,
+            "average_min_police_personnel": 12,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Wed, 17 Mar 2021 10:00:00 GMT",
+            "date_end": "Thu, 18 Mar 2021 10:00:00 GMT"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "306": {
+        "id": 306,
+        "name": "Great St. Patricks Day parade",
+        "place": "",
+        "place_array": {},
+        "average_credits": 20000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "ambulances": 4,
+            "battalion_chief_vehicles": 5,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 8
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hour",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Wed, 17 Mar 2021 10:00:00 GMT",
+            "date_end": "Thu, 18 Mar 2021 10:00:00 GMT"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 8,
+            "fire_stations": 12
+        }
+    },
+    "307": {
+        "id": 307,
+        "name": "Skin is turning green",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 3,
+            "patient_uk_code_possible": {
+                "0": "C-3"
+            },
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Wed, 17 Mar 2021 10:00:00 GMT",
+            "date_end": "Thu, 18 Mar 2021 10:00:00 GMT",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }
