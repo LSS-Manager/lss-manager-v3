@@ -16303,7 +16303,9 @@
             "date_start": "Wed, 17 Mar 2021 10:00:00 -0400",
             "date_end": "Thu, 18 Mar 2021 10:00:00 -0400"
         },
-        "prerequisites": {}
+        "prerequisites": {
+            "police_stations": 6
+        }
     },
     "544": {
         "id": 544,

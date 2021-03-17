@@ -3198,7 +3198,7 @@
         "place_array": {
             "0": "Stadion"
         },
-        "average_credits": 3000,
+        "average_credits": 8700,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
             "0": "/images/clock_gruen.png",
@@ -3220,7 +3220,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "police_stations": 4,
-            "bereitschaftspolizei": 1
+            "bereitschaftspolizei": 1,
+            "riot_unit_count": 1
         }
     },
     "117": {
@@ -3230,7 +3231,7 @@
         "place_array": {
             "0": "Stadion"
         },
-        "average_credits": 6000,
+        "average_credits": 17910,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
             "0": "/images/clock_gruen.png",
@@ -3238,8 +3239,10 @@
             "2": "/images/clock_rot.png"
         },
         "requirements": {
+            "hondengeleider": 2,
             "ambulances": 2,
             "lebefkw": 1,
+            "gefkw": 1,
             "grukw": 6
         },
         "chances": {},
@@ -3250,9 +3253,11 @@
             "filter_id": "riot_police_missions"
         },
         "prerequisites": {
-            "rescue_stations": 2,
+            "rescue_stations": 1,
             "police_stations": 4,
-            "bereitschaftspolizei": 2
+            "bereitschaftspolizei": 4,
+            "riot_unit_count": 2,
+            "prisoner_transport_count": 1
         }
     },
     "118": {
@@ -6161,7 +6166,7 @@
         "name": "Ontruimen kraakpand",
         "place": "",
         "place_array": {},
-        "average_credits": 3500,
+        "average_credits": 7365,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
             "0": "/images/clock_gruen.png",
@@ -6170,6 +6175,7 @@
         },
         "requirements": {
             "lebefkw": 1,
+            "gefkw": 1,
             "police_cars": 4,
             "grukw": 3,
             "ovdp": 1
@@ -6182,8 +6188,10 @@
             "filter_id": "riot_police_missions"
         },
         "prerequisites": {
-            "police_stations": 3,
-            "bereitschaftspolizei": 1
+            "police_stations": 5,
+            "bereitschaftspolizei": 2,
+            "riot_unit_count": 1,
+            "prisoner_transport_count": 1
         }
     },
     "246": {
@@ -6214,7 +6222,7 @@
         "name": "Persoon vermist",
         "place": "",
         "place_array": {},
-        "average_credits": 1200,
+        "average_credits": 3580,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
             "0": "/images/zoom_gruen.png",
@@ -6232,8 +6240,9 @@
             "filter_id": "riot_police_missions"
         },
         "prerequisites": {
-            "police_stations": 4,
-            "bereitschaftspolizei": 1
+            "police_stations": 6,
+            "bereitschaftspolizei": 1,
+            "riot_unit_count": 1
         }
     },
     "248": {
@@ -6241,7 +6250,7 @@
         "name": "Persoon vermist",
         "place": "",
         "place_array": {},
-        "average_credits": 2200,
+        "average_credits": 5440,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
             "0": "/images/zoom_gruen.png",
@@ -6252,16 +6261,18 @@
             "lebefkw": 1,
             "police_helicopters": 1,
             "police_cars": 3,
-            "grukw": 3
+            "grukw": 6,
+            "ovdp": 1
         },
         "chances": {},
         "additional": {
             "filter_id": "riot_police_missions"
         },
         "prerequisites": {
-            "police_stations": 3,
+            "police_stations": 5,
             "police_helicopter_stations": 1,
-            "bereitschaftspolizei": 1
+            "bereitschaftspolizei": 2,
+            "riot_unit_count": 2
         }
     },
     "249": {
@@ -8859,6 +8870,9 @@
         },
         "additional": {
             "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 493
+            },
             "max_possible_prisoners": 2,
             "filter_id": "riot_police_missions",
             "patient_specializations": "Traumatologie"
@@ -14121,7 +14135,7 @@
         "place_array": {
             "0": "Caf\u00e9/Club"
         },
-        "average_credits": 2000,
+        "average_credits": 6010,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
             "0": "/images/baseball_gruen.png",
@@ -14130,18 +14144,23 @@
         },
         "requirements": {
             "lebefkw": 1,
+            "gefkw": 1,
             "police_cars": 4,
-            "grukw": 3,
-            "ovdp": 1
+            "grukw": 6,
+            "ovdp": 1,
+            "detention_unit": 1
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 4,
+            "max_possible_prisoners": 10,
             "filter_id": "riot_police_missions"
         },
         "prerequisites": {
-            "police_stations": 3,
-            "bereitschaftspolizei": 1
+            "police_stations": 5,
+            "bereitschaftspolizei": 3,
+            "riot_unit_count": 2,
+            "detention_unit_count": 1,
+            "prisoner_transport_count": 1
         }
     },
     "493": {
@@ -14151,7 +14170,7 @@
         "place_array": {
             "0": "Caf\u00e9/Club"
         },
-        "average_credits": 1650,
+        "average_credits": 4470,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
             "0": "/images/baseball_gruen.png",
@@ -14162,16 +14181,23 @@
             "lebefkw": 1,
             "police_cars": 2,
             "grukw": 3,
-            "ovdp": 1
+            "ovdp": 1,
+            "detention_unit": 1
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 3,
+            "expansion_missions_ids": {
+                "0": 492
+            },
+            "max_possible_prisoners": 7,
             "filter_id": "riot_police_missions"
         },
         "prerequisites": {
-            "police_stations": 2,
-            "bereitschaftspolizei": 1
+            "police_stations": 5,
+            "bereitschaftspolizei": 2,
+            "riot_unit_count": 1,
+            "detention_unit_count": 1,
+            "prisoner_transport_count": 1
         }
     },
     "494": {
@@ -16374,12 +16400,12 @@
         "name": "Begeleiding demonstratie (klein)",
         "place": "",
         "place_array": {},
-        "average_credits": 4000,
+        "average_credits": 9720,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
-            "0": "/images/baseball_gruen.png",
-            "1": "/images/baseball_gelb.png",
-            "2": "/images/baseball_rot.png"
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
         },
         "requirements": {
             "lebefkw": 1,
@@ -16395,7 +16421,8 @@
         },
         "prerequisites": {
             "police_stations": 3,
-            "bereitschaftspolizei": 1
+            "bereitschaftspolizei": 1,
+            "riot_unit_count": 1
         }
     },
     "594": {
@@ -16403,20 +16430,22 @@
         "name": "Begeleiding demonstratie (groot)",
         "place": "",
         "place_array": {},
-        "average_credits": 6500,
+        "average_credits": 35910,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
-            "0": "/images/baseball_gruen.png",
-            "1": "/images/baseball_gelb.png",
-            "2": "/images/baseball_rot.png"
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
         },
         "requirements": {
-            "hondengeleider": 1,
+            "hondengeleider": 2,
             "ambulances": 1,
-            "lebefkw": 2,
+            "lebefkw": 1,
+            "gefkw": 1,
             "police_cars": 4,
             "grukw": 6,
-            "ovdp": 1
+            "ovdp": 1,
+            "detention_unit": 1
         },
         "chances": {},
         "additional": {
@@ -16428,7 +16457,10 @@
         "prerequisites": {
             "rescue_stations": 1,
             "police_stations": 5,
-            "bereitschaftspolizei": 3
+            "bereitschaftspolizei": 5,
+            "riot_unit_count": 2,
+            "detention_unit_count": 1,
+            "prisoner_transport_count": 1
         }
     },
     "595": {
@@ -17615,10 +17647,11 @@
         },
         "additional": {
             "possible_patient": 5,
+            "possible_patient_min": 2,
             "expansion_missions_ids": {
                 "0": 637
             },
-            "max_possible_prisoners": 1,
+            "max_possible_prisoners": 3,
             "filter_id": "police_station_missions",
             "patient_specializations": "Traumatologie"
         },
@@ -17635,7 +17668,7 @@
         "place_array": {
             "0": "Verzorgingsplaats (Snelweg)"
         },
-        "average_credits": 5680,
+        "average_credits": 6380,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
             "0": "/images/zoom_gruen.png",
@@ -17644,6 +17677,7 @@
         },
         "requirements": {
             "hondengeleider": 2,
+            "gefkw": 1,
             "police_helicopters": 1,
             "police_cars": 10,
             "ovdp": 1
@@ -17654,7 +17688,7 @@
         "additional": {
             "possible_patient": 20,
             "possible_patient_min": 10,
-            "max_possible_prisoners": 3,
+            "max_possible_prisoners": 7,
             "filter_id": "riot_police_missions",
             "patient_specializations": "Traumatologie"
         },
@@ -17662,7 +17696,8 @@
             "rescue_stations": 8,
             "police_stations": 10,
             "police_helicopter_stations": 1,
-            "bereitschaftspolizei": 2
+            "bereitschaftspolizei": 3,
+            "prisoner_transport_count": 1
         }
     },
     "638": {
@@ -19763,10 +19798,10 @@
     },
     "721": {
         "id": 721,
-        "name": "Rellen",
+        "name": "Spontane opstand",
         "place": "",
         "place_array": {},
-        "average_credits": 5980,
+        "average_credits": 8580,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
             "0": "/images/baseball_gruen.png",
@@ -19776,19 +19811,25 @@
         "requirements": {
             "hondengeleider": 2,
             "lebefkw": 1,
+            "gefkw": 1,
             "police_cars": 10,
-            "grukw": 3,
+            "grukw": 6,
             "ovdp": 1,
-            "bike_police": 2
+            "bike_police": 2,
+            "detention_unit": 1
         },
         "chances": {},
         "additional": {
+            "max_possible_prisoners": 12,
             "filter_id": "riot_police_missions",
             "need_bike_police_only_if_present": true
         },
         "prerequisites": {
             "police_stations": 13,
-            "bereitschaftspolizei": 3
+            "bereitschaftspolizei": 5,
+            "riot_unit_count": 2,
+            "detention_unit_count": 1,
+            "prisoner_transport_count": 1
         }
     },
     "722": {
@@ -20135,6 +20176,199 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        }
+    },
+    "763": {
+        "id": 763,
+        "name": "Toezicht bij manifestatie",
+        "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
+        "average_credits": 4715,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "lebefkw": 1,
+            "police_cars": 3,
+            "grukw": 6,
+            "ovdp": 1,
+            "bike_police": 1
+        },
+        "chances": {
+            "ovdp": 50
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 764
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "riot_police_missions",
+            "need_bike_police_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "bereitschaftspolizei": 2,
+            "riot_unit_count": 2
+        }
+    },
+    "764": {
+        "id": 764,
+        "name": "Opbreken manifestatie",
+        "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
+        "average_credits": 9565,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "hondengeleider": 2,
+            "lebefkw": 2,
+            "gefkw": 1,
+            "police_cars": 8,
+            "grukw": 9,
+            "ovdp": 1,
+            "bike_police": 1,
+            "detention_unit": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 2,
+            "max_possible_prisoners": 12,
+            "filter_id": "riot_police_missions",
+            "need_bike_police_only_if_present": true,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 10,
+            "bereitschaftspolizei": 6,
+            "riot_unit_count": 3,
+            "detention_unit_count": 1,
+            "prisoner_transport_count": 1
+        }
+    },
+    "765": {
+        "id": 765,
+        "name": "Onaangekondigde demonstratie",
+        "place": "Marktplein",
+        "place_array": {
+            "0": "Marktplein"
+        },
+        "average_credits": 6955,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "hondengeleider": 1,
+            "lebefkw": 1,
+            "gefkw": 1,
+            "police_cars": 5,
+            "grukw": 6,
+            "ovdp": 1,
+            "bike_police": 1,
+            "detention_unit": 1
+        },
+        "chances": {
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 2,
+            "expansion_missions_ids": {
+                "0": 721
+            },
+            "max_possible_prisoners": 7,
+            "filter_id": "riot_police_missions",
+            "need_bike_police_only_if_present": true,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 8,
+            "bereitschaftspolizei": 4,
+            "riot_unit_count": 2,
+            "detention_unit_count": 1,
+            "prisoner_transport_count": 1
+        }
+    },
+    "766": {
+        "id": 766,
+        "name": "Onrust in de wijk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2885,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "lebefkw": 1,
+            "police_cars": 4,
+            "grukw": 3,
+            "bike_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 767
+            },
+            "max_possible_prisoners": 3,
+            "filter_id": "riot_police_missions",
+            "need_bike_police_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "bereitschaftspolizei": 1,
+            "riot_unit_count": 1
+        }
+    },
+    "767": {
+        "id": 767,
+        "name": "Ongeregeldheden in de wijk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5125,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "lebefkw": 1,
+            "police_cars": 6,
+            "grukw": 6,
+            "bike_police": 1,
+            "detention_unit": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 5,
+            "filter_id": "riot_police_missions",
+            "need_bike_police_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 7,
+            "bereitschaftspolizei": 2,
+            "riot_unit_count": 2,
+            "detention_unit_count": 1
         }
     }
 }

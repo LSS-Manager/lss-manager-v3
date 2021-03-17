@@ -454,7 +454,7 @@ else if (I18n.locale == "nl_NL") {
         "37": ["MMT-Auto", 1],
         "38": ["OvD-G | Officier van Dienst - Geneeskunde", 1],
         "39": ["ME Commandovoertuig | Mobiele Eenheid - Commandovoertuig", 2],
-        "40": ["ME Groepsvoertuig | Mobiele Eenheid - Groepsvoertuig", 2],
+        "40": ["ME Flex | Mobiele Eenheid - Flexbus", 2],
         "41": ["CT (8x8) | Crashtender (8x8)", 0],
         "42": ["CT (6x6) | Crashtender (6x6)", 0],
         "43": ["CT (4x4) | Crashtender (4x4)", 0],
@@ -477,7 +477,8 @@ else if (I18n.locale == "nl_NL") {
         "60": ["DB-Bike | Dienstbus Biketeam", 2],
         "61": ["SLH | Slangenhaakarmbak", 0],
         "62": ["TS-HV | Tankautospuit-Hulpverlening", 0],
-        "63": ["DM-RR | Rapid Responder - Motor", 1]
+        "63": ["DM-RR | Rapid Responder - Motor", 1],
+        "64": ["ME-AE | ME - Aanhoudingseenheid"]
     };
 }
 else if (I18n.locale == "de_DE") {
