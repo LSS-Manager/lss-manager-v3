@@ -2,7 +2,7 @@
     const lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
     const updateMin = 30; // Minuten-Inetrval in dem geupdatet wird
 
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|meldkamerspel|larmcentralen-spelet|alarmcentral-spil|operatorratunkowy|operatore112|operateur112|nodsentralspillet|operacni-stredisko|operador193|jogo-operador112|missionchief-korea|jocdispecerat112)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.se|\.pl|\.it|\.fr|.gr)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan|missionchief-korea|jocdispecerat112|hatakeskuspeli)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.gr)\/#?$/)) return;
 
     I18n.translations.de_DE.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
@@ -27,6 +27,18 @@
         updateMessage: 'Values update automatically<br>every ' + updateMin + ' minutes.',
         chartErr: 'Could not load chart "{{chart}}"!<br>We already know that this happens with some browsers, but not yet why. Please <b>don\'t</b> report us this error as we are already on this problem!',
         hoverTip: 'Tip: Hover over an element to display a value history.'
+    };
+    I18n.translations.es_ES.lssm.verbandsverwaltung = {
+        name: 'Administración',
+        allianceFunds: 'Fondos de la Alianza',
+        allianceCredits: 'Créditos Obtenidos',
+        users: 'Miembros',
+        onlineUsers: 'Miembros en línea',
+        allianceRank: 'Rango en Alliancelista',
+        page: 'Página',
+        updateMessage: 'Los valores se actualizan automáticamente<br>cada ' + updateMin + ' actas.',
+        chartErr: 'No se pudo cargar el gráfico "{{chart}}"!<br>Ya sabemos que esto sucede con algunos navegadores, pero aún no sabemos por qué. Por favor <b>no nos informe de este error ya que estamos en este problema!',
+        hoverTip: 'Consejo: Pase el ratón por encima de un elemento para mostrar un historial de valores.'
     };
     I18n.translations.pt_PT.lssm.verbandsverwaltung = {
         name: 'Administração',

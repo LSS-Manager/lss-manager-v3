@@ -29,6 +29,12 @@
         reset: "Återställa",
         select: "Vänligen välj..."
     };
+    I18n.translations.es_ES['lssm']['aaosearch'] = {
+        search_aao: "Buscar AAO",
+        use_dd: "Use el menú desplegable: ",
+        reset: "Reiniciar",
+        select: "Por favor seleccione...."
+    };
     I18n.translations.da_DK['lssm']['aaosearch'] = {
         search_aao: "Søg i AAO",
         use_dd: "Brug rulleliste: ",

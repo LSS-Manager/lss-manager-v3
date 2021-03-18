@@ -33,6 +33,11 @@
         label1: 'Kant på klik',
         description1: 'Afgrænser en AAO, når den er blevet klikket én gang.'
     };
+    I18n.translations.es_ES['lssm']['aaozaehler'] = {
+        reset: "Restablecer contador AAO",
+        label1: 'La frontera en el clic',
+        description1: 'Bordea un AAO una vez que se ha pulsado una vez.'
+    };
     I18n.translations.nb_NO['lssm']['aaozaehler'] = {
         reset: "Tilbakestill AAO-telleren",
         label1: 'Kant på klikk',

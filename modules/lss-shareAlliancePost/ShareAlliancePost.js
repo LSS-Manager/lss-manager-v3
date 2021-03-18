@@ -89,6 +89,26 @@
         },
     };
 
+    I18n.translations.es_ES.lssm.sharealliancepost = {
+        share: 'Compartir...',
+        chat: 'Chat...',
+        alert: 'Alerta...',
+        clock: 'en punto',
+        reqVehIdent: 'Vehículos necesarios:',
+        reqVeh: 'No se requieren otros vehículos.',
+        settings: {
+            title: 'Alerta, Compartir y Publicar',
+            jumpNext: 'Saltar a la siguiente misión después de alertar',
+            enableKeyboard: 'Habilitar accesos directos de teclado',
+            defaultPostToChat: 'Publicar en el chat es predeterminado',
+            shortcutKeys:
+                'Lista de teclas separadas por comas para alertas. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages:
+                'Plantillas de mensajes. Marcadores de posición: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
+            timeOffset: 'Offset para %TIME_OFFSET%-formatter en horas',
+        },
+    };
+
     I18n.translations.pt_PT.lssm.sharealliancepost = {
         share: 'Compartilhar...',
         chat: 'Conversa...',

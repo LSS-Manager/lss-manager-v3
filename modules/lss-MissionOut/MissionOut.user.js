@@ -31,6 +31,9 @@
     I18n.translations.pt_PT.lssm.missionOut = {
         title: 'Ocultar / Mostrar missão'
     };
+    I18n.translations.es_ES.lssm.missionOut = {
+        title: 'Ocultar/Mostrar misión'
+    };
     I18n.translations.ko_KR.lssm.missionOut = {
         title: '미션 숨기기 / 보이기'
     };

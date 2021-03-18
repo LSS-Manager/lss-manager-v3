@@ -158,6 +158,25 @@
             num_teame: 'Somma / Crediti trattamento dell\'alleanza'
         };
 
+        I18n.translations.es_ES.lssm.sumDailyMissions = {
+            patient_treatment: 'Patient Treatment',
+            patient_treatment1: 'Patient Treatment',
+            education: 'education',
+            purchase: 'comprado',
+            cancelled: 'Cancelled',
+            extended: 'construida',
+            extended2: 'Extended',
+            built: 'construido',
+            teame: ' Alianza',
+            team: '\\[Alianza\\]',
+            prisoner: 'Prisionero transportado',
+            num_missions: 'Suma / créditos Misiones',
+            num_patients: 'Suma / créditos pacientes',
+            num_prisoners: 'Suma / créditos de prisioneros',
+            num_team: 'Suma / créditos de misiones de alianza',
+            num_teame: 'Tratamiento de alianza suma / créditos'
+        };
+
         I18n.translations.fr_FR.lssm.sumDailyMissions = {
             patient_treatment: 'Traitement de patient',
             patient_treatment1: 'Traitement de patient et transport',

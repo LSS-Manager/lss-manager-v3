@@ -55,6 +55,21 @@
                 'Skrytí policejních stanic/buněk s menším počtem volných buněk, než je požadováno',
         },
     };
+    I18n.translations.es_ES.lssm.destfilter = {
+        title: 'Filtro de destino',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: 'Ocultar hospitales completos',
+            beds1: 'Hospitales ciegos bajo x camas apagadas',
+            department: 'Ocultar hospitales sin necesidad de departamento',
+            distance: 'Ocultar destinos por encima de x km de distancia (0 desactiva)',
+            tax: 'Ocultar destinos con un IMPUESTO superior a x%',
+            cells: 'Ocultar celdas completas',
+            cellsYellow: 'Ocultar las comisarías/células con menos celdas libres de las necesarias'
+        }
+    };
     I18n.translations.pt_PT.lssm.destfilter = {
         title: 'Filtro destino',
         freeBeds: 'Free beds',

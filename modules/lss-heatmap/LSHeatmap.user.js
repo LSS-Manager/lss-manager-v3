@@ -1,7 +1,7 @@
 ((I18n, $) => {
     const LS_HEATMAP_STORAGE = "LSS_HEATMAP_STORAGE";
 
-    delete localStorage['lssm_LS_HEATMAP_STORAGE'];
+    localStorage.removeItem('lssm_LS_HEATMAP_STORAGE')
 
     Object.filter = (obj, predicate) =>
         Object.keys(obj)
@@ -354,6 +354,19 @@
         vehicleGroups: [
             {
                 name: 'Vlastní kombinace',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.es_ES.lssm.heatmap = {
+        active: 'Activo',
+        vehicleType: 'Grupos',
+        radius: 'Radio',
+        intensity: 'Intensidad',
+        close: 'Cerrar',
+        vehicleGroups: [
+            {
+                name: 'Combinación propia',
                 vehicles: []
             }
         ]

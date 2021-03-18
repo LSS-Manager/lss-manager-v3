@@ -377,6 +377,23 @@ else if (I18n.locale == "fr_FR") {
         "29": ["PC DSM", 1]
     };
 }
+else if (I18n.locale == "es_ES") {
+    lssm.carsById = {
+        "0": ["Camión BUP", 0],
+        "1": ["Camión BUL", 0],
+        "2": ["Camión AE", 0],
+        "3": ["Vehículo UMC", 0],
+        "4": ["FUV", 0],
+        "5": ["Ambulancia", 1],
+        "6": ["Camión BNP", 0],
+        "7": ["Camión TPP", 0],
+        "8": ["Coche patrulla", 2],
+        "9": ["HEMS", 1],
+        "10": ["Vehículo aéreo", 0],
+        "11": ["Vehículo de mando móvil", 0],
+        "12": ["Vehículo de rescate", 0]
+    };
+}
 else if (I18n.locale == "ko_KR") {
     lssm.carsById = {
         "0": ["구조사다리", 0],
