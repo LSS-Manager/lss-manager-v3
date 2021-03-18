@@ -111,6 +111,62 @@
             }
         }
     };
+    I18n.translations.es_ES.lssm.extendedBuilding = {
+        title: 'Vista ampliada del edificio',
+        crew: 'Tripulación (máx.)',
+        fms: 'Estado',
+        assignment: 'Asignar personal',
+        neededPersonnel: 'Personal Necesario',
+        expansionFinished: 'Acabado',
+        expansionNotStarted: 'No iniciado',
+        personnelOverview: 'Resumen de personal',
+        schooling: 'Educación',
+        schoolingsMulti: 'Todas las combinaciones de educación',
+        schoolingsSingle: 'Educación individual',
+        amount: 'Importe',
+        expansionName: 'Descripción',
+        vehicleType: 'Tipo',
+        binding: 'Asignado a',
+        bindingAmount: 'Encuadernado',
+        settings: {
+            neededPersonnel: {
+                label: 'Personal necesario',
+                description: 'Muestra el personal necesario si todos los vehículos van a estar completamente ocupados.',
+            },
+            switchStatus: {
+                label: 'Cambio rápido de estado',
+                description: 'El estado de un vehículo se puede cambiar directamente entre S2 y S6 a través de la pantalla de estado.',
+            },
+            assignmentBtn: {
+                label: 'Asignación rápida',
+                description: 'Añade un botón para llegar rápidamente a la ventana "Asignar personal',
+            },
+            assignedWorkers: {
+                label: 'Personal asignado',
+                description: 'Muestra para cada vehículo cuánto personal está asignado',
+            },
+            currentCrew: {
+                label: 'Tripulación actual',
+                description: 'Indica para cada vehículo cuántas personas están sentadas actualmente en el vehículo',
+            },
+            expansions: {
+                label: 'Mostrar ampliaciones',
+                description: 'Mostrar el estado actual de las ampliaciones',
+            },
+            personnelOverview: {
+                label: 'Resumen de personal ampliado',
+                description: 'Muestra en el resumen de personal la cantidad de personal que tiene cada formación.',
+            },
+            vehicleType: {
+                label: 'Mostrar tipo de vehículo',
+                description: 'Muestra el tipo de vehículo en la lista de vehículos.',
+            },
+            expansionDate: {
+                label: 'Fecha de finalización de la ampliación',
+                description: 'Muestra en la lista de ampliaciones también cuándo se terminará la construcción (trabajos sólo en relación con el ajuste "Mostrar ampliaciones").',
+            }
+        }
+    };
     I18n.translations.cs_CZ.lssm.extendedBuilding = {
         title: 'Rozšířené zobrazení budovy',
         crew: 'Posádka (max.)',

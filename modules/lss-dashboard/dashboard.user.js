@@ -118,6 +118,36 @@ I18n.translations.en_AU['lssm']['dashboard'] = {
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
     nofz: "No vehicles found",
 }
+I18n.translations.es_ES['lssm']['dashboard'] = {
+    name: "Tablero de mandos",
+    vehicles: {
+        name: "Vehículos",
+        type: "Tipo de vehículo",
+        available: "Disponible",
+        onsite: "En el sitio",
+        request: "Solicitar",
+        transport: "Transporte",
+        fms6: "Estado 6",
+    },
+    total: "Suma",
+    overview: "Panorama general",
+    distribution: "Distribución",
+    station_plan: "Planificación de la estación",
+    loading: "El tablero se está cargando",
+    ge: 'Edificios',
+    school: 'Escuelas',
+    wachen: 'Estación',
+    other: 'Otros',
+    anz: 'Importe',
+    perwp: 'EMPLEADO',
+    carswp: 'AUTOMÓVILES',
+    patiwp: 'PACIENTES',
+    levwp: 'NIVEL',
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "No vehicles found",
+}
 I18n.translations.cs_CZ['lssm']['dashboard'] = {
     name: "Dashboard",
     vehicles: {

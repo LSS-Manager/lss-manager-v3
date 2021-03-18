@@ -24,6 +24,11 @@
           "Dane te obejmują: Twój identyfikator, nazwę użytkownika, liczbę strażników, używaną przeglądarkę i włączone moduły.\r\n\r\n" +
           "Zgadzasz się z tym?"
     };
+    I18n.translations.es_ES.lssm.telemetry = {
+        question: "El Administrador LSS envía datos no personales a los desarrolladores para mejorar el script y encontrar errores.\r\n" +
+            "Estos datos incluyen: su ID, nombre de usuario, el número de guardias, el navegador utilizado y los módulos habilitados.\r\n\r\n" +
+            "¿Está de acuerdo con esto?"
+    };
     I18n.translations.sv_SE.lssm.telemetry = {
         question: "LSS Manager skickar icke-personlig information till utvecklarna för att förbättra skriptet och hitta fel.\r\n" +
           "Dessa data inkluderar: ditt ID, användarnamn, antalet vakter, den webbläsare som används och aktiverade moduler.\r\n\r\n" +

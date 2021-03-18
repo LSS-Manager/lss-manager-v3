@@ -1049,6 +1049,72 @@
         }
     };
 
+    I18n.translations.es_ES.lssm.renameFz = {
+        name: 'Renombrar vehículos',
+        rename: "cambiar de nombre",
+        id: "{id} Id del Vehículo",
+        old: "{old} Nombre actual",
+        vehicleType: "{vehicleType} Tipo de vehículo",
+        stationName: "{stationName} Nombre del edificio",
+        tagging: '{tagging} Marcado del tipo de vehículo',
+        number: '{number} Contador de tipos',
+        numberRoman: '{numberRoman} Contador de tipos (Roman numerals)',
+        dispatch: '{dispatch} Nombre del centro de despacho',
+        dispatchAlias: '{dispatchAlias} Alias de Dispatchcenter',
+        stationAlias: '{stationAlias} Edificio-Alias',
+        saveAll: 'guardar Todo',
+        statusWaiting: 'Esperar a la entrada',
+        statusError: '<b>Error durante la generación!</b> Si este error ocurre de nuevo, por favor repórtelo. Por favor, proporcione la siguiente información:',
+        statusWorking: 'Generar nombres y formularios. Esto puede llevar cierto tiempo, dependiendo del sistema y del número de vehículos.s.',
+        statusSuccess: 'Nombres y Forumlare generados con éxito!',
+        nameAlreadyCorrect: 'El nombre ya corresponde a la plantilla!',
+        nameToLong: 'El nombre es demasiado largo para los siguientes vehículos:',
+        nameToLongOriginalName: 'Nombre original',
+        nameToLongGeneratedName: 'Nombre generado',
+        nameToLongShortenedName: 'Nombre nuevo o abreviado',
+        helpTitle: 'Puede encontrar una pequeña instrucción en este enlace: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Inicio de contador',
+        counterOverride: 'Si hay varios vehículos del mismo tipo, comience con 1 de todos modos.',
+        startNumHelp: 'Aquí puede introducir un valor inicial para el tipo de contador. Si establece 0 como valor de inicio, el primer vehículo de un tipo no obtendrá la numeración, esto es muy práctico si sólo tiene un vehículo de un tipo en un resguardo y no quiere numerarlo. Pero también puede iniciar el contador a las 5 (por la razón que quiera, pero es posible ;) )',
+        toggleNameCorrect: 'Mostrar/ocultar vehículos con nombres correctos',
+        settings: {
+            show: 'Visualizar/Ocultar',
+            names: {
+                vehicleTypes: 'Tipos de vehículos',
+                stations: 'Edificio alias'
+            },
+            descriptions: {
+                vehicleTypes: 'Aquí puede establecer nombres alternativos para cada tipo de vehículo. Puede utilizarlos al cambiar el nombre de sus vehículos a través del centro de envío..',
+                stations: 'Aquí puede establecer nombres alternativos para cada edificio. Puede utilizarlos al cambiar el nombre de sus vehículos a través del centro de envío.'
+            },
+            validStationTypes: {
+                0: "Parque de bomberos",
+                2: "Parque de ambulancias",
+                6: "Comisaría de policía",
+                7: "Centralita",
+                18: "Parque de bomberos (pequeño)",
+                19: "Comisaría de policía (pequeño)",
+                20: "Parque de ambulancias (pequeño)"
+            },
+            vehicleTypes: {
+                0: 'Camión BUP',
+                1: 'Camión BUL',
+                2: 'Camión AE',
+                3: 'Vehículo UMC',
+                4: 'FUV',
+                5: 'Ambulancia',
+                6: 'Camión BNP',
+                7: 'Camión TPP',
+                8: 'Coche patrulla',
+                9: 'HEMS',
+                10: 'Vehículo aéreo',
+                11: 'Vehículo de mando móvil',
+                12: 'Vehículo de rescate'
+            }
+        }
+    };
+
     I18n.translations.ko_KR.lssm.renameFz = {
         name: '차량 이름 바꾸기',
         rename: "이름 바꾸기",

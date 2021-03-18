@@ -29,6 +29,9 @@
     I18n.translations.fr_FR['lssm']['allianceMissionlistShare'] = {
         title: "Libération en alliance"
     };
+    I18n.translations.es_ES['lssm']['allianceMissionlistShare'] = {
+        title: "Lanzamiento en alianza"
+    };
     I18n.translations.ko_KR['lssm']['allianceMissionlistShare'] = {
         title: "동맹의 석방"
     };
