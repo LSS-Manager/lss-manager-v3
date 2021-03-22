@@ -167,14 +167,14 @@
             extended: 'construida',
             extended2: 'Extendido',
             built: 'construido',
-            teame: ' Alianza',
+            teame: '\\(alianza\\)',
             team: '\\[Alianza\\]',
             prisoner: 'Preso transportado',
             num_missions: 'Suma / Créditos Misiones',
             num_patients: 'Suma / Créditos Pacientes',
             num_prisoners: 'Suma / Créditos de Presos',
             num_team: 'Suma / Créditos de misiones de alianza',
-            num_teame: 'Suma / Créditos de pacientes de alianza'
+            num_teame: 'Suma / Créditos de tratamiento de alianza'
         };
 
         I18n.translations.fr_FR.lssm.sumDailyMissions = {
