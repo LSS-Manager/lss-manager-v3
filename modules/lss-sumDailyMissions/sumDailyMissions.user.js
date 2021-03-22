@@ -159,22 +159,22 @@
         };
 
         I18n.translations.es_ES.lssm.sumDailyMissions = {
-            patient_treatment: 'Patient Treatment',
-            patient_treatment1: 'Patient Treatment',
-            education: 'education',
+            patient_treatment: 'Tratamiento de pacientes',
+            patient_treatment1: 'Tratamiento y transporte de pacientes',
+            education: 'educación',
             purchase: 'comprado',
-            cancelled: 'Cancelled',
+            cancelled: 'Cancelado',
             extended: 'construida',
-            extended2: 'Extended',
+            extended2: 'Extendido',
             built: 'construido',
             teame: ' Alianza',
             team: '\\[Alianza\\]',
-            prisoner: 'Prisionero transportado',
-            num_missions: 'Suma / créditos Misiones',
-            num_patients: 'Suma / créditos pacientes',
-            num_prisoners: 'Suma / créditos de prisioneros',
-            num_team: 'Suma / créditos de misiones de alianza',
-            num_teame: 'Tratamiento de alianza suma / créditos'
+            prisoner: 'Preso transportado',
+            num_missions: 'Suma / Créditos Misiones',
+            num_patients: 'Suma / Créditos Pacientes',
+            num_prisoners: 'Suma / Créditos de Presos',
+            num_team: 'Suma / Créditos de misiones de alianza',
+            num_teame: 'Suma / Créditos de pacientes de alianza'
         };
 
         I18n.translations.fr_FR.lssm.sumDailyMissions = {

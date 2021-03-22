@@ -5782,7 +5782,6 @@
         },
         "chances": {
             "mobile_command_vehicles": 30,
-            "nef": 40,
             "patient_transport": 60
         },
         "additional": {
@@ -5794,6 +5793,30 @@
             "rescue_stations": 4,
             "police_stations": 3,
             "fire_stations": 13
+        }
+    },
+    "282": {
+        "id": 282,
+        "name": "Gripande av misst\u00e4nkt person",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
         }
     }
 }

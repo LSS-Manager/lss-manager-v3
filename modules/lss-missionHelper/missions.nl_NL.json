@@ -20178,6 +20178,56 @@
             "rescue_stations": 1
         }
     },
+    "759": {
+        "id": 759,
+        "name": "Identiteitsfraude",
+        "place": "",
+        "place_array": {},
+        "average_credits": 840,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "760": {
+        "id": 760,
+        "name": "Identiteitsfraude",
+        "place": "Winkelcentrum",
+        "place_array": {
+            "0": "Winkelcentrum"
+        },
+        "average_credits": 840,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
     "763": {
         "id": 763,
         "name": "Toezicht bij manifestatie",
