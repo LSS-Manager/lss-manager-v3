@@ -167,7 +167,7 @@
             extended: 'construida',
             extended2: 'Extendido',
             built: 'construido',
-            teame: 'Hospital (alianza)',
+            teame: 'Hospital \\(alianza\\)',
             team: '\\[Alianza\\]',
             prisoner: 'Preso transportado',
             num_missions: 'Suma / Créditos Misiones',
