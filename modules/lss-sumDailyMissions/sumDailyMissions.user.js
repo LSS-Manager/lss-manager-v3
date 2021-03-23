@@ -1,11 +1,11 @@
 (function () {
     let site_location = window.location.href;
-    if(site_location.match('daily'))
-    {
+    if (site_location.match('daily')) {
         I18n.translations.de_DE.lssm.sumDailyMissions = {
             patient_treatment: 'Patienten Behandlung',
             patient_treatment1: 'Patienten Behandlung und Transport',
             education: 'Ausbildung',
+            dailyl: 'Täglicher',
             purchase: 'gekauft',
             cancelled: 'Abgebrochen',
             cancelled2: 'Rückerstattung',
@@ -28,8 +28,8 @@
             education: 'education',
             purchase: 'bought',
             cancelled: 'Cancelled',
-	    cancelled2: 'Refund',
-	    cancelled3: 'demolished',
+            cancelled2: 'Refund',
+            cancelled3: 'demolished',
             extended: 'constructed',
             extended2: 'Extended',
             built: 'constructed',
@@ -99,7 +99,7 @@
             num_team: 'Summa / Krediter alliansuppdrag',
             num_teame: 'Summa / Krediter alliansbehandling'
         };
-        
+
         I18n.translations.da_DK.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment',
@@ -144,7 +144,7 @@
             education: 'educazione',
             purchase: 'acquistato',
             cancelled: 'Annullato',
-	    cancelled2: 'Rimborsa',
+            cancelled2: 'Rimborsa',
             extended: 'estesa',
             extended2: 'aggiornata',
             built: 'costruito',
@@ -162,8 +162,9 @@
             patient_treatment: 'Tratamiento de pacientes',
             patient_treatment1: 'Tratamiento y transporte de pacientes',
             education: 'Formación',
-	    education2: 'entrenamiento',
+            education2: 'entrenamiento',
             purchase: 'comprado',
+            dailyl: 'Recompensa diaria',
             cancelled: 'Cancelado',
             extended: 'construida',
             extended2: 'Extendido',
@@ -275,21 +276,6 @@
             num_team: 'Aantal / Credits Teammeldingen',
             num_teame: 'Aantal / Credits Teamopnames'
         };
-
-        let anzahl_pro_einsatz = document.querySelectorAll("#iframe-inside-container > table > tbody > tr > td:nth-child(3)");
-        let credit_pro_einsatz = document.querySelectorAll("#iframe-inside-container > table > tbody > tr > td:nth-child(1)");
-        let einsatz_titel = document.querySelectorAll("#iframe-inside-container > table > tbody > tr > td:nth-child(4)");
-        let sum_einsaetze = 0;
-        let cre_einsaetze = 0;
-        let sum_patienten = 0;
-        let cre_patienten = 0;
-        let sum_gefangene = 0;
-        let cre_gefangene = 0;
-        let sum_verband = 0;
-        let cre_verband = 0;
-        let sum_verbande = 0;
-        let cre_verbande = 0;
-
         let css = ''+
             '#num_label {margin-right: 5px;padding: 5px 0px 5px 5px;border: 1.5px solid black;font-size: inherit;border-radius: 5px;}'+
             '#num_anzahl {background: #333;padding: 4.5px;margin-left: 5px;margin-right: 1px;}'+
@@ -303,104 +289,79 @@
         else style.appendChild(document.createTextNode(css));
         head.appendChild(style);
 
-        if(anzahl_pro_einsatz !== null && credit_pro_einsatz !==null && einsatz_titel !== null)
-        {
-            for(let i=0;i<anzahl_pro_einsatz.length;i++)
-            {
-                //Zähle Anzahl behandelter Patienten
-                if(einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.patient_treatment')) ||
-                    einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.patient_treatment1')))
+
+let sum_einsaetze = 0;
+let cre_einsaetze = 0;
+let sum_patienten = 0;
+let cre_patienten = 0;
+let sum_gefangene = 0;
+let cre_gefangene = 0;
+let sum_verband = 0;
+let cre_verband = 0;
+let sum_verbande = 0;
+let cre_verbande = 0;
+document.querySelectorAll('#iframe-inside-container > table > tbody > tr').forEach(row => {
+    const amount = parseInt(row.children[2].textContent.trim().match(/-?\d{1,3}([.,]\d{3})*/)[0].replace(/[.,]/g, ''));
+    const credits = parseInt(row.children[0].textContent.trim().match(/-?\d{1,3}([.,]\d{3})*/)[0].replace(/[.,]/g, ''));
+    const title = row.children[3].textContent.trim();
+
+if(title.match(I18n.t('lssm.sumDailyMissions.patient_treatment')) ||
+                    title.match(I18n.t('lssm.sumDailyMissions.patient_treatment1')))
                 {
-                    anzahl = anzahl_pro_einsatz[i].innerHTML;
-                    sum_patienten = sum_patienten + Number(anzahl.replace(" x",""));
+                    sum_patienten += amount;
+                    cre_patienten += credits;
                 }
                 //Zähle Ausbauten, abgebrochene Einsätze, Verbandseinlieferungen und Ausbildung nicht dazu
-                else if(einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.extended')) ||
-                        einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.purchase')) ||
-                        einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.cancelled')) ||
-                        einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.education')) ||
-			einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.education2')) ||
-                        einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.extended2')) ||
-                        einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.built')) ||
-                        einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.cancelled2')) ||
-			einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.cancelled3')))
+                else if(title.match(I18n.t('lssm.sumDailyMissions.extended')) ||
+                        title.match(I18n.t('lssm.sumDailyMissions.purchase')) ||
+                        title.match(I18n.t('lssm.sumDailyMissions.dailyl')) ||
+                        title.match(I18n.t('lssm.sumDailyMissions.cancelled')) ||
+                        title.match(I18n.t('lssm.sumDailyMissions.education')) ||
+                        (I18n.locale === 'es_ES' && title.match(I18n.t('lssm.sumDailyMissions.education2'))) ||
+                        title.match(I18n.t('lssm.sumDailyMissions.extended2')) ||
+                        title.match(I18n.t('lssm.sumDailyMissions.built')) ||
+                        title.match(I18n.t('lssm.sumDailyMissions.cancelled2')) ||
+                        title.match(I18n.t('lssm.sumDailyMissions.cancelled3')))
                 {
                 }
-                else if(einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.prisoner')))
+                else if(title.match(I18n.t('lssm.sumDailyMissions.prisoner')))
                 {
-                    anzahl = anzahl_pro_einsatz[i].innerHTML;
-                    sum_gefangene = sum_gefangene + Number(anzahl.replace(" x",""));
+                    sum_gefangene += amount;
+                    cre_gefangene += credits;
                 }
-                else if(einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.teame')))
+                else if(title.match(I18n.t('lssm.sumDailyMissions.teame')))
                 {
-                    anzahl = anzahl_pro_einsatz[i].innerHTML;
-                    sum_verbande = sum_verbande + Number(anzahl.replace(" x",""));
+                    sum_verbande += amount;
+                    cre_verbande += credits;
                 }
-                else if (einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.team'))) 
+                else if (title.match(I18n.t('lssm.sumDailyMissions.team'))) 
                 {
-                    anzahl = anzahl_pro_einsatz[i].innerHTML;
-                    sum_verband = sum_verband + Number(anzahl.replace(" x", ""));
+                    sum_verband += amount;
+                    cre_verband += credits;
                 }
                 //Alles andere sind normale Einsätze und können gezählt werden
                 else
                 {
-                    anzahl = anzahl_pro_einsatz[i].innerHTML;
-                    sum_einsaetze = sum_einsaetze + Number(anzahl.replace(" x",""));
+                    sum_einsaetze += amount;
+                    cre_einsaetze += credits;
                 }
-            }
-            for (let i = 0; i < credit_pro_einsatz.length; i++) {
-                //Zähle Anzahl behandelter Patienten
-                if (einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.patient_treatment')) ||
-                    einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.patient_treatment1'))) {
-                    anzahl = credit_pro_einsatz[i].innerHTML;
-                    cre_patienten = cre_patienten + Number(anzahl.replace(/[,.]/g, '').replace(/\D/g, ''));
-                }
-                //Zähle Ausbauten, abgebrochene Einsätze, Verbandseinlieferungen und Ausbildung nicht dazu
-                else if (einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.extended')) ||
-                    einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.purchase')) ||
-                    einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.cancelled')) ||
-                    einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.education')) ||
-                    einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.extended2')) ||
-                    einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.built')) ||
-                    einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.cancelled2')) ||
-                    einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.cancelled3'))) {
-                }
-                else if (einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.prisoner'))) {
-                    anzahl = credit_pro_einsatz[i].innerHTML;
-                    cre_gefangene = cre_gefangene + Number(anzahl.replace(/[,.]/g, '').replace(/\D/g, ''));
-                }
-                else if (einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.teame'))) {
-                    anzahl = credit_pro_einsatz[i].innerHTML;
-                    cre_verbande = cre_verbande + Number(anzahl.replace(/[,.]/g, '').replace(/\D/g, ''));
-                }
-                else if (einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.team'))) {
-                    anzahl = credit_pro_einsatz[i].innerHTML;
-                    cre_verband = cre_verband + Number(anzahl.replace(/[,.]/g, '').replace(/\D/g, ''));
-                }
-                //Alles andere sind normale Einsätze und können gezählt werden
-                else {
-                    anzahl = credit_pro_einsatz[i].innerHTML;
-                    cre_einsaetze = cre_einsaetze + Number(anzahl.replace(/[,.]/g, '').replace(/\D/g, ''));
-                }
-            }
+});
             let tables = document.querySelectorAll("#iframe-inside-container > table");
             let table = tables[0];
             if(typeof table !== 'undefined' && table !== null)
                 table.insertAdjacentHTML('beforebegin',
                     '<div class="label label-danger" id="num_label"><i class="glyphicon glyphicon-fire" id="num_icon"></i>'+
-                    I18n.t('lssm.sumDailyMissions.num_missions') + '<span id="num_anzahl">' + sum_einsaetze + ' / ' + cre_einsaetze.toLocaleString() +'</span></div>'+
+                    I18n.t('lssm.sumDailyMissions.num_missions') + '<span id="num_anzahl">' + sum_einsaetze + ' / ' + cre_einsaetze.toLocaleString() + '</span></div>' +
 
-                    '<div class="label label-warning" id="num_label"><i class="glyphicon glyphicon-plus" id="num_icon"></i>'+
-                    I18n.t('lssm.sumDailyMissions.num_patients') + '<span id="num_anzahl">' + sum_patienten + ' / ' + cre_patienten.toLocaleString() +'</span></div>'+
+                    '<div class="label label-warning" id="num_label"><i class="glyphicon glyphicon-plus" id="num_icon"></i>' +
+                    I18n.t('lssm.sumDailyMissions.num_patients') + '<span id="num_anzahl">' + sum_patienten + ' / ' + cre_patienten.toLocaleString() + '</span></div>' +
 
-                    '<div class="label label-success" id="num_label"><i class="glyphicon glyphicon-plus" id="num_icon"></i>'+
-                    I18n.t('lssm.sumDailyMissions.num_prisoners') + '<span id="num_anzahl">' + sum_gefangene + ' / ' + cre_gefangene.toLocaleString() +'</span></div>'+
+                    '<div class="label label-success" id="num_label"><i class="glyphicon glyphicon-plus" id="num_icon"></i>' +
+                    I18n.t('lssm.sumDailyMissions.num_prisoners') + '<span id="num_anzahl">' + sum_gefangene + ' / ' + cre_gefangene.toLocaleString() + '</span></div>' +
 
                     '<div class="label label-danger" id="num_label"><i class="glyphicon glyphicon-fire" id="num_icon"></i>' +
-                    I18n.t('lssm.sumDailyMissions.num_team') + '<span id="num_anzahl">' + sum_verband + ' / ' + cre_verband.toLocaleString()+'</span></div>' +
+                    I18n.t('lssm.sumDailyMissions.num_team') + '<span id="num_anzahl">' + sum_verband + ' / ' + cre_verband.toLocaleString() + '</span></div>' +
 
-                    '<div class="label label-info" id="num_label"><i class="glyphicon glyphicon-plus" id="num_icon"></i>'+
-                    I18n.t('lssm.sumDailyMissions.num_teame') + '<span id="num_anzahl">' + sum_verbande + ' / ' + cre_verbande.toLocaleString() +'</span></div><br><br>');
-        }
-    }
-})();
+                    '<div class="label label-info" id="num_label"><i class="glyphicon glyphicon-plus" id="num_icon"></i>' +
+                    I18n.t('lssm.sumDailyMissions.num_teame') + '<span id="num_anzahl">' + sum_verbande + ' / ' + cre_verbande.toLocaleString() + '</span></div><br><br>');
+}})();
