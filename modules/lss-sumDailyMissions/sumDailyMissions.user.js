@@ -28,8 +28,8 @@
             education: 'education',
             purchase: 'bought',
             cancelled: 'Cancelled',
-			cancelled2: 'Refund',
-			cancelled3: 'demolished',
+	    cancelled2: 'Refund',
+	    cancelled3: 'demolished',
             extended: 'constructed',
             extended2: 'Extended',
             built: 'constructed',
@@ -144,7 +144,7 @@
             education: 'educazione',
             purchase: 'acquistato',
             cancelled: 'Annullato',
-			cancelled2: 'Rimborsa',
+	    cancelled2: 'Rimborsa',
             extended: 'estesa',
             extended2: 'aggiornata',
             built: 'costruito',
@@ -161,7 +161,8 @@
         I18n.translations.es_ES.lssm.sumDailyMissions = {
             patient_treatment: 'Tratamiento de pacientes',
             patient_treatment1: 'Tratamiento y transporte de pacientes',
-            education: 'educación',
+            education: 'Formación',
+	    education2: 'entrenamiento',
             purchase: 'comprado',
             cancelled: 'Cancelado',
             extended: 'construida',
@@ -318,10 +319,11 @@
                         einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.purchase')) ||
                         einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.cancelled')) ||
                         einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.education')) ||
+			einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.education2')) ||
                         einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.extended2')) ||
                         einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.built')) ||
                         einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.cancelled2')) ||
-						einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.cancelled3')))
+			einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.cancelled3')))
                 {
                 }
                 else if(einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.prisoner')))
