@@ -16230,5 +16230,51 @@
             "wasserrettung": 1,
             "fire_stations": 11
         }
+    },
+    "547": {
+        "id": 547,
+        "name": "Injured person on scaffolding",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 30,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "17-D-1G",
+                "1": "17-D-2G",
+                "2": "17-D-3G",
+                "3": "17-D-4G",
+                "4": "17-D-5G",
+                "5": "17-B-1G",
+                "6": "17-B-2G",
+                "7": "17-B-3G",
+                "8": "17-A-1G",
+                "9": "17-A-2G",
+                "10": "17-A-3G"
+            },
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }
