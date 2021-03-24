@@ -166,6 +166,7 @@
             purchase: 'comprado',
             dailyl: 'Recompensa diaria',
             cancelled: 'Cancelado',
+            cancelled2: 'Solicitar devolución',
             extended: 'construida',
             extended2: 'Extendido',
             built: 'construido',
