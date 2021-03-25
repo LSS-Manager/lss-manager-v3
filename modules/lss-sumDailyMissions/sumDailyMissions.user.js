@@ -9,11 +9,15 @@
             purchase: 'gekauft',
             cancelled: 'Abgebrochen',
             cancelled2: 'Rückerstattung',
+            cancelled3: 'abgebrochen',
             extended: 'ausgebaut',
             extended2: 'erweitert',
             built: 'gebaut',
             teame: 'Verbandse',
             team: '\\[Verband\\]',
+            shit: 'An den Gebäudekomplex angehängte Gebäude',
+            shit1: 'Ausbau zu einem Gebäudekomplex',
+            shit2: 'Ausbau der Gebäudekomplexbasis abgeschlossen',
             prisoner: 'Gefangenen transportiert',
             num_missions: 'Anzahl / Credits Einsätze',
             num_patients: 'Anzahl / Credits Patienten',
@@ -35,6 +39,7 @@
             built: 'constructed',
             teame: ' Alliance',
             team: '\\[Alliance\\]',
+            shit: 'Upgraded to Building Complex Base',
             prisoner: 'Prisoner Transported',
             num_missions: 'Sum / Credits Missions',
             num_patients: 'Sum / Credits Patients',
@@ -166,11 +171,15 @@
             purchase: 'comprado',
             dailyl: 'Recompensa diaria',
             cancelled: 'Cancelado',
+            cancelled2: 'Solicitar devolución',
+            cancelled3: 'cancelado',
             extended: 'construida',
             extended2: 'Extendido',
             built: 'construido',
             teame: '\\(alianza\\)',
             team: '\\[Alianza\\]',
+            shit: 'Mejorado a base de complejo de edificios',
+            shit1: 'Edificio añadido a base de complejo de edificios',
             prisoner: 'Preso transportado',
             num_missions: 'Suma / Créditos Misiones',
             num_patients: 'Suma / Créditos Pacientes',
@@ -269,6 +278,9 @@
             built: 'gebouwd',
             teame: 'Teamopname',
             team: '\\[Team\\]',
+            shit: 'Gebouw bevestigd aan Gebouwencomplexbasis',
+            shit1: 'Upgraded to Building Complex Base',
+            shit2: 'Geüpgraded naar Gebouwencomplex',
             prisoner: 'Arrestanten getransporteerd',
             num_missions: 'Aantal / Credits meldingen',
             num_patients: 'Aantal / Credits patiënten',
@@ -320,6 +332,9 @@ if(title.match(I18n.t('lssm.sumDailyMissions.patient_treatment')) ||
                         (I18n.locale === 'es_ES' && title.match(I18n.t('lssm.sumDailyMissions.education2'))) ||
                         title.match(I18n.t('lssm.sumDailyMissions.extended2')) ||
                         title.match(I18n.t('lssm.sumDailyMissions.built')) ||
+                        title.match(I18n.t('lssm.sumDailyMissions.shit')) ||
+                        title.match(I18n.t('lssm.sumDailyMissions.shit1')) ||
+                        title.match(I18n.t('lssm.sumDailyMissions.shit2')) ||
                         title.match(I18n.t('lssm.sumDailyMissions.cancelled2')) ||
                         title.match(I18n.t('lssm.sumDailyMissions.cancelled3')))
                 {

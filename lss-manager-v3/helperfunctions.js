@@ -61,7 +61,13 @@ if (I18n.locale == "en_US") {
         "47": ["Sheriff Unit", 2],
         "48": ["EMS Fire Engine/Ambulance", 1],
         "49": ["Tactical Ambulance", 1],
-        "50": ["Hazmat Ambulance", 1]
+        "50": ["Hazmat Ambulance", 1],
+        "51": ["DEA Unit", 2],
+        "52": ["DEA Clan Lab", 2],
+        "53": ["ATF Unit", 2],
+        "54": ["ATF Lab Vehicle", 2],
+        "55": ["Patrol Boat", 2],
+        "56": ["Warden's Truck", 2],
     };
 }
 else if (I18n.locale == "en_GB") {
