@@ -267,7 +267,13 @@
                 47: 'Sheriff Unit',
                 48: 'EMS Fire Engine/Ambulance',
                 49: 'Tactical Ambulance',
-                50: 'Hazmat Ambulance'
+                50: 'Hazmat Ambulance',
+                51: 'DEA Unit',
+                52: 'DEA Clan Lab',
+                53: 'ATF Unit',
+                54: 'ATF Lab Vehicle',
+                55: 'Patrol Boat',
+                56: "Warden's Truck"
             }
         }
     };

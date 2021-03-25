@@ -13743,7 +13743,9 @@
             "filter_id": "federal_police_missions",
             "subsequent_missions_ids": {
                 "0": 442,
-                "1": 443
+                "1": 443,
+                "2": 568,
+                "3": 571
             },
             "allow_drone_instead_of_investigation": true
         },
@@ -16275,6 +16277,879 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        }
+    },
+    "548": {
+        "id": 548,
+        "name": "Investigate area for fire",
+        "place": "Park\nForest",
+        "place_array": {
+            "0": "Park",
+            "1": "Forest"
+        },
+        "average_credits": 500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "game_warden": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 549,
+                "1": 550
+            }
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "game_warden_count": 2
+        }
+    },
+    "549": {
+        "id": 549,
+        "name": "Person started bushfire (small)",
+        "place": "Park\nForest",
+        "place_array": {
+            "0": "Park",
+            "1": "Forest"
+        },
+        "average_credits": 500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "brush_truck": 1,
+            "game_warden": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "brush_extension": 1,
+            "game_warden_count": 2,
+            "fire_stations": 1
+        }
+    },
+    "550": {
+        "id": 550,
+        "name": "Person started bushfire (large)",
+        "place": "Park\nForest",
+        "place_array": {
+            "0": "Park",
+            "1": "Forest"
+        },
+        "average_credits": 750,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "brush_truck": 1,
+            "game_warden": 1
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 432
+            },
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "police_stations": 8,
+            "brush_extension": 1,
+            "game_warden_count": 2,
+            "fire_stations": 3
+        }
+    },
+    "551": {
+        "id": 551,
+        "name": "Illegal hunting",
+        "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
+        "average_credits": 500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "game_warden": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "game_warden_count": 1
+        }
+    },
+    "552": {
+        "id": 552,
+        "name": "Illegal fishing",
+        "place": "Lake\nRiver",
+        "place_array": {
+            "0": "Lake",
+            "1": "River"
+        },
+        "average_credits": 500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "game_warden": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "game_warden_count": 1
+        }
+    },
+    "553": {
+        "id": 553,
+        "name": "Animal smuggling",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "k9": 1,
+            "game_warden": 2
+        },
+        "chances": {
+            "k9": 50
+        },
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "game_warden_count": 2
+        }
+    },
+    "554": {
+        "id": 554,
+        "name": "Plant smuggling",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/cannabis_gruen.png",
+            "1": "/images/cannabis_gelb.png",
+            "2": "/images/cannabis_rot.png"
+        },
+        "requirements": {
+            "k9": 1,
+            "game_warden": 2
+        },
+        "chances": {
+            "k9": 50
+        },
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "game_warden_count": 2
+        }
+    },
+    "555": {
+        "id": 555,
+        "name": "Short Children excursion",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "game_warden": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "15 minutes",
+            "duration": 900,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "game_warden_count": 1
+        }
+    },
+    "556": {
+        "id": 556,
+        "name": "Long Children excursion",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "game_warden": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 minutes",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "game_warden_count": 2
+        }
+    },
+    "557": {
+        "id": 557,
+        "name": "Wilderness First Aid",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "game_warden": 1
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "17-A-1"
+            },
+            "patient_allow_first_responder_chance": 100,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "game_warden_count": 1
+        }
+    },
+    "558": {
+        "id": 558,
+        "name": "Illegal immigration by water",
+        "place": "Cargo port\nMarina\nLarge Ferry Dock",
+        "place_array": {
+            "0": "Cargo port",
+            "1": "Marina",
+            "2": "Large Ferry Dock"
+        },
+        "average_credits": 1500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6,
+            "police_boat": 2
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 3,
+            "max_possible_prisoners": 5,
+            "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "26-A-3",
+                "1": "20-A-1C",
+                "2": "20-B-2C20-D-1C",
+                "3": "20-D-2C"
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "water_police_count": 1
+        }
+    },
+    "559": {
+        "id": 559,
+        "name": "Suspicious boat",
+        "place": "Lake\nRiver\nCargo port\nMarina\nLarge Ferry Dock",
+        "place_array": {
+            "0": "Lake",
+            "1": "River",
+            "2": "Cargo port",
+            "3": "Marina",
+            "4": "Large Ferry Dock"
+        },
+        "average_credits": 500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "police_boat": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 560,
+                "1": 561,
+                "2": 558
+            }
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "water_police_count": 1
+        }
+    },
+    "560": {
+        "id": 560,
+        "name": "Drug smuggling by water",
+        "place": "Lake\nRiver\nCargo port\nMarina\nLarge Ferry Dock",
+        "place_array": {
+            "0": "Lake",
+            "1": "River",
+            "2": "Cargo port",
+            "3": "Marina",
+            "4": "Large Ferry Dock"
+        },
+        "average_credits": 1500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "k9": 1,
+            "police_boat": 2,
+            "dea_unit": 2,
+            "dea_clan_lab": 1
+        },
+        "chances": {
+            "k9": 50
+        },
+        "additional": {
+            "filter_id": "federal_police_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "federalpolice_stations": 1,
+            "dea_count": 1,
+            "water_police_count": 1
+        }
+    },
+    "561": {
+        "id": 561,
+        "name": "Weapon smuggling by water",
+        "place": "Lake\nRiver\nCargo port\nMarina\nLarge Ferry Dock",
+        "place_array": {
+            "0": "Lake",
+            "1": "River",
+            "2": "Cargo port",
+            "3": "Marina",
+            "4": "Large Ferry Dock"
+        },
+        "average_credits": 1500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "k9": 1,
+            "police_boat": 2,
+            "atf_unit": 2,
+            "atf_lab_vehicle": 1
+        },
+        "chances": {
+            "k9": 50
+        },
+        "additional": {
+            "filter_id": "federal_police_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "federalpolice_stations": 1,
+            "atf_count": 1,
+            "water_police_count": 1
+        }
+    },
+    "562": {
+        "id": 562,
+        "name": "Fighting on yacht",
+        "place": "Lake\nRiver\nMarina\nLarge Ferry Dock",
+        "place_array": {
+            "0": "Lake",
+            "1": "River",
+            "2": "Marina",
+            "3": "Large Ferry Dock"
+        },
+        "average_credits": 900,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6,
+            "police_boat": 2
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-1",
+                "1": "30-D-2",
+                "2": "30-D-3",
+                "3": "30-B-1",
+                "4": "30-B-2",
+                "5": "30-A-1"
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "water_police_count": 1
+        }
+    },
+    "563": {
+        "id": 563,
+        "name": "Underwater investigation",
+        "place": "Lake\nRiver\nCargo port\nMarina\nLarge Ferry Dock",
+        "place_array": {
+            "0": "Lake",
+            "1": "River",
+            "2": "Cargo port",
+            "3": "Marina",
+            "4": "Large Ferry Dock"
+        },
+        "average_credits": 700,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "police_boat": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 564,
+                "1": 565,
+                "2": 566,
+                "3": 567
+            }
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "water_police_count": 1
+        }
+    },
+    "564": {
+        "id": 564,
+        "name": "Underwater weapon stash",
+        "place": "Lake\nRiver\nCargo port\nMarina\nLarge Ferry Dock",
+        "place_array": {
+            "0": "Lake",
+            "1": "River",
+            "2": "Cargo port",
+            "3": "Marina",
+            "4": "Large Ferry Dock"
+        },
+        "average_credits": 1500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "police_boat": 2,
+            "atf_unit": 2,
+            "atf_lab_vehicle": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "federal_police_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "federalpolice_stations": 1,
+            "atf_count": 1,
+            "water_police_count": 1
+        }
+    },
+    "565": {
+        "id": 565,
+        "name": "Underwater drug stash",
+        "place": "Lake\nRiver\nCargo port\nMarina\nLarge Ferry Dock",
+        "place_array": {
+            "0": "Lake",
+            "1": "River",
+            "2": "Cargo port",
+            "3": "Marina",
+            "4": "Large Ferry Dock"
+        },
+        "average_credits": 1500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "police_boat": 2,
+            "dea_unit": 2,
+            "dea_clan_lab": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "federal_police_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "federalpolice_stations": 1,
+            "dea_count": 1,
+            "water_police_count": 1
+        }
+    },
+    "566": {
+        "id": 566,
+        "name": "Undefused naval mine",
+        "place": "Marina\nLarge Ferry Dock",
+        "place_array": {
+            "0": "Marina",
+            "1": "Large Ferry Dock"
+        },
+        "average_credits": 1800,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "fbi_bomb": 1,
+            "police_boat": 2,
+            "atf_unit": 2,
+            "atf_lab_vehicle": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "federal_police_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "federalpolice_stations": 1,
+            "atf_count": 1,
+            "water_police_count": 1
+        }
+    },
+    "567": {
+        "id": 567,
+        "name": "Undefused air bomb",
+        "place": "Marina\nLarge Ferry Dock",
+        "place_array": {
+            "0": "Marina",
+            "1": "Large Ferry Dock"
+        },
+        "average_credits": 1800,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "fbi_bomb": 1,
+            "police_boat": 2,
+            "atf_unit": 2,
+            "atf_lab_vehicle": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "federal_police_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "federalpolice_stations": 1,
+            "atf_count": 1,
+            "water_police_count": 1
+        }
+    },
+    "568": {
+        "id": 568,
+        "name": "Office used for drug marketing",
+        "place": "Office Building",
+        "place_array": {
+            "0": "Office Building"
+        },
+        "average_credits": 2500,
+        "generated_by": "Federal Police Station",
+        "icons": {
+            "0": "/images/fbi_gruen.png",
+            "1": "/images/fbi_gelb.png",
+            "2": "/images/fbi_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "dea_unit": 3,
+            "dea_clan_lab": 1
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 137,
+                "1": 137,
+                "2": 137,
+                "3": 489,
+                "4": 489,
+                "5": 569,
+                "6": 569
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "federal_police_missions",
+            "subsequent_missions_ids": {
+                "0": 570
+            },
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "federalpolice_stations": 3,
+            "dea_count": 1
+        }
+    },
+    "569": {
+        "id": 569,
+        "name": "Possible drug lab",
+        "place": "Office Building",
+        "place_array": {
+            "0": "Office Building"
+        },
+        "average_credits": 1500,
+        "generated_by": "Federal Police Station",
+        "icons": {
+            "0": "/images/fbi_gruen.png",
+            "1": "/images/fbi_gelb.png",
+            "2": "/images/fbi_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "dea_unit": 1,
+            "dea_clan_lab": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "federal_police_missions",
+            "subsequent_missions_ids": {
+                "0": 139
+            }
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "federalpolice_stations": 2,
+            "dea_count": 1
+        }
+    },
+    "570": {
+        "id": 570,
+        "name": "Hidden branch of drug cartell",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4500,
+        "generated_by": "Federal Police Station",
+        "icons": {
+            "0": "/images/fbi_gruen.png",
+            "1": "/images/fbi_gelb.png",
+            "2": "/images/fbi_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5,
+            "dea_unit": 5,
+            "dea_clan_lab": 2
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 6,
+            "followup_missions_ids": {
+                "0": 137,
+                "1": 137,
+                "2": 137,
+                "3": 137,
+                "4": 137,
+                "5": 489,
+                "6": 489,
+                "7": 489,
+                "8": 569,
+                "9": 569,
+                "10": 569
+            },
+            "max_possible_prisoners": 12,
+            "swat_personnel": 12,
+            "filter_id": "federal_police_missions",
+            "patient_us_code_possible": {
+                "0": "27-B-3G",
+                "1": "27-D-4G",
+                "2": "27-D-5G",
+                "3": "27-B-3S",
+                "4": "27-D-4S",
+                "5": "27-D-5S",
+                "6": "27-D-2",
+                "7": "27-D-3"
+            },
+            "subsequent_mission_only": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "federalpolice_stations": 8,
+            "dea_count": 2
+        }
+    },
+    "571": {
+        "id": 571,
+        "name": "Office used for firearms black market sales",
+        "place": "Office Building",
+        "place_array": {
+            "0": "Office Building"
+        },
+        "average_credits": 2500,
+        "generated_by": "Federal Police Station",
+        "icons": {
+            "0": "/images/fbi_gruen.png",
+            "1": "/images/fbi_gelb.png",
+            "2": "/images/fbi_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "atf_unit": 3,
+            "atf_lab_vehicle": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "federal_police_missions",
+            "subsequent_missions_ids": {
+                "0": 572
+            },
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "federalpolice_stations": 3,
+            "atf_count": 1
+        }
+    },
+    "572": {
+        "id": 572,
+        "name": "Branch of firearms black market organization",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4500,
+        "generated_by": "Federal Police Station",
+        "icons": {
+            "0": "/images/fbi_gruen.png",
+            "1": "/images/fbi_gelb.png",
+            "2": "/images/fbi_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5,
+            "atf_unit": 3,
+            "atf_lab_vehicle": 2
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 6,
+            "max_possible_prisoners": 12,
+            "swat_personnel": 12,
+            "filter_id": "federal_police_missions",
+            "patient_us_code_possible": {
+                "0": "27-B-3G",
+                "1": "27-D-4G",
+                "2": "27-D-5G",
+                "3": "27-B-3S",
+                "4": "27-D-4S",
+                "5": "27-D-5S",
+                "6": "27-D-2",
+                "7": "27-D-3"
+            },
+            "subsequent_mission_only": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "federalpolice_stations": 8,
+            "atf_count": 2
         }
     }
 }
