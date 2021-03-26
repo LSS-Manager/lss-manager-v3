@@ -2238,6 +2238,322 @@
             "police_stations": 4
         }
     },
+    "83": {
+        "id": 83,
+        "name": "\uc774\uc2a4\ud130 \uc5d0\uadf8 \ub3c4\ub451",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "\uae08, 26 3\uc6d4 2021 10:00:00 +0000",
+            "date_end": "\uc6d4, 05 4\uc6d4 2021 23:59:00 +0900"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "84": {
+        "id": 84,
+        "name": "\uc791\uc5c5\uc7a5\uc5d0\uc11c \ube0c\ub7ec\uc2dc \ub3c4\ub09c",
+        "place": "\ud559\uad50",
+        "place_array": {
+            "0": "\ud559\uad50"
+        },
+        "average_credits": 150,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "\uae08, 26 3\uc6d4 2021 10:00:00 +0000",
+            "date_end": "\uc6d4, 05 4\uc6d4 2021 23:59:00 +0900"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "85": {
+        "id": 85,
+        "name": "\ubb34\ub108\uc9c4 \ud1a0\ub07c\uad74",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "\uae08, 26 3\uc6d4 2021 10:00:00 +0000",
+            "date_end": "\uc6d4, 05 4\uc6d4 2021 23:59:00 +0900"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "86": {
+        "id": 86,
+        "name": "\uc774\uc2a4\ud130 \ubc84\ub2c8 \uad50\ud1b5\uc0ac\uace0",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 38
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "\uae08, 26 3\uc6d4 2021 10:00:00 +0000",
+            "date_end": "\uc6d4, 05 4\uc6d4 2021 23:59:00 +0900",
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1
+        }
+    },
+    "87": {
+        "id": 87,
+        "name": "\uc774\uc2a4\ud130 \ubc14\uad6c\ub2c8 \ud654\uc7ac",
+        "place": "",
+        "place_array": {},
+        "average_credits": 110,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "\uae08, 26 3\uc6d4 2021 10:00:00 +0000",
+            "date_end": "\uc6d4, 05 4\uc6d4 2021 23:59:00 +0900"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "88": {
+        "id": 88,
+        "name": "\ucd08\ucf5c\ub9bf \ud0f1\ud06c \uc720\ucd9c",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "date_start": "\uae08, 26 3\uc6d4 2021 10:00:00 +0000",
+            "date_end": "\uc6d4, 05 4\uc6d4 2021 23:59:00 +0900"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 10
+        }
+    },
+    "89": {
+        "id": 89,
+        "name": "\uc5d0\uadf8 \ubcf4\uc77c\ub7ec \ud654\uc7ac",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "\uae08, 26 3\uc6d4 2021 10:00:00 +0000",
+            "date_end": "\uc6d4, 05 4\uc6d4 2021 23:59:00 +0900"
+        },
+        "prerequisites": {
+            "max_police_stations": 7,
+            "fire_stations": 2
+        }
+    },
+    "90": {
+        "id": 90,
+        "name": "\uc774\uc2a4\ud130 \uc5d0\uadf8 \ub9c8\uc744\uc758 \ud1a0\ub07c \ud68c\uc758",
+        "place": "\uacbd\uae30\uc7a5",
+        "place_array": {
+            "0": "\uacbd\uae30\uc7a5"
+        },
+        "average_credits": 7000,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 4,
+            "police_cars": 8
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2\uc2dc\uac04",
+            "duration": 7200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "\uae08, 26 3\uc6d4 2021 10:00:00 +0000",
+            "date_end": "\uc6d4, 05 4\uc6d4 2021 23:59:00 +0900"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 7,
+            "fire_stations": 2
+        }
+    },
+    "91": {
+        "id": 91,
+        "name": "\uc774\uc2a4\ud130 \uc5d0\uadf8 \ud2b8\ub7ed \uc804\ubcf5",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2200,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "\uae08, 26 3\uc6d4 2021 10:00:00 +0000",
+            "date_end": "\uc6d4, 05 4\uc6d4 2021 23:59:00 +0900",
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "max_police_stations": 3,
+            "fire_stations": 8
+        }
+    },
+    "92": {
+        "id": 92,
+        "name": "\uc6b0\uc120 \uc21c\uc704 \uc784\ubb34: \uc774\uc2a4\ud130 \uc5d0\uadf8 \ud5cc\ud2b8",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "\uae08, 26 3\uc6d4 2021 10:00:00 +0000",
+            "date_end": "\uc6d4, 05 4\uc6d4 2021 23:59:00 +0900"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "93": {
+        "id": 93,
+        "name": "\ud06c\ub808\uc778 \uc704\uc758 \uc774\uc2a4\ud130 \ubc84\ub2c8",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "\uae08, 26 3\uc6d4 2021 10:00:00 +0000",
+            "date_end": "\uc6d4, 05 4\uc6d4 2021 23:59:00 +0900"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 12
+        }
+    },
     "94": {
         "id": 94,
         "name": "\ud654\ubb3c \uc6b4\uc1a1 \uc5f4\ucc28 \ud0c8\uc120",
