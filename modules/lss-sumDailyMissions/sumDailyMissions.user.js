@@ -17,7 +17,7 @@
             team: '\\[Verband\\]',
             shit: 'An den Gebäudekomplex angehängte Gebäude',
             shit1: 'Ausbau zu einem Gebäudekomplex',
-            shit2: 'Ausbau der Gebäudekomplexbasis abgeschlossen',
+            shit2: 'Ausgebaut zu einem Gebäudekomplex',
             prisoner: 'Gefangenen transportiert',
             num_missions: 'Anzahl / Credits Einsätze',
             num_patients: 'Anzahl / Credits Patienten',
