@@ -1,7 +1,7 @@
 ((I18n, $) => {
     const LS_HEATMAP_STORAGE = "LSS_HEATMAP_STORAGE";
 
-    localStorage.removeItem('lssm_LS_HEATMAP_STORAGE')
+    localStorage.removeItem('lssm_LSS_HEATMAP_STORAGE')
 
     Object.filter = (obj, predicate) =>
         Object.keys(obj)
