@@ -5084,5 +5084,36 @@
             "police_stations": 6,
             "fire_stations": 15
         }
+    },
+    "232": {
+        "id": 232,
+        "name": "\uacf5\uc0ac \ucc28\ub7c9 \uc0ac\uace0",
+        "place": "",
+        "place_array": {},
+        "average_credits": 950,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 9
+        }
     }
 }
