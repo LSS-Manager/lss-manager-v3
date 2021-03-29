@@ -20544,6 +20544,87 @@
             "police_stations": 3
         }
     },
+    "761": {
+        "id": 761,
+        "name": "Lekkage gevaarlijke stoffen",
+        "place": "Tankstation",
+        "place_array": {
+            "0": "Tankstation"
+        },
+        "average_credits": 1920,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/gas_gruen.png",
+            "1": "/images/gas_gelb.png",
+            "2": "/images/gas_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "nef": 15,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 762
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "762": {
+        "id": 762,
+        "name": "Lekkage gevaarlijke stoffen",
+        "place": "Tankstation",
+        "place_array": {
+            "0": "Tankstation"
+        },
+        "average_credits": 5940,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/gas_gruen.png",
+            "1": "/images/gas_gelb.png",
+            "2": "/images/gas_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 3,
+            "ovdp": 1
+        },
+        "chances": {
+            "mobile_command_vehicles": 50,
+            "hazmat_vehicles": 50,
+            "nef": 15,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 5,
+            "fire_stations": 14
+        }
+    },
     "763": {
         "id": 763,
         "name": "Toezicht bij manifestatie",

@@ -4769,5 +4769,36 @@
             "police_stations": 6,
             "fire_stations": 15
         }
+    },
+    "221": {
+        "id": 221,
+        "name": "Accident rutier pe \u0219antier de construc\u021bie",
+        "place": "",
+        "place_array": {},
+        "average_credits": 950,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 9
+        }
     }
 }

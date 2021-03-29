@@ -366,17 +366,17 @@ if(title.match(I18n.t('lssm.sumDailyMissions.patient_treatment')) ||
             if(typeof table !== 'undefined' && table !== null)
                 table.insertAdjacentHTML('beforebegin',
                     '<div class="label label-danger" id="num_label"><i class="glyphicon glyphicon-fire" id="num_icon"></i>'+
-                    I18n.t('lssm.sumDailyMissions.num_missions') + '<span id="num_anzahl">' + sum_einsaetze + ' / ' + cre_einsaetze.toLocaleString() + '</span></div>' +
+                    I18n.t('lssm.sumDailyMissions.num_missions') + '<span id="num_anzahl">' + sum_einsaetze.toLocaleString() + ' / ' + cre_einsaetze.toLocaleString() + '</span></div>' +
 
                     '<div class="label label-warning" id="num_label"><i class="glyphicon glyphicon-plus" id="num_icon"></i>' +
-                    I18n.t('lssm.sumDailyMissions.num_patients') + '<span id="num_anzahl">' + sum_patienten + ' / ' + cre_patienten.toLocaleString() + '</span></div>' +
+                    I18n.t('lssm.sumDailyMissions.num_patients') + '<span id="num_anzahl">' + sum_patienten.toLocaleString() + ' / ' + cre_patienten.toLocaleString() + '</span></div>' +
 
                     '<div class="label label-success" id="num_label"><i class="glyphicon glyphicon-plus" id="num_icon"></i>' +
-                    I18n.t('lssm.sumDailyMissions.num_prisoners') + '<span id="num_anzahl">' + sum_gefangene + ' / ' + cre_gefangene.toLocaleString() + '</span></div>' +
+                    I18n.t('lssm.sumDailyMissions.num_prisoners') + '<span id="num_anzahl">' + sum_gefangene.toLocaleString() + ' / ' + cre_gefangene.toLocaleString() + '</span></div>' +
 
                     '<div class="label label-danger" id="num_label"><i class="glyphicon glyphicon-fire" id="num_icon"></i>' +
-                    I18n.t('lssm.sumDailyMissions.num_team') + '<span id="num_anzahl">' + sum_verband + ' / ' + cre_verband.toLocaleString() + '</span></div>' +
+                    I18n.t('lssm.sumDailyMissions.num_team') + '<span id="num_anzahl">' + sum_verband.toLocaleString() + ' / ' + cre_verband.toLocaleString() + '</span></div>' +
 
                     '<div class="label label-info" id="num_label"><i class="glyphicon glyphicon-plus" id="num_icon"></i>' +
-                    I18n.t('lssm.sumDailyMissions.num_teame') + '<span id="num_anzahl">' + sum_verbande + ' / ' + cre_verbande.toLocaleString() + '</span></div><br><br>');
+                    I18n.t('lssm.sumDailyMissions.num_teame') + '<span id="num_anzahl">' + sum_verbande.toLocaleString() + ' / ' + cre_verbande.toLocaleString() + '</span></div><br><br>');
 }})();

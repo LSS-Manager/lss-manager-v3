@@ -7458,5 +7458,75 @@
             "rescue_stations": 1,
             "police_stations": 6
         }
+    },
+    "300": {
+        "id": 300,
+        "name": "Large Aircraft Crash Off Airport",
+        "place": "",
+        "place_array": {},
+        "average_credits": 18000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 15,
+            "battalion_chief_vehicles": 12,
+            "mobile_command_vehicles": 2,
+            "heavy_rescue_vehicles": 5,
+            "water_tankers": 4,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 4,
+            "police_helicopters": 1,
+            "police_cars": 12,
+            "kdow_orgl": 3
+        },
+        "chances": {
+            "patient_transport": 30,
+            "helicopter": 5,
+            "patient_critical_care": 60
+        },
+        "additional": {
+            "possible_patient": 220,
+            "possible_patient_min": 60,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 30,
+            "police_stations": 10,
+            "fire_stations": 20
+        }
+    },
+    "301": {
+        "id": 301,
+        "name": "Unsafe Structure",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 20
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
     }
 }

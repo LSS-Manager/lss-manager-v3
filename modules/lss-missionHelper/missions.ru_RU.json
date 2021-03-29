@@ -5853,5 +5853,36 @@
             "police_stations": 6,
             "fire_stations": 15
         }
+    },
+    "272": {
+        "id": 272,
+        "name": "\u0410\u0432\u0430\u0440\u0438\u044f \u0441 \u0443\u0447\u0430\u0441\u0442\u0438\u0435\u043c \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0442\u0435\u0445\u043d\u0438\u043a\u0438",
+        "place": "",
+        "place_array": {},
+        "average_credits": 950,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 9
+        }
     }
 }

@@ -5136,5 +5136,36 @@
             "rescue_stations": 6,
             "fire_stations": 10
         }
+    },
+    "259": {
+        "id": 259,
+        "name": "Transportador de ve\u00edculos tombado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1750,
+        "generated_by": "Esta\u00e7\u00e3o de Ambul\u00e2ncias",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cirurgia Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
     }
 }
