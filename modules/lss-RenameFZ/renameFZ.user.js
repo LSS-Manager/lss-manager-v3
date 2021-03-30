@@ -301,7 +301,8 @@
                 19: "Police Station (Small station)",
                 20: "Ambulance station (Small station)",
                 21: "Clinic",
-                22: "Home Response Location"
+                22: "Home Response Location",
+                25: "HART Base"
             },
             vehicleTypes: {
                 0: 'Water Ladder',
@@ -330,7 +331,11 @@
                 23: 'Crew Carrier',
                 24: 'Traffic Car',
                 25: 'Armed Traffic Car',
-                26: 'Heavy 4x4 Tanker'
+                26: 'Heavy 4x4 Tanker',
+                27: 'PRV',
+                28: 'SRV',
+                29: 'Welfare Vehicle',
+                30: 'ATV Carrier'
             }
         }
     };

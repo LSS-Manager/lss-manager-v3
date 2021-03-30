@@ -98,7 +98,11 @@ else if (I18n.locale == "en_GB") {
         "23": ["Crew Carrier", 0],
         "24": ["Traffic Car", 2],
         "25": ["Armed Traffic Car", 2],
-        "26": ["Heavy 4x4 Tanker", 0]
+        "26": ["Heavy 4x4 Tanker", 0],
+        "27": ["PRV", 1],
+        "28": ["SRV", 1],
+        "29": ["Welfare Vehicle", 1],
+        "30": ["ATV Carrier", 1]
     };
 }
 else if (I18n.locale == "en_AU") {

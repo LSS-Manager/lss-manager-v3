@@ -3936,7 +3936,7 @@
         "name": "Incendio cisterna chimica (GRANDE)",
         "place": "",
         "place_array": {},
-        "average_credits": 300,
+        "average_credits": 3500,
         "generated_by": "Stazione di polizia",
         "icons": {
             "0": "/images/caraccident_gruen.png",
@@ -6768,9 +6768,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 193
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -9579,10 +9577,6 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "patient_uk_code_possible": {
-                "0": "C-2",
-                "1": "C-3"
-            },
             "filter_id": "police_station_missions",
             "date_start": "Ven, 26 Mar 2021 10:00:00 +0000",
             "date_end": "Lun, 05 Apr 2021 23:59:00 +0200",
