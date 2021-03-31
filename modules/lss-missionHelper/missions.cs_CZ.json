@@ -22,7 +22,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "1": {
         "id": 1,
@@ -45,7 +46,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "2": {
         "id": 2,
@@ -73,7 +75,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "3": {
         "id": 3,
@@ -99,7 +102,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "4": {
         "id": 4,
@@ -125,7 +129,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "5": {
         "id": 5,
@@ -157,7 +162,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "6": {
         "id": 6,
@@ -180,7 +186,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "7": {
         "id": 7,
@@ -206,7 +213,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "8": {
         "id": 8,
@@ -234,7 +242,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "9": {
         "id": 9,
@@ -261,7 +270,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "10": {
         "id": 10,
@@ -284,7 +294,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "11": {
         "id": 11,
@@ -307,7 +318,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "12": {
         "id": 12,
@@ -334,7 +346,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "13": {
         "id": 13,
@@ -357,7 +370,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "14": {
         "id": 14,
@@ -383,7 +397,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "15": {
         "id": 15,
@@ -411,7 +426,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "16": {
         "id": 16,
@@ -434,7 +450,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "17": {
         "id": 17,
@@ -457,7 +474,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "18": {
         "id": 18,
@@ -480,7 +498,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "19": {
         "id": 19,
@@ -503,7 +522,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "20": {
         "id": 20,
@@ -532,7 +552,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "21": {
         "id": 21,
@@ -563,7 +584,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "22": {
         "id": 22,
@@ -591,7 +613,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "23": {
         "id": 23,
@@ -614,7 +637,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "24": {
         "id": 24,
@@ -639,7 +663,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "25": {
         "id": 25,
@@ -668,7 +693,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "26": {
         "id": 26,
@@ -700,7 +726,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 5
-        }
+        },
+        "alternate_version": null
     },
     "27": {
         "id": 27,
@@ -723,7 +750,8 @@
         },
         "prerequisites": {
             "fire_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "28": {
         "id": 28,
@@ -752,7 +780,8 @@
         },
         "prerequisites": {
             "fire_stations": 5
-        }
+        },
+        "alternate_version": null
     },
     "29": {
         "id": 29,
@@ -780,7 +809,8 @@
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "30": {
         "id": 30,
@@ -804,7 +834,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "31": {
         "id": 31,
@@ -832,7 +863,8 @@
         },
         "prerequisites": {
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "32": {
         "id": 32,
@@ -855,7 +887,8 @@
         },
         "prerequisites": {
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "34": {
         "id": 34,
@@ -890,7 +923,8 @@
         "prerequisites": {
             "rescue_stations": 6,
             "fire_stations": 10
-        }
+        },
+        "alternate_version": null
     },
     "35": {
         "id": 35,
@@ -916,7 +950,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "36": {
         "id": 36,
@@ -942,7 +977,8 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "37": {
         "id": 37,
@@ -968,7 +1004,8 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "38": {
         "id": 38,
@@ -994,7 +1031,8 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "39": {
         "id": 39,
@@ -1021,7 +1059,8 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "40": {
         "id": 40,
@@ -1048,7 +1087,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "41": {
         "id": 41,
@@ -1087,7 +1127,8 @@
             "rescue_stations": 2,
             "police_stations": 2,
             "fire_stations": 14
-        }
+        },
+        "alternate_version": null
     },
     "42": {
         "id": 42,
@@ -1114,7 +1155,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "43": {
         "id": 43,
@@ -1141,7 +1183,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "44": {
         "id": 44,
@@ -1167,7 +1210,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "45": {
         "id": 45,
@@ -1193,7 +1237,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "46": {
         "id": 46,
@@ -1220,7 +1265,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "47": {
         "id": 47,
@@ -1247,7 +1293,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "48": {
         "id": 48,
@@ -1273,7 +1320,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "49": {
         "id": 49,
@@ -1299,7 +1347,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "50": {
         "id": 50,
@@ -1324,7 +1373,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "51": {
         "id": 51,
@@ -1349,7 +1399,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "52": {
         "id": 52,
@@ -1374,7 +1425,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "53": {
         "id": 53,
@@ -1399,7 +1451,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "54": {
         "id": 54,
@@ -1426,7 +1479,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "55": {
         "id": 55,
@@ -1454,7 +1508,8 @@
         },
         "prerequisites": {
             "police_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "56": {
         "id": 56,
@@ -1481,7 +1536,8 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "57": {
         "id": 57,
@@ -1503,7 +1559,8 @@
             "only_alliance_mission": true,
             "filter_id": "police_station_missions"
         },
-        "prerequisites": {}
+        "prerequisites": {},
+        "alternate_version": null
     },
     "58": {
         "id": 58,
@@ -1529,7 +1586,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "59": {
         "id": 59,
@@ -1555,7 +1613,8 @@
         },
         "prerequisites": {
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "60": {
         "id": 60,
@@ -1588,7 +1647,8 @@
         "prerequisites": {
             "rescue_stations": 2,
             "fire_stations": 9
-        }
+        },
+        "alternate_version": null
     },
     "62": {
         "id": 62,
@@ -1611,7 +1671,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "63": {
         "id": 63,
@@ -1637,7 +1698,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "64": {
         "id": 64,
@@ -1668,7 +1730,8 @@
         "prerequisites": {
             "rescue_stations": 8,
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "65": {
         "id": 65,
@@ -1694,7 +1757,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "66": {
         "id": 66,
@@ -1726,7 +1790,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "67": {
         "id": 67,
@@ -1754,7 +1819,8 @@
         },
         "prerequisites": {
             "police_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "68": {
         "id": 68,
@@ -1792,7 +1858,8 @@
             "rescue_stations": 3,
             "police_stations": 2,
             "fire_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "69": {
         "id": 69,
@@ -1820,7 +1887,8 @@
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "71": {
         "id": 71,
@@ -1847,7 +1915,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "72": {
         "id": 72,
@@ -1880,7 +1949,8 @@
         "prerequisites": {
             "rescue_stations": 2,
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "73": {
         "id": 73,
@@ -1915,7 +1985,8 @@
             "rescue_stations": 8,
             "police_stations": 2,
             "fire_stations": 5
-        }
+        },
+        "alternate_version": null
     },
     "74": {
         "id": 74,
@@ -1941,7 +2012,8 @@
             "only_alliance_mission": true,
             "filter_id": "firehouse_missions"
         },
-        "prerequisites": {}
+        "prerequisites": {},
+        "alternate_version": null
     },
     "75": {
         "id": 75,
@@ -1971,7 +2043,8 @@
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "76": {
         "id": 76,
@@ -2009,7 +2082,8 @@
             "rescue_stations": 3,
             "police_stations": 3,
             "fire_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "77": {
         "id": 77,
@@ -2036,7 +2110,8 @@
         },
         "prerequisites": {
             "rescue_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "78": {
         "id": 78,
@@ -2071,7 +2146,8 @@
             "rescue_stations": 2,
             "police_stations": 1,
             "fire_stations": 5
-        }
+        },
+        "alternate_version": null
     },
     "79": {
         "id": 79,
@@ -2106,7 +2182,8 @@
             "rescue_stations": 4,
             "police_stations": 1,
             "fire_stations": 7
-        }
+        },
+        "alternate_version": null
     },
     "80": {
         "id": 80,
@@ -2133,7 +2210,8 @@
         },
         "prerequisites": {
             "rescue_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "81": {
         "id": 81,
@@ -2160,7 +2238,8 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "82": {
         "id": 82,
@@ -2187,7 +2266,8 @@
         },
         "prerequisites": {
             "rescue_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "83": {
         "id": 83,
@@ -2215,7 +2295,8 @@
         },
         "prerequisites": {
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "84": {
         "id": 84,
@@ -2242,7 +2323,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "85": {
         "id": 85,
@@ -2277,7 +2359,8 @@
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "86": {
         "id": 86,
@@ -2304,7 +2387,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "87": {
         "id": 87,
@@ -2336,7 +2420,8 @@
         "prerequisites": {
             "rescue_stations": 2,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "88": {
         "id": 88,
@@ -2369,7 +2454,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "89": {
         "id": 89,
@@ -2400,7 +2486,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "police_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "90": {
         "id": 90,
@@ -2428,7 +2515,8 @@
         },
         "prerequisites": {
             "fire_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "91": {
         "id": 91,
@@ -2459,7 +2547,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "92": {
         "id": 92,
@@ -2486,7 +2575,8 @@
         },
         "prerequisites": {
             "fire_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "93": {
         "id": 93,
@@ -2510,7 +2600,8 @@
         },
         "prerequisites": {
             "police_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "94": {
         "id": 94,
@@ -2536,7 +2627,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "95": {
         "id": 95,
@@ -2564,7 +2656,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "96": {
         "id": 96,
@@ -2592,7 +2685,8 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "97": {
         "id": 97,
@@ -2623,7 +2717,8 @@
         "prerequisites": {
             "rescue_stations": 3,
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "98": {
         "id": 98,
@@ -2648,7 +2743,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "99": {
         "id": 99,
@@ -2679,7 +2775,8 @@
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 10
-        }
+        },
+        "alternate_version": null
     },
     "100": {
         "id": 100,
@@ -2705,7 +2802,8 @@
         "prerequisites": {
             "max_police_stations": 7,
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "101": {
         "id": 101,
@@ -2740,7 +2838,8 @@
             "rescue_stations": 4,
             "police_stations": 7,
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "102": {
         "id": 102,
@@ -2773,7 +2872,8 @@
         "prerequisites": {
             "max_police_stations": 3,
             "fire_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "103": {
         "id": 103,
@@ -2798,7 +2898,8 @@
         },
         "prerequisites": {
             "police_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "104": {
         "id": 104,
@@ -2827,7 +2928,8 @@
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 12
-        }
+        },
+        "alternate_version": null
     },
     "105": {
         "id": 105,
@@ -2863,7 +2965,8 @@
             "rescue_stations": 3,
             "police_stations": 3,
             "fire_stations": 15
-        }
+        },
+        "alternate_version": null
     },
     "106": {
         "id": 106,
@@ -2899,7 +3002,8 @@
             "rescue_stations": 3,
             "police_stations": 3,
             "fire_stations": 15
-        }
+        },
+        "alternate_version": null
     },
     "107": {
         "id": 107,
@@ -2935,7 +3039,8 @@
             "rescue_stations": 3,
             "police_stations": 3,
             "fire_stations": 15
-        }
+        },
+        "alternate_version": null
     },
     "108": {
         "id": 108,
@@ -2958,7 +3063,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "109": {
         "id": 109,
@@ -2985,7 +3091,8 @@
         "prerequisites": {
             "police_stations": 7,
             "police_helicopter_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "110": {
         "id": 110,
@@ -3011,7 +3118,8 @@
         "prerequisites": {
             "police_stations": 4,
             "police_helicopter_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "111": {
         "id": 111,
@@ -3047,7 +3155,8 @@
             "police_stations": 4,
             "police_helicopter_stations": 1,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "112": {
         "id": 112,
@@ -3076,7 +3185,8 @@
         "prerequisites": {
             "police_stations": 2,
             "police_helicopter_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "113": {
         "id": 113,
@@ -3104,7 +3214,8 @@
         },
         "prerequisites": {
             "police_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "114": {
         "id": 114,
@@ -3130,7 +3241,8 @@
         },
         "prerequisites": {
             "police_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "115": {
         "id": 115,
@@ -3163,7 +3275,8 @@
         "prerequisites": {
             "rescue_stations": 2,
             "police_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "116": {
         "id": 116,
@@ -3195,7 +3308,8 @@
             "rescue_stations": 3,
             "police_stations": 7,
             "police_helicopter_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "117": {
         "id": 117,
@@ -3220,7 +3334,8 @@
         },
         "prerequisites": {
             "police_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "118": {
         "id": 118,
@@ -3249,7 +3364,8 @@
         "prerequisites": {
             "police_stations": 8,
             "police_helicopter_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "119": {
         "id": 119,
@@ -3283,7 +3399,8 @@
             "rescue_stations": 1,
             "police_stations": 10,
             "police_helicopter_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "120": {
         "id": 120,
@@ -3313,7 +3430,8 @@
         "prerequisites": {
             "police_stations": 15,
             "police_helicopter_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "121": {
         "id": 121,
@@ -3341,7 +3459,8 @@
         "prerequisites": {
             "police_stations": 9,
             "police_helicopter_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "122": {
         "id": 122,
@@ -3374,7 +3493,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "police_stations": 9
-        }
+        },
+        "alternate_version": null
     },
     "123": {
         "id": 123,
@@ -3402,7 +3522,8 @@
         },
         "prerequisites": {
             "police_stations": 9
-        }
+        },
+        "alternate_version": null
     },
     "124": {
         "id": 124,
@@ -3429,7 +3550,8 @@
         },
         "prerequisites": {
             "fire_stations": 5
-        }
+        },
+        "alternate_version": null
     },
     "125": {
         "id": 125,
@@ -3457,7 +3579,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "126": {
         "id": 126,
@@ -3494,7 +3617,8 @@
             "rescue_stations": 2,
             "police_stations": 3,
             "fire_stations": 15
-        }
+        },
+        "alternate_version": null
     },
     "127": {
         "id": 127,
@@ -3517,7 +3641,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "128": {
         "id": 128,
@@ -3541,7 +3666,8 @@
         },
         "prerequisites": {
             "police_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "129": {
         "id": 129,
@@ -3572,7 +3698,8 @@
         "prerequisites": {
             "rescue_stations": 3,
             "police_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "131": {
         "id": 131,
@@ -3608,7 +3735,8 @@
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "132": {
         "id": 132,
@@ -3633,7 +3761,8 @@
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "133": {
         "id": 133,
@@ -3666,7 +3795,8 @@
             "rescue_stations": 2,
             "police_stations": 1,
             "fire_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "134": {
         "id": 134,
@@ -3694,7 +3824,8 @@
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 9
-        }
+        },
+        "alternate_version": null
     },
     "140": {
         "id": 140,
@@ -3731,7 +3862,8 @@
             "rescue_stations": 4,
             "police_stations": 1,
             "fire_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "141": {
         "id": 141,
@@ -3770,7 +3902,8 @@
             "rescue_stations": 8,
             "police_stations": 1,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "142": {
         "id": 142,
@@ -3798,7 +3931,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "143": {
         "id": 143,
@@ -3839,7 +3973,8 @@
             "rescue_stations": 10,
             "police_stations": 3,
             "fire_stations": 10
-        }
+        },
+        "alternate_version": null
     },
     "144": {
         "id": 144,
@@ -3877,7 +4012,8 @@
             "rescue_stations": 15,
             "police_stations": 6,
             "fire_stations": 20
-        }
+        },
+        "alternate_version": null
     },
     "145": {
         "id": 145,
@@ -3903,7 +4039,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "146": {
         "id": 146,
@@ -3936,7 +4073,8 @@
         "prerequisites": {
             "rescue_stations": 2,
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "147": {
         "id": 147,
@@ -3965,7 +4103,8 @@
         },
         "prerequisites": {
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "149": {
         "id": 149,
@@ -3994,7 +4133,8 @@
         },
         "prerequisites": {
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "150": {
         "id": 150,
@@ -4023,7 +4163,8 @@
         },
         "prerequisites": {
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "151": {
         "id": 151,
@@ -4063,7 +4204,8 @@
             "rescue_stations": 7,
             "police_stations": 2,
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "152": {
         "id": 152,
@@ -4100,7 +4242,8 @@
         "prerequisites": {
             "rescue_stations": 4,
             "fire_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "153": {
         "id": 153,
@@ -4129,7 +4272,8 @@
         },
         "prerequisites": {
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "154": {
         "id": 154,
@@ -4162,7 +4306,8 @@
         "prerequisites": {
             "rescue_stations": 2,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "155": {
         "id": 155,
@@ -4191,7 +4336,8 @@
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 11
-        }
+        },
+        "alternate_version": null
     },
     "156": {
         "id": 156,
@@ -4225,7 +4371,8 @@
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "157": {
         "id": 157,
@@ -4253,7 +4400,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "158": {
         "id": 158,
@@ -4279,7 +4427,8 @@
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "159": {
         "id": 159,
@@ -4304,7 +4453,8 @@
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "160": {
         "id": 160,
@@ -4331,7 +4481,8 @@
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 5
-        }
+        },
+        "alternate_version": null
     },
     "161": {
         "id": 161,
@@ -4354,7 +4505,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "162": {
         "id": 162,
@@ -4380,7 +4532,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "163": {
         "id": 163,
@@ -4409,7 +4562,8 @@
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 7
-        }
+        },
+        "alternate_version": null
     },
     "164": {
         "id": 164,
@@ -4435,7 +4589,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "165": {
         "id": 165,
@@ -4471,7 +4626,8 @@
             "rescue_stations": 3,
             "police_stations": 2,
             "fire_stations": 9
-        }
+        },
+        "alternate_version": null
     },
     "166": {
         "id": 166,
@@ -4496,7 +4652,8 @@
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "167": {
         "id": 167,
@@ -4522,7 +4679,8 @@
         },
         "prerequisites": {
             "rescue_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "168": {
         "id": 168,
@@ -4557,7 +4715,8 @@
             "rescue_stations": 2,
             "police_stations": 2,
             "fire_stations": 10
-        }
+        },
+        "alternate_version": null
     },
     "169": {
         "id": 169,
@@ -4584,7 +4743,8 @@
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "170": {
         "id": 170,
@@ -4618,7 +4778,8 @@
         "prerequisites": {
             "police_stations": 3,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "171": {
         "id": 171,
@@ -4652,7 +4813,8 @@
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "172": {
         "id": 172,
@@ -4683,7 +4845,8 @@
             "police_stations": 6,
             "bomb_disposal_count": 1,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "174": {
         "id": 174,
@@ -4714,7 +4877,8 @@
             "police_stations": 6,
             "bomb_disposal_count": 1,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "175": {
         "id": 175,
@@ -4745,7 +4909,8 @@
             "police_stations": 6,
             "bomb_disposal_count": 1,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "176": {
         "id": 176,
@@ -4776,7 +4941,8 @@
             "police_stations": 6,
             "bomb_disposal_count": 1,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "177": {
         "id": 177,
@@ -4817,7 +4983,8 @@
             "police_stations": 6,
             "bomb_disposal_count": 1,
             "fire_stations": 15
-        }
+        },
+        "alternate_version": null
     },
     "178": {
         "id": 178,
@@ -4858,7 +5025,8 @@
             "police_stations": 3,
             "bomb_disposal_count": 1,
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "179": {
         "id": 179,
@@ -4885,7 +5053,8 @@
             "police_stations": 3,
             "bomb_disposal_count": 1,
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "180": {
         "id": 180,
@@ -4912,7 +5081,8 @@
             "police_stations": 3,
             "bomb_disposal_count": 1,
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "181": {
         "id": 181,
@@ -4941,7 +5111,8 @@
             "police_stations": 3,
             "bomb_disposal_count": 1,
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "182": {
         "id": 182,
@@ -4978,7 +5149,8 @@
             "police_stations": 10,
             "police_helicopter_stations": 1,
             "fire_stations": 5
-        }
+        },
+        "alternate_version": null
     },
     "183": {
         "id": 183,
@@ -5010,7 +5182,8 @@
         "prerequisites": {
             "rescue_stations": 2,
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "193": {
         "id": 193,
@@ -5044,7 +5217,8 @@
             "rescue_stations": 3,
             "police_stations": 4,
             "fire_stations": 7
-        }
+        },
+        "alternate_version": null
     },
     "194": {
         "id": 194,
@@ -5072,7 +5246,8 @@
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 10
-        }
+        },
+        "alternate_version": null
     },
     "195": {
         "id": 195,
@@ -5104,7 +5279,8 @@
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 10
-        }
+        },
+        "alternate_version": null
     },
     "196": {
         "id": 196,
@@ -5143,7 +5319,8 @@
             "rescue_stations": 2,
             "police_stations": 4,
             "fire_stations": 15
-        }
+        },
+        "alternate_version": null
     },
     "197": {
         "id": 197,
@@ -5169,7 +5346,8 @@
         },
         "prerequisites": {
             "rescue_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "209": {
         "id": 209,
@@ -5195,7 +5373,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "210": {
         "id": 210,
@@ -5227,7 +5406,8 @@
             "rescue_stations": 3,
             "police_stations": 1,
             "fire_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "211": {
         "id": 211,
@@ -5259,7 +5439,8 @@
             "rescue_stations": 4,
             "police_stations": 2,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "212": {
         "id": 212,
@@ -5287,7 +5468,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "235": {
         "id": 235,
@@ -5313,7 +5495,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "253": {
         "id": 253,
@@ -5348,7 +5531,8 @@
             "rescue_stations": 6,
             "police_stations": 15,
             "police_helicopter_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "254": {
         "id": 254,
@@ -5371,7 +5555,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "255": {
         "id": 255,
@@ -5404,7 +5589,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "divers_extension_count": 1
-        }
+        },
+        "alternate_version": null
     },
     "256": {
         "id": 256,
@@ -5437,7 +5623,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "divers_extension_count": 1
-        }
+        },
+        "alternate_version": null
     },
     "257": {
         "id": 257,
@@ -5470,7 +5657,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "divers_extension_count": 1
-        }
+        },
+        "alternate_version": null
     },
     "258": {
         "id": 258,
@@ -5503,7 +5691,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "divers_extension_count": 1
-        }
+        },
+        "alternate_version": null
     },
     "259": {
         "id": 259,
@@ -5541,7 +5730,8 @@
             "police_stations": 2,
             "divers_extension_count": 2,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "260": {
         "id": 260,
@@ -5579,7 +5769,8 @@
             "police_stations": 2,
             "divers_extension_count": 2,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "261": {
         "id": 261,
@@ -5617,7 +5808,8 @@
             "police_stations": 2,
             "divers_extension_count": 2,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "262": {
         "id": 262,
@@ -5655,7 +5847,8 @@
             "police_stations": 2,
             "divers_extension_count": 2,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "263": {
         "id": 263,
@@ -5693,7 +5886,8 @@
             "police_stations": 2,
             "divers_extension_count": 2,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "264": {
         "id": 264,
@@ -5731,7 +5925,8 @@
             "police_stations": 2,
             "divers_extension_count": 2,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "265": {
         "id": 265,
@@ -5769,7 +5964,8 @@
             "police_stations": 3,
             "divers_extension_count": 3,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "266": {
         "id": 266,
@@ -5807,7 +6003,8 @@
             "police_stations": 3,
             "divers_extension_count": 3,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "267": {
         "id": 267,
@@ -5845,7 +6042,8 @@
             "police_stations": 3,
             "divers_extension_count": 3,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "268": {
         "id": 268,
@@ -5883,7 +6081,8 @@
             "police_stations": 3,
             "divers_extension_count": 3,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "269": {
         "id": 269,
@@ -5921,7 +6120,8 @@
             "police_stations": 3,
             "divers_extension_count": 3,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "270": {
         "id": 270,
@@ -5959,7 +6159,8 @@
             "police_stations": 3,
             "divers_extension_count": 3,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "271": {
         "id": 271,
@@ -5997,7 +6198,8 @@
             "police_stations": 3,
             "divers_extension_count": 3,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "272": {
         "id": 272,
@@ -6035,7 +6237,8 @@
             "police_stations": 3,
             "divers_extension_count": 3,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "273": {
         "id": 273,
@@ -6073,7 +6276,8 @@
             "police_stations": 3,
             "divers_extension_count": 3,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "274": {
         "id": 274,
@@ -6111,7 +6315,8 @@
             "police_stations": 3,
             "divers_extension_count": 3,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "275": {
         "id": 275,
@@ -6149,7 +6354,8 @@
             "police_stations": 3,
             "divers_extension_count": 3,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "276": {
         "id": 276,
@@ -6187,7 +6393,8 @@
             "police_stations": 3,
             "divers_extension_count": 3,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "277": {
         "id": 277,
@@ -6229,7 +6436,8 @@
             "police_stations": 4,
             "police_helicopter_stations": 1,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "278": {
         "id": 278,
@@ -6271,7 +6479,8 @@
             "police_stations": 4,
             "police_helicopter_stations": 1,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "279": {
         "id": 279,
@@ -6302,7 +6511,8 @@
         "prerequisites": {
             "wasserrettung": 1,
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "280": {
         "id": 280,
@@ -6333,7 +6543,8 @@
         "prerequisites": {
             "wasserrettung": 1,
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "281": {
         "id": 281,
@@ -6364,7 +6575,8 @@
         "prerequisites": {
             "wasserrettung": 1,
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "282": {
         "id": 282,
@@ -6395,7 +6607,8 @@
         "prerequisites": {
             "wasserrettung": 1,
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "283": {
         "id": 283,
@@ -6426,7 +6639,8 @@
         "prerequisites": {
             "wasserrettung": 1,
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "284": {
         "id": 284,
@@ -6457,7 +6671,8 @@
         "prerequisites": {
             "wasserrettung": 1,
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "285": {
         "id": 285,
@@ -6488,7 +6703,8 @@
         "prerequisites": {
             "wasserrettung": 1,
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "286": {
         "id": 286,
@@ -6525,7 +6741,8 @@
             "rescue_stations": 2,
             "police_stations": 3,
             "fire_stations": 14
-        }
+        },
+        "alternate_version": null
     },
     "296": {
         "id": 296,
@@ -6550,7 +6767,8 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "297": {
         "id": 297,
@@ -6576,7 +6794,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "298": {
         "id": 298,
@@ -6603,7 +6822,8 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "299": {
         "id": 299,
@@ -6633,7 +6853,8 @@
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "300": {
         "id": 300,
@@ -6670,7 +6891,8 @@
             "rescue_stations": 13,
             "police_stations": 6,
             "fire_stations": 15
-        }
+        },
+        "alternate_version": null
     },
     "301": {
         "id": 301,
@@ -6696,7 +6918,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "302": {
         "id": 302,
@@ -6731,15 +6954,17 @@
             "rescue_stations": 3,
             "police_stations": 1,
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "303": {
         "id": 303,
         "name": "Vypro\u0161t\u011bn\u00ed osoby z v\u00fdtahu",
-        "place": "N\u00e1kupn\u00ed centrum\nKancel\u00e1\u0159sk\u00e1 budova",
+        "place": "N\u00e1kupn\u00ed centrum\nKancel\u00e1\u0159sk\u00e1 budova\nPanelov\u00fd d\u016fm",
         "place_array": {
             "0": "N\u00e1kupn\u00ed centrum",
-            "1": "Kancel\u00e1\u0159sk\u00e1 budova"
+            "1": "Kancel\u00e1\u0159sk\u00e1 budova",
+            "2": "Panelov\u00fd d\u016fm"
         },
         "average_credits": 1400,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
@@ -6757,6 +6982,7 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     }
 }

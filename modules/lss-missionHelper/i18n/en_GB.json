@@ -92,6 +92,10 @@
     "swat_suv": "Armed Response Vehicle (ARV)",
     "helicopter": "HEMS",
     "rth": "HEMS",
+    "hazard_response_primary": "Primary Response Vehicle",
+    "hazard_response_secondary": "Secondary Response Vehicle",
+    "emergency_welfare": "Welfare Vehicle",
+    "atv_carrier": "ATV Carrier",
     "police_helicopters": "Police helicopter",
     "kdow_orgl": "Operational Team Leader",
     "allow_rw_instead_of_lf": "Fire engines or Rescue Support Vehicles"
