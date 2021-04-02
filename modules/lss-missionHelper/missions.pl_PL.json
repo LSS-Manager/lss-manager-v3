@@ -5581,8 +5581,7 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 226,
-                "3": 182
+                "2": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -8470,6 +8469,300 @@
             "wasserrettung": 2,
             "rescue_stations": 2,
             "police_stations": 2,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "357": {
+        "id": 357,
+        "name": "Niebezpiecze\u0144stwo na centrum handlowe",
+        "place": "Centrum handlowe",
+        "place_array": {
+            "0": "Centrum handlowe"
+        },
+        "average_credits": 19000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "ambulances": 8,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_helicopters": 1,
+            "police_cars": 14,
+            "k9": 2
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 20,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 6,
+            "max_possible_prisoners": 8,
+            "swat_personnel": 24,
+            "average_min_police_personnel": 32,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 12,
+            "police_stations": 20,
+            "fire_stations": 14
+        },
+        "alternate_version": null
+    },
+    "358": {
+        "id": 358,
+        "name": "Niebezpiecze\u0144stwo na lotnisku",
+        "place": "Terminal portu lotniczego",
+        "place_array": {
+            "0": "Terminal portu lotniczego"
+        },
+        "average_credits": 30000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 16,
+            "ambulances": 8,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 2,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 4,
+            "mobile_air_vehicles": 2,
+            "police_helicopters": 1,
+            "police_cars": 18,
+            "k9": 5
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 20,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 5,
+            "max_possible_prisoners": 8,
+            "swat_personnel": 32,
+            "average_min_police_personnel": 50,
+            "filter_id": "police_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 15,
+            "police_stations": 30,
+            "fire_stations": 25
+        },
+        "alternate_version": null
+    },
+    "359": {
+        "id": 359,
+        "name": "Plama oleju",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "360": {
+        "id": 360,
+        "name": "Po\u017car trocin po wycince drzew",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "361": {
+        "id": 361,
+        "name": "Kradzie\u017c z w\u0142amaniem",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1800,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "362": {
+        "id": 362,
+        "name": "Nielegalne posiadanie broni",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "363": {
+        "id": 363,
+        "name": "Widoczne zadymienie",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 35
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 4,
+                "1": 6,
+                "2": 7,
+                "3": 14,
+                "4": 15,
+                "5": 216
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "364": {
+        "id": 364,
+        "name": "Zadymienie w budynku mieszkalnym",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 25,
+            "platform_trucks": 50
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 5,
+                "1": 23,
+                "2": 58,
+                "3": 244
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "365": {
+        "id": 365,
+        "name": "Zadymienie w domu jednorodzinnym",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 25
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 20,
+                "1": 23,
+                "2": 27,
+                "3": 322
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
             "fire_stations": 6
         },
         "alternate_version": null
