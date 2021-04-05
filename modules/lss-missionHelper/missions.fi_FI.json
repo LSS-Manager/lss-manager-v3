@@ -5527,6 +5527,388 @@
         },
         "alternate_version": null
     },
+    "259": {
+        "id": 259,
+        "name": "103 Automaattih\u00e4lytys hoitolaitoksesta",
+        "place": "Sairaala",
+        "place_array": {
+            "0": "Sairaala"
+        },
+        "average_credits": 250,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 0,
+                "1": 5,
+                "2": 8,
+                "3": 20,
+                "4": 28,
+                "5": 34,
+                "6": 58,
+                "7": 66
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "260": {
+        "id": 260,
+        "name": "103 Automaattih\u00e4lytys",
+        "place": "Hotelli",
+        "place_array": {
+            "0": "Hotelli"
+        },
+        "average_credits": 250,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 0,
+                "1": 5,
+                "2": 8,
+                "3": 20,
+                "4": 28,
+                "5": 58,
+                "6": 66,
+                "7": 100,
+                "8": 101,
+                "9": 103
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "261": {
+        "id": 261,
+        "name": "103 Automaattih\u00e4lytys",
+        "place": "Valintamyym\u00e4l\u00e4 (pieni)",
+        "place_array": {
+            "0": "Valintamyym\u00e4l\u00e4 (pieni)"
+        },
+        "average_credits": 250,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 0,
+                "1": 5,
+                "2": 8,
+                "3": 20,
+                "4": 26,
+                "5": 33,
+                "6": 28,
+                "7": 58,
+                "8": 66
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "262": {
+        "id": 262,
+        "name": "103 Automaattih\u00e4lytys",
+        "place": "Valintamyym\u00e4l\u00e4 (iso)",
+        "place_array": {
+            "0": "Valintamyym\u00e4l\u00e4 (iso)"
+        },
+        "average_credits": 250,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 0,
+                "1": 5,
+                "2": 8,
+                "3": 20,
+                "4": 26,
+                "5": 33,
+                "6": 28,
+                "7": 58,
+                "8": 66,
+                "9": 68,
+                "10": 70
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "263": {
+        "id": 263,
+        "name": "103 Automaattih\u00e4lytys",
+        "place": "Toimistorakennus",
+        "place_array": {
+            "0": "Toimistorakennus"
+        },
+        "average_credits": 250,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 0,
+                "1": 5,
+                "2": 8,
+                "3": 20,
+                "4": 28,
+                "5": 58,
+                "6": 66,
+                "7": 124
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "264": {
+        "id": 264,
+        "name": "103 Automaattih\u00e4lytys",
+        "place": "Pikaruokaravintola",
+        "place_array": {
+            "0": "Pikaruokaravintola"
+        },
+        "average_credits": 250,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 0,
+                "1": 5,
+                "2": 8,
+                "3": 20,
+                "4": 23,
+                "5": 28,
+                "6": 58,
+                "7": 66,
+                "8": 113
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "265": {
+        "id": 265,
+        "name": "103 Automaattih\u00e4lytys",
+        "place": "Ravintola",
+        "place_array": {
+            "0": "Ravintola"
+        },
+        "average_credits": 250,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 0,
+                "1": 5,
+                "2": 8,
+                "3": 20,
+                "4": 23,
+                "5": 28,
+                "6": 58,
+                "7": 66,
+                "8": 170
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "266": {
+        "id": 266,
+        "name": "103 Automaattih\u00e4lytys",
+        "place": "Koulu",
+        "place_array": {
+            "0": "Koulu"
+        },
+        "average_credits": 250,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 0,
+                "1": 5,
+                "2": 8,
+                "3": 20,
+                "4": 23,
+                "5": 28,
+                "6": 58,
+                "7": 60,
+                "8": 66
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "267": {
+        "id": 267,
+        "name": "103 Automaattih\u00e4lytys",
+        "place": "Ostoskeskus",
+        "place_array": {
+            "0": "Ostoskeskus"
+        },
+        "average_credits": 250,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 0,
+                "1": 5,
+                "2": 8,
+                "3": 20,
+                "4": 23,
+                "5": 26,
+                "6": 33,
+                "7": 28,
+                "8": 58,
+                "9": 66,
+                "10": 68,
+                "11": 113,
+                "12": 170
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "268": {
+        "id": 268,
+        "name": "103 Automaattih\u00e4lytys",
+        "place": "Tehdas",
+        "place_array": {
+            "0": "Tehdas"
+        },
+        "average_credits": 250,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 0,
+                "1": 5,
+                "2": 8,
+                "3": 20,
+                "4": 23,
+                "5": 26,
+                "6": 33,
+                "7": 28,
+                "8": 58,
+                "9": 66,
+                "10": 68,
+                "11": 113,
+                "12": 170
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
     "269": {
         "id": 269,
         "name": "432 Roskakatospalo",

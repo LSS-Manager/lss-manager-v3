@@ -6850,5 +6850,31 @@
             "fire_stations": 9
         },
         "alternate_version": null
+    },
+    "302": {
+        "id": 302,
+        "name": "Debris on runway",
+        "place": "Small Airport (Runway)",
+        "place_array": {
+            "0": "Small Airport (Runway)"
+        },
+        "average_credits": 350,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
     }
 }

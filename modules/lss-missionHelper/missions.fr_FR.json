@@ -7161,5 +7161,31 @@
             "fire_stations": 9
         },
         "alternate_version": null
+    },
+    "321": {
+        "id": 321,
+        "name": "D\u00e9bris sur piste d'aterrissage",
+        "place": "Petit a\u00e9roport (piste)",
+        "place_array": {
+            "0": "Petit a\u00e9roport (piste)"
+        },
+        "average_credits": 350,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
     }
 }

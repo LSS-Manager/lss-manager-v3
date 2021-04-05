@@ -6385,5 +6385,37 @@
             "fire_stations": 40
         },
         "alternate_version": null
+    },
+    "284": {
+        "id": 284,
+        "name": "Avbrutet larmsamtal",
+        "place": "",
+        "place_array": {},
+        "average_credits": 470,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 255
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
     }
 }

@@ -21477,5 +21477,67 @@
             "detention_unit_count": 1
         },
         "alternate_version": null
+    },
+    "768": {
+        "id": 768,
+        "name": "Ademhalingsproblemen",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "769": {
+        "id": 769,
+        "name": "Wielrenner aangereden",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1850,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "battalion_chief_vehicles": 30,
+            "nef": 60,
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 2,
+            "fire_stations": 6
+        },
+        "alternate_version": null
     }
 }

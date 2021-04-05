@@ -7181,5 +7181,31 @@
             "fire_stations": 9
         },
         "alternate_version": null
+    },
+    "304": {
+        "id": 304,
+        "name": "Genstande p\u00e5 landingsbane",
+        "place": "Lille lufthavn (landingsbane)",
+        "place_array": {
+            "0": "Lille lufthavn (landingsbane)"
+        },
+        "average_credits": 350,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
     }
 }
