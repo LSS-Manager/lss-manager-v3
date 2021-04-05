@@ -5294,5 +5294,31 @@
             "fire_stations": 9
         },
         "alternate_version": null
+    },
+    "233": {
+        "id": 233,
+        "name": "\ud65c\uc8fc\ub85c \uc704\uc758 \uc794\ud574",
+        "place": "\uc18c\ud615 \uacf5\ud56d(\ud65c\uc8fc\ub85c)",
+        "place_array": {
+            "0": "\uc18c\ud615 \uacf5\ud56d(\ud65c\uc8fc\ub85c)"
+        },
+        "average_credits": 350,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
     }
 }

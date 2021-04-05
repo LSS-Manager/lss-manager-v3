@@ -6587,5 +6587,31 @@
             "fire_stations": 9
         },
         "alternate_version": null
+    },
+    "294": {
+        "id": 294,
+        "name": "Rusk p\u00e5 rullebanen",
+        "place": "Liten flyplass (flystripe)",
+        "place_array": {
+            "0": "Liten flyplass (flystripe)"
+        },
+        "average_credits": 350,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
     }
 }

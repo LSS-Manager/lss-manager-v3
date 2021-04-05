@@ -4968,5 +4968,31 @@
             "fire_stations": 9
         },
         "alternate_version": null
+    },
+    "222": {
+        "id": 222,
+        "name": "De\u0219euri pe pist\u0103",
+        "place": "Aeroport mic (pist\u0103)",
+        "place_array": {
+            "0": "Aeroport mic (pist\u0103)"
+        },
+        "average_credits": 350,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
     }
 }

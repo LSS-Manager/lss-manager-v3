@@ -6962,7 +6962,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 193
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -9858,6 +9860,72 @@
         "prerequisites": {
             "rescue_stations": 3,
             "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "350": {
+        "id": 350,
+        "name": "Incendio Discarica",
+        "place": "Discarica",
+        "place_array": {
+            "0": "Discarica"
+        },
+        "average_credits": 10000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "fire_stations": 11
+        },
+        "alternate_version": null
+    },
+    "351": {
+        "id": 351,
+        "name": "Incendio Locomotiva",
+        "place": "Stazione ferroviaria (traffico regionale)\nStazione ferroviaria (traffico regionale e viaggi a lunga distanza)\n",
+        "place_array": {
+            "0": "Stazione ferroviaria (traffico regionale)",
+            "1": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)",
+            "2": ""
+        },
+        "average_credits": 1600,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 4
         },
         "alternate_version": null
     }

@@ -5347,6 +5347,31 @@
         },
         "alternate_version": null
     },
+    "260": {
+        "id": 260,
+        "name": "Atividade cibern\u00e9tica ilegal",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
     "264": {
         "id": 264,
         "name": "Assalto a joalharia",
