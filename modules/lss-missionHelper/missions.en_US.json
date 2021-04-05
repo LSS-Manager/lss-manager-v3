@@ -18018,5 +18018,39 @@
             "fire_stations": 5
         },
         "alternate_version": null
+    },
+    "574": {
+        "id": 574,
+        "name": "Falling Light Pole",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 6,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-A-3"
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "fire_stations": 7
+        },
+        "alternate_version": null
     }
 }
