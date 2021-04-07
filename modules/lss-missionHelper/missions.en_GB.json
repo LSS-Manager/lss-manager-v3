@@ -8669,7 +8669,9 @@
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "General Internal"
         },
-        "prerequisites": {},
+        "prerequisites": {
+            "rescue_stations": 1
+        },
         "alternate_version": null
     }
 }
