@@ -4667,5 +4667,30 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "223": {
+        "id": 223,
+        "name": "Raid contra m\u0103rfuri contraf\u0103cute",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        },
+        "alternate_version": null
     }
 }

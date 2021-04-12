@@ -17717,5 +17717,42 @@
             "fire_stations": 7
         },
         "alternate_version": null
+    },
+    "575": {
+        "id": 575,
+        "name": "Biker fallen on country road",
+        "place": "Hill",
+        "place_array": {
+            "0": "Hill"
+        },
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "17-B-3P",
+                "1": "17-B-2P",
+                "2": "17-B-1P",
+                "3": "17-D-3P",
+                "4": "17-D-5P"
+            },
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
     }
 }

@@ -21212,5 +21212,67 @@
             "fire_stations": 6
         },
         "alternate_version": null
+    },
+    "770": {
+        "id": 770,
+        "name": "Instap na bedreiging (Hoog risico)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5210,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/cuffs_gruen.png",
+            "1": "/images/cuffs_gelb.png",
+            "2": "/images/cuffs_rot.png"
+        },
+        "requirements": {
+            "hondengeleider": 2,
+            "police_cars": 4,
+            "ovdp": 1,
+            "at_c": 1,
+            "at_o": 4,
+            "at_m": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "riot_police_missions"
+        },
+        "prerequisites": {
+            "police_stations": 5,
+            "bereitschaftspolizei": 4
+        },
+        "alternate_version": null
+    },
+    "771": {
+        "id": 771,
+        "name": "Aanhouding georganiseerde misdaad",
+        "place": "",
+        "place_array": {},
+        "average_credits": 6230,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/cuffs_gruen.png",
+            "1": "/images/cuffs_gelb.png",
+            "2": "/images/cuffs_rot.png"
+        },
+        "requirements": {
+            "hondengeleider": 2,
+            "police_cars": 10,
+            "ovdp": 1,
+            "at_c": 1,
+            "at_o": 4,
+            "at_m": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 10,
+            "filter_id": "riot_police_missions"
+        },
+        "prerequisites": {
+            "police_stations": 10,
+            "bereitschaftspolizei": 4
+        },
+        "alternate_version": null
     }
 }

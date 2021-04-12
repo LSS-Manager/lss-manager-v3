@@ -4824,5 +4824,30 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "228": {
+        "id": 228,
+        "name": "\u507d\u9020\u54c1\u4e00\u6589\u53d6\u308a\u7de0\u307e\u308a",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "\u8b66\u5bdf\u7f72",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        },
+        "alternate_version": null
     }
 }

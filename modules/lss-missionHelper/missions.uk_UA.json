@@ -4573,5 +4573,30 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "222": {
+        "id": 222,
+        "name": "\u0420\u0435\u0439\u0434 \u043f\u0440\u043e\u0442\u0438 \u043f\u043e\u0441\u0442\u0430\u0447\u0430\u043b\u044c\u043d\u0438\u043a\u0456\u0432 \u043f\u0456\u0434\u0440\u043e\u0431\u043d\u0438\u0445 \u0442\u043e\u0432\u0430\u0440\u0456\u0432",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "\u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u043f\u043e\u043b\u0456\u0446\u0456\u0457",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        },
+        "alternate_version": null
     }
 }

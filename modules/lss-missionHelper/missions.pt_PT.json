@@ -5044,5 +5044,30 @@
             "police_stations": 1
         },
         "alternate_version": null
+    },
+    "261": {
+        "id": 261,
+        "name": "Gato preso numa \u00e1rvore",
+        "place": "",
+        "place_array": {},
+        "average_credits": 450,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
     }
 }
