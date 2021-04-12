@@ -1003,6 +1003,7 @@
                 "1": "Medicina interna generale",
                 "2": "Medicina interna generale"
             },
+            "allow_ktw_instead_of_rtw": true,
             "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna generale"
         },
@@ -1282,6 +1283,7 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna generale"
         },
@@ -1842,6 +1844,7 @@
                 "1": "Medicina interna generale",
                 "2": "Medicina interna generale"
             },
+            "allow_ktw_instead_of_rtw": true,
             "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna generale"
         },
@@ -1950,6 +1953,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -2107,6 +2111,7 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna generale"
         },
@@ -2188,6 +2193,7 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "fire_alarm_system_possible": true,
             "patient_specializations": "Medicina interna generale"
         },
@@ -2316,6 +2322,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -2693,6 +2700,7 @@
                 "0": "Medicina interna generale",
                 "1": "Medicina interna generale"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -2739,6 +2747,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2925,6 +2934,7 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2975,6 +2985,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -3137,6 +3148,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -3191,6 +3203,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -3507,6 +3520,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -3674,6 +3688,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -4003,6 +4018,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -4130,6 +4146,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -4350,6 +4367,7 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -4396,6 +4414,7 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -4665,6 +4684,7 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -4718,6 +4738,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -4906,6 +4927,7 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -4989,6 +5011,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -5065,6 +5088,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -5111,6 +5135,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -5158,6 +5183,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -5206,6 +5232,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -5278,6 +5305,7 @@
                 "1": "Medicina interna generale",
                 "2": "Medicina interna generale"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -5323,6 +5351,7 @@
                 "1": "Medicina interna generale",
                 "2": "Medicina interna generale"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -5371,6 +5400,7 @@
                 "1": "Medicina interna generale",
                 "2": "Medicina interna generale"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -6153,6 +6183,7 @@
                 "3": "Traumatologia",
                 "4": "Medicina interna generale"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -6272,6 +6303,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -6366,6 +6398,7 @@
                 "5": "Traumatologia",
                 "6": "Medicina interna generale"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -6837,7 +6870,8 @@
                 "3": "Traumatologia",
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
-            }
+            },
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {
             "fire_stations": 15
@@ -7867,7 +7901,8 @@
                 "6": "Medicina interna generale",
                 "7": "Medicina interna generale",
                 "8": "Medicina interna generale"
-            }
+            },
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {
             "rescue_stations": 8,
@@ -8338,7 +8373,8 @@
                 "3": "Traumatologia",
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
-            }
+            },
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {
             "rescue_stations": 3,
@@ -8738,6 +8774,7 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
+            "allow_ktw_instead_of_rtw": true,
             "patient_at_end_of_mission": true
         },
         "prerequisites": {
