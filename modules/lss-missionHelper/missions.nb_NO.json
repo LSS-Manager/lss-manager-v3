@@ -6286,5 +6286,30 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "295": {
+        "id": 295,
+        "name": "Falske varer razzia",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        },
+        "alternate_version": null
     }
 }

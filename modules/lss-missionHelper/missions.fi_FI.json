@@ -5580,5 +5580,31 @@
             "fire_stations": 2
         },
         "alternate_version": null
+    },
+    "269": {
+        "id": 269,
+        "name": "432 Roskakatospalo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
     }
 }

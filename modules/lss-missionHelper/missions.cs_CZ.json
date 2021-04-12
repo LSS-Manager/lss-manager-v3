@@ -6682,5 +6682,30 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "305": {
+        "id": 305,
+        "name": "Z\u00e1tah na pad\u011blan\u00e9 zbo\u017e\u00ed",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        },
+        "alternate_version": null
     }
 }

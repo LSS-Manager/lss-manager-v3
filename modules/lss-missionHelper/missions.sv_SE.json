@@ -6088,5 +6088,32 @@
             "police_stations": 1
         },
         "alternate_version": null
+    },
+    "285": {
+        "id": 285,
+        "name": "Brinnande transformatorstation",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 5,
+            "fire_stations": 4
+        },
+        "alternate_version": null
     }
 }

@@ -5254,7 +5254,8 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 182
+                "2": 226,
+                "3": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -8236,6 +8237,54 @@
             "rescue_stations": 15,
             "police_stations": 30,
             "fire_stations": 25
+        },
+        "alternate_version": null
+    },
+    "359": {
+        "id": 359,
+        "name": "Plama oleju",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "360": {
+        "id": 360,
+        "name": "Po\u017car trocin po wycince drzew",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
         },
         "alternate_version": null
     }

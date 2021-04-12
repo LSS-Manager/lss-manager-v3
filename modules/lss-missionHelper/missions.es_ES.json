@@ -5588,5 +5588,30 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "269": {
+        "id": 269,
+        "name": "Redada de mercanc\u00edas falsificadas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        },
+        "alternate_version": null
     }
 }
