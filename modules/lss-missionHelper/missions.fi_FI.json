@@ -681,13 +681,15 @@
             "firetrucks": 1
         },
         "chances": {
-            "patient_transport": 40
+            "patient_transport": 40,
+            "patient_critical_care": 5
         },
         "additional": {
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2
+                "1": 2,
+                "2": 29
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -916,7 +918,8 @@
             "water_tankers": 3
         },
         "chances": {
-            "patient_transport": 50
+            "patient_transport": 50,
+            "patient_critical_care": 20
         },
         "additional": {
             "possible_patient": 25,
@@ -1120,7 +1123,9 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 30,
+            "helicopter": 10,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 1,
@@ -1638,7 +1643,8 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {
-            "patient_transport": 60
+            "patient_transport": 60,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 4,
@@ -1719,7 +1725,8 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {
-            "patient_transport": 50
+            "patient_transport": 50,
+            "patient_critical_care": 5
         },
         "additional": {
             "possible_patient": 12,
@@ -2005,7 +2012,8 @@
             "police_cars": 2
         },
         "chances": {
-            "patient_transport": 80
+            "patient_transport": 80,
+            "patient_critical_care": 5
         },
         "additional": {
             "possible_patient": 12,
@@ -2179,7 +2187,7 @@
         "requirements": {},
         "chances": {
             "patient_transport": 50,
-            "helicopter": 50
+            "patient_critical_care": 70
         },
         "additional": {
             "possible_patient": 1,
@@ -2213,7 +2221,7 @@
         },
         "chances": {
             "patient_transport": 40,
-            "helicopter": 10
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 8,
@@ -2249,7 +2257,7 @@
         },
         "chances": {
             "patient_transport": 50,
-            "helicopter": 20
+            "patient_critical_care": 20
         },
         "additional": {
             "possible_patient": 20,
@@ -2279,7 +2287,8 @@
         "requirements": {},
         "chances": {
             "patient_transport": 100,
-            "helicopter": 100
+            "helicopter": 40,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 1,
@@ -2307,7 +2316,7 @@
         "requirements": {},
         "chances": {
             "patient_transport": 100,
-            "helicopter": 90
+            "patient_critical_care": 90
         },
         "additional": {
             "possible_patient": 1,
@@ -2335,7 +2344,7 @@
         "requirements": {},
         "chances": {
             "patient_transport": 80,
-            "helicopter": 50
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 1,
@@ -2392,7 +2401,7 @@
         "requirements": {},
         "chances": {
             "patient_transport": 80,
-            "helicopter": 30
+            "patient_critical_care": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -2477,7 +2486,8 @@
             "police_cars": 1
         },
         "chances": {
-            "patient_transport": 40
+            "patient_transport": 40,
+            "patient_critical_care": 5
         },
         "additional": {
             "possible_patient": 4,
@@ -2752,7 +2762,8 @@
         },
         "chances": {
             "water_tankers": 10,
-            "patient_transport": 40
+            "patient_transport": 40,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 20,
@@ -2792,7 +2803,8 @@
             "police_cars": 6
         },
         "chances": {
-            "patient_transport": 40
+            "patient_transport": 40,
+            "patient_critical_care": 20
         },
         "additional": {
             "possible_patient": 50,
@@ -3006,7 +3018,8 @@
             "police_cars": 3
         },
         "chances": {
-            "patient_transport": 25
+            "patient_transport": 25,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 14,
@@ -4060,7 +4073,8 @@
             "k9": 3
         },
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 80
         },
         "additional": {
             "possible_patient": 2,
@@ -4151,7 +4165,8 @@
             "k9": 1
         },
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 60
         },
         "additional": {
             "possible_patient": 1,
@@ -4740,7 +4755,7 @@
         "requirements": {},
         "chances": {
             "patient_transport": 100,
-            "helicopter": 20
+            "patient_critical_care": 20
         },
         "additional": {
             "possible_patient": 1,
@@ -5185,7 +5200,8 @@
             "heavy_rescue_vehicles": 2
         },
         "chances": {
-            "patient_transport": 70
+            "patient_transport": 70,
+            "patient_critical_care": 5
         },
         "additional": {
             "possible_patient": 1,
@@ -5604,6 +5620,151 @@
         },
         "prerequisites": {
             "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "273": {
+        "id": 273,
+        "name": "700 Ihmisen n\u00e4hty kaatuvan",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 70,
+            "patient_critical_care": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Kardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 6
+        },
+        "alternate_version": null
+    },
+    "274": {
+        "id": 274,
+        "name": "700 Kaatunut ihminen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Kardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "275": {
+        "id": 275,
+        "name": "702 \u00c4kkitajuttomuus",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60,
+            "helicopter": 30,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Kardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "276": {
+        "id": 276,
+        "name": "702 Tajuttomuus",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Kardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "277": {
+        "id": 277,
+        "name": "791 Synnytys k\u00e4ynniss\u00e4",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30,
+            "helicopter": 30,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Gynekologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         },
         "alternate_version": null
     }

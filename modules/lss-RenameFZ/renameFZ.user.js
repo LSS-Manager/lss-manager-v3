@@ -1055,7 +1055,11 @@
                 13: 'EPRI',
                 14: 'VP',
                 15: 'UAAR',
-                16: 'VSAE'
+                16: 'VSAE',
+                17: 'VMER',
+                18: 'SIV',
+                19: 'Mota INEM',
+                20: 'VIC'
             }
         }
     };
