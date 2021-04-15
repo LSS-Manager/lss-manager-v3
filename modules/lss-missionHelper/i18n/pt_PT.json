@@ -7,6 +7,7 @@
   "to": "até",
   "exp": "Divulgação",
   "ambulance_only": "Esta misión es sólo de ambulancias.!",
+  "criticalchance": "Probabilidade de Requerer SAV",
   "title": "Missionhelper",
   "transport": "levar",
   "allow_rw_instead_of_lf": "Esta missão também pode ser realizada com um resgate pesado em vez de um caminhão de bombeiros",

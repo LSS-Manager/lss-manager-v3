@@ -155,7 +155,11 @@ else if (I18n.locale == "pt_PT") {
         "13": ["EPRI", 2],
         "14": ["VP", 0],
         "15": ["UAAR", 0],
-        "16": ["VSAE", 0]
+        "16": ["VSAE", 0],
+        "17": ["VMER", 1],
+        "18": ["SIV", 1],
+        "19": ["Mota INEM", 1],
+        "20": ["VIC", 1],
     };
 }
 else if (I18n.locale == "sv_SE") {
