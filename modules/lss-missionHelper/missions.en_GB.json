@@ -8697,5 +8697,76 @@
             "fire_stations": 2
         },
         "alternate_version": null
+    },
+    "314": {
+        "id": 314,
+        "name": "Rescue from stuck ride",
+        "place": "Theme Park",
+        "place_array": {
+            "0": "Theme Park"
+        },
+        "average_credits": 2000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "platform_trucks": 80
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "315": {
+        "id": 315,
+        "name": "Collision on ride",
+        "place": "Theme Park",
+        "place_array": {
+            "0": "Theme Park"
+        },
+        "average_credits": 6000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "rth": 1
+        },
+        "chances": {
+            "patient_transport": 80,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 4,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
     }
 }

@@ -180,6 +180,7 @@
             team: '\\[Alianza\\]',
             shit: 'Mejorado a base de complejo de edificios',
             shit1: 'Edificio añadido a base de complejo de edificios',
+            shit2: 'Mejorado a complejo de edificios',
             prisoner: 'Preso transportado',
             num_missions: 'Suma / Créditos Misiones',
             num_patients: 'Suma / Créditos Pacientes',
