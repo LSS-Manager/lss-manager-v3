@@ -5254,8 +5254,7 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 226,
-                "3": 182
+                "2": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -8285,6 +8284,56 @@
         },
         "prerequisites": {
             "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "361": {
+        "id": 361,
+        "name": "Kradzie\u017c z w\u0142amaniem",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1800,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "362": {
+        "id": 362,
+        "name": "Nielegalne posiadanie broni",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
         },
         "alternate_version": null
     }
