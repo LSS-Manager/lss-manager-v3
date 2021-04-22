@@ -17831,7 +17831,7 @@
             "patient_specializations": "Neurologie"
         },
         "prerequisites": {
-            "fire_stations": 4
+            "fire_stations": 12
         },
         "alternate_version": null
     },

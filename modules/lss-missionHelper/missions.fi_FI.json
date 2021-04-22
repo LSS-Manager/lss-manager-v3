@@ -688,7 +688,8 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2
+                "1": 2,
+                "2": 29
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -4865,7 +4866,7 @@
     },
     "210": {
         "id": 210,
-        "name": "09 Laiton uhkaus intenetiss\u00e4",
+        "name": "09 Laiton uhkaus internetiss\u00e4",
         "place": "",
         "place_array": {},
         "average_credits": 500,
