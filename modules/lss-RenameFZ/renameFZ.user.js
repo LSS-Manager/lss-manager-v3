@@ -983,7 +983,8 @@
                 26: 'VL SSSM',
                 27: 'VLM',
                 28: 'AR',
-                29: 'PC DSM'
+                29: 'PC DSM',
+                30: 'Ambulance Type A'
             }
         }
     };

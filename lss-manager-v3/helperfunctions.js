@@ -388,7 +388,8 @@ else if (I18n.locale == "fr_FR") {
         "26": ["VL SSSM", 0],
         "27": ["VLM", 1],
         "28": ["AR", 1],
-        "29": ["PC DSM", 1]
+        "29": ["PC DSM", 1],
+        "30": ["Ambulance Type A", 1]
     };
 }
 else if (I18n.locale == "es_ES") {
