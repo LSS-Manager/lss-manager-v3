@@ -1855,7 +1855,7 @@
             "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
         },
         "prerequisites": {
-            "rescue_stations": 3,
+            "rescue_stations": 6,
             "police_stations": 2,
             "fire_stations": 8
         },
@@ -1923,7 +1923,7 @@
             "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
         },
         "prerequisites": {
-            "rescue_stations": 3,
+            "rescue_stations": 6,
             "police_stations": 2,
             "fire_stations": 8
         },
@@ -2229,7 +2229,7 @@
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
-            "rescue_stations": 2,
+            "rescue_stations": 6,
             "police_stations": 1,
             "fire_stations": 6
         },
@@ -2265,7 +2265,7 @@
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
-            "rescue_stations": 4,
+            "rescue_stations": 6,
             "police_stations": 1,
             "fire_stations": 7
         },
@@ -2667,7 +2667,7 @@
             "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
         },
         "prerequisites": {
-            "rescue_stations": 4,
+            "rescue_stations": 6,
             "fire_stations": 4
         },
         "alternate_version": null
@@ -3068,7 +3068,7 @@
             "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
         },
         "prerequisites": {
-            "rescue_stations": 4,
+            "rescue_stations": 6,
             "fire_stations": 8
         },
         "alternate_version": null
@@ -3994,7 +3994,7 @@
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
-            "rescue_stations": 3,
+            "rescue_stations": 6,
             "police_stations": 7,
             "police_helicopter_stations": 1
         },
@@ -4587,7 +4587,7 @@
             "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
         },
         "prerequisites": {
-            "rescue_stations": 3,
+            "rescue_stations": 6,
             "police_stations": 1,
             "fire_stations": 10
         },
@@ -4732,7 +4732,7 @@
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
-            "rescue_stations": 4,
+            "rescue_stations": 6,
             "fire_stations": 8
         },
         "alternate_version": null

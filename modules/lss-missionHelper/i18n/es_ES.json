@@ -2,9 +2,11 @@
     "diy_mission": "Esta misión parece ser una misión de alianza a gran escala.",
     "guard_mission": "misión planificada",
     "vge": "misión de alianza a gran escala",
+    "criticalchance": "Probabilidad de que se necesiten cuidados intensivos",
     "patients": "pacientes",
     "prisoners": "presos",
     "to": "hasta",
+    "averageMinimumEmployeesFire": "Media de personal antiincendios mín.",
     "exp": "Diferenciales",
     "ambulance_only": "Esta misión es sólo de ambulancias.!",
     "title": "Missionhelper",
@@ -86,6 +88,8 @@
         "arff": "CBA",
         "police_helicopters": "Police Helicopter",
         "ambulances": "Ambulancia",
+        "kdow_orgl": "Unidad logística de AMV",
+        "orgl": "Unidad logística de AMV",
         "allow_rw_instead_of_lf": "Camiones de bomberos o rescate pesado"
     }
 }

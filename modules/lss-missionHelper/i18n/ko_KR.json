@@ -1,11 +1,13 @@
 {
   "diy_mission": "이 임무는 대규모 동맹 임무 인 것 같습니다.",
   "guard_mission": "계획된 임무",
+  "criticalchance": "중환자 치료가 필요할 확률",
   "vge": "대규모 동맹 임무",
   "patients": "환자",
   "prisoners": "죄수",
   "to": "까지",
   "exp": "확산",
+  "averageMinimumEmployeesFire": "최소 평균 소방대원",
   "ambulance_only": "이 임무는 구급차 전용입니다!",
   "title": "선교사",
   "transport": "수송",
@@ -86,6 +88,8 @@
     "k9": "Dog Support Unit",
     "swat_suv": "Armed Response Vehicle (ARV)",
     "helicopter": "구급 헬리콥터",
+    "kdow_orgl": "구급 지휘차",
+    "orgl": "구급 지휘차",
     "police_helicopters": "Police helicopter",
     "allow_rw_instead_of_lf": "소방차 또는 무거운 구조"
   }
