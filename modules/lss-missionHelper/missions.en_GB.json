@@ -8765,7 +8765,7 @@
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
-            "fire_stations": 2
+            "fire_stations": 6
         },
         "alternate_version": null
     }

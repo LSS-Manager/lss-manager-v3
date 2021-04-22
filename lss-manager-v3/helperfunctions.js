@@ -388,7 +388,8 @@ else if (I18n.locale == "fr_FR") {
         "26": ["VL SSSM", 0],
         "27": ["VLM", 1],
         "28": ["AR", 1],
-        "29": ["PC DSM", 1]
+        "29": ["PC DSM", 1],
+        "30": ["Ambulance Type A", 1]
     };
 }
 else if (I18n.locale == "es_ES") {
@@ -405,7 +406,17 @@ else if (I18n.locale == "es_ES") {
         "9": ["HEMS", 1],
         "10": ["Vehículo aéreo", 0],
         "11": ["Vehículo de mando móvil", 0],
-        "12": ["Vehículo de rescate", 0]
+        "12": ["Vehículo de rescate", 0],
+        "13": ["Helicóptero de Policía", 2],
+        "14": ["Unidad Antidisturbios", 2],
+        "15": ["Unidad GEO", 2],
+        "16": ["Unidad Canina", 2],
+        "17": ["Moto de Policía", 2],
+        "18": ["VIR", 1],
+        "19": ["Unidad logística de AMV", 1],
+        "20": ["Médico de cabecera", 1],
+        "21": ["Motocicleta de intervención rápida", 1],
+        "22": ["Ambulancia SVB", 1]
     };
 }
 else if (I18n.locale == "ko_KR") {
@@ -422,7 +433,12 @@ else if (I18n.locale == "ko_KR") {
         "9": ["구급 헬리콥터", 1],
         "10": ["이동식 호흡 장비", 0],
         "11": ["구조 공작차", 0],
-        "12": ["사다리차", 0]
+        "12": ["사다리차", 0],
+        "13": ["긴급 이송차", 1],
+        "14": ["구급 지휘차", 1],
+        "15": ["일반의", 1],
+        "16": ["긴급 이송용 오토바이", 1],
+        "17": ["기본 인명 지원(BLS) 구급차", 1]
     };
 }
 else if (I18n.locale == "ro_RO") {
@@ -440,7 +456,12 @@ else if (I18n.locale == "ro_RO") {
         "10": ["Mașină de suport logistic", 0],
         "11": ["Mașină de comanda și control", 0],
         "12": ["Mașină de intervenții accidente colective", 0],
-        "13": ["Platforma Autoutilitara", 0]
+        "13": ["Platforma Autoutilitara", 0],
+        "14": ["Vehicul EMS netransportant", 1],
+        "15": ["Unitate transport Supervizor", 1],
+        "16": ["Medic generalist", 1],
+        "17": ["Motocicletă-ambulanță", 1],
+        "18": ["Ambulanță tip B (BLS)", 1],
     };
 }
 else if (I18n.locale == "nl_NL") {

@@ -6888,7 +6888,7 @@
     },
     "323": {
         "id": 323,
-        "name": "Objet bloqu\u00e9 dans la gorge",
+        "name": "Obstruction des voies respiratoires",
         "place": "",
         "place_array": {},
         "average_credits": null,
@@ -6911,6 +6911,56 @@
         "prerequisites": {
             "rescue_stations": 1
         },
+        "alternate_version": null
+    },
+    "325": {
+        "id": 325,
+        "name": "Transport de patient",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 0,
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true
+        },
+        "prerequisites": {},
+        "alternate_version": null
+    },
+    "326": {
+        "id": 326,
+        "name": "Transfert interhospitalier",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions"
+        },
+        "prerequisites": {},
         "alternate_version": null
     }
 }

@@ -314,7 +314,7 @@ let cre_verband = 0;
 let sum_verbande = 0;
 let cre_verbande = 0;
 document.querySelectorAll('#iframe-inside-container > table > tbody > tr').forEach(row => {
-    const amount = parseInt(row.children[2].textContent.trim().match(/-?\d{1,3}([.,]\d{3})*/)[0].replace(/[.,]/g, ''));
+    const amount = parseInt(row.children[2].textContent.trim().match(/-?\d{1,3}([.,]?\d{3})*/)[0].replace(/[.,]/g, ''));
     const credits = parseInt(row.children[0].textContent.trim().match(/-?\d{1,3}([.,]\d{3})*/)[0].replace(/[.,]/g, ''));
     const title = row.children[3].textContent.trim();
 

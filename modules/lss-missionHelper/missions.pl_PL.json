@@ -2699,9 +2699,9 @@
     "118": {
         "id": 118,
         "name": "Po\u017car Ma\u0142ego Magazynu",
-        "place": "Magazyn",
+        "place": "Magazyn firmowy",
         "place_array": {
-            "0": "Magazyn"
+            "0": "Magazyn firmowy"
         },
         "average_credits": 6500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
@@ -2728,9 +2728,9 @@
     "119": {
         "id": 119,
         "name": "Po\u017car Ma\u0142ego Magazynu",
-        "place": "",
+        "place": "Magazyn",
         "place_array": {
-            "0": ""
+            "0": "Magazyn"
         },
         "average_credits": 6500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
@@ -2785,9 +2785,9 @@
     "121": {
         "id": 121,
         "name": "Po\u017car Du\u017cego Magazynu",
-        "place": "Magazyn",
+        "place": "Magazyn firmowy",
         "place_array": {
-            "0": "Magazyn"
+            "0": "Magazyn firmowy"
         },
         "average_credits": 10000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
@@ -2817,9 +2817,9 @@
     "122": {
         "id": 122,
         "name": "Po\u017car Du\u017cego Magazynu",
-        "place": "",
+        "place": "Magazyn",
         "place_array": {
-            "0": ""
+            "0": "Magazyn"
         },
         "average_credits": 10000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
@@ -5254,7 +5254,8 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 182
+                "2": 226,
+                "3": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"

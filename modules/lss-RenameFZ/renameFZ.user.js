@@ -983,7 +983,8 @@
                 26: 'VL SSSM',
                 27: 'VLM',
                 28: 'AR',
-                29: 'PC DSM'
+                29: 'PC DSM',
+                30: 'Ambulance Type A'
             }
         }
     };
@@ -1106,6 +1107,7 @@
             validStationTypes: {
                 0: "Parque de bomberos",
                 2: "Parque de ambulancias",
+                5: "Helipuerto médico",
                 6: "Comisaría de policía",
                 7: "Centralita",
                 18: "Parque de bomberos (pequeño)",
@@ -1125,7 +1127,17 @@
                 9: 'HEMS',
                 10: 'Vehículo aéreo',
                 11: 'Vehículo de mando móvil',
-                12: 'Vehículo de rescate'
+                12: 'Vehículo de rescate',
+                13: 'Helicóptero de Policía',
+                14: 'Unidad Antidisturbios',
+                15: 'Unidad GEO',
+                16: 'Unidad Canina',
+                17: 'Moto de Policía',
+                18: 'VIR',
+                19: 'Unidad logística de AMV',
+                20: 'Médico de cabecera',
+                21: 'Motocicleta de intervención rápida',
+                22: 'Ambulancia SVB'
             }
         }
     };
@@ -1192,7 +1204,12 @@
                 9: '구급 헬리콥터',
                 10: '이동식 호흡 장비',
                 11: '구조 공작차',
-                12: '사다리차'
+                12: '사다리차',
+                13: '긴급 이송차',
+                14: '구급 지휘차',
+                15: '일반의',
+                16: '긴급 이송용 오토바이',
+                17: '기본 인명 지원(BLS) 구급차'
             }
         }
     };
@@ -1260,7 +1277,12 @@
                 10: 'Mașină de suport logistic',
                 11: 'Mașină de comanda și control',
                 12: 'Mașină de intervenții accidente colective',
-                13: 'Platforma Autoutilitara'
+                13: 'Platforma Autoutilitara',
+                14: 'Vehicul EMS netransportant',
+                15: 'Unitate transport Supervizor',
+                16: 'Medic generalist',
+                17: 'Motocicletă-ambulanță',
+                18: 'Ambulanță tip B (BLS)'
             }
         }
     };

@@ -5139,7 +5139,7 @@
         "additional": {
             "possible_patient": 2,
             "expansion_missions_ids": {
-                "0": 262
+                "0": 263
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Cirurgia Geral"
