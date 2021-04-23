@@ -1048,6 +1048,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
@@ -1910,6 +1911,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
         },
@@ -2571,6 +2573,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
@@ -2697,6 +2700,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
@@ -2973,6 +2977,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -3457,6 +3462,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
@@ -3484,7 +3490,11 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 152
+            },
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
@@ -4188,6 +4198,7 @@
             "possible_patient": 4,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
@@ -4309,6 +4320,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Cardiologie"
         },
         "prerequisites": {
@@ -5976,7 +5988,7 @@
     },
     "274": {
         "id": 274,
-        "name": "\u00c9lectrocution",
+        "name": "\u00c9lectrisation",
         "place": "",
         "place_array": {},
         "average_credits": null,
@@ -5994,6 +6006,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -6327,7 +6340,11 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 150
+            },
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -6548,6 +6565,7 @@
                 "0": 312
             },
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Gyn\u00e9cologie"
         },
         "prerequisites": {
@@ -6637,6 +6655,7 @@
                 "0": 315
             },
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Cardiologie"
         },
         "prerequisites": {
@@ -6724,6 +6743,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
         },
         "prerequisites": {
