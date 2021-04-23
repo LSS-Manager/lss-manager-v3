@@ -4005,9 +4005,8 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 27,
-                "1": 43,
-                "2": 83
+                "0": 43,
+                "1": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -18279,6 +18278,52 @@
         },
         "prerequisites": {
             "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "623": {
+        "id": 623,
+        "name": "Bauger\u00fcst eingest\u00fcrzt",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2100,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "height_rescue_units": 1,
+            "police_cars": 2,
+            "thw_gkw": 1,
+            "thw_mtwtz": 1,
+            "thw_mzkw": 1
+        },
+        "chances": {
+            "nef": 80,
+            "patient_transport": 80,
+            "height_rescue_units": 50,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "filter_id": "technical_aid_organization_missions",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_gkw_count": 1,
+            "fire_stations": 4
         },
         "alternate_version": null
     }
