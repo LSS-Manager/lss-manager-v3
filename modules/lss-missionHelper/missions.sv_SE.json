@@ -6155,5 +6155,42 @@
             "police_stations": 10
         },
         "alternate_version": null
+    },
+    "287": {
+        "id": 287,
+        "name": "Flygh\u00e4ndelse - brand i flygplan, litet",
+        "place": "",
+        "place_array": {},
+        "average_credits": 6000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "water_tankers": 80,
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 3,
+            "fire_stations": 13
+        },
+        "alternate_version": null
     }
 }

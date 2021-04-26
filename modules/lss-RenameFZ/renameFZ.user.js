@@ -1644,6 +1644,7 @@
                     set.vehicles[vehicleID].numberRoman = (set.vehicles[vehicleID].numberRoman === "0" ? "" : set.vehicles[vehicleID].numberRoman);
                 }
                 set.vehicles[vehicleID].newName = set.str.str.replace(/{(.*?)}/g, (match, p1) => typeof set.vehicles[vehicleID][p1] !== void 0 ? set.vehicles[vehicleID][p1] : match);
+                set.vehicles[vehicleID].newName = set.vehicles[vehicleID].newName.trim();
                 if (set.vehicles[vehicleID].newName === set.vehicles[vehicleID].old) {
                     vehicleCaption.append(`<span class="${prefix}_name_correct"><br>${I18n.t('lssm.renameFz.nameAlreadyCorrect')}</span>`);
                     $(`#vehicle_form_holder_${vehicleID}`)
