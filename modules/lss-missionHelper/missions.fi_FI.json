@@ -688,8 +688,7 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2,
-                "2": 29
+                "1": 2
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -1034,6 +1033,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
         },
@@ -1062,6 +1062,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traumatologia"
         },
@@ -1131,6 +1132,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traumatologia"
         },
@@ -1159,6 +1161,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traumatologia"
         },
@@ -1950,6 +1953,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Yleiskirurgi"
         },
@@ -2136,6 +2140,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
         },
         "prerequisites": {
@@ -2407,6 +2412,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
         },
         "prerequisites": {
@@ -2604,6 +2610,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
         },
         "prerequisites": {
@@ -2631,6 +2638,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Yleiskirurgi"
         },
@@ -5020,6 +5028,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Yleiskirurgi"
         },
         "prerequisites": {
@@ -5104,6 +5113,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Yleiskirurgi"
         },
         "prerequisites": {
@@ -5664,6 +5674,32 @@
         },
         "requirements": {
             "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "272": {
+        "id": 272,
+        "name": "487 Ihmisen pelastaminen katolta",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1250,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1
         },

@@ -6734,5 +6734,38 @@
             "rescue_stations": 1
         },
         "alternate_version": null
+    },
+    "307": {
+        "id": 307,
+        "name": "Osoba zaseknut\u00e1 na prol\u00e9za\u010dce",
+        "place": "Prol\u00e9za\u010dce",
+        "place_array": {
+            "0": "Prol\u00e9za\u010dce"
+        },
+        "average_credits": 500,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 1
+        },
+        "alternate_version": null
     }
 }

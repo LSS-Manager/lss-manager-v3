@@ -8337,5 +8337,108 @@
             "police_stations": 2
         },
         "alternate_version": null
+    },
+    "363": {
+        "id": 363,
+        "name": "Widoczne zadymienie",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 35
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 4,
+                "1": 6,
+                "2": 7,
+                "3": 14,
+                "4": 15,
+                "5": 216
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "364": {
+        "id": 364,
+        "name": "Zadymienie w budynku mieszkalnym",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 25,
+            "platform_trucks": 50
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 5,
+                "1": 23,
+                "2": 58,
+                "3": 244
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "365": {
+        "id": 365,
+        "name": "Zadymienie w domu jednorodzinnym",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 25
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 20,
+                "1": 23,
+                "2": 27,
+                "3": 322
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
     }
 }
