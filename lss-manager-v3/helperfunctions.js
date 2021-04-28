@@ -191,7 +191,14 @@ else if (I18n.locale == "sv_SE") {
         "24": ["Polishäst", 2],
         "25": ["Brandhelikopter", 0],
         "26": ["Vattenbombare", 0],
-        "27": ["Stor Vattenbombare", 0]
+        "27": ["Stor Vattenbombare", 0],
+        "28": ["Akutläkarbil", 1],
+        "29": ["FIP", 0],
+        "30": ["Lättvårdsambulans", 1],
+        "31": ["Ledningsfordon", 1],
+        "32": ["Jourläkare", 1],
+        "33": ["IVPA", 1],
+        "34": ["MC-Ambulans", 1]
     };
 }
 else if (I18n.locale == "cs_CZ") {
@@ -201,7 +208,7 @@ else if (I18n.locale == "cs_CZ") {
         "2": ["AZ", 0],
         "3": ["VEA", 0],
         "4": ["TA", 0],
-        "5": ["Sanitka", 1],
+        "5": ["RZP", 1],
         "6": ["KHA", 0],
         "7": ["TACH", 0],
         "8": ["Policejní automobil", 2],
@@ -216,11 +223,14 @@ else if (I18n.locale == "cs_CZ") {
         "17": ["MOS", 0],
         "18": ["Vozidlo vyšetřovatelů DN", 2],
         "19": ["Vozidlo pyrotechika PČR", 2],
-        "20": ["Přívěs se člunem", 1],
+        "20": ["Přívěs se člunem", 4],
         "21": ["Přívěs se člunem VZS ČČK", 4],
-        "22": ["Potápěčský automobil", 1],
+        "22": ["Potápěčský automobil", 4],
         "23": ["SUV VZS ČČK", 4],
-        "24": ["Dodávka VZS ČČK", 4]
+        "24": ["Dodávka VZS ČČK", 4],
+        "25": ["RV", 1],
+        "26": ["IP", 1],
+        "27": ["RLP", 1]
     };
 }
 else if (I18n.locale == "da_DK") {
@@ -280,7 +290,14 @@ else if (I18n.locale == "nb_NO") {
         "22": ["Utrykningspolitibil", 2],
         "23": ["Utrykningsenhetbil", 2],
         "24": ["Legebil", 1],
-        "25": ["Innsatslederbil helse", 1]
+        "25": ["Innsatslederbil helse", 1],
+        "26": ["Akuttbil"],
+        "27": ["Ambulansemotorsykkel"],
+        "28": ["Syketransport"],
+        "29": ["First responder bil"],
+        "30": ["Akutthjelper"],
+        "31": ["Intensivambulanse", 1],
+        "32": ["Akuttbil"]
     };
 }
 else if (I18n.locale == "pl_PL") {
@@ -319,7 +336,8 @@ else if (I18n.locale == "pl_PL") {
         "31": ["Ambulans S", 1],
         "32": ["Samochód Lekarza", 1],
         "33": ["Motoambulans", 1],
-        "34": ["Ambulans T", 1]
+        "34": ["Ambulans T", 1],
+        "35": ["SRMed", 0]
     };
 }
 else if (I18n.locale == "it_IT") {
@@ -350,7 +368,8 @@ else if (I18n.locale == "it_IT") {
         "23": ["Camion NSSA", 4],
         "24": ["Pickup SAF", 4],
         "25": ["Barce", 4],
-        "26": ["AF/BUS", 0]
+        "26": ["AF/BUS", 0],
+        "27": ["DTS", 1]
     };
 }
 else if (I18n.locale == "fr_FR") {

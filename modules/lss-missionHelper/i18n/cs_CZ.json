@@ -6,6 +6,7 @@
   "prisoners": "Vězni",
   "to": "až do",
   "exp": "Šíření",
+  "criticalchance": "potřeby urgentní péče",
   "SWATPersonnel": "Potřebný personál URNY",
   "averageMinimumEmployeesFire": "Průměrný min. počet hasičů",
   "averageMinimumEmployeesPolice": "Průměrný min. počet policistů",
@@ -101,6 +102,8 @@
     "traffic_car": "Vozidlo vyšetřovatelů DN",
     "fbi_bomb": "Vozidlo pyrotechika PČR",
     "police_helicopters": "Policejní vrtulník",
-    "allow_rw_instead_of_lf": "cisternové automobilové stříkačky nebo těžká záchranná služba"
+    "allow_rw_instead_of_lf": "cisternové automobilové stříkačky nebo těžká záchranná služba",
+    "orgl": "inspektor provozu",
+    "kdow_orgl": "inspektor provozu"
   }
 }

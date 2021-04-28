@@ -455,7 +455,7 @@
                 2: 'AZ',
                 3: 'VEA',
                 4: 'TA',
-                5: 'Sanitka',
+                5: 'RZP',
                 6: 'KHA',
                 7: 'TACH',
                 8: 'Policejní automobil',
@@ -474,7 +474,10 @@
                 21: 'Přívěs se člunem VZS ČČK',
                 22: 'Potápěčský automobil',
                 23: 'SUV VZS ČČK',
-                24: 'Dodávka VZS ČČK'
+                24: 'Dodávka VZS ČČK',
+                25: 'RV',
+                26: 'IP',
+                27: 'RLP'
             }
         }
     };
@@ -565,7 +568,8 @@
                 31: 'Ambulans S',
                 32: 'Samochód Lekarza',
                 33: 'Motoambulans',
-                34: 'Ambulans T'
+                34: 'Ambulans T',
+                35: 'SRMed'
             }
         }
     };
@@ -649,7 +653,14 @@
                 24: 'Polishäst',
                 25: 'Brandhelikopter',
                 26: 'Vattenbombare',
-                27: 'Stor Vattenbombare'
+                27: 'Stor Vattenbombare',
+                28: 'Akutläkarbil',
+                29: 'FIP',
+                30: 'Lättvårdsambulans',
+                31: 'Ledningsfordon',
+                32: 'Jourläkare',
+                33: 'IVPA',
+                34: 'MC-Ambulans'
             }
         }
     };
@@ -814,7 +825,14 @@
                 22: 'Utrykningspolitibil',
                 23: 'Utrykningsenhetbil',
                 24: 'Legebil',
-                25: 'Innsatslederbil helse'
+                25: 'Innsatslederbil helse',
+                26: 'Akuttbil',
+                27: 'Ambulansemotorsykkel',
+                28: 'Syketransport',
+                29: 'First responder bil',
+                30: 'Akutthjelper',
+                31: 'Intensivambulanse',
+                32: 'Akuttbil'
             }
         }
     };
@@ -898,7 +916,8 @@
                 23: 'Camion NSSA',
                 24: 'Pickup SAF',
                 25: 'Barca',
-                26: 'AF/BUS'
+                26: 'AF/BUS',
+                27: 'DTS'
             }
         }
     };

@@ -2892,9 +2892,9 @@
     "107": {
         "id": 107,
         "name": "413 Tavarajunapalo",
-        "place": "Rautatieristeys",
+        "place": "Vartioimaton tasoristeys",
         "place_array": {
-            "0": "Rautatieristeys"
+            "0": "Vartioimaton tasoristeys"
         },
         "average_credits": 2000,
         "generated_by": "Paloasema",
@@ -2920,9 +2920,9 @@
     "108": {
         "id": 108,
         "name": "413 Tavarajunapalo",
-        "place": "",
+        "place": "Tasoristeys",
         "place_array": {
-            "0": ""
+            "0": "Tasoristeys"
         },
         "average_credits": 2000,
         "generated_by": "Paloasema",
