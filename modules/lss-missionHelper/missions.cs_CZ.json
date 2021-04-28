@@ -7060,7 +7060,7 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 900,
+            "patient_transport": 100,
             "patient_critical_care": 50
         },
         "additional": {
