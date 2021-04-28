@@ -1141,7 +1141,8 @@
         },
         "chances": {
             "water_tankers": 40,
-            "patient_transport": 50
+            "patient_transport": 50,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 4,
@@ -2349,7 +2350,8 @@
         },
         "chances": {
             "mobile_air_vehicles": 30,
-            "patient_transport": 80
+            "patient_transport": 80,
+            "patient_critical_care": 75
         },
         "additional": {
             "possible_patient": 10,
@@ -3281,7 +3283,8 @@
             "k9": 1
         },
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 2,
@@ -4106,7 +4109,8 @@
             "ambulances": 1
         },
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 1,
@@ -5557,9 +5561,14 @@
             "hazmat_vehicles": 2,
             "police_cars": 4
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 80,
+            "patient_critical_care": 30
+        },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "possible_patient": 15,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Allm\u00e4nkirurg"
         },
         "prerequisites": {
             "police_stations": 4,
@@ -5848,7 +5857,8 @@
             "police_cars": 2
         },
         "chances": {
-            "patient_transport": 50
+            "patient_transport": 50,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 20,
@@ -5980,7 +5990,8 @@
         },
         "chances": {
             "mobile_command_vehicles": 30,
-            "patient_transport": 60
+            "patient_transport": 60,
+            "patient_critical_care": 75
         },
         "additional": {
             "possible_patient": 10,
@@ -6045,7 +6056,8 @@
             "police_cars": 10
         },
         "chances": {
-            "patient_transport": 65
+            "patient_transport": 65,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 80,
@@ -6190,6 +6202,156 @@
             "rescue_stations": 5,
             "police_stations": 3,
             "fire_stations": 13
+        },
+        "alternate_version": null
+    },
+    "288": {
+        "id": 288,
+        "name": "Andningsstopp",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Allm\u00e4nkirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "289": {
+        "id": 289,
+        "name": "Allvarlig huvudskada",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 90,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Neurokirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "290": {
+        "id": 290,
+        "name": "Fallsk\u00e4rmsolycka, fast i tr\u00e4d",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/paragliding_gruen.png",
+            "1": "/images/paragliding_gelb.png",
+            "2": "/images/paragliding_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "platform_trucks": 10,
+            "patient_transport": 20,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 12,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "291": {
+        "id": 291,
+        "name": "Stroke",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 45
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Neurologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "292": {
+        "id": 292,
+        "name": "Akut amputiation",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 50,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Allm\u00e4nkirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
         },
         "alternate_version": null
     }

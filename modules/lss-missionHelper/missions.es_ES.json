@@ -2840,9 +2840,9 @@
     "138": {
         "id": 138,
         "name": "Descarrilamiento del tren de carga",
-        "place": "",
+        "place": "Paso a nivel",
         "place_array": {
-            "0": ""
+            "0": "Paso a nivel"
         },
         "average_credits": 10000,
         "generated_by": "Parque de bomberos",

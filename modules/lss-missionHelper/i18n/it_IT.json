@@ -104,6 +104,7 @@
     "diver_units": "Camion tecnico NSSA",
     "boats": "Barche",
     "water_rescue": "Pickup SAF",
+    "orgl": "DTS",
     "allow_rw_instead_of_lf": "Camion dei pompieri o salvataggio pesante"
   }
 }

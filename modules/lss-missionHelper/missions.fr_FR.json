@@ -2808,9 +2808,9 @@
     "132": {
         "id": 132,
         "name": "D\u00e9raillement de train de fret",
-        "place": "",
+        "place": "Passage \u00e0 niveau",
         "place_array": {
-            "0": ""
+            "0": "Passage \u00e0 niveau"
         },
         "average_credits": 10000,
         "generated_by": "Centre de secours",

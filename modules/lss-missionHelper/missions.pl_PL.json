@@ -8440,5 +8440,360 @@
             "fire_stations": 6
         },
         "alternate_version": null
+    },
+    "366": {
+        "id": 366,
+        "name": "Zatrzymanie oddechu",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "367": {
+        "id": 367,
+        "name": "Powa\u017cny uraz g\u0142owy",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 90,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Neurochirurgia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "368": {
+        "id": 368,
+        "name": "Nieudane l\u0105dowanie spadochroniarza",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/paragliding_gruen.png",
+            "1": "/images/paragliding_gelb.png",
+            "2": "/images/paragliding_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "platform_trucks": 15,
+            "patient_transport": 80,
+            "patient_critical_care": 40
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "369": {
+        "id": 369,
+        "name": "Problemy z oddychaniem",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "370": {
+        "id": 370,
+        "name": "Problemy z oddychaniem",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "371": {
+        "id": 371,
+        "name": "Problemy z oddychaniem",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "372": {
+        "id": 372,
+        "name": "Wstrz\u0105s m\u00f3zgu",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Neurochirurgia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "373": {
+        "id": 373,
+        "name": "Wizyta lekarza u pacjenta",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 0,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Neurochirurgia"
+        },
+        "prerequisites": {
+            "rescue_stations": 5
+        },
+        "alternate_version": null
+    },
+    "374": {
+        "id": 374,
+        "name": "Podtopienie",
+        "place": "Basen",
+        "place_array": {
+            "0": "Basen"
+        },
+        "average_credits": 890,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 75,
+            "helicopter": 10,
+            "patient_critical_care": 15
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "375": {
+        "id": 375,
+        "name": "Ewakuacja hotelu",
+        "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
+        "average_credits": 8800,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "ambulances": 2,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "platform_trucks": 50,
+            "patient_transport": 15
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 0,
+            "filter_id": "ambulance_station_missions",
+            "fire_alarm_system_possible": true,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 6,
+            "fire_stations": 15
+        },
+        "alternate_version": null
+    },
+    "376": {
+        "id": 376,
+        "name": "Ewakuacja biurowca",
+        "place": "Biurowiec",
+        "place_array": {
+            "0": "Biurowiec"
+        },
+        "average_credits": 15000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "ambulances": 3,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 6
+        },
+        "chances": {
+            "platform_trucks": 65,
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 0,
+            "expansion_missions_ids": {
+                "0": 240
+            },
+            "average_min_police_personnel": 18,
+            "filter_id": "ambulance_station_missions",
+            "fire_alarm_system_possible": true,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 8,
+            "fire_stations": 25
+        },
+        "alternate_version": null
     }
 }

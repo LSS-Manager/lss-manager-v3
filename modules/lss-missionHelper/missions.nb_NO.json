@@ -2833,9 +2833,9 @@
     "111": {
         "id": 111,
         "name": "Avsporet godstog ",
-        "place": "",
+        "place": "Planovergang",
         "place_array": {
-            "0": ""
+            "0": "Planovergang"
         },
         "average_credits": 10000,
         "generated_by": "Brannstasjon",
@@ -3779,9 +3779,9 @@
     "147": {
         "id": 147,
         "name": "Togbrann (godstog)",
-        "place": "Planovergang",
+        "place": "Planovergang (Fotgjengere)",
         "place_array": {
-            "0": "Planovergang"
+            "0": "Planovergang (Fotgjengere)"
         },
         "average_credits": 2000,
         "generated_by": "Brannstasjon",
@@ -3809,9 +3809,9 @@
     "148": {
         "id": 148,
         "name": "Togbrann (godstog)",
-        "place": "",
+        "place": "Planovergang",
         "place_array": {
-            "0": ""
+            "0": "Planovergang"
         },
         "average_credits": 2000,
         "generated_by": "Brannstasjon",
@@ -6370,6 +6370,290 @@
             "rescue_stations": 1,
             "fire_stations": 1
         },
+        "alternate_version": null
+    },
+    "298": {
+        "id": 298,
+        "name": "Respirasjonsstans",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "299": {
+        "id": 299,
+        "name": "Alvorlig hodeskade",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 90,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Nevrokirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "300": {
+        "id": 300,
+        "name": "Fallskjermhopper fast i tre",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/paragliding_gruen.png",
+            "1": "/images/paragliding_gelb.png",
+            "2": "/images/paragliding_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "platform_trucks": 10,
+            "patient_transport": 20,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 12,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "301": {
+        "id": 301,
+        "name": "Avkuttet lem",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 50,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "302": {
+        "id": 302,
+        "name": "F\u00f8dsel",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Gynekologisk"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "303": {
+        "id": 303,
+        "name": "Kols i forverring ",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "304": {
+        "id": 304,
+        "name": "Pusteproblemer",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "305": {
+        "id": 305,
+        "name": "Kvelningsfare",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "306": {
+        "id": 306,
+        "name": "Pasient transport",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 0,
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true
+        },
+        "prerequisites": {},
+        "alternate_version": null
+    },
+    "307": {
+        "id": 307,
+        "name": "Intensivoverflytning",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions"
+        },
+        "prerequisites": {},
         "alternate_version": null
     }
 }

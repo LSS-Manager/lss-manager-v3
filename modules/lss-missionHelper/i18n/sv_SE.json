@@ -9,6 +9,7 @@
   "to": "upp till",
   "exp": "bredbara",
   "fwm": "Följeuppdrag",
+  "criticalchance": "intensivvård behövs",
   "SWATPersonnel": "Nödvändig insatsstyrka",
   "averageMinimumEmployeesFire": "Minuter i genomsnitt Brandpersonal",
   "averageMinimumEmployeesPolice": "Minuter i genomsnitt Polispersonal",
@@ -117,6 +118,8 @@
     "diver_units": "Dykbilar",
     "brush_truck": "Skogsbrandsfordon",
     "fire_aviation": "Brandflygsenhet",
+    "kdow_orgl": "Ledningsfordon",
+    "orgl": "Ledningsfordon",
     "allow_rw_instead_of_lf": "Brandbilar eller tung räddning"
   }
 }
