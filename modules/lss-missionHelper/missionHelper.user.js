@@ -734,7 +734,7 @@ const lssm_missionhelper_adjustPosition = () => {
                         'lssm.missionhelper.requirements.orgl'
                     )} (100%)`);
                 I18n.locale === 'es_ES' &&
-                    patients >= 10 &&
+                    patients >= 8 &&
                     (content.innerHTML += `<br>1x ${I18n.t(
                         'lssm.missionhelper.requirements.orgl'
                     )} (100%)`);
@@ -754,17 +754,17 @@ const lssm_missionhelper_adjustPosition = () => {
                         'lssm.missionhelper.requirements.orgl'
                     )} (100%)`);
                 I18n.locale === 'it_IT' &&
-                    patients >= 10 &&
+                    patients >= 14 &&
                     (content.innerHTML += `<br>1x ${I18n.t(
                         'lssm.missionhelper.requirements.orgl'
                     )} (100%)`);
                 I18n.locale === 'sv_SE' &&
-                    patients >= 10 &&
+                    patients >= 8 &&
                     (content.innerHTML += `<br>1x ${I18n.t(
                         'lssm.missionhelper.requirements.orgl'
                     )} (100%)`);
                 I18n.locale === 'fr_FR' &&
-                    patients >= 10 &&
+                    patients >= 8 &&
                     (content.innerHTML += `<br>1x ${I18n.t(
                         'lssm.missionhelper.requirements.orgl'
                     )} (100%)`);
