@@ -5098,8 +5098,8 @@
             "rescue_stations": 9,
             "police_stations": 9,
             "thw": 3,
-            "thw_bergung_count": 1,
             "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
             "thw_gkw_count": 1,
             "fire_stations": 18
         },
@@ -8145,15 +8145,16 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 120,
-                "2": 121,
-                "3": 122,
-                "4": 123,
-                "5": 124,
-                "6": 125,
-                "7": 126,
-                "8": 127,
-                "9": 128
+                "1": 27,
+                "2": 120,
+                "3": 121,
+                "4": 122,
+                "5": 123,
+                "6": 124,
+                "7": 125,
+                "8": 126,
+                "9": 127,
+                "10": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -18324,6 +18325,53 @@
             "thw_zugtrupp_count": 1,
             "thw_gkw_count": 1,
             "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "624": {
+        "id": 624,
+        "name": "Zusammensto\u00df zweier Busse",
+        "place": "",
+        "place_array": {},
+        "average_credits": 6500,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/bus_gruen.png",
+            "1": "/images/bus_gelb.png",
+            "2": "/images/bus_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "fwk": 1,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "gwoil": 2,
+            "police_cars": 8,
+            "thw_gkw": 1,
+            "thw_mtwtz": 1,
+            "thw_mzkw": 1
+        },
+        "chances": {
+            "fwk": 25,
+            "nef": 40,
+            "patient_transport": 50,
+            "helicopter": 5
+        },
+        "additional": {
+            "possible_patient": 110,
+            "possible_patient_min": 15,
+            "filter_id": "technical_aid_organization_missions",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 4,
+            "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_gkw_count": 1,
+            "fire_stations": 16
         },
         "alternate_version": null
     }
