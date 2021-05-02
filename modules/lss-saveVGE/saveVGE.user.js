@@ -89,7 +89,7 @@
         });
     }
     function buildOptions(onlyOption) {
-        let select = $('<ul class="dropdown-menu" style="background:white !important" aria-labelledby="vgeSaveDropdown" id="vgeSaveDropdownUl"></ul>');
+        let select = $('<ul class="dropdown-menu" aria-labelledby="vgeSaveDropdown" id="vgeSaveDropdownUl"></ul>');
         let h = "";
         for (let i in saveMissions) {
             h += '<li><a href="#" data-value="' + i + '">' + i + '</a></li>';
