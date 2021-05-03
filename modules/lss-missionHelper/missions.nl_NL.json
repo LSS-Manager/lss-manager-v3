@@ -21420,5 +21420,61 @@
             "police_stations": 1
         },
         "alternate_version": null
+    },
+    "776": {
+        "id": 776,
+        "name": "Illegaal aftappen elektra",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 553
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "777": {
+        "id": 777,
+        "name": "Illegaal aftappen elektra",
+        "place": "",
+        "place_array": {},
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 553
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
     }
 }

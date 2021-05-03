@@ -5195,5 +5195,36 @@
             "rescue_stations": 1
         },
         "alternate_version": null
+    },
+    "238": {
+        "id": 238,
+        "name": "\u30e2\u30c8\u30af\u30ed\u30b9\u4e8b\u6545",
+        "place": "\u30c0\u30fc\u30c8\u30ec\u30fc\u30b9\u30c8\u30e9\u30c3\u30af",
+        "place_array": {
+            "0": "\u30c0\u30fc\u30c8\u30ec\u30fc\u30b9\u30c8\u30e9\u30c3\u30af"
+        },
+        "average_credits": null,
+        "generated_by": "\u6551\u6025\u8eca\u30b9\u30c6\u30fc\u30b7\u30e7\u30f3",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 5,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u4e00\u822c\u5916\u79d1"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
     }
 }

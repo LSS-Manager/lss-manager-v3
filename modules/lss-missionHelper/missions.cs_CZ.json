@@ -7073,5 +7073,43 @@
             "rescue_stations": 2
         },
         "alternate_version": null
+    },
+    "315": {
+        "id": 315,
+        "name": "Po\u017e\u00e1r panelov\u00e9ho domu",
+        "place": "Panelov\u00fd d\u016fm",
+        "place_array": {
+            "0": "Panelov\u00fd d\u016fm"
+        },
+        "average_credits": 6700,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 3,
+            "mobile_air_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "mobile_air_vehicles": 85,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 20,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 3,
+            "fire_stations": 7
+        },
+        "alternate_version": null
     }
 }
