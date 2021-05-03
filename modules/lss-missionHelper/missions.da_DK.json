@@ -861,7 +861,7 @@
     },
     "32": {
         "id": 32,
-        "name": "Ild i h\u00f8stmaskine",
+        "name": "Ild i landbrugsmaskine",
         "place": "",
         "place_array": {},
         "average_credits": 1200,
@@ -1694,7 +1694,7 @@
     },
     "63": {
         "id": 63,
-        "name": "Mildt slagtilf\u00e6lde",
+        "name": "Slagtilf\u00e6lde",
         "place": "",
         "place_array": {},
         "average_credits": null,
@@ -3328,7 +3328,7 @@
     },
     "125": {
         "id": 125,
-        "name": "Gr\u00f8ft redning",
+        "name": "F\u00e6rdselsuheld - Redning, Gr\u00f8ft",
         "place": "",
         "place_array": {},
         "average_credits": 2500,
@@ -4977,7 +4977,7 @@
     },
     "180": {
         "id": 180,
-        "name": "Kemikalie Forbranding Uheld",
+        "name": "Kemisk forbr\u00e6nding",
         "place": "",
         "place_array": {},
         "average_credits": null,
