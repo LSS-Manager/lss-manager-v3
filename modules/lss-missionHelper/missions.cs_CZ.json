@@ -7098,7 +7098,8 @@
         },
         "chances": {
             "mobile_air_vehicles": 85,
-            "patient_transport": 60
+            "patient_transport": 60,
+            "patient_critical_care": 30
         },
         "additional": {
             "possible_patient": 20,
