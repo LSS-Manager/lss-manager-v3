@@ -17826,5 +17826,34 @@
             "fire_stations": 10
         },
         "alternate_version": null
+    },
+    "578": {
+        "id": 578,
+        "name": "Illegal tapping of electricity",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 489,
+                "1": 569
+            }
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
     }
 }

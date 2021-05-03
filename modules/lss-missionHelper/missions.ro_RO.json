@@ -5008,5 +5008,36 @@
             "rescue_stations": 1
         },
         "alternate_version": null
+    },
+    "232": {
+        "id": 232,
+        "name": "Accident de motocros",
+        "place": "Pist\u0103 Dirt Race",
+        "place_array": {
+            "0": "Pist\u0103 Dirt Race"
+        },
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 5,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg general"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
     }
 }

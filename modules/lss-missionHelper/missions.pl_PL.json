@@ -8794,5 +8794,72 @@
             "fire_stations": 25
         },
         "alternate_version": null
+    },
+    "377": {
+        "id": 377,
+        "name": "Kolizja dw\u00f3ch aut osobowych",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 25
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "378": {
+        "id": 378,
+        "name": "Wypadek podczas po\u015bcigu policyjnego",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 4,
+            "traffic_car": 1
+        },
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 15,
+            "patient_critical_care": 40
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "fire_stations": 6
+        },
+        "alternate_version": null
     }
 }
