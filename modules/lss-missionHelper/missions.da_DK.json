@@ -2837,6 +2837,339 @@
         },
         "alternate_version": null
     },
+    "100": {
+        "id": 100,
+        "name": "P\u00e5ske\u00e6gs tyv",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Fre, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Man, 05 Apr 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "101": {
+        "id": 101,
+        "name": "B\u00f8rste stj\u00e5let fra v\u00e6rksted",
+        "place": "Skole",
+        "place_array": {
+            "0": "Skole"
+        },
+        "average_credits": 150,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Fre, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Man, 05 Apr 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "102": {
+        "id": 102,
+        "name": "Sammenfaldet kaninhul",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2,
+            "elw_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
+            "date_start": "Fre, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Man, 05 Apr 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "103": {
+        "id": 103,
+        "name": "P\u00e5k\u00f8rt p\u00e5skehare",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 38
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Fre, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Man, 05 Apr 2021 23:59:00 +0200",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "104": {
+        "id": 104,
+        "name": "Br\u00e6ndende p\u00e5skekurv",
+        "place": "",
+        "place_array": {},
+        "average_credits": 110,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fre, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Man, 05 Apr 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "105": {
+        "id": 105,
+        "name": "Chokolade Tankvogns Spillage",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3,
+            "elw_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
+            "date_start": "Fre, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Man, 05 Apr 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "106": {
+        "id": 106,
+        "name": "Br\u00e6ndende \u00e6ggekoger",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fre, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Man, 05 Apr 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "max_police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "107": {
+        "id": 107,
+        "name": "Harekongres i P\u00e5ske \u00c6g Byen",
+        "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
+        "average_credits": 7000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 4,
+            "police_cars": 8
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2 timer",
+            "duration": 7200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Fre, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Man, 05 Apr 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "108": {
+        "id": 108,
+        "name": "P\u00e5ske\u00e6gs-lastbil v\u00e6ltet",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2200,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Fre, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Man, 05 Apr 2021 23:59:00 +0200",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "max_police_stations": 3,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "109": {
+        "id": 109,
+        "name": "Prioritetsmission: P\u00e5ske\u00e6gs jagt",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Fre, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Man, 05 Apr 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "110": {
+        "id": 110,
+        "name": "P\u00e5skehare p\u00e5 kran",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 1,
+            "elw_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
+            "date_start": "Fre, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Man, 05 Apr 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 12
+        },
+        "alternate_version": null
+    },
     "111": {
         "id": 111,
         "name": "Ild i str\u00e5t\u00e6kt hus",
@@ -4130,6 +4463,148 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "152": {
+        "id": 152,
+        "name": "Solstik",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Fre, 26 Jun 2020 10:00:00 +0200",
+            "date_end": "Tor, 01 Okt 2020 00:00:00 +0200",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "153": {
+        "id": 153,
+        "name": "Hedeslag",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Fre, 26 Jun 2020 10:00:00 +0200",
+            "date_end": "Tor, 01 Okt 2020 00:00:00 +0200",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "154": {
+        "id": 154,
+        "name": "Varmekrampe",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Fre, 26 Jun 2020 10:00:00 +0200",
+            "date_end": "Tor, 01 Okt 2020 00:00:00 +0200",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "155": {
+        "id": 155,
+        "name": "Dehydreret person",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Fre, 26 Jun 2020 10:00:00 +0200",
+            "date_end": "Tor, 01 Okt 2020 00:00:00 +0200",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "156": {
+        "id": 156,
+        "name": "Grillbrand",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fre, 26 Jun 2020 10:00:00 +0200",
+            "date_end": "Tor, 01 Okt 2020 00:00:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
         },
         "alternate_version": null
     },
@@ -5705,6 +6180,256 @@
         },
         "alternate_version": null
     },
+    "202": {
+        "id": 202,
+        "name": "Br\u00e6ndende fugleskr\u00e6msel",
+        "place": "",
+        "place_array": {},
+        "average_credits": 350,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "203": {
+        "id": 203,
+        "name": "Br\u00e6ndende gr\u00e6skarmark",
+        "place": "",
+        "place_array": {},
+        "average_credits": 850,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "204": {
+        "id": 204,
+        "name": "Overkogt gr\u00e6skarsuppe",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 50,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100",
+            "patient_specializations": "Neurologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "205": {
+        "id": 205,
+        "name": "Heks i tr\u00e6",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "206": {
+        "id": 206,
+        "name": "Zombie-bid",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100",
+            "patient_specializations": "Neurologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "207": {
+        "id": 207,
+        "name": "Monster slap l\u00f8s",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "208": {
+        "id": 208,
+        "name": "Gr\u00e6skar stj\u00e5let",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "209": {
+        "id": 209,
+        "name": "Frankenstein spottet",
+        "place": "",
+        "place_array": {},
+        "average_credits": 550,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "210": {
+        "id": 210,
+        "name": "Sliktyveri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
     "211": {
         "id": 211,
         "name": "Ulykke med motorsav",
@@ -5866,6 +6591,245 @@
         },
         "alternate_version": null
     },
+    "216": {
+        "id": 216,
+        "name": "Slagsm\u00e5l til julemarked",
+        "place": "Julemarked",
+        "place_array": {
+            "0": "Julemarked"
+        },
+        "average_credits": 600,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Tir, 01 Dec 2020 10:00:00 +0100",
+            "date_end": "L\u00f8r, 26 Dec 2020 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "217": {
+        "id": 217,
+        "name": "Br\u00e6ndende adventskrans",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Tir, 01 Dec 2020 10:00:00 +0100",
+            "date_end": "L\u00f8r, 26 Dec 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "218": {
+        "id": 218,
+        "name": "Br\u00e6ndende julemarkedsbod",
+        "place": "Julemarked",
+        "place_array": {
+            "0": "Julemarked"
+        },
+        "average_credits": 610,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Tir, 01 Dec 2020 10:00:00 +0100",
+            "date_end": "L\u00f8r, 26 Dec 2020 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "219": {
+        "id": 219,
+        "name": "Br\u00e6ndende juletr\u00e6",
+        "place": "",
+        "place_array": {},
+        "average_credits": 870,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Tir, 01 Dec 2020 10:00:00 +0100",
+            "date_end": "L\u00f8r, 26 Dec 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "220": {
+        "id": 220,
+        "name": "Brand til julemarked",
+        "place": "Julemarked",
+        "place_array": {
+            "0": "Julemarked"
+        },
+        "average_credits": 310,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Tir, 01 Dec 2020 10:00:00 +0100",
+            "date_end": "L\u00f8r, 26 Dec 2020 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "221": {
+        "id": 221,
+        "name": "Tyveri til julemarked",
+        "place": "Julemarked",
+        "place_array": {
+            "0": "Julemarked"
+        },
+        "average_credits": 300,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Tir, 01 Dec 2020 10:00:00 +0100",
+            "date_end": "L\u00f8r, 26 Dec 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "222": {
+        "id": 222,
+        "name": "Trafikuheld - is",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1410,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 100,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "date_start": "Tir, 01 Dec 2020 10:00:00 +0100",
+            "date_end": "L\u00f8r, 26 Dec 2020 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "223": {
+        "id": 223,
+        "name": "Beruset person til julemarked",
+        "place": "Julemarked",
+        "place_array": {
+            "0": "Julemarked"
+        },
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Tir, 01 Dec 2020 10:00:00 +0100",
+            "date_end": "L\u00f8r, 26 Dec 2020 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
     "224": {
         "id": 224,
         "name": "Mist\u00e6nkelig person",
@@ -6005,6 +6969,1158 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "229": {
+        "id": 229,
+        "name": "Bil ant\u00e6ndt af fyrv\u00e6rkeri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 370,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "230": {
+        "id": 230,
+        "name": "Affalds bunke aft\u00e6ndt af fyrv\u00e6rkeri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 220,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "231": {
+        "id": 231,
+        "name": "Lille markbrand for\u00e5rsaget af fyrv\u00e6rkeri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "232": {
+        "id": 232,
+        "name": "K\u00e6lderbrand for\u00e5rsaget af fyrv\u00e6rkeri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "233": {
+        "id": 233,
+        "name": "Br\u00e6ndende busskur ant\u00e6ndt af fyrv\u00e6rkeri",
+        "place": "Busstoppested",
+        "place_array": {
+            "0": "Busstoppested"
+        },
+        "average_credits": 900,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "234": {
+        "id": 234,
+        "name": "ild i balkon for\u00e5rsaget af fyrv\u00e6rkeri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "235": {
+        "id": 235,
+        "name": "Br\u00e6ndende papirs container ant\u00e6ndt af fyrv\u00e6rkeri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "236": {
+        "id": 236,
+        "name": "Br\u00e6ndende h\u00e6k ant\u00e6ndt af fyrv\u00e6rkeri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "237": {
+        "id": 237,
+        "name": "Spritk\u00f8rsel efter nyt\u00e5rs fest",
+        "place": "",
+        "place_array": {},
+        "average_credits": 150,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "238": {
+        "id": 238,
+        "name": "Ild i str\u00e5t\u00e6kt hus ant\u00e6ndt af fyrv\u00e6rkeri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4200,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "239": {
+        "id": 239,
+        "name": "Bil beskadiget af fyrv\u00e6rkeri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "240": {
+        "id": 240,
+        "name": "Overtr\u00e6delse af fyrv\u00e6rkeri loven",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "241": {
+        "id": 241,
+        "name": "H\u00e5nd skade for\u00e5rsaget af fyrv\u00e6rkeri",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "242": {
+        "id": 242,
+        "name": "Panikslagne dyr for\u00e5rsaget af fyrv\u00e6rkeri",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "243": {
+        "id": 243,
+        "name": "Skade ved fuser eksplosion",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "244": {
+        "id": 244,
+        "name": "Skade for\u00e5rsaget af forkert h\u00e5ndtering af fyrv\u00e6rkeri",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "245": {
+        "id": 245,
+        "name": "Person ramt af fyrv\u00e6rkeri eksplosion",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "246": {
+        "id": 246,
+        "name": "Anfald for\u00e5rsaget af at kigge p\u00e5 fyrv\u00e6rkeri",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "247": {
+        "id": 247,
+        "name": "Patrulje af bymidtens nyt\u00e5rs fest",
+        "place": "Bycenter",
+        "place_array": {
+            "0": "Bycenter"
+        },
+        "average_credits": 15000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "ambulances": 2,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 time 30 minutter",
+            "duration": 5400,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
+    "248": {
+        "id": 248,
+        "name": "Brug af illegal fyrv\u00e6rkeri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "249": {
+        "id": 249,
+        "name": "Brug af fyrv\u00e6rkeri n\u00e6r vej",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 250
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "250": {
+        "id": 250,
+        "name": "F\u00e6rdselsuheld for\u00e5rsaget af brug af fyrv\u00e6rkeri n\u00e6r vej",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "251": {
+        "id": 251,
+        "name": "opvisnings fyrv\u00e6rkeri saboteret",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "S\u00f8n, 27 Dec 2020 23:59:00 +0100",
+            "date_end": "Fre, 01 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
+    "252": {
+        "id": 252,
+        "name": "Uheld ved bagning af jubil\u00e6umskage",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "253": {
+        "id": 253,
+        "name": "En g\u00e6sts jubil\u00e6umsballon sidder fast i et tr\u00e6",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "254": {
+        "id": 254,
+        "name": "Brand for\u00e5rsaget af elektriske dele ved jubilumsfest (lille)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1850,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "255": {
+        "id": 255,
+        "name": "Brand for\u00e5rsaget af elektriske dele ved jubilumsfest (stor)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "256": {
+        "id": 256,
+        "name": "Jubil\u00e6umsgave stj\u00e5let",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "257": {
+        "id": 257,
+        "name": "Sabotage ved jubil\u00e6ums-jukeboksen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "258": {
+        "id": 258,
+        "name": "Jubil\u00e6umsg\u00e6st forsvundet",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "259": {
+        "id": 259,
+        "name": "Jubil\u00e6umsg\u00e6ster stjal dekoration",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        },
+        "alternate_version": null
+    },
+    "260": {
+        "id": 260,
+        "name": "Jubil\u00e6umsg\u00e6ster stjal kage",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        },
+        "alternate_version": null
+    },
+    "261": {
+        "id": 261,
+        "name": "G\u00e6st spiste for meget jubi\u00e6umskage",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "262": {
+        "id": 262,
+        "name": "Papirskade fra \u00e5bning af jubil\u00e6umsgaver",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "263": {
+        "id": 263,
+        "name": "Jubil\u00e6umsfestg\u00e6st med ledsmerter efter dans",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 7
+        },
+        "alternate_version": null
+    },
+    "264": {
+        "id": 264,
+        "name": "Jubil\u00e6umsfestg\u00e6st ramt af korkprop",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "265": {
+        "id": 265,
+        "name": "Jubil\u00e6umsfestg\u00e6st bevidstl\u00f8s",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Hjertekirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "266": {
+        "id": 266,
+        "name": "Der mangler folk p\u00e5 dansegulvet",
+        "place": "",
+        "place_array": {},
+        "average_credits": 7500,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "20 minutter",
+            "duration": 1200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "267": {
+        "id": 267,
+        "name": "Pust balloner op til jubil\u00e6umsfest",
+        "place": "",
+        "place_array": {},
+        "average_credits": 15000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "ambulances": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "10 minutter",
+            "duration": 600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "268": {
+        "id": 268,
+        "name": "G\u00e6st drak forgiftede drinks til jubil\u00e6umsfesten",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 18,
+            "possible_patient_min": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Kirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 6
         },
         "alternate_version": null
     },
@@ -6683,6 +8799,265 @@
             "max_possible_prisoners": 1,
             "guard_mission": true,
             "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "290": {
+        "id": 290,
+        "name": "Par spiste for meget chokolade",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "291": {
+        "id": 291,
+        "name": "Sommerfugle i mave",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "292": {
+        "id": 292,
+        "name": "Hjerteanfald for\u00e5rsaget af frieri",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
+            "patient_specializations": "Kardiologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "293": {
+        "id": 293,
+        "name": "Knust hjerte",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
+            "patient_specializations": "Kardiologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "294": {
+        "id": 294,
+        "name": "Ild i valentinspynt i restaurant",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "295": {
+        "id": 295,
+        "name": "Brand fra stearinlysmiddag breder sig",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "296": {
+        "id": 296,
+        "name": "Efters\u00f8gning efter savnet k\u00e6reste",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "297": {
+        "id": 297,
+        "name": "St\u00f8jklager over par, der sk\u00e6ndes",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "298": {
+        "id": 298,
+        "name": "Hjerte stj\u00e5let",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100"
         },
         "prerequisites": {
             "police_stations": 2

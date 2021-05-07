@@ -2119,6 +2119,257 @@
         "prerequisites": {},
         "alternate_version": null
     },
+    "75": {
+        "id": 75,
+        "name": "Espantap\u00e1jaros en llamas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 350,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Lun, 19/Oct/2020 a las 09:00:00 +0000",
+            "date_end": "Dom, 01/Nov/2020 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "76": {
+        "id": 76,
+        "name": "Campo de calabazas en llamas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 850,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Lun, 19/Oct/2020 a las 09:00:00 +0000",
+            "date_end": "Dom, 01/Nov/2020 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "77": {
+        "id": 77,
+        "name": "Sopa de calabaza demasiado cocida",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Lun, 19/Oct/2020 a las 09:00:00 +0000",
+            "date_end": "Dom, 01/Nov/2020 a las 23:59:00 +0100",
+            "patient_specializations": "Neurolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "78": {
+        "id": 78,
+        "name": "Bruja en \u00e1rbol",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Lun, 19/Oct/2020 a las 09:00:00 +0000",
+            "date_end": "Dom, 01/Nov/2020 a las 23:59:00 +0100",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "79": {
+        "id": 79,
+        "name": "Mordedura de zombie",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Lun, 19/Oct/2020 a las 09:00:00 +0000",
+            "date_end": "Dom, 01/Nov/2020 a las 23:59:00 +0100",
+            "patient_specializations": "Neurolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "80": {
+        "id": 80,
+        "name": "Monstruo anda suelto",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Lun, 19/Oct/2020 a las 09:00:00 +0000",
+            "date_end": "Dom, 01/Nov/2020 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "81": {
+        "id": 81,
+        "name": "Calabaza robada",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Lun, 19/Oct/2020 a las 09:00:00 +0000",
+            "date_end": "Dom, 01/Nov/2020 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "82": {
+        "id": 82,
+        "name": "Frankenstein avistado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 550,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Lun, 19/Oct/2020 a las 09:00:00 +0000",
+            "date_end": "Dom, 01/Nov/2020 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "83": {
+        "id": 83,
+        "name": "Robo de caramelos",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Lun, 19/Oct/2020 a las 09:00:00 +0000",
+            "date_end": "Dom, 01/Nov/2020 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
     "84": {
         "id": 84,
         "name": "Ciclista golpeado por un cami\u00f3n de mercanc\u00edas",
@@ -2184,6 +2435,218 @@
         "prerequisites": {
             "rescue_stations": 3,
             "fire_stations": 13
+        },
+        "alternate_version": null
+    },
+    "86": {
+        "id": 86,
+        "name": "Robo en el mercado navide\u00f1o",
+        "place": "Mercado navide\u00f1o",
+        "place_array": {
+            "0": "Mercado navide\u00f1o"
+        },
+        "average_credits": 300,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Mar, 01/Dic/2020 a las 10:00:00 +0100",
+            "date_end": "S\u00e1b, 26/Dic/2020 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "87": {
+        "id": 87,
+        "name": "Puesto del mercado de Navidad en llamas",
+        "place": "Mercado navide\u00f1o",
+        "place_array": {
+            "0": "Mercado navide\u00f1o"
+        },
+        "average_credits": 610,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Mar, 01/Dic/2020 a las 10:00:00 +0100",
+            "date_end": "S\u00e1b, 26/Dic/2020 a las 23:59:00 +0100",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "88": {
+        "id": 88,
+        "name": "Incendio en el mercado navide\u00f1o",
+        "place": "Mercado navide\u00f1o",
+        "place_array": {
+            "0": "Mercado navide\u00f1o"
+        },
+        "average_credits": 310,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Mar, 01/Dic/2020 a las 10:00:00 +0100",
+            "date_end": "S\u00e1b, 26/Dic/2020 a las 23:59:00 +0100",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "89": {
+        "id": 89,
+        "name": "Accidente de tr\u00e1fico debido a hielo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1410,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 100,
+            "patient_transport": 30,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "date_start": "Mar, 01/Dic/2020 a las 10:00:00 +0100",
+            "date_end": "S\u00e1b, 26/Dic/2020 a las 23:59:00 +0100",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "90": {
+        "id": 90,
+        "name": "\u00c1rbol de navidad en llamas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 870,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mar, 01/Dic/2020 a las 10:00:00 +0100",
+            "date_end": "S\u00e1b, 26/Dic/2020 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "91": {
+        "id": 91,
+        "name": "Corona de Adviento en llamas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mar, 01/Dic/2020 a las 10:00:00 +0100",
+            "date_end": "S\u00e1b, 26/Dic/2020 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "92": {
+        "id": 92,
+        "name": "Pelea en mercado navide\u00f1o",
+        "place": "Mercado navide\u00f1o",
+        "place_array": {
+            "0": "Mercado navide\u00f1o"
+        },
+        "average_credits": 600,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Mar, 01/Dic/2020 a las 10:00:00 +0100",
+            "date_end": "S\u00e1b, 26/Dic/2020 a las 23:59:00 +0100",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "police_stations": 2
         },
         "alternate_version": null
     },
@@ -2367,6 +2830,373 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "99": {
+        "id": 99,
+        "name": "Coche en llamas a causa de los fuegos artificiales",
+        "place": "",
+        "place_array": {},
+        "average_credits": 370,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "100": {
+        "id": 100,
+        "name": "Mont\u00f3n de basura en llamas a causa de los fuegos artificiales",
+        "place": "",
+        "place_array": {},
+        "average_credits": 220,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "101": {
+        "id": 101,
+        "name": "Solar en llamas a causa de los fuegos artificiales",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "102": {
+        "id": 102,
+        "name": "S\u00f3tano en llamas a causa de los fuegos artificiales",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "103": {
+        "id": 103,
+        "name": "Marquesina en llamas a causa de los fuegos artificiales",
+        "place": "Parada de autob\u00fas",
+        "place_array": {
+            "0": "Parada de autob\u00fas"
+        },
+        "average_credits": 900,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "104": {
+        "id": 104,
+        "name": "Balc\u00f3n en llamas a causa de los fuegos artificiales",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "105": {
+        "id": 105,
+        "name": "Contenedores de papel en llamas a causa de los fuegos artificiales",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "106": {
+        "id": 106,
+        "name": "Seto en llamas a causa de un petardo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "107": {
+        "id": 107,
+        "name": "Conductor borracho tras la fiesta de Nochevieja",
+        "place": "",
+        "place_array": {},
+        "average_credits": 150,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "108": {
+        "id": 108,
+        "name": "Casa con tejado de paja en llamas a causa de los fuegos artificiales",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4200,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "109": {
+        "id": 109,
+        "name": "Coche da\u00f1ado por los fuegos artificiales",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "110": {
+        "id": 110,
+        "name": "Infracci\u00f3n del Reglamento de explosivos",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "111": {
+        "id": 111,
+        "name": "Lesi\u00f3n en la mano a causa de los fuegos artificiales",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
         },
         "alternate_version": null
     },
@@ -2834,6 +3664,335 @@
         },
         "prerequisites": {
             "police_stations": 4
+        },
+        "alternate_version": null
+    },
+    "127": {
+        "id": 127,
+        "name": "Ladr\u00f3n de huevos de Pascua",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 26/Mar/2021 a las 10:00:00 +0000",
+            "date_end": "Lun, 05/Abr/2021 a las 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "128": {
+        "id": 128,
+        "name": "Robo de pincel del taller",
+        "place": "Escuela",
+        "place_array": {
+            "0": "Escuela"
+        },
+        "average_credits": 150,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 26/Mar/2021 a las 10:00:00 +0000",
+            "date_end": "Lun, 05/Abr/2021 a las 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "129": {
+        "id": 129,
+        "name": "Derrumbe de conejera",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Vie, 26/Mar/2021 a las 10:00:00 +0000",
+            "date_end": "Lun, 05/Abr/2021 a las 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "130": {
+        "id": 130,
+        "name": "Conejo de Pascua atropellado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 38,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 26/Mar/2021 a las 10:00:00 +0000",
+            "date_end": "Lun, 05/Abr/2021 a las 23:59:00 +0200",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "131": {
+        "id": 131,
+        "name": "Cesta de Pascua en llamas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 110,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Vie, 26/Mar/2021 a las 10:00:00 +0000",
+            "date_end": "Lun, 05/Abr/2021 a las 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "132": {
+        "id": 132,
+        "name": "Vuelco de cami\u00f3n cisterna con chocolate",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "date_start": "Vie, 26/Mar/2021 a las 10:00:00 +0000",
+            "date_end": "Lun, 05/Abr/2021 a las 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "133": {
+        "id": 133,
+        "name": "Hervidor de huevos en llamas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Vie, 26/Mar/2021 a las 10:00:00 +0000",
+            "date_end": "Lun, 05/Abr/2021 a las 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "max_police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "134": {
+        "id": 134,
+        "name": "Encuentro de conejos en ciudad de Pascua",
+        "place": "Estadio",
+        "place_array": {
+            "0": "Estadio"
+        },
+        "average_credits": 7000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 4,
+            "police_cars": 8
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2 horas",
+            "duration": 7200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 26/Mar/2021 a las 10:00:00 +0000",
+            "date_end": "Lun, 05/Abr/2021 a las 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "135": {
+        "id": 135,
+        "name": "Vuelco de cami\u00f3n con huevos de Pascua",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2200,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Vie, 26/Mar/2021 a las 10:00:00 +0000",
+            "date_end": "Lun, 05/Abr/2021 a las 23:59:00 +0200",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "max_police_stations": 3,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "136": {
+        "id": 136,
+        "name": "Misi\u00f3n prioritaria: Caza de huevos de Pascua",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 26/Mar/2021 a las 10:00:00 +0000",
+            "date_end": "Lun, 05/Abr/2021 a las 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "137": {
+        "id": 137,
+        "name": "Conejo de Pascua en gr\u00faa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Vie, 26/Mar/2021 a las 10:00:00 +0000",
+            "date_end": "Lun, 05/Abr/2021 a las 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 12
         },
         "alternate_version": null
     },
@@ -3555,6 +4714,152 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "161": {
+        "id": 161,
+        "name": "Insolaci\u00f3n",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vie, 26/Jun/2020 a las 10:00:00 +0200",
+            "date_end": "Jue, 01/Oct/2020 a las 00:00:00 +0200",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "162": {
+        "id": 162,
+        "name": "Golpe de calor",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vie, 26/Jun/2020 a las 10:00:00 +0200",
+            "date_end": "Jue, 01/Oct/2020 a las 00:00:00 +0200",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "163": {
+        "id": 163,
+        "name": "Calambre por calor",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vie, 26/Jun/2020 a las 10:00:00 +0200",
+            "date_end": "Jue, 01/Oct/2020 a las 00:00:00 +0200",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "164": {
+        "id": 164,
+        "name": "Persona deshidratada",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vie, 26/Jun/2020 a las 10:00:00 +0200",
+            "date_end": "Jue, 01/Oct/2020 a las 00:00:00 +0200",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "165": {
+        "id": 165,
+        "name": "Incendio por barbacoa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Vie, 26/Jun/2020 a las 10:00:00 +0200",
+            "date_end": "Jue, 01/Oct/2020 a las 00:00:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
         },
         "alternate_version": null
     },
@@ -4461,6 +5766,500 @@
         },
         "alternate_version": null
     },
+    "193": {
+        "id": 193,
+        "name": "Accidente al hornear tarta de aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "194": {
+        "id": 194,
+        "name": "Globo de aniversario de invitado atrapado en \u00e1rbol",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "195": {
+        "id": 195,
+        "name": "Incendio causado por aparatos el\u00e9ctricos de aniversario (menor)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1850,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "196": {
+        "id": 196,
+        "name": "Incendio causado por aparatos el\u00e9ctricos de aniversario (importante)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "197": {
+        "id": 197,
+        "name": "Regalo de aniversario robado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "198": {
+        "id": 198,
+        "name": "Sabotaje en m\u00fasica de fiesta de aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "199": {
+        "id": 199,
+        "name": "Invitado de aniversario desaparecido",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "200": {
+        "id": 200,
+        "name": "Adornos robados por invitados a aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        },
+        "alternate_version": null
+    },
+    "201": {
+        "id": 201,
+        "name": "Tarta robada por invitados a aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        },
+        "alternate_version": null
+    },
+    "202": {
+        "id": 202,
+        "name": "Empacho por tarta de aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "203": {
+        "id": 203,
+        "name": "Corte al abrir regalos de aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "204": {
+        "id": 204,
+        "name": "Invitado a aniversario con dolor de articulaciones tras baile",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 7
+        },
+        "alternate_version": null
+    },
+    "205": {
+        "id": 205,
+        "name": "Invitado a aniversario golpeado por corcho",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "206": {
+        "id": 206,
+        "name": "Invitado a aniversario inconsciente",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100",
+            "patient_specializations": "Cirug\u00eda cardiovascular"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "207": {
+        "id": 207,
+        "name": "Gente desaparecida en pista de baile",
+        "place": "",
+        "place_array": {},
+        "average_credits": 7500,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "20 minutos",
+            "duration": 1200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "208": {
+        "id": 208,
+        "name": "Inflar globos para fiesta de aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": 15000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "ambulances": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "10 minutos",
+            "duration": 600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "209": {
+        "id": 209,
+        "name": "Invitado consumi\u00f3 bebida envenenada en fiesta de aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 80,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 18,
+            "possible_patient_min": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 30/Oct/2020 a las 10:00:00 +0000",
+            "date_end": "Mi\u00e9, 04/Nov/2020 a las 00:00:00 +0100",
+            "patient_specializations": "Cirug\u00eda general"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
     "210": {
         "id": 210,
         "name": "Radar de velocidad",
@@ -5181,6 +6980,313 @@
         },
         "alternate_version": null
     },
+    "233": {
+        "id": 233,
+        "name": "Animal asustado a causa de los fuegos artificiales",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "234": {
+        "id": 234,
+        "name": "Lesi\u00f3n por un petardo defectuoso",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "235": {
+        "id": 235,
+        "name": "Lesi\u00f3n por uso indebido de los fuegos artificiales",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "236": {
+        "id": 236,
+        "name": "Persona golpeada por un fuego artificial explosivo",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "237": {
+        "id": 237,
+        "name": "Ataque epil\u00e9ptico a causa de los fuegos artificiales",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "238": {
+        "id": 238,
+        "name": "Vigilancia de fiesta de A\u00f1o Nuevo en el centro de la ciudad",
+        "place": "Centro de la ciudad",
+        "place_array": {
+            "0": "Centro de la ciudad"
+        },
+        "average_credits": 15000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "ambulances": 2,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hora 30 minutos",
+            "duration": 5400,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
+    "239": {
+        "id": 239,
+        "name": "Uso de fuegos artificiales ilegales",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 10,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "240": {
+        "id": 240,
+        "name": "Uso de fuegos artificiales cerca de la carretera",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 241
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "241": {
+        "id": 241,
+        "name": "Accidente automovil\u00edstico a causa de fuegos artificiales cerca de la carretera",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "242": {
+        "id": 242,
+        "name": "Fuegos artificiales saboteados",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27/Dic/2020 a las 23:59:00 +0100",
+            "date_end": "Vie, 01/Ene/2021 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
     "243": {
         "id": 243,
         "name": "Accidente motociclista en una carretera de monta\u00f1a",
@@ -5491,6 +7597,271 @@
             "max_possible_prisoners": 1,
             "guard_mission": true,
             "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "254": {
+        "id": 254,
+        "name": "Pareja con empacho por comer mucho chocolate",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vie, 05/Feb/2021 a las 10:00:00 +0000",
+            "date_end": "Dom, 14/Feb/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "255": {
+        "id": 255,
+        "name": "Mariposas en el est\u00f3mago",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vie, 05/Feb/2021 a las 10:00:00 +0000",
+            "date_end": "Dom, 14/Feb/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "256": {
+        "id": 256,
+        "name": "Ataque al coraz\u00f3n tras petici\u00f3n de matrimonio",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vie, 05/Feb/2021 a las 10:00:00 +0000",
+            "date_end": "Dom, 14/Feb/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Cardiolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "257": {
+        "id": 257,
+        "name": "Coraz\u00f3n roto",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vie, 05/Feb/2021 a las 10:00:00 +0000",
+            "date_end": "Dom, 14/Feb/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Cardiolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "258": {
+        "id": 258,
+        "name": "La decoraci\u00f3n de San Valent\u00edn de un restaurante ha ardido",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "date_start": "Vie, 05/Feb/2021 a las 10:00:00 +0000",
+            "date_end": "Dom, 14/Feb/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "259": {
+        "id": 259,
+        "name": "Incendio provocado por velas durante una cena rom\u00e1ntica",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "Vie, 05/Feb/2021 a las 10:00:00 +0000",
+            "date_end": "Dom, 14/Feb/2021 a las 23:59:00 +0100",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "260": {
+        "id": 260,
+        "name": "Busca al novio desaparecido",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 05/Feb/2021 a las 10:00:00 +0000",
+            "date_end": "Dom, 14/Feb/2021 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "261": {
+        "id": 261,
+        "name": "Denuncia por exceso de ruido durante una discusi\u00f3n de pareja",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 05/Feb/2021 a las 10:00:00 +0000",
+            "date_end": "Dom, 14/Feb/2021 a las 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "262": {
+        "id": 262,
+        "name": "Coraz\u00f3n robado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Vie, 05/Feb/2021 a las 10:00:00 +0000",
+            "date_end": "Dom, 14/Feb/2021 a las 23:59:00 +0100"
         },
         "prerequisites": {
             "police_stations": 2

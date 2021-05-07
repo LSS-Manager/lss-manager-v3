@@ -1900,6 +1900,266 @@
         "prerequisites": {},
         "alternate_version": null
     },
+    "63": {
+        "id": 63,
+        "name": "Burning bogle",
+        "place": "",
+        "place_array": {},
+        "average_credits": 350,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "64": {
+        "id": 64,
+        "name": "Burning pumpkin field",
+        "place": "",
+        "place_array": {},
+        "average_credits": 850,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "65": {
+        "id": 65,
+        "name": "Pumpkin soup overcooked",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 50,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-3F",
+                "1": "7-A-1F"
+            },
+            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500",
+            "patient_specializations": "Neurology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "66": {
+        "id": 66,
+        "name": "Witch in tree",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "17-D-1"
+            },
+            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "67": {
+        "id": 67,
+        "name": "Zombie bite",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "3-B-2"
+            },
+            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500",
+            "patient_specializations": "Neurology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "68": {
+        "id": 68,
+        "name": "Monster broke loose",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "69": {
+        "id": 69,
+        "name": "Pumpkin stolen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "70": {
+        "id": 70,
+        "name": "Frankenstein sighted",
+        "place": "",
+        "place_array": {},
+        "average_credits": 550,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "71": {
+        "id": 71,
+        "name": "Candy theft",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
     "72": {
         "id": 72,
         "name": "Person check",
@@ -2087,6 +2347,231 @@
         "prerequisites": {
             "rescue_stations": 5,
             "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "79": {
+        "id": 79,
+        "name": "Theft at christmas market",
+        "place": "Christmas market",
+        "place_array": {
+            "0": "Christmas market"
+        },
+        "average_credits": 300,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Tue, 01 Dec 2020 10:00:00 -0500",
+            "date_end": "Sat, 26 Dec 2020 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "80": {
+        "id": 80,
+        "name": "Burning christmas market stall",
+        "place": "Christmas market",
+        "place_array": {
+            "0": "Christmas market"
+        },
+        "average_credits": 610,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "69-E-3"
+            },
+            "date_start": "Tue, 01 Dec 2020 10:00:00 -0500",
+            "date_end": "Sat, 26 Dec 2020 23:59:00 -0500",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "81": {
+        "id": 81,
+        "name": "Fire at christmas market",
+        "place": "Christmas market",
+        "place_array": {
+            "0": "Christmas market"
+        },
+        "average_credits": 310,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "69-E-3"
+            },
+            "date_start": "Tue, 01 Dec 2020 10:00:00 -0500",
+            "date_end": "Sat, 26 Dec 2020 23:59:00 -0500",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "82": {
+        "id": 82,
+        "name": "Traffic accident - ice",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1410,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 100,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "72D-1"
+            },
+            "date_start": "Tue, 01 Dec 2020 10:00:00 -0500",
+            "date_end": "Sat, 26 Dec 2020 23:59:00 -0500",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "83": {
+        "id": 83,
+        "name": "Burning christmas tree",
+        "place": "",
+        "place_array": {},
+        "average_credits": 870,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Tue, 01 Dec 2020 10:00:00 -0500",
+            "date_end": "Sat, 26 Dec 2020 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "84": {
+        "id": 84,
+        "name": "Burning advent wreath",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Tue, 01 Dec 2020 10:00:00 -0500",
+            "date_end": "Sat, 26 Dec 2020 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "85": {
+        "id": 85,
+        "name": "Brawl at christmas market",
+        "place": "Christmas market",
+        "place_array": {
+            "0": "Christmas market"
+        },
+        "average_credits": 600,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-1",
+                "1": "30-D-2",
+                "2": "30-D-3",
+                "3": "30-B-1",
+                "4": "30-B-2",
+                "5": "30-A-1"
+            },
+            "date_start": "Tue, 01 Dec 2020 10:00:00 -0500",
+            "date_end": "Sat, 26 Dec 2020 23:59:00 -0500",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "police_stations": 2
         },
         "alternate_version": null
     },
@@ -11403,6 +11888,389 @@
         },
         "alternate_version": null
     },
+    "327": {
+        "id": 327,
+        "name": "Car ignited by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 370,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "328": {
+        "id": 328,
+        "name": "Bulky waste ignited by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 220,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "329": {
+        "id": 329,
+        "name": "Small field fire caused by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "330": {
+        "id": 330,
+        "name": "Fire in building caused by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "57-D-6",
+                "1": "57-D-7",
+                "2": "57-D-8",
+                "3": "57-B-2"
+            },
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "331": {
+        "id": 331,
+        "name": "Burning Bus shelter ignited by fireworks",
+        "place": "Bus stop",
+        "place_array": {
+            "0": "Bus stop"
+        },
+        "average_credits": 900,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "332": {
+        "id": 332,
+        "name": "Fireworks shop on fire caused by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "platform_trucks": 2
+        },
+        "chances": {
+            "platform_trucks": 40
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "333": {
+        "id": 333,
+        "name": "Caravan fire caused by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "334": {
+        "id": 334,
+        "name": "Burning hedge ignited by firecracker",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "335": {
+        "id": 335,
+        "name": "Drunk driver after New Year's Eve party",
+        "place": "",
+        "place_array": {},
+        "average_credits": 150,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "336": {
+        "id": 336,
+        "name": "Burning thatched roof house ignited by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4200,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "57-D-2",
+                "1": "57-D-6",
+                "2": "57-D-7",
+                "3": "57-D-8",
+                "4": "57-B-2",
+                "5": "69-E-6",
+                "6": "69-E-7",
+                "7": "69-E-8"
+            },
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "337": {
+        "id": 337,
+        "name": "Car damaged by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "338": {
+        "id": 338,
+        "name": "Violation of Explosives Law",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "339": {
+        "id": 339,
+        "name": "Hand injury caused by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "57-B-2"
+            },
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
     "340": {
         "id": 340,
         "name": "Restraining Order Violation",
@@ -12007,6 +12875,341 @@
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "358": {
+        "id": 358,
+        "name": "Easter egg stolen from basket",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Fri, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Mon, 05 Apr 2021 23:59:00 -0400"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "359": {
+        "id": 359,
+        "name": "Chocolate Egg heist ",
+        "place": "School",
+        "place_array": {
+            "0": "School"
+        },
+        "average_credits": 150,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Fri, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Mon, 05 Apr 2021 23:59:00 -0400"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "360": {
+        "id": 360,
+        "name": "Collapsed rabbit hole",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fri, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Mon, 05 Apr 2021 23:59:00 -0400"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "361": {
+        "id": 361,
+        "name": "Easter bunny hit by car",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 38
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "77-D-6",
+                "1": "77-B-1"
+            },
+            "date_start": "Fri, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Mon, 05 Apr 2021 23:59:00 -0400",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "362": {
+        "id": 362,
+        "name": "Bulk Easter Egg pile fire",
+        "place": "",
+        "place_array": {},
+        "average_credits": 110,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fri, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Mon, 05 Apr 2021 23:59:00 -0400"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "363": {
+        "id": 363,
+        "name": "Chocolate Tanker Spill",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "date_start": "Fri, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Mon, 05 Apr 2021 23:59:00 -0400"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "364": {
+        "id": 364,
+        "name": "Flashover when boiling eggs",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fri, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Mon, 05 Apr 2021 23:59:00 -0400"
+        },
+        "prerequisites": {
+            "max_police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "365": {
+        "id": 365,
+        "name": "Easter market fair",
+        "place": "Stadium",
+        "place_array": {
+            "0": "Stadium"
+        },
+        "average_credits": 7000,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 4,
+            "police_cars": 8
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2 hours",
+            "duration": 7200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Fri, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Mon, 05 Apr 2021 23:59:00 -0400"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "366": {
+        "id": 366,
+        "name": "Easter Egg lorry crash",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2200,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "77-D-1",
+                "1": "77-D-2"
+            },
+            "date_start": "Fri, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Mon, 05 Apr 2021 23:59:00 -0400",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "max_police_stations": 3,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "367": {
+        "id": 367,
+        "name": "Easter egg hunt",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Fri, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Mon, 05 Apr 2021 23:59:00 -0400"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "368": {
+        "id": 368,
+        "name": "Easter bunny on crane",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fri, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Mon, 05 Apr 2021 23:59:00 -0400"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 12
         },
         "alternate_version": null
     },
@@ -13330,6 +14533,591 @@
             "rescue_stations": 8,
             "police_stations": 4,
             "fire_stations": 12
+        },
+        "alternate_version": null
+    },
+    "403": {
+        "id": 403,
+        "name": "Sunstroke",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "26-A-3",
+                "1": "26-A-6",
+                "2": "26-A-11",
+                "3": "26-A-18",
+                "4": "26-C-2",
+                "5": "19-C-2",
+                "6": "28-C-8C",
+                "7": "28-C-8E",
+                "8": "28-C-8F",
+                "9": "28-C-8H",
+                "10": "28-C-8I",
+                "11": "28-C-8J",
+                "12": "28-C-8L",
+                "13": "28-C-8M",
+                "14": "28-C-8U",
+                "15": "28-C-8X",
+                "16": "28-C-8Z",
+                "17": "20-A-1H",
+                "18": "20-B-0H",
+                "19": "20-B-1H",
+                "20": "20-C-0H",
+                "21": "20-C-1H",
+                "22": "20-D-0H",
+                "23": "20-D-1H",
+                "24": "20-D-2H",
+                "25": "12-A-3",
+                "26": "12-A-5",
+                "27": "31-D-1",
+                "28": "31-D-2"
+            },
+            "date_start": "Fri, 26 Jun 2020 10:00:00 -0400",
+            "date_end": "Thu, 01 Oct 2020 00:00:00 -0400",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "404": {
+        "id": 404,
+        "name": "Heat stroke",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "26-A-3",
+                "1": "26-A-6",
+                "2": "26-A-11",
+                "3": "26-A-18",
+                "4": "26-C-2",
+                "5": "19-C-2",
+                "6": "28-C-8C",
+                "7": "28-C-8E",
+                "8": "28-C-8F",
+                "9": "28-C-8H",
+                "10": "28-C-8I",
+                "11": "28-C-8J",
+                "12": "28-C-8L",
+                "13": "28-C-8M",
+                "14": "28-C-8U",
+                "15": "28-C-8X",
+                "16": "28-C-8Z",
+                "17": "20-A-1H",
+                "18": "20-B-0H",
+                "19": "20-B-1H",
+                "20": "20-C-0H",
+                "21": "20-C-1H",
+                "22": "20-D-0H",
+                "23": "20-D-1H",
+                "24": "20-D-2H",
+                "25": "12-A-3",
+                "26": "12-A-5",
+                "27": "31-D-1",
+                "28": "31-D-2"
+            },
+            "date_start": "Fri, 26 Jun 2020 10:00:00 -0400",
+            "date_end": "Thu, 01 Oct 2020 00:00:00 -0400",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "405": {
+        "id": 405,
+        "name": "Heat cramp",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "20-A-1H",
+                "1": "26-A-6",
+                "2": "26-A-6",
+                "3": "20-B-0H",
+                "4": "20-B-1H",
+                "5": "20-C-0H",
+                "6": "20-C-1H",
+                "7": "20-D-0H",
+                "8": "20-D-1H",
+                "9": "20-D-2H",
+                "10": "26-A-18"
+            },
+            "date_start": "Fri, 26 Jun 2020 10:00:00 -0400",
+            "date_end": "Thu, 01 Oct 2020 00:00:00 -0400",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "406": {
+        "id": 406,
+        "name": "Dehydrated person",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "26-A-3",
+                "1": "20-A-1H",
+                "2": "20-B-0H",
+                "3": "20-B-1H",
+                "4": "20-C-0H",
+                "5": "20-C-1H",
+                "6": "20-D-0H",
+                "7": "20-D-1H",
+                "8": "20-D-2H"
+            },
+            "date_start": "Fri, 26 Jun 2020 10:00:00 -0400",
+            "date_end": "Thu, 01 Oct 2020 00:00:00 -0400",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "407": {
+        "id": 407,
+        "name": "Barbecue fire",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fri, 26 Jun 2020 10:00:00 -0400",
+            "date_end": "Thu, 01 Oct 2020 00:00:00 -0400"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "408": {
+        "id": 408,
+        "name": "Car ignited by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 740,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
+            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "409": {
+        "id": 409,
+        "name": "Bulky waste ignited by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 440,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
+            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "410": {
+        "id": 410,
+        "name": "Small field fire caused by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
+            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "411": {
+        "id": 411,
+        "name": "Basement fire caused by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "57-D-6",
+                "1": "57-D-7",
+                "2": "57-D-8",
+                "3": "57-B-2"
+            },
+            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
+            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "412": {
+        "id": 412,
+        "name": "Burning Bus shelter ignited by fireworks",
+        "place": "Bus stop",
+        "place_array": {
+            "0": "Bus stop"
+        },
+        "average_credits": 1800,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
+            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "413": {
+        "id": 413,
+        "name": "Fire on balcony caused by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
+            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "414": {
+        "id": 414,
+        "name": "Burning paper containers ignited by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
+            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "415": {
+        "id": 415,
+        "name": "Burning hedge ignited by firecracker",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
+            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "416": {
+        "id": 416,
+        "name": "Burning thatched roof house ignited by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 8400,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "57-D-2",
+                "1": "57-D-6",
+                "2": "57-D-7",
+                "3": "57-D-8",
+                "4": "57-B-2",
+                "5": "69-E-6",
+                "6": "69-E-7",
+                "7": "69-E-8"
+            },
+            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
+            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "417": {
+        "id": 417,
+        "name": "Car damaged by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
+            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "418": {
+        "id": 418,
+        "name": "Violation of Explosives Law",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
+            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "419": {
+        "id": 419,
+        "name": "Hand injury caused by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "57-B-2"
+            },
+            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
+            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
         },
         "alternate_version": null
     },
@@ -15894,6 +17682,385 @@
         },
         "alternate_version": null
     },
+    "500": {
+        "id": 500,
+        "name": "Panicking animal caused by fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "3-D-1",
+                "1": "3-D-2",
+                "2": "3-D-3",
+                "3": "3-D-4",
+                "4": "3-D-5",
+                "5": "3-D-6",
+                "6": "3-D-7",
+                "7": "3-D-8",
+                "8": "3-D-9",
+                "9": "3-D-8",
+                "10": "3-B-2",
+                "11": "3-B-3"
+            },
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "501": {
+        "id": 501,
+        "name": "Eye injury caused by fire works",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-1",
+                "1": "30-D-2",
+                "2": "30-D-3",
+                "3": "30-D-4",
+                "4": "30-D-5",
+                "5": "30-B-1",
+                "6": "30-B-2",
+                "7": "7-E-1",
+                "8": "7-C-4",
+                "9": "7-B-1",
+                "10": "7-B-2",
+                "11": "7-A-3"
+            },
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "502": {
+        "id": 502,
+        "name": "Injury from improper use of fireworks",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-1",
+                "1": "30-D-2",
+                "2": "30-D-3",
+                "3": "30-D-4",
+                "4": "30-D-5",
+                "5": "30-B-1",
+                "6": "30-B-2",
+                "7": "7-E-1",
+                "8": "7-C-4",
+                "9": "7-B-1",
+                "10": "7-B-2",
+                "11": "7-A-3"
+            },
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "503": {
+        "id": 503,
+        "name": "Person hit by firework-explosive",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-1",
+                "1": "30-D-2",
+                "2": "30-D-3",
+                "3": "30-D-4",
+                "4": "30-D-5",
+                "5": "30-B-1",
+                "6": "30-B-2",
+                "7": "7-E-1",
+                "8": "7-C-4",
+                "9": "7-B-1",
+                "10": "7-B-2",
+                "11": "7-A-3"
+            },
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "504": {
+        "id": 504,
+        "name": "Seizure caused by watching firework",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "12-D-2",
+                "1": "12-C-7"
+            },
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "505": {
+        "id": 505,
+        "name": "Guarding inner-city New Year's Eve party",
+        "place": "City centre",
+        "place_array": {
+            "0": "City centre"
+        },
+        "average_credits": 15000,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "ambulances": 2,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hour 30 minutes",
+            "duration": 5400,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
+    "506": {
+        "id": 506,
+        "name": "Usage of illegal firework",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-1",
+                "1": "30-D-2",
+                "2": "30-D-3",
+                "3": "30-D-4",
+                "4": "30-D-5",
+                "5": "30-B-1",
+                "6": "30-B-2",
+                "7": "7-E-1",
+                "8": "7-C-4",
+                "9": "7-B-1",
+                "10": "7-B-2",
+                "11": "7-A-3"
+            },
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "507": {
+        "id": 507,
+        "name": "New years eve party disrupted",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "508": {
+        "id": 508,
+        "name": "Car crash caused by firework-usage near road",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1",
+                "1": "29-D-2",
+                "2": "29-D-3",
+                "3": "29-B-1",
+                "4": "29-B-2",
+                "5": "29-B-3"
+            },
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "509": {
+        "id": 509,
+        "name": "Sabotaged firework",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 -0500",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
     "510": {
         "id": 510,
         "name": "Biker fell off mountain-road",
@@ -16537,6 +18704,285 @@
         },
         "alternate_version": null
     },
+    "528": {
+        "id": 528,
+        "name": "Couple ate too much chocolate",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "26-A-11"
+            },
+            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "529": {
+        "id": 529,
+        "name": "Butterflies stuck in heart",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "26-A-5",
+                "1": "26-B-1",
+                "2": "26-A-6"
+            },
+            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
+            "patient_specializations": "Cardiology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "530": {
+        "id": 530,
+        "name": "Heart attack due shock from proposing",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "9-E-2"
+            },
+            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
+            "patient_specializations": "Cardiology"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "531": {
+        "id": 531,
+        "name": "Broken heart",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "9-E-2"
+            },
+            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
+            "patient_specializations": "Cardiology"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "532": {
+        "id": 532,
+        "name": "Valentines decorations at restaurant caught fire",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1"
+            },
+            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "533": {
+        "id": 533,
+        "name": "Fire from candle light dinner has spread",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1"
+            },
+            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "534": {
+        "id": 534,
+        "name": "Search for missing boyfriend",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "535": {
+        "id": 535,
+        "name": "Noise complaint over a fighting couple",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "536": {
+        "id": 536,
+        "name": "Heart stolen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
     "537": {
         "id": 537,
         "name": "Welfare Check",
@@ -16655,6 +19101,193 @@
         "prerequisites": {
             "rescue_stations": 20,
             "fire_stations": 25
+        },
+        "alternate_version": null
+    },
+    "540": {
+        "id": 540,
+        "name": "Leprechaun causing public mischief",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Wed, 17 Mar 2021 10:00:00 -0400",
+            "date_end": "Thu, 18 Mar 2021 10:00:00 -0400"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "541": {
+        "id": 541,
+        "name": "Driver blinded by green decorative lights",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "29-B-1",
+                "1": "29-B-4"
+            },
+            "date_start": "Wed, 17 Mar 2021 10:00:00 -0400",
+            "date_end": "Thu, 18 Mar 2021 10:00:00 -0400",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "542": {
+        "id": 542,
+        "name": "Leprechaun stuck on tree",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 10
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Wed, 17 Mar 2021 10:00:00 -0400",
+            "date_end": "Thu, 18 Mar 2021 10:00:00 -0400"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "543": {
+        "id": 543,
+        "name": "Protecting shamrock fields from St. Patricks Day enthusiasts",
+        "place": "",
+        "place_array": {},
+        "average_credits": 12000,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hour",
+            "duration": 3600,
+            "average_min_police_personnel": 12,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Wed, 17 Mar 2021 10:00:00 -0400",
+            "date_end": "Thu, 18 Mar 2021 10:00:00 -0400"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        },
+        "alternate_version": null
+    },
+    "544": {
+        "id": 544,
+        "name": "Great St. Patricks Day parade",
+        "place": "",
+        "place_array": {},
+        "average_credits": 20000,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "ambulances": 4,
+            "battalion_chief_vehicles": 5,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 8
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hour",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Wed, 17 Mar 2021 10:00:00 -0400",
+            "date_end": "Thu, 18 Mar 2021 10:00:00 -0400"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 8,
+            "fire_stations": 12
+        },
+        "alternate_version": null
+    },
+    "545": {
+        "id": 545,
+        "name": "Skin is turning green",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 3,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "26-A-1"
+            },
+            "date_start": "Wed, 17 Mar 2021 10:00:00 -0400",
+            "date_end": "Thu, 18 Mar 2021 10:00:00 -0400",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         },
         "alternate_version": null
     },

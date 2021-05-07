@@ -21118,6 +21118,7 @@
             "possible_patient_min": 1,
             "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Chirurgie"
         },
         "prerequisites": {

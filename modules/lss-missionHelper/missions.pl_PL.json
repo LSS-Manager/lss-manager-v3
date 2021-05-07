@@ -1991,6 +1991,216 @@
         },
         "alternate_version": null
     },
+    "76": {
+        "id": 76,
+        "name": "Kradzie\u017c na jarmarku bo\u017conarodzeniowym",
+        "place": "Jarmark Bo\u017conarodzeniowy",
+        "place_array": {
+            "0": "Jarmark Bo\u017conarodzeniowy"
+        },
+        "average_credits": 300,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Wt, 01 Gru 2020 10:00:00 +0100",
+            "date_end": "So, 26 Gru 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "77": {
+        "id": 77,
+        "name": "P\u0142on\u0105cy stragan bo\u017conarodzeniowy",
+        "place": "Jarmark Bo\u017conarodzeniowy",
+        "place_array": {
+            "0": "Jarmark Bo\u017conarodzeniowy"
+        },
+        "average_credits": 610,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Wt, 01 Gru 2020 10:00:00 +0100",
+            "date_end": "So, 26 Gru 2020 23:59:00 +0100",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "78": {
+        "id": 78,
+        "name": "Po\u017car na jarmarku bo\u017conarodzeniowym",
+        "place": "Jarmark Bo\u017conarodzeniowy",
+        "place_array": {
+            "0": "Jarmark Bo\u017conarodzeniowy"
+        },
+        "average_credits": 310,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Wt, 01 Gru 2020 10:00:00 +0100",
+            "date_end": "So, 26 Gru 2020 23:59:00 +0100",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "79": {
+        "id": 79,
+        "name": "Wypadek drogowy - l\u00f3d",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1410,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 100,
+            "patient_transport": 30,
+            "patient_critical_care": 35
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "date_start": "Wt, 01 Gru 2020 10:00:00 +0100",
+            "date_end": "So, 26 Gru 2020 23:59:00 +0100",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "80": {
+        "id": 80,
+        "name": "P\u0142on\u0105ca choinka",
+        "place": "",
+        "place_array": {},
+        "average_credits": 870,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Wt, 01 Gru 2020 10:00:00 +0100",
+            "date_end": "So, 26 Gru 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "81": {
+        "id": 81,
+        "name": "P\u0142on\u0105cy wieniec adwentowy",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Wt, 01 Gru 2020 10:00:00 +0100",
+            "date_end": "So, 26 Gru 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "82": {
+        "id": 82,
+        "name": "B\u00f3jka na jarmarku bo\u017conarodzeniowym",
+        "place": "Jarmark Bo\u017conarodzeniowy",
+        "place_array": {
+            "0": "Jarmark Bo\u017conarodzeniowy"
+        },
+        "average_credits": 600,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 15
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Wt, 01 Gru 2020 10:00:00 +0100",
+            "date_end": "So, 26 Gru 2020 23:59:00 +0100",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
     "83": {
         "id": 83,
         "name": "Osoba uwi\u0119ziona pod maszyn\u0105",
@@ -2145,6 +2355,371 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "88": {
+        "id": 88,
+        "name": "Po\u017car pojazdu wywo\u0142any fajerwerkami",
+        "place": "",
+        "place_array": {},
+        "average_credits": 370,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "89": {
+        "id": 89,
+        "name": "Po\u017car gabaryt\u00f3w wywo\u0142any fajerwerkami",
+        "place": "",
+        "place_array": {},
+        "average_credits": 220,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "90": {
+        "id": 90,
+        "name": "Po\u017car ma\u0142ego pola wywo\u0142any fajerwerkami",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "91": {
+        "id": 91,
+        "name": "Po\u017car piwnicy wywo\u0142any fajerwerkami",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "92": {
+        "id": 92,
+        "name": "Po\u017car wiaty przystankowej wywo\u0142any fajerwerkami",
+        "place": "Przystanek autobusowy",
+        "place_array": {
+            "0": "Przystanek autobusowy"
+        },
+        "average_credits": 900,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "93": {
+        "id": 93,
+        "name": "Po\u017car balkonu wywo\u0142any fajerwerkami",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "94": {
+        "id": 94,
+        "name": "P\u0142on\u0105ce kontenery z papierem podpalone przez fajerwerki",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "95": {
+        "id": 95,
+        "name": "Po\u017car \u017cywop\u0142otu podpalonego przez petard\u0119",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "96": {
+        "id": 96,
+        "name": "Kierowca pijany po imprezie sylwestrowej",
+        "place": "",
+        "place_array": {},
+        "average_credits": 150,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "97": {
+        "id": 97,
+        "name": "Po\u017car dachu krytego strzech\u0105 wywo\u0142any fajerwerkami",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "98": {
+        "id": 98,
+        "name": "Uszkodzenie pojazdu wywo\u0142ane fajerwerkami",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "99": {
+        "id": 99,
+        "name": "Naruszenie przepis\u00f3w ustawy o materia\u0142ach wybuchowych przeznaczonych do u\u017cytku cywilnego",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "100": {
+        "id": 100,
+        "name": "Uraz r\u0119ki w wyniku u\u017cycia fajerwerk\u00f3w",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
         },
         "alternate_version": null
     },
@@ -3810,6 +4385,333 @@
         },
         "alternate_version": null
     },
+    "157": {
+        "id": 157,
+        "name": "Kradzie\u017c Jaj Wielkanocnych",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Pt, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Pn, 05 Kwi 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "158": {
+        "id": 158,
+        "name": "Skradziony p\u0119dzel z warsztatu",
+        "place": "Szko\u0142a",
+        "place_array": {
+            "0": "Szko\u0142a"
+        },
+        "average_credits": 150,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Pt, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Pn, 05 Kwi 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "159": {
+        "id": 159,
+        "name": "T\u0105pni\u0119cie zaj\u0119czej nory ",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Pt, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Pn, 05 Kwi 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "160": {
+        "id": 160,
+        "name": "Potr\u0105cony Zaj\u0105czek Wielkanocny",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 38
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Pt, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Pn, 05 Kwi 2021 23:59:00 +0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "161": {
+        "id": 161,
+        "name": "P\u0142on\u0105cy koszyk wielkanocny",
+        "place": "",
+        "place_array": {},
+        "average_credits": 110,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Pt, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Pn, 05 Kwi 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "162": {
+        "id": 162,
+        "name": "Wyciek gor\u0105cej czekolady",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "date_start": "Pt, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Pn, 05 Kwi 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "163": {
+        "id": 163,
+        "name": "Po\u017car podgrzewacza do Jaj ",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Pt, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Pn, 05 Kwi 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "max_police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "164": {
+        "id": 164,
+        "name": "Jarmark Wielkanocny",
+        "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
+        "average_credits": 7000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 4,
+            "police_cars": 8
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2 godziny",
+            "duration": 7200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Pt, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Pn, 05 Kwi 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "165": {
+        "id": 165,
+        "name": "Wypadek ci\u0119\u017car\u00f3wki z Jajami Wielkanocnymi",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Pt, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Pn, 05 Kwi 2021 23:59:00 +0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "max_police_stations": 3,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "166": {
+        "id": 166,
+        "name": "Poszukiwanie Jaj Wielkanocnych",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Pt, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Pn, 05 Kwi 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "167": {
+        "id": 167,
+        "name": "Powieszony Zaj\u0105czek Wielkanocny na d\u017awigu.",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Pt, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Pn, 05 Kwi 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 12
+        },
+        "alternate_version": null
+    },
     "168": {
         "id": 168,
         "name": "Wybuch gazu w mieszkaniu",
@@ -4991,6 +5893,150 @@
         },
         "alternate_version": null
     },
+    "205": {
+        "id": 205,
+        "name": "Pora\u017cenie s\u0142oneczne",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Pt, 26 Cze 2020 10:00:00 +0200",
+            "date_end": "Cz, 01 Pa\u017a 2020 00:00:00 +0200",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "206": {
+        "id": 206,
+        "name": "Udar cieplny",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Pt, 26 Cze 2020 10:00:00 +0200",
+            "date_end": "Cz, 01 Pa\u017a 2020 00:00:00 +0200",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "207": {
+        "id": 207,
+        "name": "Kurcze cieplne",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Pt, 26 Cze 2020 10:00:00 +0200",
+            "date_end": "Cz, 01 Pa\u017a 2020 00:00:00 +0200",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "208": {
+        "id": 208,
+        "name": "Odwodniona osoba",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Pt, 26 Cze 2020 10:00:00 +0200",
+            "date_end": "Cz, 01 Pa\u017a 2020 00:00:00 +0200",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "209": {
+        "id": 209,
+        "name": "Po\u017car podczas grilla",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 1800,
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Pt, 26 Cze 2020 10:00:00 +0200",
+            "date_end": "Cz, 01 Pa\u017a 2020 00:00:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
     "210": {
         "id": 210,
         "name": "Napad na sklep w centrum handlowym",
@@ -5254,7 +6300,8 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 182
+                "2": 226,
+                "3": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -6273,6 +7320,257 @@
         },
         "alternate_version": null
     },
+    "251": {
+        "id": 251,
+        "name": "P\u0142on\u0105cy strach na wr\u00f3ble",
+        "place": "",
+        "place_array": {},
+        "average_credits": 350,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Pn, 19 Pa\u017a 2020 09:00:00 +0000",
+            "date_end": "Nd, 01 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "252": {
+        "id": 252,
+        "name": "P\u0142on\u0105ce dyniowe pole",
+        "place": "",
+        "place_array": {},
+        "average_credits": 850,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Pn, 19 Pa\u017a 2020 09:00:00 +0000",
+            "date_end": "Nd, 01 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "253": {
+        "id": 253,
+        "name": "Przegotowana zupa dyniowa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 50,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Pn, 19 Pa\u017a 2020 09:00:00 +0000",
+            "date_end": "Nd, 01 Lis 2020 23:59:00 +0100",
+            "patient_specializations": "Neurologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "254": {
+        "id": 254,
+        "name": "Wied\u017ama w drzewie",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Pn, 19 Pa\u017a 2020 09:00:00 +0000",
+            "date_end": "Nd, 01 Lis 2020 23:59:00 +0100",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "255": {
+        "id": 255,
+        "name": "Ugryzienie zombie",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Pn, 19 Pa\u017a 2020 09:00:00 +0000",
+            "date_end": "Nd, 01 Lis 2020 23:59:00 +0100",
+            "patient_specializations": "Neurologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "256": {
+        "id": 256,
+        "name": "Potw\u00f3r na wolno\u015bci",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Pn, 19 Pa\u017a 2020 09:00:00 +0000",
+            "date_end": "Nd, 01 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "257": {
+        "id": 257,
+        "name": "Skradziono dyni\u0119",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Pn, 19 Pa\u017a 2020 09:00:00 +0000",
+            "date_end": "Nd, 01 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "258": {
+        "id": 258,
+        "name": "Dostrze\u017cono Frankensteina",
+        "place": "",
+        "place_array": {},
+        "average_credits": 550,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Pn, 19 Pa\u017a 2020 09:00:00 +0000",
+            "date_end": "Nd, 01 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "259": {
+        "id": 259,
+        "name": "Kradzie\u017c cukierk\u00f3w",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Pn, 19 Pa\u017a 2020 09:00:00 +0000",
+            "date_end": "Nd, 01 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
     "260": {
         "id": 260,
         "name": "Jazda pod pr\u0105d",
@@ -6841,6 +8139,496 @@
         },
         "alternate_version": null
     },
+    "280": {
+        "id": 280,
+        "name": "Podczas pieczenia tortu rocznicowego zdarzy\u0142 si\u0119 wypadek",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "281": {
+        "id": 281,
+        "name": "Balon rocznicowy go\u015bcia utkn\u0105\u0142 na drzewie",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "282": {
+        "id": 282,
+        "name": "Po\u017car wywo\u0142any zwarciem elektrycznym rocznicowych instalacji (ma\u0142y)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1850,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "283": {
+        "id": 283,
+        "name": "Po\u017car wywo\u0142any zwarciem elektrycznym rocznicowych instalacji (du\u017cy)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "284": {
+        "id": 284,
+        "name": "Ukradziono prezent rocznicowy",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "285": {
+        "id": 285,
+        "name": "Sabota\u017c rocznicowych szaf graj\u0105cych",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "286": {
+        "id": 286,
+        "name": "Brakuje go\u015bcia imprezy rocznicowej",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "287": {
+        "id": 287,
+        "name": "Go\u015bcie ukradli ozdoby z imprezy rocznicowej",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        },
+        "alternate_version": null
+    },
+    "288": {
+        "id": 288,
+        "name": "Go\u015bcie ukradli tort z imprezy rocznicowej",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        },
+        "alternate_version": null
+    },
+    "289": {
+        "id": 289,
+        "name": "Go\u015b\u0107 zjad\u0142 zbyt du\u017co tortu rocznicowego",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "290": {
+        "id": 290,
+        "name": "Naci\u0119cie sk\u00f3ry od otwierania prezent\u00f3w rocznicowych",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "291": {
+        "id": 291,
+        "name": "Go\u015b\u0107 imprezy rocznicowej odczuwa b\u00f3l staw\u00f3w po ta\u0144cach",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 40
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 7
+        },
+        "alternate_version": null
+    },
+    "292": {
+        "id": 292,
+        "name": "Go\u015b\u0107 imprezy rocznicowej zosta\u0142 trafiony korkiem od butelki",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "293": {
+        "id": 293,
+        "name": "Go\u015b\u0107 imprezy rocznicowej straci\u0142 przytomno\u015b\u0107",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100",
+            "patient_specializations": "Kardiochirurgia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "294": {
+        "id": 294,
+        "name": "Brak os\u00f3b na parkiecie",
+        "place": "",
+        "place_array": {},
+        "average_credits": 7500,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "20 minut",
+            "duration": 1200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "295": {
+        "id": 295,
+        "name": "Napompuj balony na imprez\u0119 rocznicow\u0105",
+        "place": "",
+        "place_array": {},
+        "average_credits": 15000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "ambulances": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "10 minut",
+            "duration": 600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "296": {
+        "id": 296,
+        "name": "Go\u015b\u0107 imprezy wypi\u0142 trucizn\u0119 dodan\u0105 do napoju",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 80,
+            "patient_critical_care": 60
+        },
+        "additional": {
+            "possible_patient": 18,
+            "possible_patient_min": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Cz, 19 Lis 2020 11:00:00 +0100",
+            "date_end": "Nd, 22 Lis 2020 23:59:00 +0100",
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
     "297": {
         "id": 297,
         "name": "Niebezpiecznie przechylony baner reklamowy",
@@ -6978,6 +8766,310 @@
         },
         "prerequisites": {
             "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "302": {
+        "id": 302,
+        "name": "Atak paniki zwierz\u0119cia spowodowane fajerwerkami",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "303": {
+        "id": 303,
+        "name": "Poranienie zwi\u0105zane z wybuchem niewystrza\u0142u",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "304": {
+        "id": 304,
+        "name": "Poranienie zwi\u0105zane z niew\u0142a\u015bciwym wykorzystaniem fajerwerk\u00f3w",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "305": {
+        "id": 305,
+        "name": "Osoba trafiona wybuchow\u0105 rac\u0105",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "306": {
+        "id": 306,
+        "name": "Atak padaczki spowodowany ogladaniem fajerwek\u00f3w",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "307": {
+        "id": 307,
+        "name": "Patrol wewn\u0105trzmiastowy, zw. z Nowym Rokiem",
+        "place": "Centrum Miasta",
+        "place_array": {
+            "0": "Centrum Miasta"
+        },
+        "average_credits": 15000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "ambulances": 2,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 godzina 30 minut",
+            "duration": 5400,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
+    "308": {
+        "id": 308,
+        "name": "Nielegalny u\u017cytek fajerwerk\u00f3w",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "309": {
+        "id": 309,
+        "name": "U\u017cytek fajerwerk\u00f3w obok drogi",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 310
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "310": {
+        "id": 310,
+        "name": "Wypadek spowodowany u\u017cywaniem fajerwerk\u00f3w obok drogi",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 40
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "311": {
+        "id": 311,
+        "name": "Sabotowana fajerwerka",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Nd, 27 Gru 2020 23:59:00 +0100",
+            "date_end": "Pt, 01 Sty 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 4
         },
         "alternate_version": null
     },
@@ -7405,6 +9497,265 @@
         },
         "prerequisites": {
             "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "326": {
+        "id": 326,
+        "name": "Para zjad\u0142a zbyt du\u017co czekoladek",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
+            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "327": {
+        "id": 327,
+        "name": "Motyle w brzuchu",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
+            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "328": {
+        "id": 328,
+        "name": "Atak serca z powodu szoku wywo\u0142anego o\u015bwiadczynami",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
+            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100",
+            "patient_specializations": "Kardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "329": {
+        "id": 329,
+        "name": "Z\u0142amane serce",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
+            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100",
+            "patient_specializations": "Kardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "330": {
+        "id": 330,
+        "name": "W restauracji zapali\u0142y si\u0119 dekoracje walentynkowe",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
+            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "331": {
+        "id": 331,
+        "name": "Podczas kolacji przy \u015bwiecach dosz\u0142o do po\u017caru",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
+            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "332": {
+        "id": 332,
+        "name": "Poszukaj zaginionego ch\u0142opaka",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
+            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "333": {
+        "id": 333,
+        "name": "Skarga na ha\u0142as k\u0142\u00f3c\u0105cej si\u0119 pary",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
+            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "334": {
+        "id": 334,
+        "name": "Skradzione serce",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
+            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
         },
         "alternate_version": null
     },

@@ -740,6 +740,33 @@
         },
         "alternate_version": null
     },
+    "27": {
+        "id": 27,
+        "name": "Persoon aangereden",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
     "28": {
         "id": 28,
         "name": "Brand in landbouwschuur",
@@ -3575,6 +3602,32 @@
         },
         "alternate_version": null
     },
+    "125": {
+        "id": 125,
+        "name": "Vermist persoon",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3500,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "police_helicopter_stations": 1
+        },
+        "alternate_version": null
+    },
     "126": {
         "id": 126,
         "name": "Brand in landbouwschuur",
@@ -4150,6 +4203,252 @@
         "prerequisites": {},
         "alternate_version": null
     },
+    "146": {
+        "id": 146,
+        "name": "Brandende vogelverschrikker",
+        "place": "",
+        "place_array": {},
+        "average_credits": 350,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "ma 19 okt 2020 09:00:00 UTC",
+            "date_end": "zo 01 nov 2020 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "147": {
+        "id": 147,
+        "name": "Brandend pompoenveld",
+        "place": "",
+        "place_array": {},
+        "average_credits": 850,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "ma 19 okt 2020 09:00:00 UTC",
+            "date_end": "zo 01 nov 2020 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "148": {
+        "id": 148,
+        "name": "Overkookte pompoensoep",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "ma 19 okt 2020 09:00:00 UTC",
+            "date_end": "zo 01 nov 2020 23:59:00 CET",
+            "patient_specializations": "Neurologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "149": {
+        "id": 149,
+        "name": "Heks vast in boom",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "ma 19 okt 2020 09:00:00 UTC",
+            "date_end": "zo 01 nov 2020 23:59:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "150": {
+        "id": 150,
+        "name": "Monster uitgebroken",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "ma 19 okt 2020 09:00:00 UTC",
+            "date_end": "zo 01 nov 2020 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "151": {
+        "id": 151,
+        "name": "Gestolen pompoenen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "ma 19 okt 2020 09:00:00 UTC",
+            "date_end": "zo 01 nov 2020 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "152": {
+        "id": 152,
+        "name": "Frankenstein gespot",
+        "place": "",
+        "place_array": {},
+        "average_credits": 550,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "ma 19 okt 2020 09:00:00 UTC",
+            "date_end": "zo 01 nov 2020 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "153": {
+        "id": 153,
+        "name": "Snoep diefstal",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "ma 19 okt 2020 09:00:00 UTC",
+            "date_end": "zo 01 nov 2020 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "154": {
+        "id": 154,
+        "name": "Horrorclown gespot",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "ma 19 okt 2020 09:00:00 UTC",
+            "date_end": "zo 01 nov 2020 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
     "155": {
         "id": 155,
         "name": "Gaslekkage",
@@ -4315,6 +4614,576 @@
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "160": {
+        "id": 160,
+        "name": "Brandende cadeautjes",
+        "place": "",
+        "place_array": {},
+        "average_credits": 550,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/sint_gruen.png",
+            "1": "/images/sint_gelb.png",
+            "2": "/images/sint_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "za 14 nov 2020 10:00:00 CET",
+            "date_end": "zo 06 dec 2020 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "161": {
+        "id": 161,
+        "name": "Sinterklaas van dak gegleden",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/sint_gruen.png",
+            "1": "/images/sint_gelb.png",
+            "2": "/images/sint_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "za 14 nov 2020 10:00:00 CET",
+            "date_end": "zo 06 dec 2020 23:59:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "162": {
+        "id": 162,
+        "name": "Pepernoot op hoofd",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/sint_gruen.png",
+            "1": "/images/sint_gelb.png",
+            "2": "/images/sint_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "za 14 nov 2020 10:00:00 CET",
+            "date_end": "zo 06 dec 2020 23:59:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "163": {
+        "id": 163,
+        "name": "Piet bestolen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/sint_gruen.png",
+            "1": "/images/sint_gelb.png",
+            "2": "/images/sint_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "za 14 nov 2020 10:00:00 CET",
+            "date_end": "zo 06 dec 2020 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "164": {
+        "id": 164,
+        "name": "Kind geschrokken",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/sint_gruen.png",
+            "1": "/images/sint_gelb.png",
+            "2": "/images/sint_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "za 14 nov 2020 10:00:00 CET",
+            "date_end": "zo 06 dec 2020 23:59:00 CET",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "165": {
+        "id": 165,
+        "name": "Piet klem in schoorsteen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 950,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/sint_gruen.png",
+            "1": "/images/sint_gelb.png",
+            "2": "/images/sint_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "za 14 nov 2020 10:00:00 CET",
+            "date_end": "zo 06 dec 2020 23:59:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "166": {
+        "id": 166,
+        "name": "Toezicht manifestatie pietendiscussie",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/sint_gruen.png",
+            "1": "/images/sint_gelb.png",
+            "2": "/images/sint_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "za 14 nov 2020 10:00:00 CET",
+            "date_end": "zo 06 dec 2020 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "167": {
+        "id": 167,
+        "name": "Schoenen dief",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/sint_gruen.png",
+            "1": "/images/sint_gelb.png",
+            "2": "/images/sint_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "za 14 nov 2020 10:00:00 CET",
+            "date_end": "zo 06 dec 2020 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "168": {
+        "id": 168,
+        "name": "Verstikking in pepernoot",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/sint_gruen.png",
+            "1": "/images/sint_gelb.png",
+            "2": "/images/sint_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "za 14 nov 2020 10:00:00 CET",
+            "date_end": "zo 06 dec 2020 23:59:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "169": {
+        "id": 169,
+        "name": "Brandende kerstboom",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "170": {
+        "id": 170,
+        "name": "Brandende kerstboom",
+        "place": "Kerstmarkt",
+        "place_array": {
+            "0": "Kerstmarkt"
+        },
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "171": {
+        "id": 171,
+        "name": "Verkeersongeval door gladheid",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1010,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 40,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "172": {
+        "id": 172,
+        "name": "Gevallen kerstman",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "173": {
+        "id": 173,
+        "name": "Ruzie op de kerstmarkt",
+        "place": "Kerstmarkt",
+        "place_array": {
+            "0": "Kerstmarkt"
+        },
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "174": {
+        "id": 174,
+        "name": "Diefstal op de kerstmarkt",
+        "place": "Kerstmarkt",
+        "place_array": {
+            "0": "Kerstmarkt"
+        },
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "175": {
+        "id": 175,
+        "name": "Brandende kerstmarktkraam",
+        "place": "Kerstmarkt",
+        "place_array": {
+            "0": "Kerstmarkt"
+        },
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "176": {
+        "id": 176,
+        "name": "Gevallen schaatser",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "177": {
+        "id": 177,
+        "name": "Gevallen persoon door gladheid",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "178": {
+        "id": 178,
+        "name": "Donkere dagen offensief",
+        "place": "",
+        "place_array": {},
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "179": {
+        "id": 179,
+        "name": "Snijwond door gebroken kerstbal",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         },
         "alternate_version": null
     },
@@ -6623,6 +7492,39 @@
             "wasserrettung": 2,
             "rescue_stations": 10,
             "police_stations": 2,
+            "fire_stations": 12
+        },
+        "alternate_version": null
+    },
+    "253": {
+        "id": 253,
+        "name": "Grote boek van Sinterklaas aangespoeld",
+        "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
+        "average_credits": 1000,
+        "generated_by": "",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1,
+            "diver_units": 1,
+            "boats": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "water_watch_missions",
+            "date_start": "vrij 15 nov 2019 23:00:00 CET",
+            "date_end": "do 05 dec 2019 22:59:00 CET"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "police_stations": 1,
             "fire_stations": 12
         },
         "alternate_version": null
@@ -10530,6 +11432,166 @@
         "prerequisites": {
             "rescue_stations": 10,
             "police_stations": 2,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "371": {
+        "id": 371,
+        "name": "Verlaten slee langs waterkant",
+        "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
+        "average_credits": 1510,
+        "generated_by": "",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1,
+            "diver_units": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "372": {
+        "id": 372,
+        "name": "Brandende kerststal",
+        "place": "Kerstmarkt",
+        "place_array": {
+            "0": "Kerstmarkt"
+        },
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "373": {
+        "id": 373,
+        "name": "Brandwonden door gourmetstel",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "374": {
+        "id": 374,
+        "name": "Geluidsoverlast door kerstmuziek",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "375": {
+        "id": 375,
+        "name": "Persoon bekneld onder kerstpakketten",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1420,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 80,
+            "heavy_rescue_vehicles": 20,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
             "fire_stations": 6
         },
         "alternate_version": null
@@ -15798,6 +16860,658 @@
         },
         "alternate_version": null
     },
+    "525": {
+        "id": 525,
+        "name": "Auto in brand door vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "526": {
+        "id": 526,
+        "name": "Auto in brand door vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "527": {
+        "id": 527,
+        "name": "Afval in brand door vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "528": {
+        "id": 528,
+        "name": "Afval in brand door vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "529": {
+        "id": 529,
+        "name": "Grasbrand door vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 670,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "530": {
+        "id": 530,
+        "name": "Kelderbrand door vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1180,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "531": {
+        "id": 531,
+        "name": "Brandend bushokje door vuurwerk",
+        "place": "Bushalte",
+        "place_array": {
+            "0": "Bushalte"
+        },
+        "average_credits": 670,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "532": {
+        "id": 532,
+        "name": "Brandend op balkon door vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1010,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "533": {
+        "id": 533,
+        "name": "Brandende papiercontainer door vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "534": {
+        "id": 534,
+        "name": "Brandende heg door vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "535": {
+        "id": 535,
+        "name": "Brandende heg door vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "536": {
+        "id": 536,
+        "name": "Beschonken bestuurder na Oud en Nieuw feest",
+        "place": "",
+        "place_array": {},
+        "average_credits": 150,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "537": {
+        "id": 537,
+        "name": "Beschonken bestuurder na Oud en Nieuw feest",
+        "place": "",
+        "place_array": {},
+        "average_credits": 150,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "538": {
+        "id": 538,
+        "name": "Rieten kap woning in brand door vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3100,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "nef": 50,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 2,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "539": {
+        "id": 539,
+        "name": "Auto beschadigd door vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "540": {
+        "id": 540,
+        "name": "Overtreding op vuurwerkbesluit",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "541": {
+        "id": 541,
+        "name": "Handletsel door vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 80,
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 10
+        },
+        "alternate_version": null
+    },
+    "542": {
+        "id": 542,
+        "name": "Verkeersongeval door gladheid",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1010,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 40,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "543": {
+        "id": 543,
+        "name": "Verkeersongeval door gladheid",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1010,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 40,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "544": {
+        "id": 544,
+        "name": "Gevallen persoon door gladheid",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "545": {
+        "id": 545,
+        "name": "Gevallen persoon door gladheid",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "546": {
+        "id": 546,
+        "name": "Donkere dagen offensief",
+        "place": "",
+        "place_array": {},
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "547": {
+        "id": 547,
+        "name": "Donkere dagen offensief",
+        "place": "",
+        "place_array": {},
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
     "548": {
         "id": 548,
         "name": "Steekincident (groot)",
@@ -16286,6 +18000,62 @@
         },
         "alternate_version": null
     },
+    "562": {
+        "id": 562,
+        "name": "Hart gestolen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "vrij 14 feb 2020 00:00:00 CET",
+            "date_end": "vrij 14 feb 2020 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "563": {
+        "id": 563,
+        "name": "Hart gebroken",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "vrij 14 feb 2020 00:00:00 CET",
+            "date_end": "vrij 14 feb 2020 23:59:00 CET",
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
     "564": {
         "id": 564,
         "name": "Voetganger onder tram",
@@ -16741,6 +18511,333 @@
             "rescue_stations": 10,
             "police_stations": 2,
             "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "578": {
+        "id": 578,
+        "name": "Paasei dief",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "vrij 26 mrt 2021 10:00:00 UTC",
+            "date_end": "ma 05 apr 2021 23:59:00 CEST"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "579": {
+        "id": 579,
+        "name": "Kwast gestolen uit werkplaats",
+        "place": "School",
+        "place_array": {
+            "0": "School"
+        },
+        "average_credits": 150,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "vrij 26 mrt 2021 10:00:00 UTC",
+            "date_end": "ma 05 apr 2021 23:59:00 CEST"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "580": {
+        "id": 580,
+        "name": "Ingestort konijnenhol",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "vrij 26 mrt 2021 10:00:00 UTC",
+            "date_end": "ma 05 apr 2021 23:59:00 CEST"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "581": {
+        "id": 581,
+        "name": "Aangevallen Paashaas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 38
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "vrij 26 mrt 2021 10:00:00 UTC",
+            "date_end": "ma 05 apr 2021 23:59:00 CEST",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "582": {
+        "id": 582,
+        "name": "Brandende paasmand",
+        "place": "",
+        "place_array": {},
+        "average_credits": 110,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "vrij 26 mrt 2021 10:00:00 UTC",
+            "date_end": "ma 05 apr 2021 23:59:00 CEST"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "583": {
+        "id": 583,
+        "name": "Lekkende chocoladevrachtwagen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "date_start": "vrij 26 mrt 2021 10:00:00 UTC",
+            "date_end": "ma 05 apr 2021 23:59:00 CEST"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "584": {
+        "id": 584,
+        "name": "Brandende eierkoker",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "vrij 26 mrt 2021 10:00:00 UTC",
+            "date_end": "ma 05 apr 2021 23:59:00 CEST"
+        },
+        "prerequisites": {
+            "max_police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "585": {
+        "id": 585,
+        "name": "Hazenbijeenkomst in Paaseistad",
+        "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
+        "average_credits": 7000,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 4,
+            "police_cars": 8
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2 uur",
+            "duration": 7200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "vrij 26 mrt 2021 10:00:00 UTC",
+            "date_end": "ma 05 apr 2021 23:59:00 CEST"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "586": {
+        "id": 586,
+        "name": "Gekantelde paaseivrachtwagen ",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2200,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "vrij 26 mrt 2021 10:00:00 UTC",
+            "date_end": "ma 05 apr 2021 23:59:00 CEST",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "max_police_stations": 3,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "587": {
+        "id": 587,
+        "name": "Prioriteit: paasei-jacht",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "vrij 26 mrt 2021 10:00:00 UTC",
+            "date_end": "ma 05 apr 2021 23:59:00 CEST"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "588": {
+        "id": 588,
+        "name": "Paashaas in een kraan",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "vrij 26 mrt 2021 10:00:00 UTC",
+            "date_end": "ma 05 apr 2021 23:59:00 CEST"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 12
         },
         "alternate_version": null
     },
@@ -17714,6 +19811,148 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "617": {
+        "id": 617,
+        "name": "Zonnesteek",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "vrij 26 jun 2020 10:00:00 CEST",
+            "date_end": "do 01 okt 2020 00:00:00 CEST",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "618": {
+        "id": 618,
+        "name": "Hitteslag",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "vrij 26 jun 2020 10:00:00 CEST",
+            "date_end": "do 01 okt 2020 00:00:00 CEST",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "619": {
+        "id": 619,
+        "name": "Hittekramp",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "vrij 26 jun 2020 10:00:00 CEST",
+            "date_end": "do 01 okt 2020 00:00:00 CEST",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "620": {
+        "id": 620,
+        "name": "Uitgedroogde persoon",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "vrij 26 jun 2020 10:00:00 CEST",
+            "date_end": "do 01 okt 2020 00:00:00 CEST",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "621": {
+        "id": 621,
+        "name": "Barbecuebrand",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "vrij 26 jun 2020 10:00:00 CEST",
+            "date_end": "do 01 okt 2020 00:00:00 CEST"
+        },
+        "prerequisites": {
+            "fire_stations": 1
         },
         "alternate_version": null
     },
@@ -19813,6 +22052,449 @@
         },
         "alternate_version": null
     },
+    "688": {
+        "id": 688,
+        "name": "Illegaal afsteken van vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "689": {
+        "id": 689,
+        "name": "Vuurwerkoverlast",
+        "place": "",
+        "place_array": {},
+        "average_credits": 840,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "690": {
+        "id": 690,
+        "name": "Vernieling met vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "691": {
+        "id": 691,
+        "name": "Illegaal vuurwerk in huis",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/cuffs_gruen.png",
+            "1": "/images/cuffs_gelb.png",
+            "2": "/images/cuffs_rot.png"
+        },
+        "requirements": {
+            "hondengeleider": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "riot_police_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "bereitschaftspolizei": 1
+        },
+        "alternate_version": null
+    },
+    "692": {
+        "id": 692,
+        "name": "Politie aangevallen met illegaal vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4580,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "hondengeleider": 2,
+            "lebefkw": 1,
+            "police_cars": 5,
+            "grukw": 3,
+            "ovdp": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 4,
+            "filter_id": "riot_police_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "bereitschaftspolizei": 3,
+            "riot_unit_count": 1
+        },
+        "alternate_version": null
+    },
+    "693": {
+        "id": 693,
+        "name": "Dier in paniek door vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "694": {
+        "id": 694,
+        "name": "Verwonding door ontplofte blindganger",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "695": {
+        "id": 695,
+        "name": "Verwonding door onjuist vuurwerkgebruik",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "696": {
+        "id": 696,
+        "name": "Persoon geraakt door vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "697": {
+        "id": 697,
+        "name": "Epileptische aanval na vuurwerkflitsen",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "698": {
+        "id": 698,
+        "name": "Toezicht nieuwjaarsfeest",
+        "place": "Stadscentrum",
+        "place_array": {
+            "0": "Stadscentrum"
+        },
+        "average_credits": 15000,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "ambulances": 2,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "een uur 30 minuten",
+            "duration": 5400,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
+    "699": {
+        "id": 699,
+        "name": "Afsteken illegaal vuurwerk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "700": {
+        "id": 700,
+        "name": "Vuurwerk afgestoken op de weg",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 701
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "701": {
+        "id": 701,
+        "name": "Auto verongelukt door vuurwerk op de weg",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "702": {
+        "id": 702,
+        "name": "Gesabotteerde vuurwerkshow",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "zo 27 dec 2020 23:59:00 CET",
+            "date_end": "vrij 01 jan 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
     "703": {
         "id": 703,
         "name": "Plotselinge verlammingsverschijnselen",
@@ -20639,6 +23321,753 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "727": {
+        "id": 727,
+        "name": "Stel heeft te veel chocola gegeten",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "728": {
+        "id": 728,
+        "name": "Vlinders in de buik",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "729": {
+        "id": 729,
+        "name": "Hartaanval door aanzoekschok",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET",
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "730": {
+        "id": 730,
+        "name": "Gebroken hart",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET",
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "731": {
+        "id": 731,
+        "name": "Valentijnsdecoraties in restaurant in brand gevlogen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "732": {
+        "id": 732,
+        "name": "Brand door diner met kaarsen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "733": {
+        "id": 733,
+        "name": "Zoektocht naar verdwenen vriendje",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "734": {
+        "id": 734,
+        "name": "Klacht over luidruchtig ruzi\u00ebnd stel",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "735": {
+        "id": 735,
+        "name": "Gestolen hart",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "736": {
+        "id": 736,
+        "name": "Ongeluk bij bakken verjaardagstaart",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "737": {
+        "id": 737,
+        "name": "Verjaardagsballon vast in boom",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "738": {
+        "id": 738,
+        "name": "Vuur door elektrische verjaardagsversiering (klein)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1850,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "739": {
+        "id": 739,
+        "name": "Vuur door elektrische verjaardagsversiering (groot)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "740": {
+        "id": 740,
+        "name": "Verjaardagscadeau gestolen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "741": {
+        "id": 741,
+        "name": "Sabotage van verjaardagsjukeboxes",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "742": {
+        "id": 742,
+        "name": "Verjaardagsgast vermist",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "743": {
+        "id": 743,
+        "name": "Verjaardagsgasten hebben versiering gestolen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        },
+        "alternate_version": null
+    },
+    "744": {
+        "id": 744,
+        "name": "Verjaardagsgasten hebben taart gestolen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        },
+        "alternate_version": null
+    },
+    "745": {
+        "id": 745,
+        "name": "Gast heeft teveel verjaardagstaart gegeten",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "746": {
+        "id": 746,
+        "name": "Papiersnee bij openen verjaardagscadeau",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "747": {
+        "id": 747,
+        "name": "Verjaardagsgast met gewrichtspijn na dansen",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 7
+        },
+        "alternate_version": null
+    },
+    "748": {
+        "id": 748,
+        "name": "Verjaardagsgast geraakt door rondvliegende kurk",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "749": {
+        "id": 749,
+        "name": "Verjaardagsgast flauwgevallen",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET",
+            "patient_specializations": "Cardiochirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "750": {
+        "id": 750,
+        "name": "Mensen vermist op dansvloer",
+        "place": "",
+        "place_array": {},
+        "average_credits": 7500,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "20 minuten",
+            "duration": 1200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "751": {
+        "id": 751,
+        "name": "Ballonnen opblazen voor verjaardagsfeest",
+        "place": "",
+        "place_array": {},
+        "average_credits": 15000,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "ambulances": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "10 minuten",
+            "duration": 600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "752": {
+        "id": 752,
+        "name": "Gast heeft vergiftigd drankje gedronken op verjaardagsfeest",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 18,
+            "possible_patient_min": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "ma 15 feb 2021 11:00:00 CET",
+            "date_end": "do 18 feb 2021 23:59:00 CET",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 6
         },
         "alternate_version": null
     },
