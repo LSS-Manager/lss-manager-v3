@@ -17855,5 +17855,188 @@
             "police_stations": 1
         },
         "alternate_version": null
+    },
+    "579": {
+        "id": 579,
+        "name": "Person slipped on molten chocolate",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "5-A-1"
+            },
+            "date_start": "Fri, 07 May 2021 09:00:00 +0000",
+            "date_end": "Sun, 09 May 2021 21:59:00 +0000",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "580": {
+        "id": 580,
+        "name": "Burning bouquet",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Fri, 07 May 2021 09:00:00 +0000",
+            "date_end": "Sun, 09 May 2021 21:59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "581": {
+        "id": 581,
+        "name": "Bedroom fire from candle",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-C-1"
+            },
+            "date_start": "Fri, 07 May 2021 09:00:00 +0000",
+            "date_end": "Sun, 09 May 2021 21:59:00 +0000",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "582": {
+        "id": 582,
+        "name": "Burning cake in oven",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 583
+            },
+            "filter_id": "firehouse_missions",
+            "date_start": "Fri, 07 May 2021 09:00:00 +0000",
+            "date_end": "Sun, 09 May 2021 21:59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "583": {
+        "id": 583,
+        "name": "Kitchen burning down",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1400,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 0,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-A-3"
+            },
+            "date_start": "Fri, 07 May 2021 09:00:00 +0000",
+            "date_end": "Sun, 09 May 2021 21:59:00 +0000",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "584": {
+        "id": 584,
+        "name": "Chocolate robbery",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Fri, 07 May 2021 09:00:00 +0000",
+            "date_end": "Sun, 09 May 2021 21:59:00 +0000"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
     }
 }

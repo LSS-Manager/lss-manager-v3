@@ -7112,5 +7112,179 @@
             "fire_stations": 7
         },
         "alternate_version": null
+    },
+    "316": {
+        "id": 316,
+        "name": "N\u011bkdo uklouzl na roztekl\u00e9 \u010dokol\u00e1d\u011b",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "p\u00e1, 07 kv\u011b 2021 09:00:00 +0000",
+            "date_end": "ne, 09 kv\u011b 2021 21:59:00 +0000",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "317": {
+        "id": 317,
+        "name": "Ho\u0159\u00edc\u00ed kytice",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "p\u00e1, 07 kv\u011b 2021 09:00:00 +0000",
+            "date_end": "ne, 09 kv\u011b 2021 21:59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "318": {
+        "id": 318,
+        "name": "Po\u017e\u00e1r ze sv\u00ed\u010dky v lo\u017enici",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "p\u00e1, 07 kv\u011b 2021 09:00:00 +0000",
+            "date_end": "ne, 09 kv\u011b 2021 21:59:00 +0000",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "319": {
+        "id": 319,
+        "name": "Sp\u00e1len\u00fd dort v troub\u011b",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 320
+            },
+            "filter_id": "firehouse_missions",
+            "date_start": "p\u00e1, 07 kv\u011b 2021 09:00:00 +0000",
+            "date_end": "ne, 09 kv\u011b 2021 21:59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "320": {
+        "id": 320,
+        "name": "Ho\u0159\u00edc\u00ed kuchy\u0148",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 0,
+            "filter_id": "firehouse_missions",
+            "date_start": "p\u00e1, 07 kv\u011b 2021 09:00:00 +0000",
+            "date_end": "ne, 09 kv\u011b 2021 21:59:00 +0000",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "321": {
+        "id": 321,
+        "name": "\u010cokol\u00e1dov\u00e1 loupe\u017e",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "p\u00e1, 07 kv\u011b 2021 09:00:00 +0000",
+            "date_end": "ne, 09 kv\u011b 2021 21:59:00 +0000"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
     }
 }

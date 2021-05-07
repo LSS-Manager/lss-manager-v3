@@ -688,8 +688,7 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2,
-                "2": 29
+                "1": 2
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -5882,6 +5881,180 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "284": {
+        "id": 284,
+        "name": "Henkil\u00f6 liukastui sulaan suklaaseen",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "pe 07. tou 2021 klo 09.00:00 +0000",
+            "date_end": "su 09. tou 2021 klo 21.59:00 +0000",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "285": {
+        "id": 285,
+        "name": "Palava bukee",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "pe 07. tou 2021 klo 09.00:00 +0000",
+            "date_end": "su 09. tou 2021 klo 21.59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "286": {
+        "id": 286,
+        "name": "Kynttil\u00e4n aiheuttama makuuhuonepalo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "pe 07. tou 2021 klo 09.00:00 +0000",
+            "date_end": "su 09. tou 2021 klo 21.59:00 +0000",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "287": {
+        "id": 287,
+        "name": "K\u00e4r\u00e4ht\u00e4nyt kakku uunissa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 288
+            },
+            "filter_id": "firehouse_missions",
+            "date_start": "pe 07. tou 2021 klo 09.00:00 +0000",
+            "date_end": "su 09. tou 2021 klo 21.59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "288": {
+        "id": 288,
+        "name": "Keitti\u00f6 palaa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1400,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 0,
+            "filter_id": "firehouse_missions",
+            "date_start": "pe 07. tou 2021 klo 09.00:00 +0000",
+            "date_end": "su 09. tou 2021 klo 21.59:00 +0000",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "289": {
+        "id": 289,
+        "name": "Suklaary\u00f6st\u00f6",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "pe 07. tou 2021 klo 09.00:00 +0000",
+            "date_end": "su 09. tou 2021 klo 21.59:00 +0000"
+        },
+        "prerequisites": {
+            "police_stations": 2
         },
         "alternate_version": null
     }

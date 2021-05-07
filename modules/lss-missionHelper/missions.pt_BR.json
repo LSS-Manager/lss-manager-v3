@@ -22,7 +22,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "1": {
         "id": 1,
@@ -45,7 +46,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "2": {
         "id": 2,
@@ -73,7 +75,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "3": {
         "id": 3,
@@ -99,7 +102,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "4": {
         "id": 4,
@@ -125,7 +129,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "5": {
         "id": 5,
@@ -154,7 +159,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "6": {
         "id": 6,
@@ -177,7 +183,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "7": {
         "id": 7,
@@ -203,7 +210,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "8": {
         "id": 8,
@@ -231,7 +239,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "9": {
         "id": 9,
@@ -258,7 +267,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "10": {
         "id": 10,
@@ -281,7 +291,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "11": {
         "id": 11,
@@ -304,7 +315,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "12": {
         "id": 12,
@@ -331,7 +343,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "13": {
         "id": 13,
@@ -354,7 +367,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "14": {
         "id": 14,
@@ -380,7 +394,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "15": {
         "id": 15,
@@ -405,7 +420,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "16": {
         "id": 16,
@@ -428,7 +444,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "17": {
         "id": 17,
@@ -451,7 +468,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "18": {
         "id": 18,
@@ -474,7 +492,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "19": {
         "id": 19,
@@ -497,7 +516,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "20": {
         "id": 20,
@@ -526,7 +546,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "21": {
         "id": 21,
@@ -556,7 +577,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "22": {
         "id": 22,
@@ -584,7 +606,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "23": {
         "id": 23,
@@ -607,7 +630,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "24": {
         "id": 24,
@@ -632,7 +656,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "25": {
         "id": 25,
@@ -650,7 +675,8 @@
             "firetrucks": 1
         },
         "chances": {
-            "patient_transport": 40
+            "patient_transport": 40,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 1,
@@ -664,7 +690,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "26": {
         "id": 26,
@@ -696,7 +723,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 5
-        }
+        },
+        "alternate_version": null
     },
     "27": {
         "id": 27,
@@ -719,7 +747,8 @@
         },
         "prerequisites": {
             "fire_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "28": {
         "id": 28,
@@ -748,7 +777,8 @@
         },
         "prerequisites": {
             "fire_stations": 5
-        }
+        },
+        "alternate_version": null
     },
     "29": {
         "id": 29,
@@ -776,7 +806,8 @@
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "30": {
         "id": 30,
@@ -800,7 +831,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "31": {
         "id": 31,
@@ -825,7 +857,8 @@
         },
         "prerequisites": {
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "32": {
         "id": 32,
@@ -848,7 +881,8 @@
         },
         "prerequisites": {
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "33": {
         "id": 33,
@@ -880,7 +914,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 5
-        }
+        },
+        "alternate_version": null
     },
     "34": {
         "id": 34,
@@ -915,7 +950,8 @@
         "prerequisites": {
             "rescue_stations": 6,
             "fire_stations": 10
-        }
+        },
+        "alternate_version": null
     },
     "35": {
         "id": 35,
@@ -941,7 +977,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "36": {
         "id": 36,
@@ -957,7 +994,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 1,
@@ -967,7 +1005,8 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "37": {
         "id": 37,
@@ -993,7 +1032,8 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "38": {
         "id": 38,
@@ -1019,7 +1059,8 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "39": {
         "id": 39,
@@ -1046,7 +1087,8 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "40": {
         "id": 40,
@@ -1073,7 +1115,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "41": {
         "id": 41,
@@ -1112,7 +1155,8 @@
             "rescue_stations": 2,
             "police_stations": 2,
             "fire_stations": 14
-        }
+        },
+        "alternate_version": null
     },
     "42": {
         "id": 42,
@@ -1139,7 +1183,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "43": {
         "id": 43,
@@ -1166,7 +1211,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "44": {
         "id": 44,
@@ -1192,7 +1238,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "45": {
         "id": 45,
@@ -1218,7 +1265,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "46": {
         "id": 46,
@@ -1243,7 +1291,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "47": {
         "id": 47,
@@ -1268,7 +1317,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "48": {
         "id": 48,
@@ -1294,7 +1344,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "49": {
         "id": 49,
@@ -1320,7 +1371,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "50": {
         "id": 50,
@@ -1345,7 +1397,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "51": {
         "id": 51,
@@ -1370,7 +1423,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "52": {
         "id": 52,
@@ -1395,7 +1449,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "53": {
         "id": 53,
@@ -1420,7 +1475,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "54": {
         "id": 54,
@@ -1445,7 +1501,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "55": {
         "id": 55,
@@ -1473,7 +1530,8 @@
         },
         "prerequisites": {
             "police_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "56": {
         "id": 56,
@@ -1500,7 +1558,8 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "57": {
         "id": 57,
@@ -1522,7 +1581,8 @@
             "only_alliance_mission": true,
             "filter_id": "police_station_missions"
         },
-        "prerequisites": {}
+        "prerequisites": {},
+        "alternate_version": null
     },
     "58": {
         "id": 58,
@@ -1545,7 +1605,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "59": {
         "id": 59,
@@ -1571,7 +1632,8 @@
         },
         "prerequisites": {
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "60": {
         "id": 60,
@@ -1604,7 +1666,8 @@
         "prerequisites": {
             "rescue_stations": 2,
             "fire_stations": 9
-        }
+        },
+        "alternate_version": null
     },
     "62": {
         "id": 62,
@@ -1627,7 +1690,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "63": {
         "id": 63,
@@ -1653,7 +1717,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "64": {
         "id": 64,
@@ -1672,7 +1737,8 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {
-            "patient_transport": 50
+            "patient_transport": 50,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 12,
@@ -1682,7 +1748,8 @@
         "prerequisites": {
             "rescue_stations": 8,
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "65": {
         "id": 65,
@@ -1705,7 +1772,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "66": {
         "id": 66,
@@ -1734,7 +1802,8 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "67": {
         "id": 67,
@@ -1762,7 +1831,8 @@
         },
         "prerequisites": {
             "police_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "68": {
         "id": 68,
@@ -1800,7 +1870,8 @@
             "rescue_stations": 3,
             "police_stations": 2,
             "fire_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "69": {
         "id": 69,
@@ -1828,7 +1899,8 @@
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "70": {
         "id": 70,
@@ -1866,7 +1938,8 @@
             "rescue_stations": 3,
             "police_stations": 2,
             "fire_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "71": {
         "id": 71,
@@ -1893,7 +1966,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "72": {
         "id": 72,
@@ -1926,7 +2000,8 @@
         "prerequisites": {
             "rescue_stations": 2,
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "73": {
         "id": 73,
@@ -1948,7 +2023,8 @@
             "police_cars": 2
         },
         "chances": {
-            "patient_transport": 80
+            "patient_transport": 80,
+            "patient_critical_care": 15
         },
         "additional": {
             "possible_patient": 12,
@@ -1959,7 +2035,8 @@
             "rescue_stations": 8,
             "police_stations": 2,
             "fire_stations": 5
-        }
+        },
+        "alternate_version": null
     },
     "74": {
         "id": 74,
@@ -1985,7 +2062,8 @@
             "only_alliance_mission": true,
             "filter_id": "firehouse_missions"
         },
-        "prerequisites": {}
+        "prerequisites": {},
+        "alternate_version": null
     },
     "75": {
         "id": 75,
@@ -2016,7 +2094,8 @@
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "76": {
         "id": 76,
@@ -2032,7 +2111,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 90
+            "patient_transport": 90,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 1,
@@ -2043,7 +2123,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "77": {
         "id": 77,
@@ -2075,7 +2156,8 @@
         "prerequisites": {
             "rescue_stations": 2,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "78": {
         "id": 78,
@@ -2108,7 +2190,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "79": {
         "id": 79,
@@ -2139,7 +2222,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "police_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "80": {
         "id": 80,
@@ -2167,7 +2251,8 @@
         },
         "prerequisites": {
             "fire_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "81": {
         "id": 81,
@@ -2198,7 +2283,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "82": {
         "id": 82,
@@ -2225,7 +2311,8 @@
         },
         "prerequisites": {
             "fire_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "83": {
         "id": 83,
@@ -2249,14 +2336,15 @@
         },
         "prerequisites": {
             "police_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "95": {
         "id": 95,
         "name": "Descarrilamento de Comboio de Carga",
-        "place": "",
+        "place": "Passagem de N\u00edvel",
         "place_array": {
-            "0": ""
+            "0": "Passagem de N\u00edvel"
         },
         "average_credits": 10000,
         "generated_by": "Unidade de bombeiros militar",
@@ -2286,7 +2374,8 @@
             "rescue_stations": 3,
             "police_stations": 3,
             "fire_stations": 15
-        }
+        },
+        "alternate_version": null
     },
     "96": {
         "id": 96,
@@ -2323,7 +2412,8 @@
             "rescue_stations": 3,
             "police_stations": 3,
             "fire_stations": 15
-        }
+        },
+        "alternate_version": null
     },
     "97": {
         "id": 97,
@@ -2360,7 +2450,8 @@
             "rescue_stations": 3,
             "police_stations": 3,
             "fire_stations": 15
-        }
+        },
+        "alternate_version": null
     },
     "98": {
         "id": 98,
@@ -2381,7 +2472,8 @@
             "police_cars": 1
         },
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 30,
+            "patient_critical_care": 20
         },
         "additional": {
             "possible_patient": 4,
@@ -2393,7 +2485,8 @@
             "rescue_stations": 3,
             "police_stations": 1,
             "fire_stations": 5
-        }
+        },
+        "alternate_version": null
     },
     "99": {
         "id": 99,
@@ -2419,7 +2512,8 @@
         },
         "prerequisites": {
             "rescue_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "100": {
         "id": 100,
@@ -2445,7 +2539,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "101": {
         "id": 101,
@@ -2473,7 +2568,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "102": {
         "id": 102,
@@ -2503,7 +2599,8 @@
         },
         "prerequisites": {
             "fire_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "103": {
         "id": 103,
@@ -2527,7 +2624,8 @@
         },
         "prerequisites": {
             "police_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "104": {
         "id": 104,
@@ -2545,7 +2643,8 @@
             "police_cars": 1
         },
         "chances": {
-            "patient_transport": 40
+            "patient_transport": 40,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 4,
@@ -2556,7 +2655,8 @@
         "prerequisites": {
             "rescue_stations": 3,
             "police_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "105": {
         "id": 105,
@@ -2584,7 +2684,8 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "106": {
         "id": 106,
@@ -2610,7 +2711,8 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "107": {
         "id": 107,
@@ -2636,7 +2738,8 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "108": {
         "id": 108,
@@ -2662,7 +2765,8 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "109": {
         "id": 109,
@@ -2689,7 +2793,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "115": {
         "id": 115,
@@ -2722,7 +2827,8 @@
         "prerequisites": {
             "rescue_stations": 4,
             "fire_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "116": {
         "id": 116,
@@ -2757,7 +2863,8 @@
         "prerequisites": {
             "rescue_stations": 8,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "117": {
         "id": 117,
@@ -2785,7 +2892,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "118": {
         "id": 118,
@@ -2825,7 +2933,8 @@
             "rescue_stations": 10,
             "police_stations": 3,
             "fire_stations": 10
-        }
+        },
+        "alternate_version": null
     },
     "119": {
         "id": 119,
@@ -2861,7 +2970,8 @@
             "rescue_stations": 15,
             "police_stations": 6,
             "fire_stations": 20
-        }
+        },
+        "alternate_version": null
     },
     "120": {
         "id": 120,
@@ -2887,7 +2997,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "121": {
         "id": 121,
@@ -2916,7 +3027,8 @@
         },
         "prerequisites": {
             "police_stations": 7
-        }
+        },
+        "alternate_version": null
     },
     "122": {
         "id": 122,
@@ -2945,7 +3057,8 @@
         },
         "prerequisites": {
             "police_stations": 7
-        }
+        },
+        "alternate_version": null
     },
     "123": {
         "id": 123,
@@ -2981,7 +3094,8 @@
             "rescue_stations": 1,
             "police_stations": 2,
             "fire_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "124": {
         "id": 124,
@@ -3017,7 +3131,8 @@
             "rescue_stations": 1,
             "police_stations": 2,
             "fire_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "125": {
         "id": 125,
@@ -3048,7 +3163,8 @@
         "prerequisites": {
             "rescue_stations": 2,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "126": {
         "id": 126,
@@ -3086,7 +3202,8 @@
             "rescue_stations": 8,
             "police_stations": 2,
             "fire_stations": 15
-        }
+        },
+        "alternate_version": null
     },
     "127": {
         "id": 127,
@@ -3117,7 +3234,8 @@
         "prerequisites": {
             "rescue_stations": 10,
             "police_stations": 9
-        }
+        },
+        "alternate_version": null
     },
     "128": {
         "id": 128,
@@ -3154,7 +3272,8 @@
             "rescue_stations": 2,
             "police_stations": 3,
             "fire_stations": 15
-        }
+        },
+        "alternate_version": null
     },
     "129": {
         "id": 129,
@@ -3190,7 +3309,8 @@
             "rescue_stations": 1,
             "police_stations": 2,
             "fire_stations": 15
-        }
+        },
+        "alternate_version": null
     },
     "130": {
         "id": 130,
@@ -3216,7 +3336,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "131": {
         "id": 131,
@@ -3248,7 +3369,8 @@
         "prerequisites": {
             "rescue_stations": 2,
             "fire_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "132": {
         "id": 132,
@@ -3285,7 +3407,8 @@
             "rescue_stations": 6,
             "police_stations": 2,
             "fire_stations": 15
-        }
+        },
+        "alternate_version": null
     },
     "133": {
         "id": 133,
@@ -3311,7 +3434,8 @@
         },
         "prerequisites": {
             "police_stations": 7
-        }
+        },
+        "alternate_version": null
     },
     "134": {
         "id": 134,
@@ -3337,7 +3461,8 @@
         },
         "prerequisites": {
             "police_stations": 7
-        }
+        },
+        "alternate_version": null
     },
     "135": {
         "id": 135,
@@ -3363,7 +3488,8 @@
         },
         "prerequisites": {
             "police_stations": 7
-        }
+        },
+        "alternate_version": null
     },
     "136": {
         "id": 136,
@@ -3387,7 +3513,8 @@
         },
         "prerequisites": {
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "137": {
         "id": 137,
@@ -3405,7 +3532,8 @@
             "firetrucks": 1
         },
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -3418,7 +3546,8 @@
         "prerequisites": {
             "rescue_stations": 5,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "138": {
         "id": 138,
@@ -3450,7 +3579,8 @@
             "rescue_stations": 1,
             "police_stations": 5,
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "139": {
         "id": 139,
@@ -3484,7 +3614,8 @@
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "149": {
         "id": 149,
@@ -3510,7 +3641,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "150": {
         "id": 150,
@@ -3536,7 +3668,8 @@
         },
         "prerequisites": {
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "151": {
         "id": 151,
@@ -3562,7 +3695,8 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "152": {
         "id": 152,
@@ -3597,7 +3731,8 @@
             "rescue_stations": 2,
             "police_stations": 2,
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "153": {
         "id": 153,
@@ -3635,7 +3770,8 @@
             "rescue_stations": 3,
             "police_stations": 1,
             "fire_stations": 10
-        }
+        },
+        "alternate_version": null
     },
     "162": {
         "id": 162,
@@ -3652,7 +3788,8 @@
         "requirements": {},
         "chances": {
             "patient_transport": 50,
-            "helicopter": 50
+            "helicopter": 50,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 1,
@@ -3662,7 +3799,8 @@
         },
         "prerequisites": {
             "rescue_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "163": {
         "id": 163,
@@ -3685,7 +3823,8 @@
         },
         "chances": {
             "patient_transport": 40,
-            "helicopter": 10
+            "helicopter": 10,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 8,
@@ -3697,7 +3836,8 @@
             "rescue_stations": 2,
             "police_stations": 1,
             "fire_stations": 5
-        }
+        },
+        "alternate_version": null
     },
     "164": {
         "id": 164,
@@ -3720,7 +3860,8 @@
         },
         "chances": {
             "patient_transport": 50,
-            "helicopter": 20
+            "helicopter": 20,
+            "patient_critical_care": 75
         },
         "additional": {
             "possible_patient": 20,
@@ -3732,7 +3873,8 @@
             "rescue_stations": 4,
             "police_stations": 1,
             "fire_stations": 7
-        }
+        },
+        "alternate_version": null
     },
     "165": {
         "id": 165,
@@ -3749,7 +3891,8 @@
         "requirements": {},
         "chances": {
             "patient_transport": 100,
-            "helicopter": 100
+            "helicopter": 100,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 1,
@@ -3759,7 +3902,8 @@
         },
         "prerequisites": {
             "rescue_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "166": {
         "id": 166,
@@ -3776,7 +3920,8 @@
         "requirements": {},
         "chances": {
             "patient_transport": 100,
-            "helicopter": 90
+            "helicopter": 90,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 1,
@@ -3786,7 +3931,8 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     "167": {
         "id": 167,
@@ -3803,7 +3949,8 @@
         "requirements": {},
         "chances": {
             "patient_transport": 80,
-            "helicopter": 50
+            "helicopter": 50,
+            "patient_critical_care": 75
         },
         "additional": {
             "possible_patient": 1,
@@ -3813,7 +3960,8 @@
         },
         "prerequisites": {
             "rescue_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "168": {
         "id": 168,
@@ -3841,7 +3989,8 @@
         },
         "prerequisites": {
             "fire_stations": 13
-        }
+        },
+        "alternate_version": null
     },
     "169": {
         "id": 169,
@@ -3858,7 +4007,8 @@
         "requirements": {},
         "chances": {
             "patient_transport": 80,
-            "helicopter": 30
+            "helicopter": 30,
+            "patient_critical_care": 60
         },
         "additional": {
             "possible_patient": 1,
@@ -3868,7 +4018,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "170": {
         "id": 170,
@@ -3892,7 +4043,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "171": {
         "id": 171,
@@ -3918,7 +4070,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "172": {
         "id": 172,
@@ -3946,7 +4099,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "173": {
         "id": 173,
@@ -3975,7 +4129,8 @@
         "prerequisites": {
             "rescue_stations": 5,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "174": {
         "id": 174,
@@ -4007,7 +4162,8 @@
         "prerequisites": {
             "rescue_stations": 4,
             "fire_stations": 8
-        }
+        },
+        "alternate_version": null
     },
     "198": {
         "id": 198,
@@ -4026,7 +4182,8 @@
         "requirements": {},
         "chances": {
             "patient_transport": 100,
-            "helicopter": 20
+            "helicopter": 20,
+            "patient_critical_care": 20
         },
         "additional": {
             "possible_patient": 1,
@@ -4036,7 +4193,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "199": {
         "id": 199,
@@ -4064,7 +4222,8 @@
         },
         "prerequisites": {
             "police_stations": 5
-        }
+        },
+        "alternate_version": null
     },
     "200": {
         "id": 200,
@@ -4097,7 +4256,8 @@
         "prerequisites": {
             "rescue_stations": 6,
             "fire_stations": 10
-        }
+        },
+        "alternate_version": null
     },
     "201": {
         "id": 201,
@@ -4128,7 +4288,8 @@
         "prerequisites": {
             "rescue_stations": 2,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     "202": {
         "id": 202,
@@ -4152,7 +4313,8 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "203": {
         "id": 203,
@@ -4175,7 +4337,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "204": {
         "id": 204,
@@ -4198,7 +4361,8 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "205": {
         "id": 205,
@@ -4223,7 +4387,8 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "206": {
         "id": 206,
@@ -4253,7 +4418,8 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     "207": {
         "id": 207,
@@ -4279,7 +4445,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     "208": {
         "id": 208,
@@ -4306,7 +4473,8 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     "218": {
         "id": 218,
@@ -4334,7 +4502,8 @@
         },
         "prerequisites": {
             "fire_stations": 7
-        }
+        },
+        "alternate_version": null
     },
     "219": {
         "id": 219,
@@ -4360,6 +4529,514 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
+    },
+    "220": {
+        "id": 220,
+        "name": "Dia dos servi\u00e7os de emerg\u00eancia",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 minutos",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "221": {
+        "id": 221,
+        "name": "Inc\u00eandio na esta\u00e7\u00e3o de trem (Grande)",
+        "place": "Esta\u00e7\u00e3o de trem (tr\u00e1fego regional)",
+        "place_array": {
+            "0": "Esta\u00e7\u00e3o de trem (tr\u00e1fego regional)"
+        },
+        "average_credits": 10000,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 8
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 15,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 13,
+            "police_stations": 6,
+            "fire_stations": 15
+        },
+        "alternate_version": null
+    },
+    "222": {
+        "id": 222,
+        "name": "Acidente com ve\u00edculo de constru\u00e7\u00e3o",
+        "place": "",
+        "place_array": {},
+        "average_credits": 950,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 9
+        },
+        "alternate_version": null
+    },
+    "223": {
+        "id": 223,
+        "name": "Detritos na pista de decolagem",
+        "place": "Aeroporto pequeno (pista)",
+        "place_array": {
+            "0": "Aeroporto pequeno (pista)"
+        },
+        "average_credits": 350,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "224": {
+        "id": 224,
+        "name": "Invas\u00e3o de mercadorias falsificadas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
+    "225": {
+        "id": 225,
+        "name": "Objeto preso na garganta",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "226": {
+        "id": 226,
+        "name": "Pessoa presa em equipamento de parque de recreio",
+        "place": "Parque de recreio",
+        "place_array": {
+            "0": "Parque de recreio"
+        },
+        "average_credits": 500,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "227": {
+        "id": 227,
+        "name": "Paragem respirat\u00f3ria",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cirurgi\u00e3o geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "228": {
+        "id": 228,
+        "name": "Les\u00e3o s\u00e9ria na cabe\u00e7a",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 90,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Neurocirurgia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "229": {
+        "id": 229,
+        "name": "Paraquedista preso na \u00e1rvore",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/paragliding_gruen.png",
+            "1": "/images/paragliding_gelb.png",
+            "2": "/images/paragliding_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "platform_trucks": 10,
+            "patient_transport": 20,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 12,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "230": {
+        "id": 230,
+        "name": "Convuls\u00e3o",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Neurologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "231": {
+        "id": 231,
+        "name": "Amputa\u00e7\u00e3o traum\u00e1tica de membros",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 50,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cirurgi\u00e3o geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "232": {
+        "id": 232,
+        "name": "Nascimento da crian\u00e7a",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Ginecologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "233": {
+        "id": 233,
+        "name": "Problemas respirat\u00f3rios",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "234": {
+        "id": 234,
+        "name": "Problemas respirat\u00f3rios",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "235": {
+        "id": 235,
+        "name": "Problemas respirat\u00f3rios",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "236": {
+        "id": 236,
+        "name": "Acidente de motocross",
+        "place": "Pista de Motocross",
+        "place_array": {
+            "0": "Pista de Motocross"
+        },
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 5,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cirurgi\u00e3o geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
     }
 }
