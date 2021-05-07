@@ -2339,6 +2339,333 @@
         },
         "alternate_version": null
     },
+    "84": {
+        "id": 84,
+        "name": "Ladr\u00e3o dos Ovos da P\u00e1scoa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Sex, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Seg, 05 Abr 2021 23:59:00 -0300"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "85": {
+        "id": 85,
+        "name": "Escova roubada da Oficina",
+        "place": "Escola",
+        "place_array": {
+            "0": "Escola"
+        },
+        "average_credits": 150,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Sex, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Seg, 05 Abr 2021 23:59:00 -0300"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "86": {
+        "id": 86,
+        "name": "Toca do Coelho Colapsou",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sex, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Seg, 05 Abr 2021 23:59:00 -0300"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "87": {
+        "id": 87,
+        "name": "Coelhinho da P\u00e1scoa Atingido",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 38
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Sex, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Seg, 05 Abr 2021 23:59:00 -0300",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "88": {
+        "id": 88,
+        "name": "Cesto da P\u00e1scoa a Arder",
+        "place": "",
+        "place_array": {},
+        "average_credits": 110,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sex, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Seg, 05 Abr 2021 23:59:00 -0300"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "89": {
+        "id": 89,
+        "name": "Tanque de Chocolate Derramado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "date_start": "Sex, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Seg, 05 Abr 2021 23:59:00 -0300"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "90": {
+        "id": 90,
+        "name": "Caldeira de Ovo a Arder",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sex, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Seg, 05 Abr 2021 23:59:00 -0300"
+        },
+        "prerequisites": {
+            "max_police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "91": {
+        "id": 91,
+        "name": "Encontro de Coelhos na cidade da p\u00e1scoa",
+        "place": "Est\u00e1dio",
+        "place_array": {
+            "0": "Est\u00e1dio"
+        },
+        "average_credits": 7000,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 4,
+            "police_cars": 8
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2 horas",
+            "duration": 7200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Sex, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Seg, 05 Abr 2021 23:59:00 -0300"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "92": {
+        "id": 92,
+        "name": "Cami\u00e3o dos Ovos caputado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2200,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Sex, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Seg, 05 Abr 2021 23:59:00 -0300",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "max_police_stations": 3,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "93": {
+        "id": 93,
+        "name": "Miss\u00e3o Priorit\u00e1ria: Ca\u00e7a aos Ovos da P\u00e1scoa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Sex, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Seg, 05 Abr 2021 23:59:00 -0300"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "94": {
+        "id": 94,
+        "name": "Coelhinho da P\u00e1scoa numa grua",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sex, 26 Mar 2021 10:00:00 +0000",
+            "date_end": "Seg, 05 Abr 2021 23:59:00 -0300"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 12
+        },
+        "alternate_version": null
+    },
     "95": {
         "id": 95,
         "name": "Descarrilamento de Comboio de Carga",
@@ -2793,6 +3120,148 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "110": {
+        "id": 110,
+        "name": "Insola\u00e7\u00e3o",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Qua, 26 Jun 2019 10:00:00 -0300",
+            "date_end": "Ter, 01 Out 2019 00:00:00 -0300",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "111": {
+        "id": 111,
+        "name": "Golpe de calor",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Qua, 26 Jun 2019 10:00:00 -0300",
+            "date_end": "Ter, 01 Out 2019 00:00:00 -0300",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "112": {
+        "id": 112,
+        "name": "C\u00e3ibra por calor",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Qua, 26 Jun 2019 10:00:00 -0300",
+            "date_end": "Ter, 01 Out 2019 00:00:00 -0300",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "113": {
+        "id": 113,
+        "name": "Pessoa desidratada",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Qua, 26 Jun 2019 10:00:00 -0300",
+            "date_end": "Ter, 01 Out 2019 00:00:00 -0300",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "114": {
+        "id": 114,
+        "name": "Inc\u00eandio de churrasco",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Qua, 26 Jun 2019 10:00:00 -0300",
+            "date_end": "Ter, 01 Out 2019 00:00:00 -0300"
+        },
+        "prerequisites": {
+            "fire_stations": 1
         },
         "alternate_version": null
     },
@@ -3617,6 +4086,254 @@
         },
         "alternate_version": null
     },
+    "140": {
+        "id": 140,
+        "name": "Espantalho flamejante",
+        "place": "",
+        "place_array": {},
+        "average_credits": 350,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Seg, 19 Out 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "141": {
+        "id": 141,
+        "name": "Inc\u00eandio no campo de ab\u00f3boras",
+        "place": "",
+        "place_array": {},
+        "average_credits": 850,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Seg, 19 Out 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "142": {
+        "id": 142,
+        "name": "Sopa de ab\u00f3bora queimada",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Seg, 19 Out 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 -0200",
+            "patient_specializations": "Neurologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "143": {
+        "id": 143,
+        "name": "Bruxa na \u00e1rvore",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Seg, 19 Out 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 -0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "144": {
+        "id": 144,
+        "name": "Dentada de zombie",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Seg, 19 Out 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 -0200",
+            "patient_specializations": "Neurologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "145": {
+        "id": 145,
+        "name": "Monstro a monte",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Seg, 19 Out 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "146": {
+        "id": 146,
+        "name": "Ab\u00f3bora roubada",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Seg, 19 Out 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "147": {
+        "id": 147,
+        "name": "Avistamento de Frankenstein",
+        "place": "",
+        "place_array": {},
+        "average_credits": 550,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Seg, 19 Out 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "148": {
+        "id": 148,
+        "name": "Roubo de guloseimas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Seg, 19 Out 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
     "149": {
         "id": 149,
         "name": "Acidente com motosserra",
@@ -3770,6 +4487,246 @@
             "rescue_stations": 3,
             "police_stations": 1,
             "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "154": {
+        "id": 154,
+        "name": "Luta no mercado de Natal",
+        "place": "Mercado de natal",
+        "place_array": {
+            "0": "Mercado de natal"
+        },
+        "average_credits": 600,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 -0200",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 -0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "155": {
+        "id": 155,
+        "name": "Queima da coroa do Advento",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 -0200",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "156": {
+        "id": 156,
+        "name": "Inc\u00eandio na bancada do mercado de Natal",
+        "place": "Mercado de natal",
+        "place_array": {
+            "0": "Mercado de natal"
+        },
+        "average_credits": 610,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 -0200",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 -0200",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "157": {
+        "id": 157,
+        "name": "\u00c1rvore de Natal em chamas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 870,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 -0200",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "158": {
+        "id": 158,
+        "name": "Inc\u00eandio no mercado de Natal",
+        "place": "Mercado de natal",
+        "place_array": {
+            "0": "Mercado de natal"
+        },
+        "average_credits": 310,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 -0200",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 -0200",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "159": {
+        "id": 159,
+        "name": "Roubo no mercado de Natal",
+        "place": "Mercado de natal",
+        "place_array": {
+            "0": "Mercado de natal"
+        },
+        "average_credits": 300,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 -0200",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "160": {
+        "id": 160,
+        "name": "Acidente de tr\u00e1fego - gelo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1410,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 100,
+            "patient_transport": 30,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 -0200",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 -0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "161": {
+        "id": 161,
+        "name": "Pessoa inebriada no mercado de Natal",
+        "place": "Mercado de natal",
+        "place_array": {
+            "0": "Mercado de natal"
+        },
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 -0200",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 -0200",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         },
         "alternate_version": null
     },
@@ -4165,6 +5122,669 @@
         },
         "alternate_version": null
     },
+    "175": {
+        "id": 175,
+        "name": "Carro incendiado por fogos de artif\u00edcio",
+        "place": "",
+        "place_array": {},
+        "average_credits": 370,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "176": {
+        "id": 176,
+        "name": "Res\u00edduos volumosos acendidos por fogos de artif\u00edcio",
+        "place": "",
+        "place_array": {},
+        "average_credits": 220,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "177": {
+        "id": 177,
+        "name": "Pequenos inc\u00eandios de campo causados por fogos de artif\u00edcio",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "178": {
+        "id": 178,
+        "name": "Inc\u00eandio no por\u00e3o causado por fogos de artif\u00edcio",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "179": {
+        "id": 179,
+        "name": "Abrigo de \u00f4nibus em chamas incendiado por fogos de artif\u00edcio",
+        "place": "Ponto de \u00f4nibus",
+        "place_array": {
+            "0": "Ponto de \u00f4nibus"
+        },
+        "average_credits": 900,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "180": {
+        "id": 180,
+        "name": "Inc\u00eandio na varanda causado por fogos de artif\u00edcio",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "181": {
+        "id": 181,
+        "name": "Recipientes de papel queimado acendidos por fogos de artif\u00edcio",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "182": {
+        "id": 182,
+        "name": "Queima de sebe incendiada por fogos de artif\u00edcio",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "183": {
+        "id": 183,
+        "name": "Motorista b\u00eabado ap\u00f3s a festa de Ano Novo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 150,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "184": {
+        "id": 184,
+        "name": "Casa de telhado de colmo queimado incendiada por fogos de artif\u00edcio",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4200,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "185": {
+        "id": 185,
+        "name": "Carro danificado por fogos de artif\u00edcio",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "186": {
+        "id": 186,
+        "name": "Viola\u00e7\u00e3o da Lei de Explosivos",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "187": {
+        "id": 187,
+        "name": "Les\u00f5es nas m\u00e3os causadas por fogos de artif\u00edcio",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "188": {
+        "id": 188,
+        "name": "Animais em p\u00e2nico causados por fogos de artif\u00edcio",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "189": {
+        "id": 189,
+        "name": "Les\u00f5es por explodir sem iniciar",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "190": {
+        "id": 190,
+        "name": "Les\u00e3o pelo uso impr\u00f3prio de fogos de artif\u00edcio",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "191": {
+        "id": 191,
+        "name": "Pessoa atingida por fogo explosivo",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "192": {
+        "id": 192,
+        "name": "Apreens\u00e3o causada pela observa\u00e7\u00e3o de fogos de artif\u00edcio",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "193": {
+        "id": 193,
+        "name": "Guardando a festa de Ano Novo na cidade",
+        "place": "Mercado de rua",
+        "place_array": {
+            "0": "Mercado de rua"
+        },
+        "average_credits": 15000,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "ambulances": 2,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hora 30 minutos",
+            "duration": 5400,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
+    "194": {
+        "id": 194,
+        "name": "Uso de fogos de artif\u00edcio ilegais",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "195": {
+        "id": 195,
+        "name": "Uso de fogos de artif\u00edcio perto da estrada",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 196
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "196": {
+        "id": 196,
+        "name": "Acidente de carro provocado por uso de fogo-de-artif\u00edcio perto da estrada",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "197": {
+        "id": 197,
+        "name": "Fogo de artif\u00edcio sabotado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 -0200",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
     "198": {
         "id": 198,
         "name": "Biker caiu da colina",
@@ -4470,6 +6090,265 @@
             "max_possible_prisoners": 1,
             "guard_mission": true,
             "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "209": {
+        "id": 209,
+        "name": "O casal comeu demasiado chocolate",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Sex, 05 Fev 2021 10:00:00 +0000",
+            "date_end": "Dom, 14 Fev 2021 23:59:00 -0200",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "210": {
+        "id": 210,
+        "name": "Borboletas no est\u00f4mago",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Sex, 05 Fev 2021 10:00:00 +0000",
+            "date_end": "Dom, 14 Fev 2021 23:59:00 -0200",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "211": {
+        "id": 211,
+        "name": "Ataque card\u00edaco devido ao choque do pedido",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Sex, 05 Fev 2021 10:00:00 +0000",
+            "date_end": "Dom, 14 Fev 2021 23:59:00 -0200",
+            "patient_specializations": "Cardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "212": {
+        "id": 212,
+        "name": "Cora\u00e7\u00e3o partido",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Sex, 05 Fev 2021 10:00:00 +0000",
+            "date_end": "Dom, 14 Fev 2021 23:59:00 -0200",
+            "patient_specializations": "Cardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "213": {
+        "id": 213,
+        "name": "As decora\u00e7\u00f5es do dia dos namorados no restaurante arderam",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "date_start": "Sex, 05 Fev 2021 10:00:00 +0000",
+            "date_end": "Dom, 14 Fev 2021 23:59:00 -0200",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "214": {
+        "id": 214,
+        "name": "O inc\u00eandio provocado pelo jantar \u00e0 luz das velas propagou-se",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "Sex, 05 Fev 2021 10:00:00 +0000",
+            "date_end": "Dom, 14 Fev 2021 23:59:00 -0200",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "215": {
+        "id": 215,
+        "name": "Procura pelo namorado perdido",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Sex, 05 Fev 2021 10:00:00 +0000",
+            "date_end": "Dom, 14 Fev 2021 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "216": {
+        "id": 216,
+        "name": "Queixa de ru\u00eddo por causa de um casal a discutir",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Sex, 05 Fev 2021 10:00:00 +0000",
+            "date_end": "Dom, 14 Fev 2021 23:59:00 -0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "217": {
+        "id": 217,
+        "name": "Cora\u00e7\u00e3o roubado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Sex, 05 Fev 2021 10:00:00 +0000",
+            "date_end": "Dom, 14 Fev 2021 23:59:00 -0200"
         },
         "prerequisites": {
             "police_stations": 2

@@ -2120,6 +2120,335 @@
         "prerequisites": {},
         "alternate_version": null
     },
+    "75": {
+        "id": 75,
+        "name": "Ho\u021b de ou\u0103 de Pa\u0219te",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Vin., 26 Mar. 2021 10:00:00 +0000",
+            "date_end": "Luni, 05 Apr. 2021 23:59:00 +0300"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "76": {
+        "id": 76,
+        "name": "Perie furat\u0103 din Atelier",
+        "place": "\u0218coal\u0103",
+        "place_array": {
+            "0": "\u0218coal\u0103"
+        },
+        "average_credits": 150,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Vin., 26 Mar. 2021 10:00:00 +0000",
+            "date_end": "Luni, 05 Apr. 2021 23:59:00 +0300"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "77": {
+        "id": 77,
+        "name": "Gaur\u0103 de iepure pr\u0103bu\u0219it\u0103",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Vin., 26 Mar. 2021 10:00:00 +0000",
+            "date_end": "Luni, 05 Apr. 2021 23:59:00 +0300"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "78": {
+        "id": 78,
+        "name": "Iepura\u0219 de pa\u0219te lovit",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 38,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Vin., 26 Mar. 2021 10:00:00 +0000",
+            "date_end": "Luni, 05 Apr. 2021 23:59:00 +0300",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "79": {
+        "id": 79,
+        "name": "Co\u0219ule\u021b de Pa\u0219te \u00een fl\u0103c\u0103ri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 110,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Vin., 26 Mar. 2021 10:00:00 +0000",
+            "date_end": "Luni, 05 Apr. 2021 23:59:00 +0300"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "80": {
+        "id": 80,
+        "name": "Scurgere dintr-o cistern\u0103 de ciocolat\u0103",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "date_start": "Vin., 26 Mar. 2021 10:00:00 +0000",
+            "date_end": "Luni, 05 Apr. 2021 23:59:00 +0300"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "81": {
+        "id": 81,
+        "name": "Fierb\u0103tor de ou\u0103 \u00een fl\u0103c\u0103ri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Vin., 26 Mar. 2021 10:00:00 +0000",
+            "date_end": "Luni, 05 Apr. 2021 23:59:00 +0300"
+        },
+        "prerequisites": {
+            "max_police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "82": {
+        "id": 82,
+        "name": "\u00centrunirea iepura\u0219ilor \u00een ora\u0219ul ou\u0103lor de Pa\u0219te",
+        "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
+        "average_credits": 7000,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 4,
+            "police_cars": 8
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2 ore",
+            "duration": 7200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Vin., 26 Mar. 2021 10:00:00 +0000",
+            "date_end": "Luni, 05 Apr. 2021 23:59:00 +0300"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "83": {
+        "id": 83,
+        "name": "Camion cu ou\u0103 de Pa\u0219te r\u0103sturnat",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2200,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Vin., 26 Mar. 2021 10:00:00 +0000",
+            "date_end": "Luni, 05 Apr. 2021 23:59:00 +0300",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "max_police_stations": 3,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "84": {
+        "id": 84,
+        "name": "Misiune prioritar\u0103: v\u00e2n\u0103toarea ou\u0103lor de Pa\u0219te",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Vin., 26 Mar. 2021 10:00:00 +0000",
+            "date_end": "Luni, 05 Apr. 2021 23:59:00 +0300"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "85": {
+        "id": 85,
+        "name": "Iepura\u0219 de Pa\u0219te pe macara",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Vin., 26 Mar. 2021 10:00:00 +0000",
+            "date_end": "Luni, 05 Apr. 2021 23:59:00 +0300"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 12
+        },
+        "alternate_version": null
+    },
     "86": {
         "id": 86,
         "name": "Salvare din tran\u0219eea",
@@ -2467,6 +2796,152 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "98": {
+        "id": 98,
+        "name": "Insola\u021bie",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vin., 26 Iun. 2020 10:00:00 +0300",
+            "date_end": "Joi, 01 Oct. 2020 00:00:00 +0300",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "99": {
+        "id": 99,
+        "name": "\u0218oc termic",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vin., 26 Iun. 2020 10:00:00 +0300",
+            "date_end": "Joi, 01 Oct. 2020 00:00:00 +0300",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "100": {
+        "id": 100,
+        "name": "Crampe de la c\u0103ldur\u0103",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vin., 26 Iun. 2020 10:00:00 +0300",
+            "date_end": "Joi, 01 Oct. 2020 00:00:00 +0300",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "101": {
+        "id": 101,
+        "name": "Persoan\u0103 deshidratat\u0103",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vin., 26 Iun. 2020 10:00:00 +0300",
+            "date_end": "Joi, 01 Oct. 2020 00:00:00 +0300",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "102": {
+        "id": 102,
+        "name": "Foc de gr\u0103tar",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Vin., 26 Iun. 2020 10:00:00 +0300",
+            "date_end": "Joi, 01 Oct. 2020 00:00:00 +0300"
+        },
+        "prerequisites": {
+            "fire_stations": 1
         },
         "alternate_version": null
     },
@@ -3684,6 +4159,259 @@
         },
         "alternate_version": null
     },
+    "139": {
+        "id": 139,
+        "name": "Sperietoare \u00een fl\u0103c\u0103ri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 350,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Luni, 19 Oct. 2020 09:00:00 +0000",
+            "date_end": "Dum., 01 Noi. 2020 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "140": {
+        "id": 140,
+        "name": "C\u00e2mp de dovleci \u00een fl\u0103c\u0103ri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 850,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Luni, 19 Oct. 2020 09:00:00 +0000",
+            "date_end": "Dum., 01 Noi. 2020 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "141": {
+        "id": 141,
+        "name": "Sup\u0103 de dovleac fiart\u0103 prea mult",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 50,
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Luni, 19 Oct. 2020 09:00:00 +0000",
+            "date_end": "Dum., 01 Noi. 2020 23:59:00 +0200",
+            "patient_specializations": "Neurologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "142": {
+        "id": 142,
+        "name": "Vr\u0103jitoare \u00een copac",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Luni, 19 Oct. 2020 09:00:00 +0000",
+            "date_end": "Dum., 01 Noi. 2020 23:59:00 +0200",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "143": {
+        "id": 143,
+        "name": "Mu\u0219c\u0103tur\u0103 de zombi",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Luni, 19 Oct. 2020 09:00:00 +0000",
+            "date_end": "Dum., 01 Noi. 2020 23:59:00 +0200",
+            "patient_specializations": "Neurologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "144": {
+        "id": 144,
+        "name": "Monstru dezl\u0103n\u021buit",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Luni, 19 Oct. 2020 09:00:00 +0000",
+            "date_end": "Dum., 01 Noi. 2020 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "145": {
+        "id": 145,
+        "name": "Dovleac furat",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Luni, 19 Oct. 2020 09:00:00 +0000",
+            "date_end": "Dum., 01 Noi. 2020 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "146": {
+        "id": 146,
+        "name": "Frankenstein z\u0103rit",
+        "place": "",
+        "place_array": {},
+        "average_credits": 550,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Luni, 19 Oct. 2020 09:00:00 +0000",
+            "date_end": "Dum., 01 Noi. 2020 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "147": {
+        "id": 147,
+        "name": "Furt de bomboane",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Luni, 19 Oct. 2020 09:00:00 +0000",
+            "date_end": "Dum., 01 Noi. 2020 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
     "148": {
         "id": 148,
         "name": "Accident cu drujba",
@@ -3844,6 +4572,250 @@
             "rescue_stations": 3,
             "police_stations": 1,
             "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "153": {
+        "id": 153,
+        "name": "\u00cenc\u0103ierare la t\u00e2rgul de Cr\u0103ciun",
+        "place": "T\u00e2rg de Cr\u0103ciun",
+        "place_array": {
+            "0": "T\u00e2rg de Cr\u0103ciun"
+        },
+        "average_credits": 600,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Mar., 01 Dec. 2020 10:00:00 +0200",
+            "date_end": "S\u00e2mb., 26 Dec. 2020 23:59:00 +0200",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "154": {
+        "id": 154,
+        "name": "Coroni\u021b\u0103 de Advent \u00een fl\u0103c\u0103ri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mar., 01 Dec. 2020 10:00:00 +0200",
+            "date_end": "S\u00e2mb., 26 Dec. 2020 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "155": {
+        "id": 155,
+        "name": "Tarab\u0103 \u00een fl\u0103c\u0103ri la t\u00e2rgul de Cr\u0103ciun",
+        "place": "T\u00e2rg de Cr\u0103ciun",
+        "place_array": {
+            "0": "T\u00e2rg de Cr\u0103ciun"
+        },
+        "average_credits": 610,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Mar., 01 Dec. 2020 10:00:00 +0200",
+            "date_end": "S\u00e2mb., 26 Dec. 2020 23:59:00 +0200",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "156": {
+        "id": 156,
+        "name": "Brad de Cr\u0103ciun \u00een fl\u0103c\u0103ri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 870,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mar., 01 Dec. 2020 10:00:00 +0200",
+            "date_end": "S\u00e2mb., 26 Dec. 2020 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "157": {
+        "id": 157,
+        "name": "Incendiu la t\u00e2rgul de Cr\u0103ciun",
+        "place": "T\u00e2rg de Cr\u0103ciun",
+        "place_array": {
+            "0": "T\u00e2rg de Cr\u0103ciun"
+        },
+        "average_credits": 310,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Mar., 01 Dec. 2020 10:00:00 +0200",
+            "date_end": "S\u00e2mb., 26 Dec. 2020 23:59:00 +0200",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "158": {
+        "id": 158,
+        "name": "Furt la t\u00e2rgul de Cr\u0103ciun",
+        "place": "T\u00e2rg de Cr\u0103ciun",
+        "place_array": {
+            "0": "T\u00e2rg de Cr\u0103ciun"
+        },
+        "average_credits": 300,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Mar., 01 Dec. 2020 10:00:00 +0200",
+            "date_end": "S\u00e2mb., 26 Dec. 2020 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "159": {
+        "id": 159,
+        "name": "Accident de circula\u021bie - ghea\u021b\u0103",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1410,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 100,
+            "patient_transport": 30,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "date_start": "Mar., 01 Dec. 2020 10:00:00 +0200",
+            "date_end": "S\u00e2mb., 26 Dec. 2020 23:59:00 +0200",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "160": {
+        "id": 160,
+        "name": "Persoan\u0103 \u00een stare de ebrietate la t\u00e2rgul de Cr\u0103ciun",
+        "place": "T\u00e2rg de Cr\u0103ciun",
+        "place_array": {
+            "0": "T\u00e2rg de Cr\u0103ciun"
+        },
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Mar., 01 Dec. 2020 10:00:00 +0200",
+            "date_end": "S\u00e2mb., 26 Dec. 2020 23:59:00 +0200",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         },
         "alternate_version": null
     },
@@ -4242,6 +5214,680 @@
         },
         "alternate_version": null
     },
+    "174": {
+        "id": 174,
+        "name": "Ma\u0219in\u0103 incendiat\u0103 de artificii",
+        "place": "",
+        "place_array": {},
+        "average_credits": 370,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "175": {
+        "id": 175,
+        "name": "De\u0219euri voluminoase incendiate de artificii",
+        "place": "",
+        "place_array": {},
+        "average_credits": 220,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "176": {
+        "id": 176,
+        "name": "Incendiu mic de c\u00e2mp provocat de artificii",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "177": {
+        "id": 177,
+        "name": "Incendiu la subsol provocat de artificii",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "178": {
+        "id": 178,
+        "name": "Sta\u021bie de autobuz incendiat\u0103 de artificii",
+        "place": "Sta\u021bie de autobuz",
+        "place_array": {
+            "0": "Sta\u021bie de autobuz"
+        },
+        "average_credits": 900,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "179": {
+        "id": 179,
+        "name": "Incendiu pe balcon provocat de artificii",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "180": {
+        "id": 180,
+        "name": "Containere de h\u00e2rtie incendiate de artificii",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "181": {
+        "id": 181,
+        "name": "Gard viu incendiat de o petard\u0103",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "182": {
+        "id": 182,
+        "name": "\u0218ofer beat dup\u0103 petrecerea de Revelion",
+        "place": "",
+        "place_array": {},
+        "average_credits": 150,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "183": {
+        "id": 183,
+        "name": "Cas\u0103 cu acoperi\u0219 de paie incendiat\u0103 de artificii",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4200,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "184": {
+        "id": 184,
+        "name": "Ma\u0219in\u0103 avariat\u0103 de artificii",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "185": {
+        "id": 185,
+        "name": "\u00cenc\u0103lcarea Legii cu privire la explozive",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "186": {
+        "id": 186,
+        "name": "Leziune la m\u00e2n\u0103 provocat\u0103 de artificii",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "187": {
+        "id": 187,
+        "name": "Animal \u00een panic\u0103 din cauza artificiilor",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "188": {
+        "id": 188,
+        "name": "Leziune cauzat\u0103 di o explozie accidental\u0103",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "189": {
+        "id": 189,
+        "name": "Leziune cauzat\u0103 de folosirea necorespunz\u0103toare a artificiilor",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "190": {
+        "id": 190,
+        "name": "Persoan\u0103 lovit\u0103 artificiu-exploziv",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "191": {
+        "id": 191,
+        "name": "Atac de apoplexie cauzat de vizionarea unui show cu artificii",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "192": {
+        "id": 192,
+        "name": "Supravegherea petrecerii de Revelion din centrul ora\u0219ului",
+        "place": "Pia\u021ba or\u0103\u0219eneasc\u0103",
+        "place_array": {
+            "0": "Pia\u021ba or\u0103\u0219eneasc\u0103"
+        },
+        "average_credits": 15000,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "ambulances": 2,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 or\u0103 30 minute",
+            "duration": 5400,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
+    "193": {
+        "id": 193,
+        "name": "Folosirea unui artificiu ilegal",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 10,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "194": {
+        "id": 194,
+        "name": "Folosirea de artificii in apropiere de drum",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 193
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "195": {
+        "id": 195,
+        "name": "Accident auto cauzat de folosirea artificiilor \u00een apropiere de drum",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "196": {
+        "id": 196,
+        "name": "Artificiu sabotat",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dum., 27 Dec. 2020 23:59:00 +0200",
+            "date_end": "Vin., 01 Ian. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
     "197": {
         "id": 197,
         "name": "Biciclist c\u0103zut de pe munte",
@@ -4416,6 +6062,271 @@
         },
         "prerequisites": {
             "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "203": {
+        "id": 203,
+        "name": "Un cuplu a m\u00e2ncat prea mult\u0103 ciocolat\u0103",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
+            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "204": {
+        "id": 204,
+        "name": "Flutura\u0219i \u00een stomac",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
+            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "205": {
+        "id": 205,
+        "name": "Atac de cord cauzat de \u0219ocul de la propunere",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
+            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200",
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "206": {
+        "id": 206,
+        "name": "Inim\u0103 fr\u00e2nt\u0103",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
+            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200",
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "207": {
+        "id": 207,
+        "name": "Decora\u021biile de Ziua \u00cendr\u0103gosti\u021bilor la restaurant au luat foc",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
+            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "208": {
+        "id": 208,
+        "name": "Focul de la cina romantic\u0103 la lumina lum\u00e2n\u0103rilor s-a r\u0103sp\u00e2ndit",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
+            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "209": {
+        "id": 209,
+        "name": "Caut\u0103 un iubit disp\u0103rut",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
+            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "210": {
+        "id": 210,
+        "name": "Pl\u00e2ngere de zgomot cauzat\u0103 de un cuplu care se ceart\u0103",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
+            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "211": {
+        "id": 211,
+        "name": "Inim\u0103 furat\u0103",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
+            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
         },
         "alternate_version": null
     },

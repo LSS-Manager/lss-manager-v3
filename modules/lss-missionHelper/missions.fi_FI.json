@@ -688,7 +688,8 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2
+                "1": 2,
+                "2": 29
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -2647,6 +2648,148 @@
         },
         "alternate_version": null
     },
+    "95": {
+        "id": 95,
+        "name": "755 Auringonpistos",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "pe 26. kes 2020 klo 10.00:00 +0300",
+            "date_end": "to 01. lok 2020 klo 00.00:00 +0300",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "96": {
+        "id": 96,
+        "name": "755 L\u00e4mp\u00f6halvaus",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "pe 26. kes 2020 klo 10.00:00 +0300",
+            "date_end": "to 01. lok 2020 klo 00.00:00 +0300",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "97": {
+        "id": 97,
+        "name": "755 L\u00e4mp\u00f6kouristus",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "pe 26. kes 2020 klo 10.00:00 +0300",
+            "date_end": "to 01. lok 2020 klo 00.00:00 +0300",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "98": {
+        "id": 98,
+        "name": "744 Nestehukkainen henkil\u00f6",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "pe 26. kes 2020 klo 10.00:00 +0300",
+            "date_end": "to 01. lok 2020 klo 00.00:00 +0300",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "99": {
+        "id": 99,
+        "name": "431 Grillipalo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "pe 26. kes 2020 klo 10.00:00 +0300",
+            "date_end": "to 01. lok 2020 klo 00.00:00 +0300"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
     "100": {
         "id": 100,
         "name": "401 Hotellipalo, pieni",
@@ -4443,6 +4586,256 @@
         },
         "alternate_version": null
     },
+    "157": {
+        "id": 157,
+        "name": "Variksenpel\u00e4tinpalo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 350,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "ma 19. lok 2020 klo 09.00:00 +0000",
+            "date_end": "su 01. mar 2020 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "158": {
+        "id": 158,
+        "name": "Kurpitsamaapalo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 850,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "ma 19. lok 2020 klo 09.00:00 +0000",
+            "date_end": "su 01. mar 2020 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "159": {
+        "id": 159,
+        "name": "Pohjaan palanut kurpitsakeitto",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 50,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "ma 19. lok 2020 klo 09.00:00 +0000",
+            "date_end": "su 01. mar 2020 klo 23.59:00 +0200",
+            "patient_specializations": "Neurologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "160": {
+        "id": 160,
+        "name": "Noita puussa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "ma 19. lok 2020 klo 09.00:00 +0000",
+            "date_end": "su 01. mar 2020 klo 23.59:00 +0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "161": {
+        "id": 161,
+        "name": "Zombinpurema",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "ma 19. lok 2020 klo 09.00:00 +0000",
+            "date_end": "su 01. mar 2020 klo 23.59:00 +0200",
+            "patient_specializations": "Neurologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "162": {
+        "id": 162,
+        "name": "Irti p\u00e4\u00e4ssyt hirvi\u00f6",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "ma 19. lok 2020 klo 09.00:00 +0000",
+            "date_end": "su 01. mar 2020 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "163": {
+        "id": 163,
+        "name": "Kurpitsavarkaus",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "ma 19. lok 2020 klo 09.00:00 +0000",
+            "date_end": "su 01. mar 2020 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "164": {
+        "id": 164,
+        "name": "Frankenstein-havainto",
+        "place": "",
+        "place_array": {},
+        "average_credits": 550,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "ma 19. lok 2020 klo 09.00:00 +0000",
+            "date_end": "su 01. mar 2020 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "165": {
+        "id": 165,
+        "name": "Karkkivarkaus",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "ma 19. lok 2020 klo 09.00:00 +0000",
+            "date_end": "su 01. mar 2020 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
     "166": {
         "id": 166,
         "name": "744 Moottorisahaonnettomuus",
@@ -4602,6 +4995,246 @@
         },
         "alternate_version": null
     },
+    "171": {
+        "id": 171,
+        "name": "Tappelu joulumarkkinoilla",
+        "place": "Joulumarkkinat",
+        "place_array": {
+            "0": "Joulumarkkinat"
+        },
+        "average_credits": 600,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "ti 01. jou 2020 klo 10.00:00 +0200",
+            "date_end": "la 26. jou 2020 klo 23.59:00 +0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "172": {
+        "id": 172,
+        "name": "Jouluseppelepalo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "ti 01. jou 2020 klo 10.00:00 +0200",
+            "date_end": "la 26. jou 2020 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "173": {
+        "id": 173,
+        "name": "Joulumarkkinakojun palo",
+        "place": "Joulumarkkinat",
+        "place_array": {
+            "0": "Joulumarkkinat"
+        },
+        "average_credits": 610,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "ti 01. jou 2020 klo 10.00:00 +0200",
+            "date_end": "la 26. jou 2020 klo 23.59:00 +0200",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "174": {
+        "id": 174,
+        "name": "Joulukuusipalo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 870,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "ti 01. jou 2020 klo 10.00:00 +0200",
+            "date_end": "la 26. jou 2020 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "175": {
+        "id": 175,
+        "name": "Tulipalo joulumarkkinoilla",
+        "place": "Joulumarkkinat",
+        "place_array": {
+            "0": "Joulumarkkinat"
+        },
+        "average_credits": 310,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "ti 01. jou 2020 klo 10.00:00 +0200",
+            "date_end": "la 26. jou 2020 klo 23.59:00 +0200",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "176": {
+        "id": 176,
+        "name": "Varkaus joulumarkkinoilla",
+        "place": "Joulumarkkinat",
+        "place_array": {
+            "0": "Joulumarkkinat"
+        },
+        "average_credits": 300,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "ti 01. jou 2020 klo 10.00:00 +0200",
+            "date_end": "la 26. jou 2020 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "177": {
+        "id": 177,
+        "name": "Liikenneonnettomuus \u2013 j\u00e4\u00e4",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1410,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 100,
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "date_start": "ti 01. jou 2020 klo 10.00:00 +0200",
+            "date_end": "la 26. jou 2020 klo 23.59:00 +0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "178": {
+        "id": 178,
+        "name": "Humalainen henkil\u00f6 joulumarkkinoilla",
+        "place": "Joulumarkkinat",
+        "place_array": {
+            "0": "Joulumarkkinat"
+        },
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "ti 01. jou 2020 klo 10.00:00 +0200",
+            "date_end": "la 26. jou 2020 klo 23.59:00 +0200",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
     "179": {
         "id": 179,
         "name": "511 Henkil\u00f6n tarkastaminen",
@@ -4743,6 +5376,648 @@
         "prerequisites": {
             "rescue_stations": 6,
             "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "184": {
+        "id": 184,
+        "name": "411 Ilotulitteiden sytytt\u00e4m\u00e4 auto",
+        "place": "",
+        "place_array": {},
+        "average_credits": 370,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "185": {
+        "id": 185,
+        "name": "431 Ilotulitteiden sytytt\u00e4m\u00e4 j\u00e4teastia",
+        "place": "",
+        "place_array": {},
+        "average_credits": 220,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "186": {
+        "id": 186,
+        "name": "421 Ilotulitteiden sytytt\u00e4m\u00e4 maastopalo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "187": {
+        "id": 187,
+        "name": "405 Ilotulitteiden sytytt\u00e4m\u00e4 kellaripalo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "188": {
+        "id": 188,
+        "name": "431 Ilotulitteiden sytytt\u00e4m\u00e4 linja-autokatospalo",
+        "place": "Linja-autopys\u00e4kki",
+        "place_array": {
+            "0": "Linja-autopys\u00e4kki"
+        },
+        "average_credits": 900,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "189": {
+        "id": 189,
+        "name": "402 Ilotulitteiden sytytt\u00e4m\u00e4 parvekepalo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "190": {
+        "id": 190,
+        "name": "431 Ilotulitteiden sytytt\u00e4m\u00e4 paperiastia",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "191": {
+        "id": 191,
+        "name": "421 Ilotulitteiden sytytt\u00e4m\u00e4 pensasaita",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "192": {
+        "id": 192,
+        "name": "241 Juhlista ajoneuvolla juopuneena poistunut henkil\u00f6",
+        "place": "",
+        "place_array": {},
+        "average_credits": 150,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "193": {
+        "id": 193,
+        "name": "403 Ilotulitteiden sytytt\u00e4m\u00e4 logistiikkakeskus",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4200,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "194": {
+        "id": 194,
+        "name": "15 Ilotulitteista johtuva ajoneuvovaurio",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "195": {
+        "id": 195,
+        "name": "35 R\u00e4j\u00e4hderikkomus",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "196": {
+        "id": 196,
+        "name": "747 K\u00e4sille r\u00e4j\u00e4ht\u00e4nyt ilotulite",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "197": {
+        "id": 197,
+        "name": "35 Ilotulitteiden s\u00e4ikytt\u00e4m\u00e4 el\u00e4in",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "198": {
+        "id": 198,
+        "name": "747 R\u00e4j\u00e4ht\u00e4neen suutarin aiheuttama vamma",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "199": {
+        "id": 199,
+        "name": "747 Ilotulitteiden v\u00e4\u00e4rink\u00e4yt\u00f6st\u00e4 johtuva vamma",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "200": {
+        "id": 200,
+        "name": "747 Henkil\u00f6\u00f6n osunut ilotulite",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "201": {
+        "id": 201,
+        "name": "772 Ilotulitteiden katselusta johtuva sairaskohtaus",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "202": {
+        "id": 202,
+        "name": "611 J\u00e4rjestyksenvalvonta uudenvuodenaattona",
+        "place": "Keskusta-alue",
+        "place_array": {
+            "0": "Keskusta-alue"
+        },
+        "average_credits": 10000,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 tunti 30 minuuttia",
+            "duration": 5400,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
+    "203": {
+        "id": 203,
+        "name": "35 Laittomien ilotulitteiden k\u00e4ytt\u00f6",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "204": {
+        "id": 204,
+        "name": "35 Ilotulitteita ammuttu tielle",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 205
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "205": {
+        "id": 205,
+        "name": "201 Tielle heitettyjen ilotulitteiden aiheuttama kolari",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "su 27. jou 2020 klo 23.59:00 +0200",
+            "date_end": "pe 01. tam 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 1
         },
         "alternate_version": null
     },
@@ -5064,6 +6339,265 @@
         },
         "alternate_version": null
     },
+    "217": {
+        "id": 217,
+        "name": "Rakastavaiset s\u00f6iv\u00e4t liikaa suklaata",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "pe 05. hel 2021 klo 10.00:00 +0000",
+            "date_end": "su 14. hel 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "218": {
+        "id": 218,
+        "name": "Perhosia vatsassa",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "pe 05. hel 2021 klo 10.00:00 +0000",
+            "date_end": "su 14. hel 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "219": {
+        "id": 219,
+        "name": "Kosinnan aiheuttama syd\u00e4nkohtaus",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "pe 05. hel 2021 klo 10.00:00 +0000",
+            "date_end": "su 14. hel 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Kardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "220": {
+        "id": 220,
+        "name": "S\u00e4rkynyt syd\u00e4n",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "pe 05. hel 2021 klo 10.00:00 +0000",
+            "date_end": "su 14. hel 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Kardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "221": {
+        "id": 221,
+        "name": "Ravintolan yst\u00e4v\u00e4np\u00e4iv\u00e4koristeet syttyiv\u00e4t tuleen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "date_start": "pe 05. hel 2021 klo 10.00:00 +0000",
+            "date_end": "su 14. hel 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "222": {
+        "id": 222,
+        "name": "Kynttil\u00e4illallisen aiheuttama palo on levinnyt",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "pe 05. hel 2021 klo 10.00:00 +0000",
+            "date_end": "su 14. hel 2021 klo 23.59:00 +0200",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "223": {
+        "id": 223,
+        "name": "Kadonneen poikayst\u00e4v\u00e4n mets\u00e4stys",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "pe 05. hel 2021 klo 10.00:00 +0000",
+            "date_end": "su 14. hel 2021 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "224": {
+        "id": 224,
+        "name": "Riitaisasta pariskunnasta tehty meluvalitus",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "pe 05. hel 2021 klo 10.00:00 +0000",
+            "date_end": "su 14. hel 2021 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "225": {
+        "id": 225,
+        "name": "Siepattu syd\u00e4n",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "pe 05. hel 2021 klo 10.00:00 +0000",
+            "date_end": "su 14. hel 2021 klo 23.59:00 +0200"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
     "226": {
         "id": 226,
         "name": "432 Laituripalo",
@@ -5222,6 +6756,821 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 9
+        },
+        "alternate_version": null
+    },
+    "231": {
+        "id": 231,
+        "name": "P\u00e4\u00e4si\u00e4ismunavarkaus",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "pe 26. maa 2021 klo 10.00:00 +0000",
+            "date_end": "ma 05. huh 2021 klo 23.59:00 +0300"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "232": {
+        "id": 232,
+        "name": "Munamaalaamosta varastettu sivellin",
+        "place": "Koulu",
+        "place_array": {
+            "0": "Koulu"
+        },
+        "average_credits": 150,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "pe 26. maa 2021 klo 10.00:00 +0000",
+            "date_end": "ma 05. huh 2021 klo 23.59:00 +0300"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "233": {
+        "id": 233,
+        "name": "Sortunut pupunkolo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "pe 26. maa 2021 klo 10.00:00 +0000",
+            "date_end": "ma 05. huh 2021 klo 23.59:00 +0300"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "234": {
+        "id": 234,
+        "name": "P\u00e4\u00e4si\u00e4ispupu loukkaantunut",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 38
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "pe 26. maa 2021 klo 10.00:00 +0000",
+            "date_end": "ma 05. huh 2021 klo 23.59:00 +0300",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "235": {
+        "id": 235,
+        "name": "Palava munakori",
+        "place": "",
+        "place_array": {},
+        "average_credits": 110,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "pe 26. maa 2021 klo 10.00:00 +0000",
+            "date_end": "ma 05. huh 2021 klo 23.59:00 +0300"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "236": {
+        "id": 236,
+        "name": "Vuotava suklaas\u00e4ili\u00f6",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "date_start": "pe 26. maa 2021 klo 10.00:00 +0000",
+            "date_end": "ma 05. huh 2021 klo 23.59:00 +0300"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "237": {
+        "id": 237,
+        "name": "Ylikuumentunut munankeitin",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "pe 26. maa 2021 klo 10.00:00 +0000",
+            "date_end": "ma 05. huh 2021 klo 23.59:00 +0300"
+        },
+        "prerequisites": {
+            "max_police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "238": {
+        "id": 238,
+        "name": "P\u00e4\u00e4si\u00e4ispupujen sukukokous",
+        "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
+        "average_credits": 7000,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 4,
+            "police_cars": 8
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2 tuntia",
+            "duration": 7200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "pe 26. maa 2021 klo 10.00:00 +0000",
+            "date_end": "ma 05. huh 2021 klo 23.59:00 +0300"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "239": {
+        "id": 239,
+        "name": "Kaatunut p\u00e4\u00e4si\u00e4ismunarekka",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2200,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "pe 26. maa 2021 klo 10.00:00 +0000",
+            "date_end": "ma 05. huh 2021 klo 23.59:00 +0300",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "max_police_stations": 3,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "240": {
+        "id": 240,
+        "name": "Vaativa tilanne: P\u00e4\u00e4si\u00e4ismunamets\u00e4stys",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "pe 26. maa 2021 klo 10.00:00 +0000",
+            "date_end": "ma 05. huh 2021 klo 23.59:00 +0300"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "241": {
+        "id": 241,
+        "name": "P\u00e4\u00e4si\u00e4ispupun pelastaminen nosturista",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "pe 26. maa 2021 klo 10.00:00 +0000",
+            "date_end": "ma 05. huh 2021 klo 23.59:00 +0300"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 12
+        },
+        "alternate_version": null
+    },
+    "242": {
+        "id": 242,
+        "name": "Onnettomuus vuosip\u00e4iv\u00e4kakun leivonnassa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "243": {
+        "id": 243,
+        "name": "Vieraan vuosip\u00e4iv\u00e4ilmapallo juuttunut puuhun",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "244": {
+        "id": 244,
+        "name": "Vuosip\u00e4iv\u00e4juhlan s\u00e4hk\u00f6asennusten aiheuttama tulipalo (pieni)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1850,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "245": {
+        "id": 245,
+        "name": "Vuosip\u00e4iv\u00e4juhlan s\u00e4hk\u00f6asennusten aiheuttama tulipalo (eritt\u00e4in suuri)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "246": {
+        "id": 246,
+        "name": "Varastettu vuosip\u00e4iv\u00e4lahja",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "247": {
+        "id": 247,
+        "name": "Vuosip\u00e4iv\u00e4n jukeboksien sabotaasi",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "248": {
+        "id": 248,
+        "name": "Kadonnut vuosip\u00e4iv\u00e4n juhlavieras",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "249": {
+        "id": 249,
+        "name": "Vuosip\u00e4iv\u00e4n juhlavieraat varastivat koristeita",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        },
+        "alternate_version": null
+    },
+    "250": {
+        "id": 250,
+        "name": "Vuosip\u00e4iv\u00e4n juhlavieraat varastivat kakun",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        },
+        "alternate_version": null
+    },
+    "251": {
+        "id": 251,
+        "name": "Vieras s\u00f6i liikaa vuosip\u00e4iv\u00e4kakkua",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "252": {
+        "id": 252,
+        "name": "Paperihaava vuosip\u00e4iv\u00e4lahjojen avaamisesta",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "253": {
+        "id": 253,
+        "name": "Vuosip\u00e4iv\u00e4n juhlavieraalla nivelkipua tanssimisen j\u00e4lkeen",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 7
+        },
+        "alternate_version": null
+    },
+    "254": {
+        "id": 254,
+        "name": "Korkki osui vuosip\u00e4iv\u00e4n juhlavieraaseen",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "255": {
+        "id": 255,
+        "name": "Vuosip\u00e4iv\u00e4n juhlavieras tajuton",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000",
+            "patient_specializations": "Syd\u00e4nleikkaus"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "256": {
+        "id": 256,
+        "name": "Ihmisi\u00e4 kadonnut tanssilattialta",
+        "place": "",
+        "place_array": {},
+        "average_credits": 7500,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "20 minuuttia",
+            "duration": 1200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "257": {
+        "id": 257,
+        "name": "Vuosip\u00e4iv\u00e4n ilmapallot t\u00e4ytett\u00e4v\u00e4",
+        "place": "",
+        "place_array": {},
+        "average_credits": 15000,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "ambulances": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "10 minuuttia",
+            "duration": 600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "258": {
+        "id": 258,
+        "name": "Vieras joi myrkytettyj\u00e4 juomia vuosip\u00e4iv\u00e4juhlassa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 18,
+            "possible_patient_min": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "to 08. huh 2021 klo 09.00:00 +0000",
+            "date_end": "su 11. huh 2021 klo 21.59:00 +0000",
+            "patient_specializations": "Yleiskirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 3,
+            "fire_stations": 6
         },
         "alternate_version": null
     },
