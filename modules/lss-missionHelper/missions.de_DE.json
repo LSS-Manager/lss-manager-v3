@@ -8144,16 +8144,15 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 27,
-                "2": 120,
-                "3": 121,
-                "4": 122,
-                "5": 123,
-                "6": 124,
-                "7": 125,
-                "8": 126,
-                "9": 127,
-                "10": 128
+                "1": 120,
+                "2": 121,
+                "3": 122,
+                "4": 123,
+                "5": 124,
+                "6": 125,
+                "7": 126,
+                "8": 127,
+                "9": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -10195,6 +10194,32 @@
             "mek": 1,
             "police_stations": 4,
             "police_helicopter_stations": 1
+        },
+        "alternate_version": null
+    },
+    "360": {
+        "id": 360,
+        "name": "Brennender Blumenstrau\u00df",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Freitag, 07. Mai 2021, 10:00 Uhr",
+            "date_end": "Sonntag, 09. Mai 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
         },
         "alternate_version": null
     },
@@ -18371,6 +18396,40 @@
             "thw_zugtrupp_count": 1,
             "thw_gkw_count": 1,
             "fire_stations": 16
+        },
+        "alternate_version": null
+    },
+    "625": {
+        "id": 625,
+        "name": "Person steckt mit Hand in Kanaldeckel",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "nef": 10,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Allgemeine Chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 1
         },
         "alternate_version": null
     }
