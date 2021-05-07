@@ -749,6 +749,33 @@
         },
         "alternate_version": null
     },
+    "27": {
+        "id": 27,
+        "name": "Auffahrunfall",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
     "28": {
         "id": 28,
         "name": "Garagenbrand",
@@ -1481,6 +1508,160 @@
         },
         "prerequisites": {
             "fire_stations": 12
+        },
+        "alternate_version": null
+    },
+    "52": {
+        "id": 52,
+        "name": "Brand auf Weihnachtsmarkt",
+        "place": "Weihnachtsmarkt",
+        "place_array": {
+            "0": "Weihnachtsmarkt"
+        },
+        "average_credits": 310,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "nef": 10,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Dienstag, 01. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "53": {
+        "id": 53,
+        "name": "Verkehrsunfall durch Glatteis",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1410,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 100,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "date_start": "Dienstag, 01. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "54": {
+        "id": 54,
+        "name": "Personenschaden durch Verbrennung",
+        "place": "Weihnachtsmarkt",
+        "place_array": {
+            "0": "Weihnachtsmarkt"
+        },
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 40,
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dienstag, 01. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "55": {
+        "id": 55,
+        "name": "Brennender Tannenbaum",
+        "place": "",
+        "place_array": {},
+        "average_credits": 870,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dienstag, 01. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "56": {
+        "id": 56,
+        "name": "Betrunkene Person auf Weihnachtsmarkt",
+        "place": "Weihnachtsmarkt",
+        "place_array": {
+            "0": "Weihnachtsmarkt"
+        },
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dienstag, 01. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         },
         "alternate_version": null
     },
@@ -2420,6 +2601,32 @@
         },
         "alternate_version": null
     },
+    "88": {
+        "id": 88,
+        "name": "Brennender Bollerwagen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mittwoch, 20. Mai 2020, 10:00 Uhr",
+            "date_end": "Freitag, 22. Mai 2020, 10:00 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
     "89": {
         "id": 89,
         "name": "LKW Auffahrunfall",
@@ -3114,6 +3321,256 @@
         },
         "alternate_version": null
     },
+    "111": {
+        "id": 111,
+        "name": "Brennende Vogelscheuche",
+        "place": "",
+        "place_array": {},
+        "average_credits": 350,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "112": {
+        "id": 112,
+        "name": "Brennendes K\u00fcrbisfeld",
+        "place": "",
+        "place_array": {},
+        "average_credits": 850,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "113": {
+        "id": 113,
+        "name": "K\u00fcrbissuppe \u00fcbergekocht",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 50,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr",
+            "patient_specializations": "Neurologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "114": {
+        "id": 114,
+        "name": "Hexe h\u00e4ngt in Baum",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "115": {
+        "id": 115,
+        "name": "Zombiebiss",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dienstag, 28. Oktober 2014, 00:00 Uhr",
+            "date_end": "Dienstag, 04. November 2014, 23:59 Uhr",
+            "patient_specializations": "Neurologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "116": {
+        "id": 116,
+        "name": "Monster ausgebrochen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "117": {
+        "id": 117,
+        "name": "K\u00fcrbisse geklaut",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "118": {
+        "id": 118,
+        "name": "Frankenstein gesichtet",
+        "place": "",
+        "place_array": {},
+        "average_credits": 550,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "119": {
+        "id": 119,
+        "name": "S\u00fc\u00dfigkeitendiebstahl",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
     "120": {
         "id": 120,
         "name": "LKW umgest\u00fcrzt",
@@ -3433,6 +3890,64 @@
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "129": {
+        "id": 129,
+        "name": "Brennender Adventskranz",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dienstag, 01. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "130": {
+        "id": 130,
+        "name": "Rangelei auf Weihnachtsmarkt",
+        "place": "Weihnachtsmarkt",
+        "place_array": {
+            "0": "Weihnachtsmarkt"
+        },
+        "average_credits": 600,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dienstag, 01. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "police_stations": 2
         },
         "alternate_version": null
     },
@@ -4005,8 +4520,9 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -5047,6 +5563,98 @@
         },
         "alternate_version": null
     },
+    "183": {
+        "id": 183,
+        "name": "Sonnenstich",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 0,
+            "patient_other_treatment": 5,
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
+            "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "184": {
+        "id": 184,
+        "name": "Hitzschlag",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 40,
+            "patient_other_treatment": 2,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
+            "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
+    "185": {
+        "id": 185,
+        "name": "Hitzekrampf",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 80,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
+            "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        },
+        "alternate_version": null
+    },
     "186": {
         "id": 186,
         "name": "Lagerhallenbrand",
@@ -5548,6 +6156,67 @@
         },
         "alternate_version": null
     },
+    "202": {
+        "id": 202,
+        "name": "Diebstahl auf Weihnachtsmarkt",
+        "place": "Weihnachtsmarkt",
+        "place_array": {
+            "0": "Weihnachtsmarkt"
+        },
+        "average_credits": 300,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dienstag, 01. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "203": {
+        "id": 203,
+        "name": "Brennende Weihnachtsmarktbude",
+        "place": "Weihnachtsmarkt",
+        "place_array": {
+            "0": "Weihnachtsmarkt"
+        },
+        "average_credits": 610,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {
+            "nef": 10,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Dienstag, 01. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
     "204": {
         "id": 204,
         "name": "Scheunenbrand",
@@ -6036,6 +6705,136 @@
             "rescue_stations": 5,
             "police_stations": 4,
             "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "216": {
+        "id": 216,
+        "name": "Brennender Bollerwagen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mittwoch, 20. Mai 2020, 10:00 Uhr",
+            "date_end": "Freitag, 22. Mai 2020, 10:00 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "217": {
+        "id": 217,
+        "name": "Brennender Bollerwagen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mittwoch, 20. Mai 2020, 10:00 Uhr",
+            "date_end": "Freitag, 22. Mai 2020, 10:00 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "218": {
+        "id": 218,
+        "name": "Brennender Bollerwagen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mittwoch, 20. Mai 2020, 10:00 Uhr",
+            "date_end": "Freitag, 22. Mai 2020, 10:00 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "219": {
+        "id": 219,
+        "name": "Brennender Bollerwagen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mittwoch, 20. Mai 2020, 10:00 Uhr",
+            "date_end": "Freitag, 22. Mai 2020, 10:00 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "220": {
+        "id": 220,
+        "name": "Brennender Bollerwagen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mittwoch, 20. Mai 2020, 10:00 Uhr",
+            "date_end": "Freitag, 22. Mai 2020, 10:00 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
         },
         "alternate_version": null
     },
@@ -7351,6 +8150,351 @@
         },
         "alternate_version": null
     },
+    "259": {
+        "id": 259,
+        "name": "Brennender PKW durch Feuerwerksk\u00f6rper",
+        "place": "",
+        "place_array": {},
+        "average_credits": 370,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 28,
+                "1": 138,
+                "2": 141,
+                "3": 146
+            },
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 28. Dezember 2020, 10:00 Uhr",
+            "date_end": "Freitag, 01. Januar 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "260": {
+        "id": 260,
+        "name": "Sperrm\u00fcllbrand durch Feuerwerksk\u00f6rper",
+        "place": "",
+        "place_array": {},
+        "average_credits": 220,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 28. Dezember 2020, 10:00 Uhr",
+            "date_end": "Freitag, 01. Januar 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "261": {
+        "id": 261,
+        "name": "Kleiner Feldbrand durch Feuerwerksk\u00f6rper",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 28. Dezember 2020, 10:00 Uhr",
+            "date_end": "Freitag, 01. Januar 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "262": {
+        "id": 262,
+        "name": "Kellerbrand durch Feuerwerksk\u00f6rper",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 28. Dezember 2020, 10:00 Uhr",
+            "date_end": "Freitag, 01. Januar 2021, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "263": {
+        "id": 263,
+        "name": "Brennendes Bus-H\u00e4uschen durch Feuerwerksk\u00f6rper",
+        "place": "Bushaltestelle",
+        "place_array": {
+            "0": "Bushaltestelle"
+        },
+        "average_credits": 900,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 28. Dezember 2020, 10:00 Uhr",
+            "date_end": "Freitag, 01. Januar 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "264": {
+        "id": 264,
+        "name": "Feuer auf Balkon durch Feuerwerksk\u00f6rper",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 447
+            },
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 28. Dezember 2020, 10:00 Uhr",
+            "date_end": "Freitag, 01. Januar 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "265": {
+        "id": 265,
+        "name": "Brennende Papiercontainer durch Feuerwerksk\u00f6rper",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 28. Dezember 2020, 10:00 Uhr",
+            "date_end": "Freitag, 01. Januar 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "266": {
+        "id": 266,
+        "name": "Brennende Hecke durch Feuerwerksk\u00f6rper",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 28. Dezember 2020, 10:00 Uhr",
+            "date_end": "Freitag, 01. Januar 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "267": {
+        "id": 267,
+        "name": "Trunkenheitsfahrt nach Silvesterparty",
+        "place": "",
+        "place_array": {},
+        "average_credits": 150,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Montag, 28. Dezember 2020, 10:00 Uhr",
+            "date_end": "Freitag, 01. Januar 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "268": {
+        "id": 268,
+        "name": "Brennendes Reetdachhaus durch Feuerwerksk\u00f6rper",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4200,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "nef": 50,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 28. Dezember 2020, 10:00 Uhr",
+            "date_end": "Freitag, 01. Januar 2021, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "269": {
+        "id": 269,
+        "name": "Kfz durch Feuerwerksk\u00f6rper besch\u00e4digt",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Montag, 28. Dezember 2020, 10:00 Uhr",
+            "date_end": "Freitag, 01. Januar 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "270": {
+        "id": 270,
+        "name": "Versto\u00df gegen Sprengstoffverordnung",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Montag, 28. Dezember 2020, 10:00 Uhr",
+            "date_end": "Freitag, 01. Januar 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
     "271": {
         "id": 271,
         "name": "Besch\u00e4digter Kesselwagen",
@@ -7810,6 +8954,246 @@
         },
         "alternate_version": null
     },
+    "284": {
+        "id": 284,
+        "name": "Ostereier-Dieb",
+        "place": "",
+        "place_array": {},
+        "average_credits": 100,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Freitag, 26. M\u00e4rz 2021, 10:00 Uhr",
+            "date_end": "Montag, 05. April 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "285": {
+        "id": 285,
+        "name": "Pinsel aus Werkstatt entwendet",
+        "place": "Schule",
+        "place_array": {
+            "0": "Schule"
+        },
+        "average_credits": 150,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Freitag, 26. M\u00e4rz 2021, 10:00 Uhr",
+            "date_end": "Montag, 05. April 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "286": {
+        "id": 286,
+        "name": "Eingest\u00fcrzter Hasenbau",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1020,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "thw_gkw": 1,
+            "thw_mtwtz": 1,
+            "thw_brmg_r": 1,
+            "thw_lkw": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "technical_aid_organization_missions",
+            "date_start": "Freitag, 26. M\u00e4rz 2021, 10:00 Uhr",
+            "date_end": "Montag, 05. April 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "thw": 1
+        },
+        "alternate_version": null
+    },
+    "287": {
+        "id": 287,
+        "name": "Angefahrener Osterhase",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 38
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Freitag, 26. M\u00e4rz 2021, 10:00 Uhr",
+            "date_end": "Montag, 05. April 2021, 23:59 Uhr",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "288": {
+        "id": 288,
+        "name": "Brennendes Osternest",
+        "place": "",
+        "place_array": {},
+        "average_credits": 110,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Freitag, 26. M\u00e4rz 2021, 10:00 Uhr",
+            "date_end": "Montag, 05. April 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "289": {
+        "id": 289,
+        "name": "Schokoladenspur auf Strasse",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "allow_gwoil_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "date_start": "Freitag, 26. M\u00e4rz 2021, 10:00 Uhr",
+            "date_end": "Montag, 05. April 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "290": {
+        "id": 290,
+        "name": "Eierkocherbrand",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Freitag, 26. M\u00e4rz 2021, 10:00 Uhr",
+            "date_end": "Montag, 05. April 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "max_police_stations": 7,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "291": {
+        "id": 291,
+        "name": "Hasentreffen in Ostereistedt",
+        "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
+        "average_credits": 7000,
+        "generated_by": "Bereitschaftspolizei",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 4,
+            "lebefkw": 3,
+            "police_cars": 4,
+            "grukw": 9,
+            "fukw": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2 Stunden",
+            "duration": 7200,
+            "guard_mission": true,
+            "filter_id": "riot_police_missions",
+            "allow_ktw_instead_of_rtw": true,
+            "date_start": "Freitag, 26. M\u00e4rz 2021, 10:00 Uhr",
+            "date_end": "Montag, 05. April 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 7,
+            "bereitschaftspolizei": 1,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
     "292": {
         "id": 292,
         "name": "Tankbetrug",
@@ -8144,15 +9528,16 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 120,
-                "2": 121,
-                "3": 122,
-                "4": 123,
-                "5": 124,
-                "6": 125,
-                "7": 126,
-                "8": 127,
-                "9": 128
+                "1": 27,
+                "2": 120,
+                "3": 121,
+                "4": 122,
+                "5": 123,
+                "6": 124,
+                "7": 125,
+                "8": 126,
+                "9": 127,
+                "10": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -9049,6 +10434,36 @@
             "police_stations": 6,
             "police_helicopter_stations": 1,
             "bereitschaftspolizei": 3
+        },
+        "alternate_version": null
+    },
+    "326": {
+        "id": 326,
+        "name": "Handverletzung durch Feuerwerksk\u00f6rper",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 80,
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Montag, 28. Dezember 2020, 10:00 Uhr",
+            "date_end": "Freitag, 01. Januar 2021, 23:59 Uhr",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
         },
         "alternate_version": null
     },
@@ -10411,6 +11826,162 @@
         },
         "prerequisites": {
             "police_stations": 4
+        },
+        "alternate_version": null
+    },
+    "371": {
+        "id": 371,
+        "name": "Fu\u00dfball aufpumpen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "372": {
+        "id": 372,
+        "name": "Mannschaftsbus in Halteverbot abgestellt",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "373": {
+        "id": 373,
+        "name": "Behandlung nach Schwalbe",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 0,
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
+            "patient_specializations": "Allgemeine Chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "374": {
+        "id": 374,
+        "name": "Prellung nach Lattenpraller",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 0,
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
+            "patient_specializations": "Allgemeine Chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "375": {
+        "id": 375,
+        "name": "Tor gefallen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "376": {
+        "id": 376,
+        "name": "Pokal geklaut",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
         },
         "alternate_version": null
     },
@@ -12145,6 +13716,42 @@
         },
         "alternate_version": null
     },
+    "428": {
+        "id": 428,
+        "name": "Schneelast auf Dach",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/snowy_gruen.png",
+            "1": "/images/snowy_gelb.png",
+            "2": "/images/snowy_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "height_rescue_units": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "platform_trucks": 50,
+            "heavy_rescue_vehicles": 20,
+            "height_rescue_units": 5
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
+            "date_end": "Freitag, 12. Februar 2021, 10:00 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
     "429": {
         "id": 429,
         "name": "Staubexplosion",
@@ -12660,6 +14267,154 @@
         },
         "alternate_version": null
     },
+    "442": {
+        "id": 442,
+        "name": "Osterei in Wasser",
+        "place": "See",
+        "place_array": {
+            "0": "See"
+        },
+        "average_credits": 1000,
+        "generated_by": "Wasserrettung",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "boats": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "water_watch_missions",
+            "date_start": "Freitag, 26. M\u00e4rz 2021, 10:00 Uhr",
+            "date_end": "Montag, 05. April 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "wasserrettung": 1
+        },
+        "alternate_version": null
+    },
+    "443": {
+        "id": 443,
+        "name": "Osterei-LKW umgest\u00fcrzt",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2200,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "fwk": 75,
+            "nef": 50,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Freitag, 26. M\u00e4rz 2021, 10:00 Uhr",
+            "date_end": "Montag, 05. April 2021, 23:59 Uhr",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "max_police_stations": 3,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "444": {
+        "id": 444,
+        "name": "Schwerpunkteinsatz Ostereiersuche",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Bereitschaftspolizei",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "lebefkw": 1,
+            "grukw": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "riot_police_missions",
+            "date_start": "Freitag, 26. M\u00e4rz 2021, 10:00 Uhr",
+            "date_end": "Montag, 05. April 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "bereitschaftspolizei": 1
+        },
+        "alternate_version": null
+    },
+    "445": {
+        "id": 445,
+        "name": "Ei rollt in Schlangenlinien",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Freitag, 26. M\u00e4rz 2021, 10:00 Uhr",
+            "date_end": "Montag, 05. April 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "446": {
+        "id": 446,
+        "name": "Osterhase auf Kran",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "height_rescue_units": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Freitag, 26. M\u00e4rz 2021, 10:00 Uhr",
+            "date_end": "Montag, 05. April 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 12
+        },
+        "alternate_version": null
+    },
     "447": {
         "id": 447,
         "name": "Eingest\u00fcrzter Balkon",
@@ -12846,6 +14601,162 @@
         },
         "alternate_version": null
     },
+    "452": {
+        "id": 452,
+        "name": "Brennender Bollerwagen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mittwoch, 20. Mai 2020, 10:00 Uhr",
+            "date_end": "Freitag, 22. Mai 2020, 10:00 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "453": {
+        "id": 453,
+        "name": "Brennender Bollerwagen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mittwoch, 20. Mai 2020, 10:00 Uhr",
+            "date_end": "Freitag, 22. Mai 2020, 10:00 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "454": {
+        "id": 454,
+        "name": "Brennender Bollerwagen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mittwoch, 20. Mai 2020, 10:00 Uhr",
+            "date_end": "Freitag, 22. Mai 2020, 10:00 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "455": {
+        "id": 455,
+        "name": "Brennender Bollerwagen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mittwoch, 20. Mai 2020, 10:00 Uhr",
+            "date_end": "Freitag, 22. Mai 2020, 10:00 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "456": {
+        "id": 456,
+        "name": "Brennender Bollerwagen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mittwoch, 20. Mai 2020, 10:00 Uhr",
+            "date_end": "Freitag, 22. Mai 2020, 10:00 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "457": {
+        "id": 457,
+        "name": "Brennender Bollerwagen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mittwoch, 20. Mai 2020, 10:00 Uhr",
+            "date_end": "Freitag, 22. Mai 2020, 10:00 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
     "458": {
         "id": 458,
         "name": "Schwerlastkontrolle",
@@ -12948,6 +14859,36 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "461": {
+        "id": 461,
+        "name": "Dehydrierte Person",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 10,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
+            "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
         },
         "alternate_version": null
     },
@@ -16303,6 +18244,99 @@
         },
         "alternate_version": null
     },
+    "546": {
+        "id": 546,
+        "name": "Hitzschlagvorsorge bei Stau",
+        "place": "Autobahnauf.- / abfahrt",
+        "place_array": {
+            "0": "Autobahnauf.- / abfahrt"
+        },
+        "average_credits": 5000,
+        "generated_by": "SEG",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "ambulances": 4,
+            "gw_san": 1,
+            "police_cars": 2,
+            "seg_elw": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "4 Stunden",
+            "duration": 14400,
+            "guard_mission": true,
+            "filter_id": "rapid_deployment_group_missions",
+            "allow_ktw_instead_of_rtw": true,
+            "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
+            "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "seg": 2
+        },
+        "alternate_version": null
+    },
+    "547": {
+        "id": 547,
+        "name": "Badestellen\u00fcberwachung",
+        "place": "See",
+        "place_array": {
+            "0": "See"
+        },
+        "average_credits": 1600,
+        "generated_by": "Wasserrettung",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "boats": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2 Stunden",
+            "duration": 7200,
+            "guard_mission": true,
+            "filter_id": "water_watch_missions",
+            "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
+            "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr"
+        },
+        "prerequisites": {
+            "wasserrettung": 1
+        },
+        "alternate_version": null
+    },
+    "548": {
+        "id": 548,
+        "name": "Grillbrand",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
+            "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
     "549": {
         "id": 549,
         "name": "Absicherung Geldtransport",
@@ -17499,6 +19533,364 @@
         },
         "alternate_version": null
     },
+    "582": {
+        "id": 582,
+        "name": "Gest\u00fcrzter Schlittschuhl\u00e4ufer",
+        "place": "See",
+        "place_array": {
+            "0": "See"
+        },
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/snowy_gruen.png",
+            "1": "/images/snowy_gelb.png",
+            "2": "/images/snowy_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 10,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Freitag, 18. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "583": {
+        "id": 583,
+        "name": "Massenanfall durch Lebkuchenverzehr (klein)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "gwmess": 1,
+            "police_cars": 2,
+            "hazmat_dekon": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 5,
+            "gwmess": 15,
+            "hazmat_dekon": 10,
+            "nef": 20,
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 25,
+            "possible_patient_min": 10,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Freitag, 18. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 2,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "584": {
+        "id": 584,
+        "name": "Massenanfall durch Lebkuchenverzehr (gro\u00df)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "gwmess": 1,
+            "police_cars": 6,
+            "hazmat_dekon": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 10,
+            "gwmess": 20,
+            "hazmat_dekon": 5,
+            "nef": 20,
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 70,
+            "possible_patient_min": 35,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Freitag, 18. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 15,
+            "police_stations": 5,
+            "fire_stations": 11
+        },
+        "alternate_version": null
+    },
+    "585": {
+        "id": 585,
+        "name": "Massenanfall durch Lebkuchenverzehr (riesig)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 14000,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 16,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "gwmess": 1,
+            "police_cars": 14,
+            "hazmat_dekon": 1
+        },
+        "chances": {
+            "mobile_command_vehicles": 50,
+            "mobile_air_vehicles": 25,
+            "gwmess": 50,
+            "nef": 20,
+            "patient_transport": 25,
+            "helicopter": 2
+        },
+        "additional": {
+            "possible_patient": 250,
+            "possible_patient_min": 120,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Freitag, 18. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 46,
+            "police_stations": 9,
+            "fire_stations": 16
+        },
+        "alternate_version": null
+    },
+    "586": {
+        "id": 586,
+        "name": "Weihnachtsschlitten in Baum",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "height_rescue_units": 1
+        },
+        "chances": {
+            "fwk": 10,
+            "nef": 10,
+            "patient_transport": 50,
+            "height_rescue_units": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "date_start": "Freitag, 18. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "587": {
+        "id": 587,
+        "name": "Weihnachtsmann in Kamin steckengeblieben",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "fwk": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "nef": 10,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "date_start": "Freitag, 18. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "588": {
+        "id": 588,
+        "name": "Betrunkener Weihnachtsmann",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 5,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Freitag, 18. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "589": {
+        "id": 589,
+        "name": "Verkehrsunsicherer Rentierschlitten",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Freitag, 18. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "590": {
+        "id": 590,
+        "name": "Diebstahl aus Weihnachtsb\u00e4ckerei",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Freitag, 18. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "591": {
+        "id": 591,
+        "name": "Fassadenbrand durch Feuerwerksbatterien",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 10,
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 28. Dezember 2020, 10:00 Uhr",
+            "date_end": "Freitag, 01. Januar 2021, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
     "592": {
         "id": 592,
         "name": "Unangemeldete Demonstration (Gro\u00df)",
@@ -17687,6 +20079,265 @@
             "rescue_stations": 5,
             "police_stations": 3,
             "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "597": {
+        "id": 597,
+        "name": "Paar hat zu viel Schokolade gegessen",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
+            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "598": {
+        "id": 598,
+        "name": "Schmetterlinge im Bauch",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
+            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "599": {
+        "id": 599,
+        "name": "Schock durch Heiratsantrag",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
+            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr",
+            "patient_specializations": "Kardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "600": {
+        "id": 600,
+        "name": "Gebrochenes Herz",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
+            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr",
+            "patient_specializations": "Kardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "601": {
+        "id": 601,
+        "name": "Valentinsdekoration in Restaurant brennt",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
+            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "602": {
+        "id": 602,
+        "name": "Feuer durch Abendessen bei Kerzenlicht",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
+            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "603": {
+        "id": 603,
+        "name": "Suche nach nicht vorhandenem Partner",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
+            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "604": {
+        "id": 604,
+        "name": "L\u00e4rmbeschwerde wegen streitendem Paar",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
+            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "605": {
+        "id": 605,
+        "name": "Herz gestohlen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
+            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 2
         },
         "alternate_version": null
     },
@@ -18135,6 +20786,49 @@
             "thw_zugtrupp_count": 1,
             "thw_gkw_count": 2,
             "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "618": {
+        "id": 618,
+        "name": "Massenanfall von Osterhasen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "gwmess": 1,
+            "police_cars": 6,
+            "hazmat_dekon": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 10,
+            "gwmess": 20,
+            "hazmat_dekon": 5,
+            "nef": 20,
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 70,
+            "possible_patient_min": 35,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Freitag, 26. M\u00e4rz 2021, 10:00 Uhr",
+            "date_end": "Montag, 05. April 2021, 23:59 Uhr",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 15,
+            "police_stations": 5,
+            "fire_stations": 11
         },
         "alternate_version": null
     },
