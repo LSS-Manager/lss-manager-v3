@@ -24906,6 +24906,122 @@
         },
         "alternate_version": null
     },
+    "778": {
+        "id": 778,
+        "name": "Brand in houtzagerij",
+        "place": "Bedrijventerrein",
+        "place_array": {
+            "0": "Bedrijventerrein"
+        },
+        "average_credits": 840,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 779,
+                "1": 780
+            },
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "779": {
+        "id": 779,
+        "name": "Brand in houtzagerij",
+        "place": "Bedrijventerrein",
+        "place_array": {
+            "0": "Bedrijventerrein"
+        },
+        "average_credits": 2280,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "expansion_missions_ids": {
+                "0": 780
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "780": {
+        "id": 780,
+        "name": "Brand in houtzagerij",
+        "place": "Bedrijventerrein",
+        "place_array": {
+            "0": "Bedrijventerrein"
+        },
+        "average_credits": 9670,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "elw3": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "gwmess": 3,
+            "hazmat_vehicles": 1,
+            "police_cars": 4,
+            "ovdp": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 5,
+            "fire_stations": 16
+        },
+        "alternate_version": null
+    },
     "788": {
         "id": 788,
         "name": "Iemand uitgegleden over gesmolten chocolade",
