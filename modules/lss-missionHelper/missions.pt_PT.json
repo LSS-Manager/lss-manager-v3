@@ -7828,5 +7828,36 @@
             "fire_stations": 15
         },
         "alternate_version": null
+    },
+    "272": {
+        "id": 272,
+        "name": "Ferimentos graves provocados por vidros",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Esta\u00e7\u00e3o de Ambul\u00e2ncias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cirurgia Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 1
+        },
+        "alternate_version": null
     }
 }

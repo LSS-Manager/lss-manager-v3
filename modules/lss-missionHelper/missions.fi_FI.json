@@ -8233,6 +8233,62 @@
         },
         "alternate_version": null
     },
+    "279": {
+        "id": 279,
+        "name": "511 Etsint\u00e4kuulutetun haku kotoa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "k9": 1
+        },
+        "chances": {
+            "k9": 40
+        },
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        },
+        "alternate_version": null
+    },
+    "280": {
+        "id": 280,
+        "name": "514 Todisteiden etsint\u00e4",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "k9": 1
+        },
+        "chances": {
+            "k9": 80
+        },
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "police_helicopter_stations": 1
+        },
+        "alternate_version": null
+    },
     "284": {
         "id": 284,
         "name": "Henkil\u00f6 liukastui sulaan suklaaseen",
@@ -8337,9 +8393,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 288
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions",
             "date_start": "pe 07. tou 2021 klo 09.00:00 +0000",
             "date_end": "su 09. tou 2021 klo 21.59:00 +0000"

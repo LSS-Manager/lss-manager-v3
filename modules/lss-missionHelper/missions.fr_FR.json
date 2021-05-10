@@ -9867,5 +9867,76 @@
             "rescue_stations": 3
         },
         "alternate_version": null
+    },
+    "328": {
+        "id": 328,
+        "name": "Petite \u00e9cole en feu",
+        "place": "\u00c9cole",
+        "place_array": {
+            "0": "\u00c9cole"
+        },
+        "average_credits": 3000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "kdow_orgl": 25,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 6,
+            "expansion_missions_ids": {},
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "329": {
+        "id": 329,
+        "name": "Grande \u00e9cole en feu",
+        "place": "\u00c9cole",
+        "place_array": {
+            "0": "\u00c9cole"
+        },
+        "average_credits": 5000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "kdow_orgl": 50,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 6
+        },
+        "alternate_version": null
     }
 }

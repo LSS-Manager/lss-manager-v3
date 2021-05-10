@@ -11212,5 +11212,56 @@
             "fire_stations": 6
         },
         "alternate_version": null
+    },
+    "379": {
+        "id": 379,
+        "name": "Po\u017car poddasza",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 8500,
+            "firetrucks": 5,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "380": {
+        "id": 380,
+        "name": "Po\u017car w ogrodzie",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 1000,
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        },
+        "alternate_version": null
     }
 }

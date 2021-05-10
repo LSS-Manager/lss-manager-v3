@@ -9220,6 +9220,77 @@
         },
         "alternate_version": null
     },
+    "307": {
+        "id": 307,
+        "name": "School fire (small)",
+        "place": "School",
+        "place_array": {
+            "0": "School"
+        },
+        "average_credits": 3000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "kdow_orgl": 25,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 6,
+            "expansion_missions_ids": {},
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "308": {
+        "id": 308,
+        "name": "School fire (large)",
+        "place": "School",
+        "place_array": {
+            "0": "School"
+        },
+        "average_credits": 5000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "kdow_orgl": 50,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
     "312": {
         "id": 312,
         "name": "Person slipped on molten chocolate",

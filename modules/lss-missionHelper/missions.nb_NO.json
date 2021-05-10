@@ -9054,5 +9054,78 @@
             "rescue_stations": 3
         },
         "alternate_version": null
+    },
+    "309": {
+        "id": 309,
+        "name": "Brann p\u00e5 skole (liten)",
+        "place": "Skole",
+        "place_array": {
+            "0": "Skole"
+        },
+        "average_credits": 3000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "kdow_orgl": 25,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 6,
+            "expansion_missions_ids": {
+                "0": 310
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "310": {
+        "id": 310,
+        "name": "Brann p\u00e5 skole (stor)",
+        "place": "Skole",
+        "place_array": {
+            "0": "Skole"
+        },
+        "average_credits": 5000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "kdow_orgl": 50,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 6
+        },
+        "alternate_version": null
     }
 }

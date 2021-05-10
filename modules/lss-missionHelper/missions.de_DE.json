@@ -11631,7 +11631,7 @@
         "additional": {
             "filter_id": "firehouse_missions",
             "date_start": "Freitag, 07. Mai 2021, 10:00 Uhr",
-            "date_end": "Sonntag, 09. Mai 2021, 23:59 Uhr"
+            "date_end": "Montag, 10. Mai 2021, 23:59 Uhr"
         },
         "prerequisites": {
             "fire_stations": 1

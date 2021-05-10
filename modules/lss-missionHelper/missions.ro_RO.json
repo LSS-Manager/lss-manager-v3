@@ -6950,5 +6950,78 @@
             "rescue_stations": 3
         },
         "alternate_version": null
+    },
+    "233": {
+        "id": 233,
+        "name": "\u0218coal\u0103 \u00een fl\u0103c\u0103ri (incendiu mic)",
+        "place": "\u0218coal\u0103",
+        "place_array": {
+            "0": "\u0218coal\u0103"
+        },
+        "average_credits": 3000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "kdow_orgl": 25,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 6,
+            "expansion_missions_ids": {
+                "0": 234
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "234": {
+        "id": 234,
+        "name": "\u0218coal\u0103 \u00een fl\u0103c\u0103ri (incendiu mare)",
+        "place": "\u0218coal\u0103",
+        "place_array": {
+            "0": "\u0218coal\u0103"
+        },
+        "average_credits": 5000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "kdow_orgl": 50,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 6
+        },
+        "alternate_version": null
     }
 }
