@@ -2132,31 +2132,6 @@
         },
         "alternate_version": null
     },
-    "77": {
-        "id": 77,
-        "name": "Pasienttransport",
-        "place": "",
-        "place_array": {},
-        "average_credits": null,
-        "generated_by": "Ambulansestasjon",
-        "icons": {
-            "0": "/images/ambulance_gruen.png",
-            "1": "/images/ambulance_gelb.png",
-            "2": "/images/ambulance_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 0
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "allow_ktw_instead_of_rtw": true
-        },
-        "prerequisites": {},
-        "alternate_version": null
-    },
     "78": {
         "id": 78,
         "name": "Hjertestans",

@@ -2601,32 +2601,6 @@
         },
         "alternate_version": null
     },
-    "88": {
-        "id": 88,
-        "name": "Brennender Bollerwagen",
-        "place": "",
-        "place_array": {},
-        "average_credits": 500,
-        "generated_by": "Feuerwache",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "Mittwoch, 20. Mai 2020, 10:00 Uhr",
-            "date_end": "Freitag, 22. Mai 2020, 10:00 Uhr"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        },
-        "alternate_version": null
-    },
     "89": {
         "id": 89,
         "name": "LKW Auffahrunfall",

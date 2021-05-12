@@ -4908,10 +4908,8 @@
     "169": {
         "id": 169,
         "name": "Transport mellan v\u00e5rdinr\u00e4ttningar",
-        "place": "Sjukhus",
-        "place_array": {
-            "0": "Sjukhus"
-        },
+        "place": "",
+        "place_array": {},
         "average_credits": null,
         "generated_by": "Ambulansstation",
         "icons": {
@@ -4919,21 +4917,17 @@
             "1": "/images/ambulance_gelb.png",
             "2": "/images/ambulance_rot.png"
         },
-        "requirements": {
-            "ambulances": 1
-        },
+        "requirements": {},
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 0
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "patient_specializations": "Inv\u00e4rtesmedicinare"
+            "allow_ktw_instead_of_rtw": true
         },
-        "prerequisites": {
-            "rescue_stations": 5
-        },
+        "prerequisites": {},
         "alternate_version": null
     },
     "170": {
@@ -8749,7 +8743,9 @@
         },
         "additional": {
             "possible_patient": 6,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 295
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },

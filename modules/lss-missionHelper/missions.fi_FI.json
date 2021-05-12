@@ -8393,7 +8393,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 288
+            },
             "filter_id": "firehouse_missions",
             "date_start": "pe 07. tou 2021 klo 09.00:00 +0000",
             "date_end": "su 09. tou 2021 klo 21.59:00 +0000"

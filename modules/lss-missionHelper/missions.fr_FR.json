@@ -9893,7 +9893,9 @@
         },
         "additional": {
             "possible_patient": 6,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 329
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
