@@ -12234,12 +12234,22 @@
             "police_cars": 1
         },
         "chances": {
-            "patient_transport": 38
+            "patient_transport": 70
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "SC01G",
+                "1": "SC01R"
+            },
             "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "date_start": "Ven, 26 Mar 2021 10:00:00 +0000",
             "date_end": "Lun, 05 Apr 2021 23:59:00 +0200",
             "patient_specializations": "Traumatologia"
@@ -12735,12 +12745,11 @@
             "police_cars": 4
         },
         "chances": {
-            "patient_transport": 100,
+            "patient_transport": 90,
             "helicopter": 10
         },
         "additional": {
-            "possible_patient": 3,
-            "possible_patient_min": 1,
+            "possible_patient": 2,
             "patient_it_code_possible": {
                 "0": "KC03R",
                 "1": "KC03G",
@@ -12887,7 +12896,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 367
+            },
             "filter_id": "firehouse_missions",
             "date_start": "Ven, 07 Mag 2021 09:00:00 +0000",
             "date_end": "Dom, 09 Mag 2021 21:59:00 +0000"

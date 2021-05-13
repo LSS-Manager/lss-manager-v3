@@ -20599,7 +20599,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 583
+            },
             "filter_id": "firehouse_missions",
             "date_start": "Fri, 07 May 2021 09:00:00 +0000",
             "date_end": "Sun, 09 May 2021 21:59:00 +0000"
@@ -20673,9 +20675,9 @@
     "585": {
         "id": 585,
         "name": "Motorcross Accident",
-        "place": "Carpentry Workshop",
+        "place": "Dirt Race Track",
         "place_array": {
-            "0": "Carpentry Workshop"
+            "0": "Dirt Race Track"
         },
         "average_credits": null,
         "generated_by": "Ambulance station",
@@ -20687,8 +20689,7 @@
         "requirements": {},
         "chances": {
             "patient_transport": 100,
-            "helicopter": 5,
-            "patient_critical_care": 25
+            "helicopter": 5
         },
         "additional": {
             "possible_patient": 3,
