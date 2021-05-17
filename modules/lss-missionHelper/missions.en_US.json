@@ -20704,5 +20704,41 @@
             "rescue_stations": 3
         },
         "alternate_version": null
+    },
+    "586": {
+        "id": 586,
+        "name": "Flat fire in sheltered housing",
+        "place": "Sheltered housing facility",
+        "place_array": {
+            "0": "Sheltered housing facility"
+        },
+        "average_credits": 3500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-A-3"
+            },
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 8
+        },
+        "alternate_version": null
     }
 }
