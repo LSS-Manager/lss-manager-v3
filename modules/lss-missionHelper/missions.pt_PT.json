@@ -7859,5 +7859,33 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "273": {
+        "id": 273,
+        "name": "Suspeito sob observa\u00e7\u00e3o",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hora",
+            "duration": 3600,
+            "max_possible_prisoners": 1,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
     }
 }

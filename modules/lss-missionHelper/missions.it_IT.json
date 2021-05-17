@@ -13014,5 +13014,77 @@
             "rescue_stations": 1
         },
         "alternate_version": null
+    },
+    "370": {
+        "id": 370,
+        "name": "Allarme Antifurto Auto",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "371": {
+        "id": 371,
+        "name": "Cattura Latitante",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5200,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "swat_suv": 2,
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "k9": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 4,
+            "patient_it_code_possible": {
+                "0": "KC01R",
+                "1": "KC01G",
+                "2": "KC01V"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 8,
+            "police_helicopter_stations": 1
+        },
+        "alternate_version": null
     }
 }

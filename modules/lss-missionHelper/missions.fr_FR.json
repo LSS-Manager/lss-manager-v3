@@ -9940,5 +9940,39 @@
             "fire_stations": 6
         },
         "alternate_version": null
+    },
+    "330": {
+        "id": 330,
+        "name": "Feu d'appartement dans une r\u00e9sidence prot\u00e9g\u00e9e",
+        "place": "R\u00e9sidence Prot\u00e9g\u00e9e",
+        "place_array": {
+            "0": "R\u00e9sidence Prot\u00e9g\u00e9e"
+        },
+        "average_credits": 3500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 8
+        },
+        "alternate_version": null
     }
 }

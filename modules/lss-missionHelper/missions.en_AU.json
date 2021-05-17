@@ -9293,6 +9293,40 @@
         },
         "alternate_version": null
     },
+    "309": {
+        "id": 309,
+        "name": "Flat Fire in Sheltered Housing",
+        "place": "Sheltered housing facility",
+        "place_array": {
+            "0": "Sheltered housing facility"
+        },
+        "average_credits": 3500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
     "312": {
         "id": 312,
         "name": "Person slipped on molten chocolate",

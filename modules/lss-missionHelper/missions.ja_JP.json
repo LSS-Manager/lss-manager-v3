@@ -7210,5 +7210,39 @@
             "fire_stations": 6
         },
         "alternate_version": null
+    },
+    "241": {
+        "id": 241,
+        "name": "\u990a\u8b77\u65bd\u8a2d\u706b\u707d",
+        "place": "\u990a\u8b77\u65bd\u8a2d",
+        "place_array": {
+            "0": "\u990a\u8b77\u65bd\u8a2d"
+        },
+        "average_credits": 3500,
+        "generated_by": "\u6d88\u9632\u5c40",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u4e00\u822c\u5916\u79d1"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 8
+        },
+        "alternate_version": null
     }
 }
