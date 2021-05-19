@@ -156,7 +156,8 @@
                 94: 'DHuFüKw',
                 95: 'Polizeimotorrad',
                 96: 'Außenlastbehälter (allgemein)',
-                97: 'ITW'
+                97: 'ITW',
+                98: 'Zivilstreifenwagen'
             }
         }
     };

@@ -688,7 +688,8 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2
+                "1": 2,
+                "2": 29
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -8304,13 +8305,13 @@
         },
         "requirements": {
             "police_helicopters": 1,
-            "police_cars": 12,
+            "police_cars": 10,
             "k9": 3
         },
         "chances": {},
         "additional": {
             "max_possible_prisoners": 7,
-            "swat_personnel": 16,
+            "swat_personnel": 12,
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
