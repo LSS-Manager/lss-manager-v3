@@ -17706,12 +17706,12 @@
         "name": "Hennepkwekerij aangetroffen",
         "place": "",
         "place_array": {},
-        "average_credits": 500,
+        "average_credits": 840,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
-            "0": "/images/gas_gruen.png",
-            "1": "/images/gas_gelb.png",
-            "2": "/images/gas_rot.png"
+            "0": "/images/cannabis_gruen.png",
+            "1": "/images/cannabis_gelb.png",
+            "2": "/images/cannabis_rot.png"
         },
         "requirements": {
             "police_cars": 3
@@ -24725,7 +24725,7 @@
             "police_cars": 2
         },
         "chances": {
-            "nef": 100,
+            "nef": 40,
             "patient_transport": 100
         },
         "additional": {
@@ -24770,7 +24770,7 @@
             "ovdp": 1
         },
         "chances": {
-            "nef": 100,
+            "nef": 40,
             "patient_transport": 100
         },
         "additional": {
@@ -25076,7 +25076,7 @@
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
-            "rescue_stations": 1
+            "rescue_stations": 10
         },
         "alternate_version": null
     },

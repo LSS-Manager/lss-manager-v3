@@ -8284,8 +8284,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
-            "police_stations": 6,
-            "police_helicopter_stations": 1
+            "police_stations": 6
         },
         "alternate_version": null
     },
