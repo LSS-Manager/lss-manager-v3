@@ -549,7 +549,10 @@ else if (I18n.locale == "nl_NL") {
         "61": ["SLH | Slangenhaakarmbak", 0],
         "62": ["TS-HV | Tankautospuit-Hulpverlening", 0],
         "63": ["DM-RR | Rapid Responder - Motor", 1],
-        "64": ["ME-AE | ME - Aanhoudingseenheid"]
+        "64": ["ME-AE | ME - Aanhoudingseenheid", 2],
+        "65": ["DAT-RB | Dienstauto Terreinwaardig - Reddingsbrigade", 4],
+        "66": ["KHV | Kusthulpverleningsvoertuig", 4],
+        "67": ["BA-RB | Bootaanhanger Reddingsbrigade", 4]
     };
 }
 else if (I18n.locale == "de_DE") {

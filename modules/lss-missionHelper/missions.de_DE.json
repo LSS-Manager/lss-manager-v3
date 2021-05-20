@@ -9550,15 +9550,16 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 120,
-                "2": 121,
-                "3": 122,
-                "4": 123,
-                "5": 124,
-                "6": 125,
-                "7": 126,
-                "8": 127,
-                "9": 128
+                "1": 27,
+                "2": 120,
+                "3": 121,
+                "4": 122,
+                "5": 123,
+                "6": 124,
+                "7": 125,
+                "8": 126,
+                "9": 127,
+                "10": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -21424,7 +21425,8 @@
             "need_k9_only_if_guard_dogs_present": true
         },
         "prerequisites": {
-            "police_stations": 2
+            "police_stations": 2,
+            "criminal_investigation_count": 1
         },
         "alternate_version": null
     },
@@ -21457,7 +21459,8 @@
         },
         "prerequisites": {
             "police_stations": 3,
-            "guard_dog_count": 1
+            "guard_dog_count": 1,
+            "criminal_investigation_count": 1
         },
         "alternate_version": null
     },
@@ -21490,7 +21493,8 @@
         "prerequisites": {
             "police_stations": 4,
             "police_helicopter_stations": 1,
-            "guard_dog_count": 1
+            "guard_dog_count": 1,
+            "criminal_investigation_count": 1
         },
         "alternate_version": null
     },
