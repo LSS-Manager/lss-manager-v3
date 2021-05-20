@@ -4529,9 +4529,8 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 27,
-                "1": 43,
-                "2": 83
+                "0": 43,
+                "1": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -21426,7 +21425,8 @@
             "need_k9_only_if_guard_dogs_present": true
         },
         "prerequisites": {
-            "police_stations": 2
+            "police_stations": 2,
+            "criminal_investigation_count": 1
         },
         "alternate_version": null
     },
@@ -21459,7 +21459,8 @@
         },
         "prerequisites": {
             "police_stations": 3,
-            "guard_dog_count": 1
+            "guard_dog_count": 1,
+            "criminal_investigation_count": 1
         },
         "alternate_version": null
     },
@@ -21492,7 +21493,8 @@
         "prerequisites": {
             "police_stations": 4,
             "police_helicopter_stations": 1,
-            "guard_dog_count": 1
+            "guard_dog_count": 1,
+            "criminal_investigation_count": 1
         },
         "alternate_version": null
     },

@@ -1354,7 +1354,10 @@
                 6: "MMT Standplaats",
                 9: "Politiehelikopter standplaats",
                 11: "Politie, Hoofdbureau",
-                13: "Ambulance, VWS-post"
+                13: "Ambulance, VWS-post",
+                14: "Groot gebouwencomplex",
+                15: "Klein gebouwencomplex",
+                16: "Waterreddingspost"
             },
             vehicleTypes: {
                 0: 'SI-2',
@@ -1421,7 +1424,10 @@
                 61: 'SLH',
                 62: 'TS-HV',
                 63: 'DM-RR',
-                64: 'ME-AE'
+                64: 'ME-AE',
+                65: 'DAT-RB',
+                66: 'KHV',
+                67: 'BA-RB'
             }
         }
     };

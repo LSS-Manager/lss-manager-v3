@@ -17706,12 +17706,12 @@
         "name": "Hennepkwekerij aangetroffen",
         "place": "",
         "place_array": {},
-        "average_credits": 500,
+        "average_credits": 840,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
-            "0": "/images/gas_gruen.png",
-            "1": "/images/gas_gelb.png",
-            "2": "/images/gas_rot.png"
+            "0": "/images/cannabis_gruen.png",
+            "1": "/images/cannabis_gelb.png",
+            "2": "/images/cannabis_rot.png"
         },
         "requirements": {
             "police_cars": 3
@@ -24725,7 +24725,7 @@
             "police_cars": 2
         },
         "chances": {
-            "nef": 100,
+            "nef": 40,
             "patient_transport": 100
         },
         "additional": {
@@ -24770,7 +24770,7 @@
             "ovdp": 1
         },
         "chances": {
-            "nef": 100,
+            "nef": 40,
             "patient_transport": 100
         },
         "additional": {
@@ -25076,7 +25076,7 @@
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
-            "rescue_stations": 1
+            "rescue_stations": 10
         },
         "alternate_version": null
     },
@@ -25278,6 +25278,574 @@
             "date_end": "zo 09 mei 2021 21:59:00 UTC"
         },
         "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "794": {
+        "id": 794,
+        "name": "Onwelwording (strand)",
+        "place": "Strand\nStrandopgang",
+        "place_array": {
+            "0": "Strand",
+            "1": "Strandopgang"
+        },
+        "average_credits": 830,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "water_rescue": 1
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "water_rescue_2": 1,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "795": {
+        "id": 795,
+        "name": "Allergische reactie (strand)",
+        "place": "Strand\nStrandopgang",
+        "place_array": {
+            "0": "Strand",
+            "1": "Strandopgang"
+        },
+        "average_credits": 830,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "water_rescue": 1
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "water_rescue_2": 1,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "796": {
+        "id": 796,
+        "name": "Zoekactie vermist persoon",
+        "place": "Duinen\nStrand",
+        "place_array": {
+            "0": "Duinen",
+            "1": "Strand"
+        },
+        "average_credits": 1840,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "water_rescue": 2
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "water_rescue_2": 2,
+            "rescue_stations": 1,
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "797": {
+        "id": 797,
+        "name": "Zwemmer in problemen",
+        "place": "Strand\nMeer",
+        "place_array": {
+            "0": "Strand",
+            "1": "Meer"
+        },
+        "average_credits": 1230,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "water_rescue": 1,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "water_rescue_2": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "798": {
+        "id": 798,
+        "name": "Kitesurfer in problemen",
+        "place": "Strand",
+        "place_array": {
+            "0": "Strand"
+        },
+        "average_credits": 2400,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "water_rescue": 2,
+            "boats": 1
+        },
+        "chances": {
+            "nef": 15,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "water_rescue_2": 3,
+            "rescue_stations": 10,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "799": {
+        "id": 799,
+        "name": "Persoon op luchtbed in problemen",
+        "place": "Strand\nMeer\nRivier",
+        "place_array": {
+            "0": "Strand",
+            "1": "Meer",
+            "2": "Rivier"
+        },
+        "average_credits": 830,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "water_rescue": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "water_watch_missions"
+        },
+        "prerequisites": {
+            "water_rescue_2": 1
+        },
+        "alternate_version": null
+    },
+    "800": {
+        "id": 800,
+        "name": "Groep zwemmers in problemen",
+        "place": "Strand\nMeer",
+        "place_array": {
+            "0": "Strand",
+            "1": "Meer"
+        },
+        "average_credits": 3320,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "water_rescue": 2,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 65
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "water_rescue_2": 4,
+            "rescue_stations": 8,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "801": {
+        "id": 801,
+        "name": "Groep kitesurfers in problemen",
+        "place": "Strand",
+        "place_array": {
+            "0": "Strand"
+        },
+        "average_credits": 3990,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "water_rescue": 3,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 65
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "water_rescue_2": 5,
+            "rescue_stations": 8,
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "802": {
+        "id": 802,
+        "name": "Surfer gewond",
+        "place": "Strand",
+        "place_array": {
+            "0": "Strand"
+        },
+        "average_credits": 1230,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "water_rescue": 1,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "water_rescue_2": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "803": {
+        "id": 803,
+        "name": "Persoon vermist rondom mui",
+        "place": "Strand",
+        "place_array": {
+            "0": "Strand"
+        },
+        "average_credits": 2570,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 2,
+            "water_rescue": 1,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "water_rescue_2": 2,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "police_helicopter_stations": 1
+        },
+        "alternate_version": null
+    },
+    "804": {
+        "id": 804,
+        "name": "Grote zoekactie vermist persoon",
+        "place": "Duinen\nStrand",
+        "place_array": {
+            "0": "Duinen",
+            "1": "Strand"
+        },
+        "average_credits": 5650,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "water_rescue": 4,
+            "boats": 2
+        },
+        "chances": {
+            "nef": 10,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "water_rescue_2": 6,
+            "rescue_stations": 10,
+            "police_stations": 5,
+            "police_helicopter_stations": 1
+        },
+        "alternate_version": null
+    },
+    "805": {
+        "id": 805,
+        "name": "Kind vermist",
+        "place": "Duinen\nStrand\nStrandopgang",
+        "place_array": {
+            "0": "Duinen",
+            "1": "Strand",
+            "2": "Strandopgang"
+        },
+        "average_credits": 900,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "boats": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "water_watch_missions"
+        },
+        "prerequisites": {
+            "water_rescue_2": 2,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "806": {
+        "id": 806,
+        "name": "Zwemmer vermist",
+        "place": "Strand\nMeer\nRivier",
+        "place_array": {
+            "0": "Strand",
+            "1": "Meer",
+            "2": "Rivier"
+        },
+        "average_credits": 1400,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "water_rescue": 1,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "water_rescue_2": 2,
+            "rescue_stations": 1,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "807": {
+        "id": 807,
+        "name": "Persoon bedolven onder zand",
+        "place": "Strand\nDuinen\nMeer",
+        "place_array": {
+            "0": "Strand",
+            "1": "Duinen",
+            "2": "Meer"
+        },
+        "average_credits": 830,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "water_rescue": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "water_watch_missions"
+        },
+        "prerequisites": {
+            "water_rescue_2": 1
+        },
+        "alternate_version": null
+    },
+    "808": {
+        "id": 808,
+        "name": "Persoon van paard gevallen",
+        "place": "Strand\nDuinen",
+        "place_array": {
+            "0": "Strand",
+            "1": "Duinen"
+        },
+        "average_credits": 1330,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "water_rescue": 1
+        },
+        "chances": {
+            "nef": 25,
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "water_rescue_2": 1,
+            "rescue_stations": 10
+        },
+        "alternate_version": null
+    },
+    "809": {
+        "id": 809,
+        "name": "Bootje op drift",
+        "place": "Strand",
+        "place_array": {
+            "0": "Strand"
+        },
+        "average_credits": 1730,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "water_rescue": 2,
+            "boats": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "water_watch_missions"
+        },
+        "prerequisites": {
+            "water_rescue_2": 3
+        },
+        "alternate_version": null
+    },
+    "810": {
+        "id": 810,
+        "name": "Gewonden op strand/ in de duinen",
+        "place": "Meer\nStrand\nStrandopgang\nDuinen",
+        "place_array": {
+            "0": "Meer",
+            "1": "Strand",
+            "2": "Strandopgang",
+            "3": "Duinen"
+        },
+        "average_credits": 3020,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "water_rescue": 3
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "water_rescue_2": 3,
+            "rescue_stations": 8,
             "police_stations": 2
         },
         "alternate_version": null
