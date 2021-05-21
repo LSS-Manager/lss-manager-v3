@@ -4529,8 +4529,9 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -21529,6 +21530,44 @@
             "police_stations": 10,
             "police_helicopter_stations": 1,
             "criminal_investigation_count": 2
+        },
+        "alternate_version": null
+    },
+    "637": {
+        "id": 637,
+        "name": "Ausgefallenes K\u00fchlsystem",
+        "place": "Industrie-Allgemein",
+        "place_array": {
+            "0": "Industrie-Allgemein"
+        },
+        "average_credits": 8000,
+        "generated_by": "Werkfeuerwehr",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "ulf": 1,
+            "turboloescher": 1,
+            "teleskopmast": 1,
+            "gw_werkfeuerwehr": 1,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "turboloescher": 40,
+            "mobile_command_vehicles": 30,
+            "water_tankers": 60
+        },
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
+        "prerequisites": {
+            "werkfeuerwehr": 1,
+            "fire_stations": 6
         },
         "alternate_version": null
     }
