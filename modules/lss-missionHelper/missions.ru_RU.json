@@ -8717,5 +8717,38 @@
             "fire_stations": 8
         },
         "alternate_version": null
+    },
+    "289": {
+        "id": 289,
+        "name": "\u0410\u0442\u0430\u043a\u0430 \u043e\u0433\u043d\u0435\u0441\u0442\u0440\u0435\u043b\u044c\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c",
+        "place": "",
+        "place_array": {},
+        "average_credits": 6000,
+        "generated_by": "\u041f\u043e\u043b\u0438\u0446\u0435\u0439\u0441\u043a\u0438\u0439 \u0443\u0447\u0430\u0441\u0442\u043e\u043a",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 8,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 3,
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 12
+        },
+        "alternate_version": null
     }
 }

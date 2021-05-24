@@ -9974,5 +9974,41 @@
             "fire_stations": 8
         },
         "alternate_version": null
+    },
+    "331": {
+        "id": 331,
+        "name": "Attaque \u00e0 main arm\u00e9e",
+        "place": "",
+        "place_array": {},
+        "average_credits": 6000,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 8,
+            "k9": 1,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 3,
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 12,
+            "police_helicopter_stations": 1
+        },
+        "alternate_version": null
     }
 }

@@ -11005,5 +11005,80 @@
             "rescue_stations": 6
         },
         "alternate_version": null
+    },
+    "320": {
+        "id": 320,
+        "name": "Person trapped in agricultural machinery",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-1"
+            },
+            "filter_id": "firehouse_missions",
+            "overlay_on_hazard_response_ems_chance": 100,
+            "overlay_on_hazard_response_ems_count": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        },
+        "alternate_version": {
+            "mission_type": {
+                "id": 320,
+                "name": "Person trapped in agricultural machinery",
+                "place": "",
+                "place_array": {},
+                "average_credits": 5000,
+                "generated_by": "Fire Station",
+                "icons": {
+                    "0": "/images/medicalstore_gruen.png",
+                    "1": "/images/medicalstore_gelb.png",
+                    "2": "/images/medicalstore_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 3,
+                    "battalion_chief_vehicles": 2,
+                    "heavy_rescue_vehicles": 1,
+                    "hazard_response_primary": 1,
+                    "hazard_response_secondary": 1
+                },
+                "chances": {
+                    "patient_transport": 100
+                },
+                "additional": {
+                    "possible_patient": 1,
+                    "possible_patient_min": 1,
+                    "patient_uk_code_possible": {
+                        "0": "C-1"
+                    },
+                    "filter_id": "firehouse_missions",
+                    "patient_at_end_of_mission": true,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "fire_stations": 6
+                },
+                "alternate_version": null
+            }
+        }
     }
 }

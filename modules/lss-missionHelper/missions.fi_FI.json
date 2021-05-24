@@ -688,8 +688,7 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2,
-                "2": 29
+                "1": 2
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -8316,6 +8315,36 @@
         "prerequisites": {
             "police_stations": 7,
             "police_helicopter_stations": 1
+        },
+        "alternate_version": null
+    },
+    "282": {
+        "id": 282,
+        "name": "530 Valtiollinen vierailu",
+        "place": "",
+        "place_array": {},
+        "average_credits": 8000,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 12,
+            "k9": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2 tuntia",
+            "duration": 7200,
+            "swat_personnel": 18,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 15
         },
         "alternate_version": null
     },
