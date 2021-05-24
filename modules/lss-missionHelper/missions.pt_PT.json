@@ -7887,5 +7887,35 @@
             "police_stations": 2
         },
         "alternate_version": null
+    },
+    "274": {
+        "id": 274,
+        "name": "Limpeza de solo contaminado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        },
+        "alternate_version": null
     }
 }

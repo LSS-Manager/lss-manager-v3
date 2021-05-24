@@ -7057,5 +7057,38 @@
             "fire_stations": 8
         },
         "alternate_version": null
+    },
+    "236": {
+        "id": 236,
+        "name": "Atac cu arme de foc",
+        "place": "",
+        "place_array": {},
+        "average_credits": 6000,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 8,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 3,
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 12
+        },
+        "alternate_version": null
     }
 }
