@@ -2379,8 +2379,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "Mar, 01 Dic 2020 10:00:00 +0100",
-            "date_end": "Sab, 26 Dic 2020 23:59:00 +0100"
+            "date_start": "2020-12-01T10:00:00+01:00",
+            "date_end": "2020-12-26T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 2
@@ -2420,8 +2420,8 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
-            "date_start": "Mar, 01 Dic 2020 10:00:00 +0100",
-            "date_end": "Sab, 26 Dic 2020 23:59:00 +0100",
+            "date_start": "2020-12-01T10:00:00+01:00",
+            "date_end": "2020-12-26T23:59:00+01:00",
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -2462,8 +2462,8 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
-            "date_start": "Mar, 01 Dic 2020 10:00:00 +0100",
-            "date_end": "Sab, 26 Dic 2020 23:59:00 +0100",
+            "date_start": "2020-12-01T10:00:00+01:00",
+            "date_end": "2020-12-26T23:59:00+01:00",
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -2504,8 +2504,8 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
-            "date_start": "Mar, 01 Dic 2020 10:00:00 +0100",
-            "date_end": "Sab, 26 Dic 2020 23:59:00 +0100",
+            "date_start": "2020-12-01T10:00:00+01:00",
+            "date_end": "2020-12-26T23:59:00+01:00",
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2531,8 +2531,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Mar, 01 Dic 2020 10:00:00 +0100",
-            "date_end": "Sab, 26 Dic 2020 23:59:00 +0100"
+            "date_start": "2020-12-01T10:00:00+01:00",
+            "date_end": "2020-12-26T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 6
@@ -2557,8 +2557,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Mar, 01 Dic 2020 10:00:00 +0100",
-            "date_end": "Sab, 26 Dic 2020 23:59:00 +0100"
+            "date_start": "2020-12-01T10:00:00+01:00",
+            "date_end": "2020-12-26T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 5
@@ -2598,8 +2598,8 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
-            "date_start": "Mar, 01 Dic 2020 10:00:00 +0100",
-            "date_end": "Sab, 26 Dic 2020 23:59:00 +0100",
+            "date_start": "2020-12-01T10:00:00+01:00",
+            "date_end": "2020-12-26T23:59:00+01:00",
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2719,8 +2719,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -2745,8 +2745,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -2771,8 +2771,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -2814,8 +2814,8 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 3
@@ -2842,8 +2842,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 3
@@ -2871,8 +2871,8 @@
         },
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -2898,8 +2898,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -2924,8 +2924,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -2950,8 +2950,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -2996,8 +2996,8 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 3,
@@ -3024,8 +3024,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -3050,8 +3050,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -3091,8 +3091,8 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 3
@@ -4643,8 +4643,8 @@
         "additional": {
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
-            "date_start": "Ven, 26 Mar 2021 10:00:00 +0000",
-            "date_end": "Lun, 05 Apr 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -4672,8 +4672,8 @@
         "additional": {
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
-            "date_start": "Ven, 26 Mar 2021 10:00:00 +0000",
-            "date_end": "Lun, 05 Apr 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -4701,8 +4701,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Ven, 26 Mar 2021 10:00:00 +0000",
-            "date_end": "Lun, 05 Apr 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "police_stations": 2
@@ -4776,8 +4776,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Ven, 26 Mar 2021 10:00:00 +0000",
-            "date_end": "Lun, 05 Apr 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -4807,8 +4807,8 @@
         "additional": {
             "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions",
-            "date_start": "Ven, 26 Mar 2021 10:00:00 +0000",
-            "date_end": "Lun, 05 Apr 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "police_stations": 2,
@@ -4834,8 +4834,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Ven, 26 Mar 2021 10:00:00 +0000",
-            "date_end": "Lun, 05 Apr 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "max_police_stations": 7,
@@ -4868,8 +4868,8 @@
             "duration": 7200,
             "guard_mission": true,
             "filter_id": "police_station_missions",
-            "date_start": "Ven, 26 Mar 2021 10:00:00 +0000",
-            "date_end": "Lun, 05 Apr 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "rescue_stations": 4,
@@ -4915,8 +4915,8 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
-            "date_start": "Ven, 26 Mar 2021 10:00:00 +0000",
-            "date_end": "Lun, 05 Apr 2021 23:59:00 +0200",
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00",
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -4943,8 +4943,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "Ven, 26 Mar 2021 10:00:00 +0000",
-            "date_end": "Lun, 05 Apr 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "police_stations": 3
@@ -4972,8 +4972,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Ven, 26 Mar 2021 10:00:00 +0000",
-            "date_end": "Lun, 05 Apr 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "police_stations": 1,
@@ -6421,8 +6421,8 @@
                 "0": "Medicina interna generale",
                 "1": "Medicina interna generale"
             },
-            "date_start": "Ven, 26 Giu 2020 10:00:00 +0200",
-            "date_end": "Gio, 01 Ott 2020 00:00:00 +0200",
+            "date_start": "2020-06-26T10:00:00+02:00",
+            "date_end": "2020-10-01T00:00:00+02:00",
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -6458,8 +6458,8 @@
                 "0": "Medicina interna generale",
                 "1": "Medicina interna generale"
             },
-            "date_start": "Ven, 26 Giu 2020 10:00:00 +0200",
-            "date_end": "Gio, 01 Ott 2020 00:00:00 +0200",
+            "date_start": "2020-06-26T10:00:00+02:00",
+            "date_end": "2020-10-01T00:00:00+02:00",
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -6493,8 +6493,8 @@
             "possible_patient_specializations": {
                 "0": "Medicina interna generale"
             },
-            "date_start": "Ven, 26 Giu 2020 10:00:00 +0200",
-            "date_end": "Gio, 01 Ott 2020 00:00:00 +0200",
+            "date_start": "2020-06-26T10:00:00+02:00",
+            "date_end": "2020-10-01T00:00:00+02:00",
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -6530,8 +6530,8 @@
                 "0": "Medicina interna generale",
                 "1": "Medicina interna generale"
             },
-            "date_start": "Ven, 26 Giu 2020 10:00:00 +0200",
-            "date_end": "Gio, 01 Ott 2020 00:00:00 +0200",
+            "date_start": "2020-06-26T10:00:00+02:00",
+            "date_end": "2020-10-01T00:00:00+02:00",
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -6557,8 +6557,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Ven, 26 Giu 2020 10:00:00 +0200",
-            "date_end": "Gio, 01 Ott 2020 00:00:00 +0200"
+            "date_start": "2020-06-26T10:00:00+02:00",
+            "date_end": "2020-10-01T00:00:00+02:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -8804,8 +8804,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -8830,8 +8830,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -8856,8 +8856,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -8902,8 +8902,8 @@
                 "6": "Medicina interna generale",
                 "7": "Traumatologia"
             },
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 3
@@ -8938,8 +8938,8 @@
                 "0": "Malattie infettive",
                 "1": "Malattie infettive"
             },
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -8980,8 +8980,8 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 2
@@ -9006,8 +9006,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -9032,8 +9032,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 2
@@ -9058,8 +9058,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -9495,8 +9495,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -9522,8 +9522,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 3
@@ -9548,8 +9548,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -9575,8 +9575,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 6
@@ -9601,8 +9601,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -9627,8 +9627,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 2
@@ -9654,8 +9654,8 @@
         "additional": {
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 3
@@ -9681,8 +9681,8 @@
         "additional": {
             "max_possible_prisoners": 3,
             "filter_id": "police_station_missions",
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 6
@@ -9708,8 +9708,8 @@
         "additional": {
             "max_possible_prisoners": 4,
             "filter_id": "police_station_missions",
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 6
@@ -9749,8 +9749,8 @@
                 "4": "Chirurgia generale",
                 "5": "Gastroenterologia"
             },
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -9784,8 +9784,8 @@
                 "0": "Medicina interna generale",
                 "1": "Traumatologia"
             },
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -9822,8 +9822,8 @@
                 "2": "Neurologia",
                 "3": "Neurochirurgia"
             },
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 2
@@ -9860,8 +9860,8 @@
                 "2": "Neurologia",
                 "3": "Neurochirurgia"
             },
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 3
@@ -9898,8 +9898,8 @@
                 "2": "Neurologia",
                 "3": "Neurochirurgia"
             },
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 3
@@ -9932,8 +9932,8 @@
             "duration": 1200,
             "guard_mission": true,
             "filter_id": "police_station_missions",
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -9966,8 +9966,8 @@
             "duration": 600,
             "guard_mission": true,
             "filter_id": "police_station_missions",
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -10008,8 +10008,8 @@
                 "1": "Medicina interna generale",
                 "2": "Medicina interna generale"
             },
-            "date_start": "Gio, 26 Nov 2020 11:00:00 +0100",
-            "date_end": "Dom, 29 Nov 2020 23:59:00 +0100"
+            "date_start": "2020-11-26T11:00:00+01:00",
+            "date_end": "2020-11-29T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 4,
@@ -10416,8 +10416,8 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -10457,8 +10457,8 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 2
@@ -10498,8 +10498,8 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 3
@@ -10539,8 +10539,8 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -10580,8 +10580,8 @@
                 "4": "Neurologia",
                 "5": "Neurochirurgia"
             },
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -10612,8 +10612,8 @@
             "duration": 5400,
             "guard_mission": true,
             "filter_id": "police_station_missions",
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 2,
@@ -10657,8 +10657,8 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -10688,8 +10688,8 @@
             },
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -10732,8 +10732,8 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 4,
@@ -10761,8 +10761,8 @@
         "additional": {
             "max_possible_prisoners": 4,
             "filter_id": "police_station_missions",
-            "date_start": "Dom, 27 Dic 2020 23:59:00 +0100",
-            "date_end": "Ven, 01 Gen 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 4,
@@ -11650,8 +11650,8 @@
                 "4": "Chirurgia generale",
                 "5": "Gastroenterologia"
             },
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100",
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00",
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -11692,8 +11692,8 @@
                 "4": "Chirurgia generale",
                 "5": "Gastroenterologia"
             },
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100",
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00",
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -11731,8 +11731,8 @@
                 "2": "Cardiologia",
                 "3": "Chirurgia cardiaca"
             },
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100",
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00",
             "patient_specializations": "Cardiologia"
         },
         "prerequisites": {
@@ -11770,8 +11770,8 @@
                 "2": "Cardiologia",
                 "3": "Chirurgia cardiaca"
             },
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100",
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00",
             "patient_specializations": "Cardiologia"
         },
         "prerequisites": {
@@ -11812,8 +11812,8 @@
                 "1": "Medicina interna generale",
                 "2": "Medicina interna generale"
             },
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100",
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00",
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -11854,8 +11854,8 @@
                 "1": "Medicina interna generale",
                 "2": "Medicina interna generale"
             },
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100",
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00",
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -11882,8 +11882,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100"
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 2
@@ -11908,8 +11908,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100"
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -11934,8 +11934,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100"
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 2
@@ -12250,8 +12250,8 @@
                 "2": "Medicina interna generale",
                 "3": "Traumatologia"
             },
-            "date_start": "Ven, 26 Mar 2021 10:00:00 +0000",
-            "date_end": "Lun, 05 Apr 2021 23:59:00 +0200",
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00",
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -12802,8 +12802,8 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
-            "date_start": "Ven, 07 Mag 2021 09:00:00 +0000",
-            "date_end": "Dom, 09 Mag 2021 21:59:00 +0000",
+            "date_start": "2021-05-07T09:00:00Z",
+            "date_end": "2021-05-09T21:59:00Z",
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -12829,8 +12829,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "Ven, 07 Mag 2021 09:00:00 +0000",
-            "date_end": "Dom, 09 Mag 2021 21:59:00 +0000"
+            "date_start": "2021-05-07T09:00:00Z",
+            "date_end": "2021-05-09T21:59:00Z"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -12869,8 +12869,8 @@
                 "1": "Medicina interna generale",
                 "2": "Medicina interna generale"
             },
-            "date_start": "Ven, 07 Mag 2021 09:00:00 +0000",
-            "date_end": "Dom, 09 Mag 2021 21:59:00 +0000",
+            "date_start": "2021-05-07T09:00:00Z",
+            "date_end": "2021-05-09T21:59:00Z",
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -12900,8 +12900,8 @@
                 "0": 367
             },
             "filter_id": "firehouse_missions",
-            "date_start": "Ven, 07 Mag 2021 09:00:00 +0000",
-            "date_end": "Dom, 09 Mag 2021 21:59:00 +0000"
+            "date_start": "2021-05-07T09:00:00Z",
+            "date_end": "2021-05-09T21:59:00Z"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -12940,8 +12940,8 @@
                 "1": "Medicina interna generale",
                 "2": "Medicina interna generale"
             },
-            "date_start": "Ven, 07 Mag 2021 09:00:00 +0000",
-            "date_end": "Dom, 09 Mag 2021 21:59:00 +0000",
+            "date_start": "2021-05-07T09:00:00Z",
+            "date_end": "2021-05-09T21:59:00Z",
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -12968,8 +12968,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "Ven, 07 Mag 2021 09:00:00 +0000",
-            "date_end": "Dom, 09 Mag 2021 21:59:00 +0000"
+            "date_start": "2021-05-07T09:00:00Z",
+            "date_end": "2021-05-09T21:59:00Z"
         },
         "prerequisites": {
             "police_stations": 2

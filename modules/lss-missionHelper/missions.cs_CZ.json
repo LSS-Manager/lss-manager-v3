@@ -2658,8 +2658,8 @@
         "additional": {
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
-            "date_start": "p\u00e1, 26 b\u0159e 2021 10:00:00 +0000",
-            "date_end": "po, 05 dub 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -2687,8 +2687,8 @@
         "additional": {
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
-            "date_start": "p\u00e1, 26 b\u0159e 2021 10:00:00 +0000",
-            "date_end": "po, 05 dub 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -2716,8 +2716,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "p\u00e1, 26 b\u0159e 2021 10:00:00 +0000",
-            "date_end": "po, 05 dub 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "police_stations": 2
@@ -2746,8 +2746,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "police_station_missions",
-            "date_start": "p\u00e1, 26 b\u0159e 2021 10:00:00 +0000",
-            "date_end": "po, 05 dub 2021 23:59:00 +0200",
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -2774,8 +2774,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "p\u00e1, 26 b\u0159e 2021 10:00:00 +0000",
-            "date_end": "po, 05 dub 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -2805,8 +2805,8 @@
         "additional": {
             "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions",
-            "date_start": "p\u00e1, 26 b\u0159e 2021 10:00:00 +0000",
-            "date_end": "po, 05 dub 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "police_stations": 2,
@@ -2832,8 +2832,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "p\u00e1, 26 b\u0159e 2021 10:00:00 +0000",
-            "date_end": "po, 05 dub 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "max_police_stations": 7,
@@ -2867,8 +2867,8 @@
             "guard_mission": true,
             "filter_id": "police_station_missions",
             "allow_ktw_instead_of_rtw": true,
-            "date_start": "p\u00e1, 26 b\u0159e 2021 10:00:00 +0000",
-            "date_end": "po, 05 dub 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "rescue_stations": 4,
@@ -2901,8 +2901,8 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
-            "date_start": "p\u00e1, 26 b\u0159e 2021 10:00:00 +0000",
-            "date_end": "po, 05 dub 2021 23:59:00 +0200",
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -2929,8 +2929,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "p\u00e1, 26 b\u0159e 2021 10:00:00 +0000",
-            "date_end": "po, 05 dub 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "police_stations": 3
@@ -2958,8 +2958,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "p\u00e1, 26 b\u0159e 2021 10:00:00 +0000",
-            "date_end": "po, 05 dub 2021 23:59:00 +0200"
+            "date_start": "2021-03-26T10:00:00Z",
+            "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
             "police_stations": 1,
@@ -3893,8 +3893,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "p\u00e1, 26 \u010dvn 2020 00:00:00 +0200",
-            "date_end": "\u010dt, 01 \u0159\u00edj 2020 00:00:00 +0200",
+            "date_start": "2020-06-26T00:00:00+02:00",
+            "date_end": "2020-10-01T00:00:00+02:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -3922,8 +3922,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "p\u00e1, 26 \u010dvn 2020 00:00:00 +0200",
-            "date_end": "\u010dt, 01 \u0159\u00edj 2020 00:00:00 +0200",
+            "date_start": "2020-06-26T00:00:00+02:00",
+            "date_end": "2020-10-01T00:00:00+02:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -3951,8 +3951,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "p\u00e1, 26 \u010dvn 2020 00:00:00 +0200",
-            "date_end": "\u010dt, 01 \u0159\u00edj 2020 00:00:00 +0200",
+            "date_start": "2020-06-26T00:00:00+02:00",
+            "date_end": "2020-10-01T00:00:00+02:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -3980,8 +3980,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "p\u00e1, 26 \u010dvn 2020 00:00:00 +0200",
-            "date_end": "\u010dt, 01 \u0159\u00edj 2020 00:00:00 +0200",
+            "date_start": "2020-06-26T00:00:00+02:00",
+            "date_end": "2020-10-01T00:00:00+02:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -4007,8 +4007,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "p\u00e1, 26 \u010dvn 2020 00:00:00 +0200",
-            "date_end": "\u010dt, 01 \u0159\u00edj 2020 00:00:00 +0200"
+            "date_start": "2020-06-26T00:00:00+02:00",
+            "date_end": "2020-10-01T00:00:00+02:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -5414,8 +5414,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "po, 19 \u0159\u00edj 2020 09:00:00 +0000",
-            "date_end": "ne, 01 lis 2020 23:59:00 +0100"
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -5440,8 +5440,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "po, 19 \u0159\u00edj 2020 09:00:00 +0000",
-            "date_end": "ne, 01 lis 2020 23:59:00 +0100"
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -5472,8 +5472,8 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
-            "date_start": "po, 19 \u0159\u00edj 2020 09:00:00 +0000",
-            "date_end": "ne, 01 lis 2020 23:59:00 +0100",
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00",
             "patient_specializations": "Neurologie"
         },
         "prerequisites": {
@@ -5504,8 +5504,8 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
-            "date_start": "po, 19 \u0159\u00edj 2020 09:00:00 +0000",
-            "date_end": "ne, 01 lis 2020 23:59:00 +0100",
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -5533,8 +5533,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "po, 19 \u0159\u00edj 2020 09:00:00 +0000",
-            "date_end": "ne, 01 lis 2020 23:59:00 +0100",
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00",
             "patient_specializations": "Neurologie"
         },
         "prerequisites": {
@@ -5560,8 +5560,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "po, 19 \u0159\u00edj 2020 09:00:00 +0000",
-            "date_end": "ne, 01 lis 2020 23:59:00 +0100"
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 2
@@ -5586,8 +5586,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "po, 19 \u0159\u00edj 2020 09:00:00 +0000",
-            "date_end": "ne, 01 lis 2020 23:59:00 +0100"
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -5612,8 +5612,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "po, 19 \u0159\u00edj 2020 09:00:00 +0000",
-            "date_end": "ne, 01 lis 2020 23:59:00 +0100"
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 2
@@ -5638,8 +5638,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "po, 19 \u0159\u00edj 2020 09:00:00 +0000",
-            "date_end": "ne, 01 lis 2020 23:59:00 +0100"
+            "date_start": "2020-10-19T09:00:00Z",
+            "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -5835,8 +5835,8 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "police_station_missions",
-            "date_start": "\u00fat, 01 pro 2020 00:00:00 +0100",
-            "date_end": "ne, 27 pro 2020 00:00:00 +0100",
+            "date_start": "2020-12-01T00:00:00+01:00",
+            "date_end": "2020-12-27T00:00:00+01:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -5865,8 +5865,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "\u00fat, 01 pro 2020 00:00:00 +0100",
-            "date_end": "ne, 27 pro 2020 00:00:00 +0100"
+            "date_start": "2020-12-01T00:00:00+01:00",
+            "date_end": "2020-12-27T00:00:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1,
@@ -5899,8 +5899,8 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
-            "date_start": "\u00fat, 01 pro 2020 00:00:00 +0100",
-            "date_end": "ne, 27 pro 2020 00:00:00 +0100",
+            "date_start": "2020-12-01T00:00:00+01:00",
+            "date_end": "2020-12-27T00:00:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -5934,8 +5934,8 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
-            "date_start": "\u00fat, 01 pro 2020 00:00:00 +0100",
-            "date_end": "ne, 27 pro 2020 00:00:00 +0100",
+            "date_start": "2020-12-01T00:00:00+01:00",
+            "date_end": "2020-12-27T00:00:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -5968,8 +5968,8 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
-            "date_start": "\u00fat, 01 pro 2020 00:00:00 +0100",
-            "date_end": "ne, 27 pro 2020 00:00:00 +0100",
+            "date_start": "2020-12-01T00:00:00+01:00",
+            "date_end": "2020-12-27T00:00:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -5998,8 +5998,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "\u00fat, 01 pro 2020 00:00:00 +0100",
-            "date_end": "ne, 27 pro 2020 00:00:00 +0100"
+            "date_start": "2020-12-01T00:00:00+01:00",
+            "date_end": "2020-12-27T00:00:00+01:00"
         },
         "prerequisites": {
             "police_stations": 2
@@ -6031,8 +6031,8 @@
             "possible_patient": 5,
             "filter_id": "firehouse_missions",
             "need_traffic_car_only_if_present": true,
-            "date_start": "\u00fat, 01 pro 2020 10:00:00 +0100",
-            "date_end": "so, 26 pro 2020 23:59:00 +0100",
+            "date_start": "2020-12-01T10:00:00+01:00",
+            "date_end": "2020-12-26T23:59:00+01:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -6068,8 +6068,8 @@
                 "0": 198
             },
             "filter_id": "ambulance_station_missions",
-            "date_start": "\u00fat, 01 pro 2020 10:00:00 +0100",
-            "date_end": "so, 26 pro 2020 23:59:00 +0100",
+            "date_start": "2020-12-01T10:00:00+01:00",
+            "date_end": "2020-12-26T23:59:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -6098,8 +6098,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "\u00fat, 01 pro 2020 00:00:00 +0100",
-            "date_end": "ne, 27 pro 2020 00:00:00 +0100",
+            "date_start": "2020-12-01T00:00:00+01:00",
+            "date_end": "2020-12-27T00:00:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -6127,8 +6127,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "\u00fat, 01 pro 2020 00:00:00 +0100",
-            "date_end": "ne, 27 pro 2020 00:00:00 +0100",
+            "date_start": "2020-12-01T00:00:00+01:00",
+            "date_end": "2020-12-27T00:00:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
@@ -6160,8 +6160,8 @@
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
             "need_traffic_car_only_if_present": true,
-            "date_start": "\u00fat, 01 pro 2020 00:00:00 +0100",
-            "date_end": "ne, 27 pro 2020 00:00:00 +0100",
+            "date_start": "2020-12-01T00:00:00+01:00",
+            "date_end": "2020-12-27T00:00:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -6313,8 +6313,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -6339,8 +6339,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -6365,8 +6365,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -6396,8 +6396,8 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100",
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -6425,8 +6425,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 3
@@ -6454,8 +6454,8 @@
         },
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -6480,8 +6480,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -6506,8 +6506,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -6532,8 +6532,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -6567,8 +6567,8 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100",
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -6596,8 +6596,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -6622,8 +6622,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -6650,8 +6650,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100",
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -6679,8 +6679,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100",
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -6708,8 +6708,8 @@
             "possible_patient": 3,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100",
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -6737,8 +6737,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100",
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -6766,8 +6766,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100",
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -6799,8 +6799,8 @@
             "duration": 5400,
             "guard_mission": true,
             "filter_id": "police_station_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 2,
@@ -6830,8 +6830,8 @@
             "possible_patient": 1,
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100",
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -6862,8 +6862,8 @@
             },
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -6893,8 +6893,8 @@
             "possible_patient_min": 1,
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100",
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -6922,8 +6922,8 @@
         "additional": {
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
-            "date_start": "ne, 27 pro 2020 23:59:00 +0100",
-            "date_end": "p\u00e1, 01 led 2021 23:59:00 +0100"
+            "date_start": "2020-12-27T23:59:00+01:00",
+            "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 4
@@ -6976,8 +6976,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100"
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -7003,8 +7003,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100"
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 3
@@ -7029,8 +7029,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100"
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -7056,8 +7056,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100"
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
             "fire_stations": 6
@@ -7082,8 +7082,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100"
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -7108,8 +7108,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100"
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 2
@@ -7135,8 +7135,8 @@
         "additional": {
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100"
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 3
@@ -7162,8 +7162,8 @@
         "additional": {
             "max_possible_prisoners": 3,
             "filter_id": "police_station_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100"
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 6
@@ -7189,8 +7189,8 @@
         "additional": {
             "max_possible_prisoners": 4,
             "filter_id": "police_station_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100"
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 6
@@ -7217,8 +7217,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100",
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -7246,8 +7246,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100",
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -7275,8 +7275,8 @@
             "possible_patient": 5,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100",
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -7304,8 +7304,8 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100",
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -7333,8 +7333,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100",
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00",
             "patient_specializations": "Kardiochirurgie"
         },
         "prerequisites": {
@@ -7368,8 +7368,8 @@
             "duration": 1200,
             "guard_mission": true,
             "filter_id": "police_station_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100"
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -7402,8 +7402,8 @@
             "duration": 600,
             "guard_mission": true,
             "filter_id": "police_station_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100"
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -7435,8 +7435,8 @@
             "possible_patient": 18,
             "possible_patient_min": 2,
             "filter_id": "police_station_missions",
-            "date_start": "\u010dt, 14 led 2021 11:00:00 +0100",
-            "date_end": "ne, 17 led 2021 23:59:00 +0100",
+            "date_start": "2021-01-14T11:00:00+01:00",
+            "date_end": "2021-01-17T23:59:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
@@ -8744,8 +8744,8 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
-            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100",
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -8773,8 +8773,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
-            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100",
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -8802,8 +8802,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
-            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100",
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00",
             "patient_specializations": "Kardiologie"
         },
         "prerequisites": {
@@ -8831,8 +8831,8 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
-            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100",
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00",
             "patient_specializations": "Kardiologie"
         },
         "prerequisites": {
@@ -8863,8 +8863,8 @@
         "additional": {
             "possible_patient": 8,
             "filter_id": "firehouse_missions",
-            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
-            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100",
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -8895,8 +8895,8 @@
             "possible_patient": 2,
             "possible_patient_min": 2,
             "filter_id": "firehouse_missions",
-            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
-            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100",
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -8923,8 +8923,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
-            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100"
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 2
@@ -8949,8 +8949,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
-            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100"
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 1
@@ -8975,8 +8975,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
-            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100"
+            "date_start": "2021-02-05T10:00:00Z",
+            "date_end": "2021-02-14T23:59:00+01:00"
         },
         "prerequisites": {
             "police_stations": 2
@@ -9595,8 +9595,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "p\u00e1, 07 kv\u011b 2021 09:00:00 +0000",
-            "date_end": "ne, 09 kv\u011b 2021 21:59:00 +0000",
+            "date_start": "2021-05-07T09:00:00Z",
+            "date_end": "2021-05-09T21:59:00Z",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -9622,8 +9622,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "p\u00e1, 07 kv\u011b 2021 09:00:00 +0000",
-            "date_end": "ne, 09 kv\u011b 2021 21:59:00 +0000"
+            "date_start": "2021-05-07T09:00:00Z",
+            "date_end": "2021-05-09T21:59:00Z"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -9652,8 +9652,8 @@
             "possible_patient": 2,
             "possible_patient_min": 2,
             "filter_id": "firehouse_missions",
-            "date_start": "p\u00e1, 07 kv\u011b 2021 09:00:00 +0000",
-            "date_end": "ne, 09 kv\u011b 2021 21:59:00 +0000",
+            "date_start": "2021-05-07T09:00:00Z",
+            "date_end": "2021-05-09T21:59:00Z",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -9683,8 +9683,8 @@
                 "0": 320
             },
             "filter_id": "firehouse_missions",
-            "date_start": "p\u00e1, 07 kv\u011b 2021 09:00:00 +0000",
-            "date_end": "ne, 09 kv\u011b 2021 21:59:00 +0000"
+            "date_start": "2021-05-07T09:00:00Z",
+            "date_end": "2021-05-09T21:59:00Z"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -9713,8 +9713,8 @@
             "possible_patient": 2,
             "possible_patient_min": 0,
             "filter_id": "firehouse_missions",
-            "date_start": "p\u00e1, 07 kv\u011b 2021 09:00:00 +0000",
-            "date_end": "ne, 09 kv\u011b 2021 21:59:00 +0000",
+            "date_start": "2021-05-07T09:00:00Z",
+            "date_end": "2021-05-09T21:59:00Z",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -9741,8 +9741,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "p\u00e1, 07 kv\u011b 2021 09:00:00 +0000",
-            "date_end": "ne, 09 kv\u011b 2021 21:59:00 +0000"
+            "date_start": "2021-05-07T09:00:00Z",
+            "date_end": "2021-05-09T21:59:00Z"
         },
         "prerequisites": {
             "police_stations": 2
