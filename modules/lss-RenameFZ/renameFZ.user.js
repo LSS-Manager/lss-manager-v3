@@ -336,7 +336,9 @@
                 27: 'PRV',
                 28: 'SRV',
                 29: 'Welfare Vehicle',
-                30: 'ATV Carrier'
+                30: 'ATV Carrier',
+                31: 'Ambulance Control Unit',
+                32: 'CBRN Vehicle'
             }
         }
     };
