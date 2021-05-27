@@ -11287,15 +11287,16 @@
         },
         "requirements": {
             "firetrucks": 1,
-            "heavy_rescue_vehicles": 1,
-            "police_cars": 1
+            "police_cars": 2
         },
         "chances": {
-            "patient_transport": 90
+            "patient_transport": 90,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "Interna"
         },

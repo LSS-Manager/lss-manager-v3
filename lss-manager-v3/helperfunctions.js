@@ -102,7 +102,9 @@ else if (I18n.locale == "en_GB") {
         "27": ["PRV", 1],
         "28": ["SRV", 1],
         "29": ["Welfare Vehicle", 1],
-        "30": ["ATV Carrier", 1]
+        "30": ["ATV Carrier", 1],
+        "31": ["Ambulance Control Unit", 1],
+        "32": ["CBRN Vehicle", 1]
     };
 }
 else if (I18n.locale == "en_AU") {
