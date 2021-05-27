@@ -84,7 +84,7 @@
     "battalion_chief_vehicles": "Fire Officer",
     "water_tankers": "Water Carrier",
     "hazmat_vehicles": "HazMat Unit or CBRN Vehicle",
-    "mobile_command_vehicles": "Incident Command and Control Unit",
+    "mobile_command_vehicles": "ICCU or Ambulance Control Unit",
     "police_cars": "Police Car",
     "traffic_car": "Traffic Car",
     "arff": "ARFF",
