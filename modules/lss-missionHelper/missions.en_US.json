@@ -20778,5 +20778,80 @@
             "fire_stations": 3
         },
         "alternate_version": null
+    },
+    "589": {
+        "id": 589,
+        "name": "Small Memorial day parade",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "20 minutes",
+            "duration": 1200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-05-28T02:00:00-04:00",
+            "date_end": "2021-05-31T23:59:00-04:00"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "590": {
+        "id": 590,
+        "name": "Large Memorial day parade",
+        "place": "",
+        "place_array": {},
+        "average_credits": 10000,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "ambulances": 2,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 minutes",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-05-28T02:00:00-04:00",
+            "date_end": "2021-05-31T23:59:00-04:00"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 6,
+            "fire_stations": 11
+        },
+        "alternate_version": null
     }
 }

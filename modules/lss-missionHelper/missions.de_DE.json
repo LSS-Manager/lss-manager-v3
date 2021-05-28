@@ -9551,16 +9551,15 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 27,
-                "2": 120,
-                "3": 121,
-                "4": 122,
-                "5": 123,
-                "6": 124,
-                "7": 125,
-                "8": 126,
-                "9": 127,
-                "10": 128
+                "1": 120,
+                "2": 121,
+                "3": 122,
+                "4": 123,
+                "5": 124,
+                "6": 125,
+                "7": 126,
+                "8": 127,
+                "9": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -21568,6 +21567,46 @@
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "638": {
+        "id": 638,
+        "name": "LKW droht umzust\u00fcrzen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "fwk": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "fwk": 10,
+            "nef": 10,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 120,
+                "1": 121
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 3
         },
         "alternate_version": null
     }
