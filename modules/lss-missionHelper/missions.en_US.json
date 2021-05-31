@@ -21598,5 +21598,311 @@
             "fire_stations": 11
         },
         "alternate_version": null
+    },
+    "591": {
+        "id": 591,
+        "name": "Tornado touchdown in rural area",
+        "place": "Farm\nHill\nValley",
+        "place_array": {
+            "0": "Farm",
+            "1": "Hill",
+            "2": "Valley"
+        },
+        "average_credits": 2500,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 10,
+            "followup_missions_ids": {
+                "0": 593,
+                "1": 594,
+                "2": 596,
+                "3": 596
+            },
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3",
+                "1": "22-B-3",
+                "2": "22-A-1",
+                "3": "30-D-5",
+                "4": "30-B-1",
+                "5": "30-B-2",
+                "6": "30-B-3"
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 6,
+            "police_stations": 4,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "592": {
+        "id": 592,
+        "name": "Tornado touchdown in urban area",
+        "place": "City centre\nVillage",
+        "place_array": {
+            "0": "City centre",
+            "1": "Village"
+        },
+        "average_credits": 10000,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 8,
+            "k9": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 65,
+            "possible_patient_min": 5,
+            "followup_missions_ids": {
+                "0": 593,
+                "1": 594,
+                "2": 596,
+                "3": 596
+            },
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3",
+                "1": "22-B-3",
+                "2": "22-A-1",
+                "3": "30-D-5",
+                "4": "30-B-1",
+                "5": "30-B-2"
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 25,
+            "police_stations": 6,
+            "fire_stations": 9
+        },
+        "alternate_version": null
+    },
+    "593": {
+        "id": 593,
+        "name": "Storm cleanup (large)",
+        "place": "City centre\nVillage",
+        "place_array": {
+            "0": "City centre",
+            "1": "Village"
+        },
+        "average_credits": 4500,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 10,
+            "expansion_missions_ids": {
+                "0": 594
+            },
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3",
+                "1": "22-B-3",
+                "2": "22-A-1",
+                "3": "30-D-5",
+                "4": "30-B-1",
+                "5": "30-B-2",
+                "6": "30-B-3",
+                "7": "14-B-3F",
+                "8": "14-B-3W",
+                "9": "14-D-3F",
+                "10": "14-D-3W",
+                "11": "14-D-1F",
+                "12": "14-D-1W"
+            },
+            "followup_mission_only": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 5,
+            "police_stations": 4,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "594": {
+        "id": 594,
+        "name": "Storm cleanup (major)",
+        "place": "City centre\nVillage",
+        "place_array": {
+            "0": "City centre",
+            "1": "Village"
+        },
+        "average_credits": 8000,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 14,
+            "battalion_chief_vehicles": 4,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 2,
+            "mobile_air_vehicles": 1,
+            "police_cars": 6
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 20,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3",
+                "1": "22-B-3",
+                "2": "22-A-1",
+                "3": "30-D-5",
+                "4": "30-B-1",
+                "5": "30-B-2",
+                "6": "30-B-3",
+                "7": "14-B-3F",
+                "8": "14-B-3W",
+                "9": "14-D-3F",
+                "10": "14-D-3W",
+                "11": "14-D-1F",
+                "12": "14-D-1W"
+            },
+            "followup_mission_only": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 15,
+            "police_stations": 5,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "595": {
+        "id": 595,
+        "name": "Flood evacuation",
+        "place": "Coast Line",
+        "place_array": {
+            "0": "Coast Line"
+        },
+        "average_credits": 2000,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "duration_text": "30 minutes",
+            "duration": 1800,
+            "possible_patient": 30,
+            "guard_mission": true,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "14-D-3F",
+                "1": "14-D-1F",
+                "2": "14-D-5F",
+                "3": "14-B-1F",
+                "4": "14-B-3F",
+                "5": "14-A-1F"
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 20,
+            "police_stations": 2,
+            "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "596": {
+        "id": 596,
+        "name": "Search and rescue",
+        "place": "Farm\nHill\nValley",
+        "place_array": {
+            "0": "Farm",
+            "1": "Hill",
+            "2": "Valley"
+        },
+        "average_credits": 2000,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 50
+        },
+        "additional": {
+            "duration_text": "1 hour",
+            "duration": 3600,
+            "possible_patient": 10,
+            "guard_mission": true,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "22-B-3"
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 5
+        },
+        "alternate_version": null
     }
 }

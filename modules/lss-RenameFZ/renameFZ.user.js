@@ -274,7 +274,12 @@
                 53: 'ATF Unit',
                 54: 'ATF Lab Vehicle',
                 55: 'Patrol Boat',
-                56: "Warden's Truck"
+                56: "Warden's Truck",
+                57: 'EMS Mass Casualty Trailer (large)',
+                58: 'EMS Mass Casualty Trailer (small)',
+                59: 'EMS Operations Support',
+                60: 'EMS Mobile Command Unit',
+                61: 'ALS Rescue Ambulance'
             }
         }
     };

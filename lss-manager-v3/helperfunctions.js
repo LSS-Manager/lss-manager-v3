@@ -68,6 +68,11 @@ if (I18n.locale == "en_US") {
         "54": ["ATF Lab Vehicle", 2],
         "55": ["Patrol Boat", 2],
         "56": ["Warden's Truck", 2],
+        "57": ["EMS Mass Casualty Trailer (large)", 1],
+        "58": ["EMS Mass Casualty Trailer (small)", 1],
+        "59": ["EMS Operations Support", 1],
+        "60": ["EMS Mobile Command Unit", 1],
+        "61": ["ALS Rescue Ambulance", 1]
     };
 }
 else if (I18n.locale == "en_GB") {

@@ -783,6 +783,11 @@ const lssm_missionhelper_adjustPosition = () => {
                     (content.innerHTML += `<br>1x ${I18n.t(
                         'lssm.missionhelper.requirements.emschief'
                     )} (100%)`);
+                I18n.locale === 'en_US' &&
+                    patients >= 25 &&
+                    (content.innerHTML += `<br>1x ${I18n.t(
+                        'lssm.missionhelper.requirements.emsmcc'
+                    )} (100%)`);
                 I18n.locale === 'nl_NL' &&
                     patients >= 3 &&
                     (content.innerHTML += `<br>1x ${I18n.t(
