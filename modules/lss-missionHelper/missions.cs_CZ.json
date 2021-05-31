@@ -21,6 +21,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -45,6 +46,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -74,6 +76,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -101,6 +104,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -128,6 +132,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -156,12 +161,15 @@
         "additional": {
             "possible_patient": 1,
             "expansion_missions_ids": {
-                "0": 210
+                "0": 210,
+                "1": 211,
+                "2": 315
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 2
         },
         "alternate_version": null
@@ -186,6 +194,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 2
         },
         "alternate_version": null
@@ -213,6 +222,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -242,6 +252,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -270,6 +281,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -294,6 +306,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -318,6 +331,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -346,6 +360,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -370,6 +385,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 2
         },
         "alternate_version": null
@@ -397,6 +413,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 2
         },
         "alternate_version": null
@@ -426,6 +443,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -450,6 +468,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 2
         },
         "alternate_version": null
@@ -474,6 +493,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -498,6 +518,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -522,6 +543,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -553,6 +575,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 3
         },
         "alternate_version": null
@@ -585,6 +608,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 3
         },
         "alternate_version": null
@@ -614,6 +638,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 3
         },
         "alternate_version": null
@@ -638,6 +663,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 3
         },
         "alternate_version": null
@@ -664,6 +690,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 3
         },
         "alternate_version": null
@@ -695,6 +722,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 3
         },
         "alternate_version": null
@@ -728,6 +756,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "fire_stations": 5
         },
@@ -753,6 +782,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 4
         },
         "alternate_version": null
@@ -783,6 +813,7 @@
             "fire_alarm_system_possible": true
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 5
         },
         "alternate_version": null
@@ -811,6 +842,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 2,
             "fire_stations": 13
         },
@@ -837,6 +869,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -866,6 +899,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 6
         },
         "alternate_version": null
@@ -890,6 +924,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 6
         },
         "alternate_version": null
@@ -927,6 +962,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 6,
             "fire_stations": 10
         },
@@ -956,6 +992,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -984,6 +1021,7 @@
             "patient_specializations": "Kardiologie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 3
         },
         "alternate_version": null
@@ -1012,6 +1050,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 3
         },
         "alternate_version": null
@@ -1040,6 +1079,7 @@
             "patient_specializations": "Neurologie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 3
         },
         "alternate_version": null
@@ -1068,6 +1108,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 3
         },
         "alternate_version": null
@@ -1097,6 +1138,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -1136,6 +1178,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 2,
             "police_stations": 2,
             "fire_stations": 14
@@ -1167,6 +1210,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -1196,6 +1240,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -1223,6 +1268,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -1250,6 +1296,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -1278,6 +1325,7 @@
             "need_traffic_car_only_if_present": true
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -1306,6 +1354,7 @@
             "need_traffic_car_only_if_present": true
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -1333,6 +1382,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -1360,6 +1410,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -1386,6 +1437,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -1412,6 +1464,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -1438,6 +1491,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -1464,6 +1518,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -1492,6 +1547,7 @@
             "need_traffic_car_only_if_present": true
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -1522,6 +1578,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 3
         },
         "alternate_version": null
@@ -1550,6 +1607,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 2
         },
         "alternate_version": null
@@ -1574,7 +1632,9 @@
             "only_alliance_mission": true,
             "filter_id": "police_station_missions"
         },
-        "prerequisites": {},
+        "prerequisites": {
+            "main_building": 6
+        },
         "alternate_version": null
     },
     "58": {
@@ -1600,6 +1660,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 2
         },
         "alternate_version": null
@@ -1627,6 +1688,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 6
         },
         "alternate_version": null
@@ -1661,6 +1723,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 2,
             "fire_stations": 9
         },
@@ -1686,6 +1749,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -1714,6 +1778,7 @@
             "patient_specializations": "Neurochirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -1746,6 +1811,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 8,
             "fire_stations": 3
         },
@@ -1774,6 +1840,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 2
         },
         "alternate_version": null
@@ -1808,6 +1875,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 2
         },
         "alternate_version": null
@@ -1838,6 +1906,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 3
         },
         "alternate_version": null
@@ -1876,6 +1945,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 3,
             "police_stations": 2,
             "fire_stations": 8
@@ -1906,6 +1976,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 2,
             "fire_stations": 13
         },
@@ -1935,6 +2006,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -1969,6 +2041,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 2,
             "fire_stations": 13
         },
@@ -2005,6 +2078,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 8,
             "police_stations": 2,
             "fire_stations": 5
@@ -2035,7 +2109,9 @@
             "only_alliance_mission": true,
             "filter_id": "firehouse_missions"
         },
-        "prerequisites": {},
+        "prerequisites": {
+            "main_building": 0
+        },
         "alternate_version": null
     },
     "75": {
@@ -2063,6 +2139,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 1
@@ -2103,6 +2180,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 3,
             "police_stations": 3,
             "fire_stations": 4
@@ -2134,6 +2212,7 @@
             "patient_specializations": "Neurologie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 2
         },
         "alternate_version": null
@@ -2169,6 +2248,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 2,
             "police_stations": 1,
             "fire_stations": 5
@@ -2207,6 +2287,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 4,
             "police_stations": 1,
             "fire_stations": 7
@@ -2238,6 +2319,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 4
         },
         "alternate_version": null
@@ -2267,6 +2349,7 @@
             "patient_specializations": "Neurochirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 3
         },
         "alternate_version": null
@@ -2296,6 +2379,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 4
         },
         "alternate_version": null
@@ -2325,6 +2409,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 13
         },
         "alternate_version": null
@@ -2353,6 +2438,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -2388,6 +2474,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 3
@@ -2419,6 +2506,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -2452,6 +2540,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 2,
             "fire_stations": 6
         },
@@ -2486,6 +2575,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "fire_stations": 4
         },
@@ -2519,6 +2609,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 1,
             "police_stations": 4
         },
@@ -2549,6 +2640,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 8
         },
         "alternate_version": null
@@ -2581,6 +2673,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1,
             "fire_stations": 4
         },
@@ -2610,6 +2703,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 8
         },
         "alternate_version": null
@@ -2635,6 +2729,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 4
         },
         "alternate_version": null
@@ -2662,6 +2757,7 @@
             "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -2691,6 +2787,7 @@
             "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -2720,6 +2817,7 @@
             "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 2
         },
         "alternate_version": null
@@ -2751,6 +2849,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 3,
             "police_stations": 1
         },
@@ -2778,6 +2877,7 @@
             "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -2809,6 +2909,7 @@
             "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 2,
             "fire_stations": 10
         },
@@ -2836,6 +2937,7 @@
             "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "max_police_stations": 7,
             "fire_stations": 2
         },
@@ -2871,6 +2973,7 @@
             "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 4,
             "police_stations": 7,
             "fire_stations": 2
@@ -2906,6 +3009,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "max_police_stations": 3,
             "fire_stations": 8
         },
@@ -2933,6 +3037,7 @@
             "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 3
         },
         "alternate_version": null
@@ -2962,6 +3067,7 @@
             "date_end": "2021-04-05T23:59:00+02:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 1,
             "fire_stations": 12
         },
@@ -2999,6 +3105,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 3,
             "police_stations": 3,
             "fire_stations": 15
@@ -3037,6 +3144,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 3,
             "police_stations": 3,
             "fire_stations": 15
@@ -3075,6 +3183,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 3,
             "police_stations": 3,
             "fire_stations": 15
@@ -3101,6 +3210,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 3
         },
         "alternate_version": null
@@ -3128,6 +3238,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 7,
             "police_helicopter_stations": 1
         },
@@ -3155,6 +3266,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 4,
             "police_helicopter_stations": 1
         },
@@ -3190,6 +3302,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 1,
             "police_stations": 4,
             "police_helicopter_stations": 1,
@@ -3222,6 +3335,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 2,
             "police_helicopter_stations": 1
         },
@@ -3253,6 +3367,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 6
         },
         "alternate_version": null
@@ -3280,6 +3395,7 @@
             "need_traffic_car_only_if_present": true
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 6
         },
         "alternate_version": null
@@ -3313,6 +3429,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 2,
             "police_stations": 6
         },
@@ -3345,6 +3462,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 3,
             "police_stations": 7,
             "police_helicopter_stations": 1
@@ -3373,6 +3491,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 6
         },
         "alternate_version": null
@@ -3402,6 +3521,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 8,
             "police_helicopter_stations": 1
         },
@@ -3437,6 +3557,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 1,
             "police_stations": 10,
             "police_helicopter_stations": 1
@@ -3469,6 +3590,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 15,
             "police_helicopter_stations": 1
         },
@@ -3498,6 +3620,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 9,
             "police_helicopter_stations": 1
         },
@@ -3533,6 +3656,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 1,
             "police_stations": 9
         },
@@ -3563,6 +3687,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 9
         },
         "alternate_version": null
@@ -3592,6 +3717,7 @@
             "patient_specializations": "Kardiochirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 5
         },
         "alternate_version": null
@@ -3620,6 +3746,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "fire_stations": 4
         },
@@ -3658,6 +3785,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 2,
             "police_stations": 3,
             "fire_stations": 15
@@ -3684,6 +3812,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 3
         },
         "alternate_version": null
@@ -3709,6 +3838,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 8
         },
         "alternate_version": null
@@ -3740,6 +3870,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 3,
             "police_stations": 3
         },
@@ -3777,6 +3908,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 4
@@ -3804,6 +3936,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 1,
             "fire_stations": 3
         },
@@ -3838,6 +3971,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 2,
             "police_stations": 1,
             "fire_stations": 4
@@ -3868,6 +4002,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 1,
             "fire_stations": 9
         },
@@ -3898,6 +4033,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 2
         },
         "alternate_version": null
@@ -3927,6 +4063,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 4
         },
         "alternate_version": null
@@ -3956,6 +4093,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 4
         },
         "alternate_version": null
@@ -3985,6 +4123,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 3
         },
         "alternate_version": null
@@ -4011,6 +4150,7 @@
             "date_end": "2020-10-01T00:00:00+02:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -4048,6 +4188,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 4,
             "police_stations": 1,
             "fire_stations": 4
@@ -4089,6 +4230,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 8,
             "police_stations": 1,
             "fire_stations": 6
@@ -4120,6 +4262,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -4162,6 +4305,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 10,
             "police_stations": 3,
             "fire_stations": 10
@@ -4203,6 +4347,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 15,
             "police_stations": 6,
             "fire_stations": 20
@@ -4233,6 +4378,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -4267,6 +4413,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 2,
             "fire_stations": 13
         },
@@ -4298,6 +4445,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 13
         },
         "alternate_version": null
@@ -4328,6 +4476,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 13
         },
         "alternate_version": null
@@ -4358,6 +4507,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 13
         },
         "alternate_version": null
@@ -4398,6 +4548,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 7,
             "police_stations": 2,
             "fire_stations": 13
@@ -4438,6 +4589,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 4,
             "fire_stations": 8
         },
@@ -4469,6 +4621,7 @@
             "fire_alarm_system_possible": true
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 6
         },
         "alternate_version": null
@@ -4503,6 +4656,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 2,
             "fire_stations": 6
         },
@@ -4533,6 +4687,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 2,
             "fire_stations": 11
         },
@@ -4562,12 +4717,15 @@
         "additional": {
             "possible_patient": 1,
             "expansion_missions_ids": {
-                "0": 210
+                "0": 210,
+                "1": 211,
+                "2": 315
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Neurologie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 3
@@ -4599,6 +4757,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -4625,6 +4784,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 1,
             "fire_stations": 4
         },
@@ -4651,6 +4811,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 1,
             "fire_stations": 3
         },
@@ -4679,6 +4840,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 1,
             "fire_stations": 5
         },
@@ -4704,6 +4866,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -4732,6 +4895,7 @@
             "patient_specializations": "Neurologie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -4761,6 +4925,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 1,
             "fire_stations": 7
         },
@@ -4790,6 +4955,7 @@
             "patient_specializations": "Gynekologie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -4826,6 +4992,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 3,
             "police_stations": 2,
             "fire_stations": 9
@@ -4853,6 +5020,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 1,
             "fire_stations": 2
         },
@@ -4882,6 +5050,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 2
         },
         "alternate_version": null
@@ -4917,6 +5086,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 2,
             "police_stations": 2,
             "fire_stations": 10
@@ -4946,6 +5116,7 @@
             "need_traffic_car_only_if_present": true
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 2,
             "fire_stations": 1
         },
@@ -4982,6 +5153,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 3,
             "fire_stations": 6
         },
@@ -5017,6 +5189,7 @@
             "need_traffic_car_only_if_present": true
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 1,
             "police_stations": 2,
             "fire_stations": 1
@@ -5049,6 +5222,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 6,
             "bomb_disposal_count": 1,
             "fire_stations": 6
@@ -5081,6 +5255,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 6,
             "bomb_disposal_count": 1,
             "fire_stations": 6
@@ -5113,6 +5288,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 6,
             "bomb_disposal_count": 1,
             "fire_stations": 6
@@ -5145,6 +5321,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 6,
             "bomb_disposal_count": 1,
             "fire_stations": 6
@@ -5187,6 +5364,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 7,
             "police_stations": 6,
             "bomb_disposal_count": 1,
@@ -5230,6 +5408,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 7,
             "police_stations": 3,
             "bomb_disposal_count": 1,
@@ -5259,6 +5438,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 3,
             "bomb_disposal_count": 1,
             "fire_stations": 1
@@ -5287,6 +5467,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 3,
             "bomb_disposal_count": 1,
             "fire_stations": 2
@@ -5317,6 +5498,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 3,
             "bomb_disposal_count": 1,
             "fire_stations": 2
@@ -5355,6 +5537,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 3,
             "police_stations": 10,
             "police_helicopter_stations": 1,
@@ -5391,6 +5574,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 2,
             "police_stations": 1
         },
@@ -5418,6 +5602,7 @@
             "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -5444,6 +5629,7 @@
             "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 2
         },
         "alternate_version": null
@@ -5477,6 +5663,7 @@
             "patient_specializations": "Neurologie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "fire_stations": 3
         },
@@ -5509,6 +5696,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 3
         },
         "alternate_version": null
@@ -5538,6 +5726,7 @@
             "patient_specializations": "Neurologie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -5564,6 +5753,7 @@
             "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 2
         },
         "alternate_version": null
@@ -5590,6 +5780,7 @@
             "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -5616,6 +5807,7 @@
             "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 2
         },
         "alternate_version": null
@@ -5642,6 +5834,7 @@
             "date_end": "2020-11-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -5676,6 +5869,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 3,
             "police_stations": 4,
             "fire_stations": 7
@@ -5706,6 +5900,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 1,
             "fire_stations": 10
         },
@@ -5739,6 +5934,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 1,
             "fire_stations": 10
         },
@@ -5779,6 +5975,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 2,
             "police_stations": 4,
             "fire_stations": 15
@@ -5808,6 +6005,7 @@
             "patient_specializations": "Urologie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 2
         },
         "alternate_version": null
@@ -5840,6 +6038,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 2,
             "police_stations": 2
         },
@@ -5869,6 +6068,7 @@
             "date_end": "2020-12-27T00:00:00+01:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 1,
             "fire_stations": 5
         },
@@ -5904,6 +6104,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 6
@@ -5939,6 +6140,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 2,
             "police_stations": 1,
             "fire_stations": 6
@@ -5973,6 +6175,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "fire_stations": 2
         },
@@ -6002,6 +6205,7 @@
             "date_end": "2020-12-27T00:00:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 2
         },
         "alternate_version": null
@@ -6036,6 +6240,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "police_stations": 2,
             "fire_stations": 4
         },
@@ -6073,6 +6278,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1,
             "police_stations": 1
         },
@@ -6103,6 +6309,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -6132,6 +6339,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -6165,6 +6373,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 2,
             "police_stations": 2,
             "fire_stations": 2
@@ -6194,6 +6403,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -6226,6 +6436,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 3,
             "police_stations": 1,
             "fire_stations": 8
@@ -6260,6 +6471,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 4,
             "police_stations": 2,
             "fire_stations": 6
@@ -6291,6 +6503,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -6317,6 +6530,7 @@
             "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -6343,6 +6557,7 @@
             "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -6369,6 +6584,7 @@
             "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 2
         },
         "alternate_version": null
@@ -6401,6 +6617,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 6
         },
         "alternate_version": null
@@ -6429,6 +6646,7 @@
             "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 3
         },
         "alternate_version": null
@@ -6458,6 +6676,7 @@
             "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 2
         },
         "alternate_version": null
@@ -6484,6 +6703,7 @@
             "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -6510,6 +6730,7 @@
             "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -6536,6 +6757,7 @@
             "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -6572,6 +6794,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 3,
             "police_stations": 2,
             "fire_stations": 7
@@ -6600,6 +6823,7 @@
             "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -6626,6 +6850,7 @@
             "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -6655,6 +6880,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 3
         },
         "alternate_version": null
@@ -6684,6 +6910,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -6713,6 +6940,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 3
         },
         "alternate_version": null
@@ -6742,6 +6970,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -6771,6 +7000,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -6803,6 +7033,7 @@
             "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 2,
             "police_stations": 4
         },
@@ -6835,6 +7066,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 1,
             "police_stations": 2
         },
@@ -6866,6 +7098,7 @@
             "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -6898,6 +7131,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 4,
             "police_stations": 2
         },
@@ -6926,6 +7160,7 @@
             "date_end": "2021-01-01T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 4
         },
         "alternate_version": null
@@ -6954,6 +7189,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -6980,6 +7216,7 @@
             "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -7007,6 +7244,7 @@
             "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 3
         },
         "alternate_version": null
@@ -7033,6 +7271,7 @@
             "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 2
         },
         "alternate_version": null
@@ -7060,6 +7299,7 @@
             "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 6
         },
         "alternate_version": null
@@ -7086,6 +7326,7 @@
             "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -7112,6 +7353,7 @@
             "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 2
         },
         "alternate_version": null
@@ -7139,6 +7381,7 @@
             "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 3
         },
         "alternate_version": null
@@ -7166,6 +7409,7 @@
             "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 6
         },
         "alternate_version": null
@@ -7193,6 +7437,7 @@
             "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 6
         },
         "alternate_version": null
@@ -7222,6 +7467,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -7251,6 +7497,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -7280,6 +7527,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 7
         },
         "alternate_version": null
@@ -7309,6 +7557,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 3
         },
         "alternate_version": null
@@ -7338,6 +7587,7 @@
             "patient_specializations": "Kardiochirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 3
         },
         "alternate_version": null
@@ -7372,6 +7622,7 @@
             "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 6
@@ -7406,6 +7657,7 @@
             "date_end": "2021-01-17T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 1,
             "police_stations": 3,
             "fire_stations": 5
@@ -7440,6 +7692,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 2,
             "police_stations": 3,
             "fire_stations": 6
@@ -7476,6 +7729,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 6,
             "rescue_stations": 6,
             "police_stations": 15,
             "police_helicopter_stations": 1
@@ -7502,6 +7756,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 3
         },
         "alternate_version": null
@@ -7536,8 +7791,12 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
-            "divers_extension_count": 1
+            "divers_extension_count": 1,
+            "main_building_extensions": {
+                "0": 2
+            }
         },
         "alternate_version": null
     },
@@ -7571,8 +7830,12 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
-            "divers_extension_count": 1
+            "divers_extension_count": 1,
+            "main_building_extensions": {
+                "0": 2
+            }
         },
         "alternate_version": null
     },
@@ -7606,6 +7869,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "rescue_stations": 1,
             "divers_extension_count": 1
         },
@@ -7641,6 +7905,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "rescue_stations": 1,
             "divers_extension_count": 1
         },
@@ -7679,10 +7944,14 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "police_stations": 2,
             "divers_extension_count": 2,
-            "fire_stations": 6
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
         },
         "alternate_version": null
     },
@@ -7719,6 +7988,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "rescue_stations": 1,
             "police_stations": 2,
             "divers_extension_count": 2,
@@ -7759,10 +8029,14 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "police_stations": 2,
             "divers_extension_count": 2,
-            "fire_stations": 6
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
         },
         "alternate_version": null
     },
@@ -7799,6 +8073,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "rescue_stations": 1,
             "police_stations": 2,
             "divers_extension_count": 2,
@@ -7839,10 +8114,14 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "police_stations": 2,
             "divers_extension_count": 2,
-            "fire_stations": 6
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
         },
         "alternate_version": null
     },
@@ -7879,6 +8158,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "rescue_stations": 1,
             "police_stations": 2,
             "divers_extension_count": 2,
@@ -7919,10 +8199,14 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "police_stations": 3,
             "divers_extension_count": 3,
-            "fire_stations": 6
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
         },
         "alternate_version": null
     },
@@ -7959,6 +8243,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "rescue_stations": 1,
             "police_stations": 3,
             "divers_extension_count": 3,
@@ -7999,10 +8284,14 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "police_stations": 3,
             "divers_extension_count": 3,
-            "fire_stations": 6
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
         },
         "alternate_version": null
     },
@@ -8039,6 +8328,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "rescue_stations": 1,
             "police_stations": 3,
             "divers_extension_count": 3,
@@ -8079,10 +8369,14 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "police_stations": 3,
             "divers_extension_count": 3,
-            "fire_stations": 6
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
         },
         "alternate_version": null
     },
@@ -8119,6 +8413,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "rescue_stations": 1,
             "police_stations": 3,
             "divers_extension_count": 3,
@@ -8159,10 +8454,14 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 10,
             "police_stations": 3,
             "divers_extension_count": 3,
-            "fire_stations": 6
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
         },
         "alternate_version": null
     },
@@ -8199,6 +8498,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "rescue_stations": 10,
             "police_stations": 3,
             "divers_extension_count": 3,
@@ -8239,10 +8539,14 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 10,
             "police_stations": 3,
             "divers_extension_count": 3,
-            "fire_stations": 6
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
         },
         "alternate_version": null
     },
@@ -8279,6 +8583,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "rescue_stations": 10,
             "police_stations": 3,
             "divers_extension_count": 3,
@@ -8319,10 +8624,14 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 10,
             "police_stations": 3,
             "divers_extension_count": 3,
-            "fire_stations": 6
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
         },
         "alternate_version": null
     },
@@ -8359,6 +8668,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "rescue_stations": 10,
             "police_stations": 3,
             "divers_extension_count": 3,
@@ -8402,6 +8712,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "wasserrettung": 1,
             "rescue_stations": 1,
             "police_stations": 4,
@@ -8446,6 +8757,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "wasserrettung": 1,
             "rescue_stations": 1,
             "police_stations": 4,
@@ -8482,6 +8794,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "wasserrettung": 1,
             "rescue_stations": 1
         },
@@ -8515,6 +8828,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "wasserrettung": 1,
             "rescue_stations": 1
         },
@@ -8548,6 +8862,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "wasserrettung": 1,
             "rescue_stations": 1
         },
@@ -8581,6 +8896,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "wasserrettung": 1,
             "rescue_stations": 1
         },
@@ -8614,6 +8930,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "wasserrettung": 1,
             "rescue_stations": 1
         },
@@ -8647,6 +8964,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "wasserrettung": 1,
             "rescue_stations": 1
         },
@@ -8680,6 +8998,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 15,
             "wasserrettung": 1,
             "rescue_stations": 1
         },
@@ -8718,6 +9037,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 2,
             "police_stations": 3,
             "fire_stations": 14
@@ -8749,6 +9069,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 2
         },
         "alternate_version": null
@@ -8778,6 +9099,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -8807,6 +9129,7 @@
             "patient_specializations": "Kardiologie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 2
         },
         "alternate_version": null
@@ -8836,6 +9159,7 @@
             "patient_specializations": "Kardiologie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 3
         },
         "alternate_version": null
@@ -8868,6 +9192,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 7,
             "fire_stations": 7
         },
@@ -8900,6 +9225,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "fire_stations": 2
         },
@@ -8927,6 +9253,7 @@
             "date_end": "2021-02-14T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 2
         },
         "alternate_version": null
@@ -8953,6 +9280,7 @@
             "date_end": "2021-02-14T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 1
         },
         "alternate_version": null
@@ -8979,6 +9307,7 @@
             "date_end": "2021-02-14T23:59:00+01:00"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 2
         },
         "alternate_version": null
@@ -9005,6 +9334,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 2
         },
         "alternate_version": null
@@ -9032,6 +9362,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -9060,6 +9391,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 2
         },
         "alternate_version": null
@@ -9090,6 +9422,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 1
@@ -9130,6 +9463,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 13,
             "police_stations": 6,
             "fire_stations": 15
@@ -9160,6 +9494,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -9195,6 +9530,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 3,
             "police_stations": 1,
             "fire_stations": 3
@@ -9225,6 +9561,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 3
         },
         "alternate_version": null
@@ -9251,6 +9588,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -9276,6 +9614,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 4
         },
         "alternate_version": null
@@ -9304,6 +9643,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -9336,6 +9676,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "fire_stations": 1
         },
@@ -9366,6 +9707,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 3
         },
         "alternate_version": null
@@ -9394,6 +9736,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 2
         },
         "alternate_version": null
@@ -9421,6 +9764,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -9449,6 +9793,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 2
         },
         "alternate_version": null
@@ -9477,6 +9822,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 2
         },
         "alternate_version": null
@@ -9504,6 +9850,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -9532,6 +9879,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 2
         },
         "alternate_version": null
@@ -9569,6 +9917,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 4,
             "police_stations": 3,
             "fire_stations": 7
@@ -9600,6 +9949,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 1
         },
         "alternate_version": null
@@ -9626,6 +9976,7 @@
             "date_end": "2021-05-09T21:59:00Z"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -9657,6 +10008,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "fire_stations": 2
         },
@@ -9687,6 +10039,7 @@
             "date_end": "2021-05-09T21:59:00Z"
         },
         "prerequisites": {
+            "main_building": 0,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -9718,6 +10071,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 1,
             "fire_stations": 1
         },
@@ -9745,6 +10099,7 @@
             "date_end": "2021-05-09T21:59:00Z"
         },
         "prerequisites": {
+            "main_building": 6,
             "police_stations": 2
         },
         "alternate_version": null
@@ -9781,6 +10136,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 3,
             "police_stations": 2,
             "fire_stations": 4
@@ -9819,6 +10175,7 @@
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
+            "main_building": 2,
             "rescue_stations": 4,
             "police_stations": 1,
             "fire_stations": 3
@@ -9861,9 +10218,50 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
+            "main_building": 0,
             "rescue_stations": 10,
             "police_stations": 4,
             "fire_stations": 14
+        },
+        "alternate_version": null
+    },
+    "325": {
+        "id": 325,
+        "name": "Po\u017e\u00e1r pln\u00edrny plynu",
+        "place": "Pln\u00edrna plynu",
+        "place_array": {
+            "0": "Pln\u00edrna plynu"
+        },
+        "average_credits": 5500,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 13,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "mobile_air_vehicles": 85,
+            "patient_transport": 15,
+            "patient_critical_care": 15
+        },
+        "additional": {
+            "possible_patient": 5,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 12
         },
         "alternate_version": null
     }

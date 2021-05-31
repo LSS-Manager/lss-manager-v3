@@ -142,6 +142,7 @@
 		"atf_unit": "ATF Unit",
     "atf_lab_vehicle": "ATF Lab Vehicle",
     "emschief": "EMS Chief",
+    "emsmcc": "EMS Mobile Command Unit",
     "brush_truck": "Wildland fire engines",
     "fire_aviation": "Airborne Firefighting Vehicles",
     "allow_rw_instead_of_lf": "Fire trucks or Heavy Rescue",
