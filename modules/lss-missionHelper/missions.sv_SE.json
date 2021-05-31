@@ -4194,9 +4194,7 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {
-                "0": 132
-            },
+            "expansion_missions_ids": {},
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -9199,6 +9197,43 @@
             "main_building": 6,
             "rescue_stations": 6,
             "police_stations": 12
+        },
+        "alternate_version": null
+    },
+    "298": {
+        "id": 298,
+        "name": "Brand i byggnad - huskomplex",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "platform_trucks": 10,
+            "patient_transport": 60,
+            "kdow_orgl": 50,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 4,
+            "fire_stations": 6
         },
         "alternate_version": null
     },

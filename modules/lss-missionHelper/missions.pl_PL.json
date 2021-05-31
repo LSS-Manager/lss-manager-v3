@@ -11705,5 +11705,71 @@
             "police_stations": 4
         },
         "alternate_version": null
+    },
+    "385": {
+        "id": 385,
+        "name": "Monitoring przeciwpo\u017carowy (Magazyn)",
+        "place": "Magazyn firmowy",
+        "place_array": {
+            "0": "Magazyn firmowy"
+        },
+        "average_credits": 4500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 118,
+                "1": 121
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "386": {
+        "id": 386,
+        "name": "Monitoring przeciwpo\u017carowy (Fabryka)",
+        "place": "Fabryka",
+        "place_array": {
+            "0": "Fabryka"
+        },
+        "average_credits": 5000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 194,
+                "1": 212
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 8
+        },
+        "alternate_version": null
     }
 }

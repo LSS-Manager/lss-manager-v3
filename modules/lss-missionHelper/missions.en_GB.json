@@ -11427,6 +11427,34 @@
             }
         }
     },
+    "321": {
+        "id": 321,
+        "name": "Theft of a motor vehicle",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 91
+            },
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 6
+        },
+        "alternate_version": null
+    },
     "322": {
         "id": 322,
         "name": "Dangerous goods truck accident",

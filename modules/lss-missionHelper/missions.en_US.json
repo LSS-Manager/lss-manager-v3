@@ -21489,6 +21489,39 @@
         },
         "alternate_version": null
     },
+    "588": {
+        "id": 588,
+        "name": "Powerline struck by lightning",
+        "place": "",
+        "place_array": {},
+        "average_credits": 250,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "15-D-8"
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
     "589": {
         "id": 589,
         "name": "Small Memorial day parade",

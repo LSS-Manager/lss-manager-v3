@@ -7332,5 +7332,42 @@
             "police_stations": 12
         },
         "alternate_version": null
+    },
+    "237": {
+        "id": 237,
+        "name": "Cas\u0103 \u00een fl\u0103c\u0103ri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "platform_trucks": 10,
+            "patient_transport": 60,
+            "kdow_orgl": 50,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 4,
+            "fire_stations": 6
+        },
+        "alternate_version": null
     }
 }

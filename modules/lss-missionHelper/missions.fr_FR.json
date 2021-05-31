@@ -10341,5 +10341,40 @@
             "police_helicopter_stations": 1
         },
         "alternate_version": null
+    },
+    "332": {
+        "id": 332,
+        "name": "Feu de maison",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 10,
+            "patient_transport": 60,
+            "patient_critical_care": 40
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 4,
+            "fire_stations": 6
+        },
+        "alternate_version": null
     }
 }

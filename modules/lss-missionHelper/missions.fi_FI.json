@@ -8634,6 +8634,40 @@
         },
         "alternate_version": null
     },
+    "283": {
+        "id": 283,
+        "name": "031 Ampumav\u00e4likohtaus",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 95,
+            "helicopter": 25,
+            "patient_critical_care": 65
+        },
+        "additional": {
+            "possible_patient": 2,
+            "max_possible_prisoners": 3,
+            "swat_personnel": 4,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 3,
+            "police_stations": 8
+        },
+        "alternate_version": null
+    },
     "284": {
         "id": 284,
         "name": "Henkil\u00f6 liukastui sulaan suklaaseen",

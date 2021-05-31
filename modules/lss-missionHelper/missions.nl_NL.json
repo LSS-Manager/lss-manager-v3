@@ -26138,6 +26138,92 @@
         },
         "alternate_version": null
     },
+    "786": {
+        "id": 786,
+        "name": "Ongeval in septic tank",
+        "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
+        "average_credits": 2910,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/gas_gruen.png",
+            "1": "/images/gas_gelb.png",
+            "2": "/images/gas_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "nef": 60,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 10,
+            "police_stations": 2,
+            "fire_stations": 11
+        },
+        "alternate_version": null
+    },
+    "787": {
+        "id": 787,
+        "name": "Persoon bekneld in gierput",
+        "place": "Boerderij",
+        "place_array": {
+            "0": "Boerderij"
+        },
+        "average_credits": 5470,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/gas_gruen.png",
+            "1": "/images/gas_gelb.png",
+            "2": "/images/gas_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 3,
+            "ovdp": 1
+        },
+        "chances": {
+            "spokesman": 50,
+            "mobile_air_vehicles": 20,
+            "nef": 90,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 10,
+            "police_stations": 5,
+            "fire_stations": 14
+        },
+        "alternate_version": null
+    },
     "788": {
         "id": 788,
         "name": "Iemand uitgegleden over gesmolten chocolade",
