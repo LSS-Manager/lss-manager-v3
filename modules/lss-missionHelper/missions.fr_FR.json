@@ -5425,6 +5425,67 @@
         },
         "alternate_version": null
     },
+    "174": {
+        "id": 174,
+        "name": "Service de s\u00e9curit\u00e9 - Feux d'artifice",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 2,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1\u00a0heure",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "175": {
+        "id": 175,
+        "name": "Service de s\u00e9curit\u00e9 - Course cycliste",
+        "place": "",
+        "place_array": {},
+        "average_credits": 320,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "20\u00a0minutes",
+            "duration": 1200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
     "176": {
         "id": 176,
         "name": "Feu d'ERP Camping",
