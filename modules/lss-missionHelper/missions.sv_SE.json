@@ -9416,5 +9416,45 @@
             "police_stations": 2
         },
         "alternate_version": null
+    },
+    "305": {
+        "id": 305,
+        "name": "Flygh\u00e4ndelse - flygplan i vattet, litet",
+        "place": "Sj\u00f6",
+        "place_array": {
+            "0": "Sj\u00f6"
+        },
+        "average_credits": 4000,
+        "generated_by": "Sj\u00f6r\u00e4ddning",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "boats": 1
+        },
+        "chances": {
+            "hazmat_vehicles": 50,
+            "patient_transport": 60,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 5,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "main_building": 15,
+            "wasserrettung": 1,
+            "rescue_stations": 3,
+            "fire_stations": 11
+        },
+        "alternate_version": null
     }
 }

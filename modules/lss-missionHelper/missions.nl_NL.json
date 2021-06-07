@@ -26988,5 +26988,76 @@
             "police_stations": 2
         },
         "alternate_version": null
+    },
+    "811": {
+        "id": 811,
+        "name": "Verkeerd medicijngebruik",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "812": {
+        "id": 812,
+        "name": "Persoon vast in roltrap",
+        "place": "Winkelcentrum\nVliegveld (groot): Terminal\nVliegveld (groot): Platform / Gate\nVliegveld (groot): Parkeergarage\nParkeergarage",
+        "place_array": {
+            "0": "Winkelcentrum",
+            "1": "Vliegveld (groot): Terminal",
+            "2": "Vliegveld (groot): Platform / Gate",
+            "3": "Vliegveld (groot): Parkeergarage",
+            "4": "Parkeergarage"
+        },
+        "average_credits": 1590,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 75,
+            "nef": 10,
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 10,
+            "police_stations": 2,
+            "fire_stations": 6
+        },
+        "alternate_version": null
     }
 }
