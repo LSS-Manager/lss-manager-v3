@@ -6490,6 +6490,9 @@
             "possible_patient": 3,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 293
+            },
             "patient_specializations": "Yleiskirurgi"
         },
         "prerequisites": {
@@ -8845,6 +8848,90 @@
         "prerequisites": {
             "main_building": 6,
             "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "290": {
+        "id": 290,
+        "name": "217 Metroliikenneonnettomuus asemalla",
+        "place": "Metroasema",
+        "place_array": {
+            "0": "Metroasema"
+        },
+        "average_credits": 8200,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 7,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "mobile_air_vehicles": 1,
+            "police_cars": 5
+        },
+        "chances": {
+            "patient_transport": 25,
+            "patient_critical_care": 8
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 3,
+            "expansion_missions_ids": {
+                "0": 291
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 14,
+            "police_stations": 4,
+            "fire_stations": 14
+        },
+        "alternate_version": null
+    },
+    "291": {
+        "id": 291,
+        "name": "218 Suuri metroliikenneonnettomuus asemalla",
+        "place": "Metroasema",
+        "place_array": {
+            "0": "Metroasema"
+        },
+        "average_credits": 9500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 7,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 5,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 6
+        },
+        "chances": {
+            "patient_transport": 25,
+            "helicopter": 8,
+            "patient_critical_care": 16
+        },
+        "additional": {
+            "possible_patient": 60,
+            "possible_patient_min": 12,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 20,
+            "police_stations": 10,
+            "fire_stations": 20
         },
         "alternate_version": null
     }

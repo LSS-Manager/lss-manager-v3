@@ -7686,5 +7686,47 @@
             "fire_stations": 6
         },
         "alternate_version": null
+    },
+    "248": {
+        "id": 248,
+        "name": "\uc6d0\uc790\ub825 \ubc1c\uc804\uc18c \uc0ac\uace0(\uc911\ub300 \uc0ac\uac74)",
+        "place": "\uc6d0\uc790\ub825 \ubc1c\uc804\uc18c",
+        "place_array": {
+            "0": "\uc6d0\uc790\ub825 \ubc1c\uc804\uc18c"
+        },
+        "average_credits": 30000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 25,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 2,
+            "mobile_air_vehicles": 2,
+            "hazmat_vehicles": 4,
+            "police_cars": 8
+        },
+        "chances": {
+            "patient_transport": 10,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 80,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 40,
+            "police_stations": 10,
+            "fire_stations": 40
+        },
+        "alternate_version": null
     }
 }
