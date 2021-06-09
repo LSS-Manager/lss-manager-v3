@@ -12212,7 +12212,6 @@
         },
         "prerequisites": {
             "main_building": 6,
-            "rescue_stations": 40,
             "police_stations": 1
         },
         "alternate_version": null

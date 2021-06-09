@@ -2133,7 +2133,7 @@
     },
     "73": {
         "id": 73,
-        "name": "Accidente de autob\u00fas serio",
+        "name": "Accidente de autob\u00fas grave",
         "place": "",
         "place_array": {},
         "average_credits": 2000,
@@ -3447,7 +3447,7 @@
     },
     "116": {
         "id": 116,
-        "name": "Vuelco de veh\u00edculo a motor",
+        "name": "Vuelco de veh\u00edculo",
         "place": "",
         "place_array": {},
         "average_credits": 3000,
@@ -5613,7 +5613,7 @@
     },
     "182": {
         "id": 182,
-        "name": "Incendio menor en una f\u00e1brica",
+        "name": "Peque\u00f1o incendio industrial",
         "place": "F\u00e1brica",
         "place_array": {
             "0": "F\u00e1brica"
@@ -5648,7 +5648,7 @@
     },
     "183": {
         "id": 183,
-        "name": "Incendio mayor en una f\u00e1brica",
+        "name": "Gran incendio industrial",
         "place": "F\u00e1brica",
         "place_array": {
             "0": "F\u00e1brica"
@@ -7596,7 +7596,7 @@
     },
     "245": {
         "id": 245,
-        "name": "Incendio en edificio alto",
+        "name": "Incendio en rascacielos",
         "place": "Rascacielos",
         "place_array": {
             "0": "Rascacielos"
@@ -8269,7 +8269,7 @@
     },
     "267": {
         "id": 267,
-        "name": "Construction Vehicle Accident",
+        "name": "Accidente de veh\u00edculo de construcci\u00f3n",
         "place": "",
         "place_array": {},
         "average_credits": 950,
