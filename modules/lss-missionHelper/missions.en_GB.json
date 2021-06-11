@@ -12212,8 +12212,316 @@
         },
         "prerequisites": {
             "main_building": 6,
-            "rescue_stations": 40,
             "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "336": {
+        "id": 336,
+        "name": "Inflate Soccer ball",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-06-11T09:00:00Z",
+            "date_end": "2021-07-11T22:00:00Z"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "337": {
+        "id": 337,
+        "name": "Team bus parked in no stopping zone",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "2021-06-11T09:00:00Z",
+            "date_end": "2021-07-11T22:00:00Z"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "338": {
+        "id": 338,
+        "name": "Treatment after diving",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-3"
+            },
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
+            "date_start": "2021-06-11T09:00:00Z",
+            "date_end": "2021-07-11T22:00:00Z",
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "339": {
+        "id": 339,
+        "name": "Injury after hitting bar",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-3"
+            },
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
+            "date_start": "2021-06-11T09:00:00Z",
+            "date_end": "2021-07-11T22:00:00Z",
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "340": {
+        "id": 340,
+        "name": "Goal fell down",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-06-11T09:00:00Z",
+            "date_end": "2021-07-11T22:00:00Z"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "341": {
+        "id": 341,
+        "name": "Stolen trophy",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "2021-06-11T09:00:00Z",
+            "date_end": "2021-07-11T22:00:00Z"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "342": {
+        "id": 342,
+        "name": "Frostbite from ice spray",
+        "place": "Stadium",
+        "place_array": {
+            "0": "Stadium"
+        },
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 20,
+            "patient_critical_care": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-3"
+            },
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-06-11T09:00:00Z",
+            "date_end": "2021-07-11T22:00:00Z",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "343": {
+        "id": 343,
+        "name": "Sore throat after celebrating",
+        "place": "Stadium",
+        "place_array": {
+            "0": "Stadium"
+        },
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-3"
+            },
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-06-11T09:00:00Z",
+            "date_end": "2021-07-11T22:00:00Z",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "344": {
+        "id": 344,
+        "name": "Missing captain armband",
+        "place": "Stadium",
+        "place_array": {
+            "0": "Stadium"
+        },
+        "average_credits": 1200,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "2021-06-11T09:00:00Z",
+            "date_end": "2021-07-11T22:00:00Z"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 2,
+            "police_helicopter_stations": 1
+        },
+        "alternate_version": null
+    },
+    "345": {
+        "id": 345,
+        "name": "Burning corner flag",
+        "place": "Stadium",
+        "place_array": {
+            "0": "Stadium"
+        },
+        "average_credits": 450,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/soccer_gruen.png",
+            "1": "/images/soccer_gelb.png",
+            "2": "/images/soccer_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-06-11T09:00:00Z",
+            "date_end": "2021-07-11T22:00:00Z"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2
         },
         "alternate_version": null
     }
