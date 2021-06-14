@@ -9121,6 +9121,47 @@
         },
         "alternate_version": null
     },
+    "292": {
+        "id": 292,
+        "name": "\u041a\u0440\u0443\u0448\u0435\u043d\u0438\u0435 \u043f\u0430\u0441\u0441\u0430\u0436\u0438\u0440\u0441\u043a\u043e\u0433\u043e \u043f\u043e\u0435\u0437\u0434\u0430",
+        "place": "\u0416\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f\n\u0416\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u044b\u0439 \u0432\u043e\u043a\u0437\u0430\u043b\n\u041f\u0435\u0448\u0435\u0445\u043e\u0434\u043d\u044b\u0439 \u043f\u0435\u0440\u0435\u0435\u0437\u0434",
+        "place_array": {
+            "0": "\u0416\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+            "1": "\u0416\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u044b\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+            "2": "\u041f\u0435\u0448\u0435\u0445\u043e\u0434\u043d\u044b\u0439 \u043f\u0435\u0440\u0435\u0435\u0437\u0434"
+        },
+        "average_credits": 11000,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 11,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 25,
+            "possible_patient_min": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 8,
+            "police_stations": 5,
+            "fire_stations": 15
+        },
+        "alternate_version": null
+    },
     "295": {
         "id": 295,
         "name": "\u041d\u0430\u0434\u0443\u0442\u044c \u0444\u0443\u0442\u0431\u043e\u043b\u044c\u043d\u044b\u0439 \u043c\u044f\u0447",

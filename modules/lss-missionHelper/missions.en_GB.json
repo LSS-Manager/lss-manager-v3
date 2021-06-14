@@ -12216,6 +12216,39 @@
         },
         "alternate_version": null
     },
+    "333": {
+        "id": 333,
+        "name": "Child Locked in Car",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_uk_code_possible": {
+                "0": "C-3"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
     "336": {
         "id": 336,
         "name": "Inflate Soccer ball",

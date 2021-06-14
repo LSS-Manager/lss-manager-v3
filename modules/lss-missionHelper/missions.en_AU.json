@@ -9912,5 +9912,46 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "319": {
+        "id": 319,
+        "name": "Passenger Train Derailment",
+        "place": "Train station (regional traffic)\nTrain station (regional traffic and long-distance travel)\nRailroad Crossing",
+        "place_array": {
+            "0": "Train station (regional traffic)",
+            "1": "Train station (regional traffic and long-distance travel)",
+            "2": "Railroad Crossing"
+        },
+        "average_credits": 11000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 11,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 25,
+            "possible_patient_min": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 8,
+            "police_stations": 5,
+            "fire_stations": 15
+        },
+        "alternate_version": null
     }
 }

@@ -11863,6 +11863,68 @@
         },
         "alternate_version": null
     },
+    "390": {
+        "id": 390,
+        "name": "Wypadek podczas pracy",
+        "place": "Fabryka",
+        "place_array": {
+            "0": "Fabryka"
+        },
+        "average_credits": 1500,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 95,
+            "helicopter": 25,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "391": {
+        "id": 391,
+        "name": "Wypadek w ogrodzie",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 15,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
     "397": {
         "id": 397,
         "name": "Sflacza\u0142a pi\u0142ka",

@@ -7605,5 +7605,46 @@
             "fire_stations": 40
         },
         "alternate_version": null
+    },
+    "245": {
+        "id": 245,
+        "name": "\u65c5\u5ba2\u5217\u8eca\u8131\u7dda",
+        "place": "\u99c5\uff08\u666e\u901a\u8eca\u4e21\uff09\n\u99c5\uff08\u666e\u901a\u8eca\u4e21\u3068\u9577\u8ddd\u96e2\u8def\u7dda\uff09\n\u8e0f\u5207",
+        "place_array": {
+            "0": "\u99c5\uff08\u666e\u901a\u8eca\u4e21\uff09",
+            "1": "\u99c5\uff08\u666e\u901a\u8eca\u4e21\u3068\u9577\u8ddd\u96e2\u8def\u7dda\uff09",
+            "2": "\u8e0f\u5207"
+        },
+        "average_credits": 11000,
+        "generated_by": "\u6d88\u9632\u5c40",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 11,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 25,
+            "possible_patient_min": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u707d\u5bb3\u5916\u79d1"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 8,
+            "police_stations": 5,
+            "fire_stations": 15
+        },
+        "alternate_version": null
     }
 }
