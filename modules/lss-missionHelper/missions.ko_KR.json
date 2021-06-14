@@ -7728,5 +7728,46 @@
             "fire_stations": 40
         },
         "alternate_version": null
+    },
+    "249": {
+        "id": 249,
+        "name": "\uc5f4\ucc28 \ud0c8\uc120 \uc0ac\uace0",
+        "place": "\uae30\ucc28\uc5ed(\uc9c0\uc5ed \uad50\ud1b5)\n\uae30\ucc28\uc5ed(\uc9c0\uc5ed \uad50\ud1b5 \ubc0f \uc7a5\uac70\ub9ac \uc5ec\ud589\uc5ed)\n\ucca0\uae38 \uac74\ub110\ubaa9",
+        "place_array": {
+            "0": "\uae30\ucc28\uc5ed(\uc9c0\uc5ed \uad50\ud1b5)",
+            "1": "\uae30\ucc28\uc5ed(\uc9c0\uc5ed \uad50\ud1b5 \ubc0f \uc7a5\uac70\ub9ac \uc5ec\ud589\uc5ed)",
+            "2": "\ucca0\uae38 \uac74\ub110\ubaa9"
+        },
+        "average_credits": 11000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 11,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 25,
+            "possible_patient_min": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 8,
+            "police_stations": 5,
+            "fire_stations": 15
+        },
+        "alternate_version": null
     }
 }

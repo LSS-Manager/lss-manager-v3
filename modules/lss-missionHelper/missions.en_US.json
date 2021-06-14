@@ -21518,7 +21518,8 @@
         },
         "prerequisites": {
             "main_building": 3,
-            "rescue_stations": 1
+            "rescue_stations": 1,
+            "fire_stations": 4
         },
         "alternate_version": null
     },
@@ -21943,6 +21944,32 @@
             "rescue_stations": 1,
             "police_stations": 2,
             "fire_stations": 11
+        },
+        "alternate_version": null
+    },
+    "598": {
+        "id": 598,
+        "name": "Lightning strikes house",
+        "place": "",
+        "place_array": {},
+        "average_credits": 450,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 4
         },
         "alternate_version": null
     }

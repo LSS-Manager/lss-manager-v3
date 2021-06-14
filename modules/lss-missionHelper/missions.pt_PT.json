@@ -8310,6 +8310,35 @@
         },
         "alternate_version": null
     },
+    "278": {
+        "id": 278,
+        "name": "Hipoglic\u00e9mia",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Esta\u00e7\u00e3o de Ambul\u00e2ncias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 75,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 5
+        },
+        "alternate_version": null
+    },
     "281": {
         "id": 281,
         "name": "Insuflar Bola de Futebol",
@@ -8554,7 +8583,7 @@
         "place_array": {
             "0": "Est\u00e1dio"
         },
-        "average_credits": 1200,
+        "average_credits": 800,
         "generated_by": "Esquadra de Pol\u00edcia",
         "icons": {
             "0": "/images/soccer_gruen.png",
@@ -8562,8 +8591,7 @@
             "2": "/images/soccer_rot.png"
         },
         "requirements": {
-            "police_helicopters": 1,
-            "police_cars": 1
+            "police_cars": 2
         },
         "chances": {},
         "additional": {
@@ -8573,8 +8601,7 @@
         },
         "prerequisites": {
             "main_building": 6,
-            "police_stations": 2,
-            "police_helicopter_stations": 1
+            "police_stations": 2
         },
         "alternate_version": null
     },

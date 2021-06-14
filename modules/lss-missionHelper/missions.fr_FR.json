@@ -10793,5 +10793,61 @@
             "fire_stations": 2
         },
         "alternate_version": null
+    },
+    "345": {
+        "id": 345,
+        "name": "Fuite de Gaz - Proc\u00e9dure commune",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/gas_gruen.png",
+            "1": "/images/gas_gelb.png",
+            "2": "/images/gas_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "346": {
+        "id": 346,
+        "name": "Fuite de Gaz - Proc\u00e9dure renforc\u00e9e",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/gas_gruen.png",
+            "1": "/images/gas_gelb.png",
+            "2": "/images/gas_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 4,
+            "fire_stations": 7
+        },
+        "alternate_version": null
     }
 }

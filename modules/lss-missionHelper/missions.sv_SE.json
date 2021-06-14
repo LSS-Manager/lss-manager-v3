@@ -9457,6 +9457,41 @@
         },
         "alternate_version": null
     },
+    "306": {
+        "id": 306,
+        "name": "Trafikolycka - eldrivet fordon",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 2,
+            "hazmat_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 5,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Allm\u00e4nkirurg"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "fire_stations": 11
+        },
+        "alternate_version": null
+    },
     "309": {
         "id": 309,
         "name": "Uppbl\u00e5st fotboll",
