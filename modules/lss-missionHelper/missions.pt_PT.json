@@ -412,33 +412,6 @@
         },
         "alternate_version": null
     },
-    "15": {
-        "id": 15,
-        "name": "Pequeno inc\u00eandio florestal",
-        "place": "Floresta",
-        "place_array": {
-            "0": "Floresta"
-        },
-        "average_credits": 1010,
-        "generated_by": "Corpo de Bombeiros",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions"
-        },
-        "prerequisites": {
-            "main_building": 0,
-            "fire_stations": 2
-        },
-        "alternate_version": null
-    },
     "16": {
         "id": 16,
         "name": "Inc\u00eandio numa caravana",
@@ -3970,7 +3943,7 @@
     },
     "141": {
         "id": 141,
-        "name": "Inc\u00eandio em Restaurante de Fast Food",
+        "name": "Inc\u00eandio num Restaurante de Fast Food",
         "place": "Restaurante Fast Food",
         "place_array": {
             "0": "Restaurante Fast Food"
@@ -8631,6 +8604,626 @@
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "291": {
+        "id": 291,
+        "name": "Pequeno Inc\u00eandio em Mato",
+        "place": "Parque\nColina\nCampo\nTerreno Baldio\nPantano",
+        "place_array": {
+            "0": "Parque",
+            "1": "Colina",
+            "2": "Campo",
+            "3": "Terreno Baldio",
+            "4": "Pantano"
+        },
+        "average_credits": 2000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 14000,
+            "brush_truck": 2,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 292
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 302
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 1,
+            "fire_stations": 3,
+            "main_building_extensions": {
+                "0": 3
+            }
+        },
+        "alternate_version": null
+    },
+    "292": {
+        "id": 292,
+        "name": "Inc\u00eandio em Mato",
+        "place": "Parque\nColina\nCampo\nTerreno Baldio\nPantano",
+        "place_array": {
+            "0": "Parque",
+            "1": "Colina",
+            "2": "Campo",
+            "3": "Terreno Baldio",
+            "4": "Pantano"
+        },
+        "average_credits": 4000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 18000,
+            "brush_truck": 4,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 293
+            },
+            "followup_missions_ids": {
+                "0": 291,
+                "1": 295
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 303
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 2,
+            "fire_stations": 8,
+            "main_building_extensions": {
+                "0": 3
+            }
+        },
+        "alternate_version": null
+    },
+    "293": {
+        "id": 293,
+        "name": "Grande Inc\u00eandio em Mato",
+        "place": "Parque\nColina\nCampo\nTerreno Baldio\nPantano",
+        "place_array": {
+            "0": "Parque",
+            "1": "Colina",
+            "2": "Campo",
+            "3": "Terreno Baldio",
+            "4": "Pantano"
+        },
+        "average_credits": 6500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 25000,
+            "brush_truck": 6,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 4
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 294
+            },
+            "followup_missions_ids": {
+                "0": 291,
+                "1": 292,
+                "2": 295,
+                "3": 296
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 304
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 3,
+            "fire_stations": 10,
+            "main_building_extensions": {
+                "0": 3
+            }
+        },
+        "alternate_version": null
+    },
+    "294": {
+        "id": 294,
+        "name": "Inc\u00eandio de Grandes Dimens\u00f5es em Mato",
+        "place": "Parque\nColina\nCampo\nTerreno Baldio\nPantano",
+        "place_array": {
+            "0": "Parque",
+            "1": "Colina",
+            "2": "Campo",
+            "3": "Terreno Baldio",
+            "4": "Pantano"
+        },
+        "average_credits": 10000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 60000,
+            "brush_truck": 8,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 8,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 295,
+                "1": 296,
+                "2": 297,
+                "3": 291,
+                "4": 292,
+                "5": 293
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 305
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "brush_extension": 4,
+            "fire_stations": 14,
+            "main_building_extensions": {
+                "0": 3
+            }
+        },
+        "alternate_version": null
+    },
+    "295": {
+        "id": 295,
+        "name": "Pequeno Inc\u00eandio Florestal",
+        "place": "Floresta",
+        "place_array": {
+            "0": "Floresta"
+        },
+        "average_credits": 2000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 15000,
+            "brush_truck": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 296
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 302
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 1,
+            "fire_stations": 9,
+            "main_building_extensions": {
+                "0": 3
+            }
+        },
+        "alternate_version": null
+    },
+    "296": {
+        "id": 296,
+        "name": "Inc\u00eandio Florestal",
+        "place": "Floresta",
+        "place_array": {
+            "0": "Floresta"
+        },
+        "average_credits": 5500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 20000,
+            "brush_truck": 5,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 297
+            },
+            "followup_missions_ids": {
+                "0": 295,
+                "1": 291
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 303
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 3,
+            "fire_stations": 11,
+            "main_building_extensions": {
+                "0": 3
+            }
+        },
+        "alternate_version": null
+    },
+    "297": {
+        "id": 297,
+        "name": "Grande Inc\u00eandio Florestal",
+        "place": "Floresta",
+        "place_array": {
+            "0": "Floresta"
+        },
+        "average_credits": 8000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 35000,
+            "brush_truck": 8,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 298
+            },
+            "followup_missions_ids": {
+                "0": 295,
+                "1": 296,
+                "2": 291,
+                "3": 292
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 304
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 5,
+            "fire_stations": 15,
+            "main_building_extensions": {
+                "0": 3
+            }
+        },
+        "alternate_version": null
+    },
+    "298": {
+        "id": 298,
+        "name": "Inc\u00eandio Florestal  de Grandes Dimens\u00f5es",
+        "place": "Floresta",
+        "place_array": {
+            "0": "Floresta"
+        },
+        "average_credits": 11000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 65000,
+            "brush_truck": 10,
+            "fire_aviation": 1,
+            "battalion_chief_vehicles": 7,
+            "mobile_command_vehicles": 2,
+            "water_tankers": 4,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 295,
+                "1": 296,
+                "2": 297,
+                "3": 291,
+                "4": 292,
+                "5": 293
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 305
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 3,
+            "brush_extension": 7,
+            "fire_aviation_count": 1,
+            "fire_stations": 18,
+            "main_building_extensions": {
+                "0": 3
+            }
+        },
+        "alternate_version": null
+    },
+    "299": {
+        "id": 299,
+        "name": "Queda de Rel\u00e2mpagos na Floresta",
+        "place": "Floresta",
+        "place_array": {
+            "0": "Floresta"
+        },
+        "average_credits": 700,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 9000,
+            "brush_truck": 2
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 295,
+                "1": 291
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2,
+            "main_building_extensions": {
+                "0": 3
+            }
+        },
+        "alternate_version": null
+    },
+    "300": {
+        "id": 300,
+        "name": "Inc\u00eandio num Parque de Campismo",
+        "place": "Parque de Campismo",
+        "place_array": {
+            "0": "Parque de Campismo"
+        },
+        "average_credits": 3000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 14000,
+            "firetrucks": 4,
+            "brush_truck": 1,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "followup_missions_ids": {
+                "0": 295,
+                "1": 291
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "fire_stations": 9,
+            "main_building_extensions": {
+                "0": 3
+            }
+        },
+        "alternate_version": null
+    },
+    "301": {
+        "id": 301,
+        "name": "Inc\u00eandio numa Cabana",
+        "place": "Cabana",
+        "place_array": {
+            "0": "Cabana"
+        },
+        "average_credits": 3000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 14000,
+            "firetrucks": 4,
+            "brush_truck": 1,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "followup_missions_ids": {
+                "0": 295,
+                "1": 291
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 4,
+            "fire_stations": 9,
+            "main_building_extensions": {
+                "0": 3
+            }
+        },
+        "alternate_version": null
+    },
+    "302": {
+        "id": 302,
+        "name": "Opera\u00e7\u00f5es de Vigil\u00e2ncia e Preven\u00e7\u00e3o",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 1,
+            "main_building_extensions": {
+                "0": 3
+            }
+        },
+        "alternate_version": null
+    },
+    "303": {
+        "id": 303,
+        "name": "Vigil\u00e2ncia Ativa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "brush_truck": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 2,
+            "fire_stations": 1,
+            "main_building_extensions": {
+                "0": 3
+            }
+        },
+        "alternate_version": null
+    },
+    "304": {
+        "id": 304,
+        "name": "Opera\u00e7\u00f5es de Rescaldo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "brush_truck": 7,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 2,
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 3
+            }
+        },
+        "alternate_version": null
+    },
+    "305": {
+        "id": 305,
+        "name": "Opera\u00e7\u00f5es de Rescaldo e Vigil\u00e2ncia",
+        "place": "",
+        "place_array": {},
+        "average_credits": 9500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "brush_truck": 10,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 2,
+            "fire_stations": 12,
+            "main_building_extensions": {
+                "0": 3
+            }
         },
         "alternate_version": null
     }

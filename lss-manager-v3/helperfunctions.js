@@ -167,6 +167,13 @@ else if (I18n.locale == "pt_PT") {
         "18": ["SIV", 1],
         "19": ["Mota INEM", 1],
         "20": ["VIC", 1],
+        "21": ["ERAS", 0],
+        "22": ["Semi-Reboque", 0],
+        "23": ["D10T2", 0],
+        "24": ["VTTF", 0],
+        "25": ["Helicóptero de Combate Ligeiro", 0],
+        "26": ["Alpha", 0],
+        "27": ["CL-415", 0]
     };
 }
 else if (I18n.locale == "sv_SE") {
