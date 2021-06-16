@@ -285,8 +285,10 @@
     "10": {
         "id": 10,
         "name": "411 Traktoripalo",
-        "place": "",
-        "place_array": {},
+        "place": "Maatila",
+        "place_array": {
+            "0": "Maatila"
+        },
         "average_credits": 600,
         "generated_by": "Paloasema",
         "icons": {
@@ -713,7 +715,8 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2
+                "1": 2,
+                "2": 29
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -871,8 +874,10 @@
     "32": {
         "id": 32,
         "name": "412 Puimakonepalo",
-        "place": "",
-        "place_array": {},
+        "place": "Maatila",
+        "place_array": {
+            "0": "Maatila"
+        },
         "average_credits": 1200,
         "generated_by": "Paloasema",
         "icons": {
@@ -1397,6 +1402,9 @@
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 56
+            },
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
@@ -1424,6 +1432,9 @@
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 56
+            },
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
@@ -1451,6 +1462,9 @@
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 56
+            },
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
@@ -1478,6 +1492,9 @@
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 56
+            },
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
@@ -1800,6 +1817,9 @@
         "additional": {
             "possible_patient": 12,
             "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 203
+            },
             "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
         },
         "prerequisites": {
@@ -2097,6 +2117,9 @@
         "additional": {
             "possible_patient": 12,
             "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 203
+            },
             "patient_specializations": "Yleiskirurgi"
         },
         "prerequisites": {
@@ -3474,9 +3497,10 @@
     "117": {
         "id": 117,
         "name": "09 Luvaton radalla liikkuminen",
-        "place": "Rautatieasema (paikallisliikenne)",
+        "place": "Rautatieasema (paikallisliikenne)\nMetroasema",
         "place_array": {
-            "0": "Rautatieasema (paikallisliikenne)"
+            "0": "Rautatieasema (paikallisliikenne)",
+            "1": "Metroasema"
         },
         "average_credits": 900,
         "generated_by": "Poliisiasema",
@@ -3491,7 +3515,8 @@
         "chances": {},
         "additional": {
             "expansion_missions_ids": {
-                "0": 119
+                "0": 119,
+                "1": 120
             },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions"
@@ -3505,9 +3530,10 @@
     "118": {
         "id": 118,
         "name": "09 Luvaton radalla liikkuminen",
-        "place": "Rautatieasema (paikallis- ja pitk\u00e4n matkan liikenne)",
+        "place": "Rautatieasema (paikallisliikenne)\nMetroasema",
         "place_array": {
-            "0": "Rautatieasema (paikallis- ja pitk\u00e4n matkan liikenne)"
+            "0": "Rautatieasema (paikallisliikenne)",
+            "1": "Metroasema"
         },
         "average_credits": 900,
         "generated_by": "Poliisiasema",
@@ -3522,7 +3548,8 @@
         "chances": {},
         "additional": {
             "expansion_missions_ids": {
-                "0": 120
+                "0": 119,
+                "1": 120
             },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions"
@@ -3536,9 +3563,10 @@
     "119": {
         "id": 119,
         "name": "212 Raideliikenneonnettomuus, pieni",
-        "place": "Rautatieasema (paikallisliikenne)",
+        "place": "Rautatieasema (paikallisliikenne)\nMetroasema",
         "place_array": {
-            "0": "Rautatieasema (paikallisliikenne)"
+            "0": "Rautatieasema (paikallisliikenne)",
+            "1": "Metroasema"
         },
         "average_credits": 3000,
         "generated_by": "Paloasema",
@@ -3574,9 +3602,10 @@
     "120": {
         "id": 120,
         "name": "212 Raideliikenneonnettomuus, pieni",
-        "place": "Rautatieasema (paikallis- ja pitk\u00e4n matkan liikenne)",
+        "place": "Rautatieasema (paikallisliikenne)\nMetroasema",
         "place_array": {
-            "0": "Rautatieasema (paikallis- ja pitk\u00e4n matkan liikenne)"
+            "0": "Rautatieasema (paikallisliikenne)",
+            "1": "Metroasema"
         },
         "average_credits": 3000,
         "generated_by": "Paloasema",
@@ -3809,6 +3838,9 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 0,
+            "expansion_missions_ids": {
+                "0": 56
+            },
             "filter_id": "police_station_missions",
             "patient_allow_first_responder_chance": 66,
             "patient_at_end_of_mission": true,
@@ -4119,8 +4151,6 @@
             "2": "/images/zoom_rot.png"
         },
         "requirements": {
-            "firetrucks": 2,
-            "battalion_chief_vehicles": 1,
             "police_cars": 5,
             "k9": 1
         },
@@ -4136,8 +4166,7 @@
         "prerequisites": {
             "main_building": 6,
             "rescue_stations": 1,
-            "police_stations": 6,
-            "fire_stations": 6
+            "police_stations": 6
         },
         "alternate_version": null
     },
@@ -4676,9 +4705,6 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 155
-            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -4707,9 +4733,6 @@
             "battalion_chief_vehicles": 33
         },
         "additional": {
-            "expansion_missions_ids": {
-                "0": 156
-            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -5074,7 +5097,7 @@
             "2": "/images/zoom_rot.png"
         },
         "requirements": {
-            "police_cars": 2
+            "police_cars": 1
         },
         "chances": {},
         "additional": {
@@ -6350,6 +6373,9 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "subsequent_missions_ids": {
+                "0": 203
+            },
             "patient_specializations": "Yleiskirurgi"
         },
         "prerequisites": {

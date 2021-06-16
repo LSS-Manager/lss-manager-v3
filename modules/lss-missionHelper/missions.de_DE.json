@@ -4682,9 +4682,8 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 27,
-                "1": 43,
-                "2": 83
+                "0": 43,
+                "1": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -16204,7 +16203,6 @@
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 2,
             "gwoil": 1,
-            "height_rescue_units": 1,
             "police_cars": 2
         },
         "chances": {
@@ -16213,7 +16211,6 @@
             "gwoil": 20,
             "nef": 30,
             "patient_transport": 50,
-            "height_rescue_units": 10,
             "helicopter": 5
         },
         "additional": {
@@ -16257,7 +16254,6 @@
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 2,
             "gwoil": 1,
-            "height_rescue_units": 1,
             "police_cars": 2
         },
         "chances": {
@@ -16266,7 +16262,6 @@
             "gwoil": 20,
             "nef": 30,
             "patient_transport": 50,
-            "height_rescue_units": 10,
             "helicopter": 5
         },
         "additional": {
@@ -17195,7 +17190,7 @@
         "place_array": {
             "0": "See"
         },
-        "average_credits": 11500,
+        "average_credits": 10500,
         "generated_by": "Wasserrettung",
         "icons": {
             "0": "/images/river_gruen.png",
@@ -17284,7 +17279,7 @@
         "place_array": {
             "0": "Fluss"
         },
-        "average_credits": 11500,
+        "average_credits": 10500,
         "generated_by": "Wasserrettung",
         "icons": {
             "0": "/images/river_gruen.png",
@@ -17295,10 +17290,10 @@
             "firetrucks": 28,
             "fwk": 2,
             "battalion_chief_vehicles": 4,
-            "mobile_command_vehicles": 2,
+            "mobile_command_vehicles": 1,
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 5,
-            "water_tankers": 8,
+            "water_tankers": 4,
             "police_cars": 8,
             "thw_gkw": 4,
             "thw_mtwtz": 3,
@@ -18301,7 +18296,7 @@
         "name": "Gasexplosion",
         "place": "",
         "place_array": {},
-        "average_credits": 11500,
+        "average_credits": 11200,
         "generated_by": "THW",
         "icons": {
             "0": "/images/blast_gruen.png",
@@ -18311,8 +18306,8 @@
         "requirements": {
             "firetrucks": 20,
             "fwk": 1,
-            "battalion_chief_vehicles": 4,
-            "mobile_command_vehicles": 2,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 1,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 2,
             "water_tankers": 2,
