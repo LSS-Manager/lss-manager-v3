@@ -3943,7 +3943,7 @@
     },
     "141": {
         "id": 141,
-        "name": "Inc\u00eandio em Restaurante de Fast Food",
+        "name": "Inc\u00eandio num Restaurante de Fast Food",
         "place": "Restaurante Fast Food",
         "place_array": {
             "0": "Restaurante Fast Food"
@@ -8610,9 +8610,9 @@
     "291": {
         "id": 291,
         "name": "Pequeno Inc\u00eandio em Mato",
-        "place": "Parque Infantil\nColina\nCampo\nTerreno Baldio\nPantano",
+        "place": "Parque\nColina\nCampo\nTerreno Baldio\nPantano",
         "place_array": {
-            "0": "Parque Infantil",
+            "0": "Parque",
             "1": "Colina",
             "2": "Campo",
             "3": "Terreno Baldio",
@@ -8653,9 +8653,9 @@
     "292": {
         "id": 292,
         "name": "Inc\u00eandio em Mato",
-        "place": "Parque Infantil\nColina\nCampo\nTerreno Baldio\nPantano",
+        "place": "Parque\nColina\nCampo\nTerreno Baldio\nPantano",
         "place_array": {
-            "0": "Parque Infantil",
+            "0": "Parque",
             "1": "Colina",
             "2": "Campo",
             "3": "Terreno Baldio",
@@ -8701,9 +8701,9 @@
     "293": {
         "id": 293,
         "name": "Grande Inc\u00eandio em Mato",
-        "place": "Parque Infantil\nColina\nCampo\nTerreno Baldio\nPantano",
+        "place": "Parque\nColina\nCampo\nTerreno Baldio\nPantano",
         "place_array": {
-            "0": "Parque Infantil",
+            "0": "Parque",
             "1": "Colina",
             "2": "Campo",
             "3": "Terreno Baldio",
@@ -8751,9 +8751,9 @@
     "294": {
         "id": 294,
         "name": "Inc\u00eandio de Grandes Dimens\u00f5es em Mato",
-        "place": "Parque Infantil\nColina\nCampo\nTerreno Baldio\nPantano",
+        "place": "Parque\nColina\nCampo\nTerreno Baldio\nPantano",
         "place_array": {
-            "0": "Parque Infantil",
+            "0": "Parque",
             "1": "Colina",
             "2": "Campo",
             "3": "Terreno Baldio",
