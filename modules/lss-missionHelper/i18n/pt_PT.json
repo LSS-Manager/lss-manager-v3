@@ -6,6 +6,10 @@
   "prisoners": "detentos",
   "to": "até",
   "exp": "Divulgação",
+  "water": "água necessária",
+  "water1": "Lts.",
+  "fwm": "Missões de seguimento",
+  "subs": "Missões subsequentes com êxito",
   "ambulance_only": "Esta misión es sólo de ambulancias.!",
   "criticalchance": "Probabilidade de Requerer SAV",
   "title": "Missionhelper",
@@ -32,6 +36,10 @@
       "label": "Número de pacientes",
       "description": "Mostra ao vivo quantos pacientes estão em uso no momento."
     },
+    "waterpt": {
+      "label": "Procura de água",
+      "description": "Mostra a quantidade total de água necessária."
+    },
     "vehicles": {
       "label": "Veículos",
       "description": "Mostre os veículos necessários."
@@ -51,6 +59,14 @@
     "expansions": {
       "label": "distribuições",
       "description": "Mostre o que a aposta pode alcançar. (Mostrar apenas dispersão simples)"
+    },
+    "followup": {
+      "label": "Missões de seguimento",
+      "description": "Mostra o que a missão pode gerar para as missões de acompanhamento"
+    },
+    "subsequent": {
+      "label": "Missões subsequentes com êxito",
+      "description": "Mostra o que a missão pode gerar para as missões subsequentes no final da missão"
     },
     "show_100": {
       "label": "Mostrar 100% de chance",
@@ -88,6 +104,8 @@
     "arff": "Defesa Civil",
     "fwk": "Veículo de Socorro e Assistência Especial",
     "police_helicopters": "Police Helicopter",
+    "brush_truck": "Veículos Florestais",
+    "fire_aviation": "Meios Aéreos",
     "ambulances": "Ambulancia",
     "allow_rw_instead_of_lf": "Veículos de Combate a Incêndios ou Veículos de Desencarceramento ou Veículo Urbano de Combate a Incêndios"
   }

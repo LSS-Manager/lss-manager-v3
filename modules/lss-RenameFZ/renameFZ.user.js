@@ -1064,7 +1064,8 @@
                 18: "Corpo de Bombeiros (Pequeno)",
                 19: "Esquadra de Polícia (Pequena)",
                 20: "Estação de Ambulâncias (Pequena)",
-                21: "Centro de Saúde"
+                21: "Centro de Saúde",
+                24: "Centro de Meios Aéreos Florestais"
             },
             vehicleTypes: {
                 0: 'VFCI',
@@ -1087,7 +1088,14 @@
                 17: 'VMER',
                 18: 'SIV',
                 19: 'Mota INEM',
-                20: 'VIC'
+                20: 'VIC',
+                21: 'ERAS',
+                22: 'Semi-Reboque',
+                23: 'D10T2',
+                24: 'VTTF',
+                25: 'Helicóptero de Combate Ligeiro',
+                26: 'Alpha',
+                27: 'CL-415'
             }
         }
     };
