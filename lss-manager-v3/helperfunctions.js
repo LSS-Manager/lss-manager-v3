@@ -383,7 +383,15 @@ else if (I18n.locale == "it_IT") {
         "24": ["Pickup SAF", 4],
         "25": ["Barce", 4],
         "26": ["AF/BUS", 0],
-        "27": ["DTS", 1]
+        "27": ["DTS", 1],
+        "28": ["Pickup con Modulo Boschivo", 0],
+        "29": ["Autocarro AIB - AF/BOS", 0],
+        "30": ["Autobotte AIB", 0],
+        "31": ["Funzionario AIB - DOS", 0],
+        "32": ["Camion con Rimorchio", 0],
+        "33": ["Scavatore su Rimorchio", 0],
+        "34": ["Elicottero Antincendio", 0],
+        "35": ["Canadair", 0],
     };
 }
 else if (I18n.locale == "fr_FR") {

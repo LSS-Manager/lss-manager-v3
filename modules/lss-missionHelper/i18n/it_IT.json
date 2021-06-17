@@ -5,7 +5,11 @@
   "patients": "Pazienti",
   "prisoners": "Prigionieri",
   "to": "fino",
+  "water": "Acqua Necessaria",
+  "water1": "lit",
   "exp": "Espansione",
+  "fwm": "Missioni di follow-up",
+  "subs": "Missioni successive al successo",
   "SWATPersonnel": "Needed SWAT Personnel",
   "averageMinimumEmployeesFire": "Vigili del Fuoco richiesti",
   "averageMinimumEmployeesPolice": "Media min. Personale di polizia",
@@ -35,6 +39,10 @@
       "label": "Numero di pazienti",
       "description": "Mostra dal vivo quanti pazienti sono attualmente in uso."
     },
+    "waterit": {
+      "label": "Domanda di acqua",
+      "description": "Mostra la quantità totale di acqua richiesta."
+    },
     "vehicles": {
       "label": "Veicoli",
       "description": "Visualizza i veicoli necessari."
@@ -54,6 +62,14 @@
     "expansions": {
       "label": "erogazioni",
       "description": "Mostra a cosa può diffondersi la scommessa. (Mostra solo spread semplice)"
+    },
+    "followup": {
+      "label": "Missioni di follow-up",
+      "description": "Mostra ciò che la missione può generare per le missioni successive"
+    },
+    "subsequent": {
+      "label": "Missioni successive",
+      "description": "Mostra ciò che la missione può generare per le missioni successive alla fine della missione"
     },
     "show_100": {
       "label": "Mostra il 100% di probabilità",
@@ -105,6 +121,9 @@
     "boats": "Barche",
     "water_rescue": "Pickup SAF",
     "orgl": "DTS",
+    "brush_truck": "Mezzi AB",
+    "elw3": "DOS",
+    "fire_aviation": "Mezzi Aerei Antincendio",
     "allow_rw_instead_of_lf": "Camion dei pompieri o salvataggio pesante"
   }
 }

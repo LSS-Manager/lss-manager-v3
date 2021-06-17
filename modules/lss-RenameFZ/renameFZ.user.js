@@ -895,7 +895,8 @@
                 18: "Caserma dei vigili del fuoco (piccola)",
                 19: "Stazione di polizia (stazione piccola)",
                 20: "Stazione ambulanze (stazione piccola)",
-                21: "Caserma della Finanza"
+                21: "Caserma della Finanza",
+                24: "Base Aerea Antincendio"
             },
             vehicleTypes: {
                 0: 'ABP',
@@ -925,7 +926,15 @@
                 24: 'Pickup SAF',
                 25: 'Barca',
                 26: 'AF/BUS',
-                27: 'DTS'
+                27: 'DTS',
+                28: 'Pickup con Modulo Boschivo',
+                29: 'Autocarro AIB - AF/BOS',
+                30: 'Autobotte AIB',
+                31: 'Funzionario AIB - DOS',
+                32: 'Camion con Rimorchio',
+                33: 'Scavatore su Rimorchio',
+                34: 'Elicottero Antincendio',
+                35: 'Canadair'
             }
         }
     };
