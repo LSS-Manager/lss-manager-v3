@@ -1818,7 +1818,7 @@
             "possible_patient": 12,
             "filter_id": "firehouse_missions",
             "subsequent_missions_ids": {
-                "0": 203
+                "0": 207
             },
             "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
         },
@@ -2118,7 +2118,7 @@
             "possible_patient": 12,
             "filter_id": "firehouse_missions",
             "subsequent_missions_ids": {
-                "0": 203
+                "0": 207
             },
             "patient_specializations": "Yleiskirurgi"
         },
@@ -5097,7 +5097,7 @@
             "2": "/images/zoom_rot.png"
         },
         "requirements": {
-            "police_cars": 1
+            "police_cars": 2
         },
         "chances": {},
         "additional": {
@@ -6374,7 +6374,7 @@
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
             "subsequent_missions_ids": {
-                "0": 203
+                "0": 207
             },
             "patient_specializations": "Yleiskirurgi"
         },
