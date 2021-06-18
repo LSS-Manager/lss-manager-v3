@@ -4682,8 +4682,9 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -22606,6 +22607,45 @@
             "police_stations": 1,
             "thw": 1,
             "thw_fg_raeumen_count": 1
+        },
+        "alternate_version": null
+    },
+    "643": {
+        "id": 643,
+        "name": "Unfall in Getreidesilo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "height_rescue_units": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "nef": 100,
+            "patient_transport": 100,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 12
         },
         "alternate_version": null
     }

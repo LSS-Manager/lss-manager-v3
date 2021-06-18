@@ -10104,10 +10104,12 @@
                 "0": "C-1"
             },
             "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
             "main_building": 0,
+            "rescue_stations": 2,
             "police_stations": 5,
             "fire_stations": 14
         },
@@ -10145,10 +10147,12 @@
                 "0": "C-1"
             },
             "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
             "main_building": 0,
+            "rescue_stations": 2,
             "police_stations": 5,
             "fire_stations": 14
         },
@@ -10186,10 +10190,12 @@
                 "0": "C-1"
             },
             "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
             "main_building": 0,
+            "rescue_stations": 2,
             "police_stations": 5,
             "fire_stations": 14
         },

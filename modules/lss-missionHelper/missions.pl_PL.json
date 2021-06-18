@@ -6451,7 +6451,8 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 182
+                "2": 226,
+                "3": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -12043,7 +12044,7 @@
     },
     "401": {
         "id": 401,
-        "name": "Zdobyty gol",
+        "name": "Przewr\u00f3cona bramka",
         "place": "",
         "place_array": {},
         "average_credits": 300,
@@ -12098,7 +12099,7 @@
     },
     "403": {
         "id": 403,
-        "name": "Odmro\u017cenie od sprayu",
+        "name": "Odmro\u017cenie od sprayu przeciwb\u00f3lowego",
         "place": "Stadion",
         "place_array": {
             "0": "Stadion"
@@ -12163,7 +12164,7 @@
     },
     "405": {
         "id": 405,
-        "name": "Zaginiona opaski kapitana",
+        "name": "Zgubiona opaska kapitana",
         "place": "Stadion",
         "place_array": {
             "0": "Stadion"
@@ -12194,7 +12195,7 @@
     },
     "406": {
         "id": 406,
-        "name": "P\u0142on\u0105ca chor\u0105giewka w polu ro\u017cnym",
+        "name": "P\u0142on\u0105ca chor\u0105giewka w naro\u017cniku boiska",
         "place": "Stadion",
         "place_array": {
             "0": "Stadion"
