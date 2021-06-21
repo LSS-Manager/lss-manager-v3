@@ -12255,6 +12255,31 @@
         },
         "alternate_version": null
     },
+    "334": {
+        "id": 334,
+        "name": "Arcing power lines",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
     "336": {
         "id": 336,
         "name": "Inflate Soccer ball",

@@ -11925,6 +11925,122 @@
         },
         "alternate_version": null
     },
+    "392": {
+        "id": 392,
+        "name": "Zawalenie mostu",
+        "place": "Most",
+        "place_array": {
+            "0": "Most"
+        },
+        "average_credits": 10500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 5,
+            "police_cars": 4,
+            "traffic_car": 2
+        },
+        "chances": {
+            "patient_transport": 60,
+            "helicopter": 20,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 8,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 12,
+            "police_stations": 8,
+            "fire_stations": 21
+        },
+        "alternate_version": null
+    },
+    "393": {
+        "id": 393,
+        "name": "Zawalenie mostu",
+        "place": "Most",
+        "place_array": {
+            "0": "Most"
+        },
+        "average_credits": 9500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 14,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 5
+        },
+        "chances": {
+            "patient_transport": 60,
+            "helicopter": 20,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 8,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 12,
+            "fire_stations": 22
+        },
+        "alternate_version": null
+    },
+    "394": {
+        "id": 394,
+        "name": "Awaria elektrowni",
+        "place": "Elektrownia",
+        "place_array": {
+            "0": "Elektrownia"
+        },
+        "average_credits": 5300,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 15
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 16
+        },
+        "alternate_version": null
+    },
     "397": {
         "id": 397,
         "name": "Sflacza\u0142a pi\u0142ka",

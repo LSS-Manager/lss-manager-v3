@@ -27122,6 +27122,77 @@
         },
         "alternate_version": null
     },
+    "815": {
+        "id": 815,
+        "name": "Vrachtwagen vast in tunnel",
+        "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
+        "average_credits": 840,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 816
+            },
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "816": {
+        "id": 816,
+        "name": "Vrachtwagen vast in tunnel",
+        "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
+        "average_credits": 2730,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 3,
+            "ovdp": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "police_stations": 5,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
     "820": {
         "id": 820,
         "name": "Opblazen wedstrijdbal",

@@ -10119,6 +10119,46 @@
         },
         "alternate_version": null
     },
+    "322": {
+        "id": 322,
+        "name": "Person Under Tog",
+        "place": "Togstation (lokal trafik)\nTogstation (lokal og national /international trafik)",
+        "place_array": {
+            "0": "Togstation (lokal trafik)",
+            "1": "Togstation (lokal og national /international trafik)"
+        },
+        "average_credits": 7000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 4,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 5
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 5,
+            "fire_stations": 14
+        },
+        "alternate_version": null
+    },
     "324": {
         "id": 324,
         "name": "Flad fodbold",
