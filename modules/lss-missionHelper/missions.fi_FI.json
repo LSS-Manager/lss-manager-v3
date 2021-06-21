@@ -715,8 +715,7 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2,
-                "2": 29
+                "1": 2
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -9026,6 +9025,47 @@
         "prerequisites": {
             "main_building": 6,
             "police_stations": 6
+        },
+        "alternate_version": null
+    },
+    "294": {
+        "id": 294,
+        "name": "213 Junan alle j\u00e4\u00e4nyt ihminen",
+        "place": "Rautatieasema (paikallisliikenne)\nRautatieasema (paikallis- ja pitk\u00e4n matkan liikenne)\nMetroasema",
+        "place_array": {
+            "0": "Rautatieasema (paikallisliikenne)",
+            "1": "Rautatieasema (paikallis- ja pitk\u00e4n matkan liikenne)",
+            "2": "Metroasema"
+        },
+        "average_credits": 3500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 5,
+            "fire_stations": 14
         },
         "alternate_version": null
     },

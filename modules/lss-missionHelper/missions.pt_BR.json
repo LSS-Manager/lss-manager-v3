@@ -7354,11 +7354,9 @@
         "requirements": {
             "firetrucks": 25,
             "battalion_chief_vehicles": 8,
-            "mobile_command_vehicles": 1,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 4,
             "water_tankers": 2,
-            "mobile_air_vehicles": 2,
             "hazmat_vehicles": 4,
             "police_cars": 8
         },
@@ -7388,7 +7386,7 @@
             "1": "Esta\u00e7\u00e3o de trem (tr\u00e1fego regional e viagem de longa dist\u00e2ncia)",
             "2": "Passagem de N\u00edvel"
         },
-        "average_credits": 11000,
+        "average_credits": 10500,
         "generated_by": "Unidade de bombeiros militar",
         "icons": {
             "0": "/images/tramway_gruen.png",
@@ -7398,7 +7396,6 @@
         "requirements": {
             "firetrucks": 11,
             "battalion_chief_vehicles": 3,
-            "mobile_command_vehicles": 1,
             "heavy_rescue_vehicles": 4,
             "police_cars": 3
         },
