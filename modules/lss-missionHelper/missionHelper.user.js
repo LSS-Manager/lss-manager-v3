@@ -385,6 +385,28 @@ const lssm_missionhelper_adjustPosition = () => {
                 },
             };
             break;
+        case 'nb_NO':
+            managed_settings.settings.waterno = {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.waterno.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.waterno.description'
+                    ),
+                },
+            };
+            managed_settings.settings.subsequent = {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.subsequent.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.subsequent.description'
+                    ),
+                },
+            };
+            break;
         case 'da_DK':
             managed_settings.settings.subsequent = {
                 default: false,
@@ -910,7 +932,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 )}: ${MISSION.additional.height_rescue_personnel}<br>`);
 
             if (
-                ((SETTINGS.water || SETTINGS.waterus || SETTINGS.waterpl || SETTINGS.waterpt || SETTINGS.waterau || SETTINGS.waterit || SETTINGS.waternl || SETTINGS.waterse) && MISSION.requirements.water_needed) ||
+                ((SETTINGS.water || SETTINGS.waterus || SETTINGS.waterpl || SETTINGS.waterpt || SETTINGS.waterau || SETTINGS.waterit || SETTINGS.waterno || SETTINGS.waternl || SETTINGS.waterse) && MISSION.requirements.water_needed) ||
                 (SETTINGS.credits && MISSION.average_credits) ||
                 SETTINGS.mission_time
             ) {
@@ -918,7 +940,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 SETTINGS.credits &&
                     MISSION.average_credits &&
                     (content.innerHTML += `<span class="badge badge-secondary">~ ${MISSION.average_credits.toLocaleString()} Credits</span>&nbsp;`);
-                (SETTINGS.water || SETTINGS.waterus || SETTINGS.waterpl || SETTINGS.waterpt || SETTINGS.waterau || SETTINGS.waterit || SETTINGS.waternl || SETTINGS.waterse) &&
+                (SETTINGS.water || SETTINGS.waterus || SETTINGS.waterpl || SETTINGS.waterpt || SETTINGS.waterau || SETTINGS.waterit || SETTINGS.waterno || SETTINGS.waternl || SETTINGS.waterse) &&
                     MISSION.requirements.water_needed &&
                     (content.innerHTML += `<span class="badge badge-secondary">${I18n.t(
                         'lssm.missionhelper.water'

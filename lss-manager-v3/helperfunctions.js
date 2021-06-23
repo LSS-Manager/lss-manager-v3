@@ -311,13 +311,15 @@ else if (I18n.locale == "nb_NO") {
         "23": ["Utrykningsenhetbil", 2],
         "24": ["Legebil", 1],
         "25": ["Innsatslederbil helse", 1],
-        "26": ["Akuttbil"],
-        "27": ["Ambulansemotorsykkel"],
-        "28": ["Syketransport"],
-        "29": ["First responder bil"],
-        "30": ["Akutthjelper"],
+        "26": ["Akuttbil", 1],
+        "27": ["Ambulansemotorsykkel", 1],
+        "28": ["Syketransport", 1],
+        "29": ["First responder bil", 0],
+        "30": ["Akutthjelper", 1],
         "31": ["Intensivambulanse", 1],
-        "32": ["Akuttbil"]
+        "32": ["Akuttbil", 1],
+        "33": ["Skogbrannhelikopter", 0],
+        "34": ["ATV", 0]
     };
 }
 else if (I18n.locale == "pl_PL") {

@@ -4,8 +4,12 @@
   "vge": "Alliansemisjon i stor skala",
   "patients": "Pasienter",
   "prisoners": "innsatte",
+  "water": "Vann påkrevd",
+  "water1": "liter",
   "to": "opp til",
   "exp": "Spre",
+  "fwm": "Oppfølgingsoppdrag",
+  "subs": "Påfølgende oppdrag",
   "SWATPersonnel": "Nødvendig delta-personell",
   "averageMinimumEmployeesFire": "Gjennomsnittlig min. Brannpersonell",
   "averageMinimumEmployeesPolice": "Gjennomsnittlig min. Politipersonell",
@@ -35,6 +39,10 @@
       "label": "Antall pasienter",
       "description": "Viser hvor mange pasienter som er i bruk."
     },
+    "waterno": {
+      "label": "Vann påkrevd",
+      "description": "Viser den totale mengden vann som kreves."
+    },
     "vehicles": {
       "label": "kjøretøy",
       "description": "Viser de nødvendige kjøretøyene."
@@ -54,6 +62,14 @@
     "expansions": {
       "label": "distribusjoner",
       "description": "Viser hva innsatsen kan spre seg til. (Viser bare enkel oppslag)"
+    },
+    "followup": {
+      "label": "Oppfølgingsoppdrag",
+      "description": "Viser hva oppdraget kan generere for oppfølgingsoppdrag"
+    },
+    "subsequent": {
+      "label": "Påfølgende oppdrag",
+      "description": "Viser hva oppdraget kan generere for påfølgende oppdrag på slutten av oppdraget"
     },
     "show_100": {
       "label": "Vis 100% sannsynlighet",
@@ -101,6 +117,8 @@
     "helicopter": "Räddningshelikopter",
     "diver_units": "Dykkerbil",
     "boats": "Lett Redningsbåt",
+    "brush_truck": "Skogbrann kjøretøy",
+    "fire_aviation": "skogbrann helikopter",
     "allow_rw_instead_of_lf": "Brannbiler eller tung redning"
   }
 }

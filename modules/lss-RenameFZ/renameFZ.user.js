@@ -812,7 +812,8 @@
                 18: "Brannstasjon (liten)",
                 19: "Politistasjon (liten)",
                 20: "Ambulansestasjon (liten)",
-                21: "Legevakt"
+                21: "Legevakt",
+                25: "Brannheliport"
             },
             vehicleTypes: {
                 0: 'Mannskapsbil',
@@ -847,7 +848,9 @@
                 29: 'First responder bil',
                 30: 'Akutthjelper',
                 31: 'Intensivambulanse',
-                32: 'Akuttbil'
+                32: 'Akuttbil',
+                33: 'Skogbrannhelikopter',
+                34: 'ATV'
             }
         }
     };
