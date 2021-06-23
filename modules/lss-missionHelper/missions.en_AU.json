@@ -9993,5 +9993,625 @@
             "fire_stations": 14
         },
         "alternate_version": null
+    },
+    "322": {
+        "id": 322,
+        "name": "Small Bushfire",
+        "place": "Park\nHill\nField\nHeathland\nMoorland",
+        "place_array": {
+            "0": "Park",
+            "1": "Hill",
+            "2": "Field",
+            "3": "Heathland",
+            "4": "Moorland"
+        },
+        "average_credits": 2000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 4000,
+            "brush_truck": 2,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 323
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 333
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 1,
+            "fire_stations": 3,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "alternate_version": null
+    },
+    "323": {
+        "id": 323,
+        "name": "Medium Bushfire",
+        "place": "Park\nHill\nField\nHeathland\nMoorland",
+        "place_array": {
+            "0": "Park",
+            "1": "Hill",
+            "2": "Field",
+            "3": "Heathland",
+            "4": "Moorland"
+        },
+        "average_credits": 4000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 12000,
+            "brush_truck": 4,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 324
+            },
+            "followup_missions_ids": {
+                "0": 322,
+                "1": 326
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 334
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 2,
+            "fire_stations": 8,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "alternate_version": null
+    },
+    "324": {
+        "id": 324,
+        "name": "Large Bushfire",
+        "place": "Park\nHill\nField\nHeathland\nMoorland",
+        "place_array": {
+            "0": "Park",
+            "1": "Hill",
+            "2": "Field",
+            "3": "Heathland",
+            "4": "Moorland"
+        },
+        "average_credits": 6500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 16000,
+            "brush_truck": 6,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 4
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 325
+            },
+            "followup_missions_ids": {
+                "0": 322,
+                "1": 323,
+                "2": 326,
+                "3": 327
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 335
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 3,
+            "fire_stations": 10,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "alternate_version": null
+    },
+    "325": {
+        "id": 325,
+        "name": "Major Bushfire",
+        "place": "Park\nHill\nField\nHeathland\nMoorland",
+        "place_array": {
+            "0": "Park",
+            "1": "Hill",
+            "2": "Field",
+            "3": "Heathland",
+            "4": "Moorland"
+        },
+        "average_credits": 10000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 30000,
+            "brush_truck": 8,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 8,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 322,
+                "1": 323,
+                "2": 324,
+                "3": 326,
+                "4": 327,
+                "5": 328
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 336
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "brush_extension": 4,
+            "fire_stations": 14,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "alternate_version": null
+    },
+    "326": {
+        "id": 326,
+        "name": "Small Forest Fire",
+        "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
+        "average_credits": 2000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 5000,
+            "brush_truck": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 327
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 333
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 1,
+            "fire_stations": 9,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "alternate_version": null
+    },
+    "327": {
+        "id": 327,
+        "name": "Medium Forest Fire",
+        "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
+        "average_credits": 5500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 9000,
+            "brush_truck": 5,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 328
+            },
+            "followup_missions_ids": {
+                "0": 326,
+                "1": 322
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 334
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 3,
+            "fire_stations": 11,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "alternate_version": null
+    },
+    "328": {
+        "id": 328,
+        "name": "Large Forest Fire",
+        "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
+        "average_credits": 8000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 15000,
+            "brush_truck": 8,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 329
+            },
+            "followup_missions_ids": {
+                "0": 326,
+                "1": 327,
+                "2": 322,
+                "3": 323
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 335
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 5,
+            "fire_stations": 15,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "alternate_version": null
+    },
+    "329": {
+        "id": 329,
+        "name": "Major Forest Fire",
+        "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
+        "average_credits": 11000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 19000,
+            "brush_truck": 10,
+            "fire_aviation": 1,
+            "battalion_chief_vehicles": 7,
+            "mobile_command_vehicles": 2,
+            "water_tankers": 4,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 326,
+                "1": 327,
+                "2": 328,
+                "3": 322,
+                "4": 323,
+                "5": 324
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 336
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 3,
+            "brush_extension": 7,
+            "fire_aviation_count": 1,
+            "fire_stations": 18,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "alternate_version": null
+    },
+    "330": {
+        "id": 330,
+        "name": "Lightning Strike in Forest",
+        "place": "Forest",
+        "place_array": {
+            "0": "Forest"
+        },
+        "average_credits": 700,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 1000,
+            "brush_truck": 2
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 322,
+                "1": 323
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "alternate_version": null
+    },
+    "331": {
+        "id": 331,
+        "name": "Campsite Fire",
+        "place": "Campsite",
+        "place_array": {
+            "0": "Campsite"
+        },
+        "average_credits": 3000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 4000,
+            "firetrucks": 4,
+            "brush_truck": 1,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "followup_missions_ids": {
+                "0": 322,
+                "1": 326
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "fire_stations": 9,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "alternate_version": null
+    },
+    "332": {
+        "id": 332,
+        "name": "Cabin Fire",
+        "place": "Cabin",
+        "place_array": {
+            "0": "Cabin"
+        },
+        "average_credits": 3000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 4000,
+            "firetrucks": 4,
+            "brush_truck": 1,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "followup_missions_ids": {
+                "0": 322,
+                "1": 326
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 4,
+            "fire_stations": 9,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "alternate_version": null
+    },
+    "333": {
+        "id": 333,
+        "name": "Small Bushfire Cleanup",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 1,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "alternate_version": null
+    },
+    "334": {
+        "id": 334,
+        "name": "Medium Bushfire Cleanup",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "brush_truck": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 2,
+            "fire_stations": 1,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "alternate_version": null
+    },
+    "335": {
+        "id": 335,
+        "name": "Large Bushfire Cleanup",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "brush_truck": 7,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 2,
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "alternate_version": null
+    },
+    "336": {
+        "id": 336,
+        "name": "Major Bushfire Cleanup",
+        "place": "",
+        "place_array": {},
+        "average_credits": 9500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "brush_truck": 10,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 2,
+            "fire_stations": 12,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "alternate_version": null
     }
 }

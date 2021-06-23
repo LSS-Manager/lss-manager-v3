@@ -7640,9 +7640,9 @@
     "251": {
         "id": 251,
         "name": "Syklist falt p\u00e5 sti",
-        "place": "Bratt skr\u00e5ning",
+        "place": "\u00c5s",
         "place_array": {
-            "0": "Bratt skr\u00e5ning"
+            "0": "\u00c5s"
         },
         "average_credits": null,
         "generated_by": "Ambulansestasjon",
@@ -9640,6 +9640,566 @@
             "rescue_stations": 2,
             "police_stations": 5,
             "fire_stations": 14
+        },
+        "alternate_version": null
+    },
+    "318": {
+        "id": 318,
+        "name": "Liten Lyngbrann",
+        "place": "Park\n\u00c5s\nFelt\nKratt\nLyng",
+        "place_array": {
+            "0": "Park",
+            "1": "\u00c5s",
+            "2": "Felt",
+            "3": "Kratt",
+            "4": "Lyng"
+        },
+        "average_credits": 2000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 12000,
+            "brush_truck": 2,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 319
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 329
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 3
+        },
+        "alternate_version": null
+    },
+    "319": {
+        "id": 319,
+        "name": "Middels Lyngbrann",
+        "place": "Park\n\u00c5s\nFelt\nKratt\nLyng",
+        "place_array": {
+            "0": "Park",
+            "1": "\u00c5s",
+            "2": "Felt",
+            "3": "Kratt",
+            "4": "Lyng"
+        },
+        "average_credits": 4000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 25000,
+            "brush_truck": 4,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 320
+            },
+            "followup_missions_ids": {
+                "0": 318,
+                "1": 322
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 330
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "320": {
+        "id": 320,
+        "name": "Stor Lyngbrann",
+        "place": "Park\n\u00c5s\nFelt\nKratt\nLyng",
+        "place_array": {
+            "0": "Park",
+            "1": "\u00c5s",
+            "2": "Felt",
+            "3": "Kratt",
+            "4": "Lyng"
+        },
+        "average_credits": 6500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 50000,
+            "brush_truck": 6,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 4
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 321
+            },
+            "followup_missions_ids": {
+                "0": 318,
+                "1": 319,
+                "2": 322,
+                "3": 323
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 331
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "321": {
+        "id": 321,
+        "name": "Enorm Lyngbrann",
+        "place": "Park\n\u00c5s\nFelt\nKratt\nLyng",
+        "place_array": {
+            "0": "Park",
+            "1": "\u00c5s",
+            "2": "Felt",
+            "3": "Kratt",
+            "4": "Lyng"
+        },
+        "average_credits": 10000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 100000,
+            "brush_truck": 8,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 8,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 318,
+                "1": 319,
+                "2": 320,
+                "3": 322,
+                "4": 323,
+                "5": 324
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 332
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_stations": 14
+        },
+        "alternate_version": null
+    },
+    "322": {
+        "id": 322,
+        "name": "Liten skogbrann",
+        "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
+        "average_credits": 2000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 12000,
+            "brush_truck": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 323
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 329
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 9
+        },
+        "alternate_version": null
+    },
+    "323": {
+        "id": 323,
+        "name": "Middels Skogbrann",
+        "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
+        "average_credits": 5500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 25000,
+            "brush_truck": 5,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 324
+            },
+            "followup_missions_ids": {
+                "0": 318,
+                "1": 322
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 330
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 11
+        },
+        "alternate_version": null
+    },
+    "324": {
+        "id": 324,
+        "name": "Stor Skogbrann",
+        "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
+        "average_credits": 8000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 40000,
+            "brush_truck": 8,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 325
+            },
+            "followup_missions_ids": {
+                "0": 318,
+                "1": 319,
+                "2": 322,
+                "3": 323
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 331
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 15
+        },
+        "alternate_version": null
+    },
+    "325": {
+        "id": 325,
+        "name": "Enorm Skogbrann",
+        "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
+        "average_credits": 11000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 60000,
+            "brush_truck": 10,
+            "fire_aviation": 1,
+            "battalion_chief_vehicles": 7,
+            "mobile_command_vehicles": 2,
+            "water_tankers": 4,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 318,
+                "1": 319,
+                "2": 320,
+                "3": 322,
+                "4": 323,
+                "5": 324
+            },
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 332
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 3,
+            "fire_aviation_count": 1,
+            "fire_stations": 18
+        },
+        "alternate_version": null
+    },
+    "326": {
+        "id": 326,
+        "name": "Lynnedslag i Skog",
+        "place": "Skog",
+        "place_array": {
+            "0": "Skog"
+        },
+        "average_credits": 700,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 2500,
+            "brush_truck": 2
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 318,
+                "1": 322
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "327": {
+        "id": 327,
+        "name": "Brann p\u00e5 campingplass",
+        "place": "Campingplass",
+        "place_array": {
+            "0": "Campingplass"
+        },
+        "average_credits": 3000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 15000,
+            "firetrucks": 4,
+            "brush_truck": 1,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "followup_missions_ids": {
+                "0": 318,
+                "1": 322
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "fire_stations": 9
+        },
+        "alternate_version": null
+    },
+    "328": {
+        "id": 328,
+        "name": "Brann i Hytte",
+        "place": "Hytte",
+        "place_array": {
+            "0": "Hytte"
+        },
+        "average_credits": 3000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 15000,
+            "firetrucks": 4,
+            "brush_truck": 1,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "followup_missions_ids": {
+                "0": 318,
+                "1": 322
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 4,
+            "fire_stations": 9
+        },
+        "alternate_version": null
+    },
+    "329": {
+        "id": 329,
+        "name": "Liten Skogbrann Opprydding",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "main_building": 0
+        },
+        "alternate_version": null
+    },
+    "330": {
+        "id": 330,
+        "name": "Middels Skogbrann Opprydding",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "331": {
+        "id": 331,
+        "name": "Stor Skogbrann Opprydding",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 7,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "332": {
+        "id": 332,
+        "name": "Enorm Skogbrann Opprydding",
+        "place": "",
+        "place_array": {},
+        "average_credits": 9500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 10,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 12
         },
         "alternate_version": null
     }

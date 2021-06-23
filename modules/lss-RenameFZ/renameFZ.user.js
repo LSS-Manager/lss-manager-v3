@@ -370,11 +370,12 @@
                 15: "SES unit",
                 18: "Fire Station (Small)",
                 19: "Police Station (Small station)",
-                20: "Ambulance station (Small station)"
+                20: "Ambulance station (Small station)",
+                23: "Fire Airbase"
             },
             vehicleTypes: {
                 0: 'Pumper',
-                1: 'Light Tanker',
+                1: 'Medium Tanker',
                 2: 'Turntable Ladder',
                 3: 'Support Vehicle',
                 4: 'Major Rescue Vehicle',
@@ -392,7 +393,7 @@
                 16: 'K-9 Unit',
                 17: 'Police Motorcycle',
                 18: 'TOG SUV',
-                19: 'Tanker',
+                19: 'Heavy Tanker',
                 20: 'SES Vehicle',
                 21: 'Rescue Boat',
                 22: 'Mounted Police',
@@ -400,7 +401,13 @@
                 24: 'ICP',
                 25: 'ICS',
                 26: 'Ambulance Rescue',
-                27: 'Mass Casualty Unit'
+                27: 'Mass Casualty Unit',
+                28: 'Ultra-Light Tanker',
+                29: 'Light Tanker',
+                30: 'Pumper Tanker',
+                31: 'Fire Helicopter',
+                32: 'Bomber',
+                33: 'Large Air Tanker'
             }
         }
     };
@@ -805,7 +812,8 @@
                 18: "Brannstasjon (liten)",
                 19: "Politistasjon (liten)",
                 20: "Ambulansestasjon (liten)",
-                21: "Legevakt"
+                21: "Legevakt",
+                25: "Brannheliport"
             },
             vehicleTypes: {
                 0: 'Mannskapsbil',
@@ -840,7 +848,9 @@
                 29: 'First responder bil',
                 30: 'Akutthjelper',
                 31: 'Intensivambulanse',
-                32: 'Akuttbil'
+                32: 'Akuttbil',
+                33: 'Skogbrannhelikopter',
+                34: 'ATV'
             }
         }
     };
