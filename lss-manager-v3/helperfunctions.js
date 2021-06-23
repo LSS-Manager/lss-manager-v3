@@ -115,7 +115,7 @@ else if (I18n.locale == "en_GB") {
 else if (I18n.locale == "en_AU") {
     lssm.carsById = {
         "0": ["Pumper", 0],
-        "1": ["Light Tanker", 0],
+        "1": ["Medium Tanker", 0],
         "2": ["Turntable Ladder", 0],
         "3": ["Support Vehicle", 0],
         "4": ["Major Rescue Vehicle", 0],
@@ -133,7 +133,7 @@ else if (I18n.locale == "en_AU") {
         "16": ["K-9 Unit", 2],
         "17": ["Police Motorcycle", 2],
         "18": ["TOG SUV", 2],
-        "19": ["Tanker", 0],
+        "19": ["Heavy Tanker", 0],
         "20": ["SES Vehicle", 4],
         "21": ["Rescue Boat", 4],
         "22": ["Mounted Police", 2],
@@ -141,7 +141,13 @@ else if (I18n.locale == "en_AU") {
         "24": ["ICP", 1],
         "25": ["ICS", 1],
         "26": ["Ambulance Rescue", 1],
-        "27": ["Mass Casualty Unit", 1]
+        "27": ["Mass Casualty Unit", 1],
+        "28": ["Ultra-Light Tanker", 0],
+        "29": ["Light Tanker", 0],
+        "30": ["Pumper Tanker", 0],
+        "31": ["Fire Helicopter", 0],
+        "32": ["Bomber", 0],
+        "33": ["Large Air Tanker", 0]
     };
 }
 else if (I18n.locale == "pt_PT") {

@@ -1,7 +1,12 @@
 {
   "diy_mission": "This mission seems to be a large scale alliance mission.",
   "averageMinimumEmployeesFire": "Average min . Fire Personnel",
-  "averageMinimumEmployeesPolice": "Average min . Police Personnel",
+  "exp": "Spreads",
+  "fwm": "Follow-up missions",
+  "subs": "Subsequent missions on success",
+  "water": "Water needed",
+  "water1": "litr.",
+  "averageMinimumEmployeesPolfice": "Average min . Police Personnel",
   "criticalchance": "Intensive Care Chance",
   "settings": {
     "name": {
@@ -24,6 +29,10 @@
       "label": "Number of patients",
       "description": "Shows live how many patients are currently in use."
     },
+    "waterau": {
+      "label": "Water demand",
+      "description": "Shows the total amount of water required."
+    },
     "vehicles": {
       "label": "Vehicles",
       "description": "Displays the required vehicles."
@@ -43,6 +52,14 @@
     "expansions": {
       "label": "distributions",
       "description": "Shows what the bet can spread to. (Shows only simple spread)"
+    },
+    "followup": {
+      "label": "Follow-up missions",
+      "description": "Shows what the mission can generate for follow-up missions"
+    },
+    "subsequent": {
+      "label": "Subsequent missions",
+      "description": "Shows what the mission can generate for Subsequent missions at the end of mission"
     },
     "show_100": {
       "label": "Show 100% probability",
@@ -95,6 +112,8 @@
     "boats": "Boats",
     "water_rescue": "SES Vehicle",
     "police_horse": "Mounted Police",
+    "brush_truck": "Brush Trucks",
+    "fire_aviation": "Airborne Firefighting Vehicles",
     "allow_rw_instead_of_lf": "Fire trucks or Major Rescue Vehicle"
   }
 }
