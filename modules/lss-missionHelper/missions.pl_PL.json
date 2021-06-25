@@ -6050,8 +6050,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-06-26T10:00:00+02:00",
-            "date_end": "2020-10-01T00:00:00+02:00",
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z",
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -6081,8 +6081,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-06-26T10:00:00+02:00",
-            "date_end": "2020-10-01T00:00:00+02:00",
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z",
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -6111,8 +6111,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-06-26T10:00:00+02:00",
-            "date_end": "2020-10-01T00:00:00+02:00",
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z",
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -6141,8 +6141,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-06-26T10:00:00+02:00",
-            "date_end": "2020-10-01T00:00:00+02:00",
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z",
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -6170,8 +6170,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-06-26T10:00:00+02:00",
-            "date_end": "2020-10-01T00:00:00+02:00"
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z"
         },
         "prerequisites": {
             "main_building": 0,
@@ -12335,6 +12335,98 @@
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "407": {
+        "id": 407,
+        "name": "Zabezpieczenie akwenu",
+        "place": "Jezioro\nRzeka",
+        "place_array": {
+            "0": "Jezioro",
+            "1": "Rzeka"
+        },
+        "average_credits": 1000,
+        "generated_by": "Stacja WOPR",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "water_rescue": 1,
+            "boats": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 godzina",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "water_watch_missions",
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z"
+        },
+        "prerequisites": {
+            "main_building": 15,
+            "wasserrettung": 1
+        },
+        "alternate_version": null
+    },
+    "408": {
+        "id": 408,
+        "name": "Roz\u0142o\u017cenie kurtyny wodnej",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "409": {
+        "id": 409,
+        "name": "Nieprzytomna osoba na pla\u017cy",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 2
         },
         "alternate_version": null
     }

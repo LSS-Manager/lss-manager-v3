@@ -1,5 +1,6 @@
+/* global $, I18n, lssm */
 (($, win, I18n) => {
-    const prefix = lssm.config.prefix + '_overview';
+    const prefix = `${lssm.config.prefix}_overview`;
     I18n.translations.de_DE.lssm.overview = {
         vehicleType: 'Fahrzeugtyp',
         min: 'mindest Personal',
@@ -84,12 +85,10 @@
             /(leitstellenspiel|missionchief|missionchief-australia|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|nodsentralspillet|operacni-stredisko|operador193|jogo-operador112|missionchief-korea|jocdispecerat112)(\.de|\.com|\.co\.uk|\.cz|\.se|\.pl|\.it|\.fr|.gr)\/#?$/
         )
     ) {
-        let overviewBtn = $(
-            '<a id="' +
-                prefix +
-                '_button" class="leaflet-bar leaflet-control leaflet-control-custom hidden-xs lssm_overview lightbox-open">' +
-                '<i class="glyphicon glyphicon-info-sign" style="font-size: 15px;padding: 5px;"></i>' +
-                '</a>'
+        const overviewBtn = $(
+            `<a id="${prefix}_button" class="leaflet-bar leaflet-control leaflet-control-custom hidden-xs lssm_overview lightbox-open">` +
+                `<i class="glyphicon glyphicon-info-sign" style="font-size: 15px;padding: 5px;"></i>` +
+                `</a>`
         );
         $('.leaflet-control-container .leaflet-top.leaflet-left').append(
             overviewBtn
@@ -1104,7 +1103,7 @@
                 min: 4,
                 max: 5,
                 credits: 19000,
-                coins: x,
+                coins: 'x',
                 schooling: 'Rettungshundeführer (THW)',
             },
             anhhund: {
@@ -1112,7 +1111,7 @@
                 min: 0,
                 max: 0,
                 credits: 6000,
-                coins: x,
+                coins: 'x',
                 special:
                     'Am Einsatzort sind ein "Rettungshundefahrzeug" und ein "Anh Hund" vom THW gleichwertig!',
             },
@@ -1474,7 +1473,7 @@
             name: 'Firefighting plane station',
             credits: 1500000,
             coins: 50,
-            maxlevel: x,
+            maxlevel: 'x',
             levelcost: 1500000,
             startPersonell: 2,
             startVehicle: 'Water drop helicopter',
@@ -2522,11 +2521,11 @@
         heli: {
             hems: {
                 name: 'helitak',
-                min: x,
-                max: x,
-                credits: x,
-                coins: x,
-                schooling: x,
+                min: 'x',
+                max: 'x',
+                credits: 'x',
+                coins: 'x',
+                schooling: 'x',
                 special: 'x',
             },
         },
@@ -3063,7 +3062,8 @@
                 coins: 25,
             },
             tstnb45: {
-                name: 'TST-NB 4/5 | Tankautospuit Natuurbrandbestrijding (4/5 pers.)',
+                name:
+                    'TST-NB 4/5 | Tankautospuit Natuurbrandbestrijding (4/5 pers.)',
                 min: 1,
                 max: 5,
                 credits: 5000,
@@ -3084,7 +3084,8 @@
                 coins: 25,
             },
             tstnb67: {
-                name: 'TST-NB 6/7 | Tankautospuit Natuurbrandbestrijding (6/7 pers.)',
+                name:
+                    'TST-NB 6/7 | Tankautospuit Natuurbrandbestrijding (6/7 pers.)',
                 min: 1,
                 max: 7,
                 credits: 5000,
@@ -3105,7 +3106,8 @@
                 coins: 25,
             },
             tstnb89: {
-                name: 'TST-NB 8/9 | Tankautospuit Natuurbrandbestrijding (8/9 pers.)',
+                name:
+                    'TST-NB 8/9 | Tankautospuit Natuurbrandbestrijding (8/9 pers.)',
                 min: 1,
                 max: 9,
                 credits: 5000,
@@ -3242,7 +3244,8 @@
                 special: 'Benodigd vanaf de 8 gebouwen en/of uitbreiding',
             },
             ovdgrr: {
-                name: 'DA OvD-G/RR | Dienstvoertuig Officier van Dienst-Geneeskundig/Rapid Responder',
+                name:
+                    'DA OvD-G/RR | Dienstvoertuig Officier van Dienst-Geneeskundig/Rapid Responder',
                 min: 1,
                 max: 1,
                 credits: 25000,
@@ -3377,380 +3380,201 @@
         },
     };
 
-    $('#' + prefix + '_button').click(function () {
-        lssm.modal.show(
-            '<div id="' + prefix + '" class="container-fluid"></div>'
-        );
+    $(`#${prefix}_button`).click(() => {
+        lssm.modal.show(`<div id="${prefix}" class="container-fluid"></div>`);
 
-        let overview_container = $('#' + prefix);
+        const overview_container = $(`#${prefix}`);
 
         overview_container.css('margin', '10px');
 
         overview_container.append(
-            '<div class="dropdown"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="typeDropdownBtn">' +
-                I18n.t('lssm.overview.vehiclesName') +
-                '&nbsp;<span class="caret"></span></button><ul class="dropdown-menu" id="typeDropdown"><li><a target="vehicles">' +
-                I18n.t('lssm.overview.vehiclesName') +
-                '</a></li><li><a target="buildings">' +
-                I18n.t('lssm.overview.buildingsName') +
-                '</a></li></ul></div>'
+            `<div class="dropdown"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="typeDropdownBtn">${I18n.t(
+                'lssm.overview.vehiclesName'
+            )}&nbsp;<span class="caret"></span></button><ul class="dropdown-menu" id="typeDropdown"><li><a target="vehicles">${I18n.t(
+                'lssm.overview.vehiclesName'
+            )}</a></li><li><a target="buildings">${I18n.t(
+                'lssm.overview.buildingsName'
+            )}</a></li></ul></div>`
         );
 
         overview_container.append(
-            '<div id="' + prefix + '_vehicles" class="overviewCategory"></div>'
+            `<div id="${prefix}_vehicles" class="overviewCategory"></div>`
         );
         overview_container.append(
-            '<div id="' + prefix + '_buildings" class="overviewCategory"></div>'
+            `<div id="${prefix}_buildings" class="overviewCategory"></div>`
         );
 
         $('.overviewCategory:not(:first)').hide();
-
-        $('#' + prefix + '_vehicles')
+        $(`#${prefix}_vehicles`)
             .append(
                 '<ul class="nav nav-tabs" id="vehicleTabs" role="tablist"></ul>'
             )
             .append('<div class="tab-content" id="vehicleContent"></div>');
 
-        for (let hiorg in I18n.t('lssm.overview.hiorgs')) {
+        for (const hiorg in I18n.t('lssm.overview.hiorgs')) {
             $('#vehicleTabs').append(
-                '<li role="presentation"><a class="nav-link" id="' +
-                    hiorg +
-                    '-tab" data-toggle="tab" href="#' +
-                    hiorg +
-                    '" role="tab" aria-controls="' +
-                    hiorg +
-                    '" aria-selected="false">' +
-                    I18n.t('lssm.overview.hiorgs')[hiorg] +
-                    '</a></li>'
+                `<li role="presentation"><a class="nav-link" id="${hiorg}-tab" data-toggle="tab" href="#${hiorg}" role="tab" aria-controls="${hiorg}" aria-selected="false">${
+                    I18n.t('lssm.overview.hiorgs')[hiorg]
+                }</a></li>`
             );
 
             $('#vehicleContent').append(
-                '<div class="tab-pane' +
-                    ($('.tab-pane').length === 0 ? ' show active' : '') +
-                    '" id="' +
-                    hiorg +
-                    '" role="tabpanel"></div>'
+                `<div class="tab-pane${
+                    $('.tab-pane').length === 0 ? ' show active' : ''
+                }" id="${hiorg}" role="tabpanel"></div>`
             );
 
-            $('#' + hiorg).append(
-                '<input type="text" class="search_input_field pull-right" id="search_' +
-                    hiorg +
-                    '">'
-            );
-
-            if (I18n.locale === 'de_DE') {
-                $('#' + hiorg).append(
-                    '<table id="table-' +
-                        hiorg +
-                        '" class="table table-striped" role="grid"><thead><th>' +
-                        I18n.t('lssm.overview.vehicleType') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.min') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.max') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.cost') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.schooling') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.wtank') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.special') +
-                        '</th></thead><tbody id="table-' +
-                        hiorg +
-                        '-body"></tbody></table>'
+            $(`#${hiorg}`)
+                .append(
+                    `<input type="text" class="search_input_field pull-right" id="search_${hiorg}">`
+                )
+                .append(
+                    `<table id="table-${hiorg}" class="table table-striped" role="grid"><thead><th>${I18n.t(
+                        'lssm.overview.vehicleType'
+                    )}</th><th>${I18n.t('lssm.overview.min')}</th><th>${I18n.t(
+                        'lssm.overview.max'
+                    )}</th><th>${I18n.t('lssm.overview.cost')}</th><th>${I18n.t(
+                        'lssm.overview.schooling'
+                    )}</th>${
+                        ['de_DE', 'en_US'].includes(I18n.locale)
+                            ? `<th>${I18n.t('lssm.overview.wtank')}</th>`
+                            : ''
+                    }<th>${I18n.t(
+                        'lssm.overview.special'
+                    )}</th></thead><tbody id="table-${hiorg}-body"></tbody></table>`
                 );
-            } else if (I18n.locale === 'en_US') {
-                $('#' + hiorg).append(
-                    '<table id="table-' +
-                        hiorg +
-                        '" class="table table-striped" role="grid"><thead><th>' +
-                        I18n.t('lssm.overview.vehicleType') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.min') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.max') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.cost') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.schooling') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.wtank') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.special') +
-                        '</th></thead><tbody id="table-' +
-                        hiorg +
-                        '-body"></tbody></table>'
-                );
-            } else if (I18n.locale === 'en_GB') {
-                $('#' + hiorg).append(
-                    '<table id="table-' +
-                        hiorg +
-                        '" class="table table-striped" role="grid"><thead><th>' +
-                        I18n.t('lssm.overview.vehicleType') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.min') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.max') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.cost') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.schooling') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.special') +
-                        '</th></thead><tbody id="table-' +
-                        hiorg +
-                        '-body"></tbody></table>'
-                );
-            } else if (I18n.locale === 'nl_NL') {
-                $('#' + hiorg).append(
-                    '<table id="table-' +
-                        hiorg +
-                        '" class="table table-striped" role="grid"><thead><th>' +
-                        I18n.t('lssm.overview.vehicleType') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.min') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.max') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.cost') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.schooling') +
-                        '</th><th>' +
-                        I18n.t('lssm.overview.special') +
-                        '</th></thead><tbody id="table-' +
-                        hiorg +
-                        '-body"></tbody></table>'
-                );
-            }
 
             for (let vehicle in I18n.t('lssm.overview.vehicles')[hiorg]) {
                 vehicle = I18n.t('lssm.overview.vehicles')[hiorg][vehicle];
-                if (I18n.locale === 'de_DE') {
-                    $('#table-' + hiorg + '-body').append(
-                        '<tr><td>' +
-                            vehicle.name +
-                            '</td><td>' +
-                            (vehicle.min || vehicle.min === 0
-                                ? vehicle.min
-                                : 'undefined') +
-                            '</td><td>' +
-                            (vehicle.max || vehicle.max === 0
-                                ? vehicle.max
-                                : 'undefined') +
-                            '</td><td>' +
-                            (vehicle.credits
-                                ? vehicle.credits.toLocaleString()
-                                : 'undefined') +
-                            ' Credits / ' +
-                            (vehicle.coins
-                                ? vehicle.coins.toLocaleString()
-                                : 'undefined') +
-                            ' Coins</td><td>' +
-                            (vehicle.schooling
-                                ? vehicle.schooling
-                                : I18n.t('lssm.overview.none')) +
-                            '</td><td>' +
-                            (vehicle.wtank
-                                ? vehicle.wtank.toLocaleString()
-                                : 0) +
-                            ' L</td><td>' +
-                            (vehicle.special ? vehicle.special : '') +
-                            '</td></tr>'
-                    );
-                } else if (I18n.locale === 'en_US') {
-                    $('#table-' + hiorg + '-body').append(
-                        '<tr><td>' +
-                            vehicle.name +
-                            '</td><td>' +
-                            (vehicle.min || vehicle.min === 0
-                                ? vehicle.min
-                                : 'undefined') +
-                            '</td><td>' +
-                            (vehicle.max || vehicle.max === 0
-                                ? vehicle.max
-                                : 'undefined') +
-                            '</td><td>' +
-                            (vehicle.credits
-                                ? vehicle.credits.toLocaleString()
-                                : 'undefined') +
-                            ' Credits / ' +
-                            (vehicle.coins
-                                ? vehicle.coins.toLocaleString()
-                                : 'undefined') +
-                            ' Coins</td><td>' +
-                            (vehicle.schooling
-                                ? vehicle.schooling
-                                : I18n.t('lssm.overview.none')) +
-                            '</td><td>' +
-                            (vehicle.wtank
-                                ? vehicle.wtank.toLocaleString()
-                                : 0) +
-                            ' gal</td><td>' +
-                            (vehicle.special ? vehicle.special : '') +
-                            '</td></tr>'
-                    );
-                } else if (I18n.locale === 'en_GB') {
-                    $('#table-' + hiorg + '-body').append(
-                        '<tr><td>' +
-                            vehicle.name +
-                            '</td><td>' +
-                            (vehicle.min || vehicle.min === 0
-                                ? vehicle.min
-                                : 'undefined') +
-                            '</td><td>' +
-                            (vehicle.max || vehicle.max === 0
-                                ? vehicle.max
-                                : 'undefined') +
-                            '</td><td>' +
-                            (vehicle.credits
-                                ? vehicle.credits.toLocaleString()
-                                : 'undefined') +
-                            ' Credits / ' +
-                            (vehicle.coins
-                                ? vehicle.coins.toLocaleString()
-                                : 'undefined') +
-                            ' Coins</td><td>' +
-                            (vehicle.schooling
-                                ? vehicle.schooling
-                                : I18n.t('lssm.overview.none')) +
-                            '</td><td>' +
-                            (vehicle.special ? vehicle.special : '') +
-                            '</td></tr>'
-                    );
-                } else if (I18n.locale === 'nl_NL') {
-                    $('#table-' + hiorg + '-body').append(
-                        '<tr><td>' +
-                            vehicle.name +
-                            '</td><td>' +
-                            (vehicle.min || vehicle.min === 0
-                                ? vehicle.min
-                                : 'undefined') +
-                            '</td><td>' +
-                            (vehicle.max || vehicle.max === 0
-                                ? vehicle.max
-                                : 'undefined') +
-                            '</td><td>' +
-                            (vehicle.credits
-                                ? vehicle.credits.toLocaleString()
-                                : 'undefined') +
-                            ' Credits / ' +
-                            (vehicle.coins
-                                ? vehicle.coins.toLocaleString()
-                                : 'undefined') +
-                            ' Coins</td><td>' +
-                            (vehicle.schooling
-                                ? vehicle.schooling
-                                : I18n.t('lssm.overview.none')) +
-                            '</td><td>' +
-                            (vehicle.special ? vehicle.special : '') +
-                            '</td></tr>'
-                    );
-                }
+
+                $(`#table-${hiorg}-body`).append(
+                    `<tr><td>${vehicle.name}</td><td>${
+                        vehicle.min || vehicle.min === 0
+                            ? vehicle.min
+                            : 'undefined'
+                    }</td><td>${
+                        vehicle.max || vehicle.max === 0
+                            ? vehicle.max
+                            : 'undefined'
+                    }</td><td sortvalue="${vehicle.credits}">${
+                        vehicle.credits
+                            ? vehicle.credits.toLocaleString()
+                            : 'undefined'
+                    } Credits / ${
+                        vehicle.coins
+                            ? vehicle.coins.toLocaleString()
+                            : 'undefined'
+                    } Coins</td><td>${
+                        vehicle.schooling
+                            ? vehicle.schooling
+                            : I18n.t('lssm.overview.none')
+                    }</td>${
+                        ['de_DE', 'en_US'].includes(I18n.locale)
+                            ? `<td sortvalue="${vehicle.wtank}">${
+                                  vehicle.wtank
+                                      ? vehicle.wtank.toLocaleString()
+                                      : 0
+                              } ${I18n.locale === 'en_US' ? 'gal' : 'L'}</td>`
+                            : ''
+                    }<td>${vehicle.special ? vehicle.special : ''}</td></tr>`
+                );
             }
-            $('#table-' + hiorg).tablesorter();
-            $('#search_' + hiorg).on('keyup', function () {
-                searchInTable('table-' + hiorg, 'search_' + hiorg);
+            $(`#table-${hiorg}`).tablesorter();
+            $(`#search_${hiorg}`).on('keyup', () => {
+                searchInTable(`table-${hiorg}`, `search_${hiorg}`);
             });
         }
 
-        $('#vehicleTabs li a.nav-link').click(function () {
+        $('#vehicleTabs li a.nav-link').click(function() {
             $(
-                '#vehicleContent .tab-pane[id!=' +
-                    $(this).attr('href').replace('#', '') +
-                    ']'
+                `#vehicleContent .tab-pane[id!=${$(this)
+                    .attr('href')
+                    .replace('#', '')}]`
             )
                 .removeClass('show')
                 .removeClass('active');
         });
 
-        $('#' + prefix + '_buildings')
+        $(`#${prefix}_buildings`)
             .append(
                 '<input type="text" class="search_input_field pull-right" id="search_building">'
             )
             .append(
-                '<table id="table-buildings" class="table table-striped" role="grid"><thead><th>' +
-                    I18n.t('lssm.overview.buildingType') +
-                    '</th><th>' +
-                    I18n.t('lssm.overview.cost') +
-                    '</th><th>' +
-                    I18n.t('lssm.overview.maxlevel') +
-                    '</th><th>' +
-                    I18n.t('lssm.overview.levelcost') +
-                    '</th><th>' +
-                    I18n.t('lssm.overview.startPersonell') +
-                    '</th><th>' +
-                    I18n.t('lssm.overview.startVehicle') +
-                    '</th><th>' +
-                    I18n.t('lssm.overview.maxBuildins') +
-                    '</th><th>' +
-                    I18n.t('lssm.overview.extensions') +
-                    '</th><th>' +
-                    I18n.t('lssm.overview.special') +
-                    '</th></thead><tbody id="table-buildings-body"></tbody></table>'
+                `<table id="table-buildings" class="table table-striped" role="grid"><thead><th>${I18n.t(
+                    'lssm.overview.buildingType'
+                )}</th><th>${I18n.t('lssm.overview.cost')}</th><th>${I18n.t(
+                    'lssm.overview.maxlevel'
+                )}</th><th>${I18n.t(
+                    'lssm.overview.levelcost'
+                )}</th><th>${I18n.t(
+                    'lssm.overview.startPersonell'
+                )}</th><th>${I18n.t(
+                    'lssm.overview.startVehicle'
+                )}</th><th>${I18n.t(
+                    'lssm.overview.maxBuildins'
+                )}</th><th>${I18n.t(
+                    'lssm.overview.extensions'
+                )}</th><th>${I18n.t(
+                    'lssm.overview.special'
+                )}</th></thead><tbody id="table-buildings-body"></tbody></table>`
             );
 
         for (let building in I18n.t('lssm.overview.buildings')) {
             building = I18n.t('lssm.overview.buildings')[building];
             $('#table-buildings-body').append(
-                '<tr><td>' +
-                    building.name +
-                    '</td><td>' +
-                    (building.credits || building.credits === 0
+                `<tr><td>${building.name}</td><td>${
+                    building.credits || building.credits === 0
                         ? building.credits.toLocaleString()
-                        : 'undefined') +
-                    ' Credits / ' +
-                    (building.coins || building.coins === 0
+                        : 'undefined'
+                } Credits / ${
+                    building.coins || building.coins === 0
                         ? building.coins.toLocaleString()
-                        : 'undefined') +
-                    ' Coins</td><td>' +
-                    building.maxlevel +
-                    '</td><td>' +
-                    building.levelcost +
-                    '</td><td>' +
-                    building.startPersonell +
-                    '</td><td>' +
-                    building.startVehicle +
-                    '</td><td>' +
-                    building.maxBuildings +
-                    '</td><td>' +
-                    building.extensions +
-                    '</td><td>' +
-                    (building.special ? building.special : '') +
-                    '</td></tr>'
+                        : 'undefined'
+                } Coins</td><td>${building.maxlevel}</td><td>${
+                    building.levelcost
+                }</td><td>${building.startPersonell}</td><td>${
+                    building.startVehicle
+                }</td><td>${building.maxBuildings}</td><td>${
+                    building.extensions
+                }</td><td>${building.special ? building.special : ''}</td></tr>`
             );
         }
         $('#table-buildings').tablesorter();
-        $('#search_building').on('keyup', function () {
+        $('#search_building').on('keyup', () => {
             searchInTable('table-buildings', 'search_building');
         });
 
-        $('#typeDropdown a').click(function () {
+        $('#typeDropdown a').click(function() {
             $('#typeDropdownBtn').html(
-                I18n.t('lssm.overview.' + $(this).attr('target') + 'Name') +
-                    '&nbsp;<span class="caret"></span>'
+                `${I18n.t(
+                    `lssm.overview.${$(this).attr('target')}Name`
+                )}&nbsp;<span class="caret"></span>`
             );
             $('.overviewCategory').hide();
-            $('#' + prefix + '_' + $(this).attr('target')).show();
+            $(`#${prefix}_${$(this).attr('target')}`).show();
         });
     });
 
     function searchInTable(tableID, searchWordID) {
-        let searchWord = new RegExp(
-            $('#' + searchWordID)
+        const searchWord = new RegExp(
+            $(`#${searchWordID}`)
                 .val()
                 .toLowerCase()
         );
-        $('#' + tableID)
+        $(`#${tableID}`)
             .find('tr')
-            .each(function () {
+            .each(function() {
                 // zunächst die Zeile wieder sichtbar machen
                 $(this).show();
 
                 // nun die Zelle prüfen, ob der Suchbegriff vorhanden ist
-                if (!$(this).html().toLowerCase().match(searchWord)) {
+                if (
+                    !$(this)
+                        .html()
+                        .toLowerCase()
+                        .match(searchWord)
+                )
                     $(this).hide();
-                }
             });
     }
 })($, window, I18n);
