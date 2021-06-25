@@ -3,13 +3,13 @@ let ScriptAPI;
     ScriptAPI = {
         /*scripts welche auf dem Server hinterlegt sind*/
         scripts: {
-            "name": {
-                name: 'nameScript', /*Name des Scripts*/
-                version: 0, /*Version des Scripts*/
-                scripter: 'Mausmajor', /*Scripter*/
-                forumThread: '', /*ForumsURL*/
-                freigabe: true /*freigabe von Sebastian */
-            }
+            name: {
+                name: 'nameScript' /*Name des Scripts*/,
+                version: 0 /*Version des Scripts*/,
+                scripter: 'Mausmajor' /*Scripter*/,
+                forumThread: '' /*ForumsURL*/,
+                freigabe: true /*freigabe von Sebastian */,
+            },
         },
         register: function (name, version, scripter, forumThread) {
             /*
@@ -33,7 +33,13 @@ let ScriptAPI;
                  * false: Script nicht fregegeben*/
                 let standart = false;
                 /*legt das Script neu an*/
-                this.scripts[name] = {'name': name, version: version, 'scripter': scripter, 'forumThread': forumThread, 'freigabe': standart};
+                this.scripts[name] = {
+                    name: name,
+                    version: version,
+                    scripter: scripter,
+                    forumThread: forumThread,
+                    freigabe: standart,
+                };
                 /*informiert den Server/Sebastian �ber das neue Script*/
                 script = this.scripts[name];
                 this.InfoSebastian(this.scripts[name]);
@@ -42,7 +48,7 @@ let ScriptAPI;
                 return true;
             } else {
                 this.showMessage(script);
-                throw "Script wurde von Sebastian deaktiviert";
+                throw 'Script wurde von Sebastian deaktiviert';
             }
         },
         showMessage: function (s) {
@@ -50,7 +56,14 @@ let ScriptAPI;
              * Erzeugt eine Infomessage f�r den User
              * Link zum Forumsthreat wird mir angegeben
              */
-            let msg = '<div class="alert alert-danger"><b>' + s.name + '</b> funktioniert leider nicht! Bitte Fehler an <a href="' + s.forumThread + '" target="_blank">' + s.scripter + '</a> melden</div>';
+            let msg =
+                '<div class="alert alert-danger"><b>' +
+                s.name +
+                '</b> funktioniert leider nicht! Bitte Fehler an <a href="' +
+                s.forumThread +
+                '" target="_blank">' +
+                s.scripter +
+                '</a> melden</div>';
             $('.container-fluid:first').before(msg);
         },
         InfoSebastian: function (s) {
@@ -61,6 +74,6 @@ let ScriptAPI;
             let data = JSON.stringify(s);
             console.log(data);
             //$.post('URL',data);
-        }
+        },
     };
 })();

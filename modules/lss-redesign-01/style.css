@@ -1,21 +1,16 @@
-
-.panel-footer{
-  padding: 10px 15px;
-  background-color: #f5f5f5;
-  border-top: 1px solid #ddd;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 
 .dropdown-menu {
-  background-color: rgb(225, 74, 42) !important;
-  border:none !important;
-  border-radius: 0 0 5px 5px;
+    background-color: rgb(225, 74, 42) !important;
+    border: none !important;
+    border-radius: 0 0 5px 5px;
 }
-
-
-
-
 
 /* ##################################################
 
@@ -25,22 +20,22 @@
 
 /* Hauptcontainer ohne Rand */
 .container-fluid {
-  padding:0;
+    padding: 0;
 }
 
 /* fixes fÃ¼r den row container */
 div#content.row {
-  margin: 0;
-  margin-top: 20px;
+    margin: 0;
+    margin-top: 20px;
 }
 
 /* Navbar Abstand zum Container entfernen */
 nav.navbar.navbar-default {
-  margin-bottom: 1px;
+    margin-bottom: 1px;
 }
 
 .missionSideBarEntry .panel-heading {
-  padding: 3px;
+    padding: 3px;
 }
 
 /* Einsatzliste Hervorhebung Einsatz wird bearbeitet
@@ -61,24 +56,24 @@ div#mission_panel_473668535.panel.panel-default {
 
 /* small patienten anzahl */
 small[id^='pat_'] {
-  margin: 3px;
-  margin-top: 6px;
+    margin: 3px;
+    margin-top: 6px;
 }
 
 /* show hide button */
 .MissionOut {
-  margin: 2px;
+    margin: 2px;
 }
 
 /* Einsatz Icon */
 img#icon_ {
-  display: none;
+    display: none;
 }
 
 /* Alarm Button Einsatzliste*/
 a#alarm_button {
-  margin-top: 1px;
-  margin-left: 1px;
+    margin-top: 1px;
+    margin-left: 1px;
 }
 
 /* Versteckt die Addresse in der Einsatzliste
@@ -117,75 +112,73 @@ colorful
 */
 
 .lss_allianceChat {
-  position: fixed;
-  width: 25vw;
-  z-index: 99999;
-  margin-left: -255px;
-  bottom: 30px;
-  right: 40px;
-  cursor: pointer;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
-  box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
-  display: none;
+    position: fixed;
+    width: 25vw;
+    z-index: 99999;
+    margin-left: -255px;
+    bottom: 30px;
+    right: 40px;
+    cursor: pointer;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
+    box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
+    display: none;
 }
 
 .lss_label {
-  padding: .2em .6em .3em;
-  font-size: 75%;
-  font-weight: 700;
-  line-height: 1;
-  color: #fff;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: .25em
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
 }
 
 .lss_label-danger {
-  background-color: #d9534f
+    background-color: #d9534f;
 }
 
 .leaflet-tile-container img {
-  filter: saturate(.5);
+    filter: saturate(0.5);
 }
-
 
 /* fms 5 in map*/
 
-
-li[class^='radio_message_vehicle_']{
-  margin-bottom: 2px;
-  border-radius: 5px;
-  border: none !important;
+li[class^='radio_message_vehicle_'] {
+    margin-bottom: 2px;
+    border-radius: 5px;
+    border: none !important;
 }
 
 li[class^='radio_message_vehicle_'] span {
-  font-weight: 900;
+    font-weight: 900;
 }
 li[class^='radio_message_vehicle_'] img {
-  height: 20px;
-  margin-bottom: 2px;
-  margin-left: -3px;
+    height: 20px;
+    margin-bottom: 2px;
+    margin-left: -3px;
 }
 
 li[class^='radio_message_vehicle_'] a {
-  margin-bottom: 1px;
-  font-size: 11px;
-  padding: 1px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-left: -3px;
-  border-radius: 0 !important;
-  border: none !important;
-  color: #212121 !important;
+    margin-bottom: 1px;
+    font-size: 11px;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: -3px;
+    border-radius: 0 !important;
+    border: none !important;
+    color: #212121 !important;
 }
 
 li[class^='radio_message_vehicle_'] a + a {
-  margin-left: 1px;
-  background: red;
-  color: white !important;
-  text-transform: uppercase;
-  /*background-color: #ff0000;
+    margin-left: 1px;
+    background: red;
+    color: white !important;
+    text-transform: uppercase;
+    /*background-color: #ff0000;
 color: white;
 -webkit-animation-name: blink;
 animation-name: blink;
@@ -198,15 +191,15 @@ animation-timing-function: cubic-bezier(1, 0, 0, 1);
 }
 
 .lss_new_case {
-  border-left: solid red 5px !important;
+    border-left: solid red 5px !important;
 }
 
 .lss_new_case_in_progress {
-  border-left: solid limegreen 5px !important;
+    border-left: solid limegreen 5px !important;
 }
 
 div#iframe-inside-container.container-fluid.lss_new_case {
-  border: none !important;
+    border: none !important;
 }
 div#iframe-inside-container {
     -webkit-overflow-scrolling: touch;
@@ -214,13 +207,15 @@ div#iframe-inside-container {
 }
 
 .lss_allianceCase {
-  animation: blinkAlliance .5s step-end infinite alternate;
+    animation: blinkAlliance 0.5s step-end infinite alternate;
 }
 
 @keyframes blinkAlliance {
-  50% { border-color: #ff0000; }
+    50% {
+        border-color: #ff0000;
+    }
 }
 
 #container_navbar_alarm {
-  margin-bottom: 0px !important;
+    margin-bottom: 0px !important;
 }

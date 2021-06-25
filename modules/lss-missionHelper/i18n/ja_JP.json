@@ -1,93 +1,93 @@
 {
-  "diy_mission": "このミッションは大規模な同盟ミッションのようです。",
-  "guard_mission": "計画ミッション",
-  "vge": "大規模同盟ミッション",
-  "patients": "患者さん",
-  "prisoners": "囚人",
-  "to": "まで",
-  "exp": "普及",
-  "SWATPersonnel": "Needed SWAT Personnel",
-  "ambulance_only": "このミッションは救急車のみです！",
-  "title": "ミッションヘルパー",
-  "transport": "輸送",
-  "allow_rw_instead_of_lf": "このミッションは、消防車の代わりにヘビーレスキューで実施することもできます",
-  "settings": {
-    "name": {
-      "label": "名前",
-      "description": "ヘルパーのミッションの名前を表示します。"
+    "diy_mission": "このミッションは大規模な同盟ミッションのようです。",
+    "guard_mission": "計画ミッション",
+    "vge": "大規模同盟ミッション",
+    "patients": "患者さん",
+    "prisoners": "囚人",
+    "to": "まで",
+    "exp": "普及",
+    "SWATPersonnel": "Needed SWAT Personnel",
+    "ambulance_only": "このミッションは救急車のみです！",
+    "title": "ミッションヘルパー",
+    "transport": "輸送",
+    "allow_rw_instead_of_lf": "このミッションは、消防車の代わりにヘビーレスキューで実施することもできます",
+    "settings": {
+        "name": {
+            "label": "名前",
+            "description": "ヘルパーのミッションの名前を表示します。"
+        },
+        "id": {
+            "label": "Id",
+            "description": "ヘルパー内のミッションの ID を表示します。"
+        },
+        "type": {
+            "label": "タイプ ID",
+            "description": "ヘルパーのミッションタイプの ID を表示します。"
+        },
+        "poi": {
+            "label": "ポイ",
+            "description": "操作がどの POI にあるかをヘルパーで示します。"
+        },
+        "live_patients": {
+            "label": "患者数",
+            "description": "現在使用中の患者数をライブで表示します。"
+        },
+        "vehicles": {
+            "label": "乗り物",
+            "description": "必要な車両を表示します。"
+        },
+        "patients": {
+            "label": "患者情報",
+            "description": "（潜在的な）患者に関する情報を表示します。"
+        },
+        "prisoners": {
+            "label": "囚人情報",
+            "description": "（潜在的な）囚人に関する情報を表示します。"
+        },
+        "special": {
+            "label": "その他の情報",
+            "description": "必要な要員の平均最小人数などの特別な情報を表示します。"
+        },
+        "expansions": {
+            "label": "分布",
+            "description": "ベットが何に広がるかを示します。 （単純なスプレッドのみを表示）"
+        },
+        "show_100": {
+            "label": "100％の確率を表示",
+            "description": "車両が100％であっても、車両の確率を示します。"
+        },
+        "lfrw": {
+            "label": "Heavy Rescueがミッションを処理できるかどうかを示します",
+            "description": "消防車の代わりにヘビーレスキューで処理できるかどうか、ミッションにメッセージを表示します。"
+        },
+        "credits": {
+            "label": "平均収益",
+            "description": "この割り当てで得られる平均収益を表示します。"
+        },
+        "show_siwa": {
+            "label": "警備員の要件",
+            "description": "ヘルパーのセキュリティガードの要件も示します。"
+        },
+        "mission_time": {
+            "label": "作成時間",
+            "description": "ミッションが作成された日時を表示します。"
+        }
     },
-    "id": {
-      "label": "Id",
-      "description": "ヘルパー内のミッションの ID を表示します。"
-    },
-    "type": {
-      "label": "タイプ ID",
-      "description": "ヘルパーのミッションタイプの ID を表示します。"
-    },
-    "poi": {
-      "label": "ポイ",
-      "description": "操作がどの POI にあるかをヘルパーで示します。"
-    },
-    "live_patients": {
-      "label": "患者数",
-      "description": "現在使用中の患者数をライブで表示します。"
-    },
-    "vehicles": {
-      "label": "乗り物",
-      "description": "必要な車両を表示します。"
-    },
-    "patients": {
-      "label": "患者情報",
-      "description": "（潜在的な）患者に関する情報を表示します。"
-    },
-    "prisoners": {
-      "label": "囚人情報",
-      "description": "（潜在的な）囚人に関する情報を表示します。"
-    },
-    "special": {
-      "label": "その他の情報",
-      "description": "必要な要員の平均最小人数などの特別な情報を表示します。"
-    },
-    "expansions": {
-      "label": "分布",
-      "description": "ベットが何に広がるかを示します。 （単純なスプレッドのみを表示）"
-    },
-    "show_100": {
-      "label": "100％の確率を表示",
-      "description": "車両が100％であっても、車両の確率を示します。"
-    },
-    "lfrw": {
-      "label": "Heavy Rescueがミッションを処理できるかどうかを示します",
-      "description": "消防車の代わりにヘビーレスキューで処理できるかどうか、ミッションにメッセージを表示します。"
-    },
-    "credits": {
-      "label": "平均収益",
-      "description": "この割り当てで得られる平均収益を表示します。"
-    },
-    "show_siwa": {
-      "label": "警備員の要件",
-      "description": "ヘルパーのセキュリティガードの要件も示します。"
-    },
-    "mission_time": {
-      "label": "作成時間",
-      "description": "ミッションが作成された日時を表示します。"
+    "requirements": {
+        "firetrucks": "消防車が",
+        "platform_trucks": "プラットフォームトラック",
+        "heavy_rescue_vehicles": "大型救助車",
+        "mobile_air_vehicles": "Breathing Apparatus Support Unit",
+        "battalion_chief_vehicles": "消防隊",
+        "water_tankers": "ウォータータンカー",
+        "hazmat_vehicles": "危険物取扱車両が",
+        "mobile_command_vehicles": "Incident Command and Control Unit",
+        "police_cars": "警察車両が",
+        "arff": "空港用消防車",
+        "k9": "Dog Support Unit",
+        "swat_suv": "Armed Response Vehicle (ARV)",
+        "helicopter": "HEMS",
+        "police_helicopters": "Police helicopter",
+        "allow_rw_instead_of_lf": "消防車または重い救助"
     }
-  },
-  "requirements": {
-    "firetrucks": "消防車が",
-    "platform_trucks": "プラットフォームトラック",
-    "heavy_rescue_vehicles": "大型救助車",
-    "mobile_air_vehicles": "Breathing Apparatus Support Unit",
-    "battalion_chief_vehicles": "消防隊",
-    "water_tankers": "ウォータータンカー",
-    "hazmat_vehicles": "危険物取扱車両が",
-    "mobile_command_vehicles": "Incident Command and Control Unit",
-    "police_cars": "警察車両が",
-    "arff": "空港用消防車",
-    "k9": "Dog Support Unit",
-    "swat_suv": "Armed Response Vehicle (ARV)",
-    "helicopter": "HEMS",
-    "police_helicopters": "Police helicopter",
-    "allow_rw_instead_of_lf": "消防車または重い救助"
-  }
 }

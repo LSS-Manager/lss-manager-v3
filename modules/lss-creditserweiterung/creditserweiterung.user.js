@@ -1,5 +1,10 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan|missionchief-korea|jocdispecerat112|hatakeskuspeli)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.gr)\/#?$/)) return;
+    if (
+        !document.URL.match(
+            /(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan|missionchief-korea|jocdispecerat112|hatakeskuspeli)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.gr)\/#?$/
+        )
+    )
+        return;
 
     I18n.translations.de_DE.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -18,18 +23,19 @@
             500000000: 'Kreisbrandmeister(in)',
             1000000000: 'Stv. Landesbrandmeister(in)',
             2000000000: 'Landesbrandmeister(in)',
-            5000000000: 'Ehrenmitglied'
+            5000000000: 'Ehrenmitglied',
         },
-        texts:{
+        texts: {
             dropdownName: 'Creditserweiterung',
             creditsOverview: 'Credits-Übersicht',
             coinsProtokoll: 'Coinsprotokoll',
             earnedCredits: 'Gesamtcredits',
             creditsToNextRank: 'Credits zum nächsten Dienstgrad',
-            updateMessage: 'Werte aktualisieren sich<br>automatisch alle 5 Minuten.<br>Credits und Coins sind<br>ständig aktuell.',
+            updateMessage:
+                'Werte aktualisieren sich<br>automatisch alle 5 Minuten.<br>Credits und Coins sind<br>ständig aktuell.',
             allianceFunds: 'Verbandskasse',
-            noFurtherRank: 'Keine Höheren Ränge'
-        }
+            noFurtherRank: 'Keine Höheren Ränge',
+        },
     };
     I18n.translations.en_US.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? earned Credits.*/i,
@@ -44,20 +50,21 @@
             50000000: 'Battalion Chief',
             1000000000: 'Division Chief',
             2000000000: 'Deputy Chief',
-            5000000000: 'Fire Chief'
+            5000000000: 'Fire Chief',
         },
-        texts:{
-            reloadMessage: 'Please open your profile<br>and reload the website!',
+        texts: {
+            reloadMessage:
+                'Please open your profile<br>and reload the website!',
             dropdownName: 'Creditsextension',
             creditsOverview: 'Overview',
             coinsProtokoll: 'Coins List',
             earnedCredits: 'Totally earned Credits',
             creditsToNextRank: 'Credits to next rank',
-            updateMessage: 'Values update automatically<br>every 5 minutes.<br>Credits and Coins are<br>continuously up to date.',
+            updateMessage:
+                'Values update automatically<br>every 5 minutes.<br>Credits and Coins are<br>continuously up to date.',
             allianceFunds: 'Alliance Funds',
-            noFurtherRank: 'There are no further ranks'
-
-        }
+            noFurtherRank: 'There are no further ranks',
+        },
     };
     I18n.translations.es_ES.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? créditos conseguidos.*/i,
@@ -72,19 +79,21 @@
             50000000: 'Jefe de batallón',
             1000000000: 'Jefe de división',
             2000000000: 'Subjefe',
-            5000000000: 'Jefe de bomberos'
+            5000000000: 'Jefe de bomberos',
         },
         texts: {
-            reloadMessage: 'Por favor, abra su perfil <br>y vuelva a cargar el sitio web!',
+            reloadMessage:
+                'Por favor, abra su perfil <br>y vuelva a cargar el sitio web!',
             dropdownName: 'Extensión de crédito',
             creditsOverview: 'Panorama general',
             coinsProtokoll: 'Lista de monedas',
             earnedCredits: 'Créditos Totalmente Obtenidos',
             creditsToNextRank: 'Créditos al siguiente rango',
-            updateMessage: 'Los valores se actualizan automáticamente<br>cada 5 minutos.<brLos Créditos y Monedas son <br>continuamente actualizados.',
+            updateMessage:
+                'Los valores se actualizan automáticamente<br>cada 5 minutos.<brLos Créditos y Monedas son <br>continuamente actualizados.',
             allianceFunds: 'Fondos de la Alianza',
-            noFurtherRank: 'No hay más rangos'
-        }
+            noFurtherRank: 'No hay más rangos',
+        },
     };
     I18n.translations.en_GB.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? earned Credits.*/i,
@@ -99,19 +108,21 @@
             50000000: 'Battalion Chief',
             1000000000: 'Division Chief',
             2000000000: 'Deputy Chief',
-            5000000000: 'Fire Chief'
+            5000000000: 'Fire Chief',
         },
         texts: {
-            reloadMessage: 'Please open your profile<br>and reload the website!',
+            reloadMessage:
+                'Please open your profile<br>and reload the website!',
             dropdownName: 'Creditsextension',
             creditsOverview: 'Overview',
             coinsProtokoll: 'Coins List',
             earnedCredits: 'Totally earned Credits',
             creditsToNextRank: 'Credits to next rank',
-            updateMessage: 'Values update automatically<br>every 5 minutes.<br>Credits and Coins are<br>continuously up to date.',
+            updateMessage:
+                'Values update automatically<br>every 5 minutes.<br>Credits and Coins are<br>continuously up to date.',
             allianceFunds: 'Alliance Funds',
-            noFurtherRank: 'There are no further ranks'
-        }
+            noFurtherRank: 'There are no further ranks',
+        },
     };
     I18n.translations.en_AU.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? earned Credits.*/i,
@@ -126,19 +137,21 @@
             50000000: 'Battalion Chief',
             1000000000: 'Division Chief',
             2000000000: 'Deputy Chief',
-            5000000000: 'Fire Chief'
+            5000000000: 'Fire Chief',
         },
         texts: {
-            reloadMessage: 'Please open your profile<br>and reload the website!',
+            reloadMessage:
+                'Please open your profile<br>and reload the website!',
             dropdownName: 'Creditsextension',
             creditsOverview: 'Overview',
             coinsProtokoll: 'Coins List',
             earnedCredits: 'Totally earned Credits',
             creditsToNextRank: 'Credits to next rank',
-            updateMessage: 'Values update automatically<br>every 5 minutes.<br>Credits and Coins are<br>continuously up to date.',
+            updateMessage:
+                'Values update automatically<br>every 5 minutes.<br>Credits and Coins are<br>continuously up to date.',
             allianceFunds: 'Alliance Funds',
-            noFurtherRank: 'There are no further ranks'
-        }
+            noFurtherRank: 'There are no further ranks',
+        },
     };
     I18n.translations.cs_CZ.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? vydělaných kreditů.*/i,
@@ -153,19 +166,21 @@
             50000000: 'Velitel jednotky',
             1000000000: 'Velitel divize',
             2000000000: 'Zástupce velitele',
-            5000000000: 'Velitel hasičů'
+            5000000000: 'Velitel hasičů',
         },
         texts: {
-            reloadMessage: 'Otevřete prosím svůj profil <br> a znovu načtěte web!',
+            reloadMessage:
+                'Otevřete prosím svůj profil <br> a znovu načtěte web!',
             dropdownName: 'Creditsextension',
             creditsOverview: 'Přehled',
             coinsProtokoll: 'Seznam mincí',
             earnedCredits: 'Úplně vydělané Kredity',
             creditsToNextRank: 'Kredity do dalšího pořadí',
-            updateMessage: 'Hodnoty se aktualizují automaticky<br>každých 5 minut.<br>Kredity a mince jsou<br>průběžně aktuální.',
+            updateMessage:
+                'Hodnoty se aktualizují automaticky<br>každých 5 minut.<br>Kredity a mince jsou<br>průběžně aktuální.',
             allianceFunds: 'Alianční fondy',
-            noFurtherRank: 'Nejsou žádné další hodnosti'
-        }
+            noFurtherRank: 'Nejsou žádné další hodnosti',
+        },
     };
     I18n.translations.pl_PL.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? Otrzymane kredyty.*/i,
@@ -180,19 +195,21 @@
             50000000: 'Szef brygady',
             1000000000: 'Nadbrygadier',
             2000000000: 'Zastępca komendanta głównego',
-            5000000000: 'Komendant główny'
+            5000000000: 'Komendant główny',
         },
         texts: {
-            reloadMessage: 'Proszę otworzyć swój profil<br>i przeładować stronę internetową!',
+            reloadMessage:
+                'Proszę otworzyć swój profil<br>i przeładować stronę internetową!',
             dropdownName: 'Przedłużenie kredytu',
             creditsOverview: 'Przegląd',
             coinsProtokoll: 'Coins List',
             earnedCredits: 'Całkowicie zarobione Kredyty',
             creditsToNextRank: 'Kredyty do następnej rangi',
-            updateMessage: 'Automatyczna aktualizacja wartości<br>co 5 minut.<br>Kredyty i monety są stale aktualizowane.',
+            updateMessage:
+                'Automatyczna aktualizacja wartości<br>co 5 minut.<br>Kredyty i monety są stale aktualizowane.',
             allianceFunds: 'Fundusze sojusznicze',
-            noFurtherRank: 'Nie ma dalszych szeregów.'
-        }
+            noFurtherRank: 'Nie ma dalszych szeregów.',
+        },
     };
     I18n.translations.sv_SE.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? intjänade krediter.*/i,
@@ -207,7 +224,7 @@
             50000000: 'Bataljonschef',
             1000000000: 'Divisionschef',
             2000000000: 'Vicechef',
-            5000000000: 'Brandchef'
+            5000000000: 'Brandchef',
         },
         texts: {
             reloadMessage: 'Öppna din profil och ladda om webbplatsen!',
@@ -216,10 +233,11 @@
             coinsProtokoll: 'Myntlista',
             earnedCredits: 'Totalt intjänade krediter',
             creditsToNextRank: 'Krediter till nästa rang',
-            updateMessage: 'Värden uppdateras automatiskt <br> var femte minut.<br>Krediter och mynt är<br>kontinuerligt uppdaterat.',
+            updateMessage:
+                'Värden uppdateras automatiskt <br> var femte minut.<br>Krediter och mynt är<br>kontinuerligt uppdaterat.',
             allianceFunds: 'Alliansfonder',
-            noFurtherRank: 'Det finns inga ytterligare rangordningar'
-        }
+            noFurtherRank: 'Det finns inga ytterligare rangordningar',
+        },
     };
     I18n.translations.da_DK.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? tjente kreditter.*/i,
@@ -234,7 +252,7 @@
             50000000: 'Holdleder',
             1000000000: 'Indsatsleder',
             2000000000: 'Vicebrandchef',
-            5000000000: 'Brandchef'
+            5000000000: 'Brandchef',
         },
         texts: {
             reloadMessage: 'Åbn din profil <br> og genindlæs webstedet!',
@@ -243,10 +261,11 @@
             coinsProtokoll: 'Liste over mønter',
             earnedCredits: 'Totalt optjente kredit',
             creditsToNextRank: 'Kreditter til næste rang',
-            updateMessage: 'Værdier opdateres automatisk <br> hvert 5. minut. <br> Kreditter og mønter er løbende ajour.',
+            updateMessage:
+                'Værdier opdateres automatisk <br> hvert 5. minut. <br> Kreditter og mønter er løbende ajour.',
             allianceFunds: 'Alliance fonde',
-            noFurtherRank: 'Der er ingen yderligere rækker'
-        }
+            noFurtherRank: 'Der er ingen yderligere rækker',
+        },
     };
     I18n.translations.nb_NO.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? tjente kreditter.*/i,
@@ -261,19 +280,21 @@
             50000000: 'Bataljonsjef',
             1000000000: 'Avdelingsleder',
             2000000000: 'Politiinspektør',
-            5000000000: 'Brannsjef'
+            5000000000: 'Brannsjef',
         },
         texts: {
-            reloadMessage: 'Åpne profilen din,<br> og last inn nettstedet på nytt!',
+            reloadMessage:
+                'Åpne profilen din,<br> og last inn nettstedet på nytt!',
             dropdownName: 'Creditsextension',
             creditsOverview: 'Oversikt',
             coinsProtokoll: 'Myntliste',
             earnedCredits: 'Helt opptjente studiepoeng',
             creditsToNextRank: 'Kreditter til neste rangering',
-            updateMessage: 'Verdiene oppdateres automatisk <br> hvert 5. minutt. <br> Kreditter og mynter er kontinuerlig oppdatert.',
+            updateMessage:
+                'Verdiene oppdateres automatisk <br> hvert 5. minutt. <br> Kreditter og mynter er kontinuerlig oppdatert.',
             allianceFunds: 'Alliansefond',
-            noFurtherRank: 'Det er ingen ytterligere rekker'
-        }
+            noFurtherRank: 'Det er ingen ytterligere rekker',
+        },
     };
     I18n.translations.pt_PT.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? créditos ganhos.*/i,
@@ -288,19 +309,21 @@
             50000000: 'Chefe de batalhão',
             1000000000: 'Chefe de divisão',
             2000000000: 'Vice-chefe',
-            5000000000: 'Chefe dos bombeiros'
+            5000000000: 'Chefe dos bombeiros',
         },
         texts: {
-            reloadMessage: 'Por favor, abra o seu perfil <br>e recarregue o site!',
+            reloadMessage:
+                'Por favor, abra o seu perfil <br>e recarregue o site!',
             dropdownName: 'Extensão de crédito',
             creditsOverview: 'Visão geral',
             coinsProtokoll: 'Lista de moedas',
             earnedCredits: 'Créditos totalmente ganhos',
             creditsToNextRank: 'Créditos para o próximo posto',
-            updateMessage: 'Os valores são atualizados automaticamente<br>5 minutos.<bCredits e Moedas são<br> continuamente atualizado.',
+            updateMessage:
+                'Os valores são atualizados automaticamente<br>5 minutos.<bCredits e Moedas são<br> continuamente atualizado.',
             allianceFunds: 'Fundos da Aliança',
-            noFurtherRank: 'Chega de fileiras'
-        }
+            noFurtherRank: 'Chega de fileiras',
+        },
     };
     I18n.translations.it_IT.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? crediti guadagnati.*/i,
@@ -315,7 +338,7 @@
             50000000: 'Ispettore antincendi',
             1000000000: 'Direttore antincendi capo esperto',
             2000000000: 'Dirigente generale',
-            5000000000: 'Dirigente generale Capo del Corpo'
+            5000000000: 'Dirigente generale Capo del Corpo',
         },
         texts: {
             reloadMessage: 'Apri il tuo profilo<br>e ricarica il sito web!',
@@ -324,10 +347,11 @@
             coinsProtokoll: 'Elenco monete',
             earnedCredits: 'Crediti Totalmente guadagnati',
             creditsToNextRank: 'Crediti al rango successivo',
-            updateMessage: 'Aggiornamento automatico dei valori<br>ogni 5 minuti.<br>Crediti e Monete sono costantemente aggiornati.',
-            allianceFunds: 'Fondi dell\'Alleanza',
-            noFurtherRank: 'Non ci sono altre classifiche'
-        }
+            updateMessage:
+                'Aggiornamento automatico dei valori<br>ogni 5 minuti.<br>Crediti e Monete sono costantemente aggiornati.',
+            allianceFunds: "Fondi dell'Alleanza",
+            noFurtherRank: 'Non ci sono altre classifiche',
+        },
     };
     I18n.translations.fr_FR.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? crédits obtenus.*/i,
@@ -342,19 +366,21 @@
             50000000: 'Adjudant-chef',
             1000000000: 'Lieutenant',
             2000000000: 'Capitaine',
-            5000000000: 'Commandant'
+            5000000000: 'Commandant',
         },
         texts: {
-            reloadMessage: 'Veuillez ouvrir votre profil <br>et recharger le site !',
+            reloadMessage:
+                'Veuillez ouvrir votre profil <br>et recharger le site !',
             dropdownName: 'Extension de crédit',
-            creditsOverview: 'Vue d\'ensemble',
+            creditsOverview: "Vue d'ensemble",
             coinsProtokoll: 'Liste des pièces',
             earnedCredits: 'Total des crédits accumulés',
             creditsToNextRank: 'Crédits au rang suivant',
-            updateMessage: 'Mise à jour automatique des valeurs <br>toutes les 5 minutes.<br>Les crédits et les pièces de monnaie sont <br>continuellement mis à jour.',
+            updateMessage:
+                'Mise à jour automatique des valeurs <br>toutes les 5 minutes.<br>Les crédits et les pièces de monnaie sont <br>continuellement mis à jour.',
             allianceFunds: 'Fonds Alliance',
-            noFurtherRank: 'Il n\'y a pas d\'autres grades'
-        }
+            noFurtherRank: "Il n'y a pas d'autres grades",
+        },
     };
     I18n.translations.ko_KR.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? 크레딧 수입.*/i,
@@ -369,7 +395,7 @@
             50000000: '소방대장',
             1000000000: '소방준감',
             2000000000: '소방정감',
-            5000000000: '소방총감'
+            5000000000: '소방총감',
         },
         texts: {
             reloadMessage: '프로필을 열고 <br> 웹 사이트를 다시로드하십시오!',
@@ -378,10 +404,11 @@
             coinsProtokoll: '코인리스트',
             earnedCredits: '완전히 적립 된 크레딧',
             creditsToNextRank: '다음 순위의 크레딧',
-            updateMessage: '값이 자동으로 업데이트됩니다<br>5 분마다.<br>크레딧과 동전은<br>지속적으로 최신.',
+            updateMessage:
+                '값이 자동으로 업데이트됩니다<br>5 분마다.<br>크레딧과 동전은<br>지속적으로 최신.',
             allianceFunds: '얼라이언스 기금',
-            noFurtherRank: '더 이상 순위가 없습니다'
-        }
+            noFurtherRank: '더 이상 순위가 없습니다',
+        },
     };
     I18n.translations.ro_RO.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? credite câștigate.*/i,
@@ -396,19 +423,21 @@
             50000000: 'Șef batalion',
             1000000000: 'Șef divizie',
             2000000000: 'Șef adjunct',
-            5000000000: 'Șeful pompierilor'
+            5000000000: 'Șeful pompierilor',
         },
         texts: {
-            reloadMessage: 'Vă rugăm să deschideți profilul dvs<br>și reîncărcați site-ul!',
+            reloadMessage:
+                'Vă rugăm să deschideți profilul dvs<br>și reîncărcați site-ul!',
             dropdownName: 'Extinderea creditelor',
             creditsOverview: 'Prezentare generală',
             coinsProtokoll: 'Lista monedelor',
             earnedCredits: 'Credite câștigate în totalitate',
             creditsToNextRank: 'Credite la rangul următor',
-            updateMessage: 'Actualizarea automată a valorilor<br>la fiecare 5 minute.<br>Creditele și monedele sunt<br>actualizate în mod continuu.',
+            updateMessage:
+                'Actualizarea automată a valorilor<br>la fiecare 5 minute.<br>Creditele și monedele sunt<br>actualizate în mod continuu.',
             allianceFunds: 'Fondurile Alianței',
-            noFurtherRank: 'Nu mai sunt alte ranguri.'
-        }
+            noFurtherRank: 'Nu mai sunt alte ranguri.',
+        },
     };
     I18n.translations.nl_NL.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9]\.)? verdiende Credits.*/i,
@@ -421,27 +450,31 @@
             5000000: 'Commandeur',
             50000000: 'Adjunct-Hoofdcommandeur',
             500000000: 'Hoofdcommandeur',
-            5000000000: 'Erelid'
+            5000000000: 'Erelid',
         },
-        texts:{
+        texts: {
             reloadMessage: 'Open uw profiel<br>en herlaad de website!',
             dropdownName: 'Credits-uitbreiding',
             creditsOverview: 'Overzicht statistiek',
             coinsProtokoll: 'Coin protocol',
             earnedCredits: 'Totaal verdiende credits',
             creditsToNextRank: 'Credits tot volgende rang',
-            updateMessage: 'Waarden worden elke<br>5 minuten automatisch bijgewerkt.<br>Credits en coins zijn<br>continu up to date.',
+            updateMessage:
+                'Waarden worden elke<br>5 minuten automatisch bijgewerkt.<br>Credits en coins zijn<br>continu up to date.',
             allianceFunds: 'Teamkas',
-            noFurtherRank: 'Geen verdere rangen meer'
-            
-        }
+            noFurtherRank: 'Geen verdere rangen meer',
+        },
     };
 
     let updateable = false;
 
-    function getCreditsOfNextRank(earnedCredits){
+    function getCreditsOfNextRank(earnedCredits) {
         let ranks = I18n.t('lssm.creditserweiterung.ranks');
-        for (let key in ranks) { if(earnedCredits <= key){ return key; } }
+        for (let key in ranks) {
+            if (earnedCredits <= key) {
+                return key;
+            }
+        }
         return null;
     }
 
@@ -449,36 +482,78 @@
         $.ajax({
             url: '/api/credits',
             headers: {
-                'X-LSS-Manager': lssm.headerVersion()
+                'X-LSS-Manager': lssm.headerVersion(),
             },
             success(response) {
                 let earnedCredits = response.credits_user_total;
                 let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
                 if (creditsOfNextRank === null) {
-                    nextRank = I18n.t('lssm.creditserweiterung.texts.noFurtherRank');
-                    creditsToNextRank = "&infin;";
+                    nextRank = I18n.t(
+                        'lssm.creditserweiterung.texts.noFurtherRank'
+                    );
+                    creditsToNextRank = '&infin;';
                 } else {
-                    nextRank = I18n.t('lssm.creditserweiterung.ranks')[creditsOfNextRank];
+                    nextRank = I18n.t('lssm.creditserweiterung.ranks')[
+                        creditsOfNextRank
+                    ];
                     creditsToNextRank = creditsOfNextRank - earnedCredits;
                 }
                 let allianceFundsCredits = response.credits_alliance_current;
 
-                let markup = '<li><a id="menu_creditsverwaltung" class="dropdown_toggle href="#" role="button" data-toggle="dropdown" aria-expanded="false">';
-                markup += '<img id="ls-credits-money-img" style="height: 19px; width: 19px; cursor: pointer;" src="';
-                markup += lssm.getlink("/modules/lss-creditserweiterung/img/icons8-money-box-150.png") + '">';
-                markup += '<span class="visible-xs">' + I18n.t('lssm.creditserweiterung.texts.dropdownName') + '</span>';
-                markup += '<b class="caret"></b></a><ul class="dropdown-menu" role="menu" aria-labelledby="menu_Creditsverwaltung">';
-                markup += '<li role="presentation" id="creditserweiterungCredits"></li>';
-                markup += '<li id="creditsOverview" role="presentation"><a href="/credits/overview" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.texts.creditsOverview') + '</a></li>';
-                markup += '<li role="presentation" id="creditserweiterungCoins"></li>';
-                markup += '<li role="presentation"><a href="/coins/list" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.texts.coinsProtokoll') + '</a></li>';
-                markup += '<li class="divider" role="presentation"></li><li role="presentation"><a id="creditsextensionEarnedCredits">' + I18n.t('lssm.creditserweiterung.texts.earnedCredits') + ': ' + earnedCredits.toLocaleString() + '</a>';
-                markup += '<a id="creditsextensionNextRank">' + I18n.t('lssm.creditserweiterung.texts.creditsToNextRank') + '<br>(' + nextRank + '):<br>' + creditsToNextRank.toLocaleString() + '</a></li>';
+                let markup =
+                    '<li><a id="menu_creditsverwaltung" class="dropdown_toggle href="#" role="button" data-toggle="dropdown" aria-expanded="false">';
+                markup +=
+                    '<img id="ls-credits-money-img" style="height: 19px; width: 19px; cursor: pointer;" src="';
+                markup +=
+                    lssm.getlink(
+                        '/modules/lss-creditserweiterung/img/icons8-money-box-150.png'
+                    ) + '">';
+                markup +=
+                    '<span class="visible-xs">' +
+                    I18n.t('lssm.creditserweiterung.texts.dropdownName') +
+                    '</span>';
+                markup +=
+                    '<b class="caret"></b></a><ul class="dropdown-menu" role="menu" aria-labelledby="menu_Creditsverwaltung">';
+                markup +=
+                    '<li role="presentation" id="creditserweiterungCredits"></li>';
+                markup +=
+                    '<li id="creditsOverview" role="presentation"><a href="/credits/overview" class="lightbox-open" target="blank">' +
+                    I18n.t('lssm.creditserweiterung.texts.creditsOverview') +
+                    '</a></li>';
+                markup +=
+                    '<li role="presentation" id="creditserweiterungCoins"></li>';
+                markup +=
+                    '<li role="presentation"><a href="/coins/list" class="lightbox-open" target="blank">' +
+                    I18n.t('lssm.creditserweiterung.texts.coinsProtokoll') +
+                    '</a></li>';
+                markup +=
+                    '<li class="divider" role="presentation"></li><li role="presentation"><a id="creditsextensionEarnedCredits">' +
+                    I18n.t('lssm.creditserweiterung.texts.earnedCredits') +
+                    ': ' +
+                    earnedCredits.toLocaleString() +
+                    '</a>';
+                markup +=
+                    '<a id="creditsextensionNextRank">' +
+                    I18n.t('lssm.creditserweiterung.texts.creditsToNextRank') +
+                    '<br>(' +
+                    nextRank +
+                    '):<br>' +
+                    creditsToNextRank.toLocaleString() +
+                    '</a></li>';
                 if (response.credits_alliance_active) {
-                    markup += '<li class="divider" role="presentation"></li><li><a href="./verband/kasse" class="lightbox-open" id="creditsextensionAllianceFunds">';
-                    markup += I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits' + '</a></li>';
+                    markup +=
+                        '<li class="divider" role="presentation"></li><li><a href="./verband/kasse" class="lightbox-open" id="creditsextensionAllianceFunds">';
+                    markup +=
+                        I18n.t('lssm.creditserweiterung.texts.allianceFunds') +
+                        ': ' +
+                        allianceFundsCredits.toLocaleString() +
+                        ' Credits' +
+                        '</a></li>';
                 }
-                markup += '<li class="divider" role="presentation"></li><li role="presentation"><a>' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</a></li></ul></li>';
+                markup +=
+                    '<li class="divider" role="presentation"></li><li role="presentation"><a>' +
+                    I18n.t('lssm.creditserweiterung.texts.updateMessage') +
+                    '</a></li></ul></li>';
 
                 $('#menu_creditsverwaltung').remove();
                 $('#lssm_dropdown').before(markup);
@@ -486,12 +561,22 @@
                 $('#creditserweiterungCredits').append($('#navigation_top'));
                 $('#creditserweiterungCoins').append($('#coins_top'));
 
-                $('#menu_creditsverwaltung').attr('title', 'Credits: ' + $('#navigation_top').text().replace(/[\D.]*/, '') + '\nCoins: ' + $('#coins_top').text().replace(/[\D.]*/, ''));
+                $('#menu_creditsverwaltung').attr(
+                    'title',
+                    'Credits: ' +
+                        $('#navigation_top')
+                            .text()
+                            .replace(/[\D.]*/, '') +
+                        '\nCoins: ' +
+                        $('#coins_top')
+                            .text()
+                            .replace(/[\D.]*/, '')
+                );
 
                 $('#menu_creditsverwaltung').click(function () {
                     updateValues();
                 });
-            }
+            },
         });
     }
 
@@ -500,52 +585,96 @@
             $.ajax({
                 url: '/api/credits',
                 headers: {
-                    'X-LSS-Manager': lssm.headerVersion()
+                    'X-LSS-Manager': lssm.headerVersion(),
                 },
                 success(response) {
                     let earnedCredits = response.credits_user_total;
                     let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
                     if (creditsOfNextRank === null) {
-                        nextRank = I18n.t('lssm.creditserweiterung.texts.noFurtherRank');
-                        creditsToNextRank = "&infin;";
+                        nextRank = I18n.t(
+                            'lssm.creditserweiterung.texts.noFurtherRank'
+                        );
+                        creditsToNextRank = '&infin;';
                     } else {
-                        nextRank = I18n.t('lssm.creditserweiterung.ranks')[creditsOfNextRank];
+                        nextRank = I18n.t('lssm.creditserweiterung.ranks')[
+                            creditsOfNextRank
+                        ];
                         creditsToNextRank = creditsOfNextRank - earnedCredits;
                     }
-                    let allianceFundsCredits = response.credits_alliance_current;
+                    let allianceFundsCredits =
+                        response.credits_alliance_current;
 
-                    $("#creditsextensionEarnedCredits").html(I18n.t('lssm.creditserweiterung.texts.earnedCredits') + ': ' + earnedCredits.toLocaleString());
+                    $('#creditsextensionEarnedCredits').html(
+                        I18n.t('lssm.creditserweiterung.texts.earnedCredits') +
+                            ': ' +
+                            earnedCredits.toLocaleString()
+                    );
 
-                    $("#creditsextensionNextRank").html(I18n.t('lssm.creditserweiterung.texts.creditsToNextRank') + '<br>(' + nextRank + '):<br>' + creditsToNextRank.toLocaleString());
+                    $('#creditsextensionNextRank').html(
+                        I18n.t(
+                            'lssm.creditserweiterung.texts.creditsToNextRank'
+                        ) +
+                            '<br>(' +
+                            nextRank +
+                            '):<br>' +
+                            creditsToNextRank.toLocaleString()
+                    );
 
                     if (allianceFundsCredits) {
-                        $("#creditsextensionAllianceFunds").html(I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits');
+                        $('#creditsextensionAllianceFunds').html(
+                            I18n.t(
+                                'lssm.creditserweiterung.texts.allianceFunds'
+                            ) +
+                                ': ' +
+                                allianceFundsCredits.toLocaleString() +
+                                ' Credits'
+                        );
                     }
                     updateable = false;
                     setTimeout(function () {
                         updateable = true;
                     }, 300000);
-                }
+                },
             });
         }
     }
 
     let creditsUpdateOrigin = creditsUpdate;
 
-    creditsUpdate = function(a) {
+    creditsUpdate = function (a) {
         creditsUpdateOrigin(a);
-        $('#menu_creditsverwaltung').attr('title', 'Credits: ' + $('#navigation_top').text().replace(/[\D.]*/, '') + '\nCoins: ' + $('#coins_top').text().replace(/[\D.]*/, ''));
+        $('#menu_creditsverwaltung').attr(
+            'title',
+            'Credits: ' +
+                $('#navigation_top')
+                    .text()
+                    .replace(/[\D.]*/, '') +
+                '\nCoins: ' +
+                $('#coins_top')
+                    .text()
+                    .replace(/[\D.]*/, '')
+        );
     };
 
     let coinsUpdateOrigin = coinsUpdate;
 
-    coinsUpdate = function(a) {
+    coinsUpdate = function (a) {
         coinsUpdateOrigin(a);
-        $('#menu_creditsverwaltung').attr('title', 'Credits: ' + $('#navigation_top').text().replace(/[\D.]*/, '') + '\nCoins: ' + $('#coins_top').text().replace(/[\D.]*/, ''));
+        $('#menu_creditsverwaltung').attr(
+            'title',
+            'Credits: ' +
+                $('#navigation_top')
+                    .text()
+                    .replace(/[\D.]*/, '') +
+                '\nCoins: ' +
+                $('#coins_top')
+                    .text()
+                    .replace(/[\D.]*/, '')
+        );
     };
 
     createExtension();
-    setTimeout(function() {
+    setTimeout(function () {
         updateable = true;
     }, 300000);
 })($, window, I18n);

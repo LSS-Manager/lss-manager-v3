@@ -23,7 +23,7 @@
             num_patients: 'Anzahl / Credits Patienten',
             num_prisoners: 'Anzahl / Credits Gefangene',
             num_team: 'Anzahl / Credits Verbandseinsätze',
-            num_teame: 'Anzahl / Credits Verbandseinlieferungen'
+            num_teame: 'Anzahl / Credits Verbandseinlieferungen',
         };
 
         I18n.translations.en_US.lssm.sumDailyMissions = {
@@ -45,7 +45,7 @@
             num_patients: 'Sum / Credits Patients',
             num_prisoners: 'Sum / Credits Prisoners',
             num_team: 'Sum / Credits Alliance Missions',
-            num_teame: 'Sum / Credits Alliance Treatment'
+            num_teame: 'Sum / Credits Alliance Treatment',
         };
 
         I18n.translations.pt_PT.lssm.sumDailyMissions = {
@@ -64,7 +64,7 @@
             num_patients: 'Soma / Créditos pacientes',
             num_prisoners: 'Soma / Créditos prisioneiros',
             num_team: 'Soma / Créditos missões da aliança',
-            num_teame: 'Soma / Créditos aliança tratamento'
+            num_teame: 'Soma / Créditos aliança tratamento',
         };
 
         I18n.translations.pl_PL.lssm.sumDailyMissions = {
@@ -83,7 +83,7 @@
             num_patients: 'Suma / Kredyty pacjentów',
             num_prisoners: 'Suma / Kredyty więźniów',
             num_team: 'Suma / Kredyty misji sojuszu',
-            num_teame: 'Suma / Kredyty traktowania sojuszu'
+            num_teame: 'Suma / Kredyty traktowania sojuszu',
         };
 
         I18n.translations.sv_SE.lssm.sumDailyMissions = {
@@ -102,7 +102,7 @@
             num_patients: 'Summa / Krediter patienter',
             num_prisoners: 'Summa / Krediter fångar',
             num_team: 'Summa / Krediter alliansuppdrag',
-            num_teame: 'Summa / Krediter alliansbehandling'
+            num_teame: 'Summa / Krediter alliansbehandling',
         };
 
         I18n.translations.da_DK.lssm.sumDailyMissions = {
@@ -121,7 +121,7 @@
             num_patients: 'Sum / Kreditter patienten',
             num_prisoners: 'Sum / Kreditter fanger',
             num_team: 'Sum / Kreditter alliance missioner',
-            num_teame: 'Sum / Kreditter alliansebehandling'
+            num_teame: 'Sum / Kreditter alliansebehandling',
         };
 
         I18n.translations.nb_NO.lssm.sumDailyMissions = {
@@ -140,7 +140,7 @@
             num_patients: 'Sum / Kreditter pasienter',
             num_prisoners: 'Sum / Kreditter fanger',
             num_team: 'Sum / Kreditter allianse oppdrag',
-            num_teame: 'Sum / Kreditter alliansebehandling'
+            num_teame: 'Sum / Kreditter alliansebehandling',
         };
 
         I18n.translations.it_IT.lssm.sumDailyMissions = {
@@ -159,8 +159,8 @@
             num_missions: 'Somma / Crediti missioni',
             num_patients: 'Somma / Crediti pazienti',
             num_prisoners: 'Somma / Crediti i prigionieri',
-            num_team: 'Somma / Crediti le missioni dell\'alleanza',
-            num_teame: 'Somma / Crediti trattamento dell\'alleanza'
+            num_team: "Somma / Crediti le missioni dell'alleanza",
+            num_teame: "Somma / Crediti trattamento dell'alleanza",
         };
 
         I18n.translations.es_ES.lssm.sumDailyMissions = {
@@ -186,7 +186,7 @@
             num_patients: 'Suma / Créditos Pacientes',
             num_prisoners: 'Suma / Créditos de Presos',
             num_team: 'Suma / Créditos de misiones de alianza',
-            num_teame: 'Suma / Créditos de tratamiento de alianza'
+            num_teame: 'Suma / Créditos de tratamiento de alianza',
         };
 
         I18n.translations.fr_FR.lssm.sumDailyMissions = {
@@ -205,8 +205,8 @@
             num_missions: 'Somme / Crédits des missions',
             num_patients: 'Somme / Crédits des patients',
             num_prisoners: 'Somme / Crédits des prisonniers',
-            num_team: 'Missions de l\'alliance Sum / Crédits',
-            num_teame: 'Traitement Sum / Crédits Alliance'
+            num_team: "Missions de l'alliance Sum / Crédits",
+            num_teame: 'Traitement Sum / Crédits Alliance',
         };
 
         I18n.translations.cs_CZ.lssm.sumDailyMissions = {
@@ -225,7 +225,7 @@
             num_patients: 'Součet / kreditů pacientů',
             num_prisoners: 'Součet / kreditů vězňů',
             num_team: 'Sečtěte / kreditů alianční mise',
-            num_teame: 'Součet / kreditů alianční léčby'
+            num_teame: 'Součet / kreditů alianční léčby',
         };
 
         I18n.translations.ko_KR.lssm.sumDailyMissions = {
@@ -244,7 +244,7 @@
             num_patients: '환자 총 / 크레딧',
             num_prisoners: '총 / 크레딧 죄수',
             num_team: '얼라이언스 미션 총계 / 크레딧',
-            num_teame: '총 / 크레딧 제휴 처리'
+            num_teame: '총 / 크레딧 제휴 처리',
         };
 
         I18n.translations.ro_RO.lssm.sumDailyMissions = {
@@ -263,7 +263,7 @@
             num_patients: 'Sumați / credite pacienți',
             num_prisoners: 'Suma / credite prizonieri',
             num_team: 'Sume / credite misiuni de alianță',
-            num_teame: 'Suma / credite tratamentului alianței'
+            num_teame: 'Suma / credite tratamentului alianței',
         };
 
         I18n.translations.nl_NL.lssm.sumDailyMissions = {
@@ -287,97 +287,138 @@
             num_patients: 'Aantal / Credits patiënten',
             num_prisoners: 'Aantal / Credits gevangenen',
             num_team: 'Aantal / Credits Teammeldingen',
-            num_teame: 'Aantal / Credits Teamopnames'
+            num_teame: 'Aantal / Credits Teamopnames',
         };
-        let css = ''+
-            '#num_label {margin-right: 5px;padding: 5px 0px 5px 5px;border: 1.5px solid black;font-size: inherit;border-radius: 5px;}'+
-            '#num_anzahl {background: #333;padding: 4.5px;margin-left: 5px;margin-right: 1px;}'+
-            '#num_icon {margin-right: 5px;}',
-
+        let css =
+                '' +
+                '#num_label {margin-right: 5px;padding: 5px 0px 5px 5px;border: 1.5px solid black;font-size: inherit;border-radius: 5px;}' +
+                '#num_anzahl {background: #333;padding: 4.5px;margin-left: 5px;margin-right: 1px;}' +
+                '#num_icon {margin-right: 5px;}',
             head = document.head || document.getElementsByTagName('head')[0],
-            style=document.createElement('style');
+            style = document.createElement('style');
 
         style.type = 'text/css';
         if (style.styleSheet) style.styleSheet.cssText = css;
         else style.appendChild(document.createTextNode(css));
         head.appendChild(style);
 
+        let sum_einsaetze = 0;
+        let cre_einsaetze = 0;
+        let sum_patienten = 0;
+        let cre_patienten = 0;
+        let sum_gefangene = 0;
+        let cre_gefangene = 0;
+        let sum_verband = 0;
+        let cre_verband = 0;
+        let sum_verbande = 0;
+        let cre_verbande = 0;
+        document
+            .querySelectorAll('#iframe-inside-container > table > tbody > tr')
+            .forEach(row => {
+                const amount = parseInt(
+                    row.children[2].textContent
+                        .trim()
+                        .match(/-?\d{1,3}([.,]?\d{3})*/)[0]
+                        .replace(/[.,]/g, '')
+                );
+                const credits = parseInt(
+                    row.children[0].textContent
+                        .trim()
+                        .match(/-?\d{1,3}([.,]\d{3})*/)[0]
+                        .replace(/[.,]/g, '')
+                );
+                const title = row.children[3].textContent.trim();
 
-let sum_einsaetze = 0;
-let cre_einsaetze = 0;
-let sum_patienten = 0;
-let cre_patienten = 0;
-let sum_gefangene = 0;
-let cre_gefangene = 0;
-let sum_verband = 0;
-let cre_verband = 0;
-let sum_verbande = 0;
-let cre_verbande = 0;
-document.querySelectorAll('#iframe-inside-container > table > tbody > tr').forEach(row => {
-    const amount = parseInt(row.children[2].textContent.trim().match(/-?\d{1,3}([.,]?\d{3})*/)[0].replace(/[.,]/g, ''));
-    const credits = parseInt(row.children[0].textContent.trim().match(/-?\d{1,3}([.,]\d{3})*/)[0].replace(/[.,]/g, ''));
-    const title = row.children[3].textContent.trim();
-
-if(title.match(I18n.t('lssm.sumDailyMissions.patient_treatment')) ||
-                    title.match(I18n.t('lssm.sumDailyMissions.patient_treatment1')))
-                {
+                if (
+                    title.match(
+                        I18n.t('lssm.sumDailyMissions.patient_treatment')
+                    ) ||
+                    title.match(
+                        I18n.t('lssm.sumDailyMissions.patient_treatment1')
+                    )
+                ) {
                     sum_patienten += amount;
                     cre_patienten += credits;
                 }
                 //Zähle Ausbauten, abgebrochene Einsätze, Verbandseinlieferungen und Ausbildung nicht dazu
-                else if(title.match(I18n.t('lssm.sumDailyMissions.extended')) ||
-                        title.match(I18n.t('lssm.sumDailyMissions.purchase')) ||
-                        title.match(I18n.t('lssm.sumDailyMissions.dailyl')) ||
-                        title.match(I18n.t('lssm.sumDailyMissions.cancelled')) ||
-                        title.match(I18n.t('lssm.sumDailyMissions.education')) ||
-                        (I18n.locale === 'es_ES' && title.match(I18n.t('lssm.sumDailyMissions.education2'))) ||
-                        title.match(I18n.t('lssm.sumDailyMissions.extended2')) ||
-                        title.match(I18n.t('lssm.sumDailyMissions.built')) ||
-                        title.match(I18n.t('lssm.sumDailyMissions.shit')) ||
-                        title.match(I18n.t('lssm.sumDailyMissions.shit1')) ||
-                        title.match(I18n.t('lssm.sumDailyMissions.shit2')) ||
-                        title.match(I18n.t('lssm.sumDailyMissions.cancelled2')) ||
-                        title.match(I18n.t('lssm.sumDailyMissions.cancelled3')))
-                {
-                }
-                else if(title.match(I18n.t('lssm.sumDailyMissions.prisoner')))
-                {
+                else if (
+                    title.match(I18n.t('lssm.sumDailyMissions.extended')) ||
+                    title.match(I18n.t('lssm.sumDailyMissions.purchase')) ||
+                    title.match(I18n.t('lssm.sumDailyMissions.dailyl')) ||
+                    title.match(I18n.t('lssm.sumDailyMissions.cancelled')) ||
+                    title.match(I18n.t('lssm.sumDailyMissions.education')) ||
+                    (I18n.locale === 'es_ES' &&
+                        title.match(
+                            I18n.t('lssm.sumDailyMissions.education2')
+                        )) ||
+                    title.match(I18n.t('lssm.sumDailyMissions.extended2')) ||
+                    title.match(I18n.t('lssm.sumDailyMissions.built')) ||
+                    title.match(I18n.t('lssm.sumDailyMissions.shit')) ||
+                    title.match(I18n.t('lssm.sumDailyMissions.shit1')) ||
+                    title.match(I18n.t('lssm.sumDailyMissions.shit2')) ||
+                    title.match(I18n.t('lssm.sumDailyMissions.cancelled2')) ||
+                    title.match(I18n.t('lssm.sumDailyMissions.cancelled3'))
+                ) {
+                } else if (
+                    title.match(I18n.t('lssm.sumDailyMissions.prisoner'))
+                ) {
                     sum_gefangene += amount;
                     cre_gefangene += credits;
-                }
-                else if(title.match(I18n.t('lssm.sumDailyMissions.teame')))
-                {
+                } else if (title.match(I18n.t('lssm.sumDailyMissions.teame'))) {
                     sum_verbande += amount;
                     cre_verbande += credits;
-                }
-                else if (title.match(I18n.t('lssm.sumDailyMissions.team'))) 
-                {
+                } else if (title.match(I18n.t('lssm.sumDailyMissions.team'))) {
                     sum_verband += amount;
                     cre_verband += credits;
                 }
                 //Alles andere sind normale Einsätze und können gezählt werden
-                else
-                {
+                else {
                     sum_einsaetze += amount;
                     cre_einsaetze += credits;
                 }
-});
-            let tables = document.querySelectorAll("#iframe-inside-container > table");
-            let table = tables[0];
-            if(typeof table !== 'undefined' && table !== null)
-                table.insertAdjacentHTML('beforebegin',
-                    '<div class="label label-danger" id="num_label"><i class="glyphicon glyphicon-fire" id="num_icon"></i>'+
-                    I18n.t('lssm.sumDailyMissions.num_missions') + '<span id="num_anzahl">' + sum_einsaetze.toLocaleString() + ' / ' + cre_einsaetze.toLocaleString() + '</span></div>' +
-
+            });
+        let tables = document.querySelectorAll(
+            '#iframe-inside-container > table'
+        );
+        let table = tables[0];
+        if (typeof table !== 'undefined' && table !== null)
+            table.insertAdjacentHTML(
+                'beforebegin',
+                '<div class="label label-danger" id="num_label"><i class="glyphicon glyphicon-fire" id="num_icon"></i>' +
+                    I18n.t('lssm.sumDailyMissions.num_missions') +
+                    '<span id="num_anzahl">' +
+                    sum_einsaetze.toLocaleString() +
+                    ' / ' +
+                    cre_einsaetze.toLocaleString() +
+                    '</span></div>' +
                     '<div class="label label-warning" id="num_label"><i class="glyphicon glyphicon-plus" id="num_icon"></i>' +
-                    I18n.t('lssm.sumDailyMissions.num_patients') + '<span id="num_anzahl">' + sum_patienten.toLocaleString() + ' / ' + cre_patienten.toLocaleString() + '</span></div>' +
-
+                    I18n.t('lssm.sumDailyMissions.num_patients') +
+                    '<span id="num_anzahl">' +
+                    sum_patienten.toLocaleString() +
+                    ' / ' +
+                    cre_patienten.toLocaleString() +
+                    '</span></div>' +
                     '<div class="label label-success" id="num_label"><i class="glyphicon glyphicon-plus" id="num_icon"></i>' +
-                    I18n.t('lssm.sumDailyMissions.num_prisoners') + '<span id="num_anzahl">' + sum_gefangene.toLocaleString() + ' / ' + cre_gefangene.toLocaleString() + '</span></div>' +
-
+                    I18n.t('lssm.sumDailyMissions.num_prisoners') +
+                    '<span id="num_anzahl">' +
+                    sum_gefangene.toLocaleString() +
+                    ' / ' +
+                    cre_gefangene.toLocaleString() +
+                    '</span></div>' +
                     '<div class="label label-danger" id="num_label"><i class="glyphicon glyphicon-fire" id="num_icon"></i>' +
-                    I18n.t('lssm.sumDailyMissions.num_team') + '<span id="num_anzahl">' + sum_verband.toLocaleString() + ' / ' + cre_verband.toLocaleString() + '</span></div>' +
-
+                    I18n.t('lssm.sumDailyMissions.num_team') +
+                    '<span id="num_anzahl">' +
+                    sum_verband.toLocaleString() +
+                    ' / ' +
+                    cre_verband.toLocaleString() +
+                    '</span></div>' +
                     '<div class="label label-info" id="num_label"><i class="glyphicon glyphicon-plus" id="num_icon"></i>' +
-                    I18n.t('lssm.sumDailyMissions.num_teame') + '<span id="num_anzahl">' + sum_verbande.toLocaleString() + ' / ' + cre_verbande.toLocaleString() + '</span></div><br><br>');
-}})();
+                    I18n.t('lssm.sumDailyMissions.num_teame') +
+                    '<span id="num_anzahl">' +
+                    sum_verbande.toLocaleString() +
+                    ' / ' +
+                    cre_verbande.toLocaleString() +
+                    '</span></div><br><br>'
+            );
+    }
+})();

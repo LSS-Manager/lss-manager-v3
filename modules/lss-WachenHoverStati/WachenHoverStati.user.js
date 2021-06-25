@@ -2,17 +2,17 @@
 /**
  * Created by Northdegree on 05.06.2017.
  */
-(function($) {
-    $(document).bind(lssm.hook.postname('building_maps_draw'), function() {
+(function ($) {
+    $(document).bind(lssm.hook.postname('building_maps_draw'), function () {
         'use strict';
         redraw_Labels();
     });
-    $(document).bind(lssm.hook.postname('radioMessage'), function(event, t) {
+    $(document).bind(lssm.hook.postname('radioMessage'), function (event, t) {
         'use strict';
         if (!t.fms_text?.startsWith('[Verband]')) redraw_Labels();
     });
     function redraw_Labels() {
-        $.each(building_markers, function(key, marker) {
+        $.each(building_markers, function (key, marker) {
             // Is the tooltip currently open?
             let reopen = false;
             if (marker.isTooltipOpen()) {

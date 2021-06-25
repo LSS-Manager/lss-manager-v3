@@ -1,129 +1,129 @@
 {
-  "diy_mission": "Questa missione sembra essere una missione su larga scala dell'alleanza..",
-  "guard_mission": "Missione pianificata",
-  "vge": "Missione dell'alleanza su larga scala",
-  "patients": "Pazienti",
-  "prisoners": "Prigionieri",
-  "to": "fino",
-  "water": "Acqua Necessaria",
-  "water1": "lit",
-  "exp": "Espansione",
-  "fwm": "Missioni di follow-up",
-  "subs": "Missioni successive al successo",
-  "SWATPersonnel": "Needed SWAT Personnel",
-  "averageMinimumEmployeesFire": "Vigili del Fuoco richiesti",
-  "averageMinimumEmployeesPolice": "Media min. Personale di polizia",
-  "ambulance_only": "Questa missione e' riservata alle ambulanze.!",
-  "title": "Missionhelper",
-  "transport": "Trasporto",
-  "itcodes": "Codici patologie possibili nella missione",
-  "allow_rw_instead_of_lf": "Questa Missione può anche essere eseguita con un Rescue pesante invece di un colpo di fuoco",
-  "settings": {
-    "name": {
-      "label": "Nome",
-      "description": "Mostra il nome della missione nell'aiuto."
+    "diy_mission": "Questa missione sembra essere una missione su larga scala dell'alleanza..",
+    "guard_mission": "Missione pianificata",
+    "vge": "Missione dell'alleanza su larga scala",
+    "patients": "Pazienti",
+    "prisoners": "Prigionieri",
+    "to": "fino",
+    "water": "Acqua Necessaria",
+    "water1": "lit",
+    "exp": "Espansione",
+    "fwm": "Missioni di follow-up",
+    "subs": "Missioni successive al successo",
+    "SWATPersonnel": "Needed SWAT Personnel",
+    "averageMinimumEmployeesFire": "Vigili del Fuoco richiesti",
+    "averageMinimumEmployeesPolice": "Media min. Personale di polizia",
+    "ambulance_only": "Questa missione e' riservata alle ambulanze.!",
+    "title": "Missionhelper",
+    "transport": "Trasporto",
+    "itcodes": "Codici patologie possibili nella missione",
+    "allow_rw_instead_of_lf": "Questa Missione può anche essere eseguita con un Rescue pesante invece di un colpo di fuoco",
+    "settings": {
+        "name": {
+            "label": "Nome",
+            "description": "Mostra il nome della missione nell'aiuto."
+        },
+        "id": {
+            "label": "ID",
+            "description": "Visualizza l'ID della missione nell'helper."
+        },
+        "type": {
+            "label": "TIPO-ID",
+            "description": "Visualizza l'ID del tipo di missione nell'helper."
+        },
+        "poi": {
+            "label": "POI",
+            "description": "Indica nell'helper a quale PDI si trova l'operazione."
+        },
+        "live_patients": {
+            "label": "Numero di pazienti",
+            "description": "Mostra dal vivo quanti pazienti sono attualmente in uso."
+        },
+        "waterit": {
+            "label": "Domanda di acqua",
+            "description": "Mostra la quantità totale di acqua richiesta."
+        },
+        "vehicles": {
+            "label": "Veicoli",
+            "description": "Visualizza i veicoli necessari."
+        },
+        "patients": {
+            "label": "informazioni sul paziente",
+            "description": "Mostra informazioni sui (potenziali) pazienti."
+        },
+        "prisoners": {
+            "label": "prisoner information",
+            "description": "Mostra informazioni sui (potenziali) prigionieri."
+        },
+        "special": {
+            "label": "Altre informazioni",
+            "description": "Visualizza informazioni speciali, come ad esempio il numero medio minimo di persone richieste."
+        },
+        "expansions": {
+            "label": "erogazioni",
+            "description": "Mostra a cosa può diffondersi la scommessa. (Mostra solo spread semplice)"
+        },
+        "followup": {
+            "label": "Missioni di follow-up",
+            "description": "Mostra ciò che la missione può generare per le missioni successive"
+        },
+        "subsequent": {
+            "label": "Missioni successive",
+            "description": "Mostra ciò che la missione può generare per le missioni successive alla fine della missione"
+        },
+        "show_100": {
+            "label": "Mostra il 100% di probabilità",
+            "description": "Mostra la probabilità per un veicolo anche se è al 100%."
+        },
+        "lfrw": {
+            "label": "Mostra se Heavy Rescue può elaborare la missione",
+            "description": "Visualizza un messaggio nella missione se può essere elaborato anche con un salvataggio pesante anziché un camion dei pompieri."
+        },
+        "credits": {
+            "label": "Guadagno medio",
+            "description": "Mostra i guadagni medi che si ottengono per questo incarico."
+        },
+        "show_siwa": {
+            "label": "Requisiti delle guardie di sicurezza",
+            "description": "Mostra i requisiti per le guardie di sicurezza anche nell'helper."
+        },
+        "show_k9": {
+            "label": "Icona del cane dietro il nome della missione",
+            "description": "Mostra un cane emoji dietro il nome della missione se è richiesto cinofila antidroga."
+        },
+        "mission_time": {
+            "label": "Tempo di creazione",
+            "description": "Mostra la data e l'ora in cui la missione è stata creata."
+        }
     },
-    "id": {
-      "label": "ID",
-      "description": "Visualizza l'ID della missione nell'helper."
-    },
-    "type": {
-      "label": "TIPO-ID",
-      "description": "Visualizza l'ID del tipo di missione nell'helper."
-    },
-    "poi": {
-      "label": "POI",
-      "description": "Indica nell'helper a quale PDI si trova l'operazione."
-    },
-    "live_patients": {
-      "label": "Numero di pazienti",
-      "description": "Mostra dal vivo quanti pazienti sono attualmente in uso."
-    },
-    "waterit": {
-      "label": "Domanda di acqua",
-      "description": "Mostra la quantità totale di acqua richiesta."
-    },
-    "vehicles": {
-      "label": "Veicoli",
-      "description": "Visualizza i veicoli necessari."
-    },
-    "patients": {
-      "label": "informazioni sul paziente",
-      "description": "Mostra informazioni sui (potenziali) pazienti."
-    },
-    "prisoners": {
-      "label": "prisoner information",
-      "description": "Mostra informazioni sui (potenziali) prigionieri."
-    },
-    "special": {
-      "label": "Altre informazioni",
-      "description": "Visualizza informazioni speciali, come ad esempio il numero medio minimo di persone richieste."
-    },
-    "expansions": {
-      "label": "erogazioni",
-      "description": "Mostra a cosa può diffondersi la scommessa. (Mostra solo spread semplice)"
-    },
-    "followup": {
-      "label": "Missioni di follow-up",
-      "description": "Mostra ciò che la missione può generare per le missioni successive"
-    },
-    "subsequent": {
-      "label": "Missioni successive",
-      "description": "Mostra ciò che la missione può generare per le missioni successive alla fine della missione"
-    },
-    "show_100": {
-      "label": "Mostra il 100% di probabilità",
-      "description": "Mostra la probabilità per un veicolo anche se è al 100%."
-    },
-    "lfrw": {
-      "label": "Mostra se Heavy Rescue può elaborare la missione",
-      "description": "Visualizza un messaggio nella missione se può essere elaborato anche con un salvataggio pesante anziché un camion dei pompieri."
-    },
-    "credits": {
-      "label": "Guadagno medio",
-      "description": "Mostra i guadagni medi che si ottengono per questo incarico."
-    },
-    "show_siwa": {
-      "label": "Requisiti delle guardie di sicurezza",
-      "description": "Mostra i requisiti per le guardie di sicurezza anche nell'helper."
-    },
-    "show_k9": {
-      "label": "Icona del cane dietro il nome della missione",
-      "description": "Mostra un cane emoji dietro il nome della missione se è richiesto cinofila antidroga."
-    },
-    "mission_time": {
-      "label": "Tempo di creazione",
-      "description": "Mostra la data e l'ora in cui la missione è stata creata."
+    "requirements": {
+        "firetrucks": "APS/ABP",
+        "platform_trucks": "Autoscale",
+        "heavy_rescue_vehicles": "Unità polisoccorso",
+        "mobile_air_vehicles": "Carro aria",
+        "battalion_chief_vehicles": "Funzionari",
+        "water_tankers": "Kilolitriche",
+        "hazmat_vehicles": "NBCR",
+        "mobile_command_vehicles": "UCL",
+        "police_cars": "Pattuglie",
+        "helicopter": "elisoccorso",
+        "fwk": "Autogrù",
+        "ambulances": "Ambulanza Medicalizzata",
+        "arff": "Flotta aerea antincendio AIB",
+        "k9": "unitò cinofila antidroga",
+        "pmotorcycle": "Moto della Polizia",
+        "swat_armored_vehicle": "furgone Antisommossa",
+        "swat_suv": "Suv UOPI",
+        "police_helicopters": "elicottero della polizia",
+        "commerce_police": "Volante Finanza",
+        "fbi_bomb": "Furgone artificieri",
+        "diver_units": "Camion tecnico NSSA",
+        "boats": "Barche",
+        "water_rescue": "Pickup SAF",
+        "orgl": "DTS",
+        "brush_truck": "Mezzi AB",
+        "elw3": "DOS",
+        "fire_aviation": "Mezzi Aerei Antincendio",
+        "allow_rw_instead_of_lf": "Camion dei pompieri o salvataggio pesante"
     }
-  },
-  "requirements": {
-    "firetrucks": "APS/ABP",
-    "platform_trucks": "Autoscale",
-    "heavy_rescue_vehicles": "Unità polisoccorso",
-    "mobile_air_vehicles": "Carro aria",
-    "battalion_chief_vehicles": "Funzionari",
-    "water_tankers": "Kilolitriche",
-    "hazmat_vehicles": "NBCR",
-    "mobile_command_vehicles": "UCL",
-    "police_cars": "Pattuglie",
-    "helicopter": "elisoccorso",
-    "fwk": "Autogrù",
-    "ambulances": "Ambulanza Medicalizzata",
-    "arff": "Flotta aerea antincendio AIB",
-    "k9": "unitò cinofila antidroga",
-    "pmotorcycle": "Moto della Polizia",
-    "swat_armored_vehicle": "furgone Antisommossa",
-    "swat_suv": "Suv UOPI",
-    "police_helicopters": "elicottero della polizia",
-    "commerce_police": "Volante Finanza",
-    "fbi_bomb": "Furgone artificieri",
-    "diver_units": "Camion tecnico NSSA",
-    "boats": "Barche",
-    "water_rescue": "Pickup SAF",
-    "orgl": "DTS",
-    "brush_truck": "Mezzi AB",
-    "elw3": "DOS",
-    "fire_aviation": "Mezzi Aerei Antincendio",
-    "allow_rw_instead_of_lf": "Camion dei pompieri o salvataggio pesante"
-  }
 }

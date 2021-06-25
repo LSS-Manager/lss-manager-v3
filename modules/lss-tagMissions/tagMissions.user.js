@@ -1,37 +1,43 @@
-(function($){
-        // save game functions to keep them alive
+(function ($) {
+    // save game functions to keep them alive
     let buffermMa = missionMarkerAdd;
     let buffermPa = mission_participation_add;
 
-// run tag missions when game is changing participation
-mission_participation_add = function(e){
-	buffermPa(e);
-	tagMissions(e);
-}
-// run tag missions when game is changing markers
-missionMarkerAdd = function(e){
-	buffermMa(e);
-	tagMissions(e.id);
-}
+    // run tag missions when game is changing participation
+    mission_participation_add = function (e) {
+        buffermPa(e);
+        tagMissions(e);
+    };
+    // run tag missions when game is changing markers
+    missionMarkerAdd = function (e) {
+        buffermMa(e);
+        tagMissions(e.id);
+    };
 
-// find tags function
-function tagMissions(t){
-    let mpl = $('#mission_panel_'+t);
-    let mpn = $('#mission_participant_new_'+t);
-    let mp = $('#mission_participant_'+t);
+    // find tags function
+    function tagMissions(t) {
+        let mpl = $('#mission_panel_' + t);
+        let mpn = $('#mission_participant_new_' + t);
+        let mp = $('#mission_participant_' + t);
 
-    if( mpn.hasClass('hidden')){
-        mpl.addClass('lss_new_case_in_progress');
-
-    } else if( mp.hasClass('hidden')){
-       mpl.addClass('lss_new_case');
-
-    } else if( mpl.hasClass('.panel-success')){
-        mpl.addClass('lss_new_case');
+        if (mpn.hasClass('hidden')) {
+            mpl.addClass('lss_new_case_in_progress');
+        } else if (mp.hasClass('hidden')) {
+            mpl.addClass('lss_new_case');
+        } else if (mpl.hasClass('.panel-success')) {
+            mpl.addClass('lss_new_case');
+        }
     }
-}
-// find all elements on first load
-$('.glyphicon.glyphicon-asterisk.hidden').parent().parent().addClass('lss_new_case_in_progress');
-$('.glyphicon.glyphicon-asterisk:not(.hidden)').parent().parent().addClass('lss_new_case');
-$('.panel.panel-default.lss_new_case_in_progress.panel-success, .panel.panel-default.lss_new_case.panel-success').addClass('lss_allianceCase');
+    // find all elements on first load
+    $('.glyphicon.glyphicon-asterisk.hidden')
+        .parent()
+        .parent()
+        .addClass('lss_new_case_in_progress');
+    $('.glyphicon.glyphicon-asterisk:not(.hidden)')
+        .parent()
+        .parent()
+        .addClass('lss_new_case');
+    $(
+        '.panel.panel-default.lss_new_case_in_progress.panel-success, .panel.panel-default.lss_new_case.panel-success'
+    ).addClass('lss_allianceCase');
 })($);

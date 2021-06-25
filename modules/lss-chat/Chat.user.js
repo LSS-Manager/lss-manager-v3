@@ -1,16 +1,18 @@
-(function($,I18n){
+(function ($, I18n) {
     // Settings
     let settings = {
-        allianceChatNotifcation:true,
-        locale: I18n.locale||'de',
-        delayTime:6000,
-        translations:{
-            de:{
-                Chatnotification_on_off:'Chatnotification aus/ein schalten'
-            }
-        }
+        allianceChatNotifcation: true,
+        locale: I18n.locale || 'de',
+        delayTime: 6000,
+        translations: {
+            de: {
+                Chatnotification_on_off: 'Chatnotification aus/ein schalten',
+            },
+        },
     };
-    let $mainDiv = $('<div id="chatNote" class="panel panel-default"><div class="panel-heading">Chat</div></div>');
+    let $mainDiv = $(
+        '<div id="chatNote" class="panel panel-default"><div class="panel-heading">Chat</div></div>'
+    );
     $mainDiv.css({
         'position': 'fixed',
         'width': '250px',
@@ -18,43 +20,74 @@
         'margin-left': '-255px',
         'top': '20%',
         'left': '100%',
-        'display':'none',
-        'cursor':'pointer'
+        'display': 'none',
+        'cursor': 'pointer',
     });
-    $mainDiv.click(function(){
+    $mainDiv.click(function () {
         $(this).hide('slow');
     });
-    let $contentDiv = $('<div class="panel-body" style="background-color: white;"></div>');
+    let $contentDiv = $(
+        '<div class="panel-body" style="background-color: white;"></div>'
+    );
     let $ul = $('<ul id="chatNoteUl"></ul>');
     $ul.css({
         'list-style': 'none',
         'margin-left': '0',
-        'padding-left':' 20px'
+        'padding-left': ' 20px',
     });
     $ul.appendTo($contentDiv);
     $contentDiv.appendTo($mainDiv);
     $mainDiv.appendTo($('body'));
-    $('<a href="#" class="btn btn-success btn-xs pull-right'+(settings.allianceChatNotifcation ?'':' btn-danger')+'" title="'+settings.translations[settings.locale].Chatnotification_on_off+'">Chatnotification</a>').appendTo($('#chat_outer .panel-heading'))
-            .click(function(e){
-                settings.allianceChatNotifcation = !settings.allianceChatNotifcation;
-                $(this).toggleClass("btn-danger");
-                return false;
-    });
+    $(
+        '<a href="#" class="btn btn-success btn-xs pull-right' +
+            (settings.allianceChatNotifcation ? '' : ' btn-danger') +
+            '" title="' +
+            settings.translations[settings.locale].Chatnotification_on_off +
+            '">Chatnotification</a>'
+    )
+        .appendTo($('#chat_outer .panel-heading'))
+        .click(function (e) {
+            settings.allianceChatNotifcation =
+                !settings.allianceChatNotifcation;
+            $(this).toggleClass('btn-danger');
+            return false;
+        });
     let MainDivTimer;
-    function hideMainDiv(){
+    function hideMainDiv() {
         clearTimeout(MainDivTimer);
-        MainDivTimer = setTimeout(function(){
+        MainDivTimer = setTimeout(function () {
             $mainDiv.hide('slow');
-        },settings.delayTime);
+        }, settings.delayTime);
     }
-    $(document).bind(lssm.hook.postname("allianceChat"),function(event,t){
-        if(user_id !== t.user_id && settings.allianceChatNotifcation && !t.ignore_audio){
-            let e = "<li><span class='mission_chat_message_username'>[" + t.date + "] <a href='/profile/" + t.user_id + "' class='lightbox-open'>" + t.username + ":</a></span>";
-            t.mission_id && (e = e + "<a href='/missions/" + t.mission_id + "' class='lightbox-open'><span class='glyphicon glyphicon-bell'></span></a> ");
-            e = e + " " + t.message + "</li>";
-            $(e).appendTo($ul).delay(settings.delayTime).hide('slow',function(){$(this).remove();});
+    $(document).bind(lssm.hook.postname('allianceChat'), function (event, t) {
+        if (
+            user_id !== t.user_id &&
+            settings.allianceChatNotifcation &&
+            !t.ignore_audio
+        ) {
+            let e =
+                "<li><span class='mission_chat_message_username'>[" +
+                t.date +
+                "] <a href='/profile/" +
+                t.user_id +
+                "' class='lightbox-open'>" +
+                t.username +
+                ':</a></span>';
+            t.mission_id &&
+                (e =
+                    e +
+                    "<a href='/missions/" +
+                    t.mission_id +
+                    "' class='lightbox-open'><span class='glyphicon glyphicon-bell'></span></a> ");
+            e = e + ' ' + t.message + '</li>';
+            $(e)
+                .appendTo($ul)
+                .delay(settings.delayTime)
+                .hide('slow', function () {
+                    $(this).remove();
+                });
             $mainDiv.show('slow');
             hideMainDiv();
         }
     });
-})($,I18n);
+})($, I18n);
