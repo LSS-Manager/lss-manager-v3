@@ -4194,7 +4194,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -5147,8 +5149,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-06-26T10:00:00+02:00",
-            "date_end": "2020-10-01T00:00:00+02:00",
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z",
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
@@ -5177,8 +5179,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-06-26T10:00:00+02:00",
-            "date_end": "2020-10-01T00:00:00+02:00",
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z",
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
@@ -5207,8 +5209,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-06-26T10:00:00+02:00",
-            "date_end": "2020-10-01T00:00:00+02:00",
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z",
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
@@ -5237,8 +5239,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-06-26T10:00:00+02:00",
-            "date_end": "2020-10-01T00:00:00+02:00",
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z",
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
@@ -5265,8 +5267,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-06-26T10:00:00+02:00",
-            "date_end": "2020-10-01T00:00:00+02:00"
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z"
         },
         "prerequisites": {
             "main_building": 0,
@@ -9821,6 +9823,106 @@
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "319": {
+        "id": 319,
+        "name": "Livr\u00e4ddare under en simt\u00e4vling",
+        "place": "Sj\u00f6\nFlod",
+        "place_array": {
+            "0": "Sj\u00f6",
+            "1": "Flod"
+        },
+        "average_credits": 2000,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "ambulances": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2 timmar",
+            "duration": 7200,
+            "guard_mission": true,
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "320": {
+        "id": 320,
+        "name": "F\u00f6rorenad glassvagn",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 20,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z",
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 2,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "321": {
+        "id": 321,
+        "name": "Olaglig brasa i parken",
+        "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
+        "average_credits": 600,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-06-25T09:00:00Z",
+            "date_end": "2021-08-27T23:59:00Z"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 1
         },
         "alternate_version": null
     }
