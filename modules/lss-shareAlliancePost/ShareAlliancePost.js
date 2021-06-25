@@ -1,9 +1,22 @@
 /* global jQuery, I18n, lssm */
 
-(async function(I18n, $) {
+(async function (I18n, $) {
     let LSS_SHAREALLIANCEPOST_STORAGE = 'LSS_SHAREALLIANCEPOST_STORAGE';
-	
-	if(!localStorage.aMissions || JSON.parse(localStorage.aMissions).lastUpdate < (new Date().getTime() - 1000 * 60 * 60 * 24)) await $.getJSON('/einsaetze.json').done(data => localStorage.setItem('aMissions', JSON.stringify({lastUpdate: new Date().getTime(), value: data})) );
+
+    if (
+        !localStorage.aMissions ||
+        JSON.parse(localStorage.aMissions).lastUpdate <
+            new Date().getTime() - 1000 * 60 * 60 * 24
+    )
+        await $.getJSON('/einsaetze.json').done(data =>
+            localStorage.setItem(
+                'aMissions',
+                JSON.stringify({
+                    lastUpdate: new Date().getTime(),
+                    value: data,
+                })
+            )
+        );
 
     I18n.translations.de_DE.lssm.sharealliancepost = {
         share: 'Teilen...',
@@ -410,21 +423,16 @@
         optionsBtnMarkup += '</ul></div>';
         optionsBtnMarkup += '</div>';
 
-        $('.alert_next_alliance')
-            .parent()
-            .append(btnMarkup);
+        $('.alert_next_alliance').parent().append(btnMarkup);
 
-        $('.alert_notify_alliance')
-            .first()
-            .parent()
-            .prepend(optionsBtnMarkup);
+        $('.alert_notify_alliance').first().parent().prepend(optionsBtnMarkup);
 
         $('#openAllianceShareOptions').click(() => {
             $('#allianceShareOptions').show();
             $('#openAllianceShareOptions').hide();
         });
 
-        $('.custom_alliance_share_text').click(function() {
+        $('.custom_alliance_share_text').click(function () {
             $('#allianceShareText').val($(this).text());
         });
 
@@ -539,9 +547,7 @@
                             I18n.t('lssm.sharealliancepost.alert')
                         );
                         if (getSetting('jumpNext')) {
-                            $('.alert_next')
-                                .first()
-                                .click();
+                            $('.alert_next').first().click();
                         } else {
                             $('#mission_alarm_btn').click();
                         }
@@ -560,9 +566,10 @@
                 .text()
                 .trim()
                 .split(',');
-            addressAndPatrientRow = addressAndPatrientRow[
-                addressAndPatrientRow.length - 1
-            ].split('|');
+            addressAndPatrientRow =
+                addressAndPatrientRow[addressAndPatrientRow.length - 1].split(
+                    '|'
+                );
             const address = addressAndPatrientRow[0];
             let ort = address.substring(7);
             const patientsLeft =
@@ -603,33 +610,48 @@
                     .replace(/\?.*$/, '')
                     .match(/\d*$/)[0];
                 let requirements = JSON.parse(localStorage.aMissions).value;
-                if(requirements.filter(e => e.id == parseInt(missionID))[0] == undefined) await $.getJSON('/einsaetze.json').done(data => {localStorage.setItem('aMissions', JSON.stringify({lastUpdate: new Date().getTime(), value: data})); requirements = data;})
-                let data = requirements.filter(e => e.id == parseInt(missionID))[0];
-                        messages = messages.map(message => {
-                            message = message.replace(/%CREDITS%/g, data.average_credits?.toLocaleString()||'');
-                            message = message.replace(/%ADDRESS%/g, address);
-                            message = message.replace(/%CITY%/g, ort);
-                            message = message.replace(
-                                /%TIME_OFFSET%/g,
-                                `${customTime}:${
-                                    time.getMinutes() < 10
-                                        ? `0${time.getMinutes()}`
-                                        : time.getMinutes()
-                                } ${I18n.t('lssm.sharealliancepost.clock')}`
-                            );
-                            message = message.replace(
-                                /%PATIENTS_LEFT%/g,
-                                patientsLeft
-                            );
-                            message = message.replace(
-                                /%REQUIRED_VEHICLES%/g,
-                                requiredVehicles
-                            );
+                if (
+                    requirements.filter(e => e.id == parseInt(missionID))[0] ==
+                    undefined
+                )
+                    await $.getJSON('/einsaetze.json').done(data => {
+                        localStorage.setItem(
+                            'aMissions',
+                            JSON.stringify({
+                                lastUpdate: new Date().getTime(),
+                                value: data,
+                            })
+                        );
+                        requirements = data;
+                    });
+                let data = requirements.filter(
+                    e => e.id == parseInt(missionID)
+                )[0];
+                messages = messages.map(message => {
+                    message = message.replace(
+                        /%CREDITS%/g,
+                        data.average_credits?.toLocaleString() || ''
+                    );
+                    message = message.replace(/%ADDRESS%/g, address);
+                    message = message.replace(/%CITY%/g, ort);
+                    message = message.replace(
+                        /%TIME_OFFSET%/g,
+                        `${customTime}:${
+                            time.getMinutes() < 10
+                                ? `0${time.getMinutes()}`
+                                : time.getMinutes()
+                        } ${I18n.t('lssm.sharealliancepost.clock')}`
+                    );
+                    message = message.replace(/%PATIENTS_LEFT%/g, patientsLeft);
+                    message = message.replace(
+                        /%REQUIRED_VEHICLES%/g,
+                        requiredVehicles
+                    );
 
-                            return message;
-                        });
-                        callback();
-                    };
+                    return message;
+                });
+                callback();
+            }
         } catch (e) {
             console.log('Error transforming messages', e);
         }

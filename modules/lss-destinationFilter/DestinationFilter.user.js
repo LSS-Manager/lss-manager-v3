@@ -59,16 +59,18 @@
         title: 'Filtro de destino',
         freeBeds: 'Free beds',
         tax: 'TAX',
-        cellTax: 'owner\'s tax',
+        cellTax: "owner's tax",
         settings: {
             beds: 'Ocultar hospitales completos',
             beds1: 'Hospitales ciegos bajo x camas apagadas',
             department: 'Ocultar hospitales sin necesidad de departamento',
-            distance: 'Ocultar destinos por encima de x km de distancia (0 desactiva)',
+            distance:
+                'Ocultar destinos por encima de x km de distancia (0 desactiva)',
             tax: 'Ocultar destinos con un IMPUESTO superior a x%',
             cells: 'Ocultar celdas completas',
-            cellsYellow: 'Ocultar las comisarías/células con menos celdas libres de las necesarias'
-        }
+            cellsYellow:
+                'Ocultar las comisarías/células con menos celdas libres de las necesarias',
+        },
     };
     I18n.translations.pt_PT.lssm.destfilter = {
         title: 'Filtro destino',
@@ -96,8 +98,7 @@
             beds1: 'Ukryj szpitale pod x łóżkami',
             department: 'Ukrywać szpitale bez potrzebnego oddziału',
             distance: 'Ukrywać cele podróży powyżej x km (0 dezaktywuje się)',
-            tax:
-                'Ukrycie miejsc przeznaczenia z podatkiem podatkowym wyższym niż x%',
+            tax: 'Ukrycie miejsc przeznaczenia z podatkiem podatkowym wyższym niż x%',
             cells: 'Ukrywać pełne komórki',
             cellsYellow:
                 'Ukrywanie posterunków policji/komórek z mniejszą ilością wolnych komórek niż jest to wymagane',
@@ -356,7 +357,9 @@
                     let department = info.indexOf('label-success') > -1;
                     let tax = 0;
                     let taxMatch = info.match(
-                        new RegExp(`${I18n.t('lssm.destfilter.tax')}:\\W+\\d+ %`)
+                        new RegExp(
+                            `${I18n.t('lssm.destfilter.tax')}:\\W+\\d+ %`
+                        )
                     );
                     if (taxMatch)
                         tax = parseInt(taxMatch[0].replace(/\D+/g, ''));

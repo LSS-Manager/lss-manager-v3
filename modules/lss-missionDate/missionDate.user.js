@@ -1,5 +1,5 @@
 /* global I18n, $ */
-(function() {
+(function () {
     I18n.translations.de_DE.lssm.missionDate = {
         ago: 'Vor',
         months: [
@@ -316,10 +316,7 @@
 
         markup = String.format(
             markup,
-            missionDate
-                .trim()
-                .replace(/^.*?:/, '')
-                .trim(),
+            missionDate.trim().replace(/^.*?:/, '').trim(),
             I18n.t('lssm.missionDate.ago'),
             timeGone
         );

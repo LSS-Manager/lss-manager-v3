@@ -3405,7 +3405,6 @@
         );
 
         $('.overviewCategory:not(:first)').hide();
-
         $(`#${prefix}_vehicles`)
             .append(
                 '<ul class="nav nav-tabs" id="vehicleTabs" role="tablist"></ul>'

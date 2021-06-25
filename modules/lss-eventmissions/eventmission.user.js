@@ -32,8 +32,11 @@
 
             const missionMarkerAddOrig = missionMarkerAdd;
             // eslint-disable-next-line no-global-assign
-            missionMarkerAdd = function(t) {
-                prefixesByType.hasOwnProperty(t.mtid) && (t.caption = `${prefixesByType[t.mtid].join('')} ${t.caption}`);
+            missionMarkerAdd = function (t) {
+                prefixesByType.hasOwnProperty(t.mtid) &&
+                    (t.caption = `${prefixesByType[t.mtid].join('')} ${
+                        t.caption
+                    }`);
                 missionMarkerAddOrig(t);
             };
         });
