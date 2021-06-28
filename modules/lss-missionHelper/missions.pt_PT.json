@@ -401,7 +401,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 15
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -8343,6 +8345,45 @@
             "rescue_stations": 2,
             "police_stations": 2,
             "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "280": {
+        "id": 280,
+        "name": "Inc\u00eandio numa discoteca",
+        "place": "Discoteca",
+        "place_array": {
+            "0": "Discoteca"
+        },
+        "average_credits": 5500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 25,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 15,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 7,
+            "police_stations": 4,
+            "fire_stations": 8
         },
         "alternate_version": null
     },
