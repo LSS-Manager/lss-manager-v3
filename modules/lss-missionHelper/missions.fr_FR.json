@@ -10885,6 +10885,46 @@
         },
         "alternate_version": null
     },
+    "348": {
+        "id": 348,
+        "name": "Fuite de Gaz - Explosion",
+        "place": "",
+        "place_array": {},
+        "average_credits": 12000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 8
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 5,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 12,
+            "police_stations": 9,
+            "fire_stations": 25
+        },
+        "alternate_version": null
+    },
     "349": {
         "id": 349,
         "name": "Surveillance de comp\u00e9tition de natation",

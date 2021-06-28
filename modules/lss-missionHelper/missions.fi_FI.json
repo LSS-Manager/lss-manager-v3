@@ -715,8 +715,7 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2,
-                "2": 29
+                "1": 2
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -9070,6 +9069,47 @@
         },
         "alternate_version": null
     },
+    "295": {
+        "id": 295,
+        "name": "453 Tahallinen vaarallisen aineen onnettomuus",
+        "place": "",
+        "place_array": {},
+        "average_credits": 10000,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 2,
+            "police_cars": 10
+        },
+        "chances": {
+            "patient_transport": 20,
+            "helicopter": 10,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 4,
+            "max_possible_prisoners": 1,
+            "swat_personnel": 12,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 20,
+            "police_stations": 15,
+            "fire_stations": 11
+        },
+        "alternate_version": null
+    },
     "296": {
         "id": 296,
         "name": "550 Jalkapallon t\u00e4ytt\u00f6",
@@ -9370,10 +9410,12 @@
     "306": {
         "id": 306,
         "name": "621 Uimakilpailun j\u00e4rjestyksenvalvonta",
-        "place": "J\u00e4rvi\nJoki",
+        "place": "J\u00e4rvi\nJoki\nUimaranta\nUima-allas",
         "place_array": {
             "0": "J\u00e4rvi",
-            "1": "Joki"
+            "1": "Joki",
+            "2": "Uimaranta",
+            "3": "Uima-allas"
         },
         "average_credits": 2000,
         "generated_by": "Ambulanssiasema",

@@ -7687,6 +7687,45 @@
         },
         "alternate_version": null
     },
+    "247": {
+        "id": 247,
+        "name": "\u516c\u5171\u3067\u306eCBRNE\u707d\u5bb3",
+        "place": "",
+        "place_array": {},
+        "average_credits": 10000,
+        "generated_by": "\u8b66\u5bdf\u7f72",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 6,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 2,
+            "police_cars": 10
+        },
+        "chances": {
+            "patient_transport": 20,
+            "helicopter": 10,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 4,
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "\u4e00\u822c\u5185\u79d1"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 20,
+            "police_stations": 15,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
     "248": {
         "id": 248,
         "name": "\u6c34\u6cf3\u7af6\u6280\u4f1a\u306e\u30bb\u30fc\u30d5\u30ac\u30fc\u30c9",

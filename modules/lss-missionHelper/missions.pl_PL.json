@@ -12041,6 +12041,64 @@
         },
         "alternate_version": null
     },
+    "395": {
+        "id": 395,
+        "name": "Awantura w sklepie",
+        "place": "Supermarket (ma\u0142y)\nSupermarket (du\u017cy)",
+        "place_array": {
+            "0": "Supermarket (ma\u0142y)",
+            "1": "Supermarket (du\u017cy)"
+        },
+        "average_credits": 1150,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 10
+        },
+        "alternate_version": null
+    },
+    "396": {
+        "id": 396,
+        "name": "Napad na kontrolera bilet\u00f3w",
+        "place": "Przystanek autobusowy\nPrzystanek tramwajowy",
+        "place_array": {
+            "0": "Przystanek autobusowy",
+            "1": "Przystanek tramwajowy"
+        },
+        "average_credits": 1300,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 10
+        },
+        "alternate_version": null
+    },
     "397": {
         "id": 397,
         "name": "Sflacza\u0142a pi\u0142ka",
@@ -12346,7 +12404,7 @@
             "0": "Jezioro",
             "1": "Rzeka"
         },
-        "average_credits": 1000,
+        "average_credits": 800,
         "generated_by": "Stacja WOPR",
         "icons": {
             "0": "/images/clock_gruen.png",
@@ -12354,8 +12412,7 @@
             "2": "/images/clock_rot.png"
         },
         "requirements": {
-            "water_rescue": 1,
-            "boats": 1
+            "water_rescue": 1
         },
         "chances": {},
         "additional": {
