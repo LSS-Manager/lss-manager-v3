@@ -27647,8 +27647,7 @@
             "police_cars": 1
         },
         "chances": {
-            "patient_transport": 20,
-            "patient_critical_care": 10
+            "patient_transport": 20
         },
         "additional": {
             "possible_patient": 4,
