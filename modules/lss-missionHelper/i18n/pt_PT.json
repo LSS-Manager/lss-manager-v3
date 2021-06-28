@@ -1,112 +1,112 @@
 {
-  "diy_mission": "Esta missão parece ser uma missão de aliança em larga escala.",
-  "guard_mission": "Missão planeada",
-  "vge": "missão de aliança em larga escala",
-  "patients": "pacientes",
-  "prisoners": "detentos",
-  "to": "até",
-  "exp": "Divulgação",
-  "water": "água necessária",
-  "water1": "Lts.",
-  "fwm": "Missões de seguimento",
-  "subs": "Missões subsequentes com êxito",
-  "ambulance_only": "Esta misión es sólo de ambulancias.!",
-  "criticalchance": "Probabilidade de Requerer SAV",
-  "title": "Missionhelper",
-  "transport": "levar",
-  "allow_rw_instead_of_lf": "Esta missão também pode ser realizada com um resgate pesado em vez de um caminhão de bombeiros",
-  "settings": {
-    "name": {
-      "label": "Primeiro nome",
-      "description": "Mostre o nome da missão no ajudante."
+    "diy_mission": "Esta missão parece ser uma missão de aliança em larga escala.",
+    "guard_mission": "Missão planeada",
+    "vge": "missão de aliança em larga escala",
+    "patients": "pacientes",
+    "prisoners": "detentos",
+    "to": "até",
+    "exp": "Divulgação",
+    "water": "água necessária",
+    "water1": "Lts.",
+    "fwm": "Missões de seguimento",
+    "subs": "Missões subsequentes com êxito",
+    "ambulance_only": "Esta misión es sólo de ambulancias.!",
+    "criticalchance": "Probabilidade de Requerer SAV",
+    "title": "Missionhelper",
+    "transport": "levar",
+    "allow_rw_instead_of_lf": "Esta missão também pode ser realizada com um resgate pesado em vez de um caminhão de bombeiros",
+    "settings": {
+        "name": {
+            "label": "Primeiro nome",
+            "description": "Mostre o nome da missão no ajudante."
+        },
+        "id": {
+            "label": "ID",
+            "description": "Exiba o ID da missão no assistente."
+        },
+        "type": {
+            "label": "TYP-ID",
+            "description": "Exiba o ID do tipo de missão no assistente."
+        },
+        "poi": {
+            "label": "POI",
+            "description": "Indique no assistente em que POI está a operação."
+        },
+        "live_patients": {
+            "label": "Número de pacientes",
+            "description": "Mostra ao vivo quantos pacientes estão em uso no momento."
+        },
+        "waterpt": {
+            "label": "Procura de água",
+            "description": "Mostra a quantidade total de água necessária."
+        },
+        "vehicles": {
+            "label": "Veículos",
+            "description": "Mostre os veículos necessários."
+        },
+        "patients": {
+            "label": "informação do paciente",
+            "description": "Mostrar informações sobre pacientes (potenciais)."
+        },
+        "prisoners": {
+            "label": "informações sobre detentos",
+            "description": "Exibe informações sobre (potenciais) detentos."
+        },
+        "special": {
+            "label": "Outra informação",
+            "description": "Exibe informações especiais, como o número médio mínimo de pessoal necessário."
+        },
+        "expansions": {
+            "label": "distribuições",
+            "description": "Mostre o que a aposta pode alcançar. (Mostrar apenas dispersão simples)"
+        },
+        "followup": {
+            "label": "Missões de seguimento",
+            "description": "Mostra o que a missão pode gerar para as missões de acompanhamento"
+        },
+        "subsequent": {
+            "label": "Missões subsequentes com êxito",
+            "description": "Mostra o que a missão pode gerar para as missões subsequentes no final da missão"
+        },
+        "show_100": {
+            "label": "Mostrar 100% de chance",
+            "description": "Mostra a probabilidade de um veículo, mesmo que seja 100%."
+        },
+        "lfrw": {
+            "label": "Mostrar se o Heavy Rescue pode processar a missão",
+            "description": "Exibe uma mensagem na missão se também pode ser processada com um resgate pesado em vez de um caminhão de bombeiros."
+        },
+        "credits": {
+            "label": "Ganho médio",
+            "description": "Mostra os ganhos médios que você ganha com esta tarefa."
+        },
+        "show_siwa": {
+            "label": "Requisitos dos guardas de segurança",
+            "description": "Ele também mostra os requisitos para guardas de segurança no assistente."
+        },
+        "mission_time": {
+            "label": "Tempo de criação",
+            "description": "Mostra a data e hora em que a missão foi criada."
+        }
     },
-    "id": {
-      "label": "ID",
-      "description": "Exiba o ID da missão no assistente."
-    },
-    "type": {
-      "label": "TYP-ID",
-      "description": "Exiba o ID do tipo de missão no assistente."
-    },
-    "poi": {
-      "label": "POI",
-      "description": "Indique no assistente em que POI está a operação."
-    },
-    "live_patients": {
-      "label": "Número de pacientes",
-      "description": "Mostra ao vivo quantos pacientes estão em uso no momento."
-    },
-    "waterpt": {
-      "label": "Procura de água",
-      "description": "Mostra a quantidade total de água necessária."
-    },
-    "vehicles": {
-      "label": "Veículos",
-      "description": "Mostre os veículos necessários."
-    },
-    "patients": {
-      "label": "informação do paciente",
-      "description": "Mostrar informações sobre pacientes (potenciais)."
-    },
-    "prisoners": {
-      "label": "informações sobre detentos",
-      "description": "Exibe informações sobre (potenciais) detentos."
-    },
-    "special": {
-      "label": "Outra informação",
-      "description": "Exibe informações especiais, como o número médio mínimo de pessoal necessário."
-    },
-    "expansions": {
-      "label": "distribuições",
-      "description": "Mostre o que a aposta pode alcançar. (Mostrar apenas dispersão simples)"
-    },
-    "followup": {
-      "label": "Missões de seguimento",
-      "description": "Mostra o que a missão pode gerar para as missões de acompanhamento"
-    },
-    "subsequent": {
-      "label": "Missões subsequentes com êxito",
-      "description": "Mostra o que a missão pode gerar para as missões subsequentes no final da missão"
-    },
-    "show_100": {
-      "label": "Mostrar 100% de chance",
-      "description": "Mostra a probabilidade de um veículo, mesmo que seja 100%."
-    },
-    "lfrw": {
-      "label": "Mostrar se o Heavy Rescue pode processar a missão",
-      "description": "Exibe uma mensagem na missão se também pode ser processada com um resgate pesado em vez de um caminhão de bombeiros."
-    },
-    "credits": {
-      "label": "Ganho médio",
-      "description": "Mostra os ganhos médios que você ganha com esta tarefa."
-    },
-    "show_siwa": {
-      "label": "Requisitos dos guardas de segurança",
-      "description": "Ele também mostra os requisitos para guardas de segurança no assistente."
-    },
-    "mission_time": {
-      "label": "Tempo de criação",
-      "description": "Mostra a data e hora em que a missão foi criada."
+    "requirements": {
+        "firetrucks": "Veículos de Combate a Incêndios",
+        "platform_trucks": "Veículos Escada",
+        "heavy_rescue_vehicles": "Veículos de Desencarceramento",
+        "mobile_air_vehicles": "Unidade Autónoma de Ar Respirável",
+        "battalion_chief_vehicles": "Veículos de Comando",
+        "mobile_command_vehicles": "Veículo de Comando e Comunicações",
+        "water_tankers": "Veículos Tanque",
+        "hazmat_vehicles": "Veículos para Matérias Perigosas",
+        "police_cars": "Carros de Patrulha",
+        "fbi_bomb": "Carrinhas de Inativação de Explosivos e Segurança em Subsolo",
+        "helicopter": "Heli INEM",
+        "arff": "Defesa Civil",
+        "fwk": "Veículo de Socorro e Assistência Especial",
+        "police_helicopters": "Police Helicopter",
+        "brush_truck": "Veículos Florestais",
+        "fire_aviation": "Meios Aéreos",
+        "ambulances": "Ambulancia",
+        "allow_rw_instead_of_lf": "Veículos de Combate a Incêndios ou Veículos de Desencarceramento ou Veículo Urbano de Combate a Incêndios"
     }
-  },
-  "requirements": {
-    "firetrucks": "Veículos de Combate a Incêndios",
-    "platform_trucks": "Veículos Escada",
-    "heavy_rescue_vehicles": "Veículos de Desencarceramento",
-    "mobile_air_vehicles": "Unidade Autónoma de Ar Respirável",
-    "battalion_chief_vehicles": "Veículos de Comando",
-    "mobile_command_vehicles": "Veículo de Comando e Comunicações",
-    "water_tankers": "Veículos Tanque",
-    "hazmat_vehicles": "Veículos para Matérias Perigosas",
-    "police_cars": "Carros de Patrulha",
-    "fbi_bomb": "Carrinhas de Inativação de Explosivos e Segurança em Subsolo",
-    "helicopter": "Heli INEM",
-    "arff": "Defesa Civil",
-    "fwk": "Veículo de Socorro e Assistência Especial",
-    "police_helicopters": "Police Helicopter",
-    "brush_truck": "Veículos Florestais",
-    "fire_aviation": "Meios Aéreos",
-    "ambulances": "Ambulancia",
-    "allow_rw_instead_of_lf": "Veículos de Combate a Incêndios ou Veículos de Desencarceramento ou Veículo Urbano de Combate a Incêndios"
-  }
 }

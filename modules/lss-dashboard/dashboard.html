@@ -1,14 +1,19 @@
-<div id="dashboard_buttons" style="width: 100%;padding: 15px;">
-</div>
+<div id="dashboard_buttons" style="width: 100%; padding: 15px"></div>
 <!-- <i class="fa fa-circle" style="color:#e74c3c;"></i> -->
 <div id="wp_sub" class="btn-group" stlye="margin-left:15px;"></div>
 
 <div id="wp_sub2" class="btn-group pull-right">
-	<div class="form-group" style="display:inline-block;margin-left:5px;">
-		<a href="#" id="wp_switch"><i class="fa fa-building"></i></a>
-		<input type="text" class="form-control" id="wp_search" placeholder="Suche" style="width:90%;display:inline-block;">
-	</div>
-  	<!--<div class="btn-group" role="group">
+    <div class="form-group" style="display: inline-block; margin-left: 5px">
+        <a href="#" id="wp_switch"><i class="fa fa-building"></i></a>
+        <input
+            type="text"
+            class="form-control"
+            id="wp_search"
+            placeholder="Suche"
+            style="width: 90%; display: inline-block"
+        />
+    </div>
+    <!--<div class="btn-group" role="group">
 	    <button type="button" class="btn btn-sm btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 	      Gruppierung
 	      <span class="caret"></span>
@@ -18,8 +23,8 @@
 	      <li><a href="#">Gruppe 2</a></li>
 	    </ul>
   	</div>-->
-  	<!--<a class="btn btn-sm btn-success" role="group" href="#" id="" data-toggle="modal" data-target="#new_filter"><i class="fa fa-plus"></i> Gruppe hinzufügen</a>-->
-<br><br>
+    <!--<a class="btn btn-sm btn-success" role="group" href="#" id="" data-toggle="modal" data-target="#new_filter"><i class="fa fa-plus"></i> Gruppe hinzufügen</a>-->
+    <br /><br />
 </div>
 
 <!--<div class="modal fade" id="new_filter" tabindex="-1" role="dialog" aria-labelledby="new_filter_label" style="z-index: 9999;">
@@ -49,86 +54,96 @@
   </div>
 </div>-->
 
-	<!-- Wachenplanung -->
-	<div id="db_pages">
-		<div id="db_wachen_outer" style="display:none;" class="container-fluid">
-			<div id="wp_fw"></div>
-			<div id="wp_rd" style="display:none;"></div>
-			<div id="wp_pol" style="display:none;"></div>
-			<div id="wp_thw" style="display:none;"></div>
-			<div id="wp_wret" style="display:none;"></div>
-			<div id="wp_sch" style="display:none;"></div>
-			<div id="wp_son" style="display:none;"></div>
-		</div>
-		<!-- Fahrzeugplanung -->
-		<div id="db_fzg_outer" style="display:none;" class="container-fluid">
-		<table class="table table-striped">
-			<thead>
-			</thead>
-			<tbody>
-			</tbody>
-			<tfoot>
-			</tfoot>
-		</table>
-		</div>
-		<div id="db_main_outer">
-			<div class="">
-				<!-- Gebäudeübersicht -->
-				<div class="col-md-12">
-					<div class="panel panel-default panel-chart pie" id="building-s_outer">
-						<div class="panel-heading">
-							<h3 class="panel-title"></h3>
-						</div>
-						<div class="panel-body" id="buildings_chart">
-						</div>
-					</div>
-				</div>
+<!-- Wachenplanung -->
+<div id="db_pages">
+    <div id="db_wachen_outer" style="display: none" class="container-fluid">
+        <div id="wp_fw"></div>
+        <div id="wp_rd" style="display: none"></div>
+        <div id="wp_pol" style="display: none"></div>
+        <div id="wp_thw" style="display: none"></div>
+        <div id="wp_wret" style="display: none"></div>
+        <div id="wp_sch" style="display: none"></div>
+        <div id="wp_son" style="display: none"></div>
+    </div>
+    <!-- Fahrzeugplanung -->
+    <div id="db_fzg_outer" style="display: none" class="container-fluid">
+        <table class="table table-striped">
+            <thead></thead>
+            <tbody></tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+    <div id="db_main_outer">
+        <div class="">
+            <!-- Gebäudeübersicht -->
+            <div class="col-md-12">
+                <div
+                    class="panel panel-default panel-chart pie"
+                    id="building-s_outer"
+                >
+                    <div class="panel-heading">
+                        <h3 class="panel-title"></h3>
+                    </div>
+                    <div class="panel-body" id="buildings_chart"></div>
+                </div>
+            </div>
 
-			<div class="col-md-12">
-				<!-- Fahrzeugaufteilung -->
-					<div class="panel panel-default panel-chart pie" id="fz-s_outer">
-						<div class="panel-heading">
-							<h3 class="panel-title"></h3>
-						</div>
+            <div class="col-md-12">
+                <!-- Fahrzeugaufteilung -->
+                <div
+                    class="panel panel-default panel-chart pie"
+                    id="fz-s_outer"
+                >
+                    <div class="panel-heading">
+                        <h3 class="panel-title"></h3>
+                    </div>
 
-						<div class="panel-body">
-							<div class="col-md-2"><h4 style="text-align:center;">Feuerwehr</h4>
-								<div id="ff-fz" style="height:200px"></div>
-							</div>
-							<div class="col-md-2"><h4 style="text-align:center;">Rettungsdienst</h4>
-								<div id="rd-fz" style="height:200px"></div>
-							</div>
-							<div class="col-md-2"><h4 style="text-align:center;">Polizei</h4>
-								<div id="pol-fz" style="height:200px"></div>
-							</div>
-							<div class="col-md-2"><h4 style="text-align:center;">THW</h4>
-								<div id="thw-fz" style="height:200px"></div>
-							</div>
-							<div class="col-md-2"><h4 style="text-align:center;">Wasserrettung</h4>
-								<div id="wret-fz" style="height:200px"></div>
-							</div>
-						</div>
+                    <div class="panel-body">
+                        <div class="col-md-2">
+                            <h4 style="text-align: center">Feuerwehr</h4>
+                            <div id="ff-fz" style="height: 200px"></div>
+                        </div>
+                        <div class="col-md-2">
+                            <h4 style="text-align: center">Rettungsdienst</h4>
+                            <div id="rd-fz" style="height: 200px"></div>
+                        </div>
+                        <div class="col-md-2">
+                            <h4 style="text-align: center">Polizei</h4>
+                            <div id="pol-fz" style="height: 200px"></div>
+                        </div>
+                        <div class="col-md-2">
+                            <h4 style="text-align: center">THW</h4>
+                            <div id="thw-fz" style="height: 200px"></div>
+                        </div>
+                        <div class="col-md-2">
+                            <h4 style="text-align: center">Wasserrettung</h4>
+                            <div id="wret-fz" style="height: 200px"></div>
+                        </div>
+                    </div>
 
-						<div class="panel-footer clearfix" style="background-color: #fff;">
-							<div class="col-md-2">
-								<span id="ff-ges"></span>
-							</div>
-							<div class="col-md-2">
-								<span id="rd-ges"></span>
-							</div>
-							<div class="col-md-2">
-								<span id="pol-ges"></span>
-							</div>
-							<div class="col-md-2">
-								<span id="thw-ges"></span>
-							</div>
-							<div class="col-md-2">
-								<span id="wret-ges"></span>
-							</div>
-						</div>
-					</div>
-
-
-			</div><!-- Dashboard Ende -->
-		</div>
-	</div>
+                    <div
+                        class="panel-footer clearfix"
+                        style="background-color: #fff"
+                    >
+                        <div class="col-md-2">
+                            <span id="ff-ges"></span>
+                        </div>
+                        <div class="col-md-2">
+                            <span id="rd-ges"></span>
+                        </div>
+                        <div class="col-md-2">
+                            <span id="pol-ges"></span>
+                        </div>
+                        <div class="col-md-2">
+                            <span id="thw-ges"></span>
+                        </div>
+                        <div class="col-md-2">
+                            <span id="wret-ges"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dashboard Ende -->
+        </div>
+    </div>
+</div>

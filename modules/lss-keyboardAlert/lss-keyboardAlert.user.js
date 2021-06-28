@@ -1,8 +1,10 @@
 (function () {
     $(document).keydown(function (e) {
-        if (!($("input").is(":focus"))) {
-            let destinations = $('.col-md-9 a.btn-success[href*="/gefangener/"]:visible, .col-md-9 table a.btn-success[href*="/patient/"]:visible');
-            let vehicle_checkboxes = $(".vehicle_checkbox");
+        if (!$('input').is(':focus')) {
+            let destinations = $(
+                '.col-md-9 a.btn-success[href*="/gefangener/"]:visible, .col-md-9 table a.btn-success[href*="/patient/"]:visible'
+            );
+            let vehicle_checkboxes = $('.vehicle_checkbox');
             switch (e.keyCode) {
                 case 49: //drive to hospital/cells 1: 1
                     destinations[0].click();
@@ -20,13 +22,15 @@
                     destinations[4].click();
                     break;
                 case 80: //special privileges: P
-                    $("#sonderrechte_switch").click();
+                    $('#sonderrechte_switch').click();
                     break;
                 case 82: //Back to Mission : R
-                    $("#btn_back_to_mission").click();
+                    $('#btn_back_to_mission').click();
                     break;
                 case 89: //Back to Missionlist: Y
-                    $("#mission_list").find("a[href^='/missions/']:eq(0)").click();
+                    $('#mission_list')
+                        .find("a[href^='/missions/']:eq(0)")
+                        .click();
                     break;
                 case 70: //Search field disable: F
                     tellParent($('#lssm_searchEntryToggle').click());

@@ -8996,6 +8996,45 @@
         },
         "alternate_version": null
     },
+    "289": {
+        "id": 289,
+        "name": "Incidente NRBQ en v\u00eda p\u00fablica",
+        "place": "",
+        "place_array": {},
+        "average_credits": 10000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 6,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 2,
+            "police_cars": 10
+        },
+        "chances": {
+            "patient_transport": 20,
+            "helicopter": 10,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 4,
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 20,
+            "police_stations": 15,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
     "290": {
         "id": 290,
         "name": "Inflar el bal\u00f3n de f\u00fatbol",

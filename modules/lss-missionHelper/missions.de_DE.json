@@ -9909,16 +9909,15 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 27,
-                "2": 120,
-                "3": 121,
-                "4": 122,
-                "5": 123,
-                "6": 124,
-                "7": 125,
-                "8": 126,
-                "9": 127,
-                "10": 128
+                "1": 120,
+                "2": 121,
+                "3": 122,
+                "4": 123,
+                "5": 124,
+                "6": 125,
+                "7": 126,
+                "8": 127,
+                "9": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -22768,6 +22767,7 @@
             "duration": 7200,
             "guard_mission": true,
             "filter_id": "water_watch_missions",
+            "allow_ktw_instead_of_rtw": true,
             "date_start": "2021-06-25T09:00:00Z",
             "date_end": "2021-08-27T23:59:00Z"
         },

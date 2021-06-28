@@ -22006,6 +22006,46 @@
         },
         "alternate_version": null
     },
+    "600": {
+        "id": 600,
+        "name": "Porta Potty Tip Over",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 50,
+            "hazmat_vehicles": 50,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8D-1B",
+                "1": "8D-2B"
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 11
+        },
+        "alternate_version": null
+    },
     "601": {
         "id": 601,
         "name": "Safeguarding a swimming competition",

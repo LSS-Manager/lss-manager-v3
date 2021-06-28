@@ -1,565 +1,565 @@
 {
-  "releases": [
-    {
-      "version": "3.3.5",
-      "changes": [
+    "releases": [
         {
-          "id": "",
-          "type": "ADD",
-          "de": "Erweiterte Gebäudeansicht",
-          "en": "Extended building view",
-          "nl": "Uitgebreide bouwweergave"
+            "version": "3.3.5",
+            "changes": [
+                {
+                    "id": "",
+                    "type": "ADD",
+                    "de": "Erweiterte Gebäudeansicht",
+                    "en": "Extended building view",
+                    "nl": "Uitgebreide bouwweergave"
+                },
+                {
+                    "id": "",
+                    "type": "ADD",
+                    "de": "Telemetrie OPT-In",
+                    "en": "Telemetry OPT-In",
+                    "nl": "Telemetrie OPT-In"
+                }
+            ]
         },
         {
-          "id": "",
-          "type": "ADD",
-          "de": "Telemetrie OPT-In",
-          "en": "Telemetry OPT-In",
-          "nl": "Telemetrie OPT-In"
+            "version": "3.3.4",
+            "changes": [
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "de": "Dashboard und Wachenhoverstati nutzen nun die API",
+                    "en": "Dashboard and Wachenhoverstati now use the API",
+                    "nl": "Dashboard en Wachenhoverstati gebruiken nu de API"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "de": "Module, die nicht mit Mapkit kompatibel sind, werden jetzt automatisch deaktiviert",
+                    "en": "Modules not compatible with Mapkit will now be deactivated automatically",
+                    "nl": "Modules die niet compatibel zijn met Mapkit worden nu automatisch gedeactiveerd"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "de": "Der Appstore speichert jetzt nur aktive Module",
+                    "en": "The Appstore now only stores active modules",
+                    "nl": "De Appstore slaat nu alleen actieve modules op"
+                },
+                {
+                    "id": "",
+                    "type": "ADD",
+                    "de": "ManagedSettings, Appstore und Dashboard sind nun in einem eigenen Fenster",
+                    "en": "ManagedSettings, Appstore and Dashboard are now in separate windows",
+                    "nl": "ManagedSettings, Appstore en Dashboard bevinden zich nu in een eigen venster"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "de": "Dashboard Performance verbessert",
+                    "en": "Dashboard performance improved",
+                    "nl": "Dashboard-prestaties verbeterd"
+                },
+                {
+                    "id": "",
+                    "type": "ADD",
+                    "de": "Managedsettings hat jetzt Tabs",
+                    "en": "Managedsettings now has tabs",
+                    "nl": "Managedsettings heeft nu tabbladen"
+                },
+                {
+                    "id": "",
+                    "type": "Fix",
+                    "de": "Managedsettings Design verbessert",
+                    "en": "Managedsettings design improved",
+                    "nl": "Managedsettings ontwerp verbeterd"
+                },
+                {
+                    "id": "",
+                    "type": "Fix",
+                    "de": "Aussehen im Darkmode",
+                    "en": "Darkmode presentation",
+                    "nl": "Presentatie in donkere modus"
+                }
+            ]
+        },
+        {
+            "version": "3.3.3",
+            "changes": [
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "de": "Verbandsverwaltung",
+                    "en": "Allicance-Extension",
+                    "nl": "Team-uitbreiding"
+                },
+                {
+                    "id": "",
+                    "type": "INFO",
+                    "de": "MapKit wird nicht von uns supportet. Sry",
+                    "en": "MapKit is non supported by us. Sry",
+                    "nl": "MapKit wordt niet door ons ondersteund. Proberen"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "de": "Einige Fixxes von Sebastians Features",
+                    "en": "Some fixxes from Sebastians Features",
+                    "nl": "Enkele fixxes van Sebastians Kenmerken"
+                },
+                {
+                    "id": "",
+                    "type": "REMOVE",
+                    "de": "AAO Anrückzeit",
+                    "en": "ARR duration",
+                    "nl": "AUR duur"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "de": "ZielortFilter",
+                    "en": "Destionation Filter",
+                    "nl": "Bestimmningsfilter"
+                }
+            ]
+        },
+        {
+            "version": "3.3.0",
+            "changes": [
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "en": "New Module: Tailored Tabs (German only)",
+                    "de": "Maßgeschneiderte Tabs bei der Alarmierung",
+                    "nl": "New Module: Tailored Tabs (German only)"
+                },
+                {
+                    "id": "182",
+                    "type": "FIX",
+                    "en": "Refactoring Missionhelper",
+                    "de": "Refactoring Einsatzhelfer",
+                    "nl": "Refactoring Meldinghelper"
+                },
+                {
+                    "id": "262",
+                    "type": "NEW",
+                    "en": "New module: ARR duration",
+                    "de": "Neues Modul: AAO Dauer",
+                    "nl": "Nieuwe module: AUR duur"
+                },
+                {
+                    "id": "175",
+                    "type": "NEW",
+                    "de": "AAO-Klick-Zähler",
+                    "en": "Alarm-Regulations-Counter",
+                    "nl": "AUR-Klik-Teller"
+                },
+                {
+                    "id": "174",
+                    "type": "FIX",
+                    "en": "Refactoring Missionkeywords",
+                    "de": "Refactoring Missionkeywords",
+                    "nl": "Refactoring Missionkeywords"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "en": "Some Translations added for Dutch",
+                    "de": "Einige Übersetzungen hinzugefügt für Niederländish",
+                    "nl": "Sommige vertalingen zijn toegevoegd aan het Nederlands"
+                },
+                {
+                    "id": "149",
+                    "type": "NEW",
+                    "en": "Filter for Hospitals",
+                    "de": "Filter für Krankenhäuser",
+                    "nl": "Filters voor Ziekenhuizen"
+                },
+                {
+                    "id": "159",
+                    "type": "NEW",
+                    "en": "Settings in one place",
+                    "de": "Einstellungen an einem Ort",
+                    "nl": "Instellingen op één plek"
+                },
+                {
+                    "id": "158",
+                    "type": "CHANGED",
+                    "en": "Credits added to Missionhelper",
+                    "de": "Credits added to Missionhelper",
+                    "nl": "Credits added to Meldinghelper"
+                },
+                {
+                    "id": "156",
+                    "type": "NEW",
+                    "en": "Releasenotes Plugin",
+                    "de": "Releasenotes Plugin"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "en": "Vonginator Plugin",
+                    "de": "Vonginator Plugin"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "en": "Fixed Bug in FMS5inMap",
+                    "de": "Bugfix im Modul FMS5inMap"
+                }
+            ]
+        },
+        {
+            "version": "3.2.4",
+            "changes": [
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "Statusdispatching",
+                    "en": "Statusdispatching",
+                    "nl": "Statusdispatching"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "en": "Einsatzhelfer (Englische und Niederländische Einsätze added)",
+                    "de": "Einsatzhelfer (Englische und Niederländische Einsätze added)",
+                    "nl": "Einsatzhelfer (Englische und Niederländische Einsätze added)"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "Centermap",
+                    "en": "Centermap",
+                    "nl": "Centermap"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "de": "Refactoring LSSM",
+                    "en": "Refactoring LSSM",
+                    "nl": "Refactoring LSSM"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "de": "AAO-Suche",
+                    "en": "AAO-Suche",
+                    "nl": "AAO-Suche"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "MissionStichwörter",
+                    "en": "MissionStichwörter",
+                    "nl": "MissionStichwörter"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "Einsatzdatum",
+                    "en": "Einsatzdatum",
+                    "nl": "Einsatzdatum"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "de": "WachenplanungOnMap",
+                    "en": "WachenplanungOnMap",
+                    "nl": "WachenplanungOnMap"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "IconFilter",
+                    "en": "IconFilter",
+                    "nl": "IconFilter"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "de": "Refactoring Einsatzhelfer",
+                    "en": "Refactoring Missionhelper",
+                    "nl": "Refactoring Meldinghelper"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "SumDailyMissions",
+                    "en": "SumDailyMissions",
+                    "nl": "SumDailyMissions"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "CoinConfirm",
+                    "en": "CoinConfirm",
+                    "nl": "CoinConfirm"
+                }
+            ]
+        },
+        {
+            "version": "3.2.2",
+            "changes": [
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "en": "Clock",
+                    "de": "Clock",
+                    "nl": "Clock"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "de": "Niederländishe Sprache hinzugefügt",
+                    "en": "Niederländishe Sprache hinzugefügt",
+                    "nl": "Niederländishe Sprache hinzugefügt"
+                }
+            ]
+        },
+        {
+            "version": "3.2.1",
+            "changes": [
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "en": "Missionhelper",
+                    "de": "Einsatzhelfer",
+                    "nl": "Meldinghelper"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "missionToNewTab",
+                    "en": "missionToNewTab",
+                    "nl": "missionToNewTab"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "WachenHoverStati",
+                    "en": "WachenHoverStati",
+                    "nl": "WachenHoverStati"
+                },
+                {
+                    "id": "",
+                    "type": "REMOVE",
+                    "de": "MissionTabs",
+                    "en": "MissionTabs",
+                    "nl": "MissionTabs"
+                }
+            ]
+        },
+        {
+            "version": "3.2.0",
+            "changes": [
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "MissionTabs",
+                    "en": "MissionTabs",
+                    "nl": "MissionTabs"
+                }
+            ]
+        },
+        {
+            "version": "3.1.9",
+            "changes": [
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "LS-Heatmap",
+                    "en": "LS-Heatmap",
+                    "nl": "LS-Heatmap"
+                }
+            ]
+        },
+        {
+            "version": "3.1.8",
+            "changes": [
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "AAO-Suche",
+                    "en": "AAO-Suche",
+                    "nl": "AAO-Suche"
+                }
+            ]
+        },
+        {
+            "version": "3.1",
+            "changes": [
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "en": "showBackAlarmAbove",
+                    "de": "showBackAlarmAbove",
+                    "nl": "showBackAlarmAbove"
+                }
+            ]
+        },
+        {
+            "version": "3.0",
+            "changes": [
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "en": "Refactoring LSSM",
+                    "de": "Refactoring LSSM",
+                    "nl": "Refactoring LSSM"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "Mapreload (für LSSMintern)",
+                    "en": "Mapreload (für LSSMintern)",
+                    "nl": "Mapreload (für LSSMintern)"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "Notification Alarm",
+                    "en": "Notification Alarm",
+                    "nl": "Notification Alarm"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "de": "WachenplanungOnMap",
+                    "en": "WachenplanungOnMap",
+                    "nl": "WachenplanungOnMap"
+                },
+                {
+                    "id": "",
+                    "type": "REMOVE",
+                    "de": "ChatPopup",
+                    "en": "ChatPopup",
+                    "nl": "ChatPopup"
+                },
+                {
+                    "id": "",
+                    "type": "REMOVE",
+                    "de": "Tableau",
+                    "en": "Tableau",
+                    "nl": "Tableau"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "en": "Layout's",
+                    "de": "Layout's",
+                    "nl": "Layout's"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "Mission in die Allicance freigeben",
+                    "en": "Mission in die Allicance freigeben",
+                    "nl": "Mission in die Allicance freigeben"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "Missionen suchen",
+                    "en": "Missionen suchen",
+                    "nl": "Missionen suchen"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "RenameFZ",
+                    "en": "RenameFZ",
+                    "nl": "RenameFZ"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "SaveVGE",
+                    "en": "SaveVGE",
+                    "nl": "SaveVGE"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "en": "Einsätze Markieren",
+                    "de": "Einsätze Markieren",
+                    "nl": "Einsätze Markieren"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "de": "FMS5InMap",
+                    "en": "FMS5InMap",
+                    "nl": "FMS5InMap"
+                },
+                {
+                    "id": "",
+                    "type": "FIX",
+                    "de": "Missionout",
+                    "en": "Missionout",
+                    "nl": "Missionout"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "Dashboard",
+                    "en": "Dashboard",
+                    "nl": "Dashboard"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "Tastaturalarmierung",
+                    "en": "Tastaturalarmierung",
+                    "nl": "Tastaturalarmierung"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "en": "Clock",
+                    "de": "Clock",
+                    "nl": "Clock"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "FMS5InMap",
+                    "en": "FMS5InMap",
+                    "nl": "FMS5InMap"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "WachenplanungOnMap",
+                    "en": "WachenplanungOnMap",
+                    "nl": "WachenplanungOnMap"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "en": "Redesign01",
+                    "de": "Redesign01",
+                    "nl": "Redesign01"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "Tableau",
+                    "en": "Tableau",
+                    "nl": "Tableau"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "Chat",
+                    "en": "Chat",
+                    "nl": "Chat"
+                },
+                {
+                    "id": "",
+                    "type": "NEW",
+                    "de": "Missionout",
+                    "en": "Missionout",
+                    "nl": "Missionout"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "version": "3.3.4",
-      "changes": [
-        {
-          "id": "",
-          "type": "FIX",
-          "de": "Dashboard und Wachenhoverstati nutzen nun die API",
-          "en": "Dashboard and Wachenhoverstati now use the API",
-          "nl": "Dashboard en Wachenhoverstati gebruiken nu de API"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "de": "Module, die nicht mit Mapkit kompatibel sind, werden jetzt automatisch deaktiviert",
-          "en": "Modules not compatible with Mapkit will now be deactivated automatically",
-          "nl": "Modules die niet compatibel zijn met Mapkit worden nu automatisch gedeactiveerd"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "de": "Der Appstore speichert jetzt nur aktive Module",
-          "en": "The Appstore now only stores active modules",
-          "nl": "De Appstore slaat nu alleen actieve modules op"
-        },
-        {
-          "id": "",
-          "type": "ADD",
-          "de": "ManagedSettings, Appstore und Dashboard sind nun in einem eigenen Fenster",
-          "en": "ManagedSettings, Appstore and Dashboard are now in separate windows",
-          "nl": "ManagedSettings, Appstore en Dashboard bevinden zich nu in een eigen venster"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "de": "Dashboard Performance verbessert",
-          "en": "Dashboard performance improved",
-          "nl": "Dashboard-prestaties verbeterd"
-        },
-        {
-          "id": "",
-          "type": "ADD",
-          "de": "Managedsettings hat jetzt Tabs",
-          "en": "Managedsettings now has tabs",
-          "nl": "Managedsettings heeft nu tabbladen"
-        },
-        {
-          "id": "",
-          "type": "Fix",
-          "de": "Managedsettings Design verbessert",
-          "en": "Managedsettings design improved",
-          "nl": "Managedsettings ontwerp verbeterd"
-        },
-        {
-          "id": "",
-          "type": "Fix",
-          "de": "Aussehen im Darkmode",
-          "en": "Darkmode presentation",
-          "nl": "Presentatie in donkere modus"
-        }
-      ]
-    },
-    {
-      "version": "3.3.3",
-      "changes": [
-        {
-          "id": "",
-          "type": "FIX",
-          "de": "Verbandsverwaltung",
-          "en": "Allicance-Extension",
-          "nl": "Team-uitbreiding"
-        },
-        {
-          "id": "",
-          "type": "INFO",
-          "de": "MapKit wird nicht von uns supportet. Sry",
-          "en": "MapKit is non supported by us. Sry",
-          "nl": "MapKit wordt niet door ons ondersteund. Proberen"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "de": "Einige Fixxes von Sebastians Features",
-          "en": "Some fixxes from Sebastians Features",
-          "nl": "Enkele fixxes van Sebastians Kenmerken"
-        },
-        {
-          "id": "",
-          "type": "REMOVE",
-          "de": "AAO Anrückzeit",
-          "en": "ARR duration",
-          "nl": "AUR duur"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "de": "ZielortFilter",
-          "en": "Destionation Filter",
-          "nl": "Bestimmningsfilter"
-        }
-      ]
-    },
-    {
-      "version": "3.3.0",
-      "changes": [
-        {
-          "id": "",
-          "type": "NEW",
-          "en": "New Module: Tailored Tabs (German only)",
-          "de": "Maßgeschneiderte Tabs bei der Alarmierung",
-          "nl": "New Module: Tailored Tabs (German only)"
-        },
-        {
-          "id": "182",
-          "type": "FIX",
-          "en": "Refactoring Missionhelper",
-          "de": "Refactoring Einsatzhelfer",
-          "nl": "Refactoring Meldinghelper"
-        },
-        {
-          "id": "262",
-          "type": "NEW",
-          "en": "New module: ARR duration",
-          "de": "Neues Modul: AAO Dauer",
-          "nl": "Nieuwe module: AUR duur"
-        },
-        {
-          "id": "175",
-          "type": "NEW",
-          "de": "AAO-Klick-Zähler",
-          "en": "Alarm-Regulations-Counter",
-          "nl": "AUR-Klik-Teller"
-        },
-        {
-          "id": "174",
-          "type": "FIX",
-          "en": "Refactoring Missionkeywords",
-          "de": "Refactoring Missionkeywords",
-          "nl": "Refactoring Missionkeywords"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "en": "Some Translations added for Dutch",
-          "de": "Einige Übersetzungen hinzugefügt für Niederländish",
-          "nl": "Sommige vertalingen zijn toegevoegd aan het Nederlands"
-        },
-        {
-          "id": "149",
-          "type": "NEW",
-          "en": "Filter for Hospitals",
-          "de": "Filter für Krankenhäuser",
-          "nl": "Filters voor Ziekenhuizen"
-        },
-        {
-          "id": "159",
-          "type": "NEW",
-          "en": "Settings in one place",
-          "de": "Einstellungen an einem Ort",
-          "nl": "Instellingen op één plek"
-        },
-        {
-          "id": "158",
-          "type": "CHANGED",
-          "en": "Credits added to Missionhelper",
-          "de": "Credits added to Missionhelper",
-          "nl": "Credits added to Meldinghelper"
-        },
-        {
-          "id": "156",
-          "type": "NEW",
-          "en": "Releasenotes Plugin",
-          "de": "Releasenotes Plugin"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "en": "Vonginator Plugin",
-          "de": "Vonginator Plugin"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "en": "Fixed Bug in FMS5inMap",
-          "de": "Bugfix im Modul FMS5inMap"
-        }
-      ]
-    },
-    {
-      "version": "3.2.4",
-      "changes": [
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "Statusdispatching",
-          "en": "Statusdispatching",
-          "nl": "Statusdispatching"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "en": "Einsatzhelfer (Englische und Niederländische Einsätze added)",
-          "de": "Einsatzhelfer (Englische und Niederländische Einsätze added)",
-          "nl": "Einsatzhelfer (Englische und Niederländische Einsätze added)"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "Centermap",
-          "en": "Centermap",
-          "nl": "Centermap"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "de": "Refactoring LSSM",
-          "en": "Refactoring LSSM",
-          "nl": "Refactoring LSSM"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "de": "AAO-Suche",
-          "en": "AAO-Suche",
-          "nl": "AAO-Suche"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "MissionStichwörter",
-          "en": "MissionStichwörter",
-          "nl": "MissionStichwörter"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "Einsatzdatum",
-          "en": "Einsatzdatum",
-          "nl": "Einsatzdatum"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "de": "WachenplanungOnMap",
-          "en": "WachenplanungOnMap",
-          "nl": "WachenplanungOnMap"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "IconFilter",
-          "en": "IconFilter",
-          "nl": "IconFilter"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "de": "Refactoring Einsatzhelfer",
-          "en": "Refactoring Missionhelper",
-          "nl": "Refactoring Meldinghelper"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "SumDailyMissions",
-          "en": "SumDailyMissions",
-          "nl": "SumDailyMissions"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "CoinConfirm",
-          "en": "CoinConfirm",
-          "nl": "CoinConfirm"
-        }
-      ]
-    },
-    {
-      "version": "3.2.2",
-      "changes": [
-        {
-          "id": "",
-          "type": "FIX",
-          "en": "Clock",
-          "de": "Clock",
-          "nl": "Clock"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "de": "Niederländishe Sprache hinzugefügt",
-          "en": "Niederländishe Sprache hinzugefügt",
-          "nl": "Niederländishe Sprache hinzugefügt"
-        }
-      ]
-    },
-    {
-      "version": "3.2.1",
-      "changes": [
-        {
-          "id": "",
-          "type": "NEW",
-          "en": "Missionhelper",
-          "de": "Einsatzhelfer",
-          "nl": "Meldinghelper"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "missionToNewTab",
-          "en": "missionToNewTab",
-          "nl": "missionToNewTab"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "WachenHoverStati",
-          "en": "WachenHoverStati",
-          "nl": "WachenHoverStati"
-        },
-        {
-          "id": "",
-          "type": "REMOVE",
-          "de": "MissionTabs",
-          "en": "MissionTabs",
-          "nl": "MissionTabs"
-        }
-      ]
-    },
-    {
-      "version": "3.2.0",
-      "changes": [
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "MissionTabs",
-          "en": "MissionTabs",
-          "nl": "MissionTabs"
-        }
-      ]
-    },
-    {
-      "version": "3.1.9",
-      "changes": [
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "LS-Heatmap",
-          "en": "LS-Heatmap",
-          "nl": "LS-Heatmap"
-        }
-      ]
-    },
-    {
-      "version": "3.1.8",
-      "changes": [
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "AAO-Suche",
-          "en": "AAO-Suche",
-          "nl": "AAO-Suche"
-        }
-      ]
-    },
-    {
-      "version": "3.1",
-      "changes": [
-        {
-          "id": "",
-          "type": "NEW",
-          "en": "showBackAlarmAbove",
-          "de": "showBackAlarmAbove",
-          "nl": "showBackAlarmAbove"
-        }
-      ]
-    },
-    {
-      "version": "3.0",
-      "changes": [
-        {
-          "id": "",
-          "type": "FIX",
-          "en": "Refactoring LSSM",
-          "de": "Refactoring LSSM",
-          "nl": "Refactoring LSSM"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "Mapreload (für LSSMintern)",
-          "en": "Mapreload (für LSSMintern)",
-          "nl": "Mapreload (für LSSMintern)"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "Notification Alarm",
-          "en": "Notification Alarm",
-          "nl": "Notification Alarm"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "de": "WachenplanungOnMap",
-          "en": "WachenplanungOnMap",
-          "nl": "WachenplanungOnMap"
-        },
-        {
-          "id": "",
-          "type": "REMOVE",
-          "de": "ChatPopup",
-          "en": "ChatPopup",
-          "nl": "ChatPopup"
-        },
-        {
-          "id": "",
-          "type": "REMOVE",
-          "de": "Tableau",
-          "en": "Tableau",
-          "nl": "Tableau"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "en": "Layout's",
-          "de": "Layout's",
-          "nl": "Layout's"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "Mission in die Allicance freigeben",
-          "en": "Mission in die Allicance freigeben",
-          "nl": "Mission in die Allicance freigeben"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "Missionen suchen",
-          "en": "Missionen suchen",
-          "nl": "Missionen suchen"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "RenameFZ",
-          "en": "RenameFZ",
-          "nl": "RenameFZ"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "SaveVGE",
-          "en": "SaveVGE",
-          "nl": "SaveVGE"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "en": "Einsätze Markieren",
-          "de": "Einsätze Markieren",
-          "nl": "Einsätze Markieren"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "de": "FMS5InMap",
-          "en": "FMS5InMap",
-          "nl": "FMS5InMap"
-        },
-        {
-          "id": "",
-          "type": "FIX",
-          "de": "Missionout",
-          "en": "Missionout",
-          "nl": "Missionout"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "Dashboard",
-          "en": "Dashboard",
-          "nl": "Dashboard"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "Tastaturalarmierung",
-          "en": "Tastaturalarmierung",
-          "nl": "Tastaturalarmierung"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "en": "Clock",
-          "de": "Clock",
-          "nl": "Clock"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "FMS5InMap",
-          "en": "FMS5InMap",
-          "nl": "FMS5InMap"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "WachenplanungOnMap",
-          "en": "WachenplanungOnMap",
-          "nl": "WachenplanungOnMap"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "en": "Redesign01",
-          "de": "Redesign01",
-          "nl": "Redesign01"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "Tableau",
-          "en": "Tableau",
-          "nl": "Tableau"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "Chat",
-          "en": "Chat",
-          "nl": "Chat"
-        },
-        {
-          "id": "",
-          "type": "NEW",
-          "de": "Missionout",
-          "en": "Missionout",
-          "nl": "Missionout"
-        }
-      ]
-    }
-  ]
+    ]
 }

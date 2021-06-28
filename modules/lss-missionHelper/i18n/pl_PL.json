@@ -1,115 +1,115 @@
 {
-  "diy_mission": "Ta misja wydaje się być misją sojuszników na dużą skalę.",
-  "guard_mission": "Planowana misja",
-  "vge": "Misja sojuszu na dużą skalę",
-  "patients": "Pacjenci",
-  "prisoners": "Więźniowie",
-  "water": "Potrzebna woda",
-  "water1": "litrów",
-  "to": "aż do",
-  "exp": "Rozprzestrzeniania",
-  "SWATPersonnel": "Wymagani policjanci SPKP",
-  "averageMinimumEmployeesFire": "Min. średnio Personel straży pożarnej",
-  "averageMinimumEmployeesPolice": "Min. średnio Personel policji",
-  "ambulance_only": "Ta misja to tylko ambulans!",
-  "criticalchance": "opieka specjalistyczna Szansa",
-  "title": "Pomocnik misjonarza",
-  "transport": "Transport",
-  "allow_rw_instead_of_lf": "Tę misję można również przeprowadzić ciężkim ratunkiem zamiast wozu strażackiego",
-  "settings": {
-    "name": {
-      "label": "Nazwa",
-      "description": "Pokazuje nazwę misji w pomocniku."
+    "diy_mission": "Ta misja wydaje się być misją sojuszników na dużą skalę.",
+    "guard_mission": "Planowana misja",
+    "vge": "Misja sojuszu na dużą skalę",
+    "patients": "Pacjenci",
+    "prisoners": "Więźniowie",
+    "water": "Potrzebna woda",
+    "water1": "litrów",
+    "to": "aż do",
+    "exp": "Rozprzestrzeniania",
+    "SWATPersonnel": "Wymagani policjanci SPKP",
+    "averageMinimumEmployeesFire": "Min. średnio Personel straży pożarnej",
+    "averageMinimumEmployeesPolice": "Min. średnio Personel policji",
+    "ambulance_only": "Ta misja to tylko ambulans!",
+    "criticalchance": "opieka specjalistyczna Szansa",
+    "title": "Pomocnik misjonarza",
+    "transport": "Transport",
+    "allow_rw_instead_of_lf": "Tę misję można również przeprowadzić ciężkim ratunkiem zamiast wozu strażackiego",
+    "settings": {
+        "name": {
+            "label": "Nazwa",
+            "description": "Pokazuje nazwę misji w pomocniku."
+        },
+        "id": {
+            "label": "ID",
+            "description": "Wyświetla ID misji w helperze."
+        },
+        "type": {
+            "label": "TYP-ID",
+            "description": "Wyświetla ID typu misji w helperze."
+        },
+        "poi": {
+            "label": "POI",
+            "description": "Wskazuje w pomocniku, na którym punkcie POI znajduje się dana operacja."
+        },
+        "live_patients": {
+            "label": "Liczba pacjentów",
+            "description": "Pokazuje na żywo, ilu pacjentów jest obecnie w użyciu."
+        },
+        "vehicles": {
+            "label": "Pojazdy",
+            "description": "Wyświetla wymagane pojazdy."
+        },
+        "waterpl": {
+            "label": "Zapotrzebowanie na wodę",
+            "description": "Pokazuje całkowitą wymaganą ilość wody."
+        },
+        "patients": {
+            "label": "patient information",
+            "description": "Pokazuje informacje o (potencjalnych) pacjentach."
+        },
+        "prisoners": {
+            "label": "informacje o więźniach",
+            "description": "Pokazuje informacje o (potencjalnych) więźniach."
+        },
+        "special": {
+            "label": "Inne informacje",
+            "description": "Displays special information, such as the average minimum number of personnel required."
+        },
+        "expansions": {
+            "label": "dystrybucje",
+            "description": "Pokazuje, do czego może rozprzestrzeniać się zakład. (Pokazuje tylko prosty spread)"
+        },
+        "show_100": {
+            "label": "Pokaż 100% prawdopodobieństwo",
+            "description": "Pokazuje prawdopodobieństwo dla pojazdu, nawet jeśli jest to 100%."
+        },
+        "lfrw": {
+            "label": "Pokaż, czy Heavy Rescue może przetworzyć misję",
+            "description": "Wyświetla komunikat w misji, czy można go również przetworzyć ciężkim ratunkiem zamiast wozu strażackiego."
+        },
+        "credits": {
+            "label": "Średni wynik finansowy",
+            "description": "Pokazuje średnie zarobki, które otrzymujesz za to zadanie."
+        },
+        "show_siwa": {
+            "label": "Wymogi strażników bezpieczeństwa",
+            "description": "Pokazuje również wymagania strażników bezpieczeństwa w pomocniku."
+        },
+        "show_k9": {
+            "label": "Ikona psa za nazwą misji",
+            "description": "Pokazuje psa emoji za nazwą misji, jeśli wymagany jest k9."
+        },
+        "mission_time": {
+            "label": "Czas tworzenia",
+            "description": "Pokazuje datę i godzinę utworzenia misji."
+        }
     },
-    "id": {
-      "label": "ID",
-      "description": "Wyświetla ID misji w helperze."
-    },
-    "type": {
-      "label": "TYP-ID",
-      "description": "Wyświetla ID typu misji w helperze."
-    },
-    "poi": {
-      "label": "POI",
-      "description": "Wskazuje w pomocniku, na którym punkcie POI znajduje się dana operacja."
-    },
-    "live_patients": {
-      "label": "Liczba pacjentów",
-      "description": "Pokazuje na żywo, ilu pacjentów jest obecnie w użyciu."
-    },
-    "vehicles": {
-      "label": "Pojazdy",
-      "description": "Wyświetla wymagane pojazdy."
-    },
-    "waterpl": {
-      "label": "Zapotrzebowanie na wodę",
-      "description": "Pokazuje całkowitą wymaganą ilość wody."
-    },
-    "patients": {
-      "label": "patient information",
-      "description": "Pokazuje informacje o (potencjalnych) pacjentach."
-    },
-    "prisoners": {
-      "label": "informacje o więźniach",
-      "description": "Pokazuje informacje o (potencjalnych) więźniach."
-    },
-    "special": {
-      "label": "Inne informacje",
-      "description": "Displays special information, such as the average minimum number of personnel required."
-    },
-    "expansions": {
-      "label": "dystrybucje",
-      "description": "Pokazuje, do czego może rozprzestrzeniać się zakład. (Pokazuje tylko prosty spread)"
-    },
-    "show_100": {
-      "label": "Pokaż 100% prawdopodobieństwo",
-      "description": "Pokazuje prawdopodobieństwo dla pojazdu, nawet jeśli jest to 100%."
-    },
-    "lfrw": {
-      "label": "Pokaż, czy Heavy Rescue może przetworzyć misję",
-      "description": "Wyświetla komunikat w misji, czy można go również przetworzyć ciężkim ratunkiem zamiast wozu strażackiego."
-    },
-    "credits": {
-      "label": "Średni wynik finansowy",
-      "description": "Pokazuje średnie zarobki, które otrzymujesz za to zadanie."
-    },
-    "show_siwa": {
-      "label": "Wymogi strażników bezpieczeństwa",
-      "description": "Pokazuje również wymagania strażników bezpieczeństwa w pomocniku."
-    },
-    "show_k9": {
-      "label": "Ikona psa za nazwą misji",
-      "description": "Pokazuje psa emoji za nazwą misji, jeśli wymagany jest k9."
-    },
-    "mission_time": {
-      "label": "Czas tworzenia",
-      "description": "Pokazuje datę i godzinę utworzenia misji."
+    "requirements": {
+        "firetrucks": "samochody pożarnicze",
+        "platform_trucks": "SP wysokościowe",
+        "heavy_rescue_vehicles": "samochody ratownictwa technicznego",
+        "mobile_air_vehicles": "SPGaz",
+        "battalion_chief_vehicles": "Samochody Oficera Operacyjnego lub SLRr",
+        "water_tankers": "cysterny z wodą",
+        "hazmat_vehicles": "SP Rchem",
+        "mobile_command_vehicles": "samochody dowodzenia i łączności",
+        "police_cars": "radiowozy",
+        "helicopter": "śmigłowiec LPR",
+        "ambulances": "Ambulanse",
+        "arff": "SP LSP",
+        "k9": "Jednostki K-9",
+        "pmotorcycle": "Motocykl Policyjny",
+        "swat_armored_vehicle": "Opancerzony Pojazd SPKP",
+        "swat_suv": "SUV SPKP",
+        "police_helicopters": "Helikopteru Policyjnego",
+        "traffic_car": "Radiowóz WRD",
+        "water_rescue": "Samochód WOPR",
+        "diver_units": "Samochód SLRw",
+        "boats": "łodzie",
+        "fwk": "Dźwig SP",
+        "height_rescue_units": "Ratownictwo Wyskościowe",
+        "allow_rw_instead_of_lf": "Wozy strażackie lub ciężki ratunek"
     }
-  },
-  "requirements": {
-    "firetrucks": "samochody pożarnicze",
-    "platform_trucks": "SP wysokościowe",
-    "heavy_rescue_vehicles": "samochody ratownictwa technicznego",
-    "mobile_air_vehicles": "SPGaz",
-    "battalion_chief_vehicles": "Samochody Oficera Operacyjnego lub SLRr",
-    "water_tankers": "cysterny z wodą",
-    "hazmat_vehicles": "SP Rchem",
-    "mobile_command_vehicles": "samochody dowodzenia i łączności",
-    "police_cars": "radiowozy",
-    "helicopter": "śmigłowiec LPR",
-    "ambulances": "Ambulanse",
-    "arff": "SP LSP",
-    "k9": "Jednostki K-9",
-    "pmotorcycle": "Motocykl Policyjny",
-    "swat_armored_vehicle": "Opancerzony Pojazd SPKP",
-    "swat_suv": "SUV SPKP",
-    "police_helicopters": "Helikopteru Policyjnego",
-    "traffic_car": "Radiowóz WRD",
-    "water_rescue": "Samochód WOPR",
-    "diver_units": "Samochód SLRw",
-    "boats": "łodzie",
-    "fwk": "Dźwig SP",
-    "height_rescue_units": "Ratownictwo Wyskościowe",
-    "allow_rw_instead_of_lf": "Wozy strażackie lub ciężki ratunek"
-  }
 }

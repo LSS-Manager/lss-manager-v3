@@ -9994,6 +9994,47 @@
         },
         "alternate_version": null
     },
+    "321": {
+        "id": 321,
+        "name": "CBRNE incident in a public place",
+        "place": "",
+        "place_array": {},
+        "average_credits": 10000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 6,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 2,
+            "police_cars": 10
+        },
+        "chances": {
+            "patient_transport": 20,
+            "helicopter": 10,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 4,
+            "max_possible_prisoners": 1,
+            "swat_personnel": 12,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 20,
+            "police_stations": 15,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
     "322": {
         "id": 322,
         "name": "Small Bushfire",

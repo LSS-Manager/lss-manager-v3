@@ -1,93 +1,93 @@
 {
-  "diy_mission": "Această misiune pare a fi o misiune de alianță la scară largă.",
-  "guard_mission": "Misiune planificată",
-  "vge": "Misiune a alianței la scară largă",
-  "patients": "Pacienţii",
-  "prisoners": "Prizonieri",
-  "criticalchance": "Probabilitate ca Terapia intensivă să fie necesară",
-  "to": "până la",
-  "exp": "Se răspândeşte",
-  "averageMinimumEmployeesFire": "Min. în medie Unități de pompieri",
-  "ambulance_only": "Misiunea asta e doar pentru ambulanță!",
-  "title": "Ajutor de misiune",
-  "transport": "Transport",
-  "allow_rw_instead_of_lf": "Această misiune poate fi, de asemenea, efectuată cu o salvare grea în loc de un autoturism ",
-  "settings": {
-    "name": {
-      "label": "Numele",
-      "description": "Afișează numele misiunii în ajutor."
+    "diy_mission": "Această misiune pare a fi o misiune de alianță la scară largă.",
+    "guard_mission": "Misiune planificată",
+    "vge": "Misiune a alianței la scară largă",
+    "patients": "Pacienţii",
+    "prisoners": "Prizonieri",
+    "criticalchance": "Probabilitate ca Terapia intensivă să fie necesară",
+    "to": "până la",
+    "exp": "Se răspândeşte",
+    "averageMinimumEmployeesFire": "Min. în medie Unități de pompieri",
+    "ambulance_only": "Misiunea asta e doar pentru ambulanță!",
+    "title": "Ajutor de misiune",
+    "transport": "Transport",
+    "allow_rw_instead_of_lf": "Această misiune poate fi, de asemenea, efectuată cu o salvare grea în loc de un autoturism ",
+    "settings": {
+        "name": {
+            "label": "Numele",
+            "description": "Afișează numele misiunii în ajutor."
+        },
+        "id": {
+            "label": "Id",
+            "description": "Afișează ID-ul misiunii în ajutor."
+        },
+        "type": {
+            "label": "ID DE TIP",
+            "description": "Afișează ID-ul tipului de misiune în ajutor."
+        },
+        "poi": {
+            "label": "Apoi",
+            "description": "Indică în ajutor la ce punct de interes se află operațiunea."
+        },
+        "live_patients": {
+            "label": "Numărul de pacienți",
+            "description": "Arată live cât de mulți pacienți sunt în prezent în uz."
+        },
+        "vehicles": {
+            "label": "Vehicule",
+            "description": "Afișează vehiculele necesare."
+        },
+        "patients": {
+            "label": "informații despre pacient",
+            "description": "Afișează informații despre (potențialii) pacienți."
+        },
+        "prisoners": {
+            "label": "informații prizonier",
+            "description": "Afișează informații despre (potențialii) deținuți."
+        },
+        "special": {
+            "label": "Alte informații",
+            "description": "Afișează informații speciale, ar fi numărul minim mediu de personal necesar."
+        },
+        "expansions": {
+            "label": "Distribuţii",
+            "description": "Arată la ce se poate răspândi pariul. (Afișează numai o simplă răspândire)"
+        },
+        "show_100": {
+            "label": "Arată probabilitatea 100%",
+            "description": "Afișează probabilitatea pentru un vehicul, chiar dacă este 100%."
+        },
+        "lfrw": {
+            "label": "Arătați dacă salvarea grea poate procesa misiunea",
+            "description": "Afișează un mesaj în misiune dacă poate fi, de asemenea, procesat cu o salvare grea în locul unui camion de pompieri."
+        },
+        "credits": {
+            "label": "Câștigul salarial mediu",
+            "description": "Afișează câștigurile medii pe care le obțineți pentru această atribuire."
+        },
+        "show_siwa": {
+            "label": "Cerințe ale agenților de securitate",
+            "description": "Arată cerințele pentru agenții de pază în ajutor, de asemenea."
+        },
+        "mission_time": {
+            "label": "Timp de creare",
+            "description": "Afișează data și ora la care a fost creată misiunea."
+        }
     },
-    "id": {
-      "label": "Id",
-      "description": "Afișează ID-ul misiunii în ajutor."
-    },
-    "type": {
-      "label": "ID DE TIP",
-      "description": "Afișează ID-ul tipului de misiune în ajutor."
-    },
-    "poi": {
-      "label": "Apoi",
-      "description": "Indică în ajutor la ce punct de interes se află operațiunea."
-    },
-    "live_patients": {
-      "label": "Numărul de pacienți",
-      "description": "Arată live cât de mulți pacienți sunt în prezent în uz."
-    },
-    "vehicles": {
-      "label": "Vehicule",
-      "description": "Afișează vehiculele necesare."
-    },
-    "patients": {
-      "label": "informații despre pacient",
-      "description": "Afișează informații despre (potențialii) pacienți."
-    },
-    "prisoners": {
-      "label": "informații prizonier",
-      "description": "Afișează informații despre (potențialii) deținuți."
-    },
-    "special": {
-      "label": "Alte informații",
-      "description": "Afișează informații speciale, ar fi numărul minim mediu de personal necesar."
-    },
-    "expansions": {
-      "label": "Distribuţii",
-      "description": "Arată la ce se poate răspândi pariul. (Afișează numai o simplă răspândire)"
-    },
-    "show_100": {
-      "label": "Arată probabilitatea 100%",
-      "description": "Afișează probabilitatea pentru un vehicul, chiar dacă este 100%."
-    },
-    "lfrw": {
-      "label": "Arătați dacă salvarea grea poate procesa misiunea",
-      "description": "Afișează un mesaj în misiune dacă poate fi, de asemenea, procesat cu o salvare grea în locul unui camion de pompieri."
-    },
-    "credits": {
-      "label": "Câștigul salarial mediu",
-      "description": "Afișează câștigurile medii pe care le obțineți pentru această atribuire."
-    },
-    "show_siwa": {
-      "label": "Cerințe ale agenților de securitate",
-      "description": "Arată cerințele pentru agenții de pază în ajutor, de asemenea."
-    },
-    "mission_time": {
-      "label": "Timp de creare",
-      "description": "Afișează data și ora la care a fost creată misiunea."
+    "requirements": {
+        "firetrucks": "Mașini de pompieri",
+        "platform_trucks": "Camioane cu platformă",
+        "heavy_rescue_vehicles": "Vehicule grele de salvare",
+        "mobile_air_vehicles": "Mașină de suport logistic",
+        "battalion_chief_vehicles": "Vehicule pentru Șeful de batalion",
+        "water_tankers": "Cisterne de apă",
+        "hazmat_vehicles": "Vehicule pentru transportul mărfurilor periculoase",
+        "mobile_command_vehicles": "Mașină de comanda și control",
+        "police_cars": "Mașini de poliție",
+        "arff": "Serviciu aeronautic de salvare și luptă împotriva incendiilor",
+        "helicopter": "Elicopter SMURD",
+        "kdow_orgl": "Unitate transport Supervizor",
+        "orgl": "Unitate transport Supervizor",
+        "allow_rw_instead_of_lf": "Camioane de pompieri sau salvare grea"
     }
-  },
-  "requirements": {
-    "firetrucks": "Mașini de pompieri",
-    "platform_trucks": "Camioane cu platformă",
-    "heavy_rescue_vehicles": "Vehicule grele de salvare",
-    "mobile_air_vehicles": "Mașină de suport logistic",
-    "battalion_chief_vehicles": "Vehicule pentru Șeful de batalion",
-    "water_tankers": "Cisterne de apă",
-    "hazmat_vehicles": "Vehicule pentru transportul mărfurilor periculoase",
-    "mobile_command_vehicles": "Mașină de comanda și control",
-    "police_cars": "Mașini de poliție",
-    "arff": "Serviciu aeronautic de salvare și luptă împotriva incendiilor",
-    "helicopter": "Elicopter SMURD",
-    "kdow_orgl": "Unitate transport Supervizor",
-    "orgl": "Unitate transport Supervizor",
-    "allow_rw_instead_of_lf": "Camioane de pompieri sau salvare grea"
-  }
 }
