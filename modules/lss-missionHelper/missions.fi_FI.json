@@ -1552,6 +1552,9 @@
             "possible_patient": 3,
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 312
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -1909,6 +1912,9 @@
             "possible_patient": 3,
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 312
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -4016,7 +4022,10 @@
         "chances": {},
         "additional": {
             "max_possible_prisoners": 1,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 312
+            }
         },
         "prerequisites": {
             "main_building": 6,
@@ -4044,7 +4053,10 @@
         "chances": {},
         "additional": {
             "max_possible_prisoners": 1,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 312
+            }
         },
         "prerequisites": {
             "main_building": 6,
@@ -4222,6 +4234,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 312
+            },
             "patient_specializations": "Yleiskirurgi"
         },
         "prerequisites": {
@@ -4315,6 +4330,9 @@
             "possible_patient": 5,
             "max_possible_prisoners": 4,
             "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 312
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -4469,7 +4487,10 @@
         "additional": {
             "max_possible_prisoners": 2,
             "swat_personnel": 4,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 312
+            }
         },
         "prerequisites": {
             "main_building": 6,
@@ -4535,7 +4556,10 @@
         "additional": {
             "max_possible_prisoners": 3,
             "swat_personnel": 6,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 312
+            }
         },
         "prerequisites": {
             "main_building": 6,
@@ -8623,7 +8647,10 @@
         "additional": {
             "max_possible_prisoners": 7,
             "swat_personnel": 12,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 312
+            }
         },
         "prerequisites": {
             "main_building": 6,

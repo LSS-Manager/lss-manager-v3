@@ -1001,6 +1001,13 @@
         },
         "additional": {
             "possible_patient": 25,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349,
+                "3": 349,
+                "4": 349
+            },
             "patient_uk_code_possible": {
                 "0": "C-2"
             },
@@ -1048,6 +1055,13 @@
                 },
                 "additional": {
                     "possible_patient": 25,
+                    "followup_missions_ids": {
+                        "0": 349,
+                        "1": 349,
+                        "2": 349,
+                        "3": 349,
+                        "4": 349
+                    },
                     "patient_uk_code_possible": {
                         "0": "C-2"
                     },
@@ -1283,6 +1297,12 @@
         },
         "additional": {
             "possible_patient": 4,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349,
+                "3": 349
+            },
             "patient_uk_code_possible": {
                 "0": "C-2"
             },
@@ -1331,6 +1351,12 @@
                 "additional": {
                     "possible_patient": 4,
                     "possible_patient_min": 1,
+                    "followup_missions_ids": {
+                        "0": 349,
+                        "1": 349,
+                        "2": 349,
+                        "3": 349
+                    },
                     "patient_uk_code_possible": {
                         "0": "C-2"
                     },
@@ -1880,7 +1906,10 @@
             "possible_patient": 4,
             "followup_missions_ids": {
                 "0": 94,
-                "1": 14
+                "1": 14,
+                "2": 349,
+                "3": 349,
+                "4": 349
             },
             "patient_uk_code_possible": {
                 "0": "C-2"
@@ -2080,6 +2109,11 @@
         },
         "additional": {
             "possible_patient": 6,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349
+            },
             "patient_uk_code_possible": {
                 "0": "C-2"
             },
@@ -2155,6 +2189,11 @@
         },
         "additional": {
             "possible_patient": 6,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349
+            },
             "patient_uk_code_possible": {
                 "0": "C-2"
             },
@@ -3057,6 +3096,11 @@
         },
         "additional": {
             "possible_patient": 6,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349
+            },
             "patient_uk_code_possible": {
                 "0": "C-2"
             },
@@ -4740,6 +4784,13 @@
         },
         "additional": {
             "possible_patient": 4,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349,
+                "3": 349,
+                "4": 349
+            },
             "patient_uk_code_possible": {
                 "0": "C-2"
             },
@@ -4787,6 +4838,13 @@
                 },
                 "additional": {
                     "possible_patient": 4,
+                    "followup_missions_ids": {
+                        "0": 349,
+                        "1": 349,
+                        "2": 349,
+                        "3": 349,
+                        "4": 349
+                    },
                     "patient_uk_code_possible": {
                         "0": "C-2"
                     },
@@ -6160,6 +6218,11 @@
         },
         "additional": {
             "possible_patient": 4,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349
+            },
             "patient_uk_code_possible": {
                 "0": "C-2",
                 "1": "C-3"
@@ -6202,6 +6265,11 @@
                 },
                 "additional": {
                     "possible_patient": 4,
+                    "followup_missions_ids": {
+                        "0": 349,
+                        "1": 349,
+                        "2": 349
+                    },
                     "patient_uk_code_possible": {
                         "0": "C-2",
                         "1": "C-3"
@@ -6482,6 +6550,11 @@
             "expansion_missions_ids": {
                 "0": 192
             },
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349
+            },
             "patient_uk_code_possible": {
                 "0": "C-2"
             },
@@ -6561,6 +6634,12 @@
             "expansion_missions_ids": {
                 "0": 193
             },
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349,
+                "3": 349
+            },
             "patient_uk_code_possible": {
                 "0": "C-2"
             },
@@ -6607,6 +6686,13 @@
         },
         "additional": {
             "possible_patient": 50,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349,
+                "3": 349,
+                "4": 349
+            },
             "patient_uk_code_possible": {
                 "0": "C-2"
             },
@@ -6658,6 +6744,13 @@
                 },
                 "additional": {
                     "possible_patient": 50,
+                    "followup_missions_ids": {
+                        "0": 349,
+                        "1": 349,
+                        "2": 349,
+                        "3": 349,
+                        "4": 349
+                    },
                     "patient_uk_code_possible": {
                         "0": "C-2"
                     },
@@ -7303,6 +7396,11 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 1,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349
+            },
             "average_min_fire_personnel": 16,
             "patient_uk_code_possible": {
                 "0": "C-2"
@@ -8180,6 +8278,11 @@
             "water_tankers": 20
         },
         "additional": {
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349
+            },
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true
         },
@@ -8276,6 +8379,11 @@
         },
         "additional": {
             "possible_patient": 10,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349
+            },
             "patient_uk_code_possible": {
                 "0": "C-2"
             },
@@ -8351,6 +8459,11 @@
         },
         "additional": {
             "possible_patient": 10,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349
+            },
             "patient_uk_code_possible": {
                 "0": "C-2"
             },
@@ -8398,6 +8511,11 @@
                 },
                 "additional": {
                     "possible_patient": 10,
+                    "followup_missions_ids": {
+                        "0": 349,
+                        "1": 349,
+                        "2": 349
+                    },
                     "patient_uk_code_possible": {
                         "0": "C-2"
                     },
@@ -9617,6 +9735,11 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349
+            },
             "average_min_fire_personnel": 18,
             "patient_uk_code_possible": {
                 "0": "C-2"
@@ -10387,6 +10510,13 @@
         "additional": {
             "possible_patient": 40,
             "possible_patient_min": 20,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349,
+                "3": 349,
+                "4": 349
+            },
             "patient_uk_code_possible": {
                 "0": "C-2"
             },
@@ -12012,6 +12142,11 @@
         },
         "additional": {
             "possible_patient": 10,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349
+            },
             "patient_uk_code_possible": {
                 "0": "C-1",
                 "1": "C-2"
@@ -12058,6 +12193,11 @@
                 "additional": {
                     "possible_patient": 10,
                     "possible_patient_min": 3,
+                    "followup_missions_ids": {
+                        "0": 349,
+                        "1": 349,
+                        "2": 349
+                    },
                     "patient_uk_code_possible": {
                         "0": "C-1",
                         "1": "C-2"
@@ -12184,6 +12324,10 @@
         },
         "additional": {
             "possible_patient": 2,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349
+            },
             "patient_uk_code_possible": {
                 "0": "C-2"
             },
