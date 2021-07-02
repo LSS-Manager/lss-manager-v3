@@ -4682,8 +4682,9 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -7254,7 +7255,8 @@
             "average_min_fire_personnel": 4,
             "guard_mission": true,
             "filter_id": "firehouse_missions",
-            "allow_ktw_instead_of_rtw": true
+            "allow_ktw_instead_of_rtw": true,
+            "allow_ktw_b_instead_of_rtw": true
         },
         "prerequisites": {
             "main_building": 0,
@@ -7289,7 +7291,8 @@
             "average_min_fire_personnel": 18,
             "guard_mission": true,
             "filter_id": "rapid_deployment_group_missions",
-            "allow_ktw_instead_of_rtw": true
+            "allow_ktw_instead_of_rtw": true,
+            "allow_ktw_b_instead_of_rtw": true
         },
         "prerequisites": {
             "main_building": 12,
@@ -7323,7 +7326,8 @@
             "duration": 14400,
             "guard_mission": true,
             "filter_id": "rapid_deployment_group_missions",
-            "allow_ktw_instead_of_rtw": true
+            "allow_ktw_instead_of_rtw": true,
+            "allow_ktw_b_instead_of_rtw": true
         },
         "prerequisites": {
             "main_building": 12,
@@ -7366,7 +7370,8 @@
             "guard_mission": true,
             "filter_id": "riot_police_missions",
             "allow_ktw_instead_of_rtw": true,
-            "max_civil_patrol_replacing_police_cars": 1
+            "max_civil_patrol_replacing_police_cars": 1,
+            "allow_ktw_b_instead_of_rtw": true
         },
         "prerequisites": {
             "main_building": 11,
@@ -7430,7 +7435,8 @@
             "duration": 7200,
             "guard_mission": true,
             "filter_id": "rapid_deployment_group_missions",
-            "allow_ktw_instead_of_rtw": true
+            "allow_ktw_instead_of_rtw": true,
+            "allow_ktw_b_instead_of_rtw": true
         },
         "prerequisites": {
             "main_building": 12,
@@ -8997,7 +9003,8 @@
             "guard_mission": true,
             "filter_id": "riot_police_missions",
             "allow_ktw_instead_of_rtw": true,
-            "max_civil_patrol_replacing_police_cars": 2
+            "max_civil_patrol_replacing_police_cars": 2,
+            "allow_ktw_b_instead_of_rtw": true
         },
         "prerequisites": {
             "main_building": 11,
@@ -9543,6 +9550,7 @@
             "guard_mission": true,
             "filter_id": "riot_police_missions",
             "allow_ktw_instead_of_rtw": true,
+            "allow_ktw_b_instead_of_rtw": true,
             "date_start": "2021-03-26T10:00:00Z",
             "date_end": "2021-04-05T23:59:00+02:00"
         },
@@ -10039,7 +10047,8 @@
             "filter_id": "riot_police_missions",
             "allow_ktw_instead_of_rtw": true,
             "need_k9_only_if_guard_dogs_present": true,
-            "max_civil_patrol_replacing_police_cars": 2
+            "max_civil_patrol_replacing_police_cars": 2,
+            "allow_ktw_b_instead_of_rtw": true
         },
         "prerequisites": {
             "main_building": 11,
@@ -10134,7 +10143,8 @@
             "guard_mission": true,
             "filter_id": "riot_police_missions",
             "allow_ktw_instead_of_rtw": true,
-            "max_civil_patrol_replacing_police_cars": 3
+            "max_civil_patrol_replacing_police_cars": 3,
+            "allow_ktw_b_instead_of_rtw": true
         },
         "prerequisites": {
             "main_building": 11,
@@ -19034,6 +19044,7 @@
             "guard_mission": true,
             "filter_id": "rapid_deployment_group_missions",
             "allow_ktw_instead_of_rtw": true,
+            "allow_ktw_b_instead_of_rtw": true,
             "date_start": "2021-06-25T09:00:00Z",
             "date_end": "2021-08-27T23:59:00Z"
         },
@@ -19548,7 +19559,8 @@
             "average_min_fire_personnel": 10,
             "guard_mission": true,
             "filter_id": "rapid_deployment_group_missions",
-            "allow_ktw_instead_of_rtw": true
+            "allow_ktw_instead_of_rtw": true,
+            "allow_ktw_b_instead_of_rtw": true
         },
         "prerequisites": {
             "main_building": 12,
@@ -19654,7 +19666,8 @@
             "guard_mission": true,
             "filter_id": "police_station_missions",
             "allow_ktw_instead_of_rtw": true,
-            "max_civil_patrol_replacing_police_cars": 2
+            "max_civil_patrol_replacing_police_cars": 2,
+            "allow_ktw_b_instead_of_rtw": true
         },
         "prerequisites": {
             "main_building": 6,
@@ -20038,7 +20051,8 @@
             "average_min_fire_personnel": 12,
             "guard_mission": true,
             "filter_id": "firehouse_missions",
-            "allow_ktw_instead_of_rtw": true
+            "allow_ktw_instead_of_rtw": true,
+            "allow_ktw_b_instead_of_rtw": true
         },
         "prerequisites": {
             "main_building": 0,
@@ -22768,6 +22782,7 @@
             "guard_mission": true,
             "filter_id": "water_watch_missions",
             "allow_ktw_instead_of_rtw": true,
+            "allow_ktw_b_instead_of_rtw": true,
             "date_start": "2021-06-25T09:00:00Z",
             "date_end": "2021-08-27T23:59:00Z"
         },
