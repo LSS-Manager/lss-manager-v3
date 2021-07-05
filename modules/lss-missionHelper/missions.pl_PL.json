@@ -12562,5 +12562,222 @@
             "fire_stations": 21
         },
         "alternate_version": null
+    },
+    "412": {
+        "id": 412,
+        "name": "Zalana ma\u0142a ulica",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1400,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "flood_equipment": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "413": {
+        "id": 413,
+        "name": "Zalana du\u017ca ulica",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "heavy_rescue_vehicles": 1,
+            "flood_equipment": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "414": {
+        "id": 414,
+        "name": "Zalana klatka schodowa w bloku",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1800,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "flood_equipment": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "415": {
+        "id": 415,
+        "name": "Zalana droga dojazdowa s\u0142u\u017cb ratunkowych",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "flood_equipment": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "416": {
+        "id": 416,
+        "name": "Zalany sklep spo\u017cywczy",
+        "place": "Supermarket (ma\u0142y)\nSupermarket (du\u017cy)",
+        "place_array": {
+            "0": "Supermarket (ma\u0142y)",
+            "1": "Supermarket (du\u017cy)"
+        },
+        "average_credits": 1600,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "flood_equipment": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "417": {
+        "id": 417,
+        "name": "Zalana szko\u0142a",
+        "place": "Szko\u0142a",
+        "place_array": {
+            "0": "Szko\u0142a"
+        },
+        "average_credits": 2400,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "flood_equipment": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "418": {
+        "id": 418,
+        "name": "Zalana galeria handlowa",
+        "place": "Centrum handlowe",
+        "place_array": {
+            "0": "Centrum handlowe"
+        },
+        "average_credits": 3200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "heavy_rescue_vehicles": 1,
+            "flood_equipment": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 8
+        },
+        "alternate_version": null
+    },
+    "419": {
+        "id": 419,
+        "name": "Zalanie na lotnisku",
+        "place": "Terminal portu lotniczego",
+        "place_array": {
+            "0": "Terminal portu lotniczego"
+        },
+        "average_credits": 3800,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "flood_equipment": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 8
+        },
+        "alternate_version": null
     }
 }
