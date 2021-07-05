@@ -350,6 +350,25 @@ if (I18n.locale == 'en_US') {
         33: ['Motoambulans', 1],
         34: ['Ambulans T', 1],
         35: ['SRMed', 0],
+        36: ["Kontenerowiec", 0],
+        37: ["SCRd", 0],
+        38: ["GCBARt", 0],
+        39: ["GLBARt", 0],
+        40: ["Kontener inżynieryjno - techniczny", 0],
+        41: ["Kontener dekontaminacyjny", 0],
+        42: ["Kontener z AODO", 0],
+        43: ["Kontener dowodzeniowy", 0],
+        44: ["Kontener do przewozu środków gaśniczych", 0],
+        45: ["Kontener socjalno - sanitarny", 0],
+        46: ["Kontener powodziowo - pompowy", 0],
+        47: ["Kontener - cysterna", 0],
+        48: ["Przyczepa pompowa", 0],
+        49: ["Przyczepa chemiczno - ekologiczna", 0],
+        50: ["Przyczepa dekontaminacyjna", 0],
+        51: ["Przyczepa przeciwpowodziowa", 0],
+        52: ["Przyczepa ze sprzętem AODO", 0],
+        53: ["Przyczepa ze sprzętem medycznym", 0],
+        54: ["Przyczepa z łódką strażacką", 0]
     };
 } else if (I18n.locale == 'it_IT') {
     lssm.carsById = {

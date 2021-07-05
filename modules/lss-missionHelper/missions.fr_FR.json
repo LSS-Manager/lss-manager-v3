@@ -11024,5 +11024,48 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "352": {
+        "id": 352,
+        "name": "Chute d'une falaise",
+        "place": "Falaise",
+        "place_array": {
+            "0": "Falaise"
+        },
+        "average_credits": 3000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 3,
+            "heavy_rescue_vehicles": 1,
+            "height_rescue_units": 2,
+            "police_helicopters": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 75,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "height_rescue_personnel": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 8,
+            "police_stations": 6,
+            "police_helicopter_stations": 1,
+            "fire_stations": 13
+        },
+        "alternate_version": null
     }
 }
