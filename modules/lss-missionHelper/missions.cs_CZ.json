@@ -10803,5 +10803,45 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "343": {
+        "id": 343,
+        "name": "Po\u017e\u00e1r elektrorozvodny",
+        "place": "Elektrorozvodna",
+        "place_array": {
+            "0": "Elektrorozvodna"
+        },
+        "average_credits": 9500,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "mobile_air_vehicles": 85,
+            "patient_transport": 10,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 4,
+            "fire_stations": 12
+        },
+        "alternate_version": null
     }
 }

@@ -9536,5 +9536,85 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "309": {
+        "id": 309,
+        "name": "420 Savuhavainto",
+        "place": "",
+        "place_array": {},
+        "average_credits": 250,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 4,
+                "1": 5,
+                "2": 6,
+                "3": 7,
+                "4": 8,
+                "5": 14,
+                "6": 18,
+                "7": 20,
+                "8": 21,
+                "9": 23,
+                "10": 27,
+                "11": 31,
+                "12": 65,
+                "13": 66,
+                "14": 116,
+                "15": 269
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "310": {
+        "id": 310,
+        "name": "420 Savuhavainto",
+        "place": "Puisto\nLinja-autopys\u00e4kki\nMaatila",
+        "place_array": {
+            "0": "Puisto",
+            "1": "Linja-autopys\u00e4kki",
+            "2": "Maatila"
+        },
+        "average_credits": 250,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 4,
+                "1": 7,
+                "2": 9,
+                "3": 14,
+                "4": 15,
+                "5": 18
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2
+        },
+        "alternate_version": null
     }
 }

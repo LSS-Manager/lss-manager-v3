@@ -12486,5 +12486,81 @@
             "rescue_stations": 2
         },
         "alternate_version": null
+    },
+    "410": {
+        "id": 410,
+        "name": "Po\u017car szeregowca",
+        "place": "",
+        "place_array": {},
+        "average_credits": 15000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 58000,
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "water_tankers": 30,
+            "mobile_air_vehicles": 25,
+            "patient_transport": 60,
+            "helicopter": 10,
+            "patient_critical_care": 15
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 5,
+            "fire_stations": 18
+        },
+        "alternate_version": null
+    },
+    "411": {
+        "id": 411,
+        "name": "Po\u017car w magazynie chemicznym",
+        "place": "Magazyn\nMagazyn firmowy",
+        "place_array": {
+            "0": "Magazyn",
+            "1": "Magazyn firmowy"
+        },
+        "average_credits": 18500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 65000,
+            "firetrucks": 15,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 21
+        },
+        "alternate_version": null
     }
 }

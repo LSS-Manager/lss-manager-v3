@@ -7946,5 +7946,42 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "255": {
+        "id": 255,
+        "name": "\uc808\ubcbd \ucd94\ub77d",
+        "place": "\uc808\ubcbd",
+        "place_array": {
+            "0": "\uc808\ubcbd"
+        },
+        "average_credits": 9500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 7,
+            "police_stations": 3,
+            "fire_stations": 10
+        },
+        "alternate_version": null
     }
 }

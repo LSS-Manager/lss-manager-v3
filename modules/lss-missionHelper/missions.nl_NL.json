@@ -3608,7 +3608,8 @@
             "duration": 7200,
             "guard_mission": true,
             "filter_id": "ambulance_station_missions",
-            "allow_ktw_instead_of_rtw": true
+            "allow_ktw_instead_of_rtw": true,
+            "allow_ktw_b_instead_of_rtw": true
         },
         "prerequisites": {
             "main_building": 3,
@@ -6045,7 +6046,7 @@
         "name": "Steekincident",
         "place": "",
         "place_array": {},
-        "average_credits": 1500,
+        "average_credits": 2480,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
             "0": "/images/baseball_gruen.png",
@@ -6070,7 +6071,7 @@
         "prerequisites": {
             "main_building": 5,
             "rescue_stations": 10,
-            "police_stations": 5
+            "police_stations": 6
         },
         "alternate_version": null
     },
@@ -6756,7 +6757,8 @@
             "duration": 7200,
             "guard_mission": true,
             "filter_id": "firehouse_missions",
-            "allow_ktw_instead_of_rtw": true
+            "allow_ktw_instead_of_rtw": true,
+            "allow_ktw_b_instead_of_rtw": true
         },
         "prerequisites": {
             "main_building": 0,
@@ -8791,9 +8793,10 @@
     "283": {
         "id": 283,
         "name": "Val van paard",
-        "place": "Boerderij",
+        "place": "Boerderij\nManege",
         "place_array": {
-            "0": "Boerderij"
+            "0": "Boerderij",
+            "1": "Manege"
         },
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
@@ -18168,7 +18171,7 @@
         "place_array": {
             "0": "Winkelcentrum"
         },
-        "average_credits": 4200,
+        "average_credits": 6000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
             "0": "/images/baseball_gruen.png",
@@ -18196,7 +18199,7 @@
         },
         "prerequisites": {
             "main_building": 5,
-            "rescue_stations": 4,
+            "rescue_stations": 8,
             "police_stations": 10,
             "bereitschaftspolizei": 1,
             "fire_stations": 14
@@ -18210,7 +18213,7 @@
         "place_array": {
             "0": "Centraal Station"
         },
-        "average_credits": 4200,
+        "average_credits": 6000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
             "0": "/images/baseball_gruen.png",
@@ -18238,7 +18241,7 @@
         },
         "prerequisites": {
             "main_building": 5,
-            "rescue_stations": 4,
+            "rescue_stations": 8,
             "police_stations": 10,
             "bereitschaftspolizei": 1,
             "fire_stations": 14
@@ -19960,7 +19963,7 @@
         "place_array": {
             "0": "Tankstation"
         },
-        "average_credits": 500,
+        "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
             "0": "/images/theft_gruen.png",
@@ -22481,7 +22484,7 @@
         "place_array": {
             "0": "Winkelcentrum"
         },
-        "average_credits": 1055,
+        "average_credits": 945,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
             "0": "/images/cuffs_gruen.png",
@@ -22494,6 +22497,7 @@
         },
         "chances": {},
         "additional": {
+            "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
             "need_bike_police_only_if_present": true
         },
@@ -23819,8 +23823,7 @@
                 "0": 716,
                 "1": 717
             },
-            "filter_id": "firehouse_missions",
-            "fire_alarm_system_possible": true
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "main_building": 0,
@@ -27294,7 +27297,6 @@
         },
         "prerequisites": {
             "main_building": 16,
-            "wasserrettung": 5,
             "water_rescue_2": 8,
             "rescue_stations": 1,
             "police_stations": 2
@@ -27647,7 +27649,8 @@
             "police_cars": 1
         },
         "chances": {
-            "patient_transport": 20
+            "patient_transport": 20,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 4,
@@ -27693,6 +27696,62 @@
             "main_building": 0,
             "police_stations": 1,
             "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "833": {
+        "id": 833,
+        "name": "Geen contact melder",
+        "place": "",
+        "place_array": {},
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/mobilephonetower_gruen.png",
+            "1": "/images/mobilephonetower_gelb.png",
+            "2": "/images/mobilephonetower_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "police_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "rescue_stations": 1,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "834": {
+        "id": 834,
+        "name": "Paniekknop geactiveerd",
+        "place": "",
+        "place_array": {},
+        "average_credits": 840,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/mobilephonetower_gruen.png",
+            "1": "/images/mobilephonetower_gelb.png",
+            "2": "/images/mobilephonetower_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 3
         },
         "alternate_version": null
     }
