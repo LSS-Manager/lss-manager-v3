@@ -16,7 +16,7 @@
             '.missions-panel-head strong{display:none!important}' +
             '#missions .btn-group{margin-left:11px}' +
             '#buildings_outer,#chat_outer,#radio_outer{margin-left:5px}' +
-            '#btn-alliance-new-event{margin-bottom:0!important}' +
+            '.alliance_events_buttons{margin-bottom:0!important}' +
             '.alliance_true .btn-group{float:right}' +
             '#chat_outer{padding:0}' +
             '#radio_outer{width:calc(16.66666667% - 40px)}' +
@@ -29,7 +29,7 @@
             '</style>'
     );
 
-    $('#btn-alliance-new-event')
+    $('.alliance_events_buttons')
         .parent()
         .detach()
         .insertAfter('#missions .btn-group')
