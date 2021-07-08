@@ -10273,7 +10273,6 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "allow_ktw_instead_of_rtw": true,
             "date_start": "2021-06-11T09:00:00Z",
             "date_end": "2021-07-11T22:00:00Z",
             "patient_specializations": "Kirurg"
@@ -10304,7 +10303,6 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "allow_ktw_instead_of_rtw": true,
             "date_start": "2021-06-11T09:00:00Z",
             "date_end": "2021-07-11T22:00:00Z",
             "patient_specializations": "Kirurg"
@@ -10519,7 +10517,6 @@
             "duration": 7200,
             "guard_mission": true,
             "filter_id": "ambulance_station_missions",
-            "allow_ktw_instead_of_rtw": true,
             "date_start": "2021-06-25T09:00:00Z",
             "date_end": "2021-08-27T23:59:00Z"
         },

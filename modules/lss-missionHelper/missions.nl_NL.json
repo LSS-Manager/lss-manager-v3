@@ -3608,8 +3608,7 @@
             "duration": 7200,
             "guard_mission": true,
             "filter_id": "ambulance_station_missions",
-            "allow_ktw_instead_of_rtw": true,
-            "allow_ktw_b_instead_of_rtw": true
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {
             "main_building": 3,
@@ -6757,8 +6756,7 @@
             "duration": 7200,
             "guard_mission": true,
             "filter_id": "firehouse_missions",
-            "allow_ktw_instead_of_rtw": true,
-            "allow_ktw_b_instead_of_rtw": true
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {
             "main_building": 0,
