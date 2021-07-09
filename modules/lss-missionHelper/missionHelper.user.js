@@ -302,6 +302,18 @@ const lssm_missionhelper_adjustPosition = () => {
                     ),
                 },
             };
+            managed_settings.settings.subsequent = {
+                default: false,
+                ui: {
+                    label: I18n.t(
+                        'lssm.missionhelper.settings.subsequent.label'
+                    ),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.subsequent.description'
+                    ),
+                },
+            };
             break;
         case 'fr_FR':
             managed_settings.settings.education = {
