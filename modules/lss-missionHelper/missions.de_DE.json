@@ -22852,9 +22852,7 @@
             "1": "/images/medicalstore_gelb.png",
             "2": "/images/medicalstore_rot.png"
         },
-        "requirements": {
-            "police_cars": 1
-        },
+        "requirements": {},
         "chances": {
             "nef": 15,
             "patient_transport": 20
@@ -22869,8 +22867,7 @@
         },
         "prerequisites": {
             "main_building": 2,
-            "rescue_stations": 2,
-            "police_stations": 1
+            "rescue_stations": 2
         },
         "alternate_version": null
     },

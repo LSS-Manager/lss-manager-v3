@@ -5516,7 +5516,7 @@
             "0": "Lake"
         },
         "average_credits": 1250,
-        "generated_by": "",
+        "generated_by": "Water rescue",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -5549,7 +5549,7 @@
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
-            "main_building": -1,
+            "main_building": -3,
             "wasserrettung": 1,
             "rescue_stations": 1,
             "fire_stations": 9
@@ -5564,7 +5564,7 @@
             "0": "River"
         },
         "average_credits": 1250,
-        "generated_by": "",
+        "generated_by": "Water rescue",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -5597,7 +5597,7 @@
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
-            "main_building": -1,
+            "main_building": -3,
             "wasserrettung": 1,
             "rescue_stations": 1,
             "fire_stations": 9
@@ -5612,7 +5612,7 @@
             "0": "River"
         },
         "average_credits": 1400,
-        "generated_by": "",
+        "generated_by": "Water rescue",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -5638,7 +5638,7 @@
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
-            "main_building": -1,
+            "main_building": -3,
             "wasserrettung": 1,
             "rescue_stations": 1,
             "fire_stations": 7
@@ -5653,7 +5653,7 @@
             "0": "Lake"
         },
         "average_credits": 1400,
-        "generated_by": "",
+        "generated_by": "Water rescue",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -5679,7 +5679,7 @@
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
-            "main_building": -1,
+            "main_building": -3,
             "wasserrettung": 1,
             "rescue_stations": 1,
             "fire_stations": 7
@@ -5733,7 +5733,7 @@
         "place": "",
         "place_array": {},
         "average_credits": 1550,
-        "generated_by": "",
+        "generated_by": "Water rescue",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -5764,7 +5764,7 @@
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
-            "main_building": -1,
+            "main_building": -3,
             "wasserrettung": 1,
             "rescue_stations": 3,
             "fire_stations": 9
@@ -5777,7 +5777,7 @@
         "place": "",
         "place_array": {},
         "average_credits": 2500,
-        "generated_by": "",
+        "generated_by": "Water rescue",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -5809,7 +5809,7 @@
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
-            "main_building": -1,
+            "main_building": -3,
             "wasserrettung": 1,
             "rescue_stations": 3,
             "fire_stations": 9
@@ -5822,7 +5822,7 @@
         "place": "",
         "place_array": {},
         "average_credits": 4000,
-        "generated_by": "",
+        "generated_by": "Water rescue",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -5853,7 +5853,7 @@
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
-            "main_building": -1,
+            "main_building": -3,
             "wasserrettung": 2,
             "rescue_stations": 5,
             "police_stations": 3,
@@ -5869,7 +5869,7 @@
             "0": "River"
         },
         "average_credits": 4000,
-        "generated_by": "",
+        "generated_by": "Water rescue",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -5896,7 +5896,7 @@
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
-            "main_building": -1,
+            "main_building": -3,
             "wasserrettung": 1,
             "rescue_stations": 3,
             "fire_stations": 11
@@ -5911,7 +5911,7 @@
             "0": "Lake"
         },
         "average_credits": 4000,
-        "generated_by": "",
+        "generated_by": "Water rescue",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -5938,7 +5938,7 @@
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
-            "main_building": -1,
+            "main_building": -3,
             "wasserrettung": 1,
             "rescue_stations": 3,
             "fire_stations": 11
@@ -5953,7 +5953,7 @@
             "0": "Bridge"
         },
         "average_credits": 7000,
-        "generated_by": "",
+        "generated_by": "Water rescue",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -5982,7 +5982,7 @@
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
-            "main_building": -1,
+            "main_building": -3,
             "wasserrettung": 2,
             "rescue_stations": 10,
             "police_stations": 2,
@@ -10207,7 +10207,7 @@
             "0": "Lake"
         },
         "average_credits": 900,
-        "generated_by": "",
+        "generated_by": "Water rescue",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -10238,7 +10238,7 @@
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
-            "main_building": -1,
+            "main_building": -3,
             "wasserrettung": 1,
             "rescue_stations": 1,
             "fire_stations": 3
@@ -10253,7 +10253,7 @@
             "0": "River"
         },
         "average_credits": 900,
-        "generated_by": "",
+        "generated_by": "Water rescue",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -10284,7 +10284,7 @@
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
-            "main_building": -1,
+            "main_building": -3,
             "wasserrettung": 1,
             "rescue_stations": 1,
             "fire_stations": 3
@@ -11686,7 +11686,7 @@
             "0": "River"
         },
         "average_credits": 4000,
-        "generated_by": "",
+        "generated_by": "Water rescue",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -11713,7 +11713,7 @@
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
-            "main_building": -1,
+            "main_building": -3,
             "wasserrettung": 1,
             "rescue_stations": 6,
             "police_stations": 1,
@@ -20981,7 +20981,7 @@
             "1": "River"
         },
         "average_credits": 1200,
-        "generated_by": "",
+        "generated_by": "Water rescue",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -21005,7 +21005,7 @@
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
-            "main_building": -1,
+            "main_building": -3,
             "wasserrettung": 1,
             "rescue_stations": 1,
             "police_stations": 2,
