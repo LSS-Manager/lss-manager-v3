@@ -9,6 +9,7 @@
     "to": "bis zu",
     "exp": "Ausbreitungen",
     "fwm": "Folgeeinsätze",
+    "subs": "Anschlusseinsatz",
     "averageMinimumEmployeesFire": "Durchschnittliche min. Personalanzahl (Feuerwehr)",
     "averageMinimumEmployeesPolice": "Durchschnittliche min. Personalanzahl (Polizei)",
     "ambulance_only": "Dieser Einsatz ist ein reiner Rettungsdienst-Einsatz!",
@@ -76,6 +77,10 @@
         "followup": {
             "label": "Folgeeinsätze",
             "description": "Zeigt, was der Einsatz für Folgeinsätze generieren kann"
+        },
+        "subsequent": {
+            "label": "Anschlusseinsatz",
+            "description": "Zeigt an, was der Einsatz bei Abschluss des Einsatzes für einen Anschlusseinsatz generieren kann"
         },
         "show_100": {
             "label": "Zeige 100% Wahrscheinlichkeit",

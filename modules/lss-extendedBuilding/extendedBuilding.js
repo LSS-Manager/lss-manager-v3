@@ -1492,7 +1492,7 @@
                     `#personal_table tbody tr td:nth-child(${column + 1})`
                 )
             );
-        let dl = document.querySelector('dl:last-of-type');
+        let dl = document.querySelector('dl:first-of-type');
         dl.innerHTML += `<dt><strong>${I18n.t(
             'lssm.extendedBuilding.personnelOverview'
         )}</strong></dt><dd><i class="glyphicon glyphicon-info-sign personnelOverviewBtn"></i></dd>`;

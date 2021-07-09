@@ -4220,9 +4220,9 @@
         "average_credits": 1500,
         "generated_by": "Poliisiasema",
         "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
         "requirements": {
             "police_cars": 6
@@ -9437,7 +9437,7 @@
     },
     "306": {
         "id": 306,
-        "name": "621 Uimakilpailun j\u00e4rjestyksenvalvonta",
+        "name": "792 Uimakilpailun valvonta",
         "place": "J\u00e4rvi\nJoki\nUimaranta\nUima-allas",
         "place_array": {
             "0": "J\u00e4rvi",
@@ -9507,7 +9507,7 @@
     },
     "308": {
         "id": 308,
-        "name": "421 Luvaton nuotio puistossa",
+        "name": "431 Luvaton nuotio puistossa",
         "place": "Puisto",
         "place_array": {
             "0": "Puisto"
@@ -9583,10 +9583,10 @@
     "310": {
         "id": 310,
         "name": "420 Savuhavainto",
-        "place": "Puisto\nLinja-autopys\u00e4kki\nMaatila",
+        "place": "Puisto\nMets\u00e4\nMaatila",
         "place_array": {
             "0": "Puisto",
-            "1": "Linja-autopys\u00e4kki",
+            "1": "Mets\u00e4",
             "2": "Maatila"
         },
         "average_credits": 250,

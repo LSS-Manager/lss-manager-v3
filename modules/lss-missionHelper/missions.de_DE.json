@@ -3734,6 +3734,9 @@
                 "0": 550
             },
             "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 650
+            },
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -3774,6 +3777,9 @@
                 "0": 550
             },
             "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 650
+            },
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -5528,7 +5534,10 @@
                 "0": 177,
                 "1": 213
             },
-            "filter_id": "technical_aid_organization_missions"
+            "filter_id": "technical_aid_organization_missions",
+            "subsequent_missions_ids": {
+                "0": 650
+            }
         },
         "prerequisites": {
             "main_building": 9,
@@ -9116,6 +9125,9 @@
                 "0": 526
             },
             "filter_id": "technical_aid_organization_missions",
+            "subsequent_missions_ids": {
+                "0": 650
+            },
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -9165,6 +9177,9 @@
                 "0": 525
             },
             "filter_id": "technical_aid_organization_missions",
+            "subsequent_missions_ids": {
+                "0": 650
+            },
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -22885,6 +22900,47 @@
         "prerequisites": {
             "main_building": 2,
             "rescue_stations": 3
+        },
+        "alternate_version": null
+    },
+    "650": {
+        "id": 650,
+        "name": "Ladungsbergung LKW",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2,
+            "thw_gkw": 1,
+            "thw_mtwtz": 1,
+            "thw_brmg_r": 1,
+            "thw_mzkw": 1,
+            "thw_lkw": 1
+        },
+        "chances": {
+            "thw_brmg_r": 50,
+            "thw_lkw": 50
+        },
+        "additional": {
+            "filter_id": "technical_aid_organization_missions"
+        },
+        "prerequisites": {
+            "main_building": 9,
+            "police_stations": 2,
+            "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
+            "fire_stations": 5
         },
         "alternate_version": null
     }

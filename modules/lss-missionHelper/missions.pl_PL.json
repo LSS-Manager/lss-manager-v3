@@ -523,6 +523,7 @@
         },
         "chances": {},
         "additional": {
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -730,6 +731,7 @@
                 "1": 2,
                 "2": 29
             },
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -1629,6 +1631,7 @@
         },
         "chances": {},
         "additional": {
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -3739,6 +3742,7 @@
         },
         "chances": {},
         "additional": {
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -3797,6 +3801,7 @@
         },
         "chances": {},
         "additional": {
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -3915,6 +3920,7 @@
         },
         "chances": {},
         "additional": {
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -3966,7 +3972,8 @@
             "2": "/images/river_rot.png"
         },
         "requirements": {
-            "firetrucks": 1
+            "firetrucks": 1,
+            "flood_equipment": 1
         },
         "chances": {},
         "additional": {
@@ -3974,7 +3981,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "fire_stations": 2
+            "fire_stations": 8
         },
         "alternate_version": null
     },
@@ -5033,7 +5040,8 @@
             "2": "/images/river_rot.png"
         },
         "requirements": {
-            "firetrucks": 1
+            "firetrucks": 1,
+            "flood_equipment": 1
         },
         "chances": {},
         "additional": {
@@ -5041,7 +5049,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "fire_stations": 2
+            "fire_stations": 8
         },
         "alternate_version": null
     },
@@ -5058,7 +5066,8 @@
             "2": "/images/river_rot.png"
         },
         "requirements": {
-            "firetrucks": 1
+            "firetrucks": 1,
+            "flood_equipment": 1
         },
         "chances": {},
         "additional": {
@@ -5066,7 +5075,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "fire_stations": 2
+            "fire_stations": 8
         },
         "alternate_version": null
     },
@@ -5090,6 +5099,7 @@
             "platform_trucks": 20
         },
         "additional": {
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -5724,6 +5734,7 @@
         },
         "chances": {},
         "additional": {
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -5753,6 +5764,7 @@
             "expansion_missions_ids": {
                 "0": 12
             },
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -7349,8 +7361,9 @@
             "2": "/images/river_rot.png"
         },
         "requirements": {
-            "firetrucks": 5,
-            "battalion_chief_vehicles": 1
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "flood_equipment": 2
         },
         "chances": {},
         "additional": {
@@ -7358,7 +7371,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "fire_stations": 6
+            "fire_stations": 10
         },
         "alternate_version": null
     },
@@ -8347,6 +8360,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "allow_rw_instead_of_lf": true,
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "Chirurg og\u00f3lny"
         },
@@ -8886,6 +8900,7 @@
             "expansion_missions_ids": {
                 "0": 25
             },
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -8977,6 +8992,7 @@
         },
         "chances": {},
         "additional": {
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -8998,7 +9014,8 @@
             "2": "/images/river_rot.png"
         },
         "requirements": {
-            "firetrucks": 3
+            "firetrucks": 2,
+            "flood_equipment": 1
         },
         "chances": {},
         "additional": {
@@ -9006,7 +9023,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "fire_stations": 3
+            "fire_stations": 8
         },
         "alternate_version": null
     },
@@ -9343,6 +9360,7 @@
         },
         "chances": {},
         "additional": {
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions",
             "need_traffic_car_only_if_present": true
         },
@@ -9371,6 +9389,7 @@
         },
         "chances": {},
         "additional": {
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -9403,6 +9422,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions",
             "patient_specializations": "Interna"
         },
@@ -10059,6 +10079,7 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 1,
+            "allow_rw_instead_of_lf": true,
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "Interna"
         },
@@ -10658,6 +10679,7 @@
             "duration_text": "25 minut",
             "duration": 1500,
             "possible_patient": 1,
+            "allow_rw_instead_of_lf": true,
             "guard_mission": true,
             "filter_id": "firehouse_missions",
             "patient_specializations": "Interna"
@@ -10912,6 +10934,7 @@
         },
         "chances": {},
         "additional": {
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -11679,6 +11702,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "max_possible_prisoners": 1,
+            "allow_rw_instead_of_lf": true,
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "Interna"
         },
