@@ -11067,5 +11067,65 @@
             "fire_stations": 13
         },
         "alternate_version": null
+    },
+    "353": {
+        "id": 353,
+        "name": "Douleur thoracique non traumatique \u00e0 domicile",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90,
+            "helicopter": 35,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 6
+        },
+        "alternate_version": null
+    },
+    "354": {
+        "id": 354,
+        "name": "Douleur thoracique non traumatique sur lieu de travail",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 50,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 6
+        },
+        "alternate_version": null
     }
 }

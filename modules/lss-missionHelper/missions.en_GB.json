@@ -12954,5 +12954,86 @@
             "rescue_stations": 2
         },
         "alternate_version": null
+    },
+    "350": {
+        "id": 350,
+        "name": "Protester needing rescueing from height",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-3"
+            },
+            "filter_id": "police_station_missions",
+            "overlay_on_hazard_response_ems_chance": 100,
+            "overlay_on_hazard_response_ems_count": 1,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 7,
+            "police_stations": 3,
+            "fire_stations": 10
+        },
+        "alternate_version": {
+            "mission_type": {
+                "id": 350,
+                "name": "Protester needing rescueing from height",
+                "place": "",
+                "place_array": {},
+                "average_credits": 5000,
+                "generated_by": "Police Station",
+                "icons": {
+                    "0": "/images/constructioncrane_gruen.png",
+                    "1": "/images/constructioncrane_gelb.png",
+                    "2": "/images/constructioncrane_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 3,
+                    "battalion_chief_vehicles": 1,
+                    "heavy_rescue_vehicles": 1,
+                    "police_cars": 4,
+                    "hazard_response_primary": 1,
+                    "hazard_response_secondary": 1
+                },
+                "chances": {
+                    "patient_transport": 0
+                },
+                "additional": {
+                    "possible_patient": 1,
+                    "possible_patient_min": 1,
+                    "patient_uk_code_possible": {
+                        "0": "C-3"
+                    },
+                    "filter_id": "police_station_missions",
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 6,
+                    "rescue_stations": 7,
+                    "police_stations": 3,
+                    "fire_stations": 10
+                },
+                "alternate_version": null
+            }
+        }
     }
 }
