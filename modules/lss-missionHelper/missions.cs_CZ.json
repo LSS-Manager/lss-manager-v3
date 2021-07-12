@@ -10839,5 +10839,33 @@
             "fire_stations": 12
         },
         "alternate_version": null
+    },
+    "344": {
+        "id": 344,
+        "name": "Vypro\u0161t\u011bn\u00ed prasete z j\u00e1my",
+        "place": "Farma",
+        "place_array": {
+            "0": "Farma"
+        },
+        "average_credits": 2400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 4
+        },
+        "alternate_version": null
     }
 }

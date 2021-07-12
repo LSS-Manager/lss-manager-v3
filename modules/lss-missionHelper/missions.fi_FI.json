@@ -715,8 +715,7 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2,
-                "2": 29
+                "1": 2
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -9614,6 +9613,71 @@
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 2
+        },
+        "alternate_version": null
+    },
+    "311": {
+        "id": 311,
+        "name": "032 Henkil\u00f6\u00e4 puukotettu",
+        "place": "",
+        "place_array": {},
+        "average_credits": 750,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "k9": 1
+        },
+        "chances": {
+            "k9": 33,
+            "patient_transport": 95,
+            "patient_critical_care": 45
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "firehouse_missions",
+            "subsequent_missions_ids": {
+                "0": 312
+            },
+            "patient_specializations": "Yleiskirurgi"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 6
+        },
+        "alternate_version": null
+    },
+    "312": {
+        "id": 312,
+        "name": "565 Ep\u00e4illyn etsint\u00e4",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 6
         },
         "alternate_version": null
     }

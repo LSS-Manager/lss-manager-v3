@@ -8057,9 +8057,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 193
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -15033,6 +15031,104 @@
             "rescue_stations": 2,
             "police_stations": 4,
             "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "414": {
+        "id": 414,
+        "name": "Operaio Ferito nelle Fogne",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1800,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2,
+            "water_rescue": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "wasserrettung": 1,
+            "rescue_stations": 4,
+            "police_stations": 4,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "415": {
+        "id": 415,
+        "name": "Incendio Centro Commerciale",
+        "place": "",
+        "place_array": {},
+        "average_credits": 12000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 24000,
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 80,
+            "possible_patient_min": 10,
+            "patient_it_code_possible": {
+                "0": "ZC20R",
+                "1": "ZC20G",
+                "2": "ZC20V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale"
+            },
+            "fire_alarm_system_possible": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 10,
+            "police_stations": 6,
+            "fire_stations": 12
         },
         "alternate_version": null
     }
