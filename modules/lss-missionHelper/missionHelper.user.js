@@ -326,6 +326,16 @@ const lssm_missionhelper_adjustPosition = () => {
                     parent: SETTINGS_STORAGE + '_special_toggle',
                 },
             };
+            managed_settings.settings.waterfr = {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.waterfr.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.waterfr.description'
+                    ),
+                },
+            };
             break;
         case 'nl_NL':
             managed_settings.settings.waternl = {
@@ -1003,6 +1013,7 @@ const lssm_missionhelper_adjustPosition = () => {
                     SETTINGS.waterit ||
                     SETTINGS.waterno ||
                     SETTINGS.waternl ||
+                    SETTINGS.waterfr ||
                     SETTINGS.waterse) &&
                     MISSION.requirements.water_needed) ||
                 (SETTINGS.credits && MISSION.average_credits) ||
@@ -1020,6 +1031,7 @@ const lssm_missionhelper_adjustPosition = () => {
                     SETTINGS.waterit ||
                     SETTINGS.waterno ||
                     SETTINGS.waternl ||
+                    SETTINGS.waterfr ||
                     SETTINGS.waterse) &&
                     MISSION.requirements.water_needed &&
                     (content.innerHTML += `<span class="badge badge-secondary">${I18n.t(
