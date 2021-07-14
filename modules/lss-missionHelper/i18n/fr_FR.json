@@ -7,6 +7,8 @@
     "to": "jusqu'à",
     "exp": "Propagation",
     "fwm": "Missions de suivi",
+    "water": "Eau nécessaire",
+    "water1": "lit.",
     "SWATPersonnel": "Needed SWAT Personnel",
     "averageMinimumEmployeesFire": "Moyenne minimale Pompiers",
     "averageMinimumEmployeesHoehen": "Spécialistes IMP requis",
@@ -37,6 +39,10 @@
         "live_patients": {
             "label": "Nombre de patients",
             "description": "Affiche en temps réel le nombre de patients en cours d'utilisation."
+        },
+        "waterfr": {
+            "label": "Demande en eau",
+            "description": "Indique la quantité totale d'eau nécessaire."
         },
         "vehicles": {
             "label": "Véhicules",
@@ -114,6 +120,9 @@
         "elw3": "VLHR",
         "kdow_orgl": "PC DSM",
         "orgl": "PC DSM",
+        "hose": "Camion dévidoir",
+        "pump": "Motopompes",
+        "foam": "FMOGP",
         "allow_rw_instead_of_lf": "Camions de pompiers ou sauvetage lourd ou Véhicule Tout Usage"
     }
 }

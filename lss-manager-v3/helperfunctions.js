@@ -443,6 +443,14 @@ if (I18n.locale == 'en_US') {
         28: ['AR', 1],
         29: ['PC DSM', 1],
         30: ['Ambulance Type A', 1],
+        31: ["VTP", 0],
+        32: ["CCRL", 0],
+        33: ["CCRM", 0],
+        34: ["CCRSR", 0],
+        35: ["FMOGP", 0],
+        36: ["CDHR", 0],
+        37: ["FDGP", 0],
+        38: ["MPR", 0],
     };
 } else if (I18n.locale == 'es_ES') {
     lssm.carsById = {
