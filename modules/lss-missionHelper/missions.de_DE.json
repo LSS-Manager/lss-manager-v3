@@ -4688,9 +4688,8 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 27,
-                "1": 43,
-                "2": 83
+                "0": 43,
+                "1": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -22938,6 +22937,60 @@
             "thw_fg_raeumen_count": 1,
             "thw_gkw_count": 1,
             "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "651": {
+        "id": 651,
+        "name": "Brand in Getreidesilo",
+        "place": "Bauernhof",
+        "place_array": {
+            "0": "Bauernhof"
+        },
+        "average_credits": 7500,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2,
+            "mobile_air_vehicles": 1,
+            "gwmess": 1,
+            "police_cars": 4,
+            "thw_gkw": 1,
+            "thw_mtwtz": 1,
+            "thw_brmg_r": 1,
+            "thw_mzkw": 1,
+            "thw_lkw": 1,
+            "thw_dle": 1
+        },
+        "chances": {
+            "mobile_command_vehicles": 30,
+            "nef": 25,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "technical_aid_organization_missions",
+            "patient_specializations": "Allgemeine Chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 9,
+            "rescue_stations": 4,
+            "police_stations": 3,
+            "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
+            "fire_stations": 7
         },
         "alternate_version": null
     }
