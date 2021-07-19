@@ -15131,5 +15131,100 @@
             "fire_stations": 12
         },
         "alternate_version": null
+    },
+    "416": {
+        "id": 416,
+        "name": "Pirata della Strada",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1950,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G",
+                "2": "SC01V"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "417": {
+        "id": 417,
+        "name": "Auto Precipitata in Dirupo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1800,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "fwk": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2,
+            "water_rescue": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "wasserrettung": 1,
+            "rescue_stations": 4,
+            "police_stations": 4,
+            "fire_stations": 8
+        },
+        "alternate_version": null
     }
 }

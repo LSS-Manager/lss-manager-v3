@@ -12879,5 +12879,79 @@
             "fire_stations": 17
         },
         "alternate_version": null
+    },
+    "422": {
+        "id": 422,
+        "name": "Czujka czadu w Magazynie",
+        "place": "Magazyn\nMagazyn firmowy\nFabryka",
+        "place_array": {
+            "0": "Magazyn",
+            "1": "Magazyn firmowy",
+            "2": "Fabryka"
+        },
+        "average_credits": 8500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 119,
+                "1": 122,
+                "2": 335
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "423": {
+        "id": 423,
+        "name": "Po\u017car na stacji benzynowej",
+        "place": "Stacja paliw",
+        "place_array": {
+            "0": "Stacja paliw"
+        },
+        "average_credits": 18000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 5,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 2,
+            "hazmat_vehicles": 3,
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 4,
+            "fire_stations": 22
+        },
+        "alternate_version": null
     }
 }

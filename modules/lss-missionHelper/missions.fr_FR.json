@@ -12040,6 +12040,39 @@
         },
         "alternate_version": null
     },
+    "355": {
+        "id": 355,
+        "name": "Vol avec violence",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 75,
+            "patient_critical_care": 15
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 3,
+            "police_stations": 4
+        },
+        "alternate_version": null
+    },
     "356": {
         "id": 356,
         "name": "Feu de d\u00e9charge",

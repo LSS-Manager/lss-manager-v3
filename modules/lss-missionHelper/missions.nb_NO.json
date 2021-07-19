@@ -10407,5 +10407,41 @@
             "rescue_stations": 5
         },
         "alternate_version": null
+    },
+    "338": {
+        "id": 338,
+        "name": "Fotgjenger p\u00e5kj\u00f8rt - f\u00f8rer stakk av",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1950,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 4
+        },
+        "alternate_version": null
     }
 }

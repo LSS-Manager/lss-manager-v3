@@ -7891,5 +7891,41 @@
             "rescue_stations": 5
         },
         "alternate_version": null
+    },
+    "253": {
+        "id": 253,
+        "name": "\u3072\u304d\u9003\u3052",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1950,
+        "generated_by": "\u6551\u6025\u8eca\u30b9\u30c6\u30fc\u30b7\u30e7\u30f3",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u707d\u5bb3\u5916\u79d1"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 4
+        },
+        "alternate_version": null
     }
 }
