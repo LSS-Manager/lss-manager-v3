@@ -27880,5 +27880,61 @@
             "fire_stations": 14
         },
         "alternate_version": null
+    },
+    "838": {
+        "id": 838,
+        "name": "Acute hernia aanval",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Neurochirurgie"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "839": {
+        "id": 839,
+        "name": "Hevige paniekaanval",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
     }
 }
