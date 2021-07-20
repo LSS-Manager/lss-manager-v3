@@ -866,7 +866,7 @@
     },
     "31": {
         "id": 31,
-        "name": "B\u00e5lbrann",
+        "name": "Mindre b\u00e5l ute av kontroll",
         "place": "",
         "place_array": {},
         "average_credits": 1310,
@@ -878,8 +878,7 @@
         },
         "requirements": {
             "firetrucks": 1,
-            "battalion_chief_vehicles": 1,
-            "platform_trucks": 1
+            "battalion_chief_vehicles": 1
         },
         "chances": {},
         "additional": {

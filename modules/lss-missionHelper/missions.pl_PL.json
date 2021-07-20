@@ -721,7 +721,6 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
-            "water_needed": 1300,
             "firetrucks": 1
         },
         "chances": {},
@@ -1259,9 +1258,10 @@
     "46": {
         "id": 46,
         "name": "Incydent z zaparkowanym pojazdem",
-        "place": "Supermarket (ma\u0142y)",
+        "place": "Supermarket (ma\u0142y)\nParking",
         "place_array": {
-            "0": "Supermarket (ma\u0142y)"
+            "0": "Supermarket (ma\u0142y)",
+            "1": "Parking"
         },
         "average_credits": 120,
         "generated_by": "Komenda Policji",
@@ -1286,9 +1286,10 @@
     "47": {
         "id": 47,
         "name": "Incydent z zaparkowanym pojazdem",
-        "place": "Supermarket (du\u017cy)",
+        "place": "Supermarket (du\u017cy)\nParking",
         "place_array": {
-            "0": "Supermarket (du\u017cy)"
+            "0": "Supermarket (du\u017cy)",
+            "1": "Parking"
         },
         "average_credits": 120,
         "generated_by": "Komenda Policji",
@@ -1477,9 +1478,12 @@
     "54": {
         "id": 54,
         "name": "Incydent z zaparkowanym pojazdem",
-        "place": "Centrum handlowe",
+        "place": "Supermarket (ma\u0142y)\nSupermarket (du\u017cy)\nCentrum handlowe\nParking",
         "place_array": {
-            "0": "Centrum handlowe"
+            "0": "Supermarket (ma\u0142y)",
+            "1": "Supermarket (du\u017cy)",
+            "2": "Centrum handlowe",
+            "3": "Parking"
         },
         "average_credits": 120,
         "generated_by": "Komenda Policji",
@@ -1493,7 +1497,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "allow_traffic_car_instead_of_fustw": true
         },
         "prerequisites": {
             "main_building": 6,
@@ -1978,8 +1983,13 @@
     "75": {
         "id": 75,
         "name": "Agresywny pasa\u017cer",
-        "place": "",
-        "place_array": {},
+        "place": "Przystanek autobusowy\nPrzystanek tramwajowy\nDworzec kolejowy (ruch podmiejski)\nDworzec kolejowy (ruch podmiejski i dalekobie\u017cny)",
+        "place_array": {
+            "0": "Przystanek autobusowy",
+            "1": "Przystanek tramwajowy",
+            "2": "Dworzec kolejowy (ruch podmiejski)",
+            "3": "Dworzec kolejowy (ruch podmiejski i dalekobie\u017cny)"
+        },
         "average_credits": 300,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -2300,7 +2310,7 @@
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
-            "police_cars": 1
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 20,
@@ -2982,9 +2992,10 @@
     "107": {
         "id": 107,
         "name": "Wypadek na przeje\u017adzie kolejowym",
-        "place": "Przejazd kolejowy",
+        "place": "Przejazd kolejowy\nPrzejazd kolejowo-drogowy",
         "place_array": {
-            "0": "Przejazd kolejowy"
+            "0": "Przejazd kolejowy",
+            "1": "Przejazd kolejowo-drogowy"
         },
         "average_credits": 3700,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
@@ -3906,8 +3917,10 @@
     "138": {
         "id": 138,
         "name": "Uwi\u0119ziony pies w rzece",
-        "place": "",
-        "place_array": {},
+        "place": "Rzeka",
+        "place_array": {
+            "0": "Rzeka"
+        },
         "average_credits": 1200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -4145,9 +4158,9 @@
         "average_credits": 1500,
         "generated_by": "Komenda Policji",
         "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
         "requirements": {
             "police_cars": 6
@@ -4361,8 +4374,13 @@
     "153": {
         "id": 153,
         "name": "Przem\u00f3wienie VIPa",
-        "place": "",
-        "place_array": {},
+        "place": "Dyskoteka\nStadion\nTeatr\nTeren wystawowy",
+        "place_array": {
+            "0": "Dyskoteka",
+            "1": "Stadion",
+            "2": "Teatr",
+            "3": "Teren wystawowy"
+        },
         "average_credits": 4000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -4907,7 +4925,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "allow_traffic_car_instead_of_fustw": true
         },
         "prerequisites": {
             "main_building": 6,
@@ -4932,7 +4951,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "allow_traffic_car_instead_of_fustw": true
         },
         "prerequisites": {
             "main_building": 6,
@@ -4943,8 +4963,10 @@
     "172": {
         "id": 172,
         "name": "Podejrzana osoba pod szko\u0142\u0105",
-        "place": "",
-        "place_array": {},
+        "place": "Szko\u0142a",
+        "place_array": {
+            "0": "Szko\u0142a"
+        },
         "average_credits": 1000,
         "generated_by": "Komenda Policji",
         "icons": {
@@ -5210,8 +5232,10 @@
     "182": {
         "id": 182,
         "name": "Rozleg\u0142y po\u017car wysypiska \u015bmieci",
-        "place": "",
-        "place_array": {},
+        "place": "Sk\u0142adowisko odpad\u00f3w",
+        "place_array": {
+            "0": "Sk\u0142adowisko odpad\u00f3w"
+        },
         "average_credits": 10000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -5262,6 +5286,7 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "police_station_missions",
+            "allow_traffic_car_instead_of_fustw": true,
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -5319,6 +5344,7 @@
             "possible_patient": 1,
             "possible_patient_min": 0,
             "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -5564,8 +5590,11 @@
     "192": {
         "id": 192,
         "name": "Rozpylona nieznana substancja w markecie",
-        "place": "",
-        "place_array": {},
+        "place": "Supermarket (ma\u0142y)\nSupermarket (du\u017cy)",
+        "place_array": {
+            "0": "Supermarket (ma\u0142y)",
+            "1": "Supermarket (du\u017cy)"
+        },
         "average_credits": 6650,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -5729,8 +5758,7 @@
             "2": "/images/comment_rot.png"
         },
         "requirements": {
-            "firetrucks": 1,
-            "platform_trucks": 1
+            "firetrucks": 1
         },
         "chances": {},
         "additional": {
@@ -6239,9 +6267,10 @@
     "211": {
         "id": 211,
         "name": "Po\u017car wagon\u00f3w kolejowych na bocznicy",
-        "place": "Przejazd kolejowy",
+        "place": "Przejazd kolejowy\nPrzejazd kolejowo-drogowy",
         "place_array": {
-            "0": "Przejazd kolejowy"
+            "0": "Przejazd kolejowy",
+            "1": "Przejazd kolejowo-drogowy"
         },
         "average_credits": 4000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
@@ -6463,8 +6492,7 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 226,
-                "3": 182
+                "2": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -6769,8 +6797,11 @@
     "228": {
         "id": 228,
         "name": "Potr\u0105cenie przez poci\u0105g",
-        "place": "",
-        "place_array": {},
+        "place": "Przejazd kolejowy\nPrzejazd kolejowo-drogowy",
+        "place_array": {
+            "0": "Przejazd kolejowy",
+            "1": "Przejazd kolejowo-drogowy"
+        },
         "average_credits": 5425,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -6952,18 +6983,16 @@
             "1": "/images/ambulance_gelb.png",
             "2": "/images/ambulance_rot.png"
         },
-        "requirements": {
-            "ambulances": 1
-        },
+        "requirements": {},
         "chances": {
-            "patient_transport": 100,
-            "helicopter": 100
+            "patient_transport": 100
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "patient_specializations": "Chirurg og\u00f3lny"
+            "allow_ktw_instead_of_rtw": true,
+            "patient_specializations": "Interna"
         },
         "prerequisites": {
             "main_building": 2,
@@ -7095,7 +7124,7 @@
         "name": "Po\u017car \u017curawia na budowie",
         "place": "",
         "place_array": {},
-        "average_credits": 6000,
+        "average_credits": 8000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -7106,7 +7135,7 @@
             "water_needed": 10000,
             "firetrucks": 10,
             "battalion_chief_vehicles": 2,
-            "platform_trucks": 4,
+            "platform_trucks": 3,
             "heavy_rescue_vehicles": 2,
             "water_tankers": 1,
             "height_rescue_units": 2
@@ -7117,7 +7146,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "fire_stations": 7
+            "fire_stations": 19
         },
         "alternate_version": null
     },
@@ -7137,10 +7166,10 @@
             "water_needed": 15000,
             "firetrucks": 8,
             "battalion_chief_vehicles": 2,
-            "platform_trucks": 3,
+            "platform_trucks": 2,
             "heavy_rescue_vehicles": 2,
             "water_tankers": 1,
-            "mobile_air_vehicles": 2
+            "mobile_air_vehicles": 1
         },
         "chances": {},
         "additional": {
@@ -7148,7 +7177,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "fire_stations": 7
+            "fire_stations": 16
         },
         "alternate_version": null
     },
@@ -7294,7 +7323,7 @@
             "police_cars": 2
         },
         "chances": {
-            "water_tankers": 60,
+            "water_tankers": 35,
             "patient_transport": 50,
             "helicopter": 25
         },
@@ -7323,11 +7352,12 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 35000,
             "firetrucks": 8,
             "battalion_chief_vehicles": 3,
-            "platform_trucks": 4,
+            "platform_trucks": 3,
             "heavy_rescue_vehicles": 2,
-            "water_tankers": 2,
+            "water_tankers": 1,
             "mobile_air_vehicles": 1
         },
         "chances": {
@@ -7339,7 +7369,7 @@
             "possible_patient": 10,
             "possible_patient_min": 2,
             "filter_id": "firehouse_missions",
-            "patient_specializations": "Traumatologia"
+            "patient_specializations": "Interna"
         },
         "prerequisites": {
             "main_building": 0,
@@ -7423,7 +7453,8 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "firetrucks": 6,
+            "water_needed": 40000,
+            "firetrucks": 7,
             "battalion_chief_vehicles": 3,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 1,
@@ -7435,7 +7466,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "fire_stations": 7
+            "fire_stations": 12
         },
         "alternate_version": null
     },
@@ -8107,7 +8138,8 @@
         "requirements": {
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
-            "heavy_rescue_vehicles": 2
+            "heavy_rescue_vehicles": 2,
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 65,
@@ -8179,6 +8211,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "allow_traffic_car_instead_of_fustw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -10462,8 +10495,10 @@
     "348": {
         "id": 348,
         "name": "Po\u017car spalarni \u015bmieci",
-        "place": "",
-        "place_array": {},
+        "place": "Sk\u0142adowisko odpad\u00f3w",
+        "place_array": {
+            "0": "Sk\u0142adowisko odpad\u00f3w"
+        },
         "average_credits": 28000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -10497,8 +10532,11 @@
     "349": {
         "id": 349,
         "name": "Wykolejenie si\u0119 poci\u0105gu z substancj\u0105 radioaktywn\u0105",
-        "place": "",
-        "place_array": {},
+        "place": "Przejazd kolejowy\nPrzejazd kolejowo-drogowy",
+        "place_array": {
+            "0": "Przejazd kolejowy",
+            "1": "Przejazd kolejowo-drogowy"
+        },
         "average_credits": 35000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -10585,7 +10623,7 @@
         "place_array": {
             "0": "Las"
         },
-        "average_credits": 10000,
+        "average_credits": 40000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -10593,20 +10631,20 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "water_needed": 50000,
-            "firetrucks": 30,
+            "water_needed": 108000,
+            "firetrucks": 40,
             "battalion_chief_vehicles": 5,
             "mobile_command_vehicles": 2,
-            "water_tankers": 5,
+            "water_tankers": 6,
             "mobile_air_vehicles": 3
         },
         "chances": {},
         "additional": {
+            "only_alliance_mission": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "main_building": 0,
-            "fire_stations": 20
+            "main_building": 0
         },
         "alternate_version": null
     },
@@ -10617,7 +10655,7 @@
         "place_array": {
             "0": "Du\u017cy zbiornik na substancje chemiczne"
         },
-        "average_credits": 11455,
+        "average_credits": 38500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -10625,19 +10663,19 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "water_needed": 80000,
+            "water_needed": 240000,
             "firetrucks": 40,
             "battalion_chief_vehicles": 5,
             "mobile_command_vehicles": 1,
-            "platform_trucks": 5,
+            "platform_trucks": 4,
             "heavy_rescue_vehicles": 10,
             "water_tankers": 5,
-            "mobile_air_vehicles": 10,
+            "mobile_air_vehicles": 7,
             "hazmat_vehicles": 5,
             "police_cars": 10
         },
         "chances": {
-            "patient_transport": 100,
+            "patient_transport": 75,
             "helicopter": 50
         },
         "additional": {
@@ -10648,7 +10686,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "rescue_stations": 8,
+            "rescue_stations": 16,
             "police_stations": 5,
             "fire_stations": 35
         },
@@ -11743,9 +11781,10 @@
     "385": {
         "id": 385,
         "name": "Monitoring przeciwpo\u017carowy (Magazyn)",
-        "place": "Magazyn firmowy",
+        "place": "Magazyn\nMagazyn firmowy",
         "place_array": {
-            "0": "Magazyn firmowy"
+            "0": "Magazyn",
+            "1": "Magazyn firmowy"
         },
         "average_credits": 4500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
@@ -11836,8 +11875,11 @@
     "388": {
         "id": 388,
         "name": "Utkni\u0119cie w windzie",
-        "place": "",
-        "place_array": {},
+        "place": "Wie\u017cowiec\nBiurowiec",
+        "place_array": {
+            "0": "Wie\u017cowiec",
+            "1": "Biurowiec"
+        },
         "average_credits": 1200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
@@ -12169,6 +12211,7 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
+            "allow_traffic_car_instead_of_fustw": true,
             "date_start": "2021-06-11T09:00:00Z",
             "date_end": "2021-07-11T22:00:00Z"
         },
