@@ -959,7 +959,7 @@
                 "place_array": {
                     "0": "H\u00f4pital"
                 },
-                "average_credits": 5800,
+                "average_credits": 6300,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -971,8 +971,8 @@
                     "battalion_chief_vehicles": 2,
                     "platform_trucks": 3,
                     "water_tankers": 1,
-                    "hose": 2,
-                    "pump": 1
+                    "hose": 3,
+                    "pump": 2
                 },
                 "chances": {
                     "patient_transport": 75,
@@ -1177,7 +1177,7 @@
         "place_array": {
             "0": "Garage automobile"
         },
-        "average_credits": 6000,
+        "average_credits": 5500,
         "generated_by": "Centre de secours",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -1189,12 +1189,9 @@
             "battalion_chief_vehicles": 2,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 1,
-            "water_tankers": 1,
-            "hazmat_vehicles": 1,
             "police_cars": 2
         },
         "chances": {
-            "water_tankers": 40,
             "patient_transport": 80,
             "patient_critical_care": 50
         },
@@ -1218,7 +1215,7 @@
                 "place_array": {
                     "0": "Garage automobile"
                 },
-                "average_credits": 6800,
+                "average_credits": 7100,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -1230,14 +1227,11 @@
                     "battalion_chief_vehicles": 2,
                     "platform_trucks": 2,
                     "heavy_rescue_vehicles": 1,
-                    "water_tankers": 1,
-                    "hazmat_vehicles": 1,
                     "police_cars": 2,
-                    "hose": 1,
-                    "foam": 1
+                    "hose": 2,
+                    "foam": 2
                 },
                 "chances": {
-                    "water_tankers": 40,
                     "patient_transport": 80,
                     "patient_critical_care": 50
                 },
@@ -1768,7 +1762,7 @@
         "place_array": {
             "0": "\u00c9cole"
         },
-        "average_credits": 2000,
+        "average_credits": 1800,
         "generated_by": "Centre de secours",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -1776,7 +1770,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "firetrucks": 5,
+            "firetrucks": 3,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1
         },
@@ -1811,10 +1805,11 @@
                     "2": "/images/fire_rot.png"
                 },
                 "requirements": {
-                    "firetrucks": 5,
+                    "firetrucks": 3,
                     "battalion_chief_vehicles": 1,
                     "platform_trucks": 1,
-                    "hose": 1
+                    "hose": 1,
+                    "pump": 1
                 },
                 "chances": {
                     "patient_transport": 50,
@@ -2057,7 +2052,7 @@
         "place_array": {
             "0": "Supermarch\u00e9 (grand)"
         },
-        "average_credits": 3300,
+        "average_credits": 4300,
         "generated_by": "Centre de secours",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -2066,10 +2061,11 @@
         },
         "requirements": {
             "firetrucks": 6,
-            "battalion_chief_vehicles": 2,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
             "platform_trucks": 2,
             "water_tankers": 1,
-            "police_cars": 1
+            "police_cars": 3
         },
         "chances": {
             "water_tankers": 20,
@@ -2095,7 +2091,7 @@
                 "place_array": {
                     "0": "Supermarch\u00e9 (grand)"
                 },
-                "average_credits": 3600,
+                "average_credits": 5100,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -2104,11 +2100,13 @@
                 },
                 "requirements": {
                     "firetrucks": 6,
-                    "battalion_chief_vehicles": 2,
+                    "battalion_chief_vehicles": 3,
+                    "mobile_command_vehicles": 1,
                     "platform_trucks": 2,
                     "water_tankers": 1,
-                    "police_cars": 1,
-                    "hose": 1
+                    "police_cars": 3,
+                    "hose": 2,
+                    "pump": 1
                 },
                 "chances": {
                     "water_tankers": 20,
@@ -3096,7 +3094,7 @@
         "name": "Poids lourd en feu",
         "place": "",
         "place_array": {},
-        "average_credits": 1400,
+        "average_credits": 1200,
         "generated_by": "Centre de secours",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -3106,38 +3104,6 @@
         "requirements": {
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
-            "water_tankers": 1,
-            "police_cars": 1
-        },
-        "chances": {
-            "water_tankers": 10
-        },
-        "additional": {
-            "filter_id": "firehouse_missions"
-        },
-        "prerequisites": {
-            "main_building": 0,
-            "police_stations": 1,
-            "fire_stations": 7
-        },
-        "alternate_version": null
-    },
-    "100": {
-        "id": 100,
-        "name": "Camion poubelle en feu",
-        "place": "",
-        "place_array": {},
-        "average_credits": 2000,
-        "generated_by": "Centre de secours",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 3,
-            "battalion_chief_vehicles": 2,
-            "water_tankers": 1,
             "police_cars": 1
         },
         "chances": {},
@@ -3149,7 +3115,95 @@
             "police_stations": 1,
             "fire_stations": 7
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 99,
+                "name": "Poids lourd en feu",
+                "place": "",
+                "place_array": {},
+                "average_credits": 1700,
+                "generated_by": "Centre de secours",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 3,
+                    "battalion_chief_vehicles": 1,
+                    "police_cars": 1,
+                    "foam": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "police_stations": 1,
+                    "fire_stations": 7
+                },
+                "alternate_version": null
+            }
+        }
+    },
+    "100": {
+        "id": 100,
+        "name": "Camion poubelle en feu",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1700,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 2,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 7
+        },
+        "alternate_version": {
+            "mission_type": {
+                "id": 100,
+                "name": "Camion poubelle en feu",
+                "place": "",
+                "place_array": {},
+                "average_credits": 2200,
+                "generated_by": "Centre de secours",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 3,
+                    "battalion_chief_vehicles": 2,
+                    "police_cars": 1,
+                    "foam": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "police_stations": 1,
+                    "fire_stations": 7
+                },
+                "alternate_version": null
+            }
+        }
     },
     "101": {
         "id": 101,
@@ -4254,7 +4308,7 @@
         "place_array": {
             "0": "Silo"
         },
-        "average_credits": 3000,
+        "average_credits": 2700,
         "generated_by": "Centre de secours",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -4265,8 +4319,7 @@
             "water_needed": 13000,
             "firetrucks": 4,
             "battalion_chief_vehicles": 2,
-            "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1
+            "platform_trucks": 1
         },
         "chances": {},
         "additional": {
@@ -4284,7 +4337,7 @@
                 "place_array": {
                     "0": "Silo"
                 },
-                "average_credits": 3300,
+                "average_credits": 6600,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -4296,8 +4349,8 @@
                     "firetrucks": 4,
                     "battalion_chief_vehicles": 2,
                     "platform_trucks": 1,
-                    "heavy_rescue_vehicles": 1,
-                    "hose": 1
+                    "hose": 2,
+                    "pump": 1
                 },
                 "chances": {},
                 "additional": {
@@ -6584,7 +6637,7 @@
                 "place_array": {
                     "0": "Tunnel"
                 },
-                "average_credits": 6300,
+                "average_credits": 6800,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -6600,7 +6653,8 @@
                     "water_tankers": 1,
                     "mobile_air_vehicles": 1,
                     "police_cars": 2,
-                    "hose": 1
+                    "hose": 2,
+                    "pump": 1
                 },
                 "chances": {
                     "water_tankers": 40,
@@ -6741,7 +6795,7 @@
                 "place_array": {
                     "0": "Bureaux"
                 },
-                "average_credits": 7800,
+                "average_credits": 8000,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -6755,7 +6809,7 @@
                     "mobile_air_vehicles": 1,
                     "police_cars": 3,
                     "hose": 2,
-                    "pump": 1
+                    "pump": 2
                 },
                 "chances": {
                     "mobile_air_vehicles": 50,
@@ -6829,7 +6883,7 @@
                 "place_array": {
                     "0": "Bureaux"
                 },
-                "average_credits": 11300,
+                "average_credits": 11800,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -6843,8 +6897,8 @@
                     "platform_trucks": 3,
                     "mobile_air_vehicles": 1,
                     "police_cars": 3,
-                    "hose": 2,
-                    "pump": 1
+                    "hose": 3,
+                    "pump": 2
                 },
                 "chances": {
                     "police_cars": 50,
@@ -6943,7 +6997,7 @@
                 "place_array": {
                     "0": "Centre de recyclage"
                 },
-                "average_credits": 10520,
+                "average_credits": 11720,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -6960,8 +7014,9 @@
                     "water_tankers": 1,
                     "mobile_air_vehicles": 1,
                     "police_cars": 3,
-                    "hose": 2,
-                    "pump": 1
+                    "hose": 3,
+                    "pump": 3,
+                    "foam": 1
                 },
                 "chances": {
                     "patient_transport": 40
@@ -7060,7 +7115,7 @@
                 "place_array": {
                     "0": "Usine"
                 },
-                "average_credits": 5160,
+                "average_credits": 5660,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -7074,7 +7129,8 @@
                     "platform_trucks": 1,
                     "water_tankers": 1,
                     "police_cars": 2,
-                    "hose": 1
+                    "hose": 2,
+                    "pump": 1
                 },
                 "chances": {
                     "police_cars": 50,
@@ -7107,7 +7163,7 @@
         "place_array": {
             "0": "Usine"
         },
-        "average_credits": 9440,
+        "average_credits": 9140,
         "generated_by": "Centre de secours",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -7120,7 +7176,6 @@
             "mobile_command_vehicles": 1,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 1,
-            "water_tankers": 1,
             "mobile_air_vehicles": 1,
             "police_cars": 6
         },
@@ -7147,7 +7202,7 @@
                 "place_array": {
                     "0": "Usine"
                 },
-                "average_credits": 10740,
+                "average_credits": 11440,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -7160,12 +7215,11 @@
                     "mobile_command_vehicles": 1,
                     "platform_trucks": 2,
                     "heavy_rescue_vehicles": 1,
-                    "water_tankers": 1,
                     "mobile_air_vehicles": 1,
                     "police_cars": 6,
-                    "hose": 2,
-                    "pump": 1,
-                    "foam": 1
+                    "hose": 3,
+                    "pump": 2,
+                    "foam": 2
                 },
                 "chances": {
                     "patient_transport": 90,
@@ -7236,7 +7290,7 @@
                 "place_array": {
                     "0": "Usine"
                 },
-                "average_credits": 29450,
+                "average_credits": 31650,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -7254,8 +7308,9 @@
                     "hazmat_vehicles": 2,
                     "police_cars": 8,
                     "thw_gkw": 1,
-                    "hose": 2,
-                    "foam": 1
+                    "hose": 4,
+                    "pump": 3,
+                    "foam": 3
                 },
                 "chances": {
                     "patient_transport": 90,
@@ -7771,7 +7826,7 @@
                 "name": "Feu de chaumi\u00e8re",
                 "place": "",
                 "place_array": {},
-                "average_credits": 4380,
+                "average_credits": 4580,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -7785,7 +7840,8 @@
                     "platform_trucks": 1,
                     "mobile_air_vehicles": 1,
                     "police_cars": 2,
-                    "hose": 1
+                    "hose": 1,
+                    "pump": 1
                 },
                 "chances": {
                     "mobile_air_vehicles": 30,
@@ -8255,7 +8311,7 @@
                 "place_array": {
                     "0": "Atelier de menuiserie"
                 },
-                "average_credits": 4700,
+                "average_credits": 5200,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -8270,8 +8326,8 @@
                     "water_tankers": 1,
                     "mobile_air_vehicles": 1,
                     "police_cars": 2,
-                    "hose": 1,
-                    "pump": 1
+                    "hose": 2,
+                    "pump": 2
                 },
                 "chances": {
                     "patient_transport": 25
@@ -8339,7 +8395,7 @@
                 "place_array": {
                     "0": "Centre commercial"
                 },
-                "average_credits": 7500,
+                "average_credits": 8700,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -8354,8 +8410,9 @@
                     "water_tankers": 1,
                     "mobile_air_vehicles": 1,
                     "police_cars": 2,
-                    "hose": 1,
-                    "pump": 1
+                    "hose": 2,
+                    "pump": 3,
+                    "foam": 1
                 },
                 "chances": {
                     "water_tankers": 20,
@@ -9767,9 +9824,10 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "firetrucks": 10,
+            "firetrucks": 4,
             "battalion_chief_vehicles": 4,
-            "platform_trucks": 1
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2
         },
         "chances": {
             "patient_transport": 20
@@ -9801,9 +9859,10 @@
                     "2": "/images/fire_rot.png"
                 },
                 "requirements": {
-                    "firetrucks": 10,
+                    "firetrucks": 4,
                     "battalion_chief_vehicles": 4,
-                    "platform_trucks": 1,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
                     "hose": 2,
                     "pump": 1
                 },
@@ -10732,7 +10791,7 @@
         "place_array": {
             "0": "Gare ferroviaire (trajets r\u00e9gionaux)"
         },
-        "average_credits": 13000,
+        "average_credits": 12700,
         "generated_by": "Centre de secours",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -10746,13 +10805,11 @@
             "mobile_command_vehicles": 1,
             "platform_trucks": 4,
             "heavy_rescue_vehicles": 1,
-            "water_tankers": 1,
             "mobile_air_vehicles": 1,
             "hazmat_vehicles": 1,
             "police_cars": 8
         },
         "chances": {
-            "water_tankers": 20,
             "patient_transport": 40
         },
         "additional": {
@@ -10774,7 +10831,7 @@
                 "place_array": {
                     "0": "Gare ferroviaire (trajets r\u00e9gionaux)"
                 },
-                "average_credits": 13800,
+                "average_credits": 15000,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -10788,15 +10845,14 @@
                     "mobile_command_vehicles": 1,
                     "platform_trucks": 4,
                     "heavy_rescue_vehicles": 1,
-                    "water_tankers": 1,
                     "mobile_air_vehicles": 1,
                     "hazmat_vehicles": 1,
                     "police_cars": 8,
-                    "hose": 2,
-                    "pump": 1
+                    "hose": 4,
+                    "pump": 3,
+                    "foam": 1
                 },
                 "chances": {
-                    "water_tankers": 20,
                     "patient_transport": 40
                 },
                 "additional": {
@@ -11130,7 +11186,7 @@
         "place_array": {
             "0": "R\u00e9sidence Prot\u00e9g\u00e9e"
         },
-        "average_credits": 3500,
+        "average_credits": 3700,
         "generated_by": "Centre de secours",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -11139,7 +11195,8 @@
         },
         "requirements": {
             "firetrucks": 4,
-            "battalion_chief_vehicles": 2
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1
         },
         "chances": {
             "patient_transport": 70,
@@ -11164,7 +11221,7 @@
                 "place_array": {
                     "0": "R\u00e9sidence Prot\u00e9g\u00e9e"
                 },
-                "average_credits": 4000,
+                "average_credits": 4400,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/fire_gruen.png",
@@ -11174,8 +11231,9 @@
                 "requirements": {
                     "firetrucks": 4,
                     "battalion_chief_vehicles": 2,
+                    "platform_trucks": 1,
                     "hose": 1,
-                    "pump": 1
+                    "pump": 2
                 },
                 "chances": {
                     "patient_transport": 70,
@@ -11643,6 +11701,10 @@
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 347,
+                "1": 348
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -11672,6 +11734,10 @@
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 347,
+                "1": 348
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -11705,6 +11771,9 @@
         },
         "additional": {
             "possible_patient": 3,
+            "expansion_missions_ids": {
+                "0": 348
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologie"
         },
@@ -11720,7 +11789,7 @@
                 "name": "Fuite de Gaz - Enflamm\u00e9e",
                 "place": "",
                 "place_array": {},
-                "average_credits": 8300,
+                "average_credits": 8500,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/radiation_gruen.png",
@@ -11733,6 +11802,7 @@
                     "platform_trucks": 1,
                     "police_cars": 4,
                     "hose": 1,
+                    "pump": 1,
                     "foam": 1
                 },
                 "chances": {
@@ -11741,6 +11811,9 @@
                 },
                 "additional": {
                     "possible_patient": 3,
+                    "expansion_missions_ids": {
+                        "0": 348
+                    },
                     "filter_id": "firehouse_missions",
                     "patient_specializations": "Traumatologie"
                 },
@@ -11798,7 +11871,7 @@
                 "name": "Fuite de Gaz - Explosion",
                 "place": "",
                 "place_array": {},
-                "average_credits": 12700,
+                "average_credits": 13200,
                 "generated_by": "Centre de secours",
                 "icons": {
                     "0": "/images/radiation_gruen.png",
@@ -11814,7 +11887,8 @@
                     "mobile_air_vehicles": 1,
                     "hazmat_vehicles": 1,
                     "police_cars": 8,
-                    "pump": 1,
+                    "hose": 1,
+                    "pump": 2,
                     "foam": 1
                 },
                 "chances": {

@@ -3081,10 +3081,12 @@
         },
         "requirements": {
             "firetrucks": 14,
-            "battalion_chief_vehicles": 4,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 2,
             "water_tankers": 1,
+            "mobile_air_vehicles": 1,
             "police_cars": 6
         },
         "chances": {

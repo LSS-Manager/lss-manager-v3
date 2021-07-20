@@ -6655,7 +6655,7 @@
         },
         "prerequisites": {
             "main_building": 6,
-            "police_stations": 6
+            "police_stations": 8
         },
         "alternate_version": null
     },
@@ -6718,7 +6718,7 @@
         "prerequisites": {
             "main_building": 6,
             "rescue_stations": 2,
-            "police_stations": 6
+            "police_stations": 8
         },
         "alternate_version": null
     },
@@ -6753,7 +6753,7 @@
         "prerequisites": {
             "main_building": 6,
             "rescue_stations": 3,
-            "police_stations": 7,
+            "police_stations": 8,
             "police_helicopter_stations": 1
         },
         "alternate_version": null

@@ -10882,8 +10882,8 @@
         },
         "requirements": {
             "firetrucks": 1,
-            "heavy_rescue_vehicles": 2,
-            "police_cars": 4
+            "police_cars": 4,
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 100,

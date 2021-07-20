@@ -913,6 +913,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 2000,
             "firetrucks": 1,
             "platform_trucks": 1
         },
@@ -939,6 +940,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 1200,
             "firetrucks": 1
         },
         "chances": {},
@@ -966,6 +968,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 7500,
             "firetrucks": 3,
             "heavy_rescue_vehicles": 1
         },
@@ -1011,6 +1014,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 45000,
             "firetrucks": 8,
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
@@ -1292,6 +1296,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 25000,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
@@ -1882,6 +1887,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 12000,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
@@ -2038,6 +2044,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 2000,
             "firetrucks": 1
         },
         "chances": {},
@@ -2063,6 +2070,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 6000,
             "firetrucks": 2,
             "platform_trucks": 1
         },
@@ -2150,6 +2158,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 35000,
             "firetrucks": 5,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
@@ -2234,6 +2243,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 55000,
             "firetrucks": 6,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
@@ -3939,6 +3949,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 100000,
             "firetrucks": 6,
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
@@ -4172,6 +4183,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 5000,
             "firetrucks": 2,
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 1,
@@ -4220,6 +4232,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 1500,
             "firetrucks": 2,
             "heavy_rescue_vehicles": 1
         },
@@ -4264,6 +4277,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 25000,
             "firetrucks": 8,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
@@ -4495,6 +4509,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 8000,
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
@@ -4860,9 +4875,11 @@
     },
     "139": {
         "id": 139,
-        "name": "Incendio cisterna chimica (GRANDE)",
-        "place": "",
-        "place_array": {},
+        "name": "Incendio cisterna chimica (PICCOLO)",
+        "place": "Piccolo serbatoio di accumulo sostanze chimiche",
+        "place_array": {
+            "0": "Piccolo serbatoio di accumulo sostanze chimiche"
+        },
         "average_credits": 3500,
         "generated_by": "Stazione di polizia",
         "icons": {
@@ -4871,6 +4888,7 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
+            "water_needed": 18000,
             "firetrucks": 3,
             "mobile_command_vehicles": 1,
             "platform_trucks": 1,
@@ -5217,7 +5235,7 @@
     },
     "149": {
         "id": 149,
-        "name": "Incendio cisterna chimica",
+        "name": "Incendio cisterna chimica (GRANDE)",
         "place": "Grande serbatoio di accumulo sostanze chimiche",
         "place_array": {
             "0": "Grande serbatoio di accumulo sostanze chimiche"
@@ -5230,6 +5248,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 38000,
             "firetrucks": 5,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 4,
@@ -5283,6 +5302,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 100,
             "firetrucks": 1,
             "heavy_rescue_vehicles": 1
         },
@@ -5786,6 +5806,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 7000,
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 2,
@@ -5826,7 +5847,7 @@
     },
     "166": {
         "id": 166,
-        "name": "Incendio cisterna chimica (PICCOLA)",
+        "name": "Incendio cisterna chimica (MEDIA)",
         "place": "Piccolo serbatoio di accumulo sostanze chimiche",
         "place_array": {
             "0": "Piccolo serbatoio di accumulo sostanze chimiche"
@@ -5839,6 +5860,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 28000,
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 2,
@@ -6037,6 +6059,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 17000,
             "firetrucks": 6,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 4,
@@ -6120,6 +6143,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 10000,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
@@ -6436,6 +6460,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 5000,
             "firetrucks": 2,
             "heavy_rescue_vehicles": 1,
             "police_cars": 1
@@ -6482,6 +6507,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 15000,
             "firetrucks": 3,
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 2,
@@ -6529,6 +6555,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 35000,
             "firetrucks": 6,
             "mobile_command_vehicles": 1,
             "platform_trucks": 1,
@@ -6577,6 +6604,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 6000,
             "firetrucks": 2,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
@@ -6758,6 +6786,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 200,
             "firetrucks": 1
         },
         "chances": {},
@@ -6785,6 +6814,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 1000,
             "firetrucks": 1,
             "police_cars": 1
         },
@@ -6936,6 +6966,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 16000,
             "firetrucks": 5,
             "mobile_command_vehicles": 1,
             "heavy_rescue_vehicles": 3,
@@ -7507,6 +7538,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 75000,
             "firetrucks": 5,
             "mobile_command_vehicles": 1,
             "platform_trucks": 2,
@@ -8267,6 +8299,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 10000,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
@@ -8352,6 +8385,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 36000,
             "firetrucks": 8,
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
@@ -9561,6 +9595,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 20000,
             "firetrucks": 6,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
@@ -10673,6 +10708,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 5000,
             "firetrucks": 2,
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 1,
@@ -12559,6 +12595,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 45000,
             "firetrucks": 6,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
@@ -12597,6 +12634,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 12000,
             "firetrucks": 3,
             "heavy_rescue_vehicles": 1,
             "police_cars": 2
@@ -12802,6 +12840,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 22000,
             "firetrucks": 6,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 2,
@@ -12849,6 +12888,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 1500,
             "firetrucks": 2,
             "heavy_rescue_vehicles": 1,
             "police_cars": 1
@@ -14934,6 +14974,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 1500,
             "firetrucks": 1,
             "police_cars": 1
         },
