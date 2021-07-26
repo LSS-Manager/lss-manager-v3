@@ -9537,5 +9537,43 @@
             "fire_stations": 4
         },
         "alternate_version": null
+    },
+    "313": {
+        "id": 313,
+        "name": "Explos\u00e3o numa caixa de multibanco",
+        "place": "Banco",
+        "place_array": {
+            "0": "Banco"
+        },
+        "average_credits": 5000,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "police_cars": 5,
+            "fbi_bomb": 2
+        },
+        "chances": {
+            "patient_transport": 25,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 4,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "Cardiologia"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 4,
+            "police_stations": 8,
+            "fire_stations": 5
+        },
+        "alternate_version": null
     }
 }

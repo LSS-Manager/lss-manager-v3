@@ -15267,5 +15267,60 @@
             "fire_stations": 8
         },
         "alternate_version": null
+    },
+    "418": {
+        "id": 418,
+        "name": "Anziano Truffato",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "419": {
+        "id": 419,
+        "name": "Auto Sospetta",
+        "place": "",
+        "place_array": {},
+        "average_credits": 700,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 155
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 1
+        },
+        "alternate_version": null
     }
 }

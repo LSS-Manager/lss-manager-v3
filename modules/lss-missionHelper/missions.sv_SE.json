@@ -4194,9 +4194,7 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {
-                "0": 132
-            },
+            "expansion_missions_ids": {},
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -5354,9 +5352,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 179
-            },
+            "expansion_missions_ids": {},
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
@@ -10013,6 +10009,32 @@
         "prerequisites": {
             "main_building": 6,
             "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "325": {
+        "id": 325,
+        "name": "Brott mot bl\u00e5ljusverksamhet",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 5,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 2
         },
         "alternate_version": null
     },

@@ -22238,5 +22238,38 @@
             "fire_stations": 3
         },
         "alternate_version": null
+    },
+    "607": {
+        "id": 607,
+        "name": "Illegal street racing",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2400,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "29-B-1"
+            },
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 3
+        },
+        "alternate_version": null
     }
 }

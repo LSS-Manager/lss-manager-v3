@@ -10442,5 +10442,43 @@
             "fire_stations": 4
         },
         "alternate_version": null
+    },
+    "339": {
+        "id": 339,
+        "name": "Brann p\u00e5 diskotek",
+        "place": "Nattklubb",
+        "place_array": {
+            "0": "Nattklubb"
+        },
+        "average_credits": 5500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 25,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 15,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 7,
+            "police_stations": 4,
+            "fire_stations": 8
+        },
+        "alternate_version": null
     }
 }
