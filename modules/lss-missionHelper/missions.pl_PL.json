@@ -12996,5 +12996,71 @@
             "fire_stations": 22
         },
         "alternate_version": null
+    },
+    "424": {
+        "id": 424,
+        "name": "Po\u0142kni\u0119cie rt\u0119ci",
+        "place": "",
+        "place_array": {},
+        "average_credits": 888,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 88,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 5
+        },
+        "alternate_version": null
+    },
+    "425": {
+        "id": 425,
+        "name": "Samopodpalenie",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 75,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 6,
+            "police_stations": 4,
+            "fire_stations": 2
+        },
+        "alternate_version": null
     }
 }
