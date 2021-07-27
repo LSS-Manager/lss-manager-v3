@@ -174,13 +174,64 @@
                 "7": "7-B-2F",
                 "8": "7-A-1F"
             },
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 5,
+                "name": "Room fire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 1900,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 2,
+                    "platform_trucks": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "platform_trucks": 30,
+                    "patient_transport": 50
+                },
+                "additional": {
+                    "possible_patient": 1,
+                    "expansion_missions_ids": {
+                        "0": 88
+                    },
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-E-1F",
+                        "1": "7-D-2F",
+                        "2": "7-D-3F",
+                        "3": "7-D-4F",
+                        "4": "7-C-2F",
+                        "5": "7-C-3F",
+                        "6": "7-C-4F",
+                        "7": "7-B-2F",
+                        "8": "7-A-1F"
+                    },
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 2
+                },
+                "alternate_version": null
+            }
+        }
     },
     "6": {
         "id": 6,
@@ -199,13 +250,44 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 5,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 6,
+                "name": "Garden shed fire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 1100,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 5,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 2
+                },
+                "alternate_version": null
+            }
+        }
     },
     "7": {
         "id": 7,
@@ -370,7 +452,8 @@
                 "0": 25
             },
             "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true
         },
         "prerequisites": {
             "main_building": 0,
@@ -504,13 +587,44 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 5,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 17,
+                "name": "Mailbox on fire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 840,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 5,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 1
+                },
+                "alternate_version": null
+            }
+        }
     },
     "18": {
         "id": 18,
@@ -603,13 +717,68 @@
                 "14": "8-C-1G",
                 "15": "8-B-1G"
             },
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 20,
+                "name": "Basement fire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 3000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 3,
+                    "battalion_chief_vehicles": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "battalion_chief_vehicles": 90,
+                    "patient_transport": 30
+                },
+                "additional": {
+                    "possible_patient": 2,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-E-1F",
+                        "1": "7-D-2F",
+                        "2": "7-D-3F",
+                        "3": "7-D-4F",
+                        "4": "7-C-2F",
+                        "5": "7-C-3F",
+                        "6": "7-C-4F",
+                        "7": "7-B-2F",
+                        "8": "7-A-1F",
+                        "9": "8-D-1G",
+                        "10": "8-D-2G",
+                        "11": "8-D-3G",
+                        "12": "8-D-4G",
+                        "13": "8-D-5G",
+                        "14": "8-C-1G",
+                        "15": "8-B-1G"
+                    },
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 3
+                },
+                "alternate_version": null
+            }
+        }
     },
     "21": {
         "id": 21,
@@ -669,13 +838,53 @@
                 "0": 87,
                 "1": 99
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 22,
+                "name": "Roof fire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 3200,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 3,
+                    "battalion_chief_vehicles": 1,
+                    "platform_trucks": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "battalion_chief_vehicles": 50,
+                    "platform_trucks": 100
+                },
+                "additional": {
+                    "expansion_missions_ids": {
+                        "0": 87,
+                        "1": 99
+                    },
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 3
+                },
+                "alternate_version": null
+            }
+        }
     },
     "23": {
         "id": 23,
@@ -724,13 +933,46 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 24,
+                "name": "Burning bus shelter",
+                "place": "Bus stop",
+                "place_array": {
+                    "0": "Bus stop"
+                },
+                "average_credits": 1400,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 3
+                },
+                "alternate_version": null
+            }
+        }
     },
     "25": {
         "id": 25,
@@ -796,13 +1038,44 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 26,
+                "name": "Garage fire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 1900,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 4
+                },
+                "alternate_version": null
+            }
+        }
     },
     "27": {
         "id": 27,
@@ -1475,6 +1748,8 @@
         "additional": {
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1,
             "personnel_educations": {
                 "HazMat": 4
             }
@@ -1483,7 +1758,55 @@
             "main_building": 0,
             "fire_stations": 11
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 46,
+                "name": "Gas station fire",
+                "place": "Gas station",
+                "place_array": {
+                    "0": "Gas station"
+                },
+                "average_credits": 4420,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 4,
+                    "battalion_chief_vehicles": 1,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 1,
+                    "heavy_rescue_vehicles": 2,
+                    "mobile_air_vehicles": 1,
+                    "hazmat_vehicles": 1,
+                    "personnel_educations": {
+                        "gw_gefahrgut": 4
+                    },
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "heavy_rescue_vehicles": 30,
+                    "mobile_air_vehicles": 30,
+                    "hazmat_vehicles": 70
+                },
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1,
+                    "personnel_educations": {
+                        "HazMat": 4
+                    }
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 11
+                },
+                "alternate_version": null
+            }
+        }
     },
     "47": {
         "id": 47,
@@ -2332,7 +2655,8 @@
         "chances": {},
         "additional": {
             "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true
         },
         "prerequisites": {
             "main_building": 0,
@@ -2359,14 +2683,48 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "fire_alarm_system_possible": true
+            "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "max_police_stations": 4,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 76,
+                "name": "Burning substation",
+                "place": "",
+                "place_array": {},
+                "average_credits": 2400,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 2,
+                    "battalion_chief_vehicles": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "max_police_stations": 4,
+                    "fire_stations": 4
+                },
+                "alternate_version": null
+            }
+        }
     },
     "77": {
         "id": 77,
@@ -2387,14 +2745,48 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "police_stations": 5,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 77,
+                "name": "Burning substation",
+                "place": "",
+                "place_array": {},
+                "average_credits": 2500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 2,
+                    "battalion_chief_vehicles": 1,
+                    "police_cars": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "police_stations": 5,
+                    "fire_stations": 4
+                },
+                "alternate_version": null
+            }
+        }
     },
     "78": {
         "id": 78,
@@ -2422,6 +2814,7 @@
             "patient_us_code_possible": {
                 "0": "22-B-2"
             },
+            "allow_dlk_instead_of_lf": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -2737,6 +3130,8 @@
                 "0": "7-C-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Surgeon",
             "personnel_educations": {
                 "HazMat": 4
@@ -2747,7 +3142,55 @@
             "rescue_stations": 2,
             "fire_stations": 11
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 87,
+                "name": "Industrial Fire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 5800,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 5,
+                    "battalion_chief_vehicles": 2,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "hazmat_vehicles": 1,
+                    "personnel_educations": {
+                        "gw_gefahrgut": 4
+                    },
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 30
+                },
+                "additional": {
+                    "possible_patient": 4,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-C-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Surgeon",
+                    "personnel_educations": {
+                        "HazMat": 4
+                    }
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 2,
+                    "fire_stations": 11
+                },
+                "alternate_version": null
+            }
+        }
     },
     "88": {
         "id": 88,
@@ -3191,6 +3634,8 @@
                 "0": "7-C-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -3199,7 +3644,51 @@
             "police_stations": 2,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 99,
+                "name": "Commercial Fire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 4500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 6,
+                    "battalion_chief_vehicles": 2,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "heavy_rescue_vehicles": 2,
+                    "police_cars": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 25
+                },
+                "additional": {
+                    "possible_patient": 4,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-C-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 2,
+                    "police_stations": 2,
+                    "fire_stations": 13
+                },
+                "alternate_version": null
+            }
+        }
     },
     "100": {
         "id": 100,
@@ -3321,6 +3810,8 @@
                 "0": "7-C-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -3328,7 +3819,55 @@
             "rescue_stations": 1,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 102,
+                "name": "High Rise Fire",
+                "place": "High Rise",
+                "place_array": {
+                    "0": "High Rise"
+                },
+                "average_credits": 4500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 5,
+                    "battalion_chief_vehicles": 2,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "heavy_rescue_vehicles": 1,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "mobile_air_vehicles": 50,
+                    "patient_transport": 50
+                },
+                "additional": {
+                    "possible_patient": 7,
+                    "possible_patient_min": 4,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-C-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 1,
+                    "fire_stations": 13
+                },
+                "alternate_version": null
+            }
+        }
     },
     "103": {
         "id": 103,
@@ -3474,7 +4013,8 @@
         "chances": {},
         "additional": {
             "swat_personnel": 18,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "allow_swat_instead_of_police": true
         },
         "prerequisites": {
             "main_building": 5,
@@ -3500,7 +4040,8 @@
         "chances": {},
         "additional": {
             "swat_personnel": 6,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "allow_swat_instead_of_police": true
         },
         "prerequisites": {
             "main_building": 5,
@@ -3621,6 +4162,8 @@
                 "0": "7-C-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -3629,7 +4172,49 @@
             "police_stations": 2,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 110,
+                "name": "Residential Fire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 2250,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 3,
+                    "battalion_chief_vehicles": 1,
+                    "platform_trucks": 1,
+                    "police_cars": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 50
+                },
+                "additional": {
+                    "possible_patient": 4,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-C-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Surgeon"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 2,
+                    "police_stations": 2,
+                    "fire_stations": 6
+                },
+                "alternate_version": null
+            }
+        }
     },
     "111": {
         "id": 111,
@@ -4606,6 +5191,8 @@
                 "0": "7-C-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal",
             "personnel_educations": {
                 "HazMat": 4
@@ -4617,7 +5204,58 @@
             "police_stations": 4,
             "fire_stations": 11
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 139,
+                "name": "Drug Lab Fire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 3500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 4,
+                    "battalion_chief_vehicles": 2,
+                    "platform_trucks": 2,
+                    "hazmat_vehicles": 2,
+                    "police_cars": 4,
+                    "personnel_educations": {
+                        "gw_gefahrgut": 4
+                    },
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 30
+                },
+                "additional": {
+                    "possible_patient": 10,
+                    "possible_patient_min": 1,
+                    "max_possible_prisoners": 5,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-C-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal",
+                    "personnel_educations": {
+                        "HazMat": 4
+                    }
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 5,
+                    "police_stations": 4,
+                    "fire_stations": 11
+                },
+                "alternate_version": null
+            }
+        }
     },
     "140": {
         "id": 140,
@@ -4712,6 +5350,8 @@
                 "0": "7-C-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 2,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4720,7 +5360,55 @@
             "police_stations": 5,
             "fire_stations": 20
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 142,
+                "name": "Warehouse Fire",
+                "place": "Warehouse",
+                "place_array": {
+                    "0": "Warehouse"
+                },
+                "average_credits": 11000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 10,
+                    "battalion_chief_vehicles": 2,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 4,
+                    "heavy_rescue_vehicles": 4,
+                    "water_tankers": 3,
+                    "mobile_air_vehicles": 4,
+                    "police_cars": 2,
+                    "fire_investigation": 2
+                },
+                "chances": {
+                    "patient_transport": 30
+                },
+                "additional": {
+                    "possible_patient": 2,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-C-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 2,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 5,
+                    "police_stations": 5,
+                    "fire_stations": 20
+                },
+                "alternate_version": null
+            }
+        }
     },
     "143": {
         "id": 143,
@@ -5096,13 +5784,50 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 5,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 7
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 153,
+                "name": "Barn Fire",
+                "place": "Farm",
+                "place_array": {
+                    "0": "Farm"
+                },
+                "average_credits": 2300,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 6,
+                    "battalion_chief_vehicles": 1,
+                    "platform_trucks": 1,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 5,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 7
+                },
+                "alternate_version": null
+            }
+        }
     },
     "154": {
         "id": 154,
@@ -5188,6 +5913,8 @@
                 "0": "29-D-4"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 2,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5195,7 +5922,53 @@
             "rescue_stations": 6,
             "fire_stations": 10
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 155,
+                "name": "Fire in Hospital",
+                "place": "Hospital",
+                "place_array": {
+                    "0": "Hospital"
+                },
+                "average_credits": 7000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 10,
+                    "battalion_chief_vehicles": 2,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 3,
+                    "heavy_rescue_vehicles": 2,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 1,
+                    "fire_investigation": 2
+                },
+                "chances": {
+                    "patient_transport": 50
+                },
+                "additional": {
+                    "possible_patient": 25,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "29-D-4"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 2,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 6,
+                    "fire_stations": 10
+                },
+                "alternate_version": null
+            }
+        }
     },
     "156": {
         "id": 156,
@@ -6245,6 +7018,8 @@
                 "0": "7-C-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6252,7 +7027,56 @@
             "rescue_stations": 3,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 181,
+                "name": "School fire",
+                "place": "School",
+                "place_array": {
+                    "0": "School"
+                },
+                "average_credits": 6500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 5,
+                    "battalion_chief_vehicles": 1,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 1,
+                    "heavy_rescue_vehicles": 1,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "mobile_command_vehicles": 20,
+                    "water_tankers": 25,
+                    "mobile_air_vehicles": 50,
+                    "patient_transport": 50
+                },
+                "additional": {
+                    "possible_patient": 6,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-C-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 3,
+                    "fire_stations": 13
+                },
+                "alternate_version": null
+            }
+        }
     },
     "182": {
         "id": 182,
@@ -6282,6 +7106,8 @@
                 "0": "7-C-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6289,7 +7115,48 @@
             "rescue_stations": 2,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 182,
+                "name": "Cafeteria fire",
+                "place": "School",
+                "place_array": {
+                    "0": "School"
+                },
+                "average_credits": 1800,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 3,
+                    "battalion_chief_vehicles": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 50
+                },
+                "additional": {
+                    "possible_patient": 2,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-C-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 2,
+                    "fire_stations": 6
+                },
+                "alternate_version": null
+            }
+        }
     },
     "183": {
         "id": 183,
@@ -6356,6 +7223,8 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 2,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6365,7 +7234,56 @@
             "rescue_boat_docks": 1,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 184,
+                "name": "Container Ship Fire",
+                "place": "Cargo port",
+                "place_array": {
+                    "0": "Cargo port"
+                },
+                "average_credits": 11000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 4,
+                    "large_rescue_boat": 1,
+                    "large_fire_boat": 1,
+                    "battalion_chief_vehicles": 1,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 1,
+                    "heavy_rescue_vehicles": 1,
+                    "mobile_air_vehicles": 2,
+                    "hazmat_vehicles": 1,
+                    "fire_investigation": 2
+                },
+                "chances": {
+                    "patient_transport": 50
+                },
+                "additional": {
+                    "possible_patient": 6,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-C-1F"
+                    },
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 2,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 3,
+                    "fire_boat_docks": 1,
+                    "rescue_boat_docks": 1,
+                    "fire_stations": 13
+                },
+                "alternate_version": null
+            }
+        }
     },
     "185": {
         "id": 185,
@@ -6396,6 +7314,8 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6404,7 +7324,50 @@
             "fire_boat_docks": 1,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 185,
+                "name": "Dock Crane fire",
+                "place": "Cargo port",
+                "place_array": {
+                    "0": "Cargo port"
+                },
+                "average_credits": 6500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 3,
+                    "large_fire_boat": 1,
+                    "battalion_chief_vehicles": 1,
+                    "platform_trucks": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 20
+                },
+                "additional": {
+                    "possible_patient": 1,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-C-1F"
+                    },
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 1,
+                    "fire_boat_docks": 1,
+                    "fire_stations": 6
+                },
+                "alternate_version": null
+            }
+        }
     },
     "186": {
         "id": 186,
@@ -6439,6 +7402,8 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 2,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6447,7 +7412,54 @@
             "police_stations": 2,
             "fire_stations": 20
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 186,
+                "name": "Recycling Centre fire",
+                "place": "Recycling Centre",
+                "place_array": {
+                    "0": "Recycling Centre"
+                },
+                "average_credits": 11000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 12,
+                    "battalion_chief_vehicles": 2,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "heavy_rescue_vehicles": 3,
+                    "water_tankers": 3,
+                    "mobile_air_vehicles": 1,
+                    "police_cars": 2,
+                    "fire_investigation": 2
+                },
+                "chances": {
+                    "patient_transport": 20
+                },
+                "additional": {
+                    "possible_patient": 2,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-C-1F"
+                    },
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 2,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 1,
+                    "police_stations": 2,
+                    "fire_stations": 20
+                },
+                "alternate_version": null
+            }
+        }
     },
     "187": {
         "id": 187,
@@ -6849,13 +7861,47 @@
             "expansion_missions_ids": {
                 "0": 110
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 5,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 196,
+                "name": "Kitchen Fire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 1500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "expansion_missions_ids": {
+                        "0": 110
+                    },
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 5,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 2
+                },
+                "alternate_version": null
+            }
+        }
     },
     "197": {
         "id": 197,
@@ -7024,13 +8070,46 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 10
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 202,
+                "name": "Large Field Fire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 3500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 5,
+                    "battalion_chief_vehicles": 1,
+                    "water_tankers": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 10
+                },
+                "alternate_version": null
+            }
+        }
     },
     "203": {
         "id": 203,
@@ -7170,13 +8249,44 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 206,
+                "name": "Transformer fire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 1300,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 2
+                },
+                "alternate_version": null
+            }
+        }
     },
     "207": {
         "id": 207,
@@ -7238,6 +8348,8 @@
                 "0": "7-C-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 2,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -7246,7 +8358,56 @@
             "police_stations": 2,
             "fire_stations": 25
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 208,
+                "name": "Power Plant fire",
+                "place": "Power Plant",
+                "place_array": {
+                    "0": "Power Plant"
+                },
+                "average_credits": 15500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 8,
+                    "battalion_chief_vehicles": 4,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 3,
+                    "heavy_rescue_vehicles": 4,
+                    "water_tankers": 2,
+                    "mobile_air_vehicles": 2,
+                    "hazmat_vehicles": 1,
+                    "police_cars": 4,
+                    "fire_investigation": 2
+                },
+                "chances": {
+                    "patient_transport": 60
+                },
+                "additional": {
+                    "possible_patient": 10,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-C-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 2,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 10,
+                    "police_stations": 2,
+                    "fire_stations": 25
+                },
+                "alternate_version": null
+            }
+        }
     },
     "209": {
         "id": 209,
@@ -7276,6 +8437,8 @@
                 "0": "7-C-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -7283,7 +8446,48 @@
             "rescue_stations": 2,
             "fire_stations": 8
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 209,
+                "name": "Factory fire minor",
+                "place": "Factory",
+                "place_array": {
+                    "0": "Factory"
+                },
+                "average_credits": 2500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 4,
+                    "battalion_chief_vehicles": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 30
+                },
+                "additional": {
+                    "possible_patient": 3,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-C-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 2,
+                    "fire_stations": 8
+                },
+                "alternate_version": null
+            }
+        }
     },
     "210": {
         "id": 210,
@@ -7319,6 +8523,8 @@
                 "0": "7-C-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 2,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -7327,7 +8533,55 @@
             "police_stations": 2,
             "fire_stations": 15
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 210,
+                "name": "Factory fire major",
+                "place": "Factory",
+                "place_array": {
+                    "0": "Factory"
+                },
+                "average_credits": 10000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 8,
+                    "battalion_chief_vehicles": 4,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "heavy_rescue_vehicles": 2,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 1,
+                    "police_cars": 2,
+                    "fire_investigation": 2
+                },
+                "chances": {
+                    "patient_transport": 30
+                },
+                "additional": {
+                    "possible_patient": 7,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-C-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 2,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 6,
+                    "police_stations": 2,
+                    "fire_stations": 15
+                },
+                "alternate_version": null
+            }
+        }
     },
     "211": {
         "id": 211,
@@ -7384,13 +8638,53 @@
             "expansion_missions_ids": {
                 "0": 213
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 212,
+                "name": "Fire on farm medium",
+                "place": "Farm",
+                "place_array": {
+                    "0": "Farm"
+                },
+                "average_credits": 6500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 8,
+                    "battalion_chief_vehicles": 1,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 1,
+                    "water_tankers": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "expansion_missions_ids": {
+                        "0": 213
+                    },
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 13
+                },
+                "alternate_version": null
+            }
+        }
     },
     "213": {
         "id": 213,
@@ -7415,13 +8709,50 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 16
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 213,
+                "name": "Fire on farm large",
+                "place": "Farm",
+                "place_array": {
+                    "0": "Farm"
+                },
+                "average_credits": 11500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 10,
+                    "battalion_chief_vehicles": 2,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "water_tankers": 3,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 16
+                },
+                "alternate_version": null
+            }
+        }
     },
     "214": {
         "id": 214,
@@ -7448,14 +8779,54 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "police_stations": 2,
             "fire_stations": 15
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 214,
+                "name": "Scrapyard fire",
+                "place": "Scrap yard",
+                "place_array": {
+                    "0": "Scrap yard"
+                },
+                "average_credits": 5500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 6,
+                    "battalion_chief_vehicles": 2,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "heavy_rescue_vehicles": 2,
+                    "water_tankers": 2,
+                    "police_cars": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "police_stations": 2,
+                    "fire_stations": 15
+                },
+                "alternate_version": null
+            }
+        }
     },
     "215": {
         "id": 215,
@@ -7541,14 +8912,58 @@
         },
         "additional": {
             "filter_id": "firehouse_missions",
-            "fire_alarm_system_possible": true
+            "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 5,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "police_stations": 2,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 217,
+                "name": "Museum Fire",
+                "place": "Museum",
+                "place_array": {
+                    "0": "Museum"
+                },
+                "average_credits": 8000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 6,
+                    "battalion_chief_vehicles": 2,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "heavy_rescue_vehicles": 4,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 2,
+                    "police_cars": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "water_tankers": 20
+                },
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 5,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "police_stations": 2,
+                    "fire_stations": 13
+                },
+                "alternate_version": null
+            }
+        }
     },
     "218": {
         "id": 218,
@@ -8520,6 +9935,8 @@
                 "13": "7-A-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -8528,7 +9945,68 @@
             "police_stations": 5,
             "fire_stations": 10
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 240,
+                "name": "Fire in Subway station",
+                "place": "Subway station",
+                "place_array": {
+                    "0": "Subway station"
+                },
+                "average_credits": 3500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 4,
+                    "battalion_chief_vehicles": 2,
+                    "heavy_rescue_vehicles": 1,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 1,
+                    "police_cars": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "water_tankers": 10,
+                    "mobile_air_vehicles": 10,
+                    "patient_transport": 30
+                },
+                "additional": {
+                    "possible_patient": 4,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "8-D-1",
+                        "1": "8-D-2",
+                        "2": "8-D-3",
+                        "3": "8-D-5",
+                        "4": "8-C-1",
+                        "5": "8-B-1",
+                        "6": "7-E-1F",
+                        "7": "7-D-2F",
+                        "8": "7-D-3F",
+                        "9": "7-D-4F",
+                        "10": "7-C-2F",
+                        "11": "7-C-3F",
+                        "12": "7-C-4F",
+                        "13": "7-A-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 2,
+                    "police_stations": 5,
+                    "fire_stations": 10
+                },
+                "alternate_version": null
+            }
+        }
     },
     "241": {
         "id": 241,
@@ -8580,6 +10058,8 @@
                 "13": "7-A-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal",
             "personnel_educations": {
                 "HazMat": 4
@@ -8591,7 +10071,74 @@
             "police_stations": 5,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 241,
+                "name": "Fire in Subway station (Large)",
+                "place": "Subway station",
+                "place_array": {
+                    "0": "Subway station"
+                },
+                "average_credits": 7500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 8,
+                    "battalion_chief_vehicles": 2,
+                    "mobile_command_vehicles": 1,
+                    "heavy_rescue_vehicles": 2,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 2,
+                    "hazmat_vehicles": 1,
+                    "police_cars": 4,
+                    "personnel_educations": {
+                        "gw_gefahrgut": 4
+                    },
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 30
+                },
+                "additional": {
+                    "possible_patient": 10,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "8-D-1",
+                        "1": "8-D-2",
+                        "2": "8-D-3",
+                        "3": "8-D-5",
+                        "4": "8-C-1",
+                        "5": "8-B-1",
+                        "6": "7-E-1F",
+                        "7": "7-D-2F",
+                        "8": "7-D-3F",
+                        "9": "7-D-4F",
+                        "10": "7-C-2F",
+                        "11": "7-C-3F",
+                        "12": "7-C-4F",
+                        "13": "7-A-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal",
+                    "personnel_educations": {
+                        "HazMat": 4
+                    }
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 5,
+                    "police_stations": 5,
+                    "fire_stations": 13
+                },
+                "alternate_version": null
+            }
+        }
     },
     "242": {
         "id": 242,
@@ -9010,6 +10557,8 @@
                 "8": "7-A-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9018,7 +10567,67 @@
             "police_stations": 2,
             "fire_stations": 14
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 249,
+                "name": "Car workshop fire",
+                "place": "Car workshop",
+                "place_array": {
+                    "0": "Car workshop"
+                },
+                "average_credits": 6500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 8,
+                    "battalion_chief_vehicles": 2,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "heavy_rescue_vehicles": 1,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 1,
+                    "hazmat_vehicles": 1,
+                    "police_cars": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "mobile_command_vehicles": 20,
+                    "water_tankers": 40,
+                    "mobile_air_vehicles": 40,
+                    "patient_transport": 50
+                },
+                "additional": {
+                    "possible_patient": 4,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-E-1F",
+                        "1": "7-D-2F,7-D-3F",
+                        "2": "7-D-4F",
+                        "3": "7-C-2F",
+                        "4": "7-C-3F",
+                        "5": "7-C-4F",
+                        "6": "7-B-1F",
+                        "7": "7-B-2F",
+                        "8": "7-A-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 2,
+                    "police_stations": 2,
+                    "fire_stations": 14
+                },
+                "alternate_version": null
+            }
+        }
     },
     "250": {
         "id": 250,
@@ -9068,6 +10677,8 @@
                 "13": "30-B-2",
                 "14": "30-A-1"
             },
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 2,
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -9076,7 +10687,69 @@
             "police_stations": 4,
             "fire_stations": 18
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 250,
+                "name": "Car workshop fire with explosion",
+                "place": "Car workshop",
+                "place_array": {
+                    "0": "Car workshop"
+                },
+                "average_credits": 11000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 8,
+                    "battalion_chief_vehicles": 2,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "heavy_rescue_vehicles": 4,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 1,
+                    "hazmat_vehicles": 1,
+                    "police_cars": 4,
+                    "fire_investigation": 2
+                },
+                "chances": {
+                    "patient_transport": 80
+                },
+                "additional": {
+                    "possible_patient": 12,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-E-1E",
+                        "1": "7-D-2E,7-D-3E",
+                        "2": "7-D-4E",
+                        "3": "7-C-2E",
+                        "4": "7-C-3E",
+                        "5": "7-C-4E",
+                        "6": "7-B-1E",
+                        "7": "7-B-2E",
+                        "8": "7-A-1E",
+                        "9": "30-D-1",
+                        "10": "30-D-2",
+                        "11": "30-D-3",
+                        "12": "30-B-1",
+                        "13": "30-B-2",
+                        "14": "30-A-1"
+                    },
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 2,
+                    "patient_specializations": "Traumatology"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 6,
+                    "police_stations": 4,
+                    "fire_stations": 18
+                },
+                "alternate_version": null
+            }
+        }
     },
     "251": {
         "id": 251,
@@ -9187,6 +10860,8 @@
                 "13": "7-A-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9194,7 +10869,63 @@
             "rescue_stations": 4,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 253,
+                "name": "Hotel fire small",
+                "place": "Hotel",
+                "place_array": {
+                    "0": "Hotel"
+                },
+                "average_credits": 3500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 4,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 40
+                },
+                "additional": {
+                    "possible_patient": 6,
+                    "expansion_missions_ids": {
+                        "0": 254
+                    },
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "8-D-1",
+                        "1": "8-D-2",
+                        "2": "8-D-3",
+                        "3": "8-D-5",
+                        "4": "8-C-1",
+                        "5": "8-B-1",
+                        "6": "7-E-1F",
+                        "7": "7-D-2F",
+                        "8": "7-D-3F",
+                        "9": "7-D-4F",
+                        "10": "7-C-2F",
+                        "11": "7-C-3F",
+                        "12": "7-C-4F",
+                        "13": "7-A-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 4,
+                    "fire_stations": 4
+                },
+                "alternate_version": null
+            }
+        }
     },
     "254": {
         "id": 254,
@@ -9240,6 +10971,8 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9247,7 +10980,64 @@
             "rescue_stations": 8,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 254,
+                "name": "Hotel fire medium",
+                "place": "Hotel",
+                "place_array": {
+                    "0": "Hotel"
+                },
+                "average_credits": 5500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 6,
+                    "battalion_chief_vehicles": 1,
+                    "platform_trucks": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 40
+                },
+                "additional": {
+                    "possible_patient": 10,
+                    "expansion_missions_ids": {
+                        "0": 255
+                    },
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "8-D-1",
+                        "1": "8-D-2",
+                        "2": "8-D-3",
+                        "3": "8-D-5",
+                        "4": "8-C-1",
+                        "5": "8-B-1",
+                        "6": "7-E-1F",
+                        "7": "7-D-2F",
+                        "8": "7-D-3F",
+                        "9": "7-D-4F",
+                        "10": "7-C-2F",
+                        "11": "7-C-3F",
+                        "12": "7-C-4F",
+                        "13": "7-A-1F"
+                    },
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 8,
+                    "fire_stations": 6
+                },
+                "alternate_version": null
+            }
+        }
     },
     "255": {
         "id": 255,
@@ -9299,6 +11089,8 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 2,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9307,7 +11099,71 @@
             "police_stations": 3,
             "fire_stations": 10
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 255,
+                "name": "Hotel fire large",
+                "place": "Hotel",
+                "place_array": {
+                    "0": "Hotel"
+                },
+                "average_credits": 9000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 8,
+                    "battalion_chief_vehicles": 2,
+                    "platform_trucks": 1,
+                    "heavy_rescue_vehicles": 1,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 1,
+                    "police_cars": 3,
+                    "fire_investigation": 2
+                },
+                "chances": {
+                    "water_tankers": 10,
+                    "mobile_air_vehicles": 30,
+                    "patient_transport": 40
+                },
+                "additional": {
+                    "possible_patient": 20,
+                    "expansion_missions_ids": {
+                        "0": 256
+                    },
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "8-D-1",
+                        "1": "8-D-2",
+                        "2": "8-D-3",
+                        "3": "8-D-5",
+                        "4": "8-C-1",
+                        "5": "8-B-1",
+                        "6": "7-E-1F",
+                        "7": "7-D-2F",
+                        "8": "7-D-3F",
+                        "9": "7-D-4F",
+                        "10": "7-C-2F",
+                        "11": "7-C-3F",
+                        "12": "7-C-4F",
+                        "13": "7-A-1F"
+                    },
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 2,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 10,
+                    "police_stations": 3,
+                    "fire_stations": 10
+                },
+                "alternate_version": null
+            }
+        }
     },
     "256": {
         "id": 256,
@@ -9355,6 +11211,8 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 2,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9363,7 +11221,67 @@
             "police_stations": 6,
             "fire_stations": 20
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 256,
+                "name": "Hotel fire major",
+                "place": "Hotel",
+                "place_array": {
+                    "0": "Hotel"
+                },
+                "average_credits": 13000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 14,
+                    "battalion_chief_vehicles": 4,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "heavy_rescue_vehicles": 2,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 1,
+                    "police_cars": 6,
+                    "fire_investigation": 2
+                },
+                "chances": {
+                    "patient_transport": 40
+                },
+                "additional": {
+                    "possible_patient": 50,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "8-D-1",
+                        "1": "8-D-2",
+                        "2": "8-D-3",
+                        "3": "8-D-5",
+                        "4": "8-C-1",
+                        "5": "8-B-1",
+                        "6": "7-E-1F",
+                        "7": "7-D-2F",
+                        "8": "7-D-3F",
+                        "9": "7-D-4F",
+                        "10": "7-C-2F",
+                        "11": "7-C-3F",
+                        "12": "7-C-4F",
+                        "13": "7-A-1F"
+                    },
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 2,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 15,
+                    "police_stations": 6,
+                    "fire_stations": 20
+                },
+                "alternate_version": null
+            }
+        }
     },
     "257": {
         "id": 257,
@@ -9541,6 +11459,8 @@
                 "13": "7-A-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9548,7 +11468,61 @@
             "rescue_stations": 1,
             "fire_stations": 5
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 259,
+                "name": "Small Supermarket Fire",
+                "place": "Supermarket (small)",
+                "place_array": {
+                    "0": "Supermarket (small)"
+                },
+                "average_credits": 2000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 4,
+                    "battalion_chief_vehicles": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 30
+                },
+                "additional": {
+                    "possible_patient": 2,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "8-D-1",
+                        "1": "8-D-2",
+                        "2": "8-D-3",
+                        "3": "8-D-5",
+                        "4": "8-C-1",
+                        "5": "8-B-1",
+                        "6": "7-E-1F",
+                        "7": "7-D-2F",
+                        "8": "7-D-3F",
+                        "9": "7-D-4F",
+                        "10": "7-C-2F",
+                        "11": "7-C-3F",
+                        "12": "7-C-4F",
+                        "13": "7-A-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 1,
+                    "fire_stations": 5
+                },
+                "alternate_version": null
+            }
+        }
     },
     "260": {
         "id": 260,
@@ -9598,6 +11572,8 @@
                 "13": "7-A-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9606,7 +11582,69 @@
             "police_stations": 2,
             "fire_stations": 8
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 260,
+                "name": "Big Supermarket Fire",
+                "place": "Supermarket (big)",
+                "place_array": {
+                    "0": "Supermarket (big)"
+                },
+                "average_credits": 3500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 6,
+                    "battalion_chief_vehicles": 2,
+                    "platform_trucks": 1,
+                    "heavy_rescue_vehicles": 1,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 1,
+                    "police_cars": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "water_tankers": 20,
+                    "mobile_air_vehicles": 20,
+                    "patient_transport": 30
+                },
+                "additional": {
+                    "possible_patient": 6,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "8-D-1",
+                        "1": "8-D-2",
+                        "2": "8-D-3",
+                        "3": "8-D-5",
+                        "4": "8-C-1",
+                        "5": "8-B-1",
+                        "6": "7-E-1F",
+                        "7": "7-D-2F",
+                        "8": "7-D-3F",
+                        "9": "7-D-4F",
+                        "10": "7-C-2F",
+                        "11": "7-C-3F",
+                        "12": "7-C-4F",
+                        "13": "7-A-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 3,
+                    "police_stations": 2,
+                    "fire_stations": 8
+                },
+                "alternate_version": null
+            }
+        }
     },
     "261": {
         "id": 261,
@@ -9777,6 +11815,8 @@
                 "13": "7-A-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9784,7 +11824,63 @@
             "rescue_stations": 2,
             "fire_stations": 9
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 265,
+                "name": "Sports hall fire",
+                "place": "School",
+                "place_array": {
+                    "0": "School"
+                },
+                "average_credits": 2500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 5,
+                    "battalion_chief_vehicles": 1,
+                    "platform_trucks": 1,
+                    "mobile_air_vehicles": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 50
+                },
+                "additional": {
+                    "possible_patient": 4,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "8-D-1",
+                        "1": "8-D-2",
+                        "2": "8-D-3",
+                        "3": "8-D-5",
+                        "4": "8-C-1",
+                        "5": "8-B-1",
+                        "6": "7-E-1F",
+                        "7": "7-D-2F",
+                        "8": "7-D-3F",
+                        "9": "7-D-4F",
+                        "10": "7-C-2F",
+                        "11": "7-C-3F",
+                        "12": "7-C-4F",
+                        "13": "7-A-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 2,
+                    "fire_stations": 9
+                },
+                "alternate_version": null
+            }
+        }
     },
     "266": {
         "id": 266,
@@ -11909,6 +14005,8 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal",
             "personnel_educations": {
                 "HazMat": 4
@@ -11920,7 +14018,72 @@
             "police_stations": 1,
             "fire_stations": 11
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 318,
+                "name": "Subway train on fire",
+                "place": "Subway station",
+                "place_array": {
+                    "0": "Subway station"
+                },
+                "average_credits": 5500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 5,
+                    "battalion_chief_vehicles": 1,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 1,
+                    "hazmat_vehicles": 1,
+                    "police_cars": 2,
+                    "personnel_educations": {
+                        "gw_gefahrgut": 4
+                    },
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "water_tankers": 40,
+                    "patient_transport": 30
+                },
+                "additional": {
+                    "possible_patient": 5,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "8-D-1",
+                        "1": "8-D-2",
+                        "2": "8-D-3",
+                        "3": "8-D-5",
+                        "4": "8-C-1",
+                        "5": "8-B-1",
+                        "6": "7-E-1F",
+                        "7": "7-D-2F",
+                        "8": "7-D-3F",
+                        "9": "7-D-4F",
+                        "10": "7-C-2F",
+                        "11": "7-C-3F",
+                        "12": "7-C-4F",
+                        "13": "7-A-1F"
+                    },
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal",
+                    "personnel_educations": {
+                        "HazMat": 4
+                    }
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 3,
+                    "police_stations": 1,
+                    "fire_stations": 11
+                },
+                "alternate_version": null
+            }
+        }
     },
     "319": {
         "id": 319,
@@ -12250,6 +14413,7 @@
                 "4": "30-B-2",
                 "5": "30-A-1"
             },
+            "allow_swat_instead_of_police": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -13652,7 +15816,9 @@
             "followup_missions_ids": {
                 "0": 471
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
@@ -13662,7 +15828,49 @@
                 "0": 3
             }
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 369,
+                "name": "Medium Wildfire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 4500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "water_needed": 12000,
+                    "brush_truck": 4,
+                    "battalion_chief_vehicles": 1,
+                    "water_tankers": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "expansion_missions_ids": {
+                        "0": 370
+                    },
+                    "followup_missions_ids": {
+                        "0": 471
+                    },
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "brush_extension": 2,
+                    "fire_stations": 8,
+                    "main_building_extensions": {
+                        "0": 3
+                    }
+                },
+                "alternate_version": null
+            }
+        }
     },
     "370": {
         "id": 370,
@@ -13690,7 +15898,9 @@
             "followup_missions_ids": {
                 "0": 472
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 2
         },
         "prerequisites": {
             "main_building": 0,
@@ -13700,7 +15910,49 @@
                 "0": 3
             }
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 370,
+                "name": "Large Wildfire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 7500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "water_needed": 16000,
+                    "brush_truck": 6,
+                    "battalion_chief_vehicles": 2,
+                    "water_tankers": 4,
+                    "fire_investigation": 2
+                },
+                "chances": {},
+                "additional": {
+                    "expansion_missions_ids": {
+                        "0": 371
+                    },
+                    "followup_missions_ids": {
+                        "0": 472
+                    },
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 2
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "brush_extension": 3,
+                    "fire_stations": 10,
+                    "main_building_extensions": {
+                        "0": 3
+                    }
+                },
+                "alternate_version": null
+            }
+        }
     },
     "371": {
         "id": 371,
@@ -13727,7 +15979,9 @@
             "followup_missions_ids": {
                 "0": 473
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 2
         },
         "prerequisites": {
             "main_building": 0,
@@ -13738,7 +15992,49 @@
                 "0": 3
             }
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 371,
+                "name": "Major Wildfire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 11000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "water_needed": 30000,
+                    "brush_truck": 8,
+                    "battalion_chief_vehicles": 3,
+                    "mobile_command_vehicles": 1,
+                    "water_tankers": 8,
+                    "police_cars": 2,
+                    "fire_investigation": 2
+                },
+                "chances": {},
+                "additional": {
+                    "followup_missions_ids": {
+                        "0": 473
+                    },
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 2
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "police_stations": 2,
+                    "brush_extension": 4,
+                    "fire_stations": 14,
+                    "main_building_extensions": {
+                        "0": 3
+                    }
+                },
+                "alternate_version": null
+            }
+        }
     },
     "372": {
         "id": 372,
@@ -14486,6 +16782,8 @@
                 "8": "7-B-2F",
                 "9": "7-A-1F"
             },
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -14496,7 +16794,74 @@
                 "0": 3
             }
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 391,
+                "name": "Cabin fire",
+                "place": "Forest Cabin",
+                "place_array": {
+                    "0": "Forest Cabin"
+                },
+                "average_credits": 3500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "water_needed": 4000,
+                    "firetrucks": 4,
+                    "brush_truck": 1,
+                    "battalion_chief_vehicles": 1,
+                    "water_tankers": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 30
+                },
+                "additional": {
+                    "possible_patient": 6,
+                    "expansion_missions_ids": {
+                        "0": 369,
+                        "1": 370,
+                        "2": 371,
+                        "3": 372,
+                        "4": 373,
+                        "5": 389
+                    },
+                    "followup_missions_ids": {
+                        "0": 389,
+                        "1": 369
+                    },
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-E-1F",
+                        "1": "7-D-2F",
+                        "2": "7-D-3F",
+                        "3": "7-D-4F",
+                        "4": "7-C-2F",
+                        "5": "7-C-3F",
+                        "6": "7-C-4F",
+                        "7": "7-B-1F",
+                        "8": "7-B-2F",
+                        "9": "7-A-1F"
+                    },
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 4,
+                    "fire_stations": 9,
+                    "main_building_extensions": {
+                        "0": 3
+                    }
+                },
+                "alternate_version": null
+            }
+        }
     },
     "392": {
         "id": 392,
@@ -14547,6 +16912,8 @@
                 "8": "7-B-2F",
                 "9": "7-A-1F"
             },
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -14557,7 +16924,72 @@
                 "0": 3
             }
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 392,
+                "name": "Campsite fire",
+                "place": "Campsite",
+                "place_array": {
+                    "0": "Campsite"
+                },
+                "average_credits": 3500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "water_needed": 4000,
+                    "firetrucks": 4,
+                    "brush_truck": 1,
+                    "battalion_chief_vehicles": 1,
+                    "water_tankers": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 30
+                },
+                "additional": {
+                    "possible_patient": 2,
+                    "expansion_missions_ids": {
+                        "0": 369,
+                        "1": 370,
+                        "2": 371,
+                        "3": 372,
+                        "4": 373
+                    },
+                    "followup_missions_ids": {
+                        "0": 389
+                    },
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-E-1F",
+                        "1": "7-D-2F",
+                        "2": "7-D-3F",
+                        "3": "7-D-4F",
+                        "4": "7-C-2F",
+                        "5": "7-C-3F",
+                        "6": "7-C-4F",
+                        "7": "7-B-1F",
+                        "8": "7-B-2F",
+                        "9": "7-A-1F"
+                    },
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 2,
+                    "fire_stations": 9,
+                    "main_building_extensions": {
+                        "0": 3
+                    }
+                },
+                "alternate_version": null
+            }
+        }
     },
     "393": {
         "id": 393,
@@ -14587,7 +17019,9 @@
             "followup_missions_ids": {
                 "0": 471
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
@@ -14597,7 +17031,51 @@
                 "0": 3
             }
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 393,
+                "name": "Medium forest fire",
+                "place": "Forest",
+                "place_array": {
+                    "0": "Forest"
+                },
+                "average_credits": 6000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "water_needed": 9000,
+                    "brush_truck": 5,
+                    "battalion_chief_vehicles": 2,
+                    "water_tankers": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "expansion_missions_ids": {
+                        "0": 394
+                    },
+                    "followup_missions_ids": {
+                        "0": 471
+                    },
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "brush_extension": 3,
+                    "fire_stations": 11,
+                    "main_building_extensions": {
+                        "0": 3
+                    }
+                },
+                "alternate_version": null
+            }
+        }
     },
     "394": {
         "id": 394,
@@ -14628,7 +17106,9 @@
             "followup_missions_ids": {
                 "0": 472
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 2
         },
         "prerequisites": {
             "main_building": 0,
@@ -14638,7 +17118,52 @@
                 "0": 3
             }
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 394,
+                "name": "Large Forest Fire",
+                "place": "Forest",
+                "place_array": {
+                    "0": "Forest"
+                },
+                "average_credits": 9000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "water_needed": 15000,
+                    "brush_truck": 8,
+                    "battalion_chief_vehicles": 5,
+                    "mobile_command_vehicles": 1,
+                    "water_tankers": 3,
+                    "fire_investigation": 2
+                },
+                "chances": {},
+                "additional": {
+                    "expansion_missions_ids": {
+                        "0": 395
+                    },
+                    "followup_missions_ids": {
+                        "0": 472
+                    },
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 2
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "brush_extension": 5,
+                    "fire_stations": 15,
+                    "main_building_extensions": {
+                        "0": 3
+                    }
+                },
+                "alternate_version": null
+            }
+        }
     },
     "395": {
         "id": 395,
@@ -14670,7 +17195,9 @@
                 "1": 389,
                 "2": 473
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 2
         },
         "prerequisites": {
             "main_building": 0,
@@ -14682,7 +17209,55 @@
                 "0": 3
             }
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 395,
+                "name": "Major Forest Fire",
+                "place": "Forest",
+                "place_array": {
+                    "0": "Forest"
+                },
+                "average_credits": 12000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "water_needed": 19000,
+                    "brush_truck": 10,
+                    "fire_aviation": 1,
+                    "battalion_chief_vehicles": 7,
+                    "mobile_command_vehicles": 2,
+                    "water_tankers": 4,
+                    "police_cars": 4,
+                    "fire_investigation": 2
+                },
+                "chances": {},
+                "additional": {
+                    "followup_missions_ids": {
+                        "0": 369,
+                        "1": 389,
+                        "2": 473
+                    },
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 2
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "police_stations": 3,
+                    "brush_extension": 7,
+                    "fire_aviation_count": 1,
+                    "fire_stations": 18,
+                    "main_building_extensions": {
+                        "0": 3
+                    }
+                },
+                "alternate_version": null
+            }
+        }
     },
     "396": {
         "id": 396,
@@ -14758,6 +17333,8 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -14765,7 +17342,60 @@
             "rescue_stations": 6,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 397,
+                "name": "Burning Bus Terminal",
+                "place": "Bus Terminal",
+                "place_array": {
+                    "0": "Bus Terminal"
+                },
+                "average_credits": 2500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 3,
+                    "battalion_chief_vehicles": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 50
+                },
+                "additional": {
+                    "possible_patient": 12,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "8-D-1",
+                        "1": "8-D-2",
+                        "2": "8-D-3",
+                        "3": "8-D-5",
+                        "4": "8-C-1",
+                        "5": "8-B-1",
+                        "6": "7-E-1F",
+                        "7": "7-D-2F",
+                        "8": "7-D-3F",
+                        "9": "7-D-4F",
+                        "10": "7-C-2F",
+                        "11": "7-C-3F",
+                        "12": "7-C-4F",
+                        "13": "7-A-1F"
+                    },
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 6,
+                    "fire_stations": 6
+                },
+                "alternate_version": null
+            }
+        }
     },
     "398": {
         "id": 398,
@@ -15656,14 +18286,52 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "rescue_boat_docks": 1,
             "fire_stations": 7
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 420,
+                "name": "Pier on fire",
+                "place": "Pier",
+                "place_array": {
+                    "0": "Pier"
+                },
+                "average_credits": 5500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 4,
+                    "large_rescue_boat": 1,
+                    "battalion_chief_vehicles": 1,
+                    "platform_trucks": 1,
+                    "heavy_rescue_vehicles": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_boat_docks": 1,
+                    "fire_stations": 7
+                },
+                "alternate_version": null
+            }
+        }
     },
     "421": {
         "id": 421,
@@ -15783,6 +18451,8 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
+            "overlay_on_fire_investigation_chance": 5,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "Traumatology",
             "personnel_educations": {
                 "HazMat": 4
@@ -15794,7 +18464,79 @@
             "police_stations": 6,
             "fire_stations": 15
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 423,
+                "name": "Train station fire (Large)",
+                "place": "Train station (regional traffic)",
+                "place_array": {
+                    "0": "Train station (regional traffic)"
+                },
+                "average_credits": 10500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 10,
+                    "battalion_chief_vehicles": 3,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "heavy_rescue_vehicles": 3,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 1,
+                    "hazmat_vehicles": 1,
+                    "police_cars": 8,
+                    "personnel_educations": {
+                        "gw_gefahrgut": 4
+                    },
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "water_tankers": 20,
+                    "patient_transport": 40
+                },
+                "additional": {
+                    "possible_patient": 15,
+                    "followup_missions_ids": {
+                        "0": 480,
+                        "1": 482
+                    },
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "8-D-1",
+                        "1": "8-D-2",
+                        "2": "8-D-3",
+                        "3": "8-D-5",
+                        "4": "8-C-1",
+                        "5": "8-B-1",
+                        "6": "7-E-1F",
+                        "7": "7-D-2F",
+                        "8": "7-D-3F",
+                        "9": "7-D-4F",
+                        "10": "7-C-2F",
+                        "11": "7-C-3F",
+                        "12": "7-C-4F",
+                        "13": "7-A-1F"
+                    },
+                    "overlay_on_fire_investigation_chance": 5,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "Traumatology",
+                    "personnel_educations": {
+                        "HazMat": 4
+                    }
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 13,
+                    "police_stations": 6,
+                    "fire_stations": 15
+                },
+                "alternate_version": null
+            }
+        }
     },
     "424": {
         "id": 424,
@@ -15851,6 +18593,8 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 2,
             "patient_specializations": "Traumatology",
             "personnel_educations": {
                 "HazMat": 4
@@ -15862,7 +18606,79 @@
             "police_stations": 6,
             "fire_stations": 15
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 424,
+                "name": "Train station fire (Large)",
+                "place": "Train station (regional traffic and long-distance travel)",
+                "place_array": {
+                    "0": "Train station (regional traffic and long-distance travel)"
+                },
+                "average_credits": 11000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 10,
+                    "battalion_chief_vehicles": 3,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "heavy_rescue_vehicles": 3,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 1,
+                    "hazmat_vehicles": 1,
+                    "police_cars": 8,
+                    "personnel_educations": {
+                        "gw_gefahrgut": 4
+                    },
+                    "fire_investigation": 2
+                },
+                "chances": {
+                    "water_tankers": 20,
+                    "patient_transport": 40
+                },
+                "additional": {
+                    "possible_patient": 15,
+                    "followup_missions_ids": {
+                        "0": 481,
+                        "1": 483
+                    },
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "8-D-1",
+                        "1": "8-D-2",
+                        "2": "8-D-3",
+                        "3": "8-D-5",
+                        "4": "8-C-1",
+                        "5": "8-B-1",
+                        "6": "7-E-1F",
+                        "7": "7-D-2F",
+                        "8": "7-D-3F",
+                        "9": "7-D-4F",
+                        "10": "7-C-2F",
+                        "11": "7-C-3F",
+                        "12": "7-C-4F",
+                        "13": "7-A-1F"
+                    },
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 2,
+                    "patient_specializations": "Traumatology",
+                    "personnel_educations": {
+                        "HazMat": 4
+                    }
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 13,
+                    "police_stations": 6,
+                    "fire_stations": 15
+                },
+                "alternate_version": null
+            }
+        }
     },
     "425": {
         "id": 425,
@@ -16146,7 +18962,9 @@
             "followup_missions_ids": {
                 "0": 470
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1
         },
         "prerequisites": {
             "main_building": 0,
@@ -16156,7 +18974,48 @@
                 "0": 3
             }
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 432,
+                "name": "Small Wildfire",
+                "place": "",
+                "place_array": {},
+                "average_credits": 2500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "water_needed": 4000,
+                    "brush_truck": 2,
+                    "water_tankers": 1,
+                    "fire_investigation": 1
+                },
+                "chances": {},
+                "additional": {
+                    "expansion_missions_ids": {
+                        "0": 369
+                    },
+                    "followup_missions_ids": {
+                        "0": 470
+                    },
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "brush_extension": 1,
+                    "fire_stations": 3,
+                    "main_building_extensions": {
+                        "0": 3
+                    }
+                },
+                "alternate_version": null
+            }
+        }
     },
     "433": {
         "id": 433,
@@ -16232,6 +19091,8 @@
                 "2": "69-D-7",
                 "3": "69-D-8"
             },
+            "overlay_on_fire_investigation_chance": 15,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -16240,7 +19101,59 @@
             "police_stations": 1,
             "fire_stations": 10
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 434,
+                "name": "Restaurant fire",
+                "place": "Restaurant",
+                "place_array": {
+                    "0": "Restaurant"
+                },
+                "average_credits": 5500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 4,
+                    "battalion_chief_vehicles": 1,
+                    "platform_trucks": 1,
+                    "heavy_rescue_vehicles": 1,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 1,
+                    "police_cars": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "platform_trucks": 50,
+                    "water_tankers": 20,
+                    "mobile_air_vehicles": 20,
+                    "patient_transport": 60
+                },
+                "additional": {
+                    "possible_patient": 5,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "69-E-7",
+                        "1": "69-E-8",
+                        "2": "69-D-7",
+                        "3": "69-D-8"
+                    },
+                    "overlay_on_fire_investigation_chance": 15,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 3,
+                    "police_stations": 1,
+                    "fire_stations": 10
+                },
+                "alternate_version": null
+            }
+        }
     },
     "435": {
         "id": 435,
@@ -20039,6 +22952,7 @@
                 "9": "17-A-2G",
                 "10": "17-A-3G"
             },
+            "allow_dlk_instead_of_lf": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
@@ -21150,6 +24064,8 @@
                 "1": "7-C-1F"
             },
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_investigation_chance": 80,
+            "overlay_on_fire_investigation_count": 2,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -21158,7 +24074,55 @@
             "police_stations": 5,
             "fire_stations": 10
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 577,
+                "name": "Skyscraper fire",
+                "place": "High Rise",
+                "place_array": {
+                    "0": "High Rise"
+                },
+                "average_credits": 8500,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 8,
+                    "battalion_chief_vehicles": 2,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "water_tankers": 1,
+                    "mobile_air_vehicles": 1,
+                    "police_cars": 3,
+                    "fire_investigation": 2
+                },
+                "chances": {
+                    "patient_transport": 20
+                },
+                "additional": {
+                    "possible_patient": 20,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-D-1F",
+                        "1": "7-C-1F"
+                    },
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_investigation_chance": 80,
+                    "overlay_on_fire_investigation_count": 2,
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 6,
+                    "police_stations": 5,
+                    "fire_stations": 10
+                },
+                "alternate_version": null
+            }
+        }
     },
     "578": {
         "id": 578,
@@ -21441,6 +24405,8 @@
             "patient_us_code_possible": {
                 "0": "7-A-3"
             },
+            "overlay_on_fire_investigation_chance": 40,
+            "overlay_on_fire_investigation_count": 1,
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -21448,7 +24414,48 @@
             "rescue_stations": 1,
             "fire_stations": 8
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 586,
+                "name": "Flat fire in sheltered housing",
+                "place": "Sheltered housing facility",
+                "place_array": {
+                    "0": "Sheltered housing facility"
+                },
+                "average_credits": 4000,
+                "generated_by": "Fire station",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 4,
+                    "battalion_chief_vehicles": 2,
+                    "fire_investigation": 1
+                },
+                "chances": {
+                    "patient_transport": 70
+                },
+                "additional": {
+                    "possible_patient": 1,
+                    "possible_patient_min": 1,
+                    "filter_id": "firehouse_missions",
+                    "patient_us_code_possible": {
+                        "0": "7-A-3"
+                    },
+                    "overlay_on_fire_investigation_chance": 40,
+                    "overlay_on_fire_investigation_count": 1,
+                    "patient_specializations": "General Surgeon"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 1,
+                    "fire_stations": 8
+                },
+                "alternate_version": null
+            }
+        }
     },
     "587": {
         "id": 587,
@@ -22269,6 +25276,173 @@
         "prerequisites": {
             "main_building": 5,
             "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "608": {
+        "id": 608,
+        "name": "Suspicious person at fire site",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "fire_investigation": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_investigation_count": 1
+        },
+        "alternate_version": null
+    },
+    "609": {
+        "id": 609,
+        "name": "Accelerants found near fire source",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2300,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/gas_gruen.png",
+            "1": "/images/gas_gelb.png",
+            "2": "/images/gas_rot.png"
+        },
+        "requirements": {
+            "hazmat_vehicles": 1,
+            "police_cars": 2,
+            "fire_investigation": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_investigation_count": 1
+        },
+        "alternate_version": null
+    },
+    "610": {
+        "id": 610,
+        "name": "Possible insurance fraud",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "fire_investigation": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_investigation_count": 1
+        },
+        "alternate_version": null
+    },
+    "611": {
+        "id": 611,
+        "name": "Securing evidence after fire",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "fire_investigation": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_investigation_count": 1
+        },
+        "alternate_version": null
+    },
+    "612": {
+        "id": 612,
+        "name": "Destruction of public property",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3200,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "fire_investigation": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 4,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 3,
+            "fire_investigation_count": 3
+        },
+        "alternate_version": null
+    },
+    "613": {
+        "id": 613,
+        "name": "Destruction of private property",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "fire_investigation": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_investigation_count": 2
         },
         "alternate_version": null
     }

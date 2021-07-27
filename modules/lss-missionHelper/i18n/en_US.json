@@ -105,6 +105,7 @@
     },
     "requirements": {
         "firetrucks": "Firetrucks",
+        "fire_investigation": "Fire Investigation Unit",
         "platform_trucks": "Platform truck",
         "heavy_rescue_vehicles": "Heavy Rescue vehicles or Utility unit",
         "boats": "Boat",

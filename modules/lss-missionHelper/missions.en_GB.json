@@ -342,7 +342,8 @@
                 "0": 25
             },
             "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true
         },
         "prerequisites": {
             "main_building": 0,
@@ -3064,7 +3065,8 @@
         "additional": {
             "max_possible_prisoners": 4,
             "swat_personnel": 8,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "allow_swat_instead_of_police": true
         },
         "prerequisites": {
             "main_building": 6,
@@ -5244,7 +5246,8 @@
         "additional": {
             "max_possible_prisoners": 1,
             "swat_personnel": 8,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "allow_swat_instead_of_police": true
         },
         "prerequisites": {
             "main_building": 6,
@@ -8205,6 +8208,7 @@
                 "1": "C-2"
             },
             "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },

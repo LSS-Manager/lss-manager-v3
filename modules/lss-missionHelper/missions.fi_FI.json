@@ -355,7 +355,8 @@
                 "0": 25
             },
             "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true
         },
         "prerequisites": {
             "main_building": 0,
@@ -9748,10 +9749,13 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
-            "main_building": 0
+            "main_building": 0,
+            "rescue_stations": 1,
+            "fire_stations": 6
         },
         "alternate_version": null
     }

@@ -357,7 +357,8 @@
                 "0": 25
             },
             "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true
         },
         "prerequisites": {
             "main_building": 0,
@@ -4645,6 +4646,7 @@
                 "0": 144
             },
             "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -4682,6 +4684,7 @@
             "possible_patient_min": 0,
             "height_rescue_personnel": 5,
             "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {

@@ -351,7 +351,8 @@
                 "0": 25
             },
             "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true
         },
         "prerequisites": {
             "main_building": 0,
@@ -5101,7 +5102,8 @@
         "chances": {},
         "additional": {
             "swat_personnel": 6,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "allow_swat_instead_of_police": true
         },
         "prerequisites": {
             "main_building": 6,
@@ -5757,6 +5759,7 @@
             "possible_patient_min": 1,
             "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traume"
         },

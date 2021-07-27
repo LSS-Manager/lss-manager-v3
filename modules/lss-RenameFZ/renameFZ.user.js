@@ -227,6 +227,7 @@
                 16: 'Ambulance station (Small station)',
                 17: 'Firefighting plane station',
                 18: 'Federal Police Station',
+                22: "Fire Marshal's Office"
             },
             vehicleTypes: {
                 0: 'Type 1 fire engine',
@@ -291,6 +292,8 @@
                 59: 'EMS Operations Support',
                 60: 'EMS Mobile Command Unit',
                 61: 'ALS Rescue Ambulance',
+                62: 'Fire Investigator Unit',
+                63: 'Fire Prevention Unit',
             },
         },
     };

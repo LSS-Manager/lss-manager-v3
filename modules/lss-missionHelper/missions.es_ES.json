@@ -352,7 +352,8 @@
                 "0": 25
             },
             "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true
         },
         "prerequisites": {
             "main_building": 0,
@@ -5822,6 +5823,7 @@
             "possible_patient_min": 1,
             "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatolog\u00eda"
         },
