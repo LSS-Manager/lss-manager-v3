@@ -71,6 +71,8 @@ if (I18n.locale == 'en_US') {
         59: ['EMS Operations Support', 1],
         60: ['EMS Mobile Command Unit', 1],
         61: ['ALS Rescue Ambulance', 1],
+        62: ['Fire Investigator Unit', 0],
+        63: ['Fire Prevention Unit', 0],
     };
 } else if (I18n.locale == 'en_GB') {
     lssm.carsById = {

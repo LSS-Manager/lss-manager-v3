@@ -351,7 +351,8 @@
                 "0": 25
             },
             "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true
         },
         "prerequisites": {
             "main_building": 0,
@@ -4194,7 +4195,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -5352,7 +5355,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 179
+            },
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
