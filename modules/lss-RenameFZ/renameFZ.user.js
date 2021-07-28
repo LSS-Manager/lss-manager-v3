@@ -820,6 +820,8 @@
                 23: 'Akutlæge',
                 24: 'Indsatsleder Akutlæge',
                 25: 'Mobil Behandlingsplads',
+                26: 'Crash Tender',
+                27: 'Rednings trappe'
             },
         },
     };
