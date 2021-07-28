@@ -275,6 +275,8 @@ if (I18n.locale == 'en_US') {
         23: ['Akutlæge', 1],
         24: ['Indsatsleder Akutlæge', 1],
         25: ['Mobil Behandlingsplads', 1],
+        26: ['Crash Tender', 0],
+        27: ['Rednings trappe', 0],
     };
 } else if (I18n.locale == 'nb_NO') {
     lssm.carsById = {
