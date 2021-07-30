@@ -9931,15 +9931,16 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 120,
-                "2": 121,
-                "3": 122,
-                "4": 123,
-                "5": 124,
-                "6": 125,
-                "7": 126,
-                "8": 127,
-                "9": 128
+                "1": 27,
+                "2": 120,
+                "3": 121,
+                "4": 122,
+                "5": 123,
+                "6": 124,
+                "7": 125,
+                "8": 126,
+                "9": 127,
+                "10": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -17117,6 +17118,154 @@
         },
         "alternate_version": null
     },
+    "503": {
+        "id": 503,
+        "name": "Damm droht zu brechen",
+        "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
+        "average_credits": 6500,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 3,
+            "police_helicopters": 1,
+            "police_cars": 3,
+            "thw_gkw": 2,
+            "thw_mtwtz": 1,
+            "thw_brmg_r": 1,
+            "thw_mzkw": 1,
+            "thw_lkw": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "technical_aid_organization_missions"
+        },
+        "prerequisites": {
+            "main_building": 9,
+            "police_stations": 3,
+            "police_helicopter_stations": 1,
+            "thw": 2,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 2,
+            "fire_stations": 11
+        },
+        "alternate_version": null
+    },
+    "504": {
+        "id": 504,
+        "name": "Damm droht zu brechen",
+        "place": "See",
+        "place_array": {
+            "0": "See"
+        },
+        "average_credits": 6500,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 3,
+            "police_helicopters": 1,
+            "police_cars": 3,
+            "thw_gkw": 2,
+            "thw_mtwtz": 1,
+            "thw_brmg_r": 1,
+            "thw_mzkw": 1,
+            "thw_lkw": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "technical_aid_organization_missions"
+        },
+        "prerequisites": {
+            "main_building": 9,
+            "police_stations": 3,
+            "police_helicopter_stations": 1,
+            "thw": 2,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 2,
+            "fire_stations": 11
+        },
+        "alternate_version": null
+    },
+    "505": {
+        "id": 505,
+        "name": "Hochwasserschadenslage",
+        "place": "See",
+        "place_array": {
+            "0": "See"
+        },
+        "average_credits": 10500,
+        "generated_by": "Wasserrettung",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 28,
+            "fwk": 2,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 5,
+            "water_tankers": 4,
+            "police_cars": 8,
+            "thw_gkw": 4,
+            "thw_mtwtz": 3,
+            "thw_mzkw": 3,
+            "diver_units": 2,
+            "boats": 3
+        },
+        "chances": {
+            "nef": 50,
+            "patient_transport": 30,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 17,
+            "followup_missions_ids": {
+                "0": 244,
+                "1": 298,
+                "2": 273,
+                "3": 497,
+                "4": 253
+            },
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "main_building": 15,
+            "wasserrettung": 5,
+            "police_stations": 6,
+            "thw": 3,
+            "thw_bergung_count": 3,
+            "thw_zugtrupp_count": 3,
+            "thw_gkw_count": 4,
+            "fire_stations": 15
+        },
+        "alternate_version": null
+    },
     "506": {
         "id": 506,
         "name": "Hundeangriff",
@@ -17145,6 +17294,57 @@
         "prerequisites": {
             "main_building": 6,
             "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "507": {
+        "id": 507,
+        "name": "Hochwasserschadenslage",
+        "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
+        "average_credits": 10500,
+        "generated_by": "Wasserrettung",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 28,
+            "fwk": 2,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 5,
+            "water_tankers": 4,
+            "police_cars": 8,
+            "thw_gkw": 4,
+            "thw_mtwtz": 3,
+            "thw_mzkw": 3,
+            "diver_units": 2,
+            "boats": 3
+        },
+        "chances": {
+            "nef": 50,
+            "patient_transport": 30,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 17,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "main_building": 15,
+            "wasserrettung": 5,
+            "police_stations": 6,
+            "thw": 3,
+            "thw_bergung_count": 3,
+            "thw_zugtrupp_count": 3,
+            "thw_gkw_count": 4,
+            "fire_stations": 15
         },
         "alternate_version": null
     },
@@ -22826,6 +23026,46 @@
         "prerequisites": {
             "main_building": 6,
             "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "653": {
+        "id": 653,
+        "name": "Brand auf Schultoilette",
+        "place": "Schule",
+        "place_array": {
+            "0": "Schule"
+        },
+        "average_credits": 2000,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "nef": 15,
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 3,
+            "expansion_missions_ids": {
+                "0": 594
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 5
         },
         "alternate_version": null
     }
