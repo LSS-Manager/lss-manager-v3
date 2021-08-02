@@ -7773,5 +7773,79 @@
             "fire_stations": 8
         },
         "alternate_version": null
+    },
+    "249": {
+        "id": 249,
+        "name": "C\u0103dere de pe o structur\u0103 metalic\u0103 mic\u0103",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3500,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 4,
+            "police_stations": 4,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "250": {
+        "id": 250,
+        "name": "C\u0103dere de pe o structur\u0103 metalic\u0103 mare",
+        "place": "",
+        "place_array": {},
+        "average_credits": 7000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 20
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 8,
+            "police_stations": 8,
+            "fire_stations": 12
+        },
+        "alternate_version": null
     }
 }

@@ -28007,5 +28007,81 @@
             "fire_stations": 6
         },
         "alternate_version": null
+    },
+    "842": {
+        "id": 842,
+        "name": "Voertuigbrand in tunnel",
+        "place": "Snelweg oprit / afrit\nTunnel",
+        "place_array": {
+            "0": "Snelweg oprit / afrit",
+            "1": "Tunnel"
+        },
+        "average_credits": 1770,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 843
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "843": {
+        "id": 843,
+        "name": "Voertuigbrand in tunnel",
+        "place": "Snelweg oprit / afrit\nTunnel",
+        "place_array": {
+            "0": "Snelweg oprit / afrit",
+            "1": "Tunnel"
+        },
+        "average_credits": 4060,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 3,
+            "ovdp": 1
+        },
+        "chances": {
+            "nef": 30,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 10,
+            "police_stations": 5,
+            "bereitschaftspolizei": 1,
+            "fire_stations": 11
+        },
+        "alternate_version": null
     }
 }

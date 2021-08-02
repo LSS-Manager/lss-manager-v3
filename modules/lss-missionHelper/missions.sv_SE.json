@@ -10070,5 +10070,31 @@
             "police_stations": 9
         },
         "alternate_version": null
+    },
+    "327": {
+        "id": 327,
+        "name": "Skadeg\u00f6relse, parkeringsplats",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "k9": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 6
+        },
+        "alternate_version": null
     }
 }

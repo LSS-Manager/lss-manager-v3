@@ -10942,5 +10942,38 @@
             "fire_stations": 8
         },
         "alternate_version": null
+    },
+    "347": {
+        "id": 347,
+        "name": "Velk\u00fd po\u017e\u00e1r lesa",
+        "place": "Les",
+        "place_array": {
+            "0": "Les"
+        },
+        "average_credits": 10000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 25,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 3,
+            "police_helicopter_stations": 1,
+            "fire_stations": 12
+        },
+        "alternate_version": null
     }
 }
