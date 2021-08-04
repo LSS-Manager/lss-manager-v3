@@ -25483,6 +25483,7 @@
             "main_building": 5,
             "rescue_stations": 4,
             "police_stations": 8,
+            "federalpolice_stations": 2,
             "fire_stations": 5
         },
         "alternate_version": null

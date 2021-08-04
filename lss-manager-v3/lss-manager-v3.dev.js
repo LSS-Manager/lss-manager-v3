@@ -2164,7 +2164,7 @@ lssm.appstore = {
             '<ul id="' + lssm.config.prefix + '_menu"class="dropdown-menu" role="menu" aria-labelledby="' +
             lssm.config.prefix + '_menu_switch"> </ul>' +
             '</li>');
-        $('#navbar-main-collapse > ul').append(lssm_dropdown);
+        $('#navbar-main-collapse > ul.navbar-right').append(lssm_dropdown);
     }
 };
 
