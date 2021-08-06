@@ -7772,7 +7772,7 @@
     },
     "251": {
         "id": 251,
-        "name": "Corredor herido",
+        "name": "Corredor de parkour herido",
         "place": "",
         "place_array": {},
         "average_credits": null,
@@ -7787,6 +7787,8 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {
+            "heavy_rescue_vehicles": 50,
+            "firetrucks": 50,
             "patient_transport": 70,
             "patient_critical_care": 5
         },
