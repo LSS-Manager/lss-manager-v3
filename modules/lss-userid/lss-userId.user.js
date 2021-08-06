@@ -1,6 +1,6 @@
 (function () {
     window.location.pathname === '/' &&
-        $('#navbar-main-collapse > ul').append(
+        $("#lssm_dropdown").after(
             `<li><a class="lightbox-open" href="${$(
                 '#navbar_profile_link'
             ).attr('href')}">${user_id}</a></li>`

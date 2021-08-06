@@ -23068,5 +23068,50 @@
             "fire_stations": 5
         },
         "alternate_version": null
+    },
+    "654": {
+        "id": 654,
+        "name": "Gro\u00dfbrand M\u00f6belhaus",
+        "place": "M\u00f6belhaus",
+        "place_array": {
+            "0": "M\u00f6belhaus"
+        },
+        "average_credits": 9000,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 15,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "gwmess": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "water_tankers": 65,
+            "gwmess": 30,
+            "nef": 25,
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 12,
+            "possible_patient_min": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 5,
+            "police_stations": 3,
+            "fire_stations": 17
+        },
+        "alternate_version": null
     }
 }
