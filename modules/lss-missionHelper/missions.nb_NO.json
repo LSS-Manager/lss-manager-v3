@@ -10557,5 +10557,37 @@
             "fire_stations": 12
         },
         "alternate_version": null
+    },
+    "342": {
+        "id": 342,
+        "name": "Alvorlig kuttskade fra knust glass",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1,
+            "fire_stations": 1
+        },
+        "alternate_version": null
     }
 }
