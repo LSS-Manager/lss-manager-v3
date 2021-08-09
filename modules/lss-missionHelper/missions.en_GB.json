@@ -13552,5 +13552,67 @@
             "police_stations": 5
         },
         "alternate_version": null
+    },
+    "360": {
+        "id": 360,
+        "name": "Careline activation",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-4"
+            },
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "361": {
+        "id": 361,
+        "name": "Non Injury Fall",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-3"
+            },
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
     }
 }

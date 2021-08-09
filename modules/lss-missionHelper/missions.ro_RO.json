@@ -7847,5 +7847,37 @@
             "fire_stations": 12
         },
         "alternate_version": null
+    },
+    "251": {
+        "id": 251,
+        "name": "Leziuni grave provocate de cioburi de sticl\u0103",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg general"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1,
+            "fire_stations": 1
+        },
+        "alternate_version": null
     }
 }

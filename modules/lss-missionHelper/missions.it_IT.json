@@ -8090,9 +8090,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 193
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -15425,6 +15423,72 @@
             "rescue_stations": 4,
             "police_stations": 4,
             "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "422": {
+        "id": 422,
+        "name": "Scorta Trasporto Eccezionale",
+        "place": "",
+        "place_array": {},
+        "average_credits": 7000,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2 ore",
+            "duration": 7200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 6
+        },
+        "alternate_version": null
+    },
+    "423": {
+        "id": 423,
+        "name": "Incidente Con Motosega",
+        "place": "",
+        "place_array": {},
+        "average_credits": 450,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 40
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 3
         },
         "alternate_version": null
     }
