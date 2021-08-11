@@ -2800,7 +2800,7 @@
         "name": "Keller unter Wasser",
         "place": "",
         "place_array": {},
-        "average_credits": 370,
+        "average_credits": 770,
         "generated_by": "Feuerwache",
         "icons": {
             "0": "/images/river_gruen.png",
@@ -2808,12 +2808,17 @@
             "2": "/images/river_rot.png"
         },
         "requirements": {
-            "firetrucks": 1
+            "firetrucks": 1,
+            "water_damage_pump": 1
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 656
+            },
             "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "pump_water_amount": 8000
         },
         "prerequisites": {
             "main_building": 0,
@@ -4967,7 +4972,7 @@
         "name": "Tiefgarage unter Wasser",
         "place": "",
         "place_array": {},
-        "average_credits": 370,
+        "average_credits": 1970,
         "generated_by": "Feuerwache",
         "icons": {
             "0": "/images/river_gruen.png",
@@ -4975,12 +4980,14 @@
             "2": "/images/river_rot.png"
         },
         "requirements": {
-            "firetrucks": 1
+            "firetrucks": 1,
+            "water_damage_pump": 1
         },
         "chances": {},
         "additional": {
             "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "pump_water_amount": 30000
         },
         "prerequisites": {
             "main_building": 0,
@@ -5355,7 +5362,7 @@
         "name": "Parkdeck voll Wasser gelaufen",
         "place": "",
         "place_array": {},
-        "average_credits": 4000,
+        "average_credits": 6100,
         "generated_by": "Feuerwache",
         "icons": {
             "0": "/images/river_gruen.png",
@@ -5367,11 +5374,16 @@
             "battalion_chief_vehicles": 1,
             "water_tankers": 1,
             "gwoil": 1,
-            "police_cars": 2
+            "police_cars": 2,
+            "water_damage_pump": 1
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "expansion_missions_ids": {
+                "0": 655
+            },
+            "filter_id": "firehouse_missions",
+            "pump_water_amount": 40000
         },
         "prerequisites": {
             "main_building": 0,
@@ -5385,7 +5397,7 @@
         "name": "Stra\u00dfe unter Wasser",
         "place": "",
         "place_array": {},
-        "average_credits": 600,
+        "average_credits": 3200,
         "generated_by": "Feuerwache",
         "icons": {
             "0": "/images/river_gruen.png",
@@ -5393,11 +5405,17 @@
             "2": "/images/river_rot.png"
         },
         "requirements": {
-            "firetrucks": 1
+            "firetrucks": 1,
+            "water_damage_pump": 1
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "expansion_missions_ids": {
+                "0": 657,
+                "1": 658
+            },
+            "filter_id": "firehouse_missions",
+            "pump_water_amount": 50000
         },
         "prerequisites": {
             "main_building": 0,
@@ -5420,11 +5438,17 @@
         },
         "requirements": {
             "firetrucks": 1,
-            "police_cars": 2
+            "police_cars": 2,
+            "water_damage_pump": 1
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "expansion_missions_ids": {
+                "0": 657,
+                "1": 658
+            },
+            "filter_id": "firehouse_missions",
+            "pump_water_amount": 50000
         },
         "prerequisites": {
             "main_building": 0,
@@ -17125,7 +17149,7 @@
         "place_array": {
             "0": "Fluss"
         },
-        "average_credits": 6500,
+        "average_credits": 12500,
         "generated_by": "THW",
         "icons": {
             "0": "/images/fallingrocks_gruen.png",
@@ -17144,11 +17168,16 @@
             "thw_mtwtz": 1,
             "thw_brmg_r": 1,
             "thw_mzkw": 1,
-            "thw_lkw": 1
+            "thw_lkw": 1,
+            "water_damage_pump": 2
         },
         "chances": {},
         "additional": {
-            "filter_id": "technical_aid_organization_missions"
+            "expansion_missions_ids": {
+                "0": 659
+            },
+            "filter_id": "technical_aid_organization_missions",
+            "pump_water_amount": 100000
         },
         "prerequisites": {
             "main_building": 9,
@@ -17189,11 +17218,16 @@
             "thw_mtwtz": 1,
             "thw_brmg_r": 1,
             "thw_mzkw": 1,
-            "thw_lkw": 1
+            "thw_lkw": 1,
+            "water_damage_pump": 2
         },
         "chances": {},
         "additional": {
-            "filter_id": "technical_aid_organization_missions"
+            "expansion_missions_ids": {
+                "0": 659
+            },
+            "filter_id": "technical_aid_organization_missions",
+            "pump_water_amount": 100000
         },
         "prerequisites": {
             "main_building": 9,
@@ -17235,7 +17269,8 @@
             "thw_mtwtz": 3,
             "thw_mzkw": 3,
             "diver_units": 2,
-            "boats": 3
+            "boats": 3,
+            "water_damage_pump": 2
         },
         "chances": {
             "nef": 50,
@@ -17252,6 +17287,7 @@
                 "4": 253
             },
             "filter_id": "water_watch_missions",
+            "pump_water_amount": 100000,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -17324,7 +17360,8 @@
             "thw_mtwtz": 3,
             "thw_mzkw": 3,
             "diver_units": 2,
-            "boats": 3
+            "boats": 3,
+            "water_damage_pump": 2
         },
         "chances": {
             "nef": 50,
@@ -17334,6 +17371,7 @@
         "additional": {
             "possible_patient": 17,
             "filter_id": "water_watch_missions",
+            "pump_water_amount": 100000,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -23111,6 +23149,433 @@
             "rescue_stations": 5,
             "police_stations": 3,
             "fire_stations": 17
+        },
+        "alternate_version": null
+    },
+    "655": {
+        "id": 655,
+        "name": "Parkhaus voll Wasser gelaufen",
+        "place": "Flughafen (gro\u00df): Parkhaus",
+        "place_array": {
+            "0": "Flughafen (gro\u00df): Parkhaus"
+        },
+        "average_credits": 6825,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "gwoil": 1,
+            "police_cars": 2,
+            "thw_gkw": 1,
+            "thw_mtwtz": 1,
+            "pump": 1
+        },
+        "chances": {
+            "gwoil": 50
+        },
+        "additional": {
+            "filter_id": "technical_aid_organization_missions",
+            "pump_water_amount": 100000
+        },
+        "prerequisites": {
+            "main_building": 9,
+            "police_stations": 2,
+            "thw": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_gkw_count": 1,
+            "water_damage_pump_count": 1,
+            "fire_stations": 13
+        },
+        "alternate_version": null
+    },
+    "656": {
+        "id": 656,
+        "name": "Mehrere Keller unter Wasser",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1260,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "thw_gkw": 2,
+            "pump": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "technical_aid_organization_missions",
+            "pump_water_amount": 50000
+        },
+        "prerequisites": {
+            "main_building": 9,
+            "thw": 1,
+            "thw_gkw_count": 2,
+            "water_damage_pump_count": 1
+        },
+        "alternate_version": null
+    },
+    "657": {
+        "id": 657,
+        "name": "Tunnel unter Wasser (Klein)",
+        "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
+        "average_credits": 1470,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "gwoil": 1,
+            "police_cars": 2,
+            "thw_gkw": 2,
+            "pump": 1
+        },
+        "chances": {
+            "gwoil": 35
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 658
+            },
+            "filter_id": "technical_aid_organization_missions",
+            "pump_water_amount": 70000
+        },
+        "prerequisites": {
+            "main_building": 9,
+            "police_stations": 2,
+            "thw": 1,
+            "water_damage_pump_count": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "658": {
+        "id": 658,
+        "name": "Tunnel unter Wasser (Gro\u00df)",
+        "place": "Tunnel",
+        "place_array": {
+            "0": "Tunnel"
+        },
+        "average_credits": 7140,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 1,
+            "gwoil": 1,
+            "police_cars": 3,
+            "thw_gkw": 2,
+            "thw_mtwtz": 1,
+            "thw_mzkw": 2,
+            "pump": 2,
+            "min_pump_speed": 27000
+        },
+        "chances": {
+            "mobile_command_vehicles": 30,
+            "water_tankers": 50
+        },
+        "additional": {
+            "filter_id": "technical_aid_organization_missions",
+            "pump_water_amount": 120000
+        },
+        "prerequisites": {
+            "main_building": 9,
+            "police_stations": 2,
+            "thw": 2,
+            "thw_bergung_count": 2,
+            "thw_zugtrupp_count": 1,
+            "thw_gkw_count": 2,
+            "water_damage_pump_count": 1,
+            "fire_stations": 13
+        },
+        "alternate_version": null
+    },
+    "659": {
+        "id": 659,
+        "name": "Dammbruch",
+        "place": "See\nFluss",
+        "place_array": {
+            "0": "See",
+            "1": "Fluss"
+        },
+        "average_credits": 27400,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 4,
+            "lebefkw": 1,
+            "police_cars": 5,
+            "thw_gkw": 2,
+            "thw_mtwtz": 2,
+            "thw_mzkw": 2,
+            "pump": 4,
+            "min_pump_speed": 30000
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "pump_water_amount": 500000,
+            "pump_mission_mode": "before_mission"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 5,
+            "bereitschaftspolizei": 1,
+            "thw": 2,
+            "thw_bergung_count": 2,
+            "thw_zugtrupp_count": 2,
+            "thw_gkw_count": 2,
+            "water_damage_pump_count": 2,
+            "fire_stations": 15
+        },
+        "alternate_version": null
+    },
+    "660": {
+        "id": 660,
+        "name": "Bach droht \u00fcber Ufer zu treten",
+        "place": "Fluss",
+        "place_array": {
+            "0": "Fluss"
+        },
+        "average_credits": 1260,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "thw_gkw": 1,
+            "thw_mtwtz": 1,
+            "pump": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "technical_aid_organization_missions",
+            "pump_water_amount": 10000
+        },
+        "prerequisites": {
+            "main_building": 9,
+            "thw": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_gkw_count": 1,
+            "water_damage_pump_count": 1
+        },
+        "alternate_version": null
+    },
+    "661": {
+        "id": 661,
+        "name": "Gew\u00e4sser gekippt (Klein)",
+        "place": "See\nFluss",
+        "place_array": {
+            "0": "See",
+            "1": "Fluss"
+        },
+        "average_credits": 1470,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "water_tankers": 1,
+            "thw_gkw": 1,
+            "thw_dle": 1,
+            "pump": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 662
+            },
+            "filter_id": "technical_aid_organization_missions",
+            "pump_water_amount": 30000
+        },
+        "prerequisites": {
+            "main_building": 9,
+            "thw": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
+            "water_damage_pump_count": 1,
+            "fire_stations": 7
+        },
+        "alternate_version": null
+    },
+    "662": {
+        "id": 662,
+        "name": "Gew\u00e4sser gekippt (Gro\u00df)",
+        "place": "See\nFluss",
+        "place_array": {
+            "0": "See",
+            "1": "Fluss"
+        },
+        "average_credits": 6510,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 2,
+            "gwmess": 1,
+            "thw_gkw": 2,
+            "thw_mtwtz": 1,
+            "thw_dle": 3,
+            "pump": 2,
+            "min_pump_speed": 25000
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "technical_aid_organization_missions",
+            "pump_water_amount": 100000
+        },
+        "prerequisites": {
+            "main_building": 9,
+            "thw": 4,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
+            "water_damage_pump_count": 2,
+            "fire_stations": 15
+        },
+        "alternate_version": null
+    },
+    "663": {
+        "id": 663,
+        "name": "Wassereinbruch Gro\u00dfbaustelle",
+        "place": "",
+        "place_array": {},
+        "average_credits": 6820,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1,
+            "gwoil": 1,
+            "height_rescue_units": 1,
+            "police_cars": 2,
+            "thw_gkw": 2,
+            "thw_mtwtz": 1,
+            "thw_brmg_r": 1,
+            "thw_mzkw": 1,
+            "thw_lkw": 1,
+            "thw_dle": 3,
+            "pump": 1,
+            "min_pump_speed": 25000
+        },
+        "chances": {
+            "gwoil": 50
+        },
+        "additional": {
+            "filter_id": "technical_aid_organization_missions",
+            "pump_water_amount": 80000,
+            "pump_mission_mode": "before_mission"
+        },
+        "prerequisites": {
+            "main_building": 9,
+            "police_stations": 2,
+            "thw": 4,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
+            "water_damage_pump_count": 2,
+            "fire_stations": 15
+        },
+        "alternate_version": null
+    },
+    "664": {
+        "id": 664,
+        "name": "Hochwasserschadenslage",
+        "place": "See\nFluss",
+        "place_array": {
+            "0": "See",
+            "1": "Fluss"
+        },
+        "average_credits": 12500,
+        "generated_by": "Wasserrettung",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 28,
+            "fwk": 2,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 5,
+            "water_tankers": 4,
+            "police_cars": 8,
+            "thw_gkw": 4,
+            "thw_mtwtz": 3,
+            "thw_mzkw": 3,
+            "diver_units": 2,
+            "boats": 3,
+            "pump": 3,
+            "water_damage_pump": 2
+        },
+        "chances": {
+            "nef": 50,
+            "patient_transport": 30,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 17,
+            "filter_id": "water_watch_missions",
+            "pump_water_amount": 100000,
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "main_building": 15,
+            "wasserrettung": 5,
+            "police_stations": 6,
+            "thw": 3,
+            "thw_bergung_count": 3,
+            "thw_zugtrupp_count": 3,
+            "thw_gkw_count": 4,
+            "water_damage_pump_count": 2,
+            "fire_stations": 15
         },
         "alternate_version": null
     }

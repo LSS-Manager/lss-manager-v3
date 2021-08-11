@@ -163,6 +163,10 @@
                 96: 'Außenlastbehälter (allgemein)',
                 97: 'ITW',
                 98: 'Zivilstreifenwagen',
+                99: 'LKW 7 Lbw',
+                100: 'MLW 4',
+                101: 'Anh SwPu',
+                102: 'Anh 7',
             },
         },
     };

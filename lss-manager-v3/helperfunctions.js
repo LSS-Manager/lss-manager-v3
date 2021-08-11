@@ -734,6 +734,10 @@ if (I18n.locale == 'en_US') {
         96: ['Außenlastbehälter (allgemein)', 2],
         97: ['ITW', 1],
         98: ['Zivilstreifenwagen', 2],
+        99: ['LKW 7 Lbw', 3],
+        100: ['MLW 4', 3],
+        101: ['Anh SwPu', 3],
+        102: ['Anh 7', 3],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {

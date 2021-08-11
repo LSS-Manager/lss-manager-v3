@@ -15187,7 +15187,7 @@
         "place": "",
         "place_array": {},
         "average_credits": 650,
-        "generated_by": "Ambulance station",
+        "generated_by": "Fire station",
         "icons": {
             "0": "/images/climbing_gruen.png",
             "1": "/images/climbing_gelb.png",
@@ -15204,7 +15204,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
+            "filter_id": "firehouse_missions",
             "patient_us_code_possible": {
                 "0": "15-E-1",
                 "1": "15-D-2",
@@ -15221,7 +15221,7 @@
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
-            "main_building": 3,
+            "main_building": 0,
             "rescue_stations": 1,
             "fire_stations": 4
         },
@@ -15339,7 +15339,7 @@
         "place": "",
         "place_array": {},
         "average_credits": 400,
-        "generated_by": "Ambulance station",
+        "generated_by": "Fire station",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -15354,14 +15354,14 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
+            "filter_id": "firehouse_missions",
             "patient_us_code_possible": {
                 "0": "17-D-5"
             },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
-            "main_building": 3,
+            "main_building": 0,
             "rescue_stations": 1,
             "fire_stations": 4
         },
@@ -21181,7 +21181,7 @@
         "place": "",
         "place_array": {},
         "average_credits": null,
-        "generated_by": "Ambulance station",
+        "generated_by": "Fire station",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -21197,7 +21197,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
+            "filter_id": "firehouse_missions",
             "patient_us_code_possible": {
                 "0": "22-D-1",
                 "1": "22-D-4"
@@ -21205,7 +21205,7 @@
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
-            "main_building": 3,
+            "main_building": 0,
             "rescue_stations": 1,
             "fire_stations": 4
         },
@@ -22919,7 +22919,7 @@
         "place": "",
         "place_array": {},
         "average_credits": 700,
-        "generated_by": "Ambulance station",
+        "generated_by": "Fire station",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -22938,7 +22938,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "allow_rw_instead_of_lf": true,
-            "filter_id": "ambulance_station_missions",
+            "filter_id": "firehouse_missions",
             "patient_us_code_possible": {
                 "0": "17-D-1G",
                 "1": "17-D-2G",
@@ -22957,7 +22957,7 @@
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
-            "main_building": 3,
+            "main_building": 0,
             "rescue_stations": 1,
             "fire_stations": 1
         },
@@ -24967,8 +24967,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "firetrucks": 2,
-            "platform_trucks": 2
+            "firetrucks": 2
         },
         "chances": {},
         "additional": {

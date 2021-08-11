@@ -4988,8 +4988,8 @@
         },
         "requirements": {
             "firetrucks": 4,
-            "battalion_chief_vehicles": 2,
-            "platform_trucks": 2,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
             "heavy_rescue_vehicles": 3,
             "police_cars": 1,
             "kdow_orgl": 1
@@ -5032,6 +5032,7 @@
                 "requirements": {
                     "firetrucks": 6,
                     "battalion_chief_vehicles": 6,
+                    "mobile_command_vehicles": 1,
                     "platform_trucks": 0,
                     "heavy_rescue_vehicles": 4,
                     "police_cars": 1,
@@ -13573,7 +13574,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "patient_uk_code_possible": {
-                "0": "C-4"
+                "0": "C-3"
             },
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "General Internal"
