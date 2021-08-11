@@ -1300,7 +1300,7 @@
         "name": "Liftopsluiting",
         "place": "",
         "place_array": {},
-        "average_credits": 170,
+        "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/elevator_gruen.png",
@@ -1312,7 +1312,10 @@
         },
         "chances": {},
         "additional": {
-            "allow_rw_instead_of_lf": true,
+            "expansion_missions_ids": {
+                "0": 478,
+                "1": 844
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -15747,7 +15750,7 @@
         "name": "Liftopsluiting",
         "place": "",
         "place_array": {},
-        "average_credits": 170,
+        "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/elevator_gruen.png",
@@ -15757,39 +15760,21 @@
         "requirements": {
             "firetrucks": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 25
+        },
         "additional": {
-            "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 844
+            },
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne Geneeskunde"
         },
         "prerequisites": {
             "main_building": 0,
-            "fire_stations": 1
-        },
-        "alternate_version": null
-    },
-    "479": {
-        "id": 479,
-        "name": "Liftopsluiting",
-        "place": "",
-        "place_array": {},
-        "average_credits": 170,
-        "generated_by": "Brandweer, Kazerne",
-        "icons": {
-            "0": "/images/elevator_gruen.png",
-            "1": "/images/elevator_gelb.png",
-            "2": "/images/elevator_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
-        },
-        "prerequisites": {
-            "main_building": 0,
+            "rescue_stations": 1,
             "fire_stations": 1
         },
         "alternate_version": null

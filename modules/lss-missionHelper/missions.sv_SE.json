@@ -4195,7 +4195,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -4375,7 +4377,8 @@
         },
         "prerequisites": {
             "main_building": 6,
-            "police_stations": 15
+            "police_stations": 15,
+            "police_helicopter_stations": 1
         },
         "alternate_version": null
     },
@@ -5353,7 +5356,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 179
+            },
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
