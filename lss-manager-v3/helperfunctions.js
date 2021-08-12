@@ -412,6 +412,7 @@ if (I18n.locale == 'en_US') {
         33: ['Scavatore su Rimorchio', 0],
         34: ['Elicottero Antincendio', 0],
         35: ['Canadair', 0],
+        36: ['P.M.A.', 1],
     };
 } else if (I18n.locale == 'fr_FR') {
     lssm.educations = ['SAV (Sauvetage Aquatique)', 'PLG (Plongeur)'];
