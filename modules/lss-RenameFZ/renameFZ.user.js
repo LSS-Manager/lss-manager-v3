@@ -1025,6 +1025,7 @@
                 33: 'Scavatore su Rimorchio',
                 34: 'Elicottero Antincendio',
                 35: 'Canadair',
+                36: 'P.M.A.',
             },
         },
     };

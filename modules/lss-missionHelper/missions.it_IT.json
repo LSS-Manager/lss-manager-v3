@@ -15493,5 +15493,264 @@
             "rescue_stations": 3
         },
         "alternate_version": null
+    },
+    "430": {
+        "id": 430,
+        "name": "Intossicazione di Massa",
+        "place": "Tavola calda",
+        "place_array": {
+            "0": "Tavola calda"
+        },
+        "average_credits": 6000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 6,
+            "k9": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 5
+        },
+        "additional": {
+            "possible_patient": 60,
+            "possible_patient_min": 20,
+            "patient_it_code_possible": {
+                "0": "PC07R",
+                "1": "PC07G",
+                "2": "PC07V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale"
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 10,
+            "police_stations": 8,
+            "fire_stations": 11
+        },
+        "alternate_version": null
+    },
+    "431": {
+        "id": 431,
+        "name": "Crollo Ospedale",
+        "place": "Ospedale",
+        "place_array": {
+            "0": "Ospedale"
+        },
+        "average_credits": 14000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "fwk": 1,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 8,
+            "hazmat_vehicles": 1,
+            "police_cars": 8,
+            "water_rescue": 2
+        },
+        "chances": {
+            "patient_transport": 10,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 120,
+            "possible_patient_min": 40,
+            "patient_it_code_possible": {
+                "0": "PC01R",
+                "1": "PC01G",
+                "2": "PC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "wasserrettung": 1,
+            "rescue_stations": 10,
+            "police_stations": 8,
+            "fire_stations": 13
+        },
+        "alternate_version": null
+    },
+    "432": {
+        "id": 432,
+        "name": "Maxi Rissa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 8000,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "swat_suv": 2,
+            "swat_armored_vehicle": 2,
+            "police_helicopters": 1,
+            "police_cars": 12,
+            "k9": 2
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 40,
+            "possible_patient_min": 10,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 10,
+            "police_stations": 10,
+            "police_helicopter_stations": 1
+        },
+        "alternate_version": null
+    },
+    "433": {
+        "id": 433,
+        "name": "Esplosione Tubatura Gas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 8000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 6
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 40,
+            "possible_patient_min": 20,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 10,
+            "police_stations": 6,
+            "fire_stations": 11
+        },
+        "alternate_version": null
+    },
+    "434": {
+        "id": 434,
+        "name": "Scontro Tra Treni",
+        "place": "Stazione ferroviaria (traffico regionale)\nStazione ferroviaria (traffico regionale e viaggi a lunga distanza)\nPassaggio a livello\nPassaggio a livello pedonale",
+        "place_array": {
+            "0": "Stazione ferroviaria (traffico regionale)",
+            "1": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)",
+            "2": "Passaggio a livello",
+            "3": "Passaggio a livello pedonale"
+        },
+        "average_credits": 15000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "fwk": 1,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 8,
+            "hazmat_vehicles": 2,
+            "police_cars": 10
+        },
+        "chances": {
+            "patient_transport": 10,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 180,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 12,
+            "police_stations": 10,
+            "fire_stations": 16
+        },
+        "alternate_version": null
     }
 }
