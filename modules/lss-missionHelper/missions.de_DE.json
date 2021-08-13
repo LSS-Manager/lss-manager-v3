@@ -275,6 +275,9 @@
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 665
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -5429,7 +5432,7 @@
         "name": "Stra\u00dfe unter Wasser",
         "place": "",
         "place_array": {},
-        "average_credits": 700,
+        "average_credits": 3400,
         "generated_by": "Feuerwache",
         "icons": {
             "0": "/images/river_gruen.png",
@@ -23576,6 +23579,35 @@
             "thw_gkw_count": 4,
             "water_damage_pump_count": 2,
             "fire_stations": 15
+        },
+        "alternate_version": null
+    },
+    "665": {
+        "id": 665,
+        "name": "Unterk\u00fchlung",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 40,
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 2
         },
         "alternate_version": null
     }
