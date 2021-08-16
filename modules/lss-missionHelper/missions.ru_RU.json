@@ -9886,5 +9886,36 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "315": {
+        "id": 315,
+        "name": "\u041e\u0447\u0438\u0441\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u044f\u0437\u043d\u0435\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0432\u044b",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 11
+        },
+        "alternate_version": null
     }
 }
