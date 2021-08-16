@@ -8073,5 +8073,36 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "258": {
+        "id": 258,
+        "name": "\u6c5a\u67d3\u3055\u308c\u305f\u571f\u58cc\u306e\u6d17\u6d44",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "\u6d88\u9632\u5c40",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u4e00\u822c\u5185\u79d1"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 11
+        },
+        "alternate_version": null
     }
 }

@@ -11014,5 +11014,37 @@
             "fire_stations": 25
         },
         "alternate_version": null
+    },
+    "349": {
+        "id": 349,
+        "name": "V\u00e1\u017en\u00e1 zran\u011bn\u00ed od skla",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "V\u0161eobecn\u00fd chirurg"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1,
+            "fire_stations": 1
+        },
+        "alternate_version": null
     }
 }
