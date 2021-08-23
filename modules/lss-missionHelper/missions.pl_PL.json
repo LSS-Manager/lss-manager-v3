@@ -515,9 +515,9 @@
         "average_credits": 700,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
         },
         "requirements": {
             "firetrucks": 1
@@ -620,7 +620,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "fire_stations": 3
+            "fire_stations": 6
         },
         "alternate_version": null
     },
@@ -855,7 +855,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_traffic_car_instead_of_fustw": true
         },
         "prerequisites": {
             "main_building": 0,
@@ -1512,10 +1513,10 @@
     },
     "57": {
         "id": 57,
-        "name": "Nielegalna demonstracja",
+        "name": "Niezapowiedziana demonstracja",
         "place": "",
         "place_array": {},
-        "average_credits": 10020,
+        "average_credits": 15000,
         "generated_by": "Komenda Policji",
         "icons": {
             "0": "/images/baseball_gruen.png",
@@ -1523,7 +1524,8 @@
             "2": "/images/baseball_rot.png"
         },
         "requirements": {
-            "police_cars": 7
+            "police_cars": 8,
+            "k9": 2
         },
         "chances": {},
         "additional": {
@@ -1901,7 +1903,7 @@
         "name": "Du\u017cy po\u017car",
         "place": "",
         "place_array": {},
-        "average_credits": 10210,
+        "average_credits": 18080,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/blast_gruen.png",
@@ -1909,7 +1911,7 @@
             "2": "/images/blast_rot.png"
         },
         "requirements": {
-            "firetrucks": 10,
+            "firetrucks": 14,
             "battalion_chief_vehicles": 3,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 2,
@@ -2318,7 +2320,6 @@
         "requirements": {
             "water_needed": 2400,
             "firetrucks": 3,
-            "ambulances": 1,
             "battalion_chief_vehicles": 1,
             "traffic_car": 1
         },
@@ -3202,17 +3203,13 @@
             "firetrucks": 1,
             "police_cars": 1
         },
-        "chances": {
-            "patient_transport": 50
-        },
+        "chances": {},
         "additional": {
-            "possible_patient": 1,
-            "filter_id": "firehouse_missions",
-            "patient_specializations": "Interna"
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "main_building": 0,
-            "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 2
         },
@@ -3933,7 +3930,9 @@
             "firetrucks": 1,
             "flood_equipment": 1
         },
-        "chances": {},
+        "chances": {
+            "flood_equipment": 20
+        },
         "additional": {
             "filter_id": "firehouse_missions"
         },
@@ -5036,7 +5035,9 @@
             "firetrucks": 1,
             "flood_equipment": 1
         },
-        "chances": {},
+        "chances": {
+            "flood_equipment": 20
+        },
         "additional": {
             "filter_id": "firehouse_missions"
         },
@@ -5059,15 +5060,13 @@
             "2": "/images/cat_rot.png"
         },
         "requirements": {
-            "firetrucks": 1,
-            "platform_trucks": 1
+            "firetrucks": 1
         },
-        "chances": {
-            "platform_trucks": 20
-        },
+        "chances": {},
         "additional": {
             "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true
         },
         "prerequisites": {
             "main_building": 0,
@@ -5708,7 +5707,8 @@
         "chances": {},
         "additional": {
             "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true
         },
         "prerequisites": {
             "main_building": 0,
@@ -7329,7 +7329,7 @@
         "name": "Pow\u00f3d\u017a - uk\u0142adanie work\u00f3w z piaskiem",
         "place": "",
         "place_array": {},
-        "average_credits": 600,
+        "average_credits": 2200,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/river_gruen.png",
@@ -7339,7 +7339,7 @@
         "requirements": {
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
-            "flood_equipment": 2
+            "flood_equipment": 1
         },
         "chances": {},
         "additional": {
@@ -7391,7 +7391,7 @@
         "name": "Po\u017car stolarni",
         "place": "",
         "place_array": {},
-        "average_credits": 2800,
+        "average_credits": 5000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -7404,7 +7404,7 @@
             "battalion_chief_vehicles": 3,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 1,
-            "water_tankers": 3
+            "water_tankers": 2
         },
         "chances": {},
         "additional": {
@@ -7412,7 +7412,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "fire_stations": 12
+            "fire_stations": 15
         },
         "alternate_version": null
     },
@@ -8106,7 +8106,7 @@
     },
     "272": {
         "id": 272,
-        "name": "Publiczne Spozywanie Alkoholu",
+        "name": "Spo\u017cywanie alkoholu w miejscu publicznym",
         "place": "",
         "place_array": {},
         "average_credits": 600,
@@ -9334,10 +9334,13 @@
         },
         "requirements": {
             "firetrucks": 2,
+            "fwk": 1,
             "heavy_rescue_vehicles": 1,
             "traffic_car": 1
         },
-        "chances": {},
+        "chances": {
+            "fwk": 75
+        },
         "additional": {
             "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions",
@@ -10399,7 +10402,7 @@
         "name": "Katastrofa samolotu pasa\u017cerskiego",
         "place": "",
         "place_array": {},
-        "average_credits": 25000,
+        "average_credits": 40000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/planecrash_gruen.png",
@@ -10486,9 +10489,9 @@
         "average_credits": 35000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
         },
         "requirements": {
             "water_needed": 20000,
@@ -10525,7 +10528,7 @@
         "name": "Po\u017car oczyszczalni \u015bciek\u00f3w",
         "place": "",
         "place_array": {},
-        "average_credits": 15000,
+        "average_credits": 28000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -10549,8 +10552,8 @@
             "helicopter": 50
         },
         "additional": {
-            "possible_patient": 15,
-            "possible_patient_min": 5,
+            "possible_patient": 10,
+            "possible_patient_min": 2,
             "filter_id": "firehouse_missions",
             "patient_specializations": "Interna"
         },
@@ -10558,7 +10561,7 @@
             "main_building": 0,
             "rescue_stations": 8,
             "police_stations": 2,
-            "fire_stations": 25
+            "fire_stations": 30
         },
         "alternate_version": null
     },
@@ -10572,9 +10575,9 @@
         "average_credits": 40000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
         },
         "requirements": {
             "water_needed": 108000,
@@ -10777,20 +10780,17 @@
             "battalion_chief_vehicles": 1,
             "water_rescue": 1,
             "diver_units": 1,
-            "boats": 2,
-            "traffic_car": 1
+            "boats": 2
         },
         "chances": {
             "patient_transport": 80,
             "helicopter": 10,
-            "patient_critical_care": 25,
-            "traffic_car": 75
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 3,
             "possible_patient_min": 2,
             "filter_id": "water_watch_missions",
-            "need_traffic_car_only_if_present": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Interna"
         },
@@ -10798,7 +10798,6 @@
             "main_building": 15,
             "wasserrettung": 2,
             "rescue_stations": 2,
-            "police_stations": 2,
             "fire_stations": 6
         },
         "alternate_version": null
@@ -12589,9 +12588,12 @@
             "2": "/images/river_rot.png"
         },
         "requirements": {
+            "firetrucks": 1,
             "flood_equipment": 1
         },
-        "chances": {},
+        "chances": {
+            "flood_equipment": 20
+        },
         "additional": {
             "filter_id": "firehouse_missions"
         },
@@ -12640,9 +12642,12 @@
             "2": "/images/river_rot.png"
         },
         "requirements": {
+            "firetrucks": 1,
             "flood_equipment": 1
         },
-        "chances": {},
+        "chances": {
+            "flood_equipment": 20
+        },
         "additional": {
             "filter_id": "firehouse_missions"
         },
@@ -12922,6 +12927,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 85000,
             "firetrucks": 12,
             "battalion_chief_vehicles": 4,
             "mobile_command_vehicles": 1,
@@ -13226,6 +13232,58 @@
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 12
+        },
+        "alternate_version": null
+    },
+    "433": {
+        "id": 433,
+        "name": "Podszywanie si\u0119 pod policjanta",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/museum_art_gruen.png",
+            "1": "/images/museum_art_gelb.png",
+            "2": "/images/museum_art_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "434": {
+        "id": 434,
+        "name": "Pr\u00f3ba wy\u0142udzenia pieni\u0119dzy",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 3
         },
         "alternate_version": null
     }

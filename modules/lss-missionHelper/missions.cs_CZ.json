@@ -11027,9 +11027,7 @@
             "1": "/images/medicalstore_gelb.png",
             "2": "/images/medicalstore_rot.png"
         },
-        "requirements": {
-            "firetrucks": 1
-        },
+        "requirements": {},
         "chances": {
             "patient_transport": 70,
             "patient_critical_care": 25
@@ -11042,8 +11040,40 @@
         },
         "prerequisites": {
             "main_building": 2,
-            "rescue_stations": 1,
-            "fire_stations": 1
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "350": {
+        "id": 350,
+        "name": "Velk\u00fd po\u017e\u00e1r pole",
+        "place": "Pole",
+        "place_array": {
+            "0": "Pole"
+        },
+        "average_credits": 9200,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 15,
+            "battalion_chief_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 351
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 3,
+            "fire_stations": 10
         },
         "alternate_version": null
     }

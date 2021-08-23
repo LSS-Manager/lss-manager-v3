@@ -990,7 +990,7 @@
     },
     "35": {
         "id": 35,
-        "name": "Fylleri/LOB",
+        "name": "Alkoholf\u00f6rgitning",
         "place": "",
         "place_array": {},
         "average_credits": null,
@@ -3062,7 +3062,8 @@
             "police_cars": 4
         },
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 30,
+            "police_helicopters": 45
         },
         "additional": {
             "possible_patient": 1,
@@ -4002,7 +4003,9 @@
             "police_cars": 10,
             "k9": 1
         },
-        "chances": {},
+        "chances": {
+            "police_helicopters": 60
+        },
         "additional": {
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions"
@@ -4030,7 +4033,9 @@
             "police_helicopters": 1,
             "police_cars": 5
         },
-        "chances": {},
+        "chances": {
+            "police_helicopters": 45
+        },
         "additional": {
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions"
@@ -4063,7 +4068,8 @@
             "police_horse": 2
         },
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 30,
+            "police_helicopters": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -4190,12 +4196,15 @@
             "police_horse": 5
         },
         "chances": {
-            "patient_transport": 25
+            "patient_transport": 25,
+            "police_helicopters": 40
         },
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -4229,7 +4238,8 @@
             "police_horse": 8
         },
         "chances": {
-            "patient_transport": 25
+            "patient_transport": 25,
+            "police_helicopters": 70
         },
         "additional": {
             "possible_patient": 4,
@@ -4294,7 +4304,9 @@
             "police_helicopters": 1,
             "police_cars": 4
         },
-        "chances": {},
+        "chances": {
+            "police_helicopters": 25
+        },
         "additional": {
             "expansion_missions_ids": {
                 "0": 105
@@ -4328,7 +4340,8 @@
         },
         "chances": {
             "patient_transport": 100,
-            "patient_critical_care": 50
+            "patient_critical_care": 50,
+            "police_helicopters": 50
         },
         "additional": {
             "possible_patient": 2,
@@ -4397,7 +4410,9 @@
             "police_cars": 4,
             "k9": 1
         },
-        "chances": {},
+        "chances": {
+            "police_helicopters": 25
+        },
         "additional": {
             "max_possible_prisoners": 2,
             "swat_personnel": 5,
@@ -4953,7 +4968,7 @@
     },
     "165": {
         "id": 165,
-        "name": "Snatteri",
+        "name": "Ringa st\u00f6ld",
         "place": "Mataff\u00e4r",
         "place_array": {
             "0": "Mataff\u00e4r"
@@ -5354,7 +5369,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 179
+            },
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
@@ -5954,7 +5971,8 @@
             "k9": 5
         },
         "chances": {
-            "patient_transport": 80
+            "patient_transport": 80,
+            "police_helicopters": 60
         },
         "additional": {
             "possible_patient": 1,
@@ -7234,7 +7252,7 @@
     },
     "239": {
         "id": 239,
-        "name": "J\u00e4gareolycka - civilperson",
+        "name": "Jaktolycka - civilperson",
         "place": "Skog",
         "place_array": {
             "0": "Skog"
@@ -8968,7 +8986,7 @@
     },
     "292": {
         "id": 292,
-        "name": "Akut amputiation",
+        "name": "Akut amputation",
         "place": "",
         "place_array": {},
         "average_credits": null,
@@ -9391,7 +9409,7 @@
     },
     "305": {
         "id": 305,
-        "name": "Flygh\u00e4ndelse - flygplan i vattet, litet",
+        "name": "Flygh\u00e4ndelse - flygplan i vatten, litet",
         "place": "Sj\u00f6",
         "place_array": {
             "0": "Sj\u00f6"
@@ -10148,6 +10166,60 @@
         "prerequisites": {
             "main_building": 6,
             "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "330": {
+        "id": 330,
+        "name": "Kolmonoxidf\u00f6rgiftning",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "332": {
+        "id": 332,
+        "name": "Fylleri/LOB",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 1
         },
         "alternate_version": null
     }

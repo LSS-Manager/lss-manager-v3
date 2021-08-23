@@ -6600,7 +6600,7 @@
     },
     "214": {
         "id": 214,
-        "name": "Orden de Busca y Caputra",
+        "name": "Orden de Busca y Captura",
         "place": "",
         "place_array": {},
         "average_credits": 2000,
@@ -9710,6 +9710,42 @@
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 11
+        },
+        "alternate_version": null
+    },
+    "311": {
+        "id": 311,
+        "name": "Explosi\u00f3n en cajero autom\u00e1tico",
+        "place": "Banco",
+        "place_array": {
+            "0": "Banco"
+        },
+        "average_credits": 5000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "police_cars": 5
+        },
+        "chances": {
+            "patient_transport": 25,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 4,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Cardiolog\u00eda"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 4,
+            "police_stations": 8,
+            "fire_stations": 5
         },
         "alternate_version": null
     }
