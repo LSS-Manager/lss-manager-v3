@@ -15551,6 +15551,93 @@
         },
         "alternate_version": null
     },
+    "426": {
+        "id": 426,
+        "name": "Incidente Con Fresa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 60,
+            "helicopter": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "427": {
+        "id": 427,
+        "name": "Elicottero Precipitato",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3400,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 10000,
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_stations": 11
+        },
+        "alternate_version": null
+    },
     "430": {
         "id": 430,
         "name": "Intossicazione di Massa",

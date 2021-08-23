@@ -13650,5 +13650,175 @@
             "fire_stations": 11
         },
         "alternate_version": null
+    },
+    "363": {
+        "id": 363,
+        "name": "Standoff with armed suspect",
+        "place": "",
+        "place_array": {},
+        "average_credits": 8000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "k9": 1
+        },
+        "chances": {
+            "patient_transport": 25,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 4,
+            "max_possible_prisoners": 1,
+            "swat_personnel": 8,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "police_station_missions",
+            "overlay_on_hazard_response_ems_chance": 100,
+            "overlay_on_hazard_response_ems_count": 1,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 4,
+            "police_stations": 8
+        },
+        "alternate_version": {
+            "mission_type": {
+                "id": 363,
+                "name": "Standoff with armed suspect",
+                "place": "",
+                "place_array": {},
+                "average_credits": 10500,
+                "generated_by": "Police Station",
+                "icons": {
+                    "0": "/images/shooting_gruen.png",
+                    "1": "/images/shooting_gelb.png",
+                    "2": "/images/shooting_rot.png"
+                },
+                "requirements": {
+                    "police_helicopters": 1,
+                    "police_cars": 6,
+                    "k9": 1,
+                    "hazard_response_primary": 1,
+                    "hazard_response_secondary": 1,
+                    "emergency_welfare": 1
+                },
+                "chances": {
+                    "patient_transport": 25,
+                    "patient_critical_care": 25
+                },
+                "additional": {
+                    "possible_patient": 4,
+                    "max_possible_prisoners": 1,
+                    "swat_personnel": 8,
+                    "patient_uk_code_possible": {
+                        "0": "C-2"
+                    },
+                    "filter_id": "police_station_missions",
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 6,
+                    "rescue_stations": 4,
+                    "police_stations": 8
+                },
+                "alternate_version": null
+            }
+        }
+    },
+    "364": {
+        "id": 364,
+        "name": "Standoff with armed suspect (Threatening to set fire)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 8500,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "k9": 1
+        },
+        "chances": {
+            "patient_transport": 25,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 4,
+            "max_possible_prisoners": 1,
+            "swat_personnel": 8,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "police_station_missions",
+            "overlay_on_hazard_response_ems_chance": 100,
+            "overlay_on_hazard_response_ems_count": 1,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 4,
+            "police_stations": 8,
+            "fire_stations": 6
+        },
+        "alternate_version": {
+            "mission_type": {
+                "id": 364,
+                "name": "Standoff with armed suspect (Threatening to set fire)",
+                "place": "",
+                "place_array": {},
+                "average_credits": 11000,
+                "generated_by": "Police Station",
+                "icons": {
+                    "0": "/images/shooting_gruen.png",
+                    "1": "/images/shooting_gelb.png",
+                    "2": "/images/shooting_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 2,
+                    "battalion_chief_vehicles": 1,
+                    "police_helicopters": 1,
+                    "police_cars": 6,
+                    "k9": 1,
+                    "hazard_response_primary": 1,
+                    "hazard_response_secondary": 1,
+                    "emergency_welfare": 1
+                },
+                "chances": {
+                    "patient_transport": 25,
+                    "patient_critical_care": 25
+                },
+                "additional": {
+                    "possible_patient": 4,
+                    "max_possible_prisoners": 1,
+                    "swat_personnel": 8,
+                    "patient_uk_code_possible": {
+                        "0": "C-2"
+                    },
+                    "filter_id": "police_station_missions",
+                    "patient_specializations": "General Internal"
+                },
+                "prerequisites": {
+                    "main_building": 6,
+                    "rescue_stations": 4,
+                    "police_stations": 8,
+                    "fire_stations": 6
+                },
+                "alternate_version": null
+            }
+        }
     }
 }

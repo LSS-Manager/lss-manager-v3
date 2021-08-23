@@ -716,7 +716,8 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2
+                "1": 2,
+                "2": 29
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -1834,7 +1835,7 @@
     },
     "65": {
         "id": 65,
-        "name": "402 Keitti\u00f6palo",
+        "name": "401 Keitti\u00f6palo",
         "place": "",
         "place_array": {},
         "average_credits": 1000,
@@ -9871,6 +9872,70 @@
         },
         "prerequisites": {
             "main_building": 6
+        },
+        "alternate_version": null
+    },
+    "319": {
+        "id": 319,
+        "name": "762 Verenvuoto (gyn.)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 250,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 66,
+            "kdow_orgl": 6,
+            "patient_critical_care": 12
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Gynekologia"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 6
+        },
+        "alternate_version": null
+    },
+    "320": {
+        "id": 320,
+        "name": "762 Verenvuoto (uro.)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 250,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 54,
+            "kdow_orgl": 9,
+            "patient_critical_care": 8
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Urologia"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 6
         },
         "alternate_version": null
     }
