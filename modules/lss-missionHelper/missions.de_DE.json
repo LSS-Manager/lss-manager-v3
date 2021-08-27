@@ -10135,6 +10135,9 @@
         "additional": {
             "duration_text": "3 Stunden",
             "duration": 10800,
+            "expansion_missions_ids": {
+                "0": 540
+            },
             "average_min_police_personnel": 150,
             "guard_mission": true,
             "filter_id": "riot_police_missions",
@@ -23320,7 +23323,7 @@
             "0": "See",
             "1": "Fluss"
         },
-        "average_credits": 27400,
+        "average_credits": 35500,
         "generated_by": "Feuerwache",
         "icons": {
             "0": "/images/river_gruen.png",
@@ -23328,19 +23331,22 @@
             "2": "/images/river_rot.png"
         },
         "requirements": {
-            "firetrucks": 10,
-            "battalion_chief_vehicles": 2,
+            "firetrucks": 25,
+            "battalion_chief_vehicles": 4,
             "mobile_command_vehicles": 1,
-            "platform_trucks": 1,
-            "heavy_rescue_vehicles": 2,
-            "water_tankers": 4,
-            "lebefkw": 1,
-            "police_cars": 5,
-            "thw_gkw": 2,
-            "thw_mtwtz": 2,
-            "thw_mzkw": 2,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 6,
+            "lebefkw": 3,
+            "police_helicopters": 1,
+            "police_cars": 8,
+            "thw_gkw": 5,
+            "thw_mtwtz": 5,
+            "thw_mzkw": 5,
+            "grukw": 9,
+            "fukw": 1,
             "pump": 4,
-            "min_pump_speed": 30000
+            "min_pump_speed": 55000
         },
         "chances": {},
         "additional": {
@@ -23350,14 +23356,15 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "police_stations": 5,
-            "bereitschaftspolizei": 1,
-            "thw": 2,
-            "thw_bergung_count": 2,
-            "thw_zugtrupp_count": 2,
-            "thw_gkw_count": 2,
+            "police_stations": 8,
+            "police_helicopter_stations": 1,
+            "bereitschaftspolizei": 2,
+            "thw": 5,
+            "thw_bergung_count": 5,
+            "thw_zugtrupp_count": 5,
+            "thw_gkw_count": 5,
             "water_damage_pump_count": 2,
-            "fire_stations": 15
+            "fire_stations": 25
         },
         "alternate_version": null
     },
@@ -23502,7 +23509,7 @@
             "thw_brmg_r": 1,
             "thw_mzkw": 1,
             "thw_lkw": 1,
-            "thw_dle": 3,
+            "thw_dle": 1,
             "pump": 1,
             "min_pump_speed": 25000
         },
@@ -23649,6 +23656,54 @@
             "main_building": 0,
             "rescue_stations": 10,
             "police_stations": 2,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "667": {
+        "id": 667,
+        "name": "Strohballenstapelbrand",
+        "place": "",
+        "place_array": {},
+        "average_credits": 10000,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 45000,
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "water_tankers": 2,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2,
+            "thw_gkw": 1,
+            "thw_mtwtz": 1,
+            "thw_brmg_r": 1,
+            "thw_mzkw": 1,
+            "thw_lkw": 1
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 14,
+                "1": 18,
+                "2": 204
+            },
+            "average_min_fire_personnel": 85,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 10
         },
         "alternate_version": null
