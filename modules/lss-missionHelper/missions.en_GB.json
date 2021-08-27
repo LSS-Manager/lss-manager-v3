@@ -13687,7 +13687,8 @@
         "prerequisites": {
             "main_building": 6,
             "rescue_stations": 4,
-            "police_stations": 8
+            "police_stations": 8,
+            "police_helicopter_stations": 1
         },
         "alternate_version": {
             "mission_type": {
@@ -13727,7 +13728,8 @@
                 "prerequisites": {
                     "main_building": 6,
                     "rescue_stations": 4,
-                    "police_stations": 8
+                    "police_stations": 8,
+                    "police_helicopter_stations": 1
                 },
                 "alternate_version": null
             }
@@ -13772,6 +13774,7 @@
             "main_building": 6,
             "rescue_stations": 4,
             "police_stations": 8,
+            "police_helicopter_stations": 1,
             "fire_stations": 6
         },
         "alternate_version": {
@@ -13815,6 +13818,7 @@
                     "main_building": 6,
                     "rescue_stations": 4,
                     "police_stations": 8,
+                    "police_helicopter_stations": 1,
                     "fire_stations": 6
                 },
                 "alternate_version": null
