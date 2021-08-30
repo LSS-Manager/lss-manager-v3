@@ -866,7 +866,6 @@
         },
         "chances": {},
         "additional": {
-            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -11074,6 +11073,37 @@
             "main_building": 0,
             "police_stations": 3,
             "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "351": {
+        "id": 351,
+        "name": "Rozs\u00e1hl\u00fd po\u017e\u00e1r pole",
+        "place": "Pole",
+        "place_array": {
+            "0": "Pole"
+        },
+        "average_credits": 19000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 30,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 4,
+            "fire_stations": 20
         },
         "alternate_version": null
     }

@@ -9748,5 +9748,33 @@
             "fire_stations": 5
         },
         "alternate_version": null
+    },
+    "312": {
+        "id": 312,
+        "name": "Limpieza de pista",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 4
+        },
+        "alternate_version": null
     }
 }

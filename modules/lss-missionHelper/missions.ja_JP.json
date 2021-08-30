@@ -8140,5 +8140,33 @@
             "fire_stations": 5
         },
         "alternate_version": null
+    },
+    "260": {
+        "id": 260,
+        "name": "\u9053\u8def\u306e\u6d17\u6d44",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "\u6d88\u9632\u5c40",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 4
+        },
+        "alternate_version": null
     }
 }

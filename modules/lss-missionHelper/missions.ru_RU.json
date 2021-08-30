@@ -9953,5 +9953,33 @@
             "fire_stations": 5
         },
         "alternate_version": null
+    },
+    "317": {
+        "id": 317,
+        "name": "\u0420\u0430\u0441\u0447\u0438\u0441\u0442\u043a\u0430 \u043f\u0443\u0442\u0438",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 4
+        },
+        "alternate_version": null
     }
 }

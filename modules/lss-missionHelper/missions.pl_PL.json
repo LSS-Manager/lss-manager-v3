@@ -5256,6 +5256,7 @@
         },
         "chances": {},
         "additional": {
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -6437,7 +6438,8 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 182
+                "2": 226,
+                "3": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -6665,7 +6667,8 @@
         },
         "prerequisites": {
             "main_building": 6,
-            "police_stations": 8
+            "police_stations": 8,
+            "police_helicopter_stations": 1
         },
         "alternate_version": null
     },
@@ -9649,6 +9652,7 @@
             "main_building": 0,
             "rescue_stations": 5,
             "police_stations": 5,
+            "police_helicopter_stations": 1,
             "fire_stations": 15
         },
         "alternate_version": null
@@ -13283,6 +13287,91 @@
         "prerequisites": {
             "main_building": 6,
             "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    "435": {
+        "id": 435,
+        "name": "Powa\u017cny wypadek na autostradzie",
+        "place": "Zjazd z autostrady",
+        "place_array": {
+            "0": "Zjazd z autostrady"
+        },
+        "average_credits": 12000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "water_needed": 1500,
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 4,
+            "traffic_car": 2
+        },
+        "chances": {
+            "fwk": 60,
+            "patient_transport": 80,
+            "helicopter": 50,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 2,
+            "max_possible_prisoners": 1,
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 6,
+            "police_stations": 6,
+            "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "436": {
+        "id": 436,
+        "name": "Potr\u0105cenie rowerzysty",
+        "place": "",
+        "place_array": {},
+        "average_credits": 8000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 30,
+            "patient_transport": 60,
+            "helicopter": 15,
+            "patient_critical_care": 15
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "allow_rw_instead_of_lf": true,
+            "allow_traffic_car_instead_of_fustw": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 6,
+            "fire_stations": 6
         },
         "alternate_version": null
     }

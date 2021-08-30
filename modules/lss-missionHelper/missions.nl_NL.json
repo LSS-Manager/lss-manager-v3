@@ -28197,5 +28197,73 @@
             "fire_stations": 7
         },
         "alternate_version": null
+    },
+    "848": {
+        "id": 848,
+        "name": "Gevallen groep wielrenners",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1520,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 8,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 8,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    "849": {
+        "id": 849,
+        "name": "Gevallen groep mountainbikers",
+        "place": "Duinen\nStrand\nStrandopgang",
+        "place_array": {
+            "0": "Duinen",
+            "1": "Strand",
+            "2": "Strandopgang"
+        },
+        "average_credits": 3020,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "water_rescue": 3
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 8,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 16,
+            "water_rescue_2": 3,
+            "rescue_stations": 8,
+            "police_stations": 2
+        },
+        "alternate_version": null
     }
 }
