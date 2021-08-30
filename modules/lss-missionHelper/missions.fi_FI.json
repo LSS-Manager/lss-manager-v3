@@ -9937,5 +9937,103 @@
             "rescue_stations": 6
         },
         "alternate_version": null
+    },
+    "321": {
+        "id": 321,
+        "name": "424 Turvetuontantoaluepalo, pieni",
+        "place": "Turvetuotantoalue",
+        "place_array": {
+            "0": "Turvetuotantoalue"
+        },
+        "average_credits": 800,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 322
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "322": {
+        "id": 322,
+        "name": "425 Turvetuontantoaluepalo, keskisuuri",
+        "place": "Turvetuotantoalue",
+        "place_array": {
+            "0": "Turvetuotantoalue"
+        },
+        "average_credits": 1700,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 321,
+                "1": 323
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "323": {
+        "id": 323,
+        "name": "426 Turvetuontantoaluepalo, suuri",
+        "place": "Turvetuotantoalue",
+        "place_array": {
+            "0": "Turvetuotantoalue"
+        },
+        "average_credits": 5800,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 8
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 322
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 13
+        },
+        "alternate_version": null
     }
 }

@@ -109,35 +109,6 @@
         },
         "alternate_version": null
     },
-    "4": {
-        "id": 4,
-        "name": "Feu de v\u00e9g\u00e9tation",
-        "place": "",
-        "place_array": {},
-        "average_credits": 200,
-        "generated_by": "Centre de secours",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "expansion_missions_ids": {
-                "0": 14
-            },
-            "filter_id": "firehouse_missions"
-        },
-        "prerequisites": {
-            "main_building": 0,
-            "max_fire_stations": 5,
-            "fire_stations": 1
-        },
-        "alternate_version": null
-    },
     "5": {
         "id": 5,
         "name": "Feu de chambre",
@@ -12549,6 +12520,34 @@
             "rescue_stations": 4,
             "police_stations": 8,
             "fire_stations": 5
+        },
+        "alternate_version": null
+    },
+    "367": {
+        "id": 367,
+        "name": "Nettoyage de route",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 4
         },
         "alternate_version": null
     }
