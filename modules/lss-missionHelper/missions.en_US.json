@@ -10276,8 +10276,10 @@
     "245": {
         "id": 245,
         "name": "Medical emergency on crane",
-        "place": "",
-        "place_array": {},
+        "place": "Construction site",
+        "place_array": {
+            "0": "Construction site"
+        },
         "average_credits": 950,
         "generated_by": "Fire station",
         "icons": {
@@ -11719,8 +11721,10 @@
     "263": {
         "id": 263,
         "name": "Unsafe Cladding",
-        "place": "",
-        "place_array": {},
+        "place": "Construction site",
+        "place_array": {
+            "0": "Construction site"
+        },
         "average_credits": 450,
         "generated_by": "Fire station",
         "icons": {
@@ -11747,8 +11751,10 @@
     "264": {
         "id": 264,
         "name": "Unsafe Scaffolding",
-        "place": "",
-        "place_array": {},
+        "place": "Construction site",
+        "place_array": {
+            "0": "Construction site"
+        },
         "average_credits": 450,
         "generated_by": "Fire station",
         "icons": {
@@ -15762,8 +15768,10 @@
     "368": {
         "id": 368,
         "name": "Easter bunny on crane",
-        "place": "",
-        "place_array": {},
+        "place": "Construction site",
+        "place_array": {
+            "0": "Construction site"
+        },
         "average_credits": 2000,
         "generated_by": "Fire station",
         "icons": {
@@ -18683,8 +18691,10 @@
     "425": {
         "id": 425,
         "name": "Construction vehicle accident",
-        "place": "",
-        "place_array": {},
+        "place": "Construction site",
+        "place_array": {
+            "0": "Construction site"
+        },
         "average_credits": 950,
         "generated_by": "Fire station",
         "icons": {
@@ -22917,8 +22927,10 @@
     "547": {
         "id": 547,
         "name": "Injured person on scaffolding",
-        "place": "",
-        "place_array": {},
+        "place": "Construction site",
+        "place_array": {
+            "0": "Construction site"
+        },
         "average_credits": 700,
         "generated_by": "Fire station",
         "icons": {
@@ -25565,8 +25577,10 @@
     "617": {
         "id": 617,
         "name": "Fall from small scaffolding",
-        "place": "",
-        "place_array": {},
+        "place": "Construction site",
+        "place_array": {
+            "0": "Construction site"
+        },
         "average_credits": 3500,
         "generated_by": "Fire station",
         "icons": {
@@ -25605,8 +25619,10 @@
     "618": {
         "id": 618,
         "name": "Fall from large scaffolding",
-        "place": "",
-        "place_array": {},
+        "place": "Construction site",
+        "place_array": {
+            "0": "Construction site"
+        },
         "average_credits": 7000,
         "generated_by": "Fire station",
         "icons": {

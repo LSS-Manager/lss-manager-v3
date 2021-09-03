@@ -4693,7 +4693,8 @@
         "chances": {},
         "additional": {
             "expansion_missions_ids": {
-                "0": 128
+                "0": 128,
+                "1": 668
             },
             "followup_missions_ids": {
                 "0": 27,
@@ -9958,16 +9959,15 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 27,
-                "2": 120,
-                "3": 121,
-                "4": 122,
-                "5": 123,
-                "6": 124,
-                "7": 125,
-                "8": 126,
-                "9": 127,
-                "10": 128
+                "1": 120,
+                "2": 121,
+                "3": 122,
+                "4": 123,
+                "5": 124,
+                "6": 125,
+                "7": 126,
+                "8": 127,
+                "9": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -23705,6 +23705,35 @@
             "thw_fg_raeumen_count": 1,
             "thw_gkw_count": 1,
             "fire_stations": 10
+        },
+        "alternate_version": null
+    },
+    "668": {
+        "id": 668,
+        "name": "Ampelausfall (Regelung erforderlich)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 200,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 89,
+                "1": 128
+            },
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 2
         },
         "alternate_version": null
     }
