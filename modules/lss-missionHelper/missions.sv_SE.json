@@ -5369,9 +5369,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 179
-            },
+            "expansion_missions_ids": {},
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
@@ -6380,6 +6378,9 @@
             "duration": 14400,
             "guard_mission": true,
             "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 336
+            },
             "need_police_horse_only_if_present": true
         },
         "prerequisites": {
