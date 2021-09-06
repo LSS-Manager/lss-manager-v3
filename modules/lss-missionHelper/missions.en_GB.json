@@ -2070,9 +2070,7 @@
         },
         "additional": {
             "possible_patient": 3,
-            "expansion_missions_ids": {
-                "0": 370
-            },
+            "expansion_missions_ids": {},
             "max_possible_prisoners": 2,
             "patient_uk_code_possible": {
                 "0": "C-3",
@@ -3461,9 +3459,7 @@
         },
         "additional": {
             "possible_patient": 1,
-            "expansion_missions_ids": {
-                "0": 370
-            },
+            "expansion_missions_ids": {},
             "patient_uk_code_possible": {
                 "0": "C-2",
                 "1": "C-3"
@@ -13868,6 +13864,70 @@
         },
         "prerequisites": {
             "main_building": 0,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "366": {
+        "id": 366,
+        "name": "Person Stuck in lift",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/elevator_gruen.png",
+            "1": "/images/elevator_gelb.png",
+            "2": "/images/elevator_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 367
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "367": {
+        "id": 367,
+        "name": "Unwell Person Stuck in lift",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/elevator_gruen.png",
+            "1": "/images/elevator_gelb.png",
+            "2": "/images/elevator_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-1"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
             "fire_stations": 1
         },
         "alternate_version": null
