@@ -28265,5 +28265,75 @@
             "police_stations": 2
         },
         "alternate_version": null
+    },
+    "850": {
+        "id": 850,
+        "name": "Ramkraak",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2310,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "hondengeleider": 1,
+            "police_cars": 4,
+            "ovdp": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 851
+            },
+            "max_possible_prisoners": 3,
+            "filter_id": "riot_police_missions"
+        },
+        "prerequisites": {
+            "main_building": 11,
+            "police_stations": 5,
+            "bereitschaftspolizei": 1,
+            "main_building_extensions": {
+                "0": 2
+            }
+        },
+        "alternate_version": null
+    },
+    "851": {
+        "id": 851,
+        "name": "Achtervolging gevaarlijke verdachte",
+        "place": "",
+        "place_array": {},
+        "average_credits": 6380,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "hondengeleider": 2,
+            "gefkw": 1,
+            "police_helicopters": 1,
+            "police_cars": 15,
+            "ovdp": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 5,
+            "filter_id": "riot_police_missions"
+        },
+        "prerequisites": {
+            "main_building": 11,
+            "police_stations": 14,
+            "police_helicopter_stations": 1,
+            "bereitschaftspolizei": 3,
+            "main_building_extensions": {
+                "0": 2
+            }
+        },
+        "alternate_version": null
     }
 }

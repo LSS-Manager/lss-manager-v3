@@ -6438,7 +6438,8 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 182
+                "2": 226,
+                "3": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -13372,6 +13373,81 @@
             "rescue_stations": 2,
             "police_stations": 6,
             "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "437": {
+        "id": 437,
+        "name": "Po\u017car ma\u0142ego parku",
+        "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
+        "average_credits": 4750,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 10000,
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 438
+            },
+            "average_min_fire_personnel": 5,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "438": {
+        "id": 438,
+        "name": "Po\u017car du\u017cego parku",
+        "place": "Park",
+        "place_array": {
+            "0": "Park"
+        },
+        "average_credits": 12500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 40000,
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_command_vehicles": 40,
+            "patient_transport": 75,
+            "patient_critical_care": 15
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "fire_stations": 15
         },
         "alternate_version": null
     }

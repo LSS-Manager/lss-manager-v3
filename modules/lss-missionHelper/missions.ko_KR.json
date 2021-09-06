@@ -8289,5 +8289,37 @@
             "fire_stations": 4
         },
         "alternate_version": null
+    },
+    "265": {
+        "id": 265,
+        "name": "\uc5d8\ub9ac\ubca0\uc774\ud130\uc5d0 \uac07\ud78c \ud658\uc790",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/elevator_gruen.png",
+            "1": "/images/elevator_gelb.png",
+            "2": "/images/elevator_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "fire_stations": 1
+        },
+        "alternate_version": null
     }
 }

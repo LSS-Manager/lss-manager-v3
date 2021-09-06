@@ -5369,7 +5369,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 179
+            },
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
@@ -10251,6 +10253,41 @@
         "prerequisites": {
             "main_building": 6,
             "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "333": {
+        "id": 333,
+        "name": "Brand i byggnad - hiss",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3850,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 4,
+            "police_stations": 2,
+            "fire_stations": 4
         },
         "alternate_version": null
     }

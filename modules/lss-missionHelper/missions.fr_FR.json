@@ -12550,5 +12550,37 @@
             "fire_stations": 4
         },
         "alternate_version": null
+    },
+    "368": {
+        "id": 368,
+        "name": "Ascenceur bloqu\u00e9 avec personnes \u00e0 l'int\u00e9rieur",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1150,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/elevator_gruen.png",
+            "1": "/images/elevator_gelb.png",
+            "2": "/images/elevator_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 15
+        },
+        "additional": {
+            "possible_patient": 1,
+            "average_min_fire_personnel": 4,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "fire_stations": 1
+        },
+        "alternate_version": null
     }
 }
