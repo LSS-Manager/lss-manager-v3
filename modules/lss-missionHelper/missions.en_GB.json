@@ -1760,7 +1760,9 @@
         },
         "additional": {
             "possible_patient": 3,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 370
+            },
             "max_possible_prisoners": 2,
             "patient_uk_code_possible": {
                 "0": "C-3",
@@ -2070,7 +2072,9 @@
         },
         "additional": {
             "possible_patient": 3,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 370
+            },
             "max_possible_prisoners": 2,
             "patient_uk_code_possible": {
                 "0": "C-3",
@@ -3459,7 +3463,9 @@
         },
         "additional": {
             "possible_patient": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 370
+            },
             "patient_uk_code_possible": {
                 "0": "C-2",
                 "1": "C-3"

@@ -13092,7 +13092,7 @@
         "requirements": {},
         "chances": {
             "patient_transport": 90,
-            "patient_critical_care": 75
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 1,
@@ -13342,7 +13342,7 @@
         "name": "Potr\u0105cenie rowerzysty",
         "place": "",
         "place_array": {},
-        "average_credits": 8000,
+        "average_credits": 4000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/caraccident_gruen.png",

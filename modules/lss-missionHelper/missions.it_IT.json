@@ -8090,9 +8090,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 193
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -15643,7 +15641,7 @@
         "name": "Trattamento Sanitario Obbligatorio",
         "place": "",
         "place_array": {},
-        "average_credits": 1600,
+        "average_credits": 800,
         "generated_by": "Stazione ambulanze",
         "icons": {
             "0": "/images/ambulance_gruen.png",
@@ -15651,13 +15649,9 @@
             "2": "/images/ambulance_rot.png"
         },
         "requirements": {
-            "firetrucks": 1,
-            "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1,
-            "police_cars": 4
+            "police_cars": 1
         },
         "chances": {
-            "platform_trucks": 60,
             "patient_transport": 100
         },
         "additional": {
@@ -15676,8 +15670,7 @@
         "prerequisites": {
             "main_building": 2,
             "rescue_stations": 3,
-            "police_stations": 6,
-            "fire_stations": 4
+            "police_stations": 1
         },
         "alternate_version": null
     },
