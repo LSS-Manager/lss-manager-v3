@@ -15651,10 +15651,7 @@
             "2": "/images/ambulance_rot.png"
         },
         "requirements": {
-            "firetrucks": 1,
-            "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1,
-            "police_cars": 4
+            "police_cars": 1
         },
         "chances": {
             "platform_trucks": 60,
