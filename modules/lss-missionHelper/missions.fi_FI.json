@@ -10079,5 +10079,63 @@
             "fire_stations": 5
         },
         "alternate_version": null
+    },
+    "325": {
+        "id": 325,
+        "name": "745 Nyrj\u00e4ht\u00e4nyt nilkka",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 22
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "326": {
+        "id": 326,
+        "name": "775 Voimakas vatsatauti",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 14
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
     }
 }
