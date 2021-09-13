@@ -12582,5 +12582,65 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "369": {
+        "id": 369,
+        "name": "Malaise \u00e0 domicile",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90,
+            "helicopter": 5,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 2
+        },
+        "alternate_version": null
+    },
+    "370": {
+        "id": 370,
+        "name": "Malaise lieu / voie publique",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 95,
+            "helicopter": 5,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 2
+        },
+        "alternate_version": null
     }
 }

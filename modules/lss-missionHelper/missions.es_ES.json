@@ -9808,5 +9808,44 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "314": {
+        "id": 314,
+        "name": "Accidente de aserrado",
+        "place": "Bosque\nAserradero",
+        "place_array": {
+            "0": "Bosque",
+            "1": "Aserradero"
+        },
+        "average_credits": 1000,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 60,
+            "helicopter": 60,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 4
+        },
+        "alternate_version": null
     }
 }

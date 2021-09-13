@@ -13937,5 +13937,44 @@
             "fire_stations": 1
         },
         "alternate_version": null
+    },
+    "368": {
+        "id": 368,
+        "name": "Person stuck in wood chipper",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 60,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-1"
+            },
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 3,
+            "fire_stations": 6
+        },
+        "alternate_version": null
     }
 }
