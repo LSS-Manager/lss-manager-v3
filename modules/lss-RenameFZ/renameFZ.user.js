@@ -1301,6 +1301,8 @@
                 20: 'Médico de cabecera',
                 21: 'Motocicleta de intervención rápida',
                 22: 'Ambulancia SVB',
+                23: 'Vehículo de extinción por espuma',
+                24: 'Remolque con bomba accionada por motor',
             },
         },
     };

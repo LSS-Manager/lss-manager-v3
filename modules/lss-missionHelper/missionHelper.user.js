@@ -361,6 +361,28 @@ const lssm_missionhelper_adjustPosition = () => {
                 },
             };
             break;
+        case 'es_ES':
+            managed_settings.settings.wateres = {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.wateres.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.wateres.description'
+                    ),
+                },
+            };
+            managed_settings.settings.foames = {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.foames.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.foames.description'
+                    ),
+                },
+            };
+            break;
         case 'pt_PT':
             managed_settings.settings.waterpt = {
                 default: true,
@@ -810,6 +832,7 @@ const lssm_missionhelper_adjustPosition = () => {
                     if (
                         !MISSION.requirements.hasOwnProperty(vehicle) ||
                         vehicle === 'water_needed' ||
+                        vehicle === 'foam_needed' ||
                         vehicle === 'personnel_educations'
                     )
                         continue;
@@ -1014,8 +1037,11 @@ const lssm_missionhelper_adjustPosition = () => {
                     SETTINGS.waterno ||
                     SETTINGS.waternl ||
                     SETTINGS.waterfr ||
+                    SETTINGS.wateres ||
                     SETTINGS.waterse) &&
                     MISSION.requirements.water_needed) ||
+                ((SETTINGS.foames) &&
+                    MISSION.requirements.foam_needed) ||
                 (SETTINGS.credits && MISSION.average_credits) ||
                 SETTINGS.mission_time
             ) {
@@ -1032,12 +1058,20 @@ const lssm_missionhelper_adjustPosition = () => {
                     SETTINGS.waterno ||
                     SETTINGS.waternl ||
                     SETTINGS.waterfr ||
+                    SETTINGS.wateres ||
                     SETTINGS.waterse) &&
                     MISSION.requirements.water_needed &&
                     (content.innerHTML += `<span class="badge badge-secondary">${I18n.t(
                         'lssm.missionhelper.water'
                     )}: ${MISSION.requirements.water_needed.toLocaleString()} ${I18n.t(
                         'lssm.missionhelper.water1'
+                    )}</span>&nbsp;`);
+                (SETTINGS.foames) &&
+                    MISSION.requirements.foames_needed &&
+                    (content.innerHTML += `<span class="badge badge-secondary">${I18n.t(
+                        'lssm.missionhelper.foam'
+                    )}: ${MISSION.requirements.water_needed.toLocaleString()} ${I18n.t(
+                        'lssm.missionhelper.foam1'
                     )}</span>&nbsp;`);
                 SETTINGS.mission_time &&
                     (content.innerHTML += `<span class="badge badge-secondary">${

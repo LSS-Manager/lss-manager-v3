@@ -6,6 +6,10 @@
     "patients": "pacientes",
     "prisoners": "presos",
     "to": "hasta",
+    "water": "Agua necesaria",
+    "water1": "l",
+    "foam": "Espuma necesaria",
+    "foam1": "l",
     "averageMinimumEmployeesFire": "Media de personal antiincendios mín.",
     "exp": "Diferenciales",
     "ambulance_only": "Esta misión es sólo de ambulancias.!",
@@ -32,6 +36,14 @@
         "live_patients": {
             "label": "Número de pacientes",
             "description": "Muestra en vivo cuántos pacientes están actualmente en uso."
+        },
+        "wateres": {
+            "label": "Demanda de agua",
+            "description": "Muestra la cantidad total de agua requerida"
+        },
+        "foames": {
+            "label": "Demanda de espuma",
+            "description": "Muestra la cantidad total de espuma requerida"
         },
         "vehicles": {
             "label": "Vehículos",
@@ -90,6 +102,8 @@
         "ambulances": "Ambulancia",
         "kdow_orgl": "Unidad logística de AMV",
         "orgl": "Unidad logística de AMV",
+        "foam": "Vehículos de extinción por espuma",
+        "pump": "Bombas accionadas por motor",
         "allow_rw_instead_of_lf": "Camiones de bomberos o rescate pesado"
     }
 }

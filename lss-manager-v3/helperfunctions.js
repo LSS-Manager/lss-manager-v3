@@ -482,6 +482,8 @@ if (I18n.locale == 'en_US') {
         20: ['Médico de cabecera', 1],
         21: ['Motocicleta de intervención rápida', 1],
         22: ['Ambulancia SVB', 1],
+        23: ['Vehículo de extinción por espuma', 0],
+        24: ['Remolque con bomba accionada por motor', 0],
     };
 } else if (I18n.locale == 'ko_KR') {
     lssm.carsById = {
