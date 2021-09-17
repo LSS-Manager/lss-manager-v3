@@ -916,40 +916,6 @@
         },
         "alternate_version": null
     },
-    "33": {
-        "id": 33,
-        "name": "Liten brann i matvarebutikk",
-        "place": "Matvarebutikk (liten)",
-        "place_array": {
-            "0": "Matvarebutikk (liten)"
-        },
-        "average_credits": 1500,
-        "generated_by": "Brannstasjon",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 4,
-            "battalion_chief_vehicles": 1
-        },
-        "chances": {
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 2,
-            "filter_id": "firehouse_missions",
-            "fire_alarm_system_possible": true,
-            "patient_specializations": "Generell medisin"
-        },
-        "prerequisites": {
-            "main_building": 0,
-            "rescue_stations": 1,
-            "fire_stations": 5
-        },
-        "alternate_version": null
-    },
     "34": {
         "id": 34,
         "name": "Brann p\u00e5 sykehus",
@@ -1972,46 +1938,6 @@
             "main_building": 0,
             "police_stations": 2,
             "fire_stations": 13
-        },
-        "alternate_version": null
-    },
-    "70": {
-        "id": 70,
-        "name": "Stor brann i matvarebutikk",
-        "place": "Matvarebutikk (stor)",
-        "place_array": {
-            "0": "Matvarebutikk (stor)"
-        },
-        "average_credits": 3000,
-        "generated_by": "Brannstasjon",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 6,
-            "battalion_chief_vehicles": 2,
-            "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1,
-            "water_tankers": 1,
-            "police_cars": 1
-        },
-        "chances": {
-            "water_tankers": 20,
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 6,
-            "filter_id": "firehouse_missions",
-            "fire_alarm_system_possible": true,
-            "patient_specializations": "Generell medisin"
-        },
-        "prerequisites": {
-            "main_building": 0,
-            "rescue_stations": 3,
-            "police_stations": 2,
-            "fire_stations": 8
         },
         "alternate_version": null
     },

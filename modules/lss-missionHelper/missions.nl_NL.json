@@ -2244,7 +2244,7 @@
         "name": "Klein vliegtuig neergestort",
         "place": "",
         "place_array": {},
-        "average_credits": 3000,
+        "average_credits": 3480,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -2270,9 +2270,9 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "rescue_stations": 3,
+            "rescue_stations": 8,
             "police_stations": 2,
-            "fire_stations": 6
+            "fire_stations": 13
         },
         "alternate_version": null
     },
@@ -2281,7 +2281,7 @@
         "name": "Klein vliegtuig neergestort",
         "place": "",
         "place_array": {},
-        "average_credits": 2000,
+        "average_credits": 1590,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -7152,7 +7152,7 @@
         "name": "Vliegtuig neergestort",
         "place": "",
         "place_array": {},
-        "average_credits": 11500,
+        "average_credits": 13620,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/blast_gruen.png",
@@ -8121,7 +8121,7 @@
         "place_array": {
             "0": "Vliegveld (groot): Start-/Landingsbaan"
         },
-        "average_credits": 1550,
+        "average_credits": 2010,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/planecrash_gruen.png",
@@ -8155,7 +8155,7 @@
         "place_array": {
             "0": "Vliegveld (groot): Start-/Landingsbaan"
         },
-        "average_credits": 1550,
+        "average_credits": 2010,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/planecrash_gruen.png",
@@ -8189,7 +8189,7 @@
         "place_array": {
             "0": "Vliegveld (groot): Start-/Landingsbaan"
         },
-        "average_credits": 1550,
+        "average_credits": 2010,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/planecrash_gruen.png",
@@ -8223,7 +8223,7 @@
         "place_array": {
             "0": "Vliegveld (groot): Start-/Landingsbaan"
         },
-        "average_credits": 2600,
+        "average_credits": 8570,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/planecrash_gruen.png",
@@ -8255,9 +8255,9 @@
         "prerequisites": {
             "main_building": 0,
             "rescue_stations": 8,
-            "police_stations": 5,
+            "police_stations": 6,
             "bereitschaftspolizei": 1,
-            "fire_stations": 12,
+            "fire_stations": 14,
             "main_building_extensions": {
                 "0": 8
             }
@@ -8271,7 +8271,7 @@
         "place_array": {
             "0": "Vliegveld (groot): Start-/Landingsbaan"
         },
-        "average_credits": 2700,
+        "average_credits": 7720,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/planecrash_gruen.png",
@@ -8297,9 +8297,9 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "police_stations": 5,
+            "police_stations": 6,
             "bereitschaftspolizei": 1,
-            "fire_stations": 12,
+            "fire_stations": 14,
             "main_building_extensions": {
                 "0": 8
             }
@@ -8313,7 +8313,7 @@
         "place_array": {
             "0": "Vliegveld (groot): Start-/Landingsbaan"
         },
-        "average_credits": 1800,
+        "average_credits": 3540,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/planecrash_gruen.png",
@@ -8354,7 +8354,7 @@
         "place_array": {
             "0": "Vliegveld (groot): Platform / Gate"
         },
-        "average_credits": 1125,
+        "average_credits": 2010,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -8387,7 +8387,7 @@
         "place_array": {
             "0": "Vliegveld (klein): Start-/Landingsbaan"
         },
-        "average_credits": 1100,
+        "average_credits": 2140,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/planecrash_gruen.png",
@@ -8414,7 +8414,7 @@
         "prerequisites": {
             "main_building": 0,
             "rescue_stations": 3,
-            "police_stations": 3,
+            "police_stations": 2,
             "fire_stations": 10,
             "main_building_extensions": {
                 "0": 8
@@ -8429,7 +8429,7 @@
         "place_array": {
             "0": "Vliegveld (klein): Start-/Landingsbaan"
         },
-        "average_credits": 2100,
+        "average_credits": 2140,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/planecrash_gruen.png",
@@ -8472,7 +8472,7 @@
         "place_array": {
             "0": "Vliegveld (klein): Start-/Landingsbaan"
         },
-        "average_credits": 3000,
+        "average_credits": 5770,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/planecrash_gruen.png",
@@ -8504,10 +8504,10 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "rescue_stations": 10,
+            "rescue_stations": 8,
             "police_stations": 5,
             "bereitschaftspolizei": 1,
-            "fire_stations": 10,
+            "fire_stations": 14,
             "main_building_extensions": {
                 "0": 8
             }
@@ -8521,7 +8521,7 @@
         "place_array": {
             "0": "Vliegveld (klein): Vliegtuig parkeerplaats"
         },
-        "average_credits": 1650,
+        "average_credits": 1560,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -8542,7 +8542,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "police_stations": 2,
+            "police_stations": 1,
             "fire_stations": 10,
             "main_building_extensions": {
                 "0": 8
@@ -8557,7 +8557,7 @@
         "place_array": {
             "0": "Vliegveld (klein): Vliegtuig parkeerplaats"
         },
-        "average_credits": 2500,
+        "average_credits": 3570,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -8583,7 +8583,7 @@
             "main_building": 0,
             "police_stations": 5,
             "bereitschaftspolizei": 1,
-            "fire_stations": 10,
+            "fire_stations": 13,
             "main_building_extensions": {
                 "0": 8
             }
@@ -15017,7 +15017,7 @@
         "place_array": {
             "0": "Vliegveld (groot): Platform / Gate"
         },
-        "average_credits": 600,
+        "average_credits": 910,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -15051,7 +15051,7 @@
         "place_array": {
             "0": "Vliegveld (groot): Platform / Gate"
         },
-        "average_credits": 1350,
+        "average_credits": 1080,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -15083,7 +15083,7 @@
         "place_array": {
             "0": "Vliegveld (groot): Start-/Landingsbaan"
         },
-        "average_credits": 2950,
+        "average_credits": 8570,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/planecrash_gruen.png",
@@ -15115,9 +15115,9 @@
         "prerequisites": {
             "main_building": 0,
             "rescue_stations": 8,
-            "police_stations": 5,
+            "police_stations": 6,
             "bereitschaftspolizei": 1,
-            "fire_stations": 12,
+            "fire_stations": 14,
             "main_building_extensions": {
                 "0": 8
             }
@@ -19535,7 +19535,7 @@
         "place_array": {
             "0": "Vliegveld (klein): Start-/Landingsbaan"
         },
-        "average_credits": 1980,
+        "average_credits": 2310,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/planecrash_gruen.png",
@@ -19561,7 +19561,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "rescue_stations": 4,
+            "rescue_stations": 8,
             "fire_stations": 10,
             "main_building_extensions": {
                 "0": 8
@@ -19576,7 +19576,7 @@
         "place_array": {
             "0": "Vliegveld (groot): Start-/Landingsbaan"
         },
-        "average_credits": 8640,
+        "average_credits": 8970,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/planecrash_gruen.png",
