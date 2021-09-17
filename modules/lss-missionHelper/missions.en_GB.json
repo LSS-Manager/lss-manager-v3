@@ -12986,7 +12986,7 @@
     },
     "350": {
         "id": 350,
-        "name": "Protester needing rescueing from height",
+        "name": "Protester needing rescuing from height",
         "place": "",
         "place_array": {},
         "average_credits": 4000,
@@ -13025,7 +13025,7 @@
         "alternate_version": {
             "mission_type": {
                 "id": 350,
-                "name": "Protester needing rescueing from height",
+                "name": "Protester needing rescuing from height",
                 "place": "",
                 "place_array": {},
                 "average_credits": 5000,

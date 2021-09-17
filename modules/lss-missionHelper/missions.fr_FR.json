@@ -916,6 +916,8 @@
             "possible_patient": 25,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 3,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -954,6 +956,8 @@
                     "possible_patient": 25,
                     "filter_id": "firehouse_missions",
                     "fire_alarm_system_possible": true,
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 3,
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
                 },
                 "prerequisites": {
@@ -1171,6 +1175,8 @@
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 2,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -1211,6 +1217,8 @@
                     "possible_patient": 4,
                     "filter_id": "firehouse_missions",
                     "fire_alarm_system_possible": true,
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 2,
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
                 },
                 "prerequisites": {
@@ -1754,6 +1762,8 @@
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 1,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -1791,6 +1801,8 @@
                     "possible_patient": 4,
                     "filter_id": "firehouse_missions",
                     "fire_alarm_system_possible": true,
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 1,
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
                 },
                 "prerequisites": {
@@ -2047,6 +2059,8 @@
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 2,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -2088,6 +2102,8 @@
                     "possible_patient": 6,
                     "filter_id": "firehouse_missions",
                     "fire_alarm_system_possible": true,
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 2,
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
                 },
                 "prerequisites": {
@@ -2894,6 +2910,8 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 1,
             "date_start": "2020-12-27T23:59:00+01:00",
             "date_end": "2021-01-01T23:59:00+01:00",
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
@@ -2933,6 +2951,8 @@
                     "possible_patient": 2,
                     "possible_patient_min": 1,
                     "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 1,
                     "date_start": "2020-12-27T23:59:00+01:00",
                     "date_end": "2021-01-01T23:59:00+01:00",
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
@@ -3080,7 +3100,9 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 1
         },
         "prerequisites": {
             "main_building": 0,
@@ -3108,7 +3130,9 @@
                 },
                 "chances": {},
                 "additional": {
-                    "filter_id": "firehouse_missions"
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 1
                 },
                 "prerequisites": {
                     "main_building": 0,
@@ -3138,7 +3162,9 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 1
         },
         "prerequisites": {
             "main_building": 0,
@@ -3166,7 +3192,9 @@
                 },
                 "chances": {},
                 "additional": {
-                    "filter_id": "firehouse_missions"
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 1
                 },
                 "prerequisites": {
                     "main_building": 0,
@@ -4295,7 +4323,9 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 2
         },
         "prerequisites": {
             "main_building": 0,
@@ -4326,7 +4356,9 @@
                 },
                 "chances": {},
                 "additional": {
-                    "filter_id": "firehouse_missions"
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 2
                 },
                 "prerequisites": {
                     "main_building": 0,
@@ -6595,6 +6627,8 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 2,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -6639,6 +6673,8 @@
                 "additional": {
                     "possible_patient": 10,
                     "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 2,
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
                 },
                 "prerequisites": {
@@ -6753,6 +6789,8 @@
             },
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 2,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -6798,6 +6836,8 @@
                     },
                     "filter_id": "firehouse_missions",
                     "fire_alarm_system_possible": true,
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 2,
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
                 },
                 "prerequisites": {
@@ -6841,6 +6881,8 @@
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 3,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -6883,6 +6925,8 @@
                     "possible_patient": 4,
                     "filter_id": "firehouse_missions",
                     "fire_alarm_system_possible": true,
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 3,
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
                 },
                 "prerequisites": {
@@ -6955,6 +6999,8 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 3,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -6998,6 +7044,8 @@
                 "additional": {
                     "possible_patient": 2,
                     "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 3,
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
                 },
                 "prerequisites": {
@@ -7073,6 +7121,8 @@
             },
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 2,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -7118,6 +7168,8 @@
                     },
                     "filter_id": "firehouse_missions",
                     "fire_alarm_system_possible": true,
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 2,
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
                 },
                 "prerequisites": {
@@ -7160,6 +7212,8 @@
         "additional": {
             "possible_patient": 7,
             "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 3,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -7202,6 +7256,8 @@
                 "additional": {
                     "possible_patient": 7,
                     "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 3,
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
                 },
                 "prerequisites": {
@@ -7248,6 +7304,8 @@
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 3,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -7294,6 +7352,8 @@
                     "possible_patient": 6,
                     "filter_id": "firehouse_missions",
                     "fire_alarm_system_possible": true,
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 3,
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
                 },
                 "prerequisites": {
@@ -7786,6 +7846,8 @@
             "possible_patient": 4,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 1,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -7825,6 +7887,8 @@
                     "possible_patient": 4,
                     "possible_patient_min": 1,
                     "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 1,
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
                 },
                 "prerequisites": {
@@ -8269,6 +8333,8 @@
         "additional": {
             "possible_patient": 3,
             "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 2,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -8309,6 +8375,8 @@
                 "additional": {
                     "possible_patient": 3,
                     "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 2,
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
                 },
                 "prerequisites": {
@@ -8353,6 +8421,8 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 3,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -8397,6 +8467,8 @@
                 "additional": {
                     "possible_patient": 10,
                     "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 3,
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
                 },
                 "prerequisites": {
@@ -9810,6 +9882,8 @@
             "possible_patient": 20,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 2,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -9847,6 +9921,8 @@
                     "possible_patient": 20,
                     "filter_id": "firehouse_missions",
                     "fire_alarm_system_possible": true,
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 2,
                     "patient_specializations": "Interne g\u00e9n\u00e9ral"
                 },
                 "prerequisites": {
@@ -10789,6 +10865,8 @@
         "additional": {
             "possible_patient": 15,
             "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 3,
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
@@ -10832,6 +10910,8 @@
                 "additional": {
                     "possible_patient": 15,
                     "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 3,
                     "patient_specializations": "Traumatologie"
                 },
                 "prerequisites": {
