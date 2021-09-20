@@ -10329,5 +10329,41 @@
             "fire_stations": 4
         },
         "alternate_version": null
+    },
+    "335": {
+        "id": 335,
+        "name": "Flygh\u00e4ndelse - helikopter olycka",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3400,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_stations": 11
+        },
+        "alternate_version": null
     }
 }

@@ -25765,5 +25765,36 @@
             "fire_stations": 6
         },
         "alternate_version": null
+    },
+    "622": {
+        "id": 622,
+        "name": "Blocked fire exit complaint",
+        "place": "High Rise\nHotel\nFactory\nOffice Building\nRestaurant",
+        "place_array": {
+            "0": "High Rise",
+            "1": "Hotel",
+            "2": "Factory",
+            "3": "Office Building",
+            "4": "Restaurant"
+        },
+        "average_credits": 1000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "fire_investigation": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_investigation_count": 1
+        },
+        "alternate_version": null
     }
 }

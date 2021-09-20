@@ -13507,5 +13507,90 @@
             "police_stations": 2
         },
         "alternate_version": null
+    },
+    "441": {
+        "id": 441,
+        "name": "Wypadek kolejowy - Zderzenie czo\u0142owe dw\u00f3ch poci\u0105g\u00f3w",
+        "place": "Przejazd kolejowy\nPrzejazd kolejowo-drogowy",
+        "place_array": {
+            "0": "Przejazd kolejowy",
+            "1": "Przejazd kolejowo-drogowy"
+        },
+        "average_credits": 28000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 15,
+            "fwk": 1,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 8,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 60,
+            "helicopter": 10,
+            "patient_critical_care": 15
+        },
+        "additional": {
+            "possible_patient": 40,
+            "possible_patient_min": 18,
+            "expansion_missions_ids": {
+                "0": 349
+            },
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "allow_traffic_car_instead_of_fustw": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 20,
+            "police_stations": 2,
+            "fire_stations": 15
+        },
+        "alternate_version": null
+    },
+    "442": {
+        "id": 442,
+        "name": "Po\u017car lokomotywy",
+        "place": "Dworzec kolejowy (ruch podmiejski)\nDworzec kolejowy (ruch podmiejski i dalekobie\u017cny)\nStacja towarowa\nPrzejazd kolejowy\nPrzejazd kolejowo-drogowy",
+        "place_array": {
+            "0": "Dworzec kolejowy (ruch podmiejski)",
+            "1": "Dworzec kolejowy (ruch podmiejski i dalekobie\u017cny)",
+            "2": "Stacja towarowa",
+            "3": "Przejazd kolejowy",
+            "4": "Przejazd kolejowo-drogowy"
+        },
+        "average_credits": 5000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "water_needed": 18000,
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 211
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 18
+        },
+        "alternate_version": null
     }
 }

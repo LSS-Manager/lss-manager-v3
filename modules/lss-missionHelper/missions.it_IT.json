@@ -8090,7 +8090,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 193
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -16031,6 +16033,32 @@
         "prerequisites": {
             "main_building": 6,
             "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "437": {
+        "id": 437,
+        "name": "Gatto Sull'Albero",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 3
         },
         "alternate_version": null
     }

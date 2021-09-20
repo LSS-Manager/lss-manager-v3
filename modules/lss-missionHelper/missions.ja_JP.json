@@ -8908,6 +8908,42 @@
         },
         "alternate_version": null
     },
+    "263": {
+        "id": 263,
+        "name": "\u30d8\u30ea\u30b3\u30d7\u30bf\u30fc\u589c\u843d",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3400,
+        "generated_by": "\u6d88\u9632\u5c40",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u707d\u5bb3\u5916\u79d1"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_stations": 11
+        },
+        "alternate_version": null
+    },
     "265": {
         "id": 265,
         "name": "\u7523\u696d\u706b\u707d\uff08\u5c0f)",
