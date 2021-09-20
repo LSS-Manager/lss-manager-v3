@@ -10138,5 +10138,35 @@
             "rescue_stations": 1
         },
         "alternate_version": null
+    },
+    "327": {
+        "id": 327,
+        "name": "112 H\u00e4m\u00e4r\u00e4miehi\u00e4 kellarissa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 650,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "average_min_police_personnel": 4,
+            "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 312
+            }
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 2
+        },
+        "alternate_version": null
     }
 }

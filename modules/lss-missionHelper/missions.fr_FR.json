@@ -12722,5 +12722,41 @@
             "rescue_stations": 2
         },
         "alternate_version": null
+    },
+    "371": {
+        "id": 371,
+        "name": "Fum\u00e9e suspecte - v\u00e9g\u00e9taux",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 119,
+                "1": 260,
+                "2": 261,
+                "3": 262,
+                "4": 268,
+                "5": 269,
+                "6": 270,
+                "7": 271
+            },
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 6
+        },
+        "alternate_version": null
     }
 }

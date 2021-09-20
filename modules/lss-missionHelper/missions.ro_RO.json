@@ -8630,6 +8630,42 @@
         },
         "alternate_version": null
     },
+    "257": {
+        "id": 257,
+        "name": "Elicopter pr\u0103bu\u0219it",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3400,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_stations": 11
+        },
+        "alternate_version": null
+    },
     "259": {
         "id": 259,
         "name": "Incendiu industrial (mic)",
