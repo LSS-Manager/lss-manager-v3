@@ -360,6 +360,16 @@ const lssm_missionhelper_adjustPosition = () => {
                     ),
                 },
             };
+            managed_settings.settings.foampl = {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.foampl.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.foampl.description'
+                    ),
+                },
+            };
             break;
         case 'es_ES':
             managed_settings.settings.wateres = {
@@ -1040,7 +1050,8 @@ const lssm_missionhelper_adjustPosition = () => {
                     SETTINGS.wateres ||
                     SETTINGS.waterse) &&
                     MISSION.requirements.water_needed) ||
-                ((SETTINGS.foames) &&
+                ((SETTINGS.foames ||
+                    SETTINGS.foampl) &&
                     MISSION.requirements.foam_needed) ||
                 (SETTINGS.credits && MISSION.average_credits) ||
                 SETTINGS.mission_time
@@ -1066,11 +1077,12 @@ const lssm_missionhelper_adjustPosition = () => {
                     )}: ${MISSION.requirements.water_needed.toLocaleString()} ${I18n.t(
                         'lssm.missionhelper.water1'
                     )}</span>&nbsp;`);
-                (SETTINGS.foames) &&
+                (SETTINGS.foames ||
+                    SETTINGS.foampl) &&
                     MISSION.requirements.foames_needed &&
                     (content.innerHTML += `<span class="badge badge-secondary">${I18n.t(
                         'lssm.missionhelper.foam'
-                    )}: ${MISSION.requirements.water_needed.toLocaleString()} ${I18n.t(
+                    )}: ${MISSION.requirements.foam_needed.toLocaleString()} ${I18n.t(
                         'lssm.missionhelper.foam1'
                     )}</span>&nbsp;`);
                 SETTINGS.mission_time &&
