@@ -109,6 +109,8 @@ if (I18n.locale == 'en_US') {
         30: ['ATV Carrier', 1],
         31: ['Ambulance Control Unit', 1],
         32: ['CBRN Vehicle', 1],
+        33: ['Mass Casualty Equipment', 1],
+        34: ['Ambulance Officer', 1],
     };
 } else if (I18n.locale == 'en_AU') {
     lssm.carsById = {
@@ -372,7 +374,17 @@ if (I18n.locale == 'en_US') {
         51: ["Przyczepa przeciwpowodziowa", 0],
         52: ["Przyczepa ze sprzętem AODO", 0],
         53: ["Przyczepa ze sprzętem medycznym", 0],
-        54: ["Przyczepa z łódką strażacką", 0]
+        54: ["Przyczepa z łódką strażacką", 0],
+        55: ["GCBAPr", 0],
+        56: ["GBAPr", 0],
+        57: ["GCPr", 0],
+        58: ["GPr", 0],
+        59: ["GLPr", 0],
+        60: ["Przyczepa ze środkiem pianotwórczym", 0],
+        61: ["SW", 0],
+        62: ["Przyczepa wężowa", 0],
+        63: ["Przyczepa wielofunkcyjna", 0],
+        64: ["Kontener wężowy", 0],
     };
 } else if (I18n.locale == 'it_IT') {
     lssm.carsById = {

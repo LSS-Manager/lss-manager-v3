@@ -6,6 +6,8 @@
     "prisoners": "Więźniowie",
     "water": "Potrzebna woda",
     "water1": "litrów",
+    "foam": "Wymagana pianka",
+    "foam1": "litrów",
     "to": "aż do",
     "exp": "Rozprzestrzeniania",
     "SWATPersonnel": "Wymagani policjanci SPKP",
@@ -44,6 +46,10 @@
         "waterpl": {
             "label": "Zapotrzebowanie na wodę",
             "description": "Pokazuje całkowitą wymaganą ilość wody."
+        },
+        "foampl": {
+            "label": "Zapotrzebowanie na piankę",
+            "description": "Wyświetla całkowitą ilość wymaganej pianki."
         },
         "patients": {
             "label": "patient information",
@@ -111,6 +117,8 @@
         "flood_equipment": "sprzęt przeciwpowodziowy",
         "fwk": "Dźwig SP",
         "height_rescue_units": "Ratownictwo Wyskościowe",
+        "foam": "samochody ze zbiornikiem na piane",
+        "pump": "samochody wężowe",
         "allow_rw_instead_of_lf": "Wozy strażackie lub ciężki ratunek"
     }
 }
