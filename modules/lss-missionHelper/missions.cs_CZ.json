@@ -11200,5 +11200,293 @@
             "police_stations": 3
         },
         "alternate_version": null
+    },
+    "356": {
+        "id": 356,
+        "name": "N\u011bkdo uklouzl na zmokl\u00e9m list\u00ed",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 45
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "V\u0161eobecn\u00fd chirurg"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "357": {
+        "id": 357,
+        "name": "Dopravn\u00ed nehoda zp\u016fsoben\u00e1 spadan\u00fdm list\u00edm",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 60,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "358": {
+        "id": 358,
+        "name": "N\u011bkdo spadl do hromady list\u00ed",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "359": {
+        "id": 359,
+        "name": "Vysava\u010d na list\u00ed, kter\u00fd se vymkl kontrole",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "V\u0161eobecn\u00fd chirurg"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 1,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "360": {
+        "id": 360,
+        "name": "De\u0161\u0165ov\u00e1 kanalizace ucpan\u00e1 list\u00edm",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "361": {
+        "id": 361,
+        "name": "Podchlazen\u00ed po plav\u00e1n\u00ed ve studen\u00e9 vod\u011b",
+        "place": "Rybn\u00edk\n\u0158eka",
+        "place_array": {
+            "0": "Rybn\u00edk",
+            "1": "\u0158eka"
+        },
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "362": {
+        "id": 362,
+        "name": "Silni\u010dn\u00ed nehoda v mlze",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 20
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "363": {
+        "id": 363,
+        "name": "Nehoda p\u0159i p\u0159ech\u00e1zen\u00ed vysok\u00e9 zv\u011b\u0159e",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "364": {
+        "id": 364,
+        "name": "Ho\u0159\u00edc\u00ed hromada list\u00ed",
+        "place": "",
+        "place_array": {},
+        "average_credits": 320,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2
+        },
+        "alternate_version": null
     }
 }

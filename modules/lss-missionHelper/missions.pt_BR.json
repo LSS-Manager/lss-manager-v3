@@ -8825,5 +8825,293 @@
             "fire_stations": 11
         },
         "alternate_version": null
+    },
+    "271": {
+        "id": 271,
+        "name": "Uma pessoa escorregou em folhas molhadas",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 45
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Cirurgi\u00e3o geral"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "272": {
+        "id": 272,
+        "name": "Acidente na estrada causado pela queda de folhas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 60,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "273": {
+        "id": 273,
+        "name": "Uma pessoa caiu num amontoado de folhas",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "274": {
+        "id": 274,
+        "name": "Aspirador de folhas descontrolado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Cirurgi\u00e3o geral"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 1,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "275": {
+        "id": 275,
+        "name": "Coletor pluvial entupido com folhas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "276": {
+        "id": 276,
+        "name": "Hipotermia ap\u00f3s nadar em \u00e1gua gelada",
+        "place": "Lago\nRio",
+        "place_array": {
+            "0": "Lago",
+            "1": "Rio"
+        },
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "277": {
+        "id": 277,
+        "name": "Acidente em estrada enevoada",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 20
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "278": {
+        "id": 278,
+        "name": "Acidente causado por travessia de cervo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "279": {
+        "id": 279,
+        "name": "Amontoado de folhas em chamas",
+        "place": "",
+        "place_array": {},
+        "average_credits": 320,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2
+        },
+        "alternate_version": null
     }
 }
