@@ -330,19 +330,51 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "foam_needed": 400,
+            "foam_needed": 200,
             "water_needed": 1900,
             "firetrucks": 1
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 11,
+                "name": "Zwarcie w instalacji elektrycznej",
+                "place": "",
+                "place_array": {},
+                "average_credits": 340,
+                "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "foam_needed": 400,
+                    "water_needed": 1900,
+                    "firetrucks": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 1
+                },
+                "alternate_version": null
+            }
+        }
     },
     "12": {
         "id": 12,
@@ -2044,7 +2076,6 @@
             "2": "/images/blast_rot.png"
         },
         "requirements": {
-            "foam_needed": 10000,
             "water_needed": 120000,
             "firetrucks": 14,
             "battalion_chief_vehicles": 3,
@@ -2195,6 +2226,7 @@
         },
         "prerequisites": {
             "main_building": 0,
+            "rescue_stations": 1,
             "fire_stations": 2
         },
         "alternate_version": null
@@ -2224,6 +2256,8 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 1,
             "date_start": "2020-12-01T10:00:00+01:00",
             "date_end": "2020-12-26T23:59:00+01:00",
             "patient_specializations": "Interna"
@@ -2232,7 +2266,45 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 78,
+                "name": "Po\u017car na jarmarku bo\u017conarodzeniowym",
+                "place": "Jarmark Bo\u017conarodzeniowy",
+                "place_array": {
+                    "0": "Jarmark Bo\u017conarodzeniowy"
+                },
+                "average_credits": 460,
+                "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "foam_needed": 600,
+                    "water_needed": 1600,
+                    "firetrucks": 1
+                },
+                "chances": {
+                    "patient_transport": 30
+                },
+                "additional": {
+                    "possible_patient": 1,
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 1,
+                    "date_start": "2020-12-01T10:00:00+01:00",
+                    "date_end": "2020-12-26T23:59:00+01:00",
+                    "patient_specializations": "Interna"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 1
+                },
+                "alternate_version": null
+            }
+        }
     },
     "79": {
         "id": 79,
@@ -14836,5 +14908,293 @@
                 "alternate_version": null
             }
         }
+    },
+    "450": {
+        "id": 450,
+        "name": "Kto\u015b po\u015blizgn\u0105\u0142 si\u0119 na wilgotnych li\u015bciach",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 45
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "451": {
+        "id": 451,
+        "name": "Wypadek drogowy spowodowany przez le\u017c\u0105ce na drodze li\u015bcie",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 60,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "452": {
+        "id": 452,
+        "name": "Kto\u015b wpad\u0142 w stert\u0119 li\u015bci",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "453": {
+        "id": 453,
+        "name": "Awaria dmuchawy do li\u015bci",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 1,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "454": {
+        "id": 454,
+        "name": "Kana\u0142 burzowy zatkany przez li\u015bcie",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "455": {
+        "id": 455,
+        "name": "Hipotermia po k\u0105pieli w basenie z zimn\u0105 wod\u0105",
+        "place": "Jezioro\nRzeka",
+        "place_array": {
+            "0": "Jezioro",
+            "1": "Rzeka"
+        },
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "456": {
+        "id": 456,
+        "name": "Wypadek drogowy podczas mg\u0142y",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 20
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "457": {
+        "id": 457,
+        "name": "Wypadek na przej\u015bciu dla jeleni",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "458": {
+        "id": 458,
+        "name": "Sterta p\u0142on\u0105cych li\u015bci",
+        "place": "",
+        "place_array": {},
+        "average_credits": 320,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2
+        },
+        "alternate_version": null
     }
 }

@@ -1049,8 +1049,7 @@
                     "kdow_orgl": 1,
                     "hazard_response_primary": 2,
                     "hazard_response_secondary": 2,
-                    "emergency_welfare": 1,
-                    "ems_mobile_command": 1
+                    "emergency_welfare": 1
                 },
                 "chances": {
                     "patient_transport": 50
@@ -5100,8 +5099,7 @@
                     "kdow_orgl": 1,
                     "hazard_response_primary": 2,
                     "hazard_response_secondary": 2,
-                    "emergency_welfare": 1,
-                    "ems_mobile_command": 1
+                    "emergency_welfare": 1
                 },
                 "chances": {
                     "patient_transport": 50,
@@ -6863,9 +6861,7 @@
                     "kdow_orgl": 1,
                     "hazard_response_primary": 2,
                     "hazard_response_secondary": 2,
-                    "emergency_welfare": 1,
-                    "mass_casualty_equipment": 1,
-                    "ems_mobile_command": 1
+                    "emergency_welfare": 1
                 },
                 "chances": {
                     "patient_transport": 40,
@@ -7727,9 +7723,7 @@
                     "kdow_orgl": 1,
                     "hazard_response_primary": 2,
                     "hazard_response_secondary": 2,
-                    "emergency_welfare": 1,
-                    "mass_casualty_equipment": 1,
-                    "ems_mobile_command": 1
+                    "emergency_welfare": 1
                 },
                 "chances": {
                     "patient_transport": 20,
@@ -8785,9 +8779,7 @@
                     "kdow_orgl": 1,
                     "hazard_response_primary": 2,
                     "hazard_response_secondary": 2,
-                    "emergency_welfare": 1,
-                    "mass_casualty_equipment": 1,
-                    "ems_mobile_command": 1
+                    "emergency_welfare": 1
                 },
                 "chances": {
                     "patient_transport": 10,
@@ -10842,9 +10834,7 @@
                     "hazard_response_primary": 2,
                     "hazard_response_secondary": 2,
                     "emergency_welfare": 1,
-                    "atv_carrier": 1,
-                    "mass_casualty_equipment": 1,
-                    "ems_mobile_command": 1
+                    "atv_carrier": 1
                 },
                 "chances": {
                     "patient_transport": 30,
@@ -12481,8 +12471,7 @@
                     "hazmat_vehicles": 1,
                     "police_cars": 3,
                     "hazard_response_primary": 2,
-                    "hazard_response_secondary": 1,
-                    "ems_mobile_command": 1
+                    "hazard_response_secondary": 1
                 },
                 "chances": {
                     "patient_transport": 50
@@ -13666,9 +13655,7 @@
                     "police_cars": 2,
                     "hazard_response_primary": 2,
                     "hazard_response_secondary": 2,
-                    "emergency_welfare": 1,
-                    "mass_casualty_equipment": 1,
-                    "ems_mobile_command": 1
+                    "emergency_welfare": 1
                 },
                 "chances": {
                     "platform_trucks": 20,
@@ -14306,9 +14293,7 @@
                     "police_cars": 6,
                     "hazard_response_primary": 2,
                     "hazard_response_secondary": 2,
-                    "emergency_welfare": 1,
-                    "mass_casualty_equipment": 1,
-                    "ems_mobile_command": 1
+                    "emergency_welfare": 1
                 },
                 "chances": {
                     "patient_transport": 30,
@@ -14410,9 +14395,7 @@
                     "police_cars": 6,
                     "hazard_response_primary": 2,
                     "hazard_response_secondary": 2,
-                    "emergency_welfare": 1,
-                    "mass_casualty_equipment": 1,
-                    "ems_mobile_command": 1
+                    "emergency_welfare": 1
                 },
                 "chances": {
                     "patient_transport": 30,
@@ -14502,9 +14485,7 @@
                     "police_cars": 6,
                     "hazard_response_primary": 1,
                     "hazard_response_secondary": 1,
-                    "emergency_welfare": 1,
-                    "mass_casualty_equipment": 1,
-                    "ems_mobile_command": 1
+                    "emergency_welfare": 1
                 },
                 "chances": {
                     "patient_transport": 40,
@@ -14535,9 +14516,9 @@
     "374": {
         "id": 374,
         "name": "Mass crush at festival",
-        "place": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.festival\">Festival</span>",
+        "place": "Festival",
         "place_array": {
-            "0": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.festival\">Festival</span>"
+            "0": "Festival"
         },
         "average_credits": 12000,
         "generated_by": "Ambulance Station",
@@ -14579,9 +14560,9 @@
             "mission_type": {
                 "id": 374,
                 "name": "Mass crush at festival",
-                "place": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.festival\">Festival</span>",
+                "place": "Festival",
                 "place_array": {
-                    "0": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.festival\">Festival</span>"
+                    "0": "Festival"
                 },
                 "average_credits": 12000,
                 "generated_by": "Ambulance Station",
@@ -14596,9 +14577,7 @@
                     "police_cars": 6,
                     "hazard_response_primary": 1,
                     "hazard_response_secondary": 1,
-                    "emergency_welfare": 1,
-                    "mass_casualty_equipment": 1,
-                    "ems_mobile_command": 1
+                    "emergency_welfare": 1
                 },
                 "chances": {
                     "patient_transport": 30,
@@ -14629,9 +14608,9 @@
     "375": {
         "id": 375,
         "name": "Stage Collapse at Festival",
-        "place": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.festival\">Festival</span>",
+        "place": "Festival",
         "place_array": {
-            "0": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.festival\">Festival</span>"
+            "0": "Festival"
         },
         "average_credits": 14000,
         "generated_by": "Fire Station",
@@ -14675,9 +14654,9 @@
             "mission_type": {
                 "id": 375,
                 "name": "Stage Collapse at Festival",
-                "place": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.festival\">Festival</span>",
+                "place": "Festival",
                 "place_array": {
-                    "0": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.festival\">Festival</span>"
+                    "0": "Festival"
                 },
                 "average_credits": 14000,
                 "generated_by": "Fire Station",
@@ -14694,9 +14673,7 @@
                     "police_cars": 6,
                     "hazard_response_primary": 2,
                     "hazard_response_secondary": 2,
-                    "emergency_welfare": 1,
-                    "mass_casualty_equipment": 1,
-                    "ems_mobile_command": 1
+                    "emergency_welfare": 1
                 },
                 "chances": {
                     "patient_transport": 30,
@@ -14723,5 +14700,317 @@
                 "alternate_version": null
             }
         }
+    },
+    "376": {
+        "id": 376,
+        "name": "Person slipped on wet leaves",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 45
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-3"
+            },
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "377": {
+        "id": 377,
+        "name": "Road accident caused by fallen leaves",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 60,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-3",
+                "1": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "378": {
+        "id": 378,
+        "name": "Person fell in pile of leaves",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-3"
+            },
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "379": {
+        "id": 379,
+        "name": "Leaf vacuum out of control",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-3"
+            },
+            "filter_id": "police_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 1,
+            "police_stations": 1
+        },
+        "alternate_version": null
+    },
+    "380": {
+        "id": 380,
+        "name": "Storm drain clogged with leaves",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
+    "381": {
+        "id": 381,
+        "name": "Hypothermia after swimming in cold water",
+        "place": "Lake\nRiver",
+        "place_array": {
+            "0": "Lake",
+            "1": "River"
+        },
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-3",
+                "1": "C-2"
+            },
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    "382": {
+        "id": 382,
+        "name": "Accident on foggy road",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 20
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_uk_code_possible": {
+                "0": "C-3",
+                "1": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "383": {
+        "id": 383,
+        "name": "Deer crossing accident",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "384": {
+        "id": 384,
+        "name": "Burning pile of leaves",
+        "place": "",
+        "place_array": {},
+        "average_credits": 320,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/autumn_gruen.png",
+            "1": "/images/autumn_gelb.png",
+            "2": "/images/autumn_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-09-24T09:00:00Z",
+            "date_end": "2021-10-01T23:59:00Z"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2
+        },
+        "alternate_version": null
     }
 }
