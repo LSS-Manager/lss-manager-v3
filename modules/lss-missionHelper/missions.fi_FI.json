@@ -10998,6 +10998,45 @@
         },
         "alternate_version": null
     },
+    "328": {
+        "id": 328,
+        "name": "202 Moottoripy\u00f6r\u00e4onnettomuus",
+        "place": "Moottoritien poistumisliittym\u00e4",
+        "place_array": {
+            "0": "Moottoritien poistumisliittym\u00e4"
+        },
+        "average_credits": 1700,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 2,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 95,
+            "helicopter": 95,
+            "kdow_orgl": 75,
+            "patient_critical_care": 95
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 10,
+            "police_stations": 2,
+            "fire_stations": 1
+        },
+        "alternate_version": null
+    },
     "329": {
         "id": 329,
         "name": "422 Maastopalo, keskisuuri",

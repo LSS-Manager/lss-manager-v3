@@ -16062,6 +16062,53 @@
         },
         "alternate_version": null
     },
+    "438": {
+        "id": 438,
+        "name": "Autocisterna Ribaltata",
+        "place": "",
+        "place_array": {},
+        "average_credits": 6000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "water_needed": 10000,
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "ZC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 4,
+            "fire_stations": 11
+        },
+        "alternate_version": null
+    },
     "439": {
         "id": 439,
         "name": "Persona scivolata sulle foglie bagnate",

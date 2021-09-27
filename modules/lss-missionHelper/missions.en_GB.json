@@ -14229,6 +14229,42 @@
             }
         }
     },
+    "370": {
+        "id": 370,
+        "name": "Panic button activation",
+        "place": "",
+        "place_array": {},
+        "average_credits": 7000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 10,
+            "k9": 1
+        },
+        "chances": {
+            "patient_transport": 10,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_uk_code_possible": {
+                "0": "C-3",
+                "1": "C-2"
+            },
+            "filter_id": "police_station_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 5,
+            "police_stations": 12
+        },
+        "alternate_version": null
+    },
     "371": {
         "id": 371,
         "name": "Multiple vehicle RTC - Major Incident",

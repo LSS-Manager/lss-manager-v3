@@ -12759,6 +12759,31 @@
         },
         "alternate_version": null
     },
+    "372": {
+        "id": 372,
+        "name": "Feu d'origine \u00e9lectrique",
+        "place": "",
+        "place_array": {},
+        "average_credits": 750,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2
+        },
+        "alternate_version": null
+    },
     "373": {
         "id": 373,
         "name": "Une personne a gliss\u00e9 sur des feuilles mouill\u00e9es",

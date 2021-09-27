@@ -11201,6 +11201,39 @@
         },
         "alternate_version": null
     },
+    "355": {
+        "id": 355,
+        "name": "Ozbrojen\u00e9 pron\u00e1sledov\u00e1n\u00ed vozidla",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 4,
+            "swat_personnel": 6,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 8,
+            "police_helicopter_stations": 1
+        },
+        "alternate_version": null
+    },
     "356": {
         "id": 356,
         "name": "N\u011bkdo uklouzl na zmokl\u00e9m list\u00ed",
