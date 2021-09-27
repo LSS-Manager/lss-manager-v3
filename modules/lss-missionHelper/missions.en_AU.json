@@ -11206,6 +11206,40 @@
         },
         "alternate_version": null
     },
+    "353": {
+        "id": 353,
+        "name": "Riot at concert",
+        "place": "Stadium",
+        "place_array": {
+            "0": "Stadium"
+        },
+        "average_credits": 1150,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 10,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 10,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 5,
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
     "354": {
         "id": 354,
         "name": "Allergic reaction to bee sting",
@@ -11359,7 +11393,7 @@
             "patient_allow_first_responder_chance": 50,
             "date_start": "2021-09-24T09:00:00Z",
             "date_end": "2021-10-01T23:59:00Z",
-            "patient_specializations": "General Surgeon"
+            "patient_specializations": "General Internal"
         },
         "prerequisites": {
             "main_building": 2,

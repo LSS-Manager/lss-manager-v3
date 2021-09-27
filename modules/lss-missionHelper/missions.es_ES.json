@@ -10424,6 +10424,40 @@
         },
         "alternate_version": null
     },
+    "316": {
+        "id": 316,
+        "name": "Revuelta en concierto",
+        "place": "Estadio",
+        "place_array": {
+            "0": "Estadio"
+        },
+        "average_credits": 1150,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 10,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 10,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 5,
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
     "317": {
         "id": 317,
         "name": "Incendio en tren (tren de mercanc\u00edas)",

@@ -28465,6 +28465,37 @@
         },
         "alternate_version": null
     },
+    "855": {
+        "id": 855,
+        "name": "Observatie",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5790,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "at_o": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2 uur",
+            "duration": 7200,
+            "guard_mission": true,
+            "filter_id": "riot_police_missions"
+        },
+        "prerequisites": {
+            "main_building": 11,
+            "bereitschaftspolizei": 1,
+            "main_building_extensions": {
+                "0": 3
+            }
+        },
+        "alternate_version": null
+    },
     "856": {
         "id": 856,
         "name": "Persoon uitgegleden over natte bladeren",

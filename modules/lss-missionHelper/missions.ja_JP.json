@@ -8944,6 +8944,40 @@
         },
         "alternate_version": null
     },
+    "264": {
+        "id": 264,
+        "name": "\u30b3\u30f3\u30b5\u30fc\u30c8\u3067\u306e\u66b4\u52d5",
+        "place": "\u30b9\u30bf\u30b8\u30a2\u30e0",
+        "place_array": {
+            "0": "\u30b9\u30bf\u30b8\u30a2\u30e0"
+        },
+        "average_credits": 1150,
+        "generated_by": "\u8b66\u5bdf\u7f72",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 10,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 10,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "\u4e00\u822c\u5185\u79d1"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 5,
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
     "265": {
         "id": 265,
         "name": "\u7523\u696d\u706b\u707d\uff08\u5c0f)",

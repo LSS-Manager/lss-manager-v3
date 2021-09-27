@@ -11434,6 +11434,40 @@
         },
         "alternate_version": null
     },
+    "362": {
+        "id": 362,
+        "name": "Opt\u00f8jer til koncert",
+        "place": "Stadion",
+        "place_array": {
+            "0": "Stadion"
+        },
+        "average_credits": 1150,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 10,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 10,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 5,
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
     "363": {
         "id": 363,
         "name": "Person gledet i v\u00e5de blade",
