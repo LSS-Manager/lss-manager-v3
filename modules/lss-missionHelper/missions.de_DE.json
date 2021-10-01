@@ -4697,8 +4697,9 @@
                 "1": 668
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -23888,7 +23889,7 @@
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
             "date_start": "2021-09-24T09:00:00Z",
-            "date_end": "2021-10-01T23:59:00Z",
+            "date_end": "2021-11-26T23:59:00+01:00",
             "patient_specializations": "Allgemeine Chirurgie"
         },
         "prerequisites": {
@@ -23923,7 +23924,7 @@
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
             "date_start": "2021-09-24T09:00:00Z",
-            "date_end": "2021-10-01T23:59:00Z",
+            "date_end": "2021-11-26T23:59:00+01:00",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -23955,7 +23956,7 @@
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
             "date_start": "2021-09-24T09:00:00Z",
-            "date_end": "2021-10-01T23:59:00Z",
+            "date_end": "2021-11-26T23:59:00+01:00",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -23987,7 +23988,7 @@
             "possible_patient_min": 1,
             "filter_id": "police_station_missions",
             "date_start": "2021-09-24T09:00:00Z",
-            "date_end": "2021-10-01T23:59:00Z",
+            "date_end": "2021-11-26T23:59:00+01:00",
             "patient_specializations": "Allgemeine Chirurgie"
         },
         "prerequisites": {
@@ -24017,7 +24018,7 @@
             "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions",
             "date_start": "2021-09-24T09:00:00Z",
-            "date_end": "2021-10-01T23:59:00Z"
+            "date_end": "2021-11-26T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -24049,7 +24050,7 @@
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
             "date_start": "2021-09-24T09:00:00Z",
-            "date_end": "2021-10-01T23:59:00Z",
+            "date_end": "2021-11-26T23:59:00+01:00",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -24082,7 +24083,7 @@
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
             "date_start": "2021-09-24T09:00:00Z",
-            "date_end": "2021-10-01T23:59:00Z",
+            "date_end": "2021-11-26T23:59:00+01:00",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -24117,7 +24118,7 @@
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
             "date_start": "2021-09-24T09:00:00Z",
-            "date_end": "2021-10-01T23:59:00Z",
+            "date_end": "2021-11-26T23:59:00+01:00",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -24147,7 +24148,7 @@
         "additional": {
             "filter_id": "firehouse_missions",
             "date_start": "2021-09-24T09:00:00Z",
-            "date_end": "2021-10-01T23:59:00Z"
+            "date_end": "2021-11-26T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
