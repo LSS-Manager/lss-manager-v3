@@ -16472,5 +16472,31 @@
             "fire_stations": 2
         },
         "alternate_version": null
+    },
+    "448": {
+        "id": 448,
+        "name": "Cellulare Rubato",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 1
+        },
+        "alternate_version": null
     }
 }
