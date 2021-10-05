@@ -402,7 +402,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 15
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -1132,6 +1134,8 @@
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 1,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
@@ -1140,7 +1144,54 @@
             "police_stations": 2,
             "fire_stations": 14
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 41,
+                "name": "Inc\u00eandio numa oficina de mec\u00e2nica",
+                "place": "Oficina Autom\u00f3vel",
+                "place_array": {
+                    "0": "Oficina Autom\u00f3vel"
+                },
+                "average_credits": 6500,
+                "generated_by": "Corpo de Bombeiros",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "foam_needed": 1000,
+                    "firetrucks": 8,
+                    "battalion_chief_vehicles": 2,
+                    "platform_trucks": 2,
+                    "heavy_rescue_vehicles": 1,
+                    "water_tankers": 1,
+                    "hazmat_vehicles": 1,
+                    "police_cars": 2,
+                    "foam": 1
+                },
+                "chances": {
+                    "water_tankers": 40,
+                    "hazmat_vehicles": 50,
+                    "patient_transport": 50
+                },
+                "additional": {
+                    "possible_patient": 4,
+                    "filter_id": "firehouse_missions",
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 1,
+                    "patient_specializations": "Clinica Geral"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 2,
+                    "police_stations": 2,
+                    "fire_stations": 14
+                },
+                "alternate_version": null
+            }
+        }
     },
     "44": {
         "id": 44,
@@ -2604,6 +2655,8 @@
             "possible_patient": 4,
             "possible_patient_min": 0,
             "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 1,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2612,7 +2665,50 @@
             "police_stations": 3,
             "fire_stations": 15
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 98,
+                "name": "Descarrilamento de Comboio de Carga",
+                "place": "Esta\u00e7\u00e3o de Comboios (tr\u00e1fego regional e viagem de longa dist\u00e2ncia)",
+                "place_array": {
+                    "0": "Esta\u00e7\u00e3o de Comboios (tr\u00e1fego regional e viagem de longa dist\u00e2ncia)"
+                },
+                "average_credits": 9500,
+                "generated_by": "Corpo de Bombeiros",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "foam_needed": 1000,
+                    "firetrucks": 10,
+                    "battalion_chief_vehicles": 2,
+                    "heavy_rescue_vehicles": 4,
+                    "hazmat_vehicles": 2,
+                    "police_cars": 2,
+                    "foam": 1
+                },
+                "chances": {
+                    "patient_transport": 100
+                },
+                "additional": {
+                    "possible_patient": 4,
+                    "possible_patient_min": 0,
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 1,
+                    "patient_specializations": "Traumatologia"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 3,
+                    "police_stations": 3,
+                    "fire_stations": 15
+                },
+                "alternate_version": null
+            }
+        }
     },
     "99": {
         "id": 99,
@@ -2983,13 +3079,51 @@
             "water_tankers": 30
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 8
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 110,
+                "name": "Inc\u00eandio num aterro sanit\u00e1rio",
+                "place": "Aterro Sanit\u00e1rio",
+                "place_array": {
+                    "0": "Aterro Sanit\u00e1rio"
+                },
+                "average_credits": 3500,
+                "generated_by": "Corpo de Bombeiros",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "foam_needed": 1000,
+                    "firetrucks": 5,
+                    "battalion_chief_vehicles": 1,
+                    "water_tankers": 1,
+                    "foam": 1
+                },
+                "chances": {
+                    "water_tankers": 30
+                },
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 8
+                },
+                "alternate_version": null
+            }
+        }
     },
     "111": {
         "id": 111,
@@ -3070,13 +3204,49 @@
             "heavy_rescue_vehicles": 20
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 113,
+                "name": "Rebentamento de Conduta de \u00e1gua",
+                "place": "",
+                "place_array": {},
+                "average_credits": 1200,
+                "generated_by": "Corpo de Bombeiros",
+                "icons": {
+                    "0": "/images/river_gruen.png",
+                    "1": "/images/river_gelb.png",
+                    "2": "/images/river_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 2,
+                    "battalion_chief_vehicles": 1,
+                    "heavy_rescue_vehicles": 1,
+                    "pump": 1
+                },
+                "chances": {
+                    "battalion_chief_vehicles": 20,
+                    "heavy_rescue_vehicles": 20
+                },
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "fire_stations": 3
+                },
+                "alternate_version": null
+            }
+        }
     },
     "114": {
         "id": 114,
@@ -3997,6 +4167,8 @@
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 1,
             "patient_specializations": "Cirurgia Geral"
         },
         "prerequisites": {
@@ -4004,7 +4176,47 @@
             "rescue_stations": 2,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 142,
+                "name": "Inc\u00eandio Industrial",
+                "place": "",
+                "place_array": {},
+                "average_credits": 5800,
+                "generated_by": "Corpo de Bombeiros",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "foam_needed": 1000,
+                    "firetrucks": 6,
+                    "battalion_chief_vehicles": 2,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "water_tankers": 2,
+                    "foam": 1
+                },
+                "chances": {
+                    "patient_transport": 30
+                },
+                "additional": {
+                    "possible_patient": 4,
+                    "filter_id": "firehouse_missions",
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 1,
+                    "patient_specializations": "Cirurgia Geral"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 2,
+                    "fire_stations": 13
+                },
+                "alternate_version": null
+            }
+        }
     },
     "143": {
         "id": 143,
@@ -4747,6 +4959,8 @@
         "additional": {
             "possible_patient": 20,
             "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 2,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
@@ -4755,7 +4969,53 @@
             "police_stations": 5,
             "fire_stations": 15
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 165,
+                "name": "Explos\u00e3o numa Bomba de Gasolina",
+                "place": "Bomba de Gasolina",
+                "place_array": {
+                    "0": "Bomba de Gasolina"
+                },
+                "average_credits": 13000,
+                "generated_by": "Corpo de Bombeiros",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "foam_needed": 2000,
+                    "firetrucks": 10,
+                    "battalion_chief_vehicles": 4,
+                    "mobile_command_vehicles": 1,
+                    "heavy_rescue_vehicles": 4,
+                    "water_tankers": 3,
+                    "hazmat_vehicles": 4,
+                    "police_cars": 4,
+                    "foam": 2
+                },
+                "chances": {
+                    "patient_transport": 75,
+                    "helicopter": 50,
+                    "patient_critical_care": 10
+                },
+                "additional": {
+                    "possible_patient": 20,
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 2,
+                    "patient_specializations": "Clinica Geral"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 10,
+                    "police_stations": 5,
+                    "fire_stations": 15
+                },
+                "alternate_version": null
+            }
+        }
     },
     "166": {
         "id": 166,
@@ -4820,6 +5080,8 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 1,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
@@ -4828,7 +5090,47 @@
             "police_stations": 5,
             "fire_stations": 8
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 167,
+                "name": "Inunda\u00e7\u00e3o numa Garagem",
+                "place": "Garagem de Estacionamento",
+                "place_array": {
+                    "0": "Garagem de Estacionamento"
+                },
+                "average_credits": 4200,
+                "generated_by": "Corpo de Bombeiros",
+                "icons": {
+                    "0": "/images/river_gruen.png",
+                    "1": "/images/river_gelb.png",
+                    "2": "/images/river_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 6,
+                    "battalion_chief_vehicles": 2,
+                    "heavy_rescue_vehicles": 2,
+                    "police_cars": 2,
+                    "pump": 1
+                },
+                "chances": {
+                    "patient_transport": 50
+                },
+                "additional": {
+                    "possible_patient": 4,
+                    "filter_id": "firehouse_missions",
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 1,
+                    "patient_specializations": "Clinica Geral"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 5,
+                    "police_stations": 5,
+                    "fire_stations": 8
+                },
+                "alternate_version": null
+            }
+        }
     },
     "168": {
         "id": 168,
@@ -8190,6 +8492,8 @@
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
             "need_bomb_only_if_present": true,
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 1,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
@@ -8198,7 +8502,55 @@
             "police_stations": 3,
             "fire_stations": 8
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 275,
+                "name": "Rutura num dep\u00f3sito de qu\u00edmicos pequeno",
+                "place": "Dep\u00f3sito de Qu\u00edmicos (Pequeno)",
+                "place_array": {
+                    "0": "Dep\u00f3sito de Qu\u00edmicos (Pequeno)"
+                },
+                "average_credits": 7500,
+                "generated_by": "Corpo de Bombeiros",
+                "icons": {
+                    "0": "/images/gas_gruen.png",
+                    "1": "/images/gas_gelb.png",
+                    "2": "/images/gas_rot.png"
+                },
+                "requirements": {
+                    "foam_needed": 1000,
+                    "firetrucks": 5,
+                    "fwk": 1,
+                    "battalion_chief_vehicles": 2,
+                    "platform_trucks": 1,
+                    "heavy_rescue_vehicles": 2,
+                    "water_tankers": 1,
+                    "hazmat_vehicles": 2,
+                    "police_cars": 2,
+                    "fbi_bomb": 1,
+                    "foam": 1
+                },
+                "chances": {
+                    "patient_transport": 75,
+                    "patient_critical_care": 25
+                },
+                "additional": {
+                    "possible_patient": 10,
+                    "filter_id": "firehouse_missions",
+                    "need_bomb_only_if_present": true,
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 1,
+                    "patient_specializations": "Clinica Geral"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 5,
+                    "police_stations": 3,
+                    "fire_stations": 8
+                },
+                "alternate_version": null
+            }
+        }
     },
     "276": {
         "id": 276,
@@ -8234,6 +8586,8 @@
             "possible_patient": 20,
             "filter_id": "firehouse_missions",
             "need_bomb_only_if_present": true,
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 2,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
@@ -8242,7 +8596,56 @@
             "police_stations": 5,
             "fire_stations": 15
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 276,
+                "name": "Rutura num dep\u00f3sito de qu\u00edmicos grande",
+                "place": "Dep\u00f3sito de Qu\u00edmicos (Grande)",
+                "place_array": {
+                    "0": "Dep\u00f3sito de Qu\u00edmicos (Grande)"
+                },
+                "average_credits": 15000,
+                "generated_by": "Corpo de Bombeiros",
+                "icons": {
+                    "0": "/images/gas_gruen.png",
+                    "1": "/images/gas_gelb.png",
+                    "2": "/images/gas_rot.png"
+                },
+                "requirements": {
+                    "foam_needed": 2000,
+                    "firetrucks": 12,
+                    "fwk": 1,
+                    "battalion_chief_vehicles": 4,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "heavy_rescue_vehicles": 4,
+                    "water_tankers": 2,
+                    "hazmat_vehicles": 4,
+                    "police_cars": 4,
+                    "fbi_bomb": 2,
+                    "foam": 2
+                },
+                "chances": {
+                    "patient_transport": 75,
+                    "patient_critical_care": 25
+                },
+                "additional": {
+                    "possible_patient": 20,
+                    "filter_id": "firehouse_missions",
+                    "need_bomb_only_if_present": true,
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 2,
+                    "patient_specializations": "Clinica Geral"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 10,
+                    "police_stations": 5,
+                    "fire_stations": 15
+                },
+                "alternate_version": null
+            }
+        }
     },
     "277": {
         "id": 277,
@@ -8792,8 +9195,6 @@
             "water_needed": 25000,
             "brush_truck": 6,
             "battalion_chief_vehicles": 2,
-            "mobile_command_vehicles": 1,
-            "elw3": 1,
             "water_tankers": 4
         },
         "chances": {},
@@ -8815,7 +9216,7 @@
         "prerequisites": {
             "main_building": 0,
             "brush_extension": 3,
-            "fire_stations": 13,
+            "fire_stations": 10,
             "main_building_extensions": {
                 "0": 3
             }
@@ -8842,11 +9243,10 @@
         },
         "requirements": {
             "water_needed": 60000,
-            "brush_truck": 10,
+            "brush_truck": 8,
             "battalion_chief_vehicles": 3,
             "mobile_command_vehicles": 1,
-            "elw3": 1,
-            "water_tankers": 5,
+            "water_tankers": 8,
             "police_cars": 2
         },
         "chances": {},
@@ -8978,8 +9378,7 @@
             "brush_truck": 8,
             "battalion_chief_vehicles": 5,
             "mobile_command_vehicles": 1,
-            "elw3": 1,
-            "water_tankers": 5
+            "water_tankers": 3
         },
         "chances": {},
         "additional": {
@@ -9027,7 +9426,6 @@
             "fire_aviation": 1,
             "battalion_chief_vehicles": 7,
             "mobile_command_vehicles": 2,
-            "elw3": 1,
             "water_tankers": 4,
             "police_cars": 4
         },
@@ -9639,14 +10037,55 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "fire_alarm_system_possible": true
+            "fire_alarm_system_possible": true,
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 1
         },
         "prerequisites": {
             "main_building": 0,
             "police_stations": 4,
             "fire_stations": 8
         },
-        "alternate_version": null
+        "alternate_version": {
+            "mission_type": {
+                "id": 315,
+                "name": "Inc\u00eandio numa central el\u00e9trica",
+                "place": "Central El\u00e9trica",
+                "place_array": {
+                    "0": "Central El\u00e9trica"
+                },
+                "average_credits": 7250,
+                "generated_by": "Corpo de Bombeiros",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "foam_needed": 1000,
+                    "firetrucks": 7,
+                    "fwk": 2,
+                    "battalion_chief_vehicles": 1,
+                    "heavy_rescue_vehicles": 2,
+                    "water_tankers": 1,
+                    "police_cars": 2,
+                    "foam": 1
+                },
+                "chances": {},
+                "additional": {
+                    "filter_id": "firehouse_missions",
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 1
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "police_stations": 4,
+                    "fire_stations": 8
+                },
+                "alternate_version": null
+            }
+        }
     },
     "316": {
         "id": 316,
@@ -9876,6 +10315,238 @@
     },
     "323": {
         "id": 323,
+        "name": "Inc\u00eandio numa refinaria",
+        "place": "<span class=\"translation_missing localeapp\" title=\"translation missing: pt_PT.poi.oil_refinery\">Oil Refinery</span>",
+        "place_array": {
+            "0": "<span class=\"translation_missing localeapp\" title=\"translation missing: pt_PT.poi.oil_refinery\">Oil Refinery</span>"
+        },
+        "average_credits": 19500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "fwk": 2,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "elw3": 1,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 4,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 5,
+            "police_cars": 5,
+            "foam": 2
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 15,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 10,
+            "police_stations": 5,
+            "fire_support_count": 2,
+            "fire_stations": 14
+        },
+        "alternate_version": null
+    },
+    "324": {
+        "id": 324,
+        "name": "Inc\u00eandio num cami\u00e3o cisterna",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3,
+            "foam": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_support_count": 1,
+            "fire_stations": 14
+        },
+        "alternate_version": null
+    },
+    "325": {
+        "id": 325,
+        "name": "Inc\u00eandio numa destilaria",
+        "place": "",
+        "place_array": {},
+        "average_credits": 9500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 7,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 3,
+            "water_tankers": 3,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 2,
+            "police_cars": 5,
+            "foam": 2
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 6,
+            "police_stations": 5,
+            "fire_support_count": 2,
+            "fire_stations": 13
+        },
+        "alternate_version": null
+    },
+    "326": {
+        "id": 326,
+        "name": "Inc\u00eandio em produtos qu\u00edmicos",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1,
+            "foam": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_support_count": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "327": {
+        "id": 327,
+        "name": "Inc\u00eandio numa drogaria",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2750,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "foam": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_support_count": 1,
+            "fire_stations": 6
+        },
+        "alternate_version": null
+    },
+    "328": {
+        "id": 328,
+        "name": "Inc\u00eandio num comboio com produtos inflam\u00e1veis",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4300,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3,
+            "foam": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_support_count": 1,
+            "fire_stations": 13
+        },
+        "alternate_version": null
+    },
+    "329": {
+        "id": 329,
         "name": "Uma pessoa escorregou em folhas molhadas",
         "place": "",
         "place_array": {},
@@ -9904,8 +10575,8 @@
         },
         "alternate_version": null
     },
-    "324": {
-        "id": 324,
+    "330": {
+        "id": 330,
         "name": "Acidente na estrada causado pela queda de folhas",
         "place": "",
         "place_array": {},
@@ -9941,8 +10612,8 @@
         },
         "alternate_version": null
     },
-    "325": {
-        "id": 325,
+    "331": {
+        "id": 331,
         "name": "Uma pessoa caiu num amontoado de folhas",
         "place": "",
         "place_array": {},
@@ -9971,8 +10642,8 @@
         },
         "alternate_version": null
     },
-    "326": {
-        "id": 326,
+    "332": {
+        "id": 332,
         "name": "Aspirador de folhas descontrolado",
         "place": "",
         "place_array": {},
@@ -10004,8 +10675,8 @@
         },
         "alternate_version": null
     },
-    "327": {
-        "id": 327,
+    "333": {
+        "id": 333,
         "name": "Coletor pluvial entupido com folhas",
         "place": "",
         "place_array": {},
@@ -10032,8 +10703,8 @@
         },
         "alternate_version": null
     },
-    "328": {
-        "id": 328,
+    "334": {
+        "id": 334,
         "name": "Hipotermia ap\u00f3s nadar em \u00e1gua gelada",
         "place": "Lago\nRio",
         "place_array": {
@@ -10065,8 +10736,8 @@
         },
         "alternate_version": null
     },
-    "329": {
-        "id": 329,
+    "335": {
+        "id": 335,
         "name": "Acidente em estrada enevoada",
         "place": "",
         "place_array": {},
@@ -10099,8 +10770,8 @@
         },
         "alternate_version": null
     },
-    "330": {
-        "id": 330,
+    "336": {
+        "id": 336,
         "name": "Acidente causado por travessia de cervo",
         "place": "",
         "place_array": {},
@@ -10135,8 +10806,8 @@
         },
         "alternate_version": null
     },
-    "331": {
-        "id": 331,
+    "337": {
+        "id": 337,
         "name": "Amontoado de folhas em chamas",
         "place": "",
         "place_array": {},
@@ -10162,8 +10833,8 @@
         },
         "alternate_version": null
     },
-    "332": {
-        "id": 332,
+    "338": {
+        "id": 338,
         "name": "Inunda\u00e7\u00e3o no tunel do metro",
         "place": "Esta\u00e7\u00e3o de Metro",
         "place_array": {

@@ -174,11 +174,14 @@ if (I18n.locale == 'en_US') {
         20: ['VIC', 1],
         21: ['ERAS', 0],
         22: ['Semi-Reboque', 0],
-        23: ['D10T2', 0],
+        23: ['MR', 0],
         24: ['VTTF', 0],
-        25: ['Helicóptero de Combate Ligeiro', 0],
-        26: ['Alpha', 0],
-        27: ['CL-415', 0],
+        25: ['HEBL', 0],
+        26: ['AVBM', 0],
+        27: ['AVBP', 0],
+        28: ['VECI', 0],
+        29: ['Moto Bomba', 0],
+        30: ['VTTP', 0],
     };
 } else if (I18n.locale == 'sv_SE') {
     lssm.carsById = {
