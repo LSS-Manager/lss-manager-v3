@@ -6,8 +6,10 @@
     "prisoners": "detentos",
     "to": "até",
     "exp": "Divulgação",
-    "water": "água necessária",
+    "water": "Água necessária",
     "water1": "Lts.",
+    "foam": "Espumifero necessária",
+    "foam1": "Lts.",
     "fwm": "Missões de seguimento",
     "subs": "Missões subsequentes com êxito",
     "ambulance_only": "Esta misión es sólo de ambulancias.!",
@@ -39,6 +41,10 @@
         "waterpt": {
             "label": "Procura de água",
             "description": "Mostra a quantidade total de água necessária."
+        },
+        "foampt": {
+            "label": "Demanda de Espumifero",
+            "description": "Apresenta a quantidade total de espumifero necessária"
         },
         "vehicles": {
             "label": "Veículos",
@@ -107,6 +113,8 @@
         "brush_truck": "Veículos Florestais",
         "fire_aviation": "Meios Aéreos",
         "ambulances": "Ambulancia",
+        "pump": "Moto Bomba",
+        "foam": "Veículos Especiais de Combate a Incêndios",
         "allow_rw_instead_of_lf": "Veículos de Combate a Incêndios ou Veículos de Desencarceramento ou Veículo Urbano de Combate a Incêndios"
     }
 }
