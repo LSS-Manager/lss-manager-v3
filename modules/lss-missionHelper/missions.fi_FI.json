@@ -11819,5 +11819,79 @@
             "police_stations": 2
         },
         "alternate_version": null
+    },
+    "350": {
+        "id": 350,
+        "name": "416 Liikennev\u00e4linepalo tunnelissa, suuri",
+        "place": "Tunneli",
+        "place_array": {
+            "0": "Tunneli"
+        },
+        "average_credits": 7000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "foam_needed": 2500,
+            "water_needed": 36000,
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 2,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 85,
+            "patient_transport": 45,
+            "helicopter": 7,
+            "patient_critical_care": 22
+        },
+        "additional": {
+            "possible_patient": 16,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 6,
+            "fire_stations": 13
+        },
+        "alternate_version": null
+    },
+    "351": {
+        "id": 351,
+        "name": "113 H\u00e4m\u00e4r\u00e4miehi\u00e4 varastolla",
+        "place": "Varasto",
+        "place_array": {
+            "0": "Varasto"
+        },
+        "average_credits": 850,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/warehouse_gruen.png",
+            "1": "/images/warehouse_gelb.png",
+            "2": "/images/warehouse_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 312
+            },
+            "max_possible_prisoners": 3,
+            "average_min_police_personnel": 6,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 2
+        },
+        "alternate_version": null
     }
 }

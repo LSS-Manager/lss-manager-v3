@@ -15301,5 +15301,30 @@
             "fire_stations": 11
         },
         "alternate_version": null
+    },
+    "461": {
+        "id": 461,
+        "name": "Niebezpieczna osoba z no\u017cem",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/stabbing_gruen.png",
+            "1": "/images/stabbing_gelb.png",
+            "2": "/images/stabbing_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 3
+        },
+        "alternate_version": null
     }
 }
