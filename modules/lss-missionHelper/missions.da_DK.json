@@ -13360,5 +13360,47 @@
             "rescue_stations": 1
         },
         "alternate_version": null
+    },
+    "373": {
+        "id": 373,
+        "name": "Brand i et d\u00e6klager",
+        "place": "Pakhus",
+        "place_array": {
+            "0": "Pakhus"
+        },
+        "average_credits": 8500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 5,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 5,
+            "police_stations": 3,
+            "fire_stations": 13
+        },
+        "alternate_version": null
     }
 }

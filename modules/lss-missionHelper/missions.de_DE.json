@@ -4697,8 +4697,9 @@
                 "1": 668
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -23477,8 +23478,8 @@
             "main_building": 9,
             "thw": 4,
             "thw_zugtrupp_count": 1,
-            "thw_fg_raeumen_count": 1,
-            "thw_gkw_count": 1,
+            "thw_fg_raeumen_count": 3,
+            "thw_gkw_count": 2,
             "water_damage_pump_count": 2,
             "fire_stations": 15
         },
