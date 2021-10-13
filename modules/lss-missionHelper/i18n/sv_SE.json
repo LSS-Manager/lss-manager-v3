@@ -6,6 +6,8 @@
     "prisoners": "fångar",
     "water": "Vatten som behövs",
     "water1": "l",
+    "foam": "Skum krävs",
+    "foam1": "l",
     "to": "upp till",
     "exp": "bredbara",
     "fwm": "Följeuppdrag",
@@ -41,6 +43,10 @@
         "waterse": {
             "label": "Efterfrågan på vatten",
             "description": "Visar den totala mängd vatten som krävs."
+        },
+        "foamse": {
+            "label": "Efterfrågan på skum",
+            "description": "Visar den totala mängden skum som krävs"
         },
         "vehicles": {
             "label": "fordon",
@@ -120,6 +126,9 @@
         "fire_aviation": "Brandflygsenhet",
         "kdow_orgl": "Ledningsfordon",
         "orgl": "Ledningsfordon",
+        "pump": "Motorspruta",
+        "foam": "Skumenheter",
+        "hose": "Slangbil",
         "allow_rw_instead_of_lf": "Brandbilar eller tung räddning"
     }
 }
