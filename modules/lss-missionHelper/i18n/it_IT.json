@@ -6,7 +6,9 @@
     "prisoners": "Prigionieri",
     "to": "fino",
     "water": "Acqua Necessaria",
-    "water1": "lit",
+    "water1": "l.",
+    "foam": "Schiuma richiesta",
+    "foam1": "l.",
     "exp": "Espansione",
     "fwm": "Missioni di follow-up",
     "subs": "Missioni successive al successo",
@@ -42,6 +44,10 @@
         "waterit": {
             "label": "Domanda di acqua",
             "description": "Mostra la quantità totale di acqua richiesta."
+        },
+        "foamit": {
+            "label": "Domanda di schiuma",
+            "description": "Visualizza la quantità totale di schiuma richiesta"
         },
         "vehicles": {
             "label": "Veicoli",
@@ -110,11 +116,11 @@
         "fwk": "Autogrù",
         "ambulances": "Ambulanza Medicalizzata",
         "arff": "Flotta aerea antincendio AIB",
-        "k9": "unitò cinofila antidroga",
+        "k9": "Unitò cinofila antidroga",
         "pmotorcycle": "Moto della Polizia",
         "swat_armored_vehicle": "furgone Antisommossa",
         "swat_suv": "Suv UOPI",
-        "police_helicopters": "elicottero della polizia",
+        "police_helicopters": "Elicottero della polizia",
         "commerce_police": "Volante Finanza",
         "fbi_bomb": "Furgone artificieri",
         "diver_units": "Camion tecnico NSSA",
@@ -124,6 +130,9 @@
         "brush_truck": "Mezzi AB",
         "elw3": "DOS",
         "fire_aviation": "Mezzi Aerei Antincendio",
+        "pump": "",
+        "foam": "Carro Schiuma",
+        "hose": "",
         "allow_rw_instead_of_lf": "Camion dei pompieri o salvataggio pesante"
     }
 }

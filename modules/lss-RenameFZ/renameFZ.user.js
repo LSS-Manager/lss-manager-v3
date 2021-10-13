@@ -748,6 +748,10 @@
                 32: 'Jourläkare',
                 33: 'IVPA',
                 34: 'MC-Ambulans',
+                35: 'Slangbil',
+                36: 'Slangbil med pump',
+                37: 'Skumenhet',
+                38: 'Motorspruta',
             },
         },
     };
@@ -1038,6 +1042,8 @@
                 34: 'Elicottero Antincendio',
                 35: 'Canadair',
                 36: 'P.M.A.',
+                37: '',
+                38: '',
             },
         },
     };

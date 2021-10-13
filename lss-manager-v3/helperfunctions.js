@@ -220,6 +220,10 @@ if (I18n.locale == 'en_US') {
         32: ['Jourläkare', 1],
         33: ['IVPA', 1],
         34: ['MC-Ambulans', 1],
+        35: ['Slangbil', 0],
+        36: ['Slangbil med pump', 0],
+        37: ['Skumenhet', 0],
+        38: ['Motorspruta',0],
     };
 } else if (I18n.locale == 'cs_CZ') {
     lssm.carsById = {
@@ -428,6 +432,8 @@ if (I18n.locale == 'en_US') {
         34: ['Elicottero Antincendio', 0],
         35: ['Canadair', 0],
         36: ['P.M.A.', 1],
+        37: ['', 0],
+        38: ['', 0],
     };
 } else if (I18n.locale == 'fr_FR') {
     lssm.educations = ['SAV (Sauvetage Aquatique)', 'PLG (Plongeur)'];
