@@ -130,9 +130,7 @@
         "brush_truck": "Mezzi AB",
         "elw3": "DOS",
         "fire_aviation": "Mezzi Aerei Antincendio",
-        "pump": "",
-        "foam": "Carro Schiuma",
-        "hose": "",
+        "foam": "ACT/SCHIUMA",
         "allow_rw_instead_of_lf": "Camion dei pompieri o salvataggio pesante"
     }
 }

@@ -1042,8 +1042,7 @@
                 34: 'Elicottero Antincendio',
                 35: 'Canadair',
                 36: 'P.M.A.',
-                37: '',
-                38: '',
+                37: 'ACT/SCHIUMA',
             },
         },
     };
