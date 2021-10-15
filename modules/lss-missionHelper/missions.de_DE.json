@@ -3469,8 +3469,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+01:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -3496,8 +3496,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+01:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -3529,8 +3529,8 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+01:00",
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+01:00",
             "patient_specializations": "Neurologie"
         },
         "prerequisites": {
@@ -3562,8 +3562,8 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+01:00",
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+01:00",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -3620,8 +3620,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+01:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -3648,8 +3648,8 @@
         "additional": {
             "filter_id": "police_station_missions",
             "max_civil_patrol_replacing_police_cars": 1,
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+01:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -3675,8 +3675,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+01:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -3703,8 +3703,8 @@
         "additional": {
             "filter_id": "police_station_missions",
             "max_civil_patrol_replacing_police_cars": 1,
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+01:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -24227,6 +24227,31 @@
             "thw_fg_raeumen_count": 1,
             "thw_gkw_count": 1,
             "fire_stations": 12
+        },
+        "alternate_version": null
+    },
+    "683": {
+        "id": 683,
+        "name": "KFZ-Diebstahl",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 1
         },
         "alternate_version": null
     }

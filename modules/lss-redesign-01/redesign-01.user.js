@@ -13,6 +13,8 @@
       var $header = $('#mission_panel_heading_' + t.id);
       $('#mission_vehicle_state_' + t.id).detach().insertBefore($header);
   };*/
+    
+    document.body.classList.add('lssmv3-redesign-01');
 
     $('body').prepend(
         '<style type="text/css" id="lss-redesign-01">' +
