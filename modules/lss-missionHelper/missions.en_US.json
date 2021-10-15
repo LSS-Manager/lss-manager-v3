@@ -2307,8 +2307,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00-05:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00-04:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -2334,8 +2334,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00-05:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00-04:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -2371,8 +2371,8 @@
                 "0": "7-C-3F",
                 "1": "7-A-1F"
             },
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00-05:00",
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00-04:00",
             "patient_specializations": "Neurology"
         },
         "prerequisites": {
@@ -2407,8 +2407,8 @@
             "patient_us_code_possible": {
                 "0": "17-D-1"
             },
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00-05:00",
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00-04:00",
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -2440,8 +2440,8 @@
             "patient_us_code_possible": {
                 "0": "3-B-2"
             },
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00-05:00",
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00-04:00",
             "patient_specializations": "Neurology"
         },
         "prerequisites": {
@@ -2468,8 +2468,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00-05:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00-04:00"
         },
         "prerequisites": {
             "main_building": 5,
@@ -2495,8 +2495,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00-05:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00-04:00"
         },
         "prerequisites": {
             "main_building": 5,
@@ -2522,8 +2522,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00-05:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00-04:00"
         },
         "prerequisites": {
             "main_building": 5,
@@ -2549,8 +2549,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00-05:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00-04:00"
         },
         "prerequisites": {
             "main_building": 5,

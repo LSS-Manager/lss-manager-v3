@@ -402,9 +402,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 15
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -4687,8 +4685,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+00:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+00:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -4698,7 +4696,7 @@
     },
     "157": {
         "id": 157,
-        "name": "Inc\u00eandio no campo de ab\u00f3boras",
+        "name": "Inc\u00eandio num campo de ab\u00f3boras",
         "place": "",
         "place_array": {},
         "average_credits": 850,
@@ -4714,8 +4712,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+00:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+00:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -4747,8 +4745,8 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+00:00",
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+00:00",
             "patient_specializations": "Neurologia"
         },
         "prerequisites": {
@@ -4760,7 +4758,7 @@
     },
     "159": {
         "id": 159,
-        "name": "Bruxa na \u00e1rvore",
+        "name": "Bruxa presa numa \u00e1rvore",
         "place": "",
         "place_array": {},
         "average_credits": 900,
@@ -4780,8 +4778,8 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+00:00",
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+00:00",
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -4810,8 +4808,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+00:00",
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+00:00",
             "patient_specializations": "Neurologia"
         },
         "prerequisites": {
@@ -4838,8 +4836,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+00:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+00:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -4865,8 +4863,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+00:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+00:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -4876,7 +4874,7 @@
     },
     "163": {
         "id": 163,
-        "name": "Avistamento de Frankenstein",
+        "name": "Avistamento do monstro frankenstein",
         "place": "",
         "place_array": {},
         "average_credits": 550,
@@ -4892,8 +4890,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+00:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+00:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -4919,8 +4917,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-10-19T09:00:00Z",
-            "date_end": "2020-11-01T23:59:00+00:00"
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+00:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -9195,6 +9193,7 @@
             "water_needed": 25000,
             "brush_truck": 6,
             "battalion_chief_vehicles": 2,
+            "elw3": 1,
             "water_tankers": 4
         },
         "chances": {},
@@ -9246,6 +9245,7 @@
             "brush_truck": 8,
             "battalion_chief_vehicles": 3,
             "mobile_command_vehicles": 1,
+            "elw3": 1,
             "water_tankers": 8,
             "police_cars": 2
         },
@@ -9378,6 +9378,7 @@
             "brush_truck": 8,
             "battalion_chief_vehicles": 5,
             "mobile_command_vehicles": 1,
+            "elw3": 1,
             "water_tankers": 3
         },
         "chances": {},
@@ -9408,7 +9409,7 @@
     },
     "298": {
         "id": 298,
-        "name": "Inc\u00eandio Florestal  de Grandes Dimens\u00f5es",
+        "name": "Inc\u00eandio Florestal de Grandes Dimens\u00f5es",
         "place": "Floresta",
         "place_array": {
             "0": "Floresta"
@@ -9426,6 +9427,7 @@
             "fire_aviation": 1,
             "battalion_chief_vehicles": 7,
             "mobile_command_vehicles": 2,
+            "elw3": 1,
             "water_tankers": 4,
             "police_cars": 4
         },
