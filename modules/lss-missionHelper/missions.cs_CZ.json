@@ -11592,5 +11592,31 @@
             "fire_stations": 13
         },
         "alternate_version": null
+    },
+    "367": {
+        "id": 367,
+        "name": "Kr\u00e1de\u017e auta",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 2
+        },
+        "alternate_version": null
     }
 }

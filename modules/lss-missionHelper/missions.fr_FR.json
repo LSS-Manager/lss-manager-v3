@@ -13157,5 +13157,101 @@
             "rescue_stations": 3
         },
         "alternate_version": null
+    },
+    "385": {
+        "id": 385,
+        "name": "Incendie d'entrep\u00f4t de stockage de pneus",
+        "place": "Hangar",
+        "place_array": {
+            "0": "Hangar"
+        },
+        "average_credits": 12500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "ambulances": 2,
+            "battalion_chief_vehicles": 7,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "water_tankers": 3,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 3,
+            "thw_gkw": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "overlay_on_fire_support_chance": 100,
+            "overlay_on_fire_support_count": 2,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 5,
+            "police_stations": 7,
+            "fire_stations": 16
+        },
+        "alternate_version": {
+            "mission_type": {
+                "id": 385,
+                "name": "Incendie d'entrep\u00f4t de stockage de pneus",
+                "place": "Hangar",
+                "place_array": {
+                    "0": "Hangar"
+                },
+                "average_credits": 14500,
+                "generated_by": "Centre de secours",
+                "icons": {
+                    "0": "/images/fire_gruen.png",
+                    "1": "/images/fire_gelb.png",
+                    "2": "/images/fire_rot.png"
+                },
+                "requirements": {
+                    "firetrucks": 6,
+                    "ambulances": 2,
+                    "battalion_chief_vehicles": 7,
+                    "mobile_command_vehicles": 1,
+                    "platform_trucks": 2,
+                    "water_tankers": 3,
+                    "mobile_air_vehicles": 1,
+                    "hazmat_vehicles": 1,
+                    "police_cars": 3,
+                    "thw_gkw": 1,
+                    "hose": 2,
+                    "pump": 2,
+                    "foam": 2
+                },
+                "chances": {
+                    "patient_transport": 30,
+                    "patient_critical_care": 10
+                },
+                "additional": {
+                    "possible_patient": 2,
+                    "filter_id": "firehouse_missions",
+                    "fire_alarm_system_possible": true,
+                    "overlay_on_fire_support_chance": 100,
+                    "overlay_on_fire_support_count": 2,
+                    "patient_specializations": "Interne g\u00e9n\u00e9ral"
+                },
+                "prerequisites": {
+                    "main_building": 0,
+                    "rescue_stations": 5,
+                    "police_stations": 7,
+                    "fire_stations": 16
+                },
+                "alternate_version": null
+            }
+        }
     }
 }
