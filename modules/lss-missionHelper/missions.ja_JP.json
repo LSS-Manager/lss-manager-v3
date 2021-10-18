@@ -9486,5 +9486,33 @@
             "fire_stations": 13
         },
         "alternate_version": null
+    },
+    "280": {
+        "id": 280,
+        "name": "\u30aa\u30d5\u30a3\u30b9\u7a83\u76d7",
+        "place": "\u30aa\u30d5\u30a3\u30b9\u30d3\u30eb",
+        "place_array": {
+            "0": "\u30aa\u30d5\u30a3\u30b9\u30d3\u30eb"
+        },
+        "average_credits": 1500,
+        "generated_by": "\u8b66\u5bdf\u7f72",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 2
+        },
+        "alternate_version": null
     }
 }
