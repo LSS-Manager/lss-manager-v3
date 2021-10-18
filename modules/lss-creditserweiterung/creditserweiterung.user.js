@@ -558,8 +558,8 @@
                 $('#menu_creditsverwaltung').remove();
                 $('#lssm_dropdown').before(markup);
 
-                $('#creditserweiterungCredits').append($('#navigation_top'));
-                $('#creditserweiterungCoins').append($('#coins_top'));
+                $('#navbar-main-collapse #creditserweiterungCredits').append($('#navigation_top'));
+                $('#navbar-main-collapse #creditserweiterungCoins').append($('#coins_top'));
 
                 $('#menu_creditsverwaltung').attr(
                     'title',
