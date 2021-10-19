@@ -6,6 +6,8 @@
     "prisoners": "Gevangenen",
     "water": "Water Benodigd",
     "water1": "L.",
+    "foam": "Schuim Benodigd",
+    "foam1": "L.",
     "to": "tot",
     "exp": "Verspreidingen",
     "averageMinimumEmployeesFire": "Gemiddeld minimum aantal benodigde brandweermannen",
@@ -37,6 +39,10 @@
         "waternl": {
             "label": "Water Benodigd",
             "description": "Toont de totale hoeveelheid water dat nodig is."
+        },
+        "foamnl": {
+            "label": "Schuim Benodigd",
+            "description": "Toont de totale hoeveelheid Schuim dat nodig is."
         },
         "vehicles": {
             "label": "Voertuigen",

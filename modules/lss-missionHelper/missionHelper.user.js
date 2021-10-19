@@ -348,6 +348,16 @@ const lssm_missionhelper_adjustPosition = () => {
                     ),
                 },
             };
+            managed_settings.settings.foamnl = {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.foamnl.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.foamnl.description'
+                    ),
+                },
+            };
             break;
         case 'pl_PL':
             managed_settings.settings.waterpl = {
@@ -577,6 +587,16 @@ const lssm_missionhelper_adjustPosition = () => {
                     type: 'toggle',
                     description: I18n.t(
                         'lssm.missionhelper.settings.waterus.description'
+                    ),
+                },
+            };
+            managed_settings.settings.foamus = {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.foamus.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.foamus.description'
                     ),
                 },
             };
@@ -1084,7 +1104,9 @@ const lssm_missionhelper_adjustPosition = () => {
                     SETTINGS.foampl ||
                     SETTINGS.foampt ||
                     SETTINGS.foamse ||
-                    SETTINGS.foamit) &&
+                    SETTINGS.foamit ||
+                    SETTINGS.foamus ||
+                    SETTINGS.foamnl) &&
                     MISSION.requirements.foam_needed) ||
                 (SETTINGS.credits && MISSION.average_credits) ||
                 SETTINGS.mission_time
@@ -1114,7 +1136,9 @@ const lssm_missionhelper_adjustPosition = () => {
                     SETTINGS.foampl ||
                     SETTINGS.foampt ||
                     SETTINGS.foamse ||
-                    SETTINGS.foamit) &&
+                    SETTINGS.foamit ||
+                    SETTINGS.foamus ||
+                    SETTINGS.foamnl) &&
                     MISSION.requirements.foam_needed &&
                     (content.innerHTML += `<span class="badge badge-secondary">${I18n.t(
                         'lssm.missionhelper.foam'

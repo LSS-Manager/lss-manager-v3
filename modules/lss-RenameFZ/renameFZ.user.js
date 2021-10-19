@@ -298,6 +298,8 @@
                 61: 'ALS Rescue Ambulance',
                 62: 'Fire Investigator Unit',
                 63: 'Fire Prevention Unit',
+                64: 'Foam Tender',
+                65: 'Foam Trailer',
             },
         },
     };
