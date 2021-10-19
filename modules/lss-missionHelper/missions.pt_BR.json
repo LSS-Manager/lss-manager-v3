@@ -9218,5 +9218,33 @@
             "fire_stations": 13
         },
         "alternate_version": null
+    },
+    "282": {
+        "id": 282,
+        "name": "Roubo em escrit\u00f3rio",
+        "place": "Edif\u00edcio comercial",
+        "place_array": {
+            "0": "Edif\u00edcio comercial"
+        },
+        "average_credits": 1500,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 2
+        },
+        "alternate_version": null
     }
 }

@@ -73,6 +73,8 @@ if (I18n.locale == 'en_US') {
         61: ['ALS Rescue Ambulance', 1],
         62: ['Fire Investigator Unit', 0],
         63: ['Fire Prevention Unit', 0],
+        64: ['Foam Tender', 0],
+        65: ['Foam Trailer', 0],
     };
 } else if (I18n.locale == 'en_GB') {
     lssm.carsById = {

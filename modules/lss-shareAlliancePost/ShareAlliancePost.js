@@ -561,7 +561,7 @@
         try {
             // Prepare values for %ADDRESS% and %PATIENTS_LEFT%
             // Possible inputs 'xy street, 1234 city', '1234 city', '123 city | 2' (where 2 is number of patients)
-            let addressAndPatrientRow = $('.mission_header_info >> small')
+            let addressAndPatrientRow = $('#mission_general_info > small')
                 .first()
                 .text()
                 .trim()

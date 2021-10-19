@@ -6,6 +6,8 @@
     "prisoners": "Prisoners",
     "water": "Water needed",
     "water1": "gal",
+    "foam": "Foam needed",
+    "foam1": "gal",
     "to": "up to",
     "exp": "Spreads",
     "fwm": "Follow-up missions",
@@ -42,6 +44,10 @@
         "waterus": {
             "label": "Water demand",
             "description": "Shows the total amount of water required."
+        },
+        "foamus": {
+            "label": "Foam demand",
+            "description": "Shows the total amount of foam required."
         },
         "vehicles": {
             "label": "Vehicles",
