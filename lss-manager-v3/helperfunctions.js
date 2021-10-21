@@ -632,6 +632,11 @@ if (I18n.locale == 'en_US') {
         65: ['DAT-RB | Dienstauto Terreinwaardig - Reddingsbrigade', 4],
         66: ['KHV | Kusthulpverleningsvoertuig', 4],
         67: ['BA-RB | Bootaanhanger Reddingsbrigade', 4],
+        68: ['SB | Schuimblusvoertuig', 0],
+        69: ['SBH | Schuimblushaakarmbak', 0],
+        70: ['SBA | Schuimblusaanhanger', 0],
+        71: ['MSA', 0],
+        72: ['DPA | Dompelpompaanhangwagen', 0],
     };
 } else if (I18n.locale == 'de_DE') {
     lssm.buildingTypes = [

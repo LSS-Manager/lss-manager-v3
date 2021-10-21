@@ -347,7 +347,7 @@
         "name": "Brandende vrachtwagen",
         "place": "",
         "place_array": {},
-        "average_credits": 980,
+        "average_credits": 1600,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -367,7 +367,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "fire_stations": 4
+            "fire_stations": 7
         },
         "alternate_version": null
     },
@@ -1225,7 +1225,7 @@
         "place_array": {
             "0": "Tankstation"
         },
-        "average_credits": 3720,
+        "average_credits": 6510,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -1256,7 +1256,7 @@
         "prerequisites": {
             "main_building": 0,
             "police_stations": 2,
-            "fire_stations": 11
+            "fire_stations": 14
         },
         "alternate_version": null
     },
@@ -1751,7 +1751,7 @@
         "name": "Brand in opslagloods",
         "place": "",
         "place_array": {},
-        "average_credits": 15000,
+        "average_credits": 13710,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/blast_gruen.png",
@@ -1759,6 +1759,7 @@
             "2": "/images/blast_rot.png"
         },
         "requirements": {
+            "foam_needed": 750,
             "firetrucks": 16,
             "battalion_chief_vehicles": 4,
             "mobile_command_vehicles": 1,
@@ -1766,7 +1767,8 @@
             "platform_trucks": 4,
             "heavy_rescue_vehicles": 2,
             "water_tankers": 4,
-            "mobile_air_vehicles": 1
+            "mobile_air_vehicles": 1,
+            "foam": 3
         },
         "chances": {},
         "additional": {
@@ -6999,7 +7001,7 @@
         "place_array": {
             "0": "Tankstation"
         },
-        "average_credits": 1700,
+        "average_credits": 4820,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -7031,7 +7033,7 @@
         "prerequisites": {
             "main_building": 0,
             "police_stations": 1,
-            "fire_stations": 11
+            "fire_stations": 13
         },
         "alternate_version": null
     },
@@ -7834,7 +7836,7 @@
         "place_array": {
             "0": "Rangeeremplacement"
         },
-        "average_credits": 1700,
+        "average_credits": 2250,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -8752,7 +8754,7 @@
         "place_array": {
             "0": "Garagebedrijf"
         },
-        "average_credits": 3620,
+        "average_credits": 6340,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -8787,7 +8789,7 @@
             "main_building": 0,
             "rescue_stations": 1,
             "police_stations": 1,
-            "fire_stations": 12
+            "fire_stations": 14
         },
         "alternate_version": null
     },
@@ -9063,7 +9065,7 @@
         "place_array": {
             "0": "Magazijn"
         },
-        "average_credits": 4200,
+        "average_credits": 9080,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -9093,7 +9095,7 @@
         "prerequisites": {
             "main_building": 0,
             "police_stations": 2,
-            "fire_stations": 16
+            "fire_stations": 22
         },
         "alternate_version": null
     },
@@ -10075,7 +10077,7 @@
         "place_array": {
             "0": "Rivier"
         },
-        "average_credits": 4750,
+        "average_credits": 5150,
         "generated_by": "Waterongevallen",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -11300,7 +11302,7 @@
         "place_array": {
             "0": "Vliegveld (groot): Terminal"
         },
-        "average_credits": 5150,
+        "average_credits": 6470,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -11332,10 +11334,10 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "rescue_stations": 10,
-            "police_stations": 4,
+            "rescue_stations": 8,
+            "police_stations": 5,
             "bereitschaftspolizei": 1,
-            "fire_stations": 15,
+            "fire_stations": 14,
             "main_building_extensions": {
                 "0": 8
             }
@@ -12424,7 +12426,7 @@
         "place_array": {
             "0": "Parkeergarage"
         },
-        "average_credits": 5100,
+        "average_credits": 5240,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -12455,7 +12457,7 @@
         "prerequisites": {
             "main_building": 0,
             "police_stations": 2,
-            "fire_stations": 16
+            "fire_stations": 14
         },
         "alternate_version": null
     },
@@ -12716,7 +12718,7 @@
         "place_array": {
             "0": "Afvalverwerker"
         },
-        "average_credits": 6800,
+        "average_credits": 9050,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -12746,7 +12748,7 @@
         "prerequisites": {
             "main_building": 0,
             "police_stations": 2,
-            "fire_stations": 18
+            "fire_stations": 23
         },
         "alternate_version": null
     },
@@ -12757,7 +12759,7 @@
         "place_array": {
             "0": "Afvalverwerker"
         },
-        "average_credits": 9500,
+        "average_credits": 10660,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -12787,7 +12789,7 @@
         "prerequisites": {
             "main_building": 0,
             "police_stations": 2,
-            "fire_stations": 20
+            "fire_stations": 29
         },
         "alternate_version": null
     },
@@ -13341,7 +13343,7 @@
         "place_array": {
             "0": "Kerkgebouw"
         },
-        "average_credits": 4850,
+        "average_credits": 7020,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -13373,7 +13375,7 @@
             "main_building": 0,
             "rescue_stations": 3,
             "police_stations": 2,
-            "fire_stations": 16
+            "fire_stations": 15
         },
         "alternate_version": null
     },
@@ -13384,7 +13386,7 @@
         "place_array": {
             "0": "Kerkgebouw"
         },
-        "average_credits": 6700,
+        "average_credits": 8380,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -13414,7 +13416,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "rescue_stations": 4,
+            "rescue_stations": 8,
             "police_stations": 2,
             "fire_stations": 20
         },
@@ -13889,7 +13891,7 @@
         "place_array": {
             "0": "Bouwmarkt"
         },
-        "average_credits": 4850,
+        "average_credits": 6540,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -13921,7 +13923,7 @@
         "prerequisites": {
             "main_building": 0,
             "police_stations": 2,
-            "fire_stations": 18
+            "fire_stations": 15
         },
         "alternate_version": null
     },
@@ -13932,7 +13934,7 @@
         "place_array": {
             "0": "Bouwmarkt"
         },
-        "average_credits": 6850,
+        "average_credits": 9420,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -13964,7 +13966,7 @@
         "prerequisites": {
             "main_building": 0,
             "police_stations": 2,
-            "fire_stations": 20
+            "fire_stations": 22
         },
         "alternate_version": null
     },
@@ -14162,7 +14164,7 @@
         "place_array": {
             "0": "Haventerrein"
         },
-        "average_credits": 4000,
+        "average_credits": 6660,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/gas_gruen.png",
@@ -14191,8 +14193,8 @@
         "prerequisites": {
             "main_building": 0,
             "rescue_stations": 4,
-            "police_stations": 5,
-            "fire_stations": 16
+            "police_stations": 8,
+            "fire_stations": 14
         },
         "alternate_version": null
     },
@@ -14984,7 +14986,7 @@
         "place_array": {
             "0": "Manege"
         },
-        "average_credits": 2750,
+        "average_credits": 2980,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -15954,7 +15956,7 @@
         "place_array": {
             "0": "Industrieterrein"
         },
-        "average_credits": 3600,
+        "average_credits": 3880,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/gas_gruen.png",
@@ -15981,9 +15983,9 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "rescue_stations": 4,
+            "rescue_stations": 8,
             "police_stations": 2,
-            "fire_stations": 14
+            "fire_stations": 11
         },
         "alternate_version": null
     },
@@ -15994,7 +15996,7 @@
         "place_array": {
             "0": "Industrieterrein"
         },
-        "average_credits": 4000,
+        "average_credits": 6660,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/gas_gruen.png",
@@ -16024,9 +16026,9 @@
         "prerequisites": {
             "main_building": 0,
             "rescue_stations": 8,
-            "police_stations": 3,
+            "police_stations": 5,
             "bereitschaftspolizei": 1,
-            "fire_stations": 16
+            "fire_stations": 14
         },
         "alternate_version": null
     },
@@ -16846,7 +16848,7 @@
         "place_array": {
             "0": "Industrieterrein"
         },
-        "average_credits": 5000,
+        "average_credits": 7360,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -16879,7 +16881,7 @@
             "main_building": 0,
             "police_stations": 3,
             "bereitschaftspolizei": 1,
-            "fire_stations": 18
+            "fire_stations": 16
         },
         "alternate_version": null
     },
@@ -16890,7 +16892,7 @@
         "place_array": {
             "0": "Industrieterrein"
         },
-        "average_credits": 7200,
+        "average_credits": 9930,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -16922,7 +16924,7 @@
             "main_building": 0,
             "police_stations": 3,
             "bereitschaftspolizei": 1,
-            "fire_stations": 20
+            "fire_stations": 24
         },
         "alternate_version": null
     },
@@ -18481,7 +18483,7 @@
         "place_array": {
             "0": "Theater"
         },
-        "average_credits": 6400,
+        "average_credits": 10450,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -18515,10 +18517,10 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "rescue_stations": 12,
-            "police_stations": 6,
+            "rescue_stations": 8,
+            "police_stations": 5,
             "bereitschaftspolizei": 1,
-            "fire_stations": 16
+            "fire_stations": 22
         },
         "alternate_version": null
     },
@@ -18529,7 +18531,7 @@
         "place_array": {
             "0": "Theater"
         },
-        "average_credits": 10714,
+        "average_credits": 13640,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -18563,10 +18565,10 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "rescue_stations": 22,
-            "police_stations": 6,
+            "rescue_stations": 11,
+            "police_stations": 5,
             "bereitschaftspolizei": 1,
-            "fire_stations": 18
+            "fire_stations": 30
         },
         "alternate_version": null
     },
@@ -19658,7 +19660,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "rescue_stations": 3,
+            "rescue_stations": 8,
             "police_stations": 5,
             "fire_stations": 19
         },
@@ -19703,7 +19705,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "rescue_stations": 4,
+            "rescue_stations": 8,
             "police_stations": 5,
             "fire_stations": 24
         },
@@ -20112,6 +20114,7 @@
         "prerequisites": {
             "main_building": 0,
             "rescue_stations": 1,
+            "police_stations": 1,
             "fire_stations": 11
         },
         "alternate_version": null
@@ -20364,7 +20367,7 @@
         "place_array": {
             "0": "Caf\u00e9/Club"
         },
-        "average_credits": 11020,
+        "average_credits": 11350,
         "generated_by": "Politie, Hoofdbureau",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -23731,7 +23734,7 @@
         "prerequisites": {
             "main_building": 0,
             "rescue_stations": 1,
-            "police_stations": 3,
+            "police_stations": 8,
             "fire_stations": 14
         },
         "alternate_version": null
@@ -27815,7 +27818,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "rescue_stations": 3,
+            "rescue_stations": 8,
             "police_stations": 3,
             "fire_stations": 14
         },
@@ -27862,7 +27865,7 @@
         },
         "prerequisites": {
             "main_building": 0,
-            "rescue_stations": 4,
+            "rescue_stations": 8,
             "police_stations": 5,
             "fire_stations": 14
         },
@@ -28964,6 +28967,34 @@
             "rescue_stations": 10,
             "police_stations": 2,
             "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    "871": {
+        "id": 871,
+        "name": "Brandende tankwagen",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1180,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 6
         },
         "alternate_version": null
     }
