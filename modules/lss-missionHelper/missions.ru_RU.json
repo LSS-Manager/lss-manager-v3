@@ -24,7 +24,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 0
     },
     "1": {
         "id": 1,
@@ -49,7 +50,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 1
     },
     "2": {
         "id": 2,
@@ -79,7 +81,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 2
     },
     "3": {
         "id": 3,
@@ -107,7 +110,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 3
     },
     "4": {
         "id": 4,
@@ -135,7 +139,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 4
     },
     "5": {
         "id": 5,
@@ -167,7 +172,8 @@
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 5
     },
     "6": {
         "id": 6,
@@ -192,7 +198,8 @@
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 6
     },
     "7": {
         "id": 7,
@@ -220,7 +227,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 7
     },
     "8": {
         "id": 8,
@@ -250,7 +258,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 8
     },
     "9": {
         "id": 9,
@@ -279,7 +288,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 9
     },
     "10": {
         "id": 10,
@@ -304,7 +314,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 10
     },
     "11": {
         "id": 11,
@@ -329,7 +340,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 11
     },
     "12": {
         "id": 12,
@@ -359,7 +371,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 12
     },
     "13": {
         "id": 13,
@@ -384,7 +397,8 @@
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 13
     },
     "14": {
         "id": 14,
@@ -412,7 +426,8 @@
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 14
     },
     "15": {
         "id": 15,
@@ -439,7 +454,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 15
     },
     "16": {
         "id": 16,
@@ -464,7 +480,8 @@
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 16
     },
     "17": {
         "id": 17,
@@ -489,7 +506,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 17
     },
     "18": {
         "id": 18,
@@ -514,7 +532,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 18
     },
     "19": {
         "id": 19,
@@ -539,7 +558,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 19
     },
     "20": {
         "id": 20,
@@ -572,7 +592,8 @@
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 20
     },
     "21": {
         "id": 21,
@@ -604,7 +625,8 @@
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 21
     },
     "22": {
         "id": 22,
@@ -635,7 +657,8 @@
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 22
     },
     "23": {
         "id": 23,
@@ -660,7 +683,8 @@
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 23
     },
     "24": {
         "id": 24,
@@ -687,7 +711,8 @@
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 24
     },
     "25": {
         "id": 25,
@@ -722,7 +747,8 @@
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 25
     },
     "26": {
         "id": 26,
@@ -758,7 +784,8 @@
             "rescue_stations": 1,
             "fire_stations": 5
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 26
     },
     "27": {
         "id": 27,
@@ -783,7 +810,8 @@
             "main_building": 0,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 27
     },
     "28": {
         "id": 28,
@@ -815,7 +843,8 @@
             "main_building": 0,
             "fire_stations": 5
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 28
     },
     "29": {
         "id": 29,
@@ -845,7 +874,8 @@
             "police_stations": 2,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 29
     },
     "30": {
         "id": 30,
@@ -871,7 +901,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 30
     },
     "31": {
         "id": 31,
@@ -898,7 +929,8 @@
             "main_building": 0,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 31
     },
     "32": {
         "id": 32,
@@ -923,7 +955,8 @@
             "main_building": 0,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 32
     },
     "34": {
         "id": 34,
@@ -955,8 +988,6 @@
             "possible_patient": 25,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
-            "overlay_on_fire_support_chance": 100,
-            "overlay_on_fire_support_count": 2,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
         },
         "prerequisites": {
@@ -964,50 +995,50 @@
             "rescue_stations": 6,
             "fire_stations": 10
         },
-        "alternate_version": {
-            "mission_type": {
-                "id": 34,
-                "name": "\u0412\u043e\u0437\u0433\u043e\u0440\u0430\u043d\u0438\u0435 \u0432 \u0431\u043e\u043b\u044c\u043d\u0438\u0446\u0435",
-                "place": "\u0411\u043e\u043b\u044c\u043d\u0438\u0446\u0430",
-                "place_array": {
-                    "0": "\u0411\u043e\u043b\u044c\u043d\u0438\u0446\u0430"
-                },
-                "average_credits": 6400,
-                "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
-                "icons": {
-                    "0": "/images/fire_gruen.png",
-                    "1": "/images/fire_gelb.png",
-                    "2": "/images/fire_rot.png"
-                },
-                "requirements": {
-                    "water_needed": 31000,
-                    "firetrucks": 10,
-                    "battalion_chief_vehicles": 2,
-                    "platform_trucks": 3,
-                    "heavy_rescue_vehicles": 2,
-                    "water_tankers": 1,
-                    "pump": 2
-                },
-                "chances": {
-                    "patient_transport": 50,
-                    "patient_critical_care": 5
-                },
-                "additional": {
-                    "possible_patient": 25,
-                    "filter_id": "firehouse_missions",
-                    "fire_alarm_system_possible": true,
-                    "overlay_on_fire_support_chance": 100,
-                    "overlay_on_fire_support_count": 2,
-                    "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
-                },
-                "prerequisites": {
-                    "main_building": 0,
-                    "rescue_stations": 6,
-                    "fire_stations": 10
-                },
-                "alternate_version": null
-            }
-        }
+        "overlay_index": null,
+        "base_mission_id": 34
+    },
+    "34-1": {
+        "id": "34-1",
+        "name": "\u0412\u043e\u0437\u0433\u043e\u0440\u0430\u043d\u0438\u0435 \u0432 \u0431\u043e\u043b\u044c\u043d\u0438\u0446\u0435",
+        "place": "\u0411\u043e\u043b\u044c\u043d\u0438\u0446\u0430",
+        "place_array": {
+            "0": "\u0411\u043e\u043b\u044c\u043d\u0438\u0446\u0430"
+        },
+        "average_credits": 6400,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 31000,
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "pump": 2
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 25,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 6,
+            "fire_support_count": 2,
+            "fire_stations": 10
+        },
+        "overlay_index": 1,
+        "base_mission_id": 34
     },
     "35": {
         "id": 35,
@@ -1036,7 +1067,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 35
     },
     "36": {
         "id": 36,
@@ -1065,7 +1097,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 36
     },
     "37": {
         "id": 37,
@@ -1094,7 +1127,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 37
     },
     "38": {
         "id": 38,
@@ -1123,7 +1157,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 38
     },
     "39": {
         "id": 39,
@@ -1153,7 +1188,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 39
     },
     "40": {
         "id": 40,
@@ -1183,7 +1219,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 40
     },
     "41": {
         "id": 41,
@@ -1218,8 +1255,6 @@
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
-            "overlay_on_fire_support_chance": 100,
-            "overlay_on_fire_support_count": 2,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
         },
         "prerequisites": {
@@ -1228,55 +1263,55 @@
             "police_stations": 2,
             "fire_stations": 14
         },
-        "alternate_version": {
-            "mission_type": {
-                "id": 41,
-                "name": "\u0412\u043e\u0437\u0433\u043e\u0440\u0430\u043d\u0438\u0435 \u0432 \u0430\u0432\u0442\u043e\u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u043e\u0439",
-                "place": "\u0410\u0432\u0442\u043e\u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u0430\u044f",
-                "place_array": {
-                    "0": "\u0410\u0432\u0442\u043e\u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u0430\u044f"
-                },
-                "average_credits": 7000,
-                "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
-                "icons": {
-                    "0": "/images/fire_gruen.png",
-                    "1": "/images/fire_gelb.png",
-                    "2": "/images/fire_rot.png"
-                },
-                "requirements": {
-                    "foam_needed": 9200,
-                    "water_needed": 26000,
-                    "firetrucks": 8,
-                    "battalion_chief_vehicles": 2,
-                    "platform_trucks": 2,
-                    "heavy_rescue_vehicles": 1,
-                    "water_tankers": 1,
-                    "hazmat_vehicles": 1,
-                    "police_cars": 2,
-                    "foam": 2
-                },
-                "chances": {
-                    "water_tankers": 40,
-                    "patient_transport": 50,
-                    "patient_critical_care": 5
-                },
-                "additional": {
-                    "possible_patient": 4,
-                    "filter_id": "firehouse_missions",
-                    "fire_alarm_system_possible": true,
-                    "overlay_on_fire_support_chance": 100,
-                    "overlay_on_fire_support_count": 2,
-                    "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
-                },
-                "prerequisites": {
-                    "main_building": 0,
-                    "rescue_stations": 2,
-                    "police_stations": 2,
-                    "fire_stations": 14
-                },
-                "alternate_version": null
-            }
-        }
+        "overlay_index": null,
+        "base_mission_id": 41
+    },
+    "41-1": {
+        "id": "41-1",
+        "name": "\u0412\u043e\u0437\u0433\u043e\u0440\u0430\u043d\u0438\u0435 \u0432 \u0430\u0432\u0442\u043e\u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u043e\u0439",
+        "place": "\u0410\u0432\u0442\u043e\u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u0430\u044f",
+        "place_array": {
+            "0": "\u0410\u0432\u0442\u043e\u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u0430\u044f"
+        },
+        "average_credits": 7000,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "foam_needed": 9200,
+            "water_needed": 26000,
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2,
+            "foam": 2
+        },
+        "chances": {
+            "water_tankers": 40,
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_support_count": 2,
+            "fire_stations": 14
+        },
+        "overlay_index": 1,
+        "base_mission_id": 41
     },
     "42": {
         "id": 42,
@@ -1306,7 +1341,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 42
     },
     "43": {
         "id": 43,
@@ -1336,7 +1372,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 43
     },
     "44": {
         "id": 44,
@@ -1364,7 +1401,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 44
     },
     "45": {
         "id": 45,
@@ -1392,7 +1430,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 45
     },
     "46": {
         "id": 46,
@@ -1419,7 +1458,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 46
     },
     "47": {
         "id": 47,
@@ -1446,7 +1486,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 47
     },
     "48": {
         "id": 48,
@@ -1474,7 +1515,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 48
     },
     "49": {
         "id": 49,
@@ -1502,7 +1544,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 49
     },
     "50": {
         "id": 50,
@@ -1529,7 +1572,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 50
     },
     "51": {
         "id": 51,
@@ -1556,7 +1600,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 51
     },
     "52": {
         "id": 52,
@@ -1583,7 +1628,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 52
     },
     "53": {
         "id": 53,
@@ -1610,7 +1656,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 53
     },
     "54": {
         "id": 54,
@@ -1637,7 +1684,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 54
     },
     "55": {
         "id": 55,
@@ -1668,7 +1716,8 @@
             "main_building": 6,
             "police_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 55
     },
     "56": {
         "id": 56,
@@ -1697,7 +1746,8 @@
             "main_building": 6,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 56
     },
     "57": {
         "id": 57,
@@ -1722,7 +1772,8 @@
         "prerequisites": {
             "main_building": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 57
     },
     "58": {
         "id": 58,
@@ -1747,7 +1798,8 @@
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 58
     },
     "59": {
         "id": 59,
@@ -1775,7 +1827,8 @@
             "main_building": 0,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 59
     },
     "60": {
         "id": 60,
@@ -1805,8 +1858,6 @@
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
-            "overlay_on_fire_support_chance": 100,
-            "overlay_on_fire_support_count": 1,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
         },
         "prerequisites": {
@@ -1814,48 +1865,48 @@
             "rescue_stations": 2,
             "fire_stations": 9
         },
-        "alternate_version": {
-            "mission_type": {
-                "id": 60,
-                "name": "\u0412\u043e\u0437\u0433\u043e\u0440\u0430\u043d\u0438\u0435 \u0432 \u0441\u043f\u043e\u0440\u0442\u0437\u0430\u043b\u0435",
-                "place": "\u0428\u043a\u043e\u043b\u0430",
-                "place_array": {
-                    "0": "\u0428\u043a\u043e\u043b\u0430"
-                },
-                "average_credits": 2200,
-                "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
-                "icons": {
-                    "0": "/images/fire_gruen.png",
-                    "1": "/images/fire_gelb.png",
-                    "2": "/images/fire_rot.png"
-                },
-                "requirements": {
-                    "water_needed": 12500,
-                    "firetrucks": 5,
-                    "battalion_chief_vehicles": 1,
-                    "platform_trucks": 1,
-                    "pump": 1
-                },
-                "chances": {
-                    "patient_transport": 50,
-                    "patient_critical_care": 5
-                },
-                "additional": {
-                    "possible_patient": 4,
-                    "filter_id": "firehouse_missions",
-                    "fire_alarm_system_possible": true,
-                    "overlay_on_fire_support_chance": 100,
-                    "overlay_on_fire_support_count": 1,
-                    "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
-                },
-                "prerequisites": {
-                    "main_building": 0,
-                    "rescue_stations": 2,
-                    "fire_stations": 9
-                },
-                "alternate_version": null
-            }
-        }
+        "overlay_index": null,
+        "base_mission_id": 60
+    },
+    "60-1": {
+        "id": "60-1",
+        "name": "\u0412\u043e\u0437\u0433\u043e\u0440\u0430\u043d\u0438\u0435 \u0432 \u0441\u043f\u043e\u0440\u0442\u0437\u0430\u043b\u0435",
+        "place": "\u0428\u043a\u043e\u043b\u0430",
+        "place_array": {
+            "0": "\u0428\u043a\u043e\u043b\u0430"
+        },
+        "average_credits": 2200,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 12500,
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "pump": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "fire_support_count": 1,
+            "fire_stations": 9
+        },
+        "overlay_index": 1,
+        "base_mission_id": 60
     },
     "62": {
         "id": 62,
@@ -1880,7 +1931,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 62
     },
     "63": {
         "id": 63,
@@ -1909,7 +1961,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 63
     },
     "64": {
         "id": 64,
@@ -1941,7 +1994,8 @@
             "rescue_stations": 8,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 64
     },
     "65": {
         "id": 65,
@@ -1966,7 +2020,8 @@
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 65
     },
     "66": {
         "id": 66,
@@ -1998,7 +2053,8 @@
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 66
     },
     "67": {
         "id": 67,
@@ -2029,7 +2085,8 @@
             "main_building": 6,
             "police_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 67
     },
     "68": {
         "id": 68,
@@ -2064,8 +2121,6 @@
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
-            "overlay_on_fire_support_chance": 100,
-            "overlay_on_fire_support_count": 1,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
         },
         "prerequisites": {
@@ -2074,54 +2129,54 @@
             "police_stations": 2,
             "fire_stations": 8
         },
-        "alternate_version": {
-            "mission_type": {
-                "id": 68,
-                "name": "\u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u0432\u043e\u0437\u0433\u043e\u0440\u0430\u043d\u0438\u0435 \u0432 \u0441\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442\u0435",
-                "place": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u0431\u043e\u043b\u044c\u0448\u043e\u0439)",
-                "place_array": {
-                    "0": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u0431\u043e\u043b\u044c\u0448\u043e\u0439)"
-                },
-                "average_credits": 3200,
-                "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
-                "icons": {
-                    "0": "/images/fire_gruen.png",
-                    "1": "/images/fire_gelb.png",
-                    "2": "/images/fire_rot.png"
-                },
-                "requirements": {
-                    "water_needed": 21000,
-                    "firetrucks": 6,
-                    "battalion_chief_vehicles": 2,
-                    "mobile_command_vehicles": 1,
-                    "platform_trucks": 1,
-                    "heavy_rescue_vehicles": 1,
-                    "water_tankers": 1,
-                    "police_cars": 1,
-                    "pump": 1
-                },
-                "chances": {
-                    "water_tankers": 20,
-                    "patient_transport": 30,
-                    "patient_critical_care": 5
-                },
-                "additional": {
-                    "possible_patient": 6,
-                    "filter_id": "firehouse_missions",
-                    "fire_alarm_system_possible": true,
-                    "overlay_on_fire_support_chance": 100,
-                    "overlay_on_fire_support_count": 1,
-                    "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
-                },
-                "prerequisites": {
-                    "main_building": 0,
-                    "rescue_stations": 3,
-                    "police_stations": 2,
-                    "fire_stations": 8
-                },
-                "alternate_version": null
-            }
-        }
+        "overlay_index": null,
+        "base_mission_id": 68
+    },
+    "68-1": {
+        "id": "68-1",
+        "name": "\u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u0432\u043e\u0437\u0433\u043e\u0440\u0430\u043d\u0438\u0435 \u0432 \u0441\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442\u0435",
+        "place": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u0431\u043e\u043b\u044c\u0448\u043e\u0439)",
+        "place_array": {
+            "0": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442 (\u0431\u043e\u043b\u044c\u0448\u043e\u0439)"
+        },
+        "average_credits": 3200,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 21000,
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1,
+            "pump": 1
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 6,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_support_count": 1,
+            "fire_stations": 8
+        },
+        "overlay_index": 1,
+        "base_mission_id": 68
     },
     "69": {
         "id": 69,
@@ -2151,7 +2206,8 @@
             "police_stations": 2,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 69
     },
     "71": {
         "id": 71,
@@ -2181,7 +2237,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 71
     },
     "72": {
         "id": 72,
@@ -2218,7 +2275,8 @@
             "rescue_stations": 2,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 72
     },
     "73": {
         "id": 73,
@@ -2254,7 +2312,8 @@
             "police_stations": 2,
             "fire_stations": 5
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 73
     },
     "74": {
         "id": 74,
@@ -2284,7 +2343,8 @@
         "prerequisites": {
             "main_building": 0
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 74
     },
     "75": {
         "id": 75,
@@ -2313,7 +2373,8 @@
             "main_building": 6,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 75
     },
     "76": {
         "id": 76,
@@ -2347,7 +2408,8 @@
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 76
     },
     "77": {
         "id": 77,
@@ -2381,7 +2443,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 77
     },
     "78": {
         "id": 78,
@@ -2415,7 +2478,8 @@
             "main_building": 0,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 78
     },
     "79": {
         "id": 79,
@@ -2442,7 +2506,8 @@
             "main_building": 0,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 79
     },
     "80": {
         "id": 80,
@@ -2469,7 +2534,8 @@
             "main_building": 0,
             "fire_stations": 5
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 80
     },
     "81": {
         "id": 81,
@@ -2503,7 +2569,8 @@
             "main_building": 6,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 81
     },
     "82": {
         "id": 82,
@@ -2540,7 +2607,8 @@
             "police_stations": 1,
             "fire_stations": 5
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 82
     },
     "83": {
         "id": 83,
@@ -2566,7 +2634,8 @@
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 83
     },
     "84": {
         "id": 84,
@@ -2601,7 +2670,8 @@
             "rescue_stations": 1,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 84
     },
     "85": {
         "id": 85,
@@ -2628,7 +2698,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 85
     },
     "86": {
         "id": 86,
@@ -2655,7 +2726,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 86
     },
     "87": {
         "id": 87,
@@ -2682,7 +2754,8 @@
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 87
     },
     "88": {
         "id": 88,
@@ -2717,7 +2790,8 @@
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 88
     },
     "89": {
         "id": 89,
@@ -2746,7 +2820,8 @@
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 89
     },
     "90": {
         "id": 90,
@@ -2776,7 +2851,8 @@
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 90
     },
     "91": {
         "id": 91,
@@ -2803,7 +2879,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 91
     },
     "92": {
         "id": 92,
@@ -2830,7 +2907,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 92
     },
     "93": {
         "id": 93,
@@ -2857,7 +2935,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 93
     },
     "94": {
         "id": 94,
@@ -2898,7 +2977,8 @@
             "police_stations": 2,
             "fire_stations": 7
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 94
     },
     "95": {
         "id": 95,
@@ -2925,7 +3005,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 95
     },
     "96": {
         "id": 96,
@@ -2952,7 +3033,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 96
     },
     "97": {
         "id": 97,
@@ -2983,7 +3065,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 97
     },
     "98": {
         "id": 98,
@@ -3011,7 +3094,8 @@
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 98
     },
     "99": {
         "id": 99,
@@ -3043,7 +3127,8 @@
             "police_stations": 1,
             "fire_stations": 7
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 99
     },
     "100": {
         "id": 100,
@@ -3073,7 +3158,8 @@
             "police_stations": 1,
             "fire_stations": 7
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 100
     },
     "101": {
         "id": 101,
@@ -3107,7 +3193,8 @@
             "police_stations": 1,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 101
     },
     "102": {
         "id": 102,
@@ -3143,7 +3230,8 @@
             "police_stations": 3,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 102
     },
     "103": {
         "id": 103,
@@ -3176,7 +3264,8 @@
             "main_building": 6,
             "police_stations": 7
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 103
     },
     "104": {
         "id": 104,
@@ -3213,7 +3302,8 @@
             "police_stations": 2,
             "fire_stations": 5
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 104
     },
     "105": {
         "id": 105,
@@ -3243,7 +3333,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 105
     },
     "106": {
         "id": 106,
@@ -3279,7 +3370,8 @@
             "rescue_stations": 2,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 106
     },
     "107": {
         "id": 107,
@@ -3315,7 +3407,8 @@
             "rescue_stations": 1,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 107
     },
     "108": {
         "id": 108,
@@ -3349,7 +3442,8 @@
             "rescue_stations": 1,
             "police_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 108
     },
     "109": {
         "id": 109,
@@ -3374,50 +3468,48 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions",
-            "overlay_on_fire_support_chance": 100,
-            "overlay_on_fire_support_count": 1
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "main_building": 0,
             "fire_stations": 8
         },
-        "alternate_version": {
-            "mission_type": {
-                "id": 109,
-                "name": "\u0412\u043e\u0437\u0433\u043e\u0440\u0430\u043d\u0438\u0435 \u0441\u0438\u043b\u043e\u0441\u0430",
-                "place": "\u0421\u0438\u043b\u043e\u0441",
-                "place_array": {
-                    "0": "\u0421\u0438\u043b\u043e\u0441"
-                },
-                "average_credits": 3200,
-                "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
-                "icons": {
-                    "0": "/images/fire_gruen.png",
-                    "1": "/images/fire_gelb.png",
-                    "2": "/images/fire_rot.png"
-                },
-                "requirements": {
-                    "water_needed": 20000,
-                    "firetrucks": 8,
-                    "battalion_chief_vehicles": 2,
-                    "platform_trucks": 1,
-                    "heavy_rescue_vehicles": 1,
-                    "pump": 1
-                },
-                "chances": {},
-                "additional": {
-                    "filter_id": "firehouse_missions",
-                    "overlay_on_fire_support_chance": 100,
-                    "overlay_on_fire_support_count": 1
-                },
-                "prerequisites": {
-                    "main_building": 0,
-                    "fire_stations": 8
-                },
-                "alternate_version": null
-            }
-        }
+        "overlay_index": null,
+        "base_mission_id": 109
+    },
+    "109-1": {
+        "id": "109-1",
+        "name": "\u0412\u043e\u0437\u0433\u043e\u0440\u0430\u043d\u0438\u0435 \u0441\u0438\u043b\u043e\u0441\u0430",
+        "place": "\u0421\u0438\u043b\u043e\u0441",
+        "place_array": {
+            "0": "\u0421\u0438\u043b\u043e\u0441"
+        },
+        "average_credits": 3200,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 20000,
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "pump": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_support_count": 1,
+            "fire_stations": 8
+        },
+        "overlay_index": 1,
+        "base_mission_id": 109
     },
     "110": {
         "id": 110,
@@ -3451,7 +3543,8 @@
             "rescue_stations": 1,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 110
     },
     "111": {
         "id": 111,
@@ -3481,7 +3574,8 @@
             "main_building": 2,
             "rescue_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 111
     },
     "112": {
         "id": 112,
@@ -3519,7 +3613,8 @@
             "police_stations": 1,
             "fire_stations": 60
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 112
     },
     "113": {
         "id": 113,
@@ -3557,7 +3652,8 @@
             "police_stations": 1,
             "fire_stations": 7
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 113
     },
     "114": {
         "id": 114,
@@ -3587,7 +3683,8 @@
             "main_building": 2,
             "rescue_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 114
     },
     "115": {
         "id": 115,
@@ -3617,7 +3714,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 115
     },
     "116": {
         "id": 116,
@@ -3647,7 +3745,8 @@
             "main_building": 2,
             "rescue_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 116
     },
     "117": {
         "id": 117,
@@ -3678,7 +3777,8 @@
             "main_building": 0,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 117
     },
     "118": {
         "id": 118,
@@ -3708,7 +3808,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 118
     },
     "119": {
         "id": 119,
@@ -3738,7 +3839,8 @@
             "main_building": 0,
             "fire_stations": 8
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 119
     },
     "120": {
         "id": 120,
@@ -3764,7 +3866,8 @@
             "main_building": 6,
             "police_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 120
     },
     "121": {
         "id": 121,
@@ -3793,7 +3896,8 @@
             "police_stations": 5,
             "police_helicopter_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 121
     },
     "122": {
         "id": 122,
@@ -3821,7 +3925,8 @@
             "police_stations": 4,
             "police_helicopter_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 122
     },
     "123": {
         "id": 123,
@@ -3860,7 +3965,8 @@
             "police_helicopter_stations": 1,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 123
     },
     "124": {
         "id": 124,
@@ -3896,7 +4002,8 @@
             "police_stations": 7,
             "police_helicopter_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 124
     },
     "125": {
         "id": 125,
@@ -3930,7 +4037,8 @@
             "main_building": 6,
             "police_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 125
     },
     "126": {
         "id": 126,
@@ -3960,7 +4068,8 @@
             "main_building": 6,
             "police_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 126
     },
     "127": {
         "id": 127,
@@ -3997,7 +4106,8 @@
             "rescue_stations": 2,
             "police_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 127
     },
     "128": {
         "id": 128,
@@ -4032,7 +4142,8 @@
             "police_stations": 7,
             "police_helicopter_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 128
     },
     "129": {
         "id": 129,
@@ -4062,7 +4173,8 @@
             "main_building": 6,
             "police_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 129
     },
     "130": {
         "id": 130,
@@ -4097,7 +4209,8 @@
             "police_stations": 8,
             "police_helicopter_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 130
     },
     "131": {
         "id": 131,
@@ -4135,7 +4248,8 @@
             "police_stations": 10,
             "police_helicopter_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 131
     },
     "132": {
         "id": 132,
@@ -4166,7 +4280,8 @@
             "main_building": 6,
             "police_stations": 15
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 132
     },
     "133": {
         "id": 133,
@@ -4200,7 +4315,8 @@
             "police_stations": 9,
             "police_helicopter_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 133
     },
     "134": {
         "id": 134,
@@ -4239,7 +4355,8 @@
             "rescue_stations": 1,
             "police_stations": 9
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 134
     },
     "135": {
         "id": 135,
@@ -4272,7 +4389,8 @@
             "main_building": 6,
             "police_stations": 9
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 135
     },
     "136": {
         "id": 136,
@@ -4300,7 +4418,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 136
     },
     "137": {
         "id": 137,
@@ -4330,7 +4449,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 137
     },
     "138": {
         "id": 138,
@@ -4360,7 +4480,8 @@
             "main_building": 0,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 138
     },
     "139": {
         "id": 139,
@@ -4394,7 +4515,8 @@
             "rescue_stations": 3,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 139
     },
     "140": {
         "id": 140,
@@ -4421,7 +4543,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 140
     },
     "141": {
         "id": 141,
@@ -4454,7 +4577,8 @@
             "police_stations": 2,
             "fire_stations": 10
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 141
     },
     "142": {
         "id": 142,
@@ -4482,7 +4606,8 @@
             "max_police_stations": 7,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 142
     },
     "143": {
         "id": 143,
@@ -4518,7 +4643,8 @@
             "police_stations": 7,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 143
     },
     "144": {
         "id": 144,
@@ -4554,7 +4680,8 @@
             "max_police_stations": 3,
             "fire_stations": 8
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 144
     },
     "145": {
         "id": 145,
@@ -4581,7 +4708,8 @@
             "main_building": 6,
             "police_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 145
     },
     "146": {
         "id": 146,
@@ -4612,7 +4740,8 @@
             "police_stations": 1,
             "fire_stations": 12
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 146
     },
     "147": {
         "id": 147,
@@ -4654,7 +4783,8 @@
             "police_stations": 3,
             "fire_stations": 15
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 147
     },
     "148": {
         "id": 148,
@@ -4696,7 +4826,8 @@
             "police_stations": 3,
             "fire_stations": 15
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 148
     },
     "149": {
         "id": 149,
@@ -4738,7 +4869,8 @@
             "police_stations": 3,
             "fire_stations": 15
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 149
     },
     "150": {
         "id": 150,
@@ -4774,7 +4906,8 @@
             "police_stations": 1,
             "fire_stations": 5
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 150
     },
     "151": {
         "id": 151,
@@ -4803,7 +4936,8 @@
             "main_building": 2,
             "rescue_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 151
     },
     "152": {
         "id": 152,
@@ -4832,7 +4966,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 152
     },
     "153": {
         "id": 153,
@@ -4863,7 +4998,8 @@
             "rescue_stations": 1,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 153
     },
     "154": {
         "id": 154,
@@ -4896,7 +5032,8 @@
             "main_building": 0,
             "fire_stations": 8
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 154
     },
     "155": {
         "id": 155,
@@ -4922,7 +5059,8 @@
             "main_building": 6,
             "police_stations": 8
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 155
     },
     "156": {
         "id": 156,
@@ -4954,7 +5092,8 @@
             "rescue_stations": 3,
             "police_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 156
     },
     "157": {
         "id": 157,
@@ -4984,7 +5123,8 @@
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 157
     },
     "158": {
         "id": 158,
@@ -5013,7 +5153,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 158
     },
     "159": {
         "id": 159,
@@ -5042,7 +5183,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 159
     },
     "160": {
         "id": 160,
@@ -5071,7 +5213,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 160
     },
     "161": {
         "id": 161,
@@ -5101,7 +5244,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 161
     },
     "162": {
         "id": 162,
@@ -5132,7 +5276,8 @@
             "main_building": 2,
             "rescue_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 162
     },
     "163": {
         "id": 163,
@@ -5163,7 +5308,8 @@
             "main_building": 2,
             "rescue_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 163
     },
     "164": {
         "id": 164,
@@ -5194,7 +5340,8 @@
             "main_building": 2,
             "rescue_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 164
     },
     "165": {
         "id": 165,
@@ -5225,7 +5372,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 165
     },
     "166": {
         "id": 166,
@@ -5252,7 +5400,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 166
     },
     "167": {
         "id": 167,
@@ -5289,7 +5438,8 @@
             "rescue_stations": 4,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 167
     },
     "168": {
         "id": 168,
@@ -5328,7 +5478,8 @@
             "rescue_stations": 8,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 168
     },
     "169": {
         "id": 169,
@@ -5358,7 +5509,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 169
     },
     "170": {
         "id": 170,
@@ -5404,7 +5556,8 @@
             "police_stations": 3,
             "fire_stations": 10
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 170
     },
     "171": {
         "id": 171,
@@ -5446,7 +5599,8 @@
             "police_stations": 6,
             "fire_stations": 20
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 171
     },
     "172": {
         "id": 172,
@@ -5475,7 +5629,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 172
     },
     "173": {
         "id": 173,
@@ -5506,7 +5661,8 @@
             "main_building": 6,
             "police_stations": 7
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 173
     },
     "174": {
         "id": 174,
@@ -5537,7 +5693,8 @@
             "main_building": 6,
             "police_stations": 7
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 174
     },
     "175": {
         "id": 175,
@@ -5576,7 +5733,8 @@
             "police_stations": 2,
             "fire_stations": 8
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 175
     },
     "176": {
         "id": 176,
@@ -5615,7 +5773,8 @@
             "police_stations": 2,
             "fire_stations": 8
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 176
     },
     "177": {
         "id": 177,
@@ -5653,7 +5812,8 @@
             "rescue_stations": 2,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 177
     },
     "178": {
         "id": 178,
@@ -5680,7 +5840,8 @@
             "main_building": 6,
             "police_stations": 8
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 178
     },
     "179": {
         "id": 179,
@@ -5724,7 +5885,8 @@
             "police_stations": 2,
             "fire_stations": 15
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 179
     },
     "180": {
         "id": 180,
@@ -5758,7 +5920,8 @@
             "rescue_stations": 10,
             "police_stations": 9
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 180
     },
     "181": {
         "id": 181,
@@ -5793,8 +5956,6 @@
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
-            "overlay_on_fire_support_chance": 100,
-            "overlay_on_fire_support_count": 2,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
         },
         "prerequisites": {
@@ -5803,54 +5964,54 @@
             "police_stations": 3,
             "fire_stations": 15
         },
-        "alternate_version": {
-            "mission_type": {
-                "id": 181,
-                "name": "\u041f\u043e\u0436\u0430\u0440 \u0432 \u043e\u0444\u0438\u0441\u043d\u043e\u043c \u0437\u0434\u0430\u043d\u0438\u0438",
-                "place": "\u041e\u0444\u0438\u0441\u043d\u043e\u0435 \u0437\u0434\u0430\u043d\u0438\u0435",
-                "place_array": {
-                    "0": "\u041e\u0444\u0438\u0441\u043d\u043e\u0435 \u0437\u0434\u0430\u043d\u0438\u0435"
-                },
-                "average_credits": 7400,
-                "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
-                "icons": {
-                    "0": "/images/fire_gruen.png",
-                    "1": "/images/fire_gelb.png",
-                    "2": "/images/fire_rot.png"
-                },
-                "requirements": {
-                    "water_needed": 43000,
-                    "firetrucks": 10,
-                    "battalion_chief_vehicles": 2,
-                    "platform_trucks": 4,
-                    "heavy_rescue_vehicles": 2,
-                    "water_tankers": 1,
-                    "mobile_air_vehicles": 1,
-                    "police_cars": 3,
-                    "pump": 2
-                },
-                "chances": {
-                    "mobile_air_vehicles": 50,
-                    "patient_transport": 30,
-                    "patient_critical_care": 5
-                },
-                "additional": {
-                    "possible_patient": 4,
-                    "filter_id": "firehouse_missions",
-                    "fire_alarm_system_possible": true,
-                    "overlay_on_fire_support_chance": 100,
-                    "overlay_on_fire_support_count": 2,
-                    "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
-                },
-                "prerequisites": {
-                    "main_building": 0,
-                    "rescue_stations": 2,
-                    "police_stations": 3,
-                    "fire_stations": 15
-                },
-                "alternate_version": null
-            }
-        }
+        "overlay_index": null,
+        "base_mission_id": 181
+    },
+    "181-1": {
+        "id": "181-1",
+        "name": "\u041f\u043e\u0436\u0430\u0440 \u0432 \u043e\u0444\u0438\u0441\u043d\u043e\u043c \u0437\u0434\u0430\u043d\u0438\u0438",
+        "place": "\u041e\u0444\u0438\u0441\u043d\u043e\u0435 \u0437\u0434\u0430\u043d\u0438\u0435",
+        "place_array": {
+            "0": "\u041e\u0444\u0438\u0441\u043d\u043e\u0435 \u0437\u0434\u0430\u043d\u0438\u0435"
+        },
+        "average_credits": 7400,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 43000,
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 3,
+            "pump": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 50,
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_support_count": 2,
+            "fire_stations": 15
+        },
+        "overlay_index": 1,
+        "base_mission_id": 181
     },
     "182": {
         "id": 182,
@@ -5884,8 +6045,6 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
-            "overlay_on_fire_support_chance": 100,
-            "overlay_on_fire_support_count": 2,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
         },
         "prerequisites": {
@@ -5894,55 +6053,55 @@
             "police_stations": 2,
             "fire_stations": 15
         },
-        "alternate_version": {
-            "mission_type": {
-                "id": 182,
-                "name": "\u041f\u043e\u0436\u0430\u0440 \u043d\u0430 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0438 \u043f\u043e \u043f\u0435\u0440\u0435\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u043e\u0442\u0445\u043e\u0434\u043e\u0432",
-                "place": "\u0426\u0435\u043d\u0442\u0440 \u043f\u0435\u0440\u0435\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0412\u041e",
-                "place_array": {
-                    "0": "\u0426\u0435\u043d\u0442\u0440 \u043f\u0435\u0440\u0435\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0412\u041e"
-                },
-                "average_credits": 11100,
-                "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
-                "icons": {
-                    "0": "/images/fire_gruen.png",
-                    "1": "/images/fire_gelb.png",
-                    "2": "/images/fire_rot.png"
-                },
-                "requirements": {
-                    "foam_needed": 7800,
-                    "water_needed": 48000,
-                    "firetrucks": 12,
-                    "battalion_chief_vehicles": 2,
-                    "mobile_command_vehicles": 1,
-                    "platform_trucks": 2,
-                    "heavy_rescue_vehicles": 3,
-                    "water_tankers": 3,
-                    "mobile_air_vehicles": 1,
-                    "police_cars": 2,
-                    "pump": 3,
-                    "foam": 1
-                },
-                "chances": {
-                    "patient_transport": 20,
-                    "patient_critical_care": 5
-                },
-                "additional": {
-                    "possible_patient": 2,
-                    "filter_id": "firehouse_missions",
-                    "overlay_on_fire_support_chance": 100,
-                    "overlay_on_fire_support_count": 2,
-                    "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
-                },
-                "prerequisites": {
-                    "main_building": 0,
-                    "rescue_stations": 1,
-                    "police_stations": 2,
-                    "fire_stations": 15
-                },
-                "alternate_version": null
-            }
-        }
+        "overlay_index": null,
+        "base_mission_id": 182
+    },
+    "182-1": {
+        "id": "182-1",
+        "name": "\u041f\u043e\u0436\u0430\u0440 \u043d\u0430 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0438 \u043f\u043e \u043f\u0435\u0440\u0435\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u043e\u0442\u0445\u043e\u0434\u043e\u0432",
+        "place": "\u0426\u0435\u043d\u0442\u0440 \u043f\u0435\u0440\u0435\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0412\u041e",
+        "place_array": {
+            "0": "\u0426\u0435\u043d\u0442\u0440 \u043f\u0435\u0440\u0435\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0412\u041e"
+        },
+        "average_credits": 11100,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "foam_needed": 7800,
+            "water_needed": 48000,
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 3,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2,
+            "pump": 3,
+            "foam": 1
+        },
+        "chances": {
+            "patient_transport": 20,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_support_count": 2,
+            "fire_stations": 15
+        },
+        "overlay_index": 1,
+        "base_mission_id": 182
     },
     "183": {
         "id": 183,
@@ -5971,7 +6130,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 183
     },
     "184": {
         "id": 184,
@@ -6001,8 +6161,6 @@
             "possible_patient": 3,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
-            "overlay_on_fire_support_chance": 100,
-            "overlay_on_fire_support_count": 1,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
         },
         "prerequisites": {
@@ -6010,48 +6168,48 @@
             "rescue_stations": 2,
             "fire_stations": 8
         },
-        "alternate_version": {
-            "mission_type": {
-                "id": 184,
-                "name": "\u041d\u0435\u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u043f\u043e\u0436\u0430\u0440 \u043d\u0430 \u0444\u0430\u0431\u0440\u0438\u043a\u0435",
-                "place": "\u0424\u0430\u0431\u0440\u0438\u043a\u0430",
-                "place_array": {
-                    "0": "\u0424\u0430\u0431\u0440\u0438\u043a\u0430"
-                },
-                "average_credits": 2200,
-                "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
-                "icons": {
-                    "0": "/images/fire_gruen.png",
-                    "1": "/images/fire_gelb.png",
-                    "2": "/images/fire_rot.png"
-                },
-                "requirements": {
-                    "water_needed": 10000,
-                    "firetrucks": 4,
-                    "battalion_chief_vehicles": 2,
-                    "mobile_command_vehicles": 1,
-                    "pump": 1
-                },
-                "chances": {
-                    "patient_transport": 30,
-                    "patient_critical_care": 5
-                },
-                "additional": {
-                    "possible_patient": 3,
-                    "filter_id": "firehouse_missions",
-                    "fire_alarm_system_possible": true,
-                    "overlay_on_fire_support_chance": 100,
-                    "overlay_on_fire_support_count": 1,
-                    "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
-                },
-                "prerequisites": {
-                    "main_building": 0,
-                    "rescue_stations": 2,
-                    "fire_stations": 8
-                },
-                "alternate_version": null
-            }
-        }
+        "overlay_index": null,
+        "base_mission_id": 184
+    },
+    "184-1": {
+        "id": "184-1",
+        "name": "\u041d\u0435\u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u043f\u043e\u0436\u0430\u0440 \u043d\u0430 \u0444\u0430\u0431\u0440\u0438\u043a\u0435",
+        "place": "\u0424\u0430\u0431\u0440\u0438\u043a\u0430",
+        "place_array": {
+            "0": "\u0424\u0430\u0431\u0440\u0438\u043a\u0430"
+        },
+        "average_credits": 2200,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 10000,
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "pump": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "fire_support_count": 1,
+            "fire_stations": 8
+        },
+        "overlay_index": 1,
+        "base_mission_id": 184
     },
     "185": {
         "id": 185,
@@ -6086,8 +6244,6 @@
             "possible_patient": 7,
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
-            "overlay_on_fire_support_chance": 100,
-            "overlay_on_fire_support_count": 2,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
         },
         "prerequisites": {
@@ -6096,56 +6252,56 @@
             "police_stations": 2,
             "fire_stations": 15
         },
-        "alternate_version": {
-            "mission_type": {
-                "id": 185,
-                "name": "\u041a\u0440\u0443\u043f\u043d\u044b\u0439 \u043f\u043e\u0436\u0430\u0440 \u043d\u0430 \u0444\u0430\u0431\u0440\u0438\u043a\u0435",
-                "place": "\u0424\u0430\u0431\u0440\u0438\u043a\u0430",
-                "place_array": {
-                    "0": "\u0424\u0430\u0431\u0440\u0438\u043a\u0430"
-                },
-                "average_credits": 10400,
-                "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
-                "icons": {
-                    "0": "/images/fire_gruen.png",
-                    "1": "/images/fire_gelb.png",
-                    "2": "/images/fire_rot.png"
-                },
-                "requirements": {
-                    "foam_needed": 9200,
-                    "water_needed": 26000,
-                    "firetrucks": 8,
-                    "battalion_chief_vehicles": 4,
-                    "mobile_command_vehicles": 1,
-                    "platform_trucks": 2,
-                    "heavy_rescue_vehicles": 2,
-                    "water_tankers": 1,
-                    "mobile_air_vehicles": 1,
-                    "police_cars": 2,
-                    "pump": 2,
-                    "foam": 2
-                },
-                "chances": {
-                    "patient_transport": 30,
-                    "patient_critical_care": 5
-                },
-                "additional": {
-                    "possible_patient": 7,
-                    "filter_id": "firehouse_missions",
-                    "fire_alarm_system_possible": true,
-                    "overlay_on_fire_support_chance": 100,
-                    "overlay_on_fire_support_count": 2,
-                    "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
-                },
-                "prerequisites": {
-                    "main_building": 0,
-                    "rescue_stations": 6,
-                    "police_stations": 2,
-                    "fire_stations": 15
-                },
-                "alternate_version": null
-            }
-        }
+        "overlay_index": null,
+        "base_mission_id": 185
+    },
+    "185-1": {
+        "id": "185-1",
+        "name": "\u041a\u0440\u0443\u043f\u043d\u044b\u0439 \u043f\u043e\u0436\u0430\u0440 \u043d\u0430 \u0444\u0430\u0431\u0440\u0438\u043a\u0435",
+        "place": "\u0424\u0430\u0431\u0440\u0438\u043a\u0430",
+        "place_array": {
+            "0": "\u0424\u0430\u0431\u0440\u0438\u043a\u0430"
+        },
+        "average_credits": 10400,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "foam_needed": 9200,
+            "water_needed": 26000,
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2,
+            "pump": 2,
+            "foam": 2
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 7,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 6,
+            "police_stations": 2,
+            "fire_support_count": 2,
+            "fire_stations": 15
+        },
+        "overlay_index": 1,
+        "base_mission_id": 185
     },
     "186": {
         "id": 186,
@@ -6174,7 +6330,8 @@
             "main_building": 6,
             "police_stations": 7
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 186
     },
     "187": {
         "id": 187,
@@ -6203,7 +6360,8 @@
             "main_building": 6,
             "police_stations": 7
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 187
     },
     "188": {
         "id": 188,
@@ -6232,7 +6390,8 @@
             "main_building": 6,
             "police_stations": 7
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 188
     },
     "189": {
         "id": 189,
@@ -6258,7 +6417,8 @@
             "main_building": 0,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 189
     },
     "190": {
         "id": 190,
@@ -6293,7 +6453,8 @@
             "rescue_stations": 5,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 190
     },
     "191": {
         "id": 191,
@@ -6327,7 +6488,8 @@
             "police_stations": 5,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 191
     },
     "192": {
         "id": 192,
@@ -6366,7 +6528,8 @@
             "police_stations": 2,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 192
     },
     "193": {
         "id": 193,
@@ -6393,7 +6556,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 193
     },
     "194": {
         "id": 194,
@@ -6420,7 +6584,8 @@
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 194
     },
     "195": {
         "id": 195,
@@ -6456,7 +6621,8 @@
             "rescue_stations": 1,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 195
     },
     "196": {
         "id": 196,
@@ -6489,7 +6655,8 @@
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 196
     },
     "197": {
         "id": 197,
@@ -6520,7 +6687,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 197
     },
     "198": {
         "id": 198,
@@ -6547,7 +6715,8 @@
             "main_building": 6,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 198
     },
     "199": {
         "id": 199,
@@ -6574,7 +6743,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 199
     },
     "200": {
         "id": 200,
@@ -6601,7 +6771,8 @@
             "main_building": 6,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 200
     },
     "201": {
         "id": 201,
@@ -6628,7 +6799,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 201
     },
     "202": {
         "id": 202,
@@ -6657,7 +6829,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 202
     },
     "203": {
         "id": 203,
@@ -6686,7 +6859,8 @@
             "main_building": 0,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 203
     },
     "204": {
         "id": 204,
@@ -6714,7 +6888,8 @@
             "main_building": 6,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 204
     },
     "205": {
         "id": 205,
@@ -6741,7 +6916,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 205
     },
     "206": {
         "id": 206,
@@ -6769,7 +6945,8 @@
             "main_building": 0,
             "fire_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 206
     },
     "207": {
         "id": 207,
@@ -6796,7 +6973,8 @@
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 207
     },
     "208": {
         "id": 208,
@@ -6825,7 +7003,8 @@
             "main_building": 0,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 208
     },
     "209": {
         "id": 209,
@@ -6852,7 +7031,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 209
     },
     "210": {
         "id": 210,
@@ -6879,7 +7059,8 @@
             "main_building": 6,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 210
     },
     "211": {
         "id": 211,
@@ -6907,7 +7088,8 @@
             "main_building": 6,
             "police_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 211
     },
     "212": {
         "id": 212,
@@ -6935,7 +7117,8 @@
             "main_building": 6,
             "police_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 212
     },
     "213": {
         "id": 213,
@@ -6963,7 +7146,8 @@
             "main_building": 6,
             "police_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 213
     },
     "214": {
         "id": 214,
@@ -6994,7 +7178,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 214
     },
     "215": {
         "id": 215,
@@ -7025,7 +7210,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 215
     },
     "216": {
         "id": 216,
@@ -7056,7 +7242,8 @@
             "main_building": 2,
             "rescue_stations": 7
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 216
     },
     "217": {
         "id": 217,
@@ -7087,7 +7274,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 217
     },
     "218": {
         "id": 218,
@@ -7118,7 +7306,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 218
     },
     "219": {
         "id": 219,
@@ -7155,7 +7344,8 @@
             "police_stations": 1,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 219
     },
     "220": {
         "id": 220,
@@ -7190,7 +7380,8 @@
             "police_stations": 3,
             "fire_stations": 5
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 220
     },
     "221": {
         "id": 221,
@@ -7226,7 +7417,8 @@
             "police_stations": 3,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 221
     },
     "222": {
         "id": 222,
@@ -7259,8 +7451,6 @@
         "additional": {
             "possible_patient": 3,
             "filter_id": "firehouse_missions",
-            "overlay_on_fire_support_chance": 100,
-            "overlay_on_fire_support_count": 2,
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
         },
         "prerequisites": {
@@ -7269,52 +7459,52 @@
             "police_stations": 2,
             "fire_stations": 13
         },
-        "alternate_version": {
-            "mission_type": {
-                "id": 222,
-                "name": "\u041f\u043e\u0436\u0430\u0440 \u0432 \u0441\u0442\u043e\u043b\u044f\u0440\u043d\u043e\u0439 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u043e\u0439",
-                "place": "C\u0442\u043e\u043b\u044f\u0440\u043d\u0430\u044f \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u0430\u044f",
-                "place_array": {
-                    "0": "C\u0442\u043e\u043b\u044f\u0440\u043d\u0430\u044f \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u0430\u044f"
-                },
-                "average_credits": 4600,
-                "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
-                "icons": {
-                    "0": "/images/fire_gruen.png",
-                    "1": "/images/fire_gelb.png",
-                    "2": "/images/fire_rot.png"
-                },
-                "requirements": {
-                    "water_needed": 31000,
-                    "firetrucks": 10,
-                    "battalion_chief_vehicles": 4,
-                    "mobile_command_vehicles": 1,
-                    "platform_trucks": 2,
-                    "water_tankers": 1,
-                    "mobile_air_vehicles": 1,
-                    "police_cars": 2,
-                    "pump": 2
-                },
-                "chances": {
-                    "patient_transport": 25,
-                    "patient_critical_care": 5
-                },
-                "additional": {
-                    "possible_patient": 3,
-                    "filter_id": "firehouse_missions",
-                    "overlay_on_fire_support_chance": 100,
-                    "overlay_on_fire_support_count": 2,
-                    "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
-                },
-                "prerequisites": {
-                    "main_building": 0,
-                    "rescue_stations": 2,
-                    "police_stations": 2,
-                    "fire_stations": 13
-                },
-                "alternate_version": null
-            }
-        }
+        "overlay_index": null,
+        "base_mission_id": 222
+    },
+    "222-1": {
+        "id": "222-1",
+        "name": "\u041f\u043e\u0436\u0430\u0440 \u0432 \u0441\u0442\u043e\u043b\u044f\u0440\u043d\u043e\u0439 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u043e\u0439",
+        "place": "C\u0442\u043e\u043b\u044f\u0440\u043d\u0430\u044f \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u0430\u044f",
+        "place_array": {
+            "0": "C\u0442\u043e\u043b\u044f\u0440\u043d\u0430\u044f \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u0430\u044f"
+        },
+        "average_credits": 4600,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 31000,
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2,
+            "pump": 2
+        },
+        "chances": {
+            "patient_transport": 25,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_support_count": 2,
+            "fire_stations": 13
+        },
+        "overlay_index": 1,
+        "base_mission_id": 222
     },
     "223": {
         "id": 223,
@@ -7358,7 +7548,8 @@
             "police_stations": 1,
             "fire_stations": 10
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 223
     },
     "224": {
         "id": 224,
@@ -7398,7 +7589,8 @@
             "police_stations": 2,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 224
     },
     "225": {
         "id": 225,
@@ -7438,7 +7630,8 @@
             "police_stations": 3,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 225
     },
     "226": {
         "id": 226,
@@ -7477,7 +7670,8 @@
             "police_stations": 3,
             "fire_stations": 5
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 226
     },
     "227": {
         "id": 227,
@@ -7513,7 +7707,8 @@
             "wasserrettung": 1,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 227
     },
     "228": {
         "id": 228,
@@ -7558,7 +7753,8 @@
             "police_helicopter_stations": 1,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 228
     },
     "229": {
         "id": 229,
@@ -7585,7 +7781,8 @@
             "main_building": 15,
             "wasserrettung": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 229
     },
     "230": {
         "id": 230,
@@ -7620,7 +7817,8 @@
             "wasserrettung": 1,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 230
     },
     "231": {
         "id": 231,
@@ -7661,7 +7859,8 @@
             "police_stations": 2,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 231
     },
     "232": {
         "id": 232,
@@ -7701,7 +7900,8 @@
             "police_stations": 3,
             "fire_stations": 5
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 232
     },
     "233": {
         "id": 233,
@@ -7727,7 +7927,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 233
     },
     "234": {
         "id": 234,
@@ -7756,7 +7957,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 234
     },
     "235": {
         "id": 235,
@@ -7786,7 +7988,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 235
     },
     "236": {
         "id": 236,
@@ -7819,7 +8022,8 @@
             "rescue_stations": 5,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 236
     },
     "237": {
         "id": 237,
@@ -7854,7 +8058,8 @@
             "rescue_stations": 4,
             "fire_stations": 8
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 237
     },
     "238": {
         "id": 238,
@@ -7885,7 +8090,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 238
     },
     "239": {
         "id": 239,
@@ -7916,7 +8122,8 @@
             "main_building": 2,
             "rescue_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 239
     },
     "240": {
         "id": 240,
@@ -7947,7 +8154,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 240
     },
     "241": {
         "id": 241,
@@ -7978,7 +8186,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 241
     },
     "242": {
         "id": 242,
@@ -8009,7 +8218,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 242
     },
     "243": {
         "id": 243,
@@ -8043,7 +8253,8 @@
             "rescue_stations": 2,
             "police_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 243
     },
     "244": {
         "id": 244,
@@ -8077,7 +8288,8 @@
             "rescue_stations": 1,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 244
     },
     "245": {
         "id": 245,
@@ -8108,7 +8320,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 245
     },
     "246": {
         "id": 246,
@@ -8143,7 +8356,8 @@
             "rescue_stations": 4,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 246
     },
     "247": {
         "id": 247,
@@ -8171,7 +8385,8 @@
             "main_building": 6,
             "police_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 247
     },
     "248": {
         "id": 248,
@@ -8203,7 +8418,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 248
     },
     "249": {
         "id": 249,
@@ -8233,7 +8449,8 @@
             "main_building": 6,
             "police_stations": 5
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 249
     },
     "250": {
         "id": 250,
@@ -8270,7 +8487,8 @@
             "rescue_stations": 6,
             "fire_stations": 10
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 250
     },
     "251": {
         "id": 251,
@@ -8304,7 +8522,8 @@
             "rescue_stations": 2,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 251
     },
     "252": {
         "id": 252,
@@ -8330,7 +8549,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 252
     },
     "253": {
         "id": 253,
@@ -8355,7 +8575,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 253
     },
     "254": {
         "id": 254,
@@ -8381,7 +8602,8 @@
             "main_building": 6,
             "police_stations": 7
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 254
     },
     "255": {
         "id": 255,
@@ -8408,7 +8630,8 @@
             "main_building": 6,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 255
     },
     "256": {
         "id": 256,
@@ -8441,7 +8664,8 @@
             "rescue_stations": 1,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 256
     },
     "257": {
         "id": 257,
@@ -8470,7 +8694,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 257
     },
     "258": {
         "id": 258,
@@ -8499,7 +8724,8 @@
             "main_building": 6,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 258
     },
     "259": {
         "id": 259,
@@ -8530,7 +8756,8 @@
             "main_building": 2,
             "rescue_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 259
     },
     "260": {
         "id": 260,
@@ -8561,7 +8788,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 260
     },
     "261": {
         "id": 261,
@@ -8592,7 +8820,8 @@
             "main_building": 2,
             "rescue_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 261
     },
     "262": {
         "id": 262,
@@ -8623,7 +8852,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 262
     },
     "263": {
         "id": 263,
@@ -8659,7 +8889,8 @@
             "rescue_stations": 7,
             "fire_stations": 7
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 263
     },
     "264": {
         "id": 264,
@@ -8693,7 +8924,8 @@
             "rescue_stations": 1,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 264
     },
     "265": {
         "id": 265,
@@ -8720,7 +8952,8 @@
             "main_building": 6,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 265
     },
     "266": {
         "id": 266,
@@ -8747,7 +8980,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 266
     },
     "267": {
         "id": 267,
@@ -8774,7 +9008,8 @@
             "main_building": 6,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 267
     },
     "268": {
         "id": 268,
@@ -8805,7 +9040,8 @@
             "main_building": 0,
             "fire_stations": 7
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 268
     },
     "269": {
         "id": 269,
@@ -8834,7 +9070,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 269
     },
     "270": {
         "id": 270,
@@ -8866,7 +9103,8 @@
             "police_stations": 1,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 270
     },
     "271": {
         "id": 271,
@@ -8902,8 +9140,6 @@
         "additional": {
             "possible_patient": 15,
             "filter_id": "firehouse_missions",
-            "overlay_on_fire_support_chance": 100,
-            "overlay_on_fire_support_count": 2,
             "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
         },
         "prerequisites": {
@@ -8912,57 +9148,57 @@
             "police_stations": 6,
             "fire_stations": 15
         },
-        "alternate_version": {
-            "mission_type": {
-                "id": 271,
-                "name": "\u041f\u043e\u0436\u0430\u0440 \u043d\u0430 \u0436/\u0434 \u0441\u0442\u0430\u043d\u0446\u0438\u0438 (\u043a\u0440\u0443\u043f\u043d\u044b\u0439)",
-                "place": "\u0416\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
-                "place_array": {
-                    "0": "\u0416\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f"
-                },
-                "average_credits": 11100,
-                "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
-                "icons": {
-                    "0": "/images/fire_gruen.png",
-                    "1": "/images/fire_gelb.png",
-                    "2": "/images/fire_rot.png"
-                },
-                "requirements": {
-                    "foam_needed": 7000,
-                    "water_needed": 31000,
-                    "firetrucks": 10,
-                    "battalion_chief_vehicles": 3,
-                    "mobile_command_vehicles": 1,
-                    "platform_trucks": 2,
-                    "heavy_rescue_vehicles": 3,
-                    "water_tankers": 1,
-                    "mobile_air_vehicles": 1,
-                    "hazmat_vehicles": 1,
-                    "police_cars": 8,
-                    "pump": 3,
-                    "foam": 1
-                },
-                "chances": {
-                    "water_tankers": 20,
-                    "patient_transport": 40,
-                    "patient_critical_care": 5
-                },
-                "additional": {
-                    "possible_patient": 15,
-                    "filter_id": "firehouse_missions",
-                    "overlay_on_fire_support_chance": 100,
-                    "overlay_on_fire_support_count": 2,
-                    "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
-                },
-                "prerequisites": {
-                    "main_building": 0,
-                    "rescue_stations": 13,
-                    "police_stations": 6,
-                    "fire_stations": 15
-                },
-                "alternate_version": null
-            }
-        }
+        "overlay_index": null,
+        "base_mission_id": 271
+    },
+    "271-1": {
+        "id": "271-1",
+        "name": "\u041f\u043e\u0436\u0430\u0440 \u043d\u0430 \u0436/\u0434 \u0441\u0442\u0430\u043d\u0446\u0438\u0438 (\u043a\u0440\u0443\u043f\u043d\u044b\u0439)",
+        "place": "\u0416\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "place_array": {
+            "0": "\u0416\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f"
+        },
+        "average_credits": 11100,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "foam_needed": 7000,
+            "water_needed": 31000,
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 8,
+            "pump": 3,
+            "foam": 1
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 40,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 15,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 13,
+            "police_stations": 6,
+            "fire_support_count": 2,
+            "fire_stations": 15
+        },
+        "overlay_index": 1,
+        "base_mission_id": 271
     },
     "272": {
         "id": 272,
@@ -8996,7 +9232,8 @@
             "rescue_stations": 1,
             "fire_stations": 9
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 272
     },
     "273": {
         "id": 273,
@@ -9023,7 +9260,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 273
     },
     "274": {
         "id": 274,
@@ -9049,7 +9287,8 @@
             "main_building": 6,
             "police_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 274
     },
     "275": {
         "id": 275,
@@ -9078,7 +9317,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 275
     },
     "276": {
         "id": 276,
@@ -9113,7 +9353,8 @@
             "rescue_stations": 1,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 276
     },
     "277": {
         "id": 277,
@@ -9142,7 +9383,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 277
     },
     "278": {
         "id": 278,
@@ -9172,7 +9414,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 278
     },
     "279": {
         "id": 279,
@@ -9209,7 +9452,8 @@
             "rescue_stations": 1,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 279
     },
     "280": {
         "id": 280,
@@ -9238,7 +9482,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 280
     },
     "281": {
         "id": 281,
@@ -9267,7 +9512,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 281
     },
     "282": {
         "id": 282,
@@ -9296,7 +9542,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 282
     },
     "283": {
         "id": 283,
@@ -9325,7 +9572,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 283
     },
     "284": {
         "id": 284,
@@ -9354,7 +9602,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 284
     },
     "285": {
         "id": 285,
@@ -9386,7 +9635,8 @@
             "main_building": 2,
             "rescue_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 285
     },
     "286": {
         "id": 286,
@@ -9425,7 +9675,8 @@
             "rescue_stations": 4,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 286
     },
     "287": {
         "id": 287,
@@ -9463,7 +9714,8 @@
             "rescue_stations": 8,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 287
     },
     "288": {
         "id": 288,
@@ -9492,8 +9744,6 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
-            "overlay_on_fire_support_chance": 100,
-            "overlay_on_fire_support_count": 2,
             "patient_specializations": "\u0425\u0438\u0440\u0443\u0440\u0433 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
         },
         "prerequisites": {
@@ -9501,47 +9751,47 @@
             "rescue_stations": 1,
             "fire_stations": 8
         },
-        "alternate_version": {
-            "mission_type": {
-                "id": 288,
-                "name": "\u041f\u043e\u0436\u0430\u0440 \u0432 \u0437\u0430\u043a\u0440\u044b\u0442\u043e\u043c \u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u0438",
-                "place": "\u0437\u0430\u043a\u0440\u044b\u0442\u043e\u043c \u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u0438",
-                "place_array": {
-                    "0": "\u0437\u0430\u043a\u0440\u044b\u0442\u043e\u043c \u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u0438"
-                },
-                "average_credits": 3900,
-                "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
-                "icons": {
-                    "0": "/images/fire_gruen.png",
-                    "1": "/images/fire_gelb.png",
-                    "2": "/images/fire_rot.png"
-                },
-                "requirements": {
-                    "water_needed": 10000,
-                    "firetrucks": 4,
-                    "battalion_chief_vehicles": 2,
-                    "pump": 2
-                },
-                "chances": {
-                    "patient_transport": 70,
-                    "patient_critical_care": 10
-                },
-                "additional": {
-                    "possible_patient": 1,
-                    "possible_patient_min": 1,
-                    "filter_id": "firehouse_missions",
-                    "overlay_on_fire_support_chance": 100,
-                    "overlay_on_fire_support_count": 2,
-                    "patient_specializations": "\u0425\u0438\u0440\u0443\u0440\u0433 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
-                },
-                "prerequisites": {
-                    "main_building": 0,
-                    "rescue_stations": 1,
-                    "fire_stations": 8
-                },
-                "alternate_version": null
-            }
-        }
+        "overlay_index": null,
+        "base_mission_id": 288
+    },
+    "288-1": {
+        "id": "288-1",
+        "name": "\u041f\u043e\u0436\u0430\u0440 \u0432 \u0437\u0430\u043a\u0440\u044b\u0442\u043e\u043c \u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u0438",
+        "place": "\u0437\u0430\u043a\u0440\u044b\u0442\u043e\u043c \u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u0438",
+        "place_array": {
+            "0": "\u0437\u0430\u043a\u0440\u044b\u0442\u043e\u043c \u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u0438"
+        },
+        "average_credits": 3900,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 10000,
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "pump": 2
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u0425\u0438\u0440\u0443\u0440\u0433 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "fire_support_count": 2,
+            "fire_stations": 8
+        },
+        "overlay_index": 1,
+        "base_mission_id": 288
     },
     "289": {
         "id": 289,
@@ -9575,7 +9825,8 @@
             "rescue_stations": 6,
             "police_stations": 12
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 289
     },
     "290": {
         "id": 290,
@@ -9613,7 +9864,8 @@
             "rescue_stations": 4,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 290
     },
     "291": {
         "id": 291,
@@ -9656,7 +9908,8 @@
             "police_stations": 10,
             "fire_stations": 40
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 291
     },
     "292": {
         "id": 292,
@@ -9697,7 +9950,8 @@
             "police_stations": 5,
             "fire_stations": 15
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 292
     },
     "293": {
         "id": 293,
@@ -9737,7 +9991,8 @@
             "police_stations": 5,
             "fire_stations": 14
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 293
     },
     "294": {
         "id": 294,
@@ -9776,7 +10031,8 @@
             "police_stations": 15,
             "fire_stations": 10
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 294
     },
     "295": {
         "id": 295,
@@ -9804,7 +10060,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 295
     },
     "296": {
         "id": 296,
@@ -9831,7 +10088,8 @@
             "main_building": 6,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 296
     },
     "297": {
         "id": 297,
@@ -9862,7 +10120,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 297
     },
     "298": {
         "id": 298,
@@ -9893,7 +10152,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 298
     },
     "299": {
         "id": 299,
@@ -9921,7 +10181,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 299
     },
     "300": {
         "id": 300,
@@ -9948,7 +10209,8 @@
             "main_building": 6,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 300
     },
     "301": {
         "id": 301,
@@ -9981,7 +10243,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 301
     },
     "302": {
         "id": 302,
@@ -10013,7 +10276,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 302
     },
     "303": {
         "id": 303,
@@ -10044,7 +10308,8 @@
             "police_stations": 2,
             "police_helicopter_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 303
     },
     "304": {
         "id": 304,
@@ -10073,7 +10338,8 @@
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 304
     },
     "305": {
         "id": 305,
@@ -10107,7 +10373,8 @@
             "main_building": 2,
             "rescue_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 305
     },
     "306": {
         "id": 306,
@@ -10141,7 +10408,8 @@
             "rescue_stations": 2,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 306
     },
     "307": {
         "id": 307,
@@ -10173,7 +10441,8 @@
             "police_stations": 1,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 307
     },
     "308": {
         "id": 308,
@@ -10210,7 +10479,8 @@
             "police_stations": 3,
             "fire_stations": 10
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 308
     },
     "309": {
         "id": 309,
@@ -10239,7 +10509,8 @@
             "main_building": 2,
             "rescue_stations": 5
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 309
     },
     "310": {
         "id": 310,
@@ -10275,7 +10546,8 @@
             "police_stations": 2,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 310
     },
     "311": {
         "id": 311,
@@ -10316,7 +10588,8 @@
             "police_stations": 4,
             "fire_stations": 8
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 311
     },
     "312": {
         "id": 312,
@@ -10353,7 +10626,8 @@
             "police_stations": 4,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 312
     },
     "313": {
         "id": 313,
@@ -10390,7 +10664,8 @@
             "police_stations": 8,
             "fire_stations": 12
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 313
     },
     "314": {
         "id": 314,
@@ -10422,7 +10697,8 @@
             "rescue_stations": 1,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 314
     },
     "315": {
         "id": 315,
@@ -10453,7 +10729,8 @@
             "main_building": 0,
             "fire_stations": 11
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 315
     },
     "316": {
         "id": 316,
@@ -10489,7 +10766,8 @@
             "police_stations": 8,
             "fire_stations": 5
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 316
     },
     "317": {
         "id": 317,
@@ -10517,7 +10795,8 @@
             "police_stations": 1,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 317
     },
     "318": {
         "id": 318,
@@ -10549,7 +10828,8 @@
             "rescue_stations": 1,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 318
     },
     "319": {
         "id": 319,
@@ -10588,7 +10868,8 @@
             "police_stations": 1,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 319
     },
     "320": {
         "id": 320,
@@ -10624,7 +10905,8 @@
             "police_stations": 2,
             "fire_stations": 11
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 320
     },
     "321": {
         "id": 321,
@@ -10658,7 +10940,8 @@
             "rescue_stations": 5,
             "police_stations": 3
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 321
     },
     "322": {
         "id": 322,
@@ -10695,7 +10978,8 @@
             "fire_support_count": 1,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 322
     },
     "323": {
         "id": 323,
@@ -10738,7 +11022,8 @@
             "fire_support_count": 2,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 323
     },
     "324": {
         "id": 324,
@@ -10774,7 +11059,8 @@
             "fire_support_count": 1,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 324
     },
     "325": {
         "id": 325,
@@ -10816,7 +11102,8 @@
             "fire_support_count": 1,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 325
     },
     "326": {
         "id": 326,
@@ -10859,7 +11146,8 @@
             "fire_support_count": 2,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 326
     },
     "327": {
         "id": 327,
@@ -10900,7 +11188,8 @@
             "fire_support_count": 3,
             "fire_stations": 15
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 327
     },
     "328": {
         "id": 328,
@@ -10933,7 +11222,8 @@
             "rescue_stations": 1,
             "fire_stations": 6
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 328
     },
     "329": {
         "id": 329,
@@ -10967,7 +11257,8 @@
             "fire_support_count": 2,
             "fire_stations": 11
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 329
     },
     "330": {
         "id": 330,
@@ -10997,7 +11288,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 330
     },
     "331": {
         "id": 331,
@@ -11034,7 +11326,8 @@
             "police_stations": 2,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 331
     },
     "332": {
         "id": 332,
@@ -11064,7 +11357,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 332
     },
     "333": {
         "id": 333,
@@ -11097,7 +11391,8 @@
             "rescue_stations": 1,
             "police_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 333
     },
     "334": {
         "id": 334,
@@ -11125,7 +11420,8 @@
             "main_building": 0,
             "fire_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 334
     },
     "335": {
         "id": 335,
@@ -11158,7 +11454,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 335
     },
     "336": {
         "id": 336,
@@ -11192,7 +11489,8 @@
             "rescue_stations": 2,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 336
     },
     "337": {
         "id": 337,
@@ -11228,7 +11526,8 @@
             "police_stations": 1,
             "fire_stations": 4
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 337
     },
     "338": {
         "id": 338,
@@ -11255,7 +11554,8 @@
             "main_building": 0,
             "fire_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 338
     },
     "339": {
         "id": 339,
@@ -11284,7 +11584,8 @@
             "main_building": 2,
             "rescue_stations": 1
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 339
     },
     "340": {
         "id": 340,
@@ -11326,7 +11627,8 @@
             "police_stations": 3,
             "fire_stations": 13
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 340
     },
     "341": {
         "id": 341,
@@ -11354,6 +11656,7 @@
             "main_building": 6,
             "police_stations": 2
         },
-        "alternate_version": null
+        "overlay_index": null,
+        "base_mission_id": 341
     }
 }
