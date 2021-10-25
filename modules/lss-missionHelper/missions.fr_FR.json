@@ -13572,5 +13572,32 @@
         },
         "overlay_index": 1,
         "base_mission_id": 385
+    },
+    "386": {
+        "id": 386,
+        "name": "Vol de voiture",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 386
     }
 }

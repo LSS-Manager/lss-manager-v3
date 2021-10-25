@@ -11658,5 +11658,32 @@
         },
         "overlay_index": null,
         "base_mission_id": 341
+    },
+    "342": {
+        "id": 342,
+        "name": "\u0423\u0433\u043e\u043d \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "\u041f\u043e\u043b\u0438\u0446\u0435\u0439\u0441\u043a\u0438\u0439 \u0443\u0447\u0430\u0441\u0442\u043e\u043a",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 342
     }
 }

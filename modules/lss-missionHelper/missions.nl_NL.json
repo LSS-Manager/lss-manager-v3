@@ -31752,6 +31752,48 @@
         "overlay_index": null,
         "base_mission_id": 869
     },
+    "870": {
+        "id": 870,
+        "name": "Persoon bekneld in bouwkraan",
+        "place": "Bouwterrein",
+        "place_array": {
+            "0": "Bouwterrein"
+        },
+        "average_credits": 2430,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 30,
+            "nef": 60,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 10,
+            "police_stations": 2,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 870
+    },
     "871": {
         "id": 871,
         "name": "Brandende tankwagen",

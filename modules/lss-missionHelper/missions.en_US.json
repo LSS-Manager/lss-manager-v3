@@ -26968,5 +26968,32 @@
         },
         "overlay_index": null,
         "base_mission_id": 636
+    },
+    "637": {
+        "id": 637,
+        "name": "Auto theft",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 637
     }
 }

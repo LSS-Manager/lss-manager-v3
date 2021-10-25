@@ -14,6 +14,8 @@
             '#chat_outer .panel-body,#radio_outer .panel-body{height:calc(100% - 55px);max-height:100%;padding-bottom:0;width: 100%;}' +
             '#chat_outer>div,#radio>div,#radio_outer>div{height:100%;margin:0}' +
             '.missions-panel-head strong{display:none!important}' +
+			'.anti-abuse-warning {display:none}' +
+			'#anti-abuse-warning strong{display:none!important}' +
             '#missions .btn-group{margin-left:11px}' +
             '#buildings_outer,#chat_outer,#radio_outer{margin-left:5px}' +
             '.alliance_events_buttons{margin-bottom:0!important}' +
