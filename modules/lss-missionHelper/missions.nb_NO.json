@@ -11494,5 +11494,32 @@
         },
         "overlay_index": null,
         "base_mission_id": 361
+    },
+    "362": {
+        "id": 362,
+        "name": "Biltyveri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 362
     }
 }

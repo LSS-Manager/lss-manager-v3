@@ -416,9 +416,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 15
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -11245,5 +11243,35 @@
         },
         "overlay_index": null,
         "base_mission_id": 340
+    },
+    "341": {
+        "id": 341,
+        "name": "Obstru\u00e7\u00e3o da via a\u00e9rea",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Esta\u00e7\u00e3o de Ambul\u00e2ncias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 5
+        },
+        "overlay_index": null,
+        "base_mission_id": 341
     }
 }

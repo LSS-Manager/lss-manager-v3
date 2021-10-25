@@ -15433,5 +15433,84 @@
         },
         "overlay_index": null,
         "base_mission_id": 387
+    },
+    "388": {
+        "id": 388,
+        "name": "Smell of burning (Residential)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 209,
+                "1": 210,
+                "2": 275,
+                "3": 276,
+                "4": 108,
+                "5": 171
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 388
+    },
+    "389": {
+        "id": 389,
+        "name": "Smell of burning (Commercial)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 26,
+                "1": 33,
+                "2": 68,
+                "3": 70,
+                "4": 145,
+                "5": 189,
+                "6": 190,
+                "7": 192,
+                "8": 193,
+                "9": 287,
+                "10": 288,
+                "11": 289,
+                "12": 290,
+                "13": 294,
+                "14": 295,
+                "15": 296,
+                "16": 297
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 389
     }
 }

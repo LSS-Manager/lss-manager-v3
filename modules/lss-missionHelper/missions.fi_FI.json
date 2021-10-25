@@ -768,8 +768,7 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2,
-                "2": 29
+                "1": 2
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -12248,5 +12247,107 @@
         },
         "overlay_index": null,
         "base_mission_id": 353
+    },
+    "354": {
+        "id": 354,
+        "name": "403 Teatteripalo",
+        "place": "Teatteri",
+        "place_array": {
+            "0": "Teatteri"
+        },
+        "average_credits": 5500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 22800,
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 85,
+            "patient_transport": 60,
+            "helicopter": 3,
+            "patient_critical_care": 15
+        },
+        "additional": {
+            "possible_patient": 22,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 6,
+            "police_stations": 2,
+            "fire_stations": 8
+        },
+        "overlay_index": null,
+        "base_mission_id": 354
+    },
+    "355": {
+        "id": 355,
+        "name": "451 Vuotava s\u00e4ili\u00f6",
+        "place": "Pieni kemikaalis\u00e4ili\u00f6\nIso kemikaalis\u00e4ili\u00f6",
+        "place_array": {
+            "0": "Pieni kemikaalis\u00e4ili\u00f6",
+            "1": "Iso kemikaalis\u00e4ili\u00f6"
+        },
+        "average_credits": 700,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/olfass_gruen.png",
+            "1": "/images/olfass_gelb.png",
+            "2": "/images/olfass_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {
+            "hazmat_vehicles": 50
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 11
+        },
+        "overlay_index": null,
+        "base_mission_id": 355
+    },
+    "356": {
+        "id": 356,
+        "name": "431 Savuava tuhka-astia",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 500,
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 356
     }
 }
