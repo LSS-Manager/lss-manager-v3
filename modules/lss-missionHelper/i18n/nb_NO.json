@@ -6,6 +6,8 @@
     "prisoners": "innsatte",
     "water": "Vann påkrevd",
     "water1": "liter",
+    "foam": "skum påkrevd",
+    "foam1": "liter",
     "to": "opp til",
     "exp": "Spre",
     "fwm": "Oppfølgingsoppdrag",
@@ -42,6 +44,10 @@
         "waterno": {
             "label": "Vann påkrevd",
             "description": "Viser den totale mengden vann som kreves."
+        },
+        "foamno": {
+            "label": "Skum påkrevd",
+            "description": "Viser den totale mengden skum som kreves."
         },
         "vehicles": {
             "label": "kjøretøy",
@@ -119,6 +125,9 @@
         "boats": "Lett Redningsbåt",
         "brush_truck": "Skogbrann kjøretøy",
         "fire_aviation": "skogbrann helikopter",
+        "hose": "Slangebiler",
+        "pump": "Tilhengerpumper",
+        "foam": "Skum Tankbiler",
         "allow_rw_instead_of_lf": "Brannbiler eller tung redning"
     }
 }

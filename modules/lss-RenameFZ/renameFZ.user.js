@@ -943,6 +943,11 @@
                 32: 'Akuttbil',
                 33: 'Skogbrannhelikopter',
                 34: 'ATV',
+                35: 'Skum Tankbil',
+                36: 'Tilhengerpumpe',
+                37: 'Slangebil',
+                38: 'Slangebil med pumpe',
+                39: 'Slangetilhenger',
             },
         },
     };

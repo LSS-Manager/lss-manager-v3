@@ -326,6 +326,11 @@ if (I18n.locale == 'en_US') {
         32: ['Akuttbil', 1],
         33: ['Skogbrannhelikopter', 0],
         34: ['ATV', 0],
+        35: ['Skum Tankbil', 0],
+        36: ['Tilhengerpumpe', 0],
+        37: ['Slangebil', 0],
+        38: ['Slangebil med pumpe', 0],
+        39: ['Slangetilhenger', 0],
     };
 } else if (I18n.locale == 'pl_PL') {
     lssm.carsById = {
