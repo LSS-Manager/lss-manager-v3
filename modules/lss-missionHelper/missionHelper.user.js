@@ -482,6 +482,16 @@ const lssm_missionhelper_adjustPosition = () => {
                     ),
                 },
             };
+            managed_settings.settings.foamno = {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.foamno.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.foamno.description'
+                    ),
+                },
+            };
             managed_settings.settings.subsequent = {
                 default: false,
                 ui: {
@@ -1106,7 +1116,8 @@ const lssm_missionhelper_adjustPosition = () => {
                     SETTINGS.foamse ||
                     SETTINGS.foamit ||
                     SETTINGS.foamus ||
-                    SETTINGS.foamnl) &&
+                    SETTINGS.foamnl ||
+                    SETTINGS.foamno) &&
                     MISSION.requirements.foam_needed) ||
                 (SETTINGS.credits && MISSION.average_credits) ||
                 SETTINGS.mission_time
@@ -1138,7 +1149,8 @@ const lssm_missionhelper_adjustPosition = () => {
                     SETTINGS.foamse ||
                     SETTINGS.foamit ||
                     SETTINGS.foamus ||
-                    SETTINGS.foamnl) &&
+                    SETTINGS.foamnl ||
+                    SETTINGS.foamno) &&
                     MISSION.requirements.foam_needed &&
                     (content.innerHTML += `<span class="badge badge-secondary">${I18n.t(
                         'lssm.missionhelper.foam'
