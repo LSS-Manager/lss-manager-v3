@@ -1057,6 +1057,62 @@
         "overlay_index": null,
         "base_mission_id": 34
     },
+    "34-0": {
+        "id": "34-0",
+        "name": "Fire in Hospital - Major Incident",
+        "place": "Hospital",
+        "place_array": {
+            "0": "Hospital"
+        },
+        "average_credits": 15500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "kdow_orgl": 1,
+            "hazard_response_primary": 2,
+            "hazard_response_secondary": 2,
+            "emergency_welfare": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 25,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349,
+                "3": 349,
+                "4": 349
+            },
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 6,
+            "mass_casualty_count": 1,
+            "fire_stations": 13
+        },
+        "overlay_index": 0,
+        "base_mission_id": 34
+    },
     "34-1": {
         "id": "34-1",
         "name": "Fire in Hospital - Major Incident",
@@ -1064,7 +1120,7 @@
         "place_array": {
             "0": "Hospital"
         },
-        "average_credits": 15500,
+        "average_credits": 15000,
         "generated_by": "Fire Station",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -1109,6 +1165,59 @@
             "fire_stations": 13
         },
         "overlay_index": 1,
+        "base_mission_id": 34
+    },
+    "34-2": {
+        "id": "34-2",
+        "name": "Fire in Hospital - Major Incident",
+        "place": "Hospital",
+        "place_array": {
+            "0": "Hospital"
+        },
+        "average_credits": 10500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "kdow_orgl": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 25,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349,
+                "3": 349,
+                "4": 349
+            },
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 6,
+            "mass_casualty_count": 1,
+            "fire_stations": 13
+        },
+        "overlay_index": 2,
         "base_mission_id": 34
     },
     "35": {
@@ -5203,8 +5312,8 @@
         "overlay_index": null,
         "base_mission_id": 149
     },
-    "149-1": {
-        "id": "149-1",
+    "149-0": {
+        "id": "149-0",
         "name": "Building collapse",
         "place": "",
         "place_array": {},
@@ -5219,7 +5328,54 @@
             "firetrucks": 6,
             "battalion_chief_vehicles": 6,
             "mobile_command_vehicles": 1,
-            "platform_trucks": 0,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 1,
+            "kdow_orgl": 1,
+            "hazard_response_primary": 2,
+            "hazard_response_secondary": 2,
+            "emergency_welfare": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 20,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 8,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 4,
+            "police_stations": 1,
+            "mass_casualty_count": 1,
+            "fire_stations": 10
+        },
+        "overlay_index": 0,
+        "base_mission_id": 149
+    },
+    "149-1": {
+        "id": "149-1",
+        "name": "Building collapse",
+        "place": "",
+        "place_array": {},
+        "average_credits": 12000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 6,
+            "mobile_command_vehicles": 1,
             "heavy_rescue_vehicles": 4,
             "police_cars": 1,
             "kdow_orgl": 1,
@@ -5245,9 +5401,54 @@
             "main_building": 0,
             "rescue_stations": 4,
             "police_stations": 1,
-            "fire_stations": 7
+            "fire_stations": 10
         },
         "overlay_index": 1,
+        "base_mission_id": 149
+    },
+    "149-2": {
+        "id": "149-2",
+        "name": "Building collapse",
+        "place": "",
+        "place_array": {},
+        "average_credits": 9500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 1,
+            "kdow_orgl": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 20,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 8,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 4,
+            "police_stations": 1,
+            "mass_casualty_count": 1,
+            "fire_stations": 7
+        },
+        "overlay_index": 2,
         "base_mission_id": 149
     },
     "150": {
@@ -6992,6 +7193,67 @@
         "overlay_index": null,
         "base_mission_id": 193
     },
+    "193-0": {
+        "id": "193-0",
+        "name": "Hotel fire (major)",
+        "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
+        "average_credits": 15800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 14,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 6,
+            "kdow_orgl": 1,
+            "hazard_response_primary": 2,
+            "hazard_response_secondary": 2,
+            "emergency_welfare": 1,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 7,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 50,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349,
+                "3": 349,
+                "4": 349
+            },
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 15,
+            "police_stations": 6,
+            "rescue_helicopter_stations": 1,
+            "mass_casualty_count": 1,
+            "fire_stations": 20
+        },
+        "overlay_index": 0,
+        "base_mission_id": 193
+    },
     "193-1": {
         "id": "193-1",
         "name": "Hotel fire (major)",
@@ -7048,6 +7310,64 @@
             "fire_stations": 20
         },
         "overlay_index": 1,
+        "base_mission_id": 193
+    },
+    "193-2": {
+        "id": "193-2",
+        "name": "Hotel fire (major)",
+        "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
+        "average_credits": 15800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 14,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 6,
+            "kdow_orgl": 1,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 7,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 50,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349,
+                "3": 349,
+                "4": 349
+            },
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 15,
+            "police_stations": 6,
+            "rescue_helicopter_stations": 1,
+            "mass_casualty_count": 1,
+            "fire_stations": 20
+        },
+        "overlay_index": 2,
         "base_mission_id": 193
     },
     "194": {
@@ -7874,12 +8194,64 @@
         "overlay_index": null,
         "base_mission_id": 215
     },
+    "215-0": {
+        "id": "215-0",
+        "name": "Supicious CBRNE incident in a public place",
+        "place": "",
+        "place_array": {},
+        "average_credits": 23800,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 6,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 2,
+            "police_cars": 10,
+            "kdow_orgl": 1,
+            "hazard_response_primary": 2,
+            "hazard_response_secondary": 2,
+            "emergency_welfare": 1,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 20,
+            "helicopter": 10,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 40,
+            "possible_patient_min": 4,
+            "max_possible_prisoners": 1,
+            "swat_personnel": 12,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "police_station_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 20,
+            "police_stations": 15,
+            "mass_casualty_count": 1,
+            "fire_stations": 10
+        },
+        "overlay_index": 0,
+        "base_mission_id": 215
+    },
     "215-1": {
         "id": "215-1",
         "name": "Supicious CBRNE incident in a public place",
         "place": "",
         "place_array": {},
-        "average_credits": 23800,
+        "average_credits": 23000,
         "generated_by": "Police Station",
         "icons": {
             "0": "/images/radiation_gruen.png",
@@ -7921,6 +8293,55 @@
             "fire_stations": 10
         },
         "overlay_index": 1,
+        "base_mission_id": 215
+    },
+    "215-2": {
+        "id": "215-2",
+        "name": "CBRNE incident in a public place",
+        "place": "",
+        "place_array": {},
+        "average_credits": 20800,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 6,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 2,
+            "police_cars": 10,
+            "kdow_orgl": 1,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 20,
+            "helicopter": 10,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 40,
+            "possible_patient_min": 4,
+            "max_possible_prisoners": 1,
+            "swat_personnel": 12,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "police_station_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 20,
+            "police_stations": 15,
+            "mass_casualty_count": 1,
+            "fire_stations": 10
+        },
+        "overlay_index": 2,
         "base_mission_id": 215
     },
     "216": {
@@ -8948,6 +9369,59 @@
         "overlay_index": null,
         "base_mission_id": 242
     },
+    "242-0": {
+        "id": "242-0",
+        "name": "Nuclear Power Station Incident (Major Incident)",
+        "place": "Nuclear power station",
+        "place_array": {
+            "0": "Nuclear power station"
+        },
+        "average_credits": 38800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 25,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 2,
+            "mobile_air_vehicles": 2,
+            "hazmat_vehicles": 4,
+            "police_cars": 8,
+            "kdow_orgl": 1,
+            "hazard_response_primary": 2,
+            "hazard_response_secondary": 2,
+            "emergency_welfare": 1,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 10,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 80,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 40,
+            "police_stations": 10,
+            "mass_casualty_count": 1,
+            "fire_stations": 40
+        },
+        "overlay_index": 0,
+        "base_mission_id": 242
+    },
     "242-1": {
         "id": "242-1",
         "name": "Nuclear Power Station Incident (Major Incident)",
@@ -8955,7 +9429,7 @@
         "place_array": {
             "0": "Nuclear power station"
         },
-        "average_credits": 38800,
+        "average_credits": 38000,
         "generated_by": "Fire Station",
         "icons": {
             "0": "/images/radiation_gruen.png",
@@ -8996,6 +9470,56 @@
             "fire_stations": 40
         },
         "overlay_index": 1,
+        "base_mission_id": 242
+    },
+    "242-2": {
+        "id": "242-2",
+        "name": "Nuclear Power Station Incident (Major Incident)",
+        "place": "Nuclear power station",
+        "place_array": {
+            "0": "Nuclear power station"
+        },
+        "average_credits": 35800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 25,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 2,
+            "mobile_air_vehicles": 2,
+            "hazmat_vehicles": 4,
+            "police_cars": 8,
+            "kdow_orgl": 1,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 10,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 80,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 40,
+            "police_stations": 10,
+            "mass_casualty_count": 1,
+            "fire_stations": 40
+        },
+        "overlay_index": 2,
         "base_mission_id": 242
     },
     "243": {
@@ -11057,12 +11581,66 @@
         "overlay_index": null,
         "base_mission_id": 300
     },
+    "300-0": {
+        "id": "300-0",
+        "name": "Large Aircraft Crash Off Airport",
+        "place": "",
+        "place_array": {},
+        "average_credits": 23800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 15,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 2,
+            "heavy_rescue_vehicles": 5,
+            "water_tankers": 4,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 4,
+            "police_helicopters": 1,
+            "police_cars": 12,
+            "kdow_orgl": 3,
+            "hazard_response_primary": 2,
+            "hazard_response_secondary": 2,
+            "emergency_welfare": 1,
+            "atv_carrier": 1,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "helicopter": 5,
+            "patient_critical_care": 60
+        },
+        "additional": {
+            "possible_patient": 220,
+            "possible_patient_min": 60,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 30,
+            "police_stations": 10,
+            "mass_casualty_count": 1,
+            "fire_stations": 20
+        },
+        "overlay_index": 0,
+        "base_mission_id": 300
+    },
     "300-1": {
         "id": "300-1",
         "name": "Large Aircraft Crash Off Airport",
         "place": "",
         "place_array": {},
-        "average_credits": 23800,
+        "average_credits": 23000,
         "generated_by": "Fire Station",
         "icons": {
             "0": "/images/planecrash_gruen.png",
@@ -11106,6 +11684,56 @@
             "fire_stations": 20
         },
         "overlay_index": 1,
+        "base_mission_id": 300
+    },
+    "300-2": {
+        "id": "300-2",
+        "name": "Large Aircraft Crash Off Airport",
+        "place": "",
+        "place_array": {},
+        "average_credits": 18800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 15,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 2,
+            "heavy_rescue_vehicles": 5,
+            "water_tankers": 4,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 4,
+            "police_helicopters": 1,
+            "police_cars": 12,
+            "kdow_orgl": 3,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "helicopter": 5,
+            "patient_critical_care": 60
+        },
+        "additional": {
+            "possible_patient": 220,
+            "possible_patient_min": 60,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 30,
+            "police_stations": 10,
+            "mass_casualty_count": 1,
+            "fire_stations": 20
+        },
+        "overlay_index": 2,
         "base_mission_id": 300
     },
     "301": {
@@ -12706,12 +13334,58 @@
         "overlay_index": null,
         "base_mission_id": 330
     },
+    "330-0": {
+        "id": "330-0",
+        "name": "Large Natural Gas Explosion",
+        "place": "",
+        "place_array": {},
+        "average_credits": 13500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3,
+            "hazard_response_primary": 2,
+            "hazard_response_secondary": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 3,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 15,
+            "police_stations": 3,
+            "mass_casualty_count": 1,
+            "fire_stations": 13
+        },
+        "overlay_index": 0,
+        "base_mission_id": 330
+    },
     "330-1": {
         "id": "330-1",
         "name": "Large Natural Gas Explosion",
         "place": "",
         "place_array": {},
-        "average_credits": 13500,
+        "average_credits": 13000,
         "generated_by": "Fire Station",
         "icons": {
             "0": "/images/blast_gruen.png",
@@ -12748,6 +13422,50 @@
             "fire_stations": 13
         },
         "overlay_index": 1,
+        "base_mission_id": 330
+    },
+    "330-2": {
+        "id": "330-2",
+        "name": "Large Natural Gas Explosion",
+        "place": "",
+        "place_array": {},
+        "average_credits": 10500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 3,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 15,
+            "police_stations": 3,
+            "mass_casualty_count": 1,
+            "fire_stations": 13
+        },
+        "overlay_index": 2,
         "base_mission_id": 330
     },
     "331": {
@@ -13903,6 +14621,65 @@
         "overlay_index": null,
         "base_mission_id": 357
     },
+    "357-0": {
+        "id": "357-0",
+        "name": "Large fire in nightclub (Persons Reported) (Major Incident)",
+        "place": "Nightclub",
+        "place_array": {
+            "0": "Nightclub"
+        },
+        "average_credits": 17800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2,
+            "hazard_response_primary": 2,
+            "hazard_response_secondary": 2,
+            "emergency_welfare": 1,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "platform_trucks": 20,
+            "patient_transport": 25,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 40,
+            "possible_patient_min": 10,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349,
+                "3": 349,
+                "4": 349
+            },
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 15,
+            "police_stations": 2,
+            "mass_casualty_count": 1,
+            "fire_stations": 25
+        },
+        "overlay_index": 0,
+        "base_mission_id": 357
+    },
     "357-1": {
         "id": "357-1",
         "name": "Large fire in nightclub (Persons Reported) (Major Incident)",
@@ -13910,7 +14687,7 @@
         "place_array": {
             "0": "Nightclub"
         },
-        "average_credits": 17800,
+        "average_credits": 17000,
         "generated_by": "Fire Station",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -13957,6 +14734,62 @@
             "fire_stations": 25
         },
         "overlay_index": 1,
+        "base_mission_id": 357
+    },
+    "357-2": {
+        "id": "357-2",
+        "name": "Large fire in nightclub (Persons Reported) (Major Incident)",
+        "place": "Nightclub",
+        "place_array": {
+            "0": "Nightclub"
+        },
+        "average_credits": 15800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "platform_trucks": 20,
+            "patient_transport": 25,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 40,
+            "possible_patient_min": 10,
+            "followup_missions_ids": {
+                "0": 349,
+                "1": 349,
+                "2": 349,
+                "3": 349,
+                "4": 349
+            },
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 15,
+            "police_stations": 2,
+            "mass_casualty_count": 1,
+            "fire_stations": 25
+        },
+        "overlay_index": 2,
         "base_mission_id": 357
     },
     "358": {
@@ -14587,12 +15420,62 @@
         "overlay_index": null,
         "base_mission_id": 371
     },
+    "371-0": {
+        "id": "371-0",
+        "name": "Multiple vehicle RTC - Major Incident",
+        "place": "",
+        "place_array": {},
+        "average_credits": 13300,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 6,
+            "hazard_response_primary": 2,
+            "hazard_response_secondary": 2,
+            "emergency_welfare": 1,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 150,
+            "possible_patient_min": 30,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2",
+                "2": "C-3",
+                "3": "C-4"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 40,
+            "police_stations": 6,
+            "mass_casualty_count": 1,
+            "fire_stations": 13
+        },
+        "overlay_index": 0,
+        "base_mission_id": 371
+    },
     "371-1": {
         "id": "371-1",
         "name": "Multiple vehicle RTC - Major Incident",
         "place": "",
         "place_array": {},
-        "average_credits": 13300,
+        "average_credits": 12500,
         "generated_by": "Fire Station",
         "icons": {
             "0": "/images/caraccident_gruen.png",
@@ -14632,6 +15515,53 @@
             "fire_stations": 13
         },
         "overlay_index": 1,
+        "base_mission_id": 371
+    },
+    "371-2": {
+        "id": "371-2",
+        "name": "Multiple vehicle RTC - Major Incident",
+        "place": "",
+        "place_array": {},
+        "average_credits": 10500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 6,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 150,
+            "possible_patient_min": 30,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2",
+                "2": "C-3",
+                "3": "C-4"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 40,
+            "police_stations": 6,
+            "mass_casualty_count": 1,
+            "fire_stations": 13
+        },
+        "overlay_index": 2,
         "base_mission_id": 371
     },
     "372": {
@@ -14683,6 +15613,61 @@
         "overlay_index": null,
         "base_mission_id": 372
     },
+    "372-0": {
+        "id": "372-0",
+        "name": "Passenger Train Derailment",
+        "place": "Train station (regional traffic)\nTrain station (regional traffic and long-distance travel)\nRailroad Crossing\nRail Crossing",
+        "place_array": {
+            "0": "Train station (regional traffic)",
+            "1": "Train station (regional traffic and long-distance travel)",
+            "2": "Railroad Crossing",
+            "3": "Rail Crossing"
+        },
+        "average_credits": 17300,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 6,
+            "hazard_response_primary": 2,
+            "hazard_response_secondary": 2,
+            "emergency_welfare": 1,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 150,
+            "possible_patient_min": 30,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2",
+                "2": "C-3",
+                "3": "C-4"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 40,
+            "police_stations": 6,
+            "mass_casualty_count": 1,
+            "fire_stations": 13
+        },
+        "overlay_index": 0,
+        "base_mission_id": 372
+    },
     "372-1": {
         "id": "372-1",
         "name": "Passenger Train Derailment",
@@ -14693,7 +15678,7 @@
             "2": "Railroad Crossing",
             "3": "Rail Crossing"
         },
-        "average_credits": 17300,
+        "average_credits": 16500,
         "generated_by": "Fire Station",
         "icons": {
             "0": "/images/tramway_gruen.png",
@@ -14733,6 +15718,58 @@
             "fire_stations": 13
         },
         "overlay_index": 1,
+        "base_mission_id": 372
+    },
+    "372-2": {
+        "id": "372-2",
+        "name": "Passenger Train Derailment",
+        "place": "Train station (regional traffic)\nTrain station (regional traffic and long-distance travel)\nRailroad Crossing\nRail Crossing",
+        "place_array": {
+            "0": "Train station (regional traffic)",
+            "1": "Train station (regional traffic and long-distance travel)",
+            "2": "Railroad Crossing",
+            "3": "Rail Crossing"
+        },
+        "average_credits": 10800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 6,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 150,
+            "possible_patient_min": 30,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2",
+                "2": "C-3",
+                "3": "C-4"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 40,
+            "police_stations": 6,
+            "mass_casualty_count": 1,
+            "fire_stations": 13
+        },
+        "overlay_index": 2,
         "base_mission_id": 372
     },
     "373": {
@@ -14778,12 +15815,61 @@
         "overlay_index": null,
         "base_mission_id": 373
     },
+    "373-0": {
+        "id": "373-0",
+        "name": "Coach rollover RTC",
+        "place": "",
+        "place_array": {},
+        "average_credits": 15300,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/bus_gruen.png",
+            "1": "/images/bus_gelb.png",
+            "2": "/images/bus_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 6,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 6,
+            "hazard_response_primary": 1,
+            "hazard_response_secondary": 1,
+            "emergency_welfare": 1,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "patient_critical_care": 40
+        },
+        "additional": {
+            "possible_patient": 40,
+            "possible_patient_min": 20,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2",
+                "2": "C-3",
+                "3": "C-4"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 20,
+            "police_stations": 6,
+            "mass_casualty_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 0,
+        "base_mission_id": 373
+    },
     "373-1": {
         "id": "373-1",
         "name": "Coach rollover RTC",
         "place": "",
         "place_array": {},
-        "average_credits": 10000,
+        "average_credits": 14500,
         "generated_by": "Fire Station",
         "icons": {
             "0": "/images/bus_gruen.png",
@@ -14822,6 +15908,52 @@
             "fire_stations": 6
         },
         "overlay_index": 1,
+        "base_mission_id": 373
+    },
+    "373-2": {
+        "id": "373-2",
+        "name": "Coach rollover RTC",
+        "place": "",
+        "place_array": {},
+        "average_credits": 10800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/bus_gruen.png",
+            "1": "/images/bus_gelb.png",
+            "2": "/images/bus_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 6,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 6,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "patient_critical_care": 40
+        },
+        "additional": {
+            "possible_patient": 40,
+            "possible_patient_min": 20,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2",
+                "2": "C-3",
+                "3": "C-4"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 20,
+            "police_stations": 6,
+            "mass_casualty_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 2,
         "base_mission_id": 373
     },
     "374": {
@@ -14868,6 +16000,56 @@
         "overlay_index": null,
         "base_mission_id": 374
     },
+    "374-0": {
+        "id": "374-0",
+        "name": "Mass crush at festival",
+        "place": "Festival",
+        "place_array": {
+            "0": "Festival"
+        },
+        "average_credits": 15300,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "police_cars": 6,
+            "hazard_response_primary": 1,
+            "hazard_response_secondary": 1,
+            "emergency_welfare": 1,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 140,
+            "possible_patient_min": 20,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2",
+                "2": "C-3",
+                "3": "C-4"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 40,
+            "police_stations": 6,
+            "mass_casualty_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 0,
+        "base_mission_id": 374
+    },
     "374-1": {
         "id": "374-1",
         "name": "Mass crush at festival",
@@ -14875,7 +16057,7 @@
         "place_array": {
             "0": "Festival"
         },
-        "average_credits": 12000,
+        "average_credits": 14500,
         "generated_by": "Ambulance Station",
         "icons": {
             "0": "/images/dancinghall_gruen.png",
@@ -14913,6 +16095,53 @@
             "fire_stations": 6
         },
         "overlay_index": 1,
+        "base_mission_id": 374
+    },
+    "374-2": {
+        "id": "374-2",
+        "name": "Mass crush at festival",
+        "place": "Festival",
+        "place_array": {
+            "0": "Festival"
+        },
+        "average_credits": 12800,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "police_cars": 6,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 140,
+            "possible_patient_min": 20,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2",
+                "2": "C-3",
+                "3": "C-4"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 40,
+            "police_stations": 6,
+            "mass_casualty_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 2,
         "base_mission_id": 374
     },
     "375": {
@@ -14961,6 +16190,58 @@
         "overlay_index": null,
         "base_mission_id": 375
     },
+    "375-0": {
+        "id": "375-0",
+        "name": "Stage Collapse at Festival",
+        "place": "Festival",
+        "place_array": {
+            "0": "Festival"
+        },
+        "average_credits": 19300,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 6,
+            "police_cars": 6,
+            "hazard_response_primary": 2,
+            "hazard_response_secondary": 2,
+            "emergency_welfare": 1,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 35,
+            "possible_patient_min": 20,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2",
+                "2": "C-3",
+                "3": "C-4"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 40,
+            "police_stations": 6,
+            "mass_casualty_count": 1,
+            "fire_stations": 13
+        },
+        "overlay_index": 0,
+        "base_mission_id": 375
+    },
     "375-1": {
         "id": "375-1",
         "name": "Stage Collapse at Festival",
@@ -14968,7 +16249,7 @@
         "place_array": {
             "0": "Festival"
         },
-        "average_credits": 14000,
+        "average_credits": 18500,
         "generated_by": "Fire Station",
         "icons": {
             "0": "/images/dancinghall_gruen.png",
@@ -15008,6 +16289,55 @@
             "fire_stations": 13
         },
         "overlay_index": 1,
+        "base_mission_id": 375
+    },
+    "375-2": {
+        "id": "375-2",
+        "name": "Stage Collapse at Festival",
+        "place": "Festival",
+        "place_array": {
+            "0": "Festival"
+        },
+        "average_credits": 14800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 6,
+            "police_cars": 6,
+            "mass_casualty_equipment": 1,
+            "ems_mobile_command": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 35,
+            "possible_patient_min": 20,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2",
+                "2": "C-3",
+                "3": "C-4"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 40,
+            "police_stations": 6,
+            "mass_casualty_count": 1,
+            "fire_stations": 13
+        },
+        "overlay_index": 2,
         "base_mission_id": 375
     },
     "376": {

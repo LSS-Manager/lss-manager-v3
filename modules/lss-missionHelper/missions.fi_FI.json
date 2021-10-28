@@ -768,7 +768,8 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2
+                "1": 2,
+                "2": 29
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -7319,7 +7320,8 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "expansion_missions_ids": {
-                "0": 328
+                "0": 328,
+                "1": 333
             },
             "followup_missions_ids": {
                 "0": 207
@@ -9299,14 +9301,8 @@
                 "2": 8,
                 "3": 20,
                 "4": 23,
-                "5": 26,
-                "6": 33,
-                "7": 28,
-                "8": 58,
-                "9": 66,
-                "10": 68,
-                "11": 113,
-                "12": 170
+                "5": 28,
+                "6": 66
             },
             "filter_id": "firehouse_missions"
         },
