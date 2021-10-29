@@ -2655,7 +2655,6 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {
-            "heavy_rescue_vehicles": 100,
             "patient_transport": 30
         },
         "additional": {

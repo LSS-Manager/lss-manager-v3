@@ -645,8 +645,7 @@
             "platform_trucks": 1
         },
         "chances": {
-            "battalion_chief_vehicles": 50,
-            "platform_trucks": 100
+            "battalion_chief_vehicles": 50
         },
         "additional": {
             "filter_id": "firehouse_missions"
@@ -2842,7 +2841,6 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {
-            "heavy_rescue_vehicles": 100,
             "patient_transport": 30,
             "patient_critical_care": 10
         },
@@ -6509,6 +6507,535 @@
         },
         "overlay_index": null,
         "base_mission_id": 192
+    },
+    "193": {
+        "id": 193,
+        "name": "Accidente al hornear tarta de aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 193
+    },
+    "194": {
+        "id": 194,
+        "name": "Globo de aniversario de invitado atrapado en \u00e1rbol",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 3
+        },
+        "overlay_index": null,
+        "base_mission_id": 194
+    },
+    "195": {
+        "id": 195,
+        "name": "Incendio causado por aparatos el\u00e9ctricos de aniversario (menor)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1850,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 195
+    },
+    "196": {
+        "id": 196,
+        "name": "Incendio causado por aparatos el\u00e9ctricos de aniversario (importante)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 10000,
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 196
+    },
+    "197": {
+        "id": 197,
+        "name": "Regalo de aniversario robado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 400,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 197
+    },
+    "198": {
+        "id": 198,
+        "name": "Sabotaje en m\u00fasica de fiesta de aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 198
+    },
+    "199": {
+        "id": 199,
+        "name": "Invitado de aniversario desaparecido",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 3
+        },
+        "overlay_index": null,
+        "base_mission_id": 199
+    },
+    "200": {
+        "id": 200,
+        "name": "Adornos robados por invitados a aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 200
+    },
+    "201": {
+        "id": 201,
+        "name": "Tarta robada por invitados a aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 201
+    },
+    "202": {
+        "id": 202,
+        "name": "Empacho por tarta de aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 202
+    },
+    "203": {
+        "id": 203,
+        "name": "Corte al abrir regalos de aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 203
+    },
+    "204": {
+        "id": 204,
+        "name": "Invitado a aniversario con dolor de articulaciones tras baile",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 7
+        },
+        "overlay_index": null,
+        "base_mission_id": 204
+    },
+    "205": {
+        "id": 205,
+        "name": "Invitado a aniversario golpeado por corcho",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00",
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 3
+        },
+        "overlay_index": null,
+        "base_mission_id": 205
+    },
+    "206": {
+        "id": 206,
+        "name": "Invitado a aniversario inconsciente",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00",
+            "patient_specializations": "Cirug\u00eda cardiovascular"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 3
+        },
+        "overlay_index": null,
+        "base_mission_id": 206
+    },
+    "207": {
+        "id": 207,
+        "name": "Gente desaparecida en pista de baile",
+        "place": "",
+        "place_array": {},
+        "average_credits": 7500,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "20 minutos",
+            "duration": 1200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 207
+    },
+    "208": {
+        "id": 208,
+        "name": "Inflar globos para fiesta de aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": 15000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "ambulances": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "10 minutos",
+            "duration": 600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 5
+        },
+        "overlay_index": null,
+        "base_mission_id": 208
+    },
+    "209": {
+        "id": 209,
+        "name": "Invitado consumi\u00f3 bebida envenenada en fiesta de aniversario",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 80,
+            "patient_critical_care": 5
+        },
+        "additional": {
+            "possible_patient": 18,
+            "possible_patient_min": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-10-29T09:00:00Z",
+            "date_end": "2021-11-03T00:00:00+01:00",
+            "patient_specializations": "Cirug\u00eda general"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 209
     },
     "210": {
         "id": 210,

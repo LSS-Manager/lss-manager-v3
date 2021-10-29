@@ -648,9 +648,7 @@
             "firetrucks": 1,
             "platform_trucks": 1
         },
-        "chances": {
-            "platform_trucks": 100
-        },
+        "chances": {},
         "additional": {
             "filter_id": "firehouse_missions"
         },
@@ -681,8 +679,7 @@
             "police_cars": 1
         },
         "chances": {
-            "mobile_command_vehicles": 50,
-            "platform_trucks": 100
+            "mobile_command_vehicles": 50
         },
         "additional": {
             "filter_id": "firehouse_missions"
@@ -3260,9 +3257,7 @@
             "firetrucks": 1,
             "platform_trucks": 1
         },
-        "chances": {
-            "platform_trucks": 100
-        },
+        "chances": {},
         "additional": {
             "expansion_missions_ids": {
                 "0": 32
@@ -20638,9 +20633,7 @@
             "at_m": 1
         },
         "chances": {
-            "battalion_chief_vehicles": 100,
             "heavy_rescue_vehicles": 50,
-            "ovdp": 100,
             "patient_transport": 30
         },
         "additional": {
@@ -22495,7 +22488,6 @@
             "at_m": 1
         },
         "chances": {
-            "platform_trucks": 100,
             "ovdp": 50
         },
         "additional": {
