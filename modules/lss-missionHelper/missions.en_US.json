@@ -806,9 +806,7 @@
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1
         },
-        "chances": {
-            "platform_trucks": 100
-        },
+        "chances": {},
         "additional": {
             "expansion_missions_ids": {
                 "0": 22
@@ -840,8 +838,7 @@
             "platform_trucks": 1
         },
         "chances": {
-            "battalion_chief_vehicles": 50,
-            "platform_trucks": 100
+            "battalion_chief_vehicles": 50
         },
         "additional": {
             "expansion_missions_ids": {
@@ -876,8 +873,7 @@
             "fire_investigation": 1
         },
         "chances": {
-            "battalion_chief_vehicles": 50,
-            "platform_trucks": 100
+            "battalion_chief_vehicles": 50
         },
         "additional": {
             "expansion_missions_ids": {
@@ -2998,7 +2994,6 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {
-            "heavy_rescue_vehicles": 100,
             "patient_transport": 30
         },
         "additional": {
@@ -19774,8 +19769,7 @@
             "2": "/images/courthouse_rot.png"
         },
         "requirements": {
-            "police_cars": 1,
-            "sheriff": 1
+            "police_cars": 1
         },
         "chances": {},
         "additional": {
@@ -19791,12 +19785,68 @@
         "overlay_index": null,
         "base_mission_id": 438
     },
+    "438-0": {
+        "id": "438-0",
+        "name": "Serve court order",
+        "place": "",
+        "place_array": {},
+        "average_credits": 550,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/courthouse_gruen.png",
+            "1": "/images/courthouse_gelb.png",
+            "2": "/images/courthouse_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "sheriff": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 464
+            }
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 7
+        },
+        "overlay_index": 0,
+        "base_mission_id": 438
+    },
     "439": {
         "id": 439,
         "name": "Serve eviction notice",
         "place": "",
         "place_array": {},
         "average_credits": 150,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/courthouse_gruen.png",
+            "1": "/images/courthouse_gelb.png",
+            "2": "/images/courthouse_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 3
+        },
+        "overlay_index": null,
+        "base_mission_id": 439
+    },
+    "439-0": {
+        "id": "439-0",
+        "name": "Serve eviction notice",
+        "place": "",
+        "place_array": {},
+        "average_credits": 550,
         "generated_by": "Police station",
         "icons": {
             "0": "/images/courthouse_gruen.png",
@@ -19813,9 +19863,9 @@
         },
         "prerequisites": {
             "main_building": 5,
-            "police_stations": 3
+            "police_stations": 7
         },
-        "overlay_index": null,
+        "overlay_index": 0,
         "base_mission_id": 439
     },
     "440": {
@@ -19824,6 +19874,33 @@
         "place": "",
         "place_array": {},
         "average_credits": 500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/courthouse_gruen.png",
+            "1": "/images/courthouse_gelb.png",
+            "2": "/images/courthouse_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "duration_text": "15 minutes",
+            "duration": 900,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 3
+        },
+        "overlay_index": null,
+        "base_mission_id": 440
+    },
+    "440-0": {
+        "id": "440-0",
+        "name": "Eviction standby",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
         "generated_by": "Police station",
         "icons": {
             "0": "/images/courthouse_gruen.png",
@@ -19842,9 +19919,9 @@
         },
         "prerequisites": {
             "main_building": 5,
-            "police_stations": 3
+            "police_stations": 7
         },
-        "overlay_index": null,
+        "overlay_index": 0,
         "base_mission_id": 440
     },
     "441": {
@@ -20294,8 +20371,7 @@
             "2": "/images/theft_rot.png"
         },
         "requirements": {
-            "police_cars": 3,
-            "sheriff": 1
+            "police_cars": 3
         },
         "chances": {},
         "additional": {
@@ -20307,6 +20383,34 @@
             "police_stations": 6
         },
         "overlay_index": null,
+        "base_mission_id": 455
+    },
+    "455-0": {
+        "id": "455-0",
+        "name": "Robbery",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "sheriff": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 7
+        },
+        "overlay_index": 0,
         "base_mission_id": 455
     },
     "456": {
@@ -20447,8 +20551,7 @@
             "2": "/images/clock_rot.png"
         },
         "requirements": {
-            "police_cars": 2,
-            "sheriff": 1
+            "police_cars": 2
         },
         "chances": {},
         "additional": {
@@ -20462,6 +20565,36 @@
             "police_stations": 3
         },
         "overlay_index": null,
+        "base_mission_id": 460
+    },
+    "460-0": {
+        "id": "460-0",
+        "name": "Traffic surveillance",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4000,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "sheriff": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hour",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 7
+        },
+        "overlay_index": 0,
         "base_mission_id": 460
     },
     "461": {
@@ -20507,8 +20640,7 @@
         },
         "requirements": {
             "police_cars": 4,
-            "fbi": 4,
-            "sheriff": 1
+            "fbi": 4
         },
         "chances": {},
         "additional": {
@@ -20521,6 +20653,36 @@
             "federalpolice_stations": 1
         },
         "overlay_index": null,
+        "base_mission_id": 462
+    },
+    "462-0": {
+        "id": "462-0",
+        "name": "Illegal gun withdrawal",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2100,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "fbi": 4,
+            "sheriff": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 7,
+            "federalpolice_stations": 1
+        },
+        "overlay_index": 0,
         "base_mission_id": 462
     },
     "463": {
@@ -20564,8 +20726,7 @@
             "2": "/images/baseball_rot.png"
         },
         "requirements": {
-            "police_cars": 2,
-            "sheriff": 1
+            "police_cars": 2
         },
         "chances": {},
         "additional": {
@@ -20577,6 +20738,34 @@
             "police_stations": 3
         },
         "overlay_index": null,
+        "base_mission_id": 464
+    },
+    "464-0": {
+        "id": "464-0",
+        "name": "Warrant enforcement",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1050,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "sheriff": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 7
+        },
+        "overlay_index": 0,
         "base_mission_id": 464
     },
     "465": {

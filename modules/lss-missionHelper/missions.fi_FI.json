@@ -642,9 +642,7 @@
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1
         },
-        "chances": {
-            "platform_trucks": 100
-        },
+        "chances": {},
         "additional": {
             "expansion_missions_ids": {
                 "0": 22
@@ -676,9 +674,7 @@
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1
         },
-        "chances": {
-            "platform_trucks": 100
-        },
+        "chances": {},
         "additional": {
             "filter_id": "firehouse_missions"
         },
@@ -6255,7 +6251,6 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {
-            "heavy_rescue_vehicles": 100,
             "patient_transport": 30,
             "patient_critical_care": 5
         },
