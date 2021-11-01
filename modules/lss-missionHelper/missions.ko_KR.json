@@ -9854,5 +9854,91 @@
         },
         "overlay_index": null,
         "base_mission_id": 285
+    },
+    "286": {
+        "id": 286,
+        "name": "\uace0\uce35 \uac74\ubb3c \ud654\uc7ac",
+        "place": "\uace0\uce35 \uac74\ubb3c",
+        "place_array": {
+            "0": "\uace0\uce35 \uac74\ubb3c"
+        },
+        "average_credits": 7500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 15000,
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 6,
+            "police_stations": 5,
+            "fire_stations": 10
+        },
+        "overlay_index": null,
+        "base_mission_id": 286
+    },
+    "286-0": {
+        "id": "286-0",
+        "name": "\uace0\uce35 \uac74\ubb3c \ud654\uc7ac",
+        "place": "\uace0\uce35 \uac74\ubb3c",
+        "place_array": {
+            "0": "\uace0\uce35 \uac74\ubb3c"
+        },
+        "average_credits": 8000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 15000,
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 3,
+            "hose": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 6,
+            "police_stations": 5,
+            "fire_support_count": 1,
+            "fire_stations": 10
+        },
+        "overlay_index": 0,
+        "base_mission_id": 286
     }
 }

@@ -16840,5 +16840,31 @@
         },
         "overlay_index": null,
         "base_mission_id": 389
+    },
+    "390": {
+        "id": 390,
+        "name": "Breach of bail",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 390
     }
 }

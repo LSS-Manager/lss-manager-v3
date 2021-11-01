@@ -15761,5 +15761,162 @@
         },
         "overlay_index": null,
         "base_mission_id": 463
+    },
+    "464": {
+        "id": 464,
+        "name": "Zderzenie dw\u00f3ch tramwaj\u00f3w",
+        "place": "Przystanek tramwajowy",
+        "place_array": {
+            "0": "Przystanek tramwajowy"
+        },
+        "average_credits": 8950,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 1,
+            "traffic_car": 2
+        },
+        "chances": {
+            "mobile_command_vehicles": 30,
+            "patient_transport": 60,
+            "helicopter": 10,
+            "patient_critical_care": 15
+        },
+        "additional": {
+            "possible_patient": 28,
+            "possible_patient_min": 4,
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 16
+        },
+        "overlay_index": null,
+        "base_mission_id": 464
+    },
+    "465": {
+        "id": 465,
+        "name": "Wypadek tramwaju z samochodem osobowym",
+        "place": "Przystanek tramwajowy",
+        "place_array": {
+            "0": "Przystanek tramwajowy"
+        },
+        "average_credits": 8400,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 3,
+            "traffic_car": 2
+        },
+        "chances": {
+            "patient_transport": 70,
+            "helicopter": 15,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 9,
+            "possible_patient_min": 2,
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 5,
+            "police_stations": 2,
+            "fire_stations": 12
+        },
+        "overlay_index": null,
+        "base_mission_id": 465
+    },
+    "466": {
+        "id": 466,
+        "name": "Nieprzytomna osoba w tramwaju",
+        "place": "Przystanek tramwajowy",
+        "place_array": {
+            "0": "Przystanek tramwajowy"
+        },
+        "average_credits": 800,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 75,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 3
+        },
+        "overlay_index": null,
+        "base_mission_id": 466
+    },
+    "473": {
+        "id": 473,
+        "name": "Zatrucie siarkowodorem",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4200,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 15,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 2,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 8,
+            "fire_stations": 14
+        },
+        "overlay_index": null,
+        "base_mission_id": 473
     }
 }
