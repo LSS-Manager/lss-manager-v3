@@ -2521,7 +2521,8 @@
         "additional": {
             "possible_patient": 8,
             "expansion_missions_ids": {
-                "0": 470
+                "0": 470,
+                "1": 685
             },
             "filter_id": "firehouse_missions",
             "fire_alarm_system_possible": true,
@@ -25019,5 +25020,43 @@
         },
         "overlay_index": null,
         "base_mission_id": 685
+    },
+    "686": {
+        "id": 686,
+        "name": "Kind in Spielger\u00e4t eingeklemmt",
+        "place": "",
+        "place_array": {},
+        "average_credits": 900,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 10,
+            "police_cars": 40,
+            "nef": 10,
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 4
+        },
+        "overlay_index": null,
+        "base_mission_id": 686
     }
 }

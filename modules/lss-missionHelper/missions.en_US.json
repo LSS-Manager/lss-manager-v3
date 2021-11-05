@@ -19873,33 +19873,6 @@
         "name": "Eviction standby",
         "place": "",
         "place_array": {},
-        "average_credits": 500,
-        "generated_by": "Police station",
-        "icons": {
-            "0": "/images/courthouse_gruen.png",
-            "1": "/images/courthouse_gelb.png",
-            "2": "/images/courthouse_rot.png"
-        },
-        "requirements": {},
-        "chances": {},
-        "additional": {
-            "duration_text": "15 minutes",
-            "duration": 900,
-            "guard_mission": true,
-            "filter_id": "police_station_missions"
-        },
-        "prerequisites": {
-            "main_building": 5,
-            "police_stations": 3
-        },
-        "overlay_index": null,
-        "base_mission_id": 440
-    },
-    "440-0": {
-        "id": "440-0",
-        "name": "Eviction standby",
-        "place": "",
-        "place_array": {},
         "average_credits": 900,
         "generated_by": "Police station",
         "icons": {
@@ -19921,7 +19894,7 @@
             "main_building": 5,
             "police_stations": 7
         },
-        "overlay_index": 0,
+        "overlay_index": null,
         "base_mission_id": 440
     },
     "441": {

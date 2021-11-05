@@ -11275,9 +11275,9 @@
     "342": {
         "id": 342,
         "name": "Inc\u00eandio numa Igreja",
-        "place": "<span class=\"translation_missing localeapp\" title=\"translation missing: pt_PT.poi.church\">Church</span>",
+        "place": "Igreja",
         "place_array": {
-            "0": "<span class=\"translation_missing localeapp\" title=\"translation missing: pt_PT.poi.church\">Church</span>"
+            "0": "Igreja"
         },
         "average_credits": 6000,
         "generated_by": "Corpo de Bombeiros",
