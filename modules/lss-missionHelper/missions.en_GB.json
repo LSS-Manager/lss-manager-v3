@@ -16862,7 +16862,8 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
-            "main_building": 6
+            "main_building": 6,
+            "police_stations": 1
         },
         "overlay_index": null,
         "base_mission_id": 390

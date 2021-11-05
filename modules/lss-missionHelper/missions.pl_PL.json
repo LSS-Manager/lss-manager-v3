@@ -7243,8 +7243,7 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 226,
-                "3": 182
+                "2": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -15881,42 +15880,5 @@
         },
         "overlay_index": null,
         "base_mission_id": 466
-    },
-    "473": {
-        "id": 473,
-        "name": "Zatrucie siarkowodorem",
-        "place": "",
-        "place_array": {},
-        "average_credits": 4200,
-        "generated_by": "Stacja Pogotowia Ratunkowego",
-        "icons": {
-            "0": "/images/ambulance_gruen.png",
-            "1": "/images/ambulance_gelb.png",
-            "2": "/images/ambulance_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 4,
-            "battalion_chief_vehicles": 2,
-            "mobile_air_vehicles": 1,
-            "hazmat_vehicles": 2
-        },
-        "chances": {
-            "patient_transport": 80,
-            "helicopter": 15,
-            "patient_critical_care": 30
-        },
-        "additional": {
-            "possible_patient": 6,
-            "possible_patient_min": 2,
-            "filter_id": "ambulance_station_missions",
-            "patient_specializations": "Interna"
-        },
-        "prerequisites": {
-            "main_building": 2,
-            "rescue_stations": 8,
-            "fire_stations": 14
-        },
-        "overlay_index": null,
-        "base_mission_id": 473
     }
 }

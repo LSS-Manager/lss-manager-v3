@@ -12031,7 +12031,6 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "water_needed": 15000,
             "firetrucks": 8,
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
