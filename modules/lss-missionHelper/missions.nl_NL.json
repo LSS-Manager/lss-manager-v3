@@ -32043,5 +32043,35 @@
         },
         "overlay_index": null,
         "base_mission_id": 872
+    },
+    "873": {
+        "id": 873,
+        "name": "Heterdaad drugsdeal",
+        "place": "",
+        "place_array": {},
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/cannabis_gruen.png",
+            "1": "/images/cannabis_gelb.png",
+            "2": "/images/cannabis_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 124
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 873
     }
 }

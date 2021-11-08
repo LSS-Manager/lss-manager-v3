@@ -9532,5 +9532,34 @@
         },
         "overlay_index": null,
         "base_mission_id": 276
+    },
+    "277": {
+        "id": 277,
+        "name": "Jaf bancar",
+        "place": "Banc\u0103",
+        "place_array": {
+            "0": "Banc\u0103"
+        },
+        "average_credits": 2500,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 8
+        },
+        "overlay_index": null,
+        "base_mission_id": 277
     }
 }
