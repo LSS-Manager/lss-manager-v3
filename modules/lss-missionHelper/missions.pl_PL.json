@@ -7243,7 +7243,8 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 182
+                "2": 226,
+                "3": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -15880,5 +15881,74 @@
         },
         "overlay_index": null,
         "base_mission_id": 466
+    },
+    "467": {
+        "id": 467,
+        "name": "Zadymienie w tunelu",
+        "place": "Tunel",
+        "place_array": {
+            "0": "Tunel"
+        },
+        "average_credits": 4500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 241,
+                "1": 273
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 467
+    },
+    "468": {
+        "id": 468,
+        "name": "Zadymienie na dworcu kolejowym",
+        "place": "Dworzec kolejowy (ruch podmiejski)\nDworzec kolejowy (ruch podmiejski i dalekobie\u017cny)",
+        "place_array": {
+            "0": "Dworzec kolejowy (ruch podmiejski)",
+            "1": "Dworzec kolejowy (ruch podmiejski i dalekobie\u017cny)"
+        },
+        "average_credits": 5300,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 442
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 7
+        },
+        "overlay_index": null,
+        "base_mission_id": 468
     }
 }

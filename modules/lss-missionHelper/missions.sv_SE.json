@@ -4538,7 +4538,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -5739,7 +5741,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 179
+            },
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
@@ -11838,5 +11842,40 @@
         },
         "overlay_index": null,
         "base_mission_id": 358
+    },
+    "359": {
+        "id": 359,
+        "name": "Misst\u00e4nkt skottlossning",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1050,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {
+            "police_helicopters": 75
+        },
+        "additional": {
+            "followup_missions_ids": {
+                "0": 282
+            },
+            "max_possible_prisoners": 1,
+            "swat_personnel": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 7
+        },
+        "overlay_index": null,
+        "base_mission_id": 359
     }
 }
