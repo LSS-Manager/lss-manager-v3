@@ -25058,5 +25058,48 @@
         },
         "overlay_index": null,
         "base_mission_id": 686
+    },
+    "687": {
+        "id": 687,
+        "name": "Nitrose Gase auf Bauernhof",
+        "place": "Bauernhof",
+        "place_array": {
+            "0": "Bauernhof"
+        },
+        "average_credits": 3000,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/gas_gruen.png",
+            "1": "/images/gas_gelb.png",
+            "2": "/images/gas_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "mobile_air_vehicles": 1,
+            "gwmess": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "nef": 90,
+            "patient_transport": 100,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 687
     }
 }

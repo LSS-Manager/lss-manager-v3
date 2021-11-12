@@ -9553,5 +9553,34 @@
         },
         "overlay_index": null,
         "base_mission_id": 284
+    },
+    "285": {
+        "id": 285,
+        "name": "Assalto a banco",
+        "place": "Banco",
+        "place_array": {
+            "0": "Banco"
+        },
+        "average_credits": 2500,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 8
+        },
+        "overlay_index": null,
+        "base_mission_id": 285
     }
 }
