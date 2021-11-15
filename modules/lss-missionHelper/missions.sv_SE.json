@@ -4538,9 +4538,7 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {
-                "0": 132
-            },
+            "expansion_missions_ids": {},
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -5741,9 +5739,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 179
-            },
+            "expansion_missions_ids": {},
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
@@ -11865,7 +11861,8 @@
         },
         "additional": {
             "followup_missions_ids": {
-                "0": 282
+                "0": 279,
+                "1": 282
             },
             "max_possible_prisoners": 1,
             "swat_personnel": 2,
@@ -11877,5 +11874,38 @@
         },
         "overlay_index": null,
         "base_mission_id": 359
+    },
+    "360": {
+        "id": 360,
+        "name": "Ketoacidos",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 25,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Allm\u00e4nkirurg"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 4
+        },
+        "overlay_index": null,
+        "base_mission_id": 360
     }
 }

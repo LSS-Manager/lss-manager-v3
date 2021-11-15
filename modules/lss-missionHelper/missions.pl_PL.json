@@ -7243,8 +7243,7 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 226,
-                "3": 182
+                "2": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -15950,5 +15949,65 @@
         },
         "overlay_index": null,
         "base_mission_id": 468
+    },
+    "469": {
+        "id": 469,
+        "name": "Podejrzenie neuroinfekcji",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1100,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Neurologia"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 469
+    },
+    "470": {
+        "id": 470,
+        "name": "Obrz\u0119k p\u0142uc",
+        "place": "",
+        "place_array": {},
+        "average_credits": 980,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 95,
+            "helicopter": 15,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "main_building": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 470
     }
 }

@@ -13715,5 +13715,35 @@
         },
         "overlay_index": null,
         "base_mission_id": 388
+    },
+    "389": {
+        "id": 389,
+        "name": "Feu de combles",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 3,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 389
     }
 }

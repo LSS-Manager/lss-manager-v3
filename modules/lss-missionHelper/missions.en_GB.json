@@ -16893,5 +16893,141 @@
         },
         "overlay_index": null,
         "base_mission_id": 391
+    },
+    "392": {
+        "id": 392,
+        "name": "Large fuel leak from vehicle",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0
+        },
+        "overlay_index": null,
+        "base_mission_id": 392
+    },
+    "393": {
+        "id": 393,
+        "name": "Large fuel leak from vehicle (fast road)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "police_cars": 2,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true
+        },
+        "prerequisites": {
+            "main_building": 0
+        },
+        "overlay_index": null,
+        "base_mission_id": 393
+    },
+    "394": {
+        "id": 394,
+        "name": "Odour of chemicals",
+        "place": "",
+        "place_array": {},
+        "average_credits": 4000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/olfass_gruen.png",
+            "1": "/images/olfass_gelb.png",
+            "2": "/images/olfass_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 3,
+            "hazmat_vehicles": 1,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "kdow_orgl": 10
+        },
+        "additional": {
+            "possible_patient": 14,
+            "patient_uk_code_possible": {
+                "0": "C-2,",
+                "1": "C-3"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 5,
+            "fire_stations": 11
+        },
+        "overlay_index": null,
+        "base_mission_id": 394
+    },
+    "394-0": {
+        "id": "394-0",
+        "name": "Odour of chemicals",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/olfass_gruen.png",
+            "1": "/images/olfass_gelb.png",
+            "2": "/images/olfass_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 3,
+            "hazmat_vehicles": 1,
+            "kdow_orgl": 1,
+            "hazard_response_primary": 1,
+            "hazard_response_secondary": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "kdow_orgl": 10
+        },
+        "additional": {
+            "possible_patient": 14,
+            "patient_uk_code_possible": {
+                "0": "C-2,",
+                "1": "C-3"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 5,
+            "fire_stations": 11
+        },
+        "overlay_index": 0,
+        "base_mission_id": 394
     }
 }

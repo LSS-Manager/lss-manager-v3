@@ -764,7 +764,8 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2
+                "1": 2,
+                "2": 29
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -12035,9 +12036,9 @@
     "348": {
         "id": 348,
         "name": "172 Alaik\u00e4inen baarissa",
-        "place": "Joulumarkkinat\nBaari",
+        "place": "Disko\nBaari",
         "place_array": {
-            "0": "Joulumarkkinat",
+            "0": "Disko",
             "1": "Baari"
         },
         "average_credits": 400,
@@ -12065,9 +12066,9 @@
     "349": {
         "id": 349,
         "name": "033 Painiottelu baarissa",
-        "place": "Joulumarkkinat\nBaari",
+        "place": "Disko\nBaari",
         "place_array": {
-            "0": "Joulumarkkinat",
+            "0": "Disko",
             "1": "Baari"
         },
         "average_credits": 900,
@@ -12447,5 +12448,34 @@
         },
         "overlay_index": null,
         "base_mission_id": 359
+    },
+    "360": {
+        "id": 360,
+        "name": "461 Raitiovaunun ajolangat pudonneet",
+        "place": "Raitiovaunupys\u00e4kki",
+        "place_array": {
+            "0": "Raitiovaunupys\u00e4kki"
+        },
+        "average_credits": 400,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 4
+        },
+        "overlay_index": null,
+        "base_mission_id": 360
     }
 }
