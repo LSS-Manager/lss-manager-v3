@@ -11340,5 +11340,36 @@
         },
         "overlay_index": null,
         "base_mission_id": 343
+    },
+    "344": {
+        "id": 344,
+        "name": "Passageiro Agressivo",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 4,
+            "police_stations": 4
+        },
+        "overlay_index": null,
+        "base_mission_id": 344
     }
 }

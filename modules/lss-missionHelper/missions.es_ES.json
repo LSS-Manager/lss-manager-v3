@@ -11549,5 +11549,38 @@
         },
         "overlay_index": null,
         "base_mission_id": 339
+    },
+    "340": {
+        "id": 340,
+        "name": "P\u00e1nico en la discoteca",
+        "place": "Discoteca",
+        "place_array": {
+            "0": "Discoteca"
+        },
+        "average_credits": 3000,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Medicina interna general"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 4,
+            "police_stations": 8
+        },
+        "overlay_index": null,
+        "base_mission_id": 340
     }
 }

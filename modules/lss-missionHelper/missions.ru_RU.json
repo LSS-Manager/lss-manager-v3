@@ -11754,5 +11754,38 @@
         },
         "overlay_index": null,
         "base_mission_id": 344
+    },
+    "345": {
+        "id": 345,
+        "name": "\u041f\u0430\u043d\u0438\u043a\u0430 \u0432 \u043a\u043b\u0443\u0431\u0435",
+        "place": "\u0414\u0438\u0441\u043a\u043e\u0442\u0435\u043a\u0430",
+        "place_array": {
+            "0": "\u0414\u0438\u0441\u043a\u043e\u0442\u0435\u043a\u0430"
+        },
+        "average_credits": 3000,
+        "generated_by": "\u041f\u043e\u043b\u0438\u0446\u0435\u0439\u0441\u043a\u0438\u0439 \u0443\u0447\u0430\u0441\u0442\u043e\u043a",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 4,
+            "police_stations": 8
+        },
+        "overlay_index": null,
+        "base_mission_id": 345
     }
 }

@@ -5042,8 +5042,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-11-14T10:00:00+01:00",
-            "date_end": "2020-12-06T23:59:00+01:00"
+            "date_start": "2021-11-13T10:00:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -5072,8 +5072,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-11-14T10:00:00+01:00",
-            "date_end": "2020-12-06T23:59:00+01:00",
+            "date_start": "2021-11-13T10:00:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
@@ -5103,8 +5103,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-11-14T10:00:00+01:00",
-            "date_end": "2020-12-06T23:59:00+01:00",
+            "date_start": "2021-11-13T10:00:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
@@ -5132,8 +5132,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-14T10:00:00+01:00",
-            "date_end": "2020-12-06T23:59:00+01:00"
+            "date_start": "2021-11-13T10:00:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 5,
@@ -5162,8 +5162,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-11-14T10:00:00+01:00",
-            "date_end": "2020-12-06T23:59:00+01:00",
+            "date_start": "2021-11-13T10:00:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
             "patient_specializations": "Interne Geneeskunde"
         },
         "prerequisites": {
@@ -5196,8 +5196,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
-            "date_start": "2020-11-14T10:00:00+01:00",
-            "date_end": "2020-12-06T23:59:00+01:00",
+            "date_start": "2021-11-13T10:00:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
@@ -5225,8 +5225,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-14T10:00:00+01:00",
-            "date_end": "2020-12-06T23:59:00+01:00"
+            "date_start": "2021-11-13T10:00:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 5,
@@ -5253,8 +5253,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-14T10:00:00+01:00",
-            "date_end": "2020-12-06T23:59:00+01:00"
+            "date_start": "2021-11-13T10:00:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 5,
@@ -5283,8 +5283,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-11-14T10:00:00+01:00",
-            "date_end": "2020-12-06T23:59:00+01:00",
+            "date_start": "2021-11-13T10:00:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
@@ -8160,8 +8160,8 @@
         "chances": {},
         "additional": {
             "filter_id": "water_watch_missions",
-            "date_start": "2019-11-15T23:00:00+01:00",
-            "date_end": "2019-12-05T22:59:00+01:00"
+            "date_start": "2021-11-13T10:00:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": -3,
@@ -32073,5 +32073,43 @@
         },
         "overlay_index": null,
         "base_mission_id": 873
+    },
+    "874": {
+        "id": 874,
+        "name": "Paraglider neergestort",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2550,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/paragliding_gruen.png",
+            "1": "/images/paragliding_gelb.png",
+            "2": "/images/paragliding_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2,
+            "ovdp": 1
+        },
+        "chances": {
+            "nef": 100,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 10,
+            "police_stations": 5,
+            "bereitschaftspolizei": 1,
+            "fire_stations": 4
+        },
+        "overlay_index": null,
+        "base_mission_id": 874
     }
 }

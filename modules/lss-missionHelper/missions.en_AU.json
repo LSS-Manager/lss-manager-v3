@@ -11987,5 +11987,38 @@
         },
         "overlay_index": null,
         "base_mission_id": 365
+    },
+    "366": {
+        "id": 366,
+        "name": "Panic at the disco",
+        "place": "Discotheque",
+        "place_array": {
+            "0": "Discotheque"
+        },
+        "average_credits": 3000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 4,
+            "police_stations": 8
+        },
+        "overlay_index": null,
+        "base_mission_id": 366
     }
 }
