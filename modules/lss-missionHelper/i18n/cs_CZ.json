@@ -104,6 +104,8 @@
         "police_helicopters": "Policejní vrtulník",
         "allow_rw_instead_of_lf": "cisternové automobilové stříkačky nebo těžká záchranná služba",
         "orgl": "inspektor provozu",
+        "fwk": "VYA nebo AJ",
+        "road_rescue": "RZA",
         "kdow_orgl": "inspektor provozu"
     }
 }
