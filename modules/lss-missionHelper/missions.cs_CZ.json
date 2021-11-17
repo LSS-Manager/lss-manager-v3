@@ -379,6 +379,39 @@
         "overlay_index": null,
         "base_mission_id": 12
     },
+    "12-0": {
+        "id": "12-0",
+        "name": "Strom p\u0159es cestu",
+        "place": "",
+        "place_array": {},
+        "average_credits": 710,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "fwk": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 25
+            },
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "allow_dlk_instead_of_lf": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "disaster_response_count": 1,
+            "fire_stations": 1
+        },
+        "overlay_index": 0,
+        "base_mission_id": 12
+    },
     "13": {
         "id": 13,
         "name": "Ho\u0159\u00edc\u00ed kamion",
@@ -749,6 +782,41 @@
             "fire_stations": 3
         },
         "overlay_index": null,
+        "base_mission_id": 25
+    },
+    "25-0": {
+        "id": "25-0",
+        "name": "Dopravn\u00ed nehoda",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "fwk": 1,
+            "traffic_car": 1
+        },
+        "chances": {
+            "patient_transport": 40,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "disaster_response_count": 1,
+            "fire_stations": 3
+        },
+        "overlay_index": 0,
         "base_mission_id": 25
     },
     "26": {
@@ -2153,6 +2221,47 @@
         "overlay_index": null,
         "base_mission_id": 73
     },
+    "73-0": {
+        "id": "73-0",
+        "name": "V\u00e1\u017en\u00e1 nehoda autobusu",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2,
+            "traffic_car": 1,
+            "road_rescue": 1
+        },
+        "chances": {
+            "patient_transport": 80,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 12,
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "patient_specializations": "V\u0161eobecn\u00fd chirurg"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "disaster_response_count": 1,
+            "fire_stations": 5
+        },
+        "overlay_index": 0,
+        "base_mission_id": 73
+    },
     "74": {
         "id": 74,
         "name": "Velk\u00fd ohe\u0148",
@@ -2256,6 +2365,50 @@
             "fire_stations": 4
         },
         "overlay_index": null,
+        "base_mission_id": 76
+    },
+    "76-0": {
+        "id": "76-0",
+        "name": "Dopravn\u00ed nehoda s p\u0159evr\u00e1cen\u00edm",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2,
+            "traffic_car": 1,
+            "road_rescue": 1
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 90
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 193
+            },
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 4
+        },
+        "overlay_index": 0,
         "base_mission_id": 76
     },
     "77": {
@@ -3211,6 +3364,48 @@
         "overlay_index": null,
         "base_mission_id": 105
     },
+    "105-0": {
+        "id": "105-0",
+        "name": "Vykolejen\u00ed vlaku",
+        "place": "\u017delezni\u010dn\u00ed p\u0159ejezd",
+        "place_array": {
+            "0": "\u017delezni\u010dn\u00ed p\u0159ejezd"
+        },
+        "average_credits": 10400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "fwk": 1,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 70
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 15
+        },
+        "overlay_index": 0,
+        "base_mission_id": 105
+    },
     "106": {
         "id": 106,
         "name": "Vykolejen\u00ed vlaku",
@@ -3251,6 +3446,48 @@
         "overlay_index": null,
         "base_mission_id": 106
     },
+    "106-0": {
+        "id": "106-0",
+        "name": "Vykolejen\u00ed vlaku",
+        "place": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed doprava)",
+        "place_array": {
+            "0": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed doprava)"
+        },
+        "average_credits": 10400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "fwk": 1,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 70
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 15
+        },
+        "overlay_index": 0,
+        "base_mission_id": 106
+    },
     "107": {
         "id": 107,
         "name": "Vykolejen\u00ed vlaku",
@@ -3289,6 +3526,48 @@
             "fire_stations": 15
         },
         "overlay_index": null,
+        "base_mission_id": 107
+    },
+    "107-0": {
+        "id": "107-0",
+        "name": "Vykolejen\u00ed vlaku",
+        "place": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed a d\u00e1lkov\u00e1 doprava)",
+        "place_array": {
+            "0": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed a d\u00e1lkov\u00e1 doprava)"
+        },
+        "average_credits": 10400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "fwk": 1,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 70
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 15
+        },
+        "overlay_index": 0,
         "base_mission_id": 107
     },
     "108": {
@@ -4698,6 +4977,53 @@
         "overlay_index": null,
         "base_mission_id": 151
     },
+    "151-0": {
+        "id": "151-0",
+        "name": "Velk\u00e1 DN v tunelu",
+        "place": "Tunel",
+        "place_array": {
+            "0": "Tunel"
+        },
+        "average_credits": 5800,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "fwk": 1,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 3,
+            "traffic_car": 1,
+            "road_rescue": 1
+        },
+        "chances": {
+            "patient_transport": 25,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 14,
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 7,
+            "police_stations": 2,
+            "disaster_response_count": 1,
+            "fire_stations": 13
+        },
+        "overlay_index": 0,
+        "base_mission_id": 151
+    },
     "152": {
         "id": 152,
         "name": "Po\u017e\u00e1r v\u00edce vozidel v tunelu",
@@ -5321,6 +5647,47 @@
         "overlay_index": null,
         "base_mission_id": 170
     },
+    "170-0": {
+        "id": "170-0",
+        "name": "Dopravn\u00ed nehoda cisterny",
+        "place": "",
+        "place_array": {},
+        "average_credits": 5800,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 2,
+            "traffic_car": 2,
+            "road_rescue": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 70
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 0,
+        "base_mission_id": 170
+    },
     "171": {
         "id": 171,
         "name": "N\u00e1lez nabouran\u00e9ho vozidla",
@@ -5782,6 +6149,36 @@
         "overlay_index": null,
         "base_mission_id": 184
     },
+    "184-0": {
+        "id": "184-0",
+        "name": "Ho\u0159\u00edc\u00ed stra\u0161\u00e1k",
+        "place": "",
+        "place_array": {},
+        "average_credits": 750,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "road_rescue": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-10-15T09:00:00Z",
+            "date_end": "2021-10-31T23:59:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "disaster_response_count": 1,
+            "fire_stations": 1
+        },
+        "overlay_index": 0,
+        "base_mission_id": 184
+    },
     "185": {
         "id": 185,
         "name": "Ho\u0159\u00edc\u00ed d\u00fd\u0148ov\u00e9 pole",
@@ -6058,6 +6455,46 @@
             "fire_stations": 7
         },
         "overlay_index": null,
+        "base_mission_id": 193
+    },
+    "193-0": {
+        "id": "193-0",
+        "name": "V\u00e1\u017en\u00e1 dopravn\u00ed nehoda",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3600,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "traffic_car": 1
+        },
+        "chances": {
+            "patient_transport": 70,
+            "helicopter": 25,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 4,
+            "disaster_response_count": 1,
+            "fire_stations": 7
+        },
+        "overlay_index": 0,
         "base_mission_id": 193
     },
     "194": {
@@ -8205,6 +8642,53 @@
         "overlay_index": null,
         "base_mission_id": 259
     },
+    "259-0": {
+        "id": "259-0",
+        "name": "Auto ve vod\u011b",
+        "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
+        "average_credits": 3200,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "diver_units": 2,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "divers_extension_count": 2,
+            "disaster_response_count": 1,
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
+        },
+        "overlay_index": 0,
+        "base_mission_id": 259
+    },
     "260": {
         "id": 260,
         "name": "Auto ve vod\u011b",
@@ -8245,6 +8729,50 @@
             "fire_stations": 6
         },
         "overlay_index": null,
+        "base_mission_id": 260
+    },
+    "260-0": {
+        "id": "260-0",
+        "name": "Auto ve vod\u011b",
+        "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
+        "average_credits": 3200,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "diver_units": 2,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 15,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "divers_extension_count": 2,
+            "disaster_response_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 0,
         "base_mission_id": 260
     },
     "261": {
@@ -8292,6 +8820,53 @@
         "overlay_index": null,
         "base_mission_id": 261
     },
+    "261-0": {
+        "id": "261-0",
+        "name": "Auto ve vod\u011b",
+        "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
+        "average_credits": 3200,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "diver_units": 2,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "divers_extension_count": 2,
+            "disaster_response_count": 1,
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
+        },
+        "overlay_index": 0,
+        "base_mission_id": 261
+    },
     "262": {
         "id": 262,
         "name": "Auto ve vod\u011b",
@@ -8332,6 +8907,50 @@
             "fire_stations": 6
         },
         "overlay_index": null,
+        "base_mission_id": 262
+    },
+    "262-0": {
+        "id": "262-0",
+        "name": "Auto ve vod\u011b",
+        "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
+        "average_credits": 3200,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "diver_units": 2,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 15,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "divers_extension_count": 2,
+            "disaster_response_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 0,
         "base_mission_id": 262
     },
     "263": {
@@ -8379,6 +8998,53 @@
         "overlay_index": null,
         "base_mission_id": 263
     },
+    "263-0": {
+        "id": "263-0",
+        "name": "Auto ve vod\u011b",
+        "place": "Mal\u00fd p\u0159\u00edstav",
+        "place_array": {
+            "0": "Mal\u00fd p\u0159\u00edstav"
+        },
+        "average_credits": 3200,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "diver_units": 2,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "divers_extension_count": 2,
+            "disaster_response_count": 1,
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
+        },
+        "overlay_index": 0,
+        "base_mission_id": 263
+    },
     "264": {
         "id": 264,
         "name": "Auto ve vod\u011b",
@@ -8419,6 +9085,50 @@
             "fire_stations": 6
         },
         "overlay_index": null,
+        "base_mission_id": 264
+    },
+    "264-0": {
+        "id": "264-0",
+        "name": "Auto ve vod\u011b",
+        "place": "Mal\u00fd p\u0159\u00edstav",
+        "place_array": {
+            "0": "Mal\u00fd p\u0159\u00edstav"
+        },
+        "average_credits": 3200,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "diver_units": 2,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 15,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "divers_extension_count": 2,
+            "disaster_response_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 0,
         "base_mission_id": 264
     },
     "265": {
@@ -8466,6 +9176,53 @@
         "overlay_index": null,
         "base_mission_id": 265
     },
+    "265-0": {
+        "id": "265-0",
+        "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
+        "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
+        "average_credits": 4400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
+        },
+        "overlay_index": 0,
+        "base_mission_id": 265
+    },
     "266": {
         "id": 266,
         "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
@@ -8506,6 +9263,50 @@
             "fire_stations": 6
         },
         "overlay_index": null,
+        "base_mission_id": 266
+    },
+    "266-0": {
+        "id": "266-0",
+        "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
+        "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
+        "average_credits": 4400,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 15,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 0,
         "base_mission_id": 266
     },
     "267": {
@@ -8553,6 +9354,53 @@
         "overlay_index": null,
         "base_mission_id": 267
     },
+    "267-0": {
+        "id": "267-0",
+        "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
+        "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
+        "average_credits": 4400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
+        },
+        "overlay_index": 0,
+        "base_mission_id": 267
+    },
     "268": {
         "id": 268,
         "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
@@ -8593,6 +9441,50 @@
             "fire_stations": 6
         },
         "overlay_index": null,
+        "base_mission_id": 268
+    },
+    "268-0": {
+        "id": "268-0",
+        "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
+        "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
+        "average_credits": 4400,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 15,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 0,
         "base_mission_id": 268
     },
     "269": {
@@ -8640,6 +9532,53 @@
         "overlay_index": null,
         "base_mission_id": 269
     },
+    "269-0": {
+        "id": "269-0",
+        "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
+        "place": "N\u00e1kladn\u00ed p\u0159\u00edstav",
+        "place_array": {
+            "0": "N\u00e1kladn\u00ed p\u0159\u00edstav"
+        },
+        "average_credits": 4400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
+        },
+        "overlay_index": 0,
+        "base_mission_id": 269
+    },
     "270": {
         "id": 270,
         "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
@@ -8680,6 +9619,50 @@
             "fire_stations": 6
         },
         "overlay_index": null,
+        "base_mission_id": 270
+    },
+    "270-0": {
+        "id": "270-0",
+        "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
+        "place": "N\u00e1kladn\u00ed p\u0159\u00edstav",
+        "place_array": {
+            "0": "N\u00e1kladn\u00ed p\u0159\u00edstav"
+        },
+        "average_credits": 4400,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 15,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 0,
         "base_mission_id": 270
     },
     "271": {
@@ -8727,6 +9710,53 @@
         "overlay_index": null,
         "base_mission_id": 271
     },
+    "271-0": {
+        "id": "271-0",
+        "name": "Autobus ve vod\u011b",
+        "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
+        "average_credits": 4400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 3,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
+        },
+        "overlay_index": 0,
+        "base_mission_id": 271
+    },
     "272": {
         "id": 272,
         "name": "Autobus ve vod\u011b",
@@ -8767,6 +9797,50 @@
             "fire_stations": 6
         },
         "overlay_index": null,
+        "base_mission_id": 272
+    },
+    "272-0": {
+        "id": "272-0",
+        "name": "Autobus ve vod\u011b",
+        "place": "Rybn\u00edk",
+        "place_array": {
+            "0": "Rybn\u00edk"
+        },
+        "average_credits": 4400,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 3,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 15,
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 0,
         "base_mission_id": 272
     },
     "273": {
@@ -8814,6 +9888,53 @@
         "overlay_index": null,
         "base_mission_id": 273
     },
+    "273-0": {
+        "id": "273-0",
+        "name": "Autobus ve vod\u011b",
+        "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
+        "average_credits": 4400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 3,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
+        },
+        "overlay_index": 0,
+        "base_mission_id": 273
+    },
     "274": {
         "id": 274,
         "name": "Autobus ve vod\u011b",
@@ -8854,6 +9975,50 @@
             "fire_stations": 6
         },
         "overlay_index": null,
+        "base_mission_id": 274
+    },
+    "274-0": {
+        "id": "274-0",
+        "name": "Autobus ve vod\u011b",
+        "place": "\u0158eka",
+        "place_array": {
+            "0": "\u0158eka"
+        },
+        "average_credits": 4400,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 3,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 15,
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 0,
         "base_mission_id": 274
     },
     "275": {
@@ -8901,6 +10066,53 @@
         "overlay_index": null,
         "base_mission_id": 275
     },
+    "275-0": {
+        "id": "275-0",
+        "name": "Autobus ve vod\u011b",
+        "place": "Most",
+        "place_array": {
+            "0": "Most"
+        },
+        "average_credits": 4400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 3,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 6,
+            "main_building_extensions": {
+                "0": 2
+            }
+        },
+        "overlay_index": 0,
+        "base_mission_id": 275
+    },
     "276": {
         "id": 276,
         "name": "Autobus ve vod\u011b",
@@ -8941,6 +10153,50 @@
             "fire_stations": 6
         },
         "overlay_index": null,
+        "base_mission_id": 276
+    },
+    "276-0": {
+        "id": "276-0",
+        "name": "Autobus ve vod\u011b",
+        "place": "Most",
+        "place_array": {
+            "0": "Most"
+        },
+        "average_credits": 4400,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90,
+            "patient_critical_care": 80
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 3,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "main_building": 15,
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "disaster_response_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 0,
         "base_mission_id": 276
     },
     "277": {
@@ -12018,7 +13274,7 @@
     },
     "369": {
         "id": 369,
-        "name": "Po\u017e\u00e1r v mrakodrapu",
+        "name": "Po\u017e\u00e1r v\u00fd\u0161kov\u00e9 budovy",
         "place": "V\u00fd\u0161kov\u00e1 budova",
         "place_array": {
             "0": "V\u00fd\u0161kov\u00e1 budova"
@@ -12120,5 +13376,538 @@
         },
         "overlay_index": null,
         "base_mission_id": 371
+    },
+    "374": {
+        "id": 374,
+        "name": "P\u00e1d stromu na osobu",
+        "place": "",
+        "place_array": {},
+        "average_credits": 800,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 90,
+            "helicopter": 60,
+            "patient_critical_care": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 374
+    },
+    "375": {
+        "id": 375,
+        "name": "Sesuv p\u016fdy",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 4
+        },
+        "overlay_index": null,
+        "base_mission_id": 375
+    },
+    "375-0": {
+        "id": "375-0",
+        "name": "Sesuv p\u016fdy",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1700,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "fwk": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "disaster_response_count": 1,
+            "fire_stations": 4
+        },
+        "overlay_index": 0,
+        "base_mission_id": 375
+    },
+    "376": {
+        "id": 376,
+        "name": "P\u00e1d stromu na elektrick\u00e9 veden\u00ed",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 376
+    },
+    "376-0": {
+        "id": "376-0",
+        "name": "P\u00e1d stromu na elektrick\u00e9 veden\u00ed",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "fwk": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "disaster_response_count": 1,
+            "fire_stations": 2
+        },
+        "overlay_index": 0,
+        "base_mission_id": 376
+    },
+    "377": {
+        "id": 377,
+        "name": "P\u00e1d stromu na d\u016fm",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 3
+        },
+        "overlay_index": null,
+        "base_mission_id": 377
+    },
+    "377-0": {
+        "id": "377-0",
+        "name": "P\u00e1d stromu na d\u016fm",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "fwk": 1,
+            "platform_trucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "disaster_response_count": 1,
+            "fire_stations": 3
+        },
+        "overlay_index": 0,
+        "base_mission_id": 377
+    },
+    "378": {
+        "id": 378,
+        "name": "Odtr\u017een\u00ed \u010d\u00e1sti st\u0159echy",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 3
+        },
+        "overlay_index": null,
+        "base_mission_id": 378
+    },
+    "379": {
+        "id": 379,
+        "name": "\u010cerp\u00e1n\u00ed vody ze sklepa",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "allow_crew_carrier_instead_of_lf": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 379
+    },
+    "380": {
+        "id": 380,
+        "name": "N\u00e1raz vlaku do spadl\u00e9ho stromu",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3100,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 70,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 8,
+            "expansion_missions_ids": {
+                "0": 105
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 380
+    },
+    "380-0": {
+        "id": "380-0",
+        "name": "N\u00e1raz vlaku do spadl\u00e9ho stromu",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3600,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 70,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 8,
+            "expansion_missions_ids": {
+                "0": 105
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "disaster_response_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 0,
+        "base_mission_id": 380
+    },
+    "381": {
+        "id": 381,
+        "name": "N\u00e1raz autobusu do spadl\u00e9ho stromu",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2900,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2,
+            "traffic_car": 1
+        },
+        "chances": {
+            "patient_transport": 70,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 381
+    },
+    "381-0": {
+        "id": "381-0",
+        "name": "N\u00e1raz autobusu do spadl\u00e9ho stromu",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2,
+            "traffic_car": 1
+        },
+        "chances": {
+            "patient_transport": 70,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "disaster_response_count": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": 0,
+        "base_mission_id": 381
+    },
+    "382": {
+        "id": 382,
+        "name": "Odtr\u017een\u00ed st\u0159echy",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1200,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 3
+        },
+        "overlay_index": null,
+        "base_mission_id": 382
+    },
+    "382-0": {
+        "id": "382-0",
+        "name": "Odtr\u017een\u00ed st\u0159echy",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1600,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "fwk": 1,
+            "platform_trucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "disaster_response_count": 1,
+            "fire_stations": 3
+        },
+        "overlay_index": 0,
+        "base_mission_id": 382
+    },
+    "383": {
+        "id": 383,
+        "name": "\u010cerp\u00e1n\u00ed vody ze zatopen\u00e9 cesty",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "allow_crew_carrier_instead_of_lf": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 383
+    },
+    "384": {
+        "id": 384,
+        "name": "Monitoring vodn\u00edho toku",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "allow_crew_carrier_instead_of_lf": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 384
     }
 }

@@ -16005,7 +16005,8 @@
             "patient_specializations": "Chirurg og\u00f3lny"
         },
         "prerequisites": {
-            "main_building": 2
+            "main_building": 2,
+            "rescue_stations": 6
         },
         "overlay_index": null,
         "base_mission_id": 470
