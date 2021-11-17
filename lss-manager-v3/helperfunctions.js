@@ -257,6 +257,10 @@ if (I18n.locale == 'en_US') {
         25: ['RV', 1],
         26: ['IP', 1],
         27: ['RLP', 1],
+        28: ['VYA', 1],
+        29: ['AJ', 1],
+        30: ['DA', 1],
+        31: ['RZA', 1],
     };
 } else if (I18n.locale == 'da_DK') {
     lssm.carsById = {
