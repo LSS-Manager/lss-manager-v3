@@ -7243,7 +7243,8 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 182
+                "2": 226,
+                "3": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -8949,65 +8950,6 @@
         },
         "overlay_index": null,
         "base_mission_id": 268
-    },
-    "269": {
-        "id": 269,
-        "name": "Grupa nielegalnych imigrant\u00f3w",
-        "place": "",
-        "place_array": {},
-        "average_credits": 1300,
-        "generated_by": "Komenda Policji",
-        "icons": {
-            "0": "/images/dancinghall_gruen.png",
-            "1": "/images/dancinghall_gelb.png",
-            "2": "/images/dancinghall_rot.png"
-        },
-        "requirements": {
-            "police_cars": 5,
-            "k9": 2
-        },
-        "chances": {},
-        "additional": {
-            "max_possible_prisoners": 4,
-            "filter_id": "police_station_missions"
-        },
-        "prerequisites": {
-            "main_building": 6,
-            "police_stations": 6
-        },
-        "overlay_index": null,
-        "base_mission_id": 269
-    },
-    "270": {
-        "id": 270,
-        "name": "Nielegalny imigrant",
-        "place": "",
-        "place_array": {},
-        "average_credits": 700,
-        "generated_by": "Komenda Policji",
-        "icons": {
-            "0": "/images/baseball_gruen.png",
-            "1": "/images/baseball_gelb.png",
-            "2": "/images/baseball_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2,
-            "k9": 1
-        },
-        "chances": {},
-        "additional": {
-            "expansion_missions_ids": {
-                "0": 269
-            },
-            "max_possible_prisoners": 1,
-            "filter_id": "police_station_missions"
-        },
-        "prerequisites": {
-            "main_building": 6,
-            "police_stations": 6
-        },
-        "overlay_index": null,
-        "base_mission_id": 270
     },
     "271": {
         "id": 271,
