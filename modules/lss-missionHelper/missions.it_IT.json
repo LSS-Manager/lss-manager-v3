@@ -8586,9 +8586,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 193
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -17537,5 +17535,32 @@
         },
         "overlay_index": null,
         "base_mission_id": 454
+    },
+    "455": {
+        "id": 455,
+        "name": "Incendio stufa elettrica",
+        "place": "",
+        "place_array": {},
+        "average_credits": 600,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 500,
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 455
     }
 }

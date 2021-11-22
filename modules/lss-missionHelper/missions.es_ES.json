@@ -11582,5 +11582,40 @@
         },
         "overlay_index": null,
         "base_mission_id": 340
+    },
+    "341": {
+        "id": 341,
+        "name": "Cami\u00f3n portaveh\u00edculos volcado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2750,
+        "generated_by": "Parque de bomberos",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Cirug\u00eda general"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 341
     }
 }

@@ -4984,7 +4984,7 @@
         "place_array": {
             "0": "Tunel"
         },
-        "average_credits": 5800,
+        "average_credits": 7800,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -5005,6 +5005,7 @@
             "road_rescue": 1
         },
         "chances": {
+            "fwk": 90,
             "patient_transport": 25,
             "patient_critical_care": 80
         },
@@ -13376,6 +13377,41 @@
         },
         "overlay_index": null,
         "base_mission_id": 371
+    },
+    "372": {
+        "id": 372,
+        "name": "P\u0159evr\u00e1cen\u00ed soupravy pro p\u0159epravu aut",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2750,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "V\u0161eobecn\u00fd chirurg"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 372
     },
     "374": {
         "id": 374,

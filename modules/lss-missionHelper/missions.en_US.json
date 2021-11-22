@@ -27401,5 +27401,105 @@
         },
         "overlay_index": 2,
         "base_mission_id": 640
+    },
+    "641": {
+        "id": 641,
+        "name": "Cargo Plane Fire",
+        "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
+        "average_credits": 12000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "foam_needed": 3100,
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 6,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 6,
+            "heavy_rescue_vehicles": 4,
+            "arff": 5,
+            "hazmat_vehicles": 2,
+            "police_cars": 5
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-A-3"
+            },
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 5,
+            "police_stations": 4,
+            "fire_support_count": 1,
+            "fire_stations": 13,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "overlay_index": null,
+        "base_mission_id": 641
+    },
+    "641-0": {
+        "id": "641-0",
+        "name": "Large Cargo Plane Fire",
+        "place": "Large Airport (Runway)",
+        "place_array": {
+            "0": "Large Airport (Runway)"
+        },
+        "average_credits": 15000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "foam_needed": 4000,
+            "firetrucks": 15,
+            "battalion_chief_vehicles": 7,
+            "mobile_command_vehicles": 2,
+            "platform_trucks": 8,
+            "heavy_rescue_vehicles": 5,
+            "arff": 7,
+            "hazmat_vehicles": 3,
+            "police_cars": 8
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-A-3"
+            },
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 5,
+            "police_stations": 5,
+            "fire_support_count": 1,
+            "fire_stations": 15,
+            "main_building_extensions": {
+                "0": 1
+            }
+        },
+        "overlay_index": 0,
+        "base_mission_id": 641
     }
 }
