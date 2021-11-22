@@ -32111,5 +32111,51 @@
         },
         "overlay_index": null,
         "base_mission_id": 874
+    },
+    "875": {
+        "id": 875,
+        "name": "Personen onwel in school",
+        "place": "School",
+        "place_array": {
+            "0": "School"
+        },
+        "average_credits": 10290,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "elw3": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "mobile_air_vehicles": 2,
+            "gwmess": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 6,
+            "ovdp": 1
+        },
+        "chances": {
+            "nef": 10,
+            "patient_transport": 55
+        },
+        "additional": {
+            "possible_patient": 30,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 12,
+            "police_stations": 7,
+            "fire_stations": 18
+        },
+        "overlay_index": null,
+        "base_mission_id": 875
     }
 }

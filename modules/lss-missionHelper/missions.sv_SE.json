@@ -4538,9 +4538,7 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {
-                "0": 132
-            },
+            "expansion_missions_ids": {},
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -7079,8 +7077,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -7108,8 +7106,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -7136,8 +7134,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -7165,8 +7163,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -7193,8 +7191,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -7221,8 +7219,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -7250,8 +7248,8 @@
         "additional": {
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -7279,8 +7277,8 @@
         "additional": {
             "max_possible_prisoners": 3,
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -7308,8 +7306,8 @@
         "additional": {
             "max_possible_prisoners": 4,
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -7338,8 +7336,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00",
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00",
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
@@ -7369,8 +7367,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00",
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00",
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
@@ -7400,8 +7398,8 @@
             "possible_patient": 5,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00",
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00",
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -7431,8 +7429,8 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00",
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00",
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -7462,8 +7460,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00",
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00",
             "patient_specializations": "Hj\u00e4rtkirurgi"
         },
         "prerequisites": {
@@ -7499,8 +7497,8 @@
             "duration": 1200,
             "guard_mission": true,
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -7535,8 +7533,8 @@
             "duration": 600,
             "guard_mission": true,
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -7570,8 +7568,8 @@
             "possible_patient": 18,
             "possible_patient_min": 2,
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00",
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00",
             "patient_specializations": "Allm\u00e4nkirurg"
         },
         "prerequisites": {
@@ -11911,5 +11909,41 @@
         },
         "overlay_index": null,
         "base_mission_id": 360
+    },
+    "361": {
+        "id": 361,
+        "name": "Misst\u00e4nkt brand - r\u00f6kutveckling",
+        "place": "",
+        "place_array": {},
+        "average_credits": 760,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "water_tankers": 25
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 6,
+                "1": 5,
+                "2": 20,
+                "3": 22
+            },
+            "filter_id": "firehouse_missions",
+            "fire_alarm_system_possible": true
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 3
+        },
+        "overlay_index": null,
+        "base_mission_id": 361
     }
 }

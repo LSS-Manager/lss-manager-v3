@@ -9297,8 +9297,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -9326,8 +9326,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -9355,8 +9355,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -9385,8 +9385,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -9413,8 +9413,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -9441,8 +9441,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -9470,8 +9470,8 @@
         "additional": {
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -9499,8 +9499,8 @@
         "additional": {
             "max_possible_prisoners": 3,
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -9528,8 +9528,8 @@
         "additional": {
             "max_possible_prisoners": 4,
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -9558,8 +9558,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00",
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00",
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -9589,8 +9589,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00",
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00",
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -9621,8 +9621,8 @@
             "possible_patient": 5,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00",
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00",
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -9652,8 +9652,8 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00",
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00",
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -9683,8 +9683,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00",
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00",
             "patient_specializations": "Kardiochirurgia"
         },
         "prerequisites": {
@@ -9720,8 +9720,8 @@
             "duration": 1200,
             "guard_mission": true,
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -9756,8 +9756,8 @@
             "duration": 600,
             "guard_mission": true,
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00"
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -9792,8 +9792,8 @@
             "possible_patient": 18,
             "possible_patient_min": 2,
             "filter_id": "police_station_missions",
-            "date_start": "2020-11-19T11:00:00+01:00",
-            "date_end": "2020-11-22T23:59:00+01:00",
+            "date_start": "2021-11-19T11:00:00+01:00",
+            "date_end": "2021-11-22T23:59:00+01:00",
             "patient_specializations": "Chirurg og\u00f3lny"
         },
         "prerequisites": {
@@ -15952,5 +15952,74 @@
         },
         "overlay_index": null,
         "base_mission_id": 470
+    },
+    "471": {
+        "id": 471,
+        "name": "Wybuch w fabryce fajerwerk\u00f3w",
+        "place": "Fabryka",
+        "place_array": {
+            "0": "Fabryka"
+        },
+        "average_credits": 18000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "water_needed": 60000,
+            "firetrucks": 15,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 3,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 22
+        },
+        "overlay_index": null,
+        "base_mission_id": 471
+    },
+    "471-0": {
+        "id": "471-0",
+        "name": "Wybuch w fabryce fajerwerk\u00f3w",
+        "place": "Fabryka",
+        "place_array": {
+            "0": "Fabryka"
+        },
+        "average_credits": 14500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "foam_needed": 3000,
+            "water_needed": 60000,
+            "firetrucks": 15,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 3,
+            "mobile_air_vehicles": 1,
+            "foam": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_support_count": 2,
+            "fire_stations": 22
+        },
+        "overlay_index": 0,
+        "base_mission_id": 471
     }
 }

@@ -13577,5 +13577,40 @@
         },
         "overlay_index": null,
         "base_mission_id": 369
+    },
+    "370": {
+        "id": 370,
+        "name": "Veltet biltransport",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2750,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 370
     }
 }
