@@ -5739,9 +5739,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 179
-            },
+            "expansion_missions_ids": {},
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
