@@ -9615,5 +9615,40 @@
         },
         "overlay_index": null,
         "base_mission_id": 286
+    },
+    "287": {
+        "id": 287,
+        "name": "Caminh\u00e3o cegonha derrubado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2750,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Cirurgi\u00e3o geral"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 287
     }
 }

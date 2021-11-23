@@ -9601,7 +9601,7 @@
         "place": "",
         "place_array": {},
         "average_credits": 2750,
-        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "generated_by": "Sta\u021bie de pompieri",
         "icons": {
             "0": "/images/caraccident_gruen.png",
             "1": "/images/caraccident_gelb.png",
@@ -9618,11 +9618,11 @@
         },
         "additional": {
             "possible_patient": 2,
-            "filter_id": "ambulance_station_missions",
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Chirurg general"
         },
         "prerequisites": {
-            "main_building": 2,
+            "main_building": 0,
             "rescue_stations": 2,
             "police_stations": 3,
             "fire_stations": 6

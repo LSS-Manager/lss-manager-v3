@@ -13584,7 +13584,7 @@
         "place": "",
         "place_array": {},
         "average_credits": 2750,
-        "generated_by": "Ambulansestasjon",
+        "generated_by": "Brannstasjon",
         "icons": {
             "0": "/images/caraccident_gruen.png",
             "1": "/images/caraccident_gelb.png",
@@ -13601,11 +13601,11 @@
         },
         "additional": {
             "possible_patient": 2,
-            "filter_id": "ambulance_station_missions",
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
-            "main_building": 2,
+            "main_building": 0,
             "rescue_stations": 2,
             "police_stations": 3,
             "fire_stations": 6
