@@ -663,11 +663,11 @@ const lssm_missionhelper_adjustPosition = () => {
     const MISSION_WINDOW =
         null === window.location.href.match(/einsaetze\/\d+/);
     let mission_help = $('#mission_help');
-    const MISSION_TYPE = MISSION_WINDOW
-        ? mission_help[0]
-            ? mission_help.attr('href').split('/').pop().replace(/\?.*/, '')
-            : null
+    let MISSION_TYPE = MISSION_WINDOW
+        ? mission_help[0]?.getAttribute('href')?.match(/(?!^\/einsaetze\/)\d+/)?.[0] || '-1';
         : window.location.href.match(/\d+([^?]|$)/)[0];
+    const overlayIndex = document.getElementById('mission_general_info')?.getAttribute('data-overlay-index') ?? 'null';
+    if (MISSION_WINDOW && overlayIndex) MISSION_WINDOW += "-" + overlayIndex;
     const MISSION_ID = window.location.href.replace(/\D/g, '');
     const SETTINGS = Object.keys(managed_settings.settings).reduce(
         (result, key) => {
