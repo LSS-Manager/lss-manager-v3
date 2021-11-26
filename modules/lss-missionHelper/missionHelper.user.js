@@ -667,7 +667,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ? mission_help[0]?.getAttribute('href')?.match(/(?!^\/einsaetze\/)\d+/)?.[0] || '-1'
         : window.location.href.match(/\d+([^?]|$)/)[0];
     const overlayIndex = document.getElementById('mission_general_info')?.getAttribute('data-overlay-index') ?? 'null';
-    if (MISSION_WINDOW && overlayIndex) MISSION_WINDOW += "-" + overlayIndex;
+    if (MISSION_WINDOW && overlayIndex) MISSION_TYPE += "-" + overlayIndex;
     const MISSION_ID = window.location.href.replace(/\D/g, '');
     const SETTINGS = Object.keys(managed_settings.settings).reduce(
         (result, key) => {
