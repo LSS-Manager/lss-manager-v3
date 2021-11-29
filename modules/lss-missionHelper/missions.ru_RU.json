@@ -11822,5 +11822,34 @@
         },
         "overlay_index": null,
         "base_mission_id": 346
+    },
+    "347": {
+        "id": 347,
+        "name": "\u041f\u043e\u0434\u043e\u0437\u0440\u0435\u043d\u0438\u0435 \u043d\u0430 \u0430\u043f\u043f\u0435\u043d\u0434\u0438\u0446\u0438\u0442",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0438\u044f \u0441\u043a\u043e\u0440\u043e\u0439 \u043f\u043e\u043c\u043e\u0449\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 65
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u0425\u0438\u0440\u0443\u0440\u0433 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 347
     }
 }

@@ -9907,5 +9907,34 @@
         },
         "overlay_index": null,
         "base_mission_id": 285
+    },
+    "286": {
+        "id": 286,
+        "name": "\u866b\u5782\u708e\u7591\u3044",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "\u6551\u6025\u8eca\u30b9\u30c6\u30fc\u30b7\u30e7\u30f3",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 65
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u4e00\u822c\u5916\u79d1"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 286
     }
 }

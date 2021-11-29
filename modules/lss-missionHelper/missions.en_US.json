@@ -27501,5 +27501,56 @@
         },
         "overlay_index": 0,
         "base_mission_id": 641
+    },
+    "642": {
+        "id": 642,
+        "name": "Building Collapsed into Water",
+        "place": "Lake\nRiver",
+        "place_array": {
+            "0": "Lake",
+            "1": "River"
+        },
+        "average_credits": 12000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "large_rescue_boat": 2,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 6,
+            "police_cars": 6,
+            "boats": 2,
+            "k9": 2,
+            "police_boat": 2,
+            "fire_investigation": 2
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 3,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "14-D-6"
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "wasserrettung": 1,
+            "police_stations": 8,
+            "rescue_boat_docks": 1,
+            "water_police_count": 1,
+            "fire_investigation_count": 1,
+            "fire_stations": 15
+        },
+        "overlay_index": null,
+        "base_mission_id": 642
     }
 }

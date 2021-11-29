@@ -13868,5 +13868,34 @@
         },
         "overlay_index": null,
         "base_mission_id": 379
+    },
+    "380": {
+        "id": 380,
+        "name": "Mulig blindtarmsbet\u00e6ndelse",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 65
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Kirurg"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 380
     }
 }
