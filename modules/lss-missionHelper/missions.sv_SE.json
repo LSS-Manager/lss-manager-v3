@@ -11943,5 +11943,35 @@
         },
         "overlay_index": null,
         "base_mission_id": 361
+    },
+    "362": {
+        "id": 362,
+        "name": "Skadeg\u00f6relse, skolbyggnad",
+        "place": "Skola",
+        "place_array": {
+            "0": "Skola"
+        },
+        "average_credits": 530,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "k9": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 5
+        },
+        "overlay_index": null,
+        "base_mission_id": 362
     }
 }

@@ -9629,5 +9629,34 @@
         },
         "overlay_index": null,
         "base_mission_id": 279
+    },
+    "280": {
+        "id": 280,
+        "name": "Suspiciune de apendicit\u0103",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 65
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg general"
+        },
+        "prerequisites": {
+            "main_building": 2,
+            "rescue_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 280
     }
 }

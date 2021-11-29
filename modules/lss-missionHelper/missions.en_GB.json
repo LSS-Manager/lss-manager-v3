@@ -17055,5 +17055,115 @@
         },
         "overlay_index": null,
         "base_mission_id": 395
+    },
+    "396": {
+        "id": 396,
+        "name": "Residential Fire (Hoarder level 1-3)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1400,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 30,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0
+        },
+        "overlay_index": null,
+        "base_mission_id": 396
+    },
+    "397": {
+        "id": 397,
+        "name": "Residential Fire (Hoarder level 4-6)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 20,
+            "patient_transport": 50,
+            "helicopter": 30,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0
+        },
+        "overlay_index": null,
+        "base_mission_id": 397
+    },
+    "398": {
+        "id": 398,
+        "name": "Residential Fire (Hoarder level 7-9)",
+        "place": "",
+        "place_array": {},
+        "average_credits": 6000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 6,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "platform_trucks": 20,
+            "patient_transport": 50,
+            "helicopter": 30,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0
+        },
+        "overlay_index": null,
+        "base_mission_id": 398
     }
 }

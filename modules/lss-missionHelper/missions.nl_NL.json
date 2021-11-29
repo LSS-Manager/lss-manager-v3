@@ -32760,6 +32760,36 @@
         "overlay_index": null,
         "base_mission_id": 875
     },
+    "876": {
+        "id": 876,
+        "name": "Drugsdealers in de wijk",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/cannabis_gruen.png",
+            "1": "/images/cannabis_gelb.png",
+            "2": "/images/cannabis_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 124
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 876
+    },
     "877": {
         "id": 877,
         "name": "Nablussen",
