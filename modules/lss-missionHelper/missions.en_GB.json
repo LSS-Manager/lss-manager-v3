@@ -3375,8 +3375,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-12-01T10:00:00+00:00",
-            "date_end": "2020-12-26T23:59:00+00:00"
+            "date_start": "2021-12-01T10:00:00+00:00",
+            "date_end": "2021-12-26T23:59:00+00:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -3411,8 +3411,8 @@
                 "0": "C-2"
             },
             "filter_id": "firehouse_missions",
-            "date_start": "2020-12-01T10:00:00+00:00",
-            "date_end": "2020-12-26T23:59:00+00:00",
+            "date_start": "2021-12-01T10:00:00+00:00",
+            "date_end": "2021-12-26T23:59:00+00:00",
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -3448,8 +3448,8 @@
                 "0": "C-2"
             },
             "filter_id": "firehouse_missions",
-            "date_start": "2020-12-01T10:00:00+00:00",
-            "date_end": "2020-12-26T23:59:00+00:00",
+            "date_start": "2021-12-01T10:00:00+00:00",
+            "date_end": "2021-12-26T23:59:00+00:00",
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -3485,8 +3485,8 @@
                 "1": "C-3"
             },
             "filter_id": "firehouse_missions",
-            "date_start": "2020-12-01T10:00:00+00:00",
-            "date_end": "2020-12-26T23:59:00+00:00",
+            "date_start": "2021-12-01T10:00:00+00:00",
+            "date_end": "2021-12-26T23:59:00+00:00",
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -3514,8 +3514,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-12-01T10:00:00+00:00",
-            "date_end": "2020-12-26T23:59:00+00:00"
+            "date_start": "2021-12-01T10:00:00+00:00",
+            "date_end": "2021-12-26T23:59:00+00:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -3542,8 +3542,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-12-01T10:00:00+00:00",
-            "date_end": "2020-12-26T23:59:00+00:00"
+            "date_start": "2021-12-01T10:00:00+00:00",
+            "date_end": "2021-12-26T23:59:00+00:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -3579,8 +3579,8 @@
                 "1": "C-4"
             },
             "filter_id": "police_station_missions",
-            "date_start": "2020-12-01T10:00:00+00:00",
-            "date_end": "2020-12-26T23:59:00+00:00",
+            "date_start": "2021-12-01T10:00:00+00:00",
+            "date_end": "2021-12-26T23:59:00+00:00",
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -16916,7 +16916,9 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "main_building": 0
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_stations": 2
         },
         "overlay_index": null,
         "base_mission_id": 392
@@ -16945,7 +16947,9 @@
             "need_traffic_car_only_if_present": true
         },
         "prerequisites": {
-            "main_building": 0
+            "main_building": 0,
+            "police_stations": 2,
+            "fire_stations": 2
         },
         "overlay_index": null,
         "base_mission_id": 393
@@ -17051,7 +17055,8 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
-            "main_building": 6
+            "main_building": 6,
+            "police_stations": 2
         },
         "overlay_index": null,
         "base_mission_id": 395
@@ -17085,7 +17090,9 @@
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
-            "main_building": 0
+            "main_building": 0,
+            "rescue_stations": 1,
+            "fire_stations": 3
         },
         "overlay_index": null,
         "base_mission_id": 396
@@ -17122,7 +17129,9 @@
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
-            "main_building": 0
+            "main_building": 0,
+            "rescue_stations": 1,
+            "fire_stations": 6
         },
         "overlay_index": null,
         "base_mission_id": 397
@@ -17161,7 +17170,9 @@
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
-            "main_building": 0
+            "main_building": 0,
+            "rescue_stations": 6,
+            "fire_stations": 13
         },
         "overlay_index": null,
         "base_mission_id": 398

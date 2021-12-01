@@ -6659,8 +6659,8 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "police_station_missions",
-            "date_start": "2020-12-01T00:00:00+01:00",
-            "date_end": "2020-12-27T00:00:00+01:00",
+            "date_start": "2021-12-01T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -6691,8 +6691,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-12-01T00:00:00+01:00",
-            "date_end": "2020-12-27T00:00:00+01:00"
+            "date_start": "2021-12-01T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -6727,8 +6727,8 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
-            "date_start": "2020-12-01T00:00:00+01:00",
-            "date_end": "2020-12-27T00:00:00+01:00",
+            "date_start": "2021-12-01T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -6764,8 +6764,8 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
-            "date_start": "2020-12-01T00:00:00+01:00",
-            "date_end": "2020-12-27T00:00:00+01:00",
+            "date_start": "2021-12-01T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -6800,8 +6800,8 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
-            "date_start": "2020-12-01T00:00:00+01:00",
-            "date_end": "2020-12-27T00:00:00+01:00",
+            "date_start": "2021-12-01T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -6832,8 +6832,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-12-01T00:00:00+01:00",
-            "date_end": "2020-12-27T00:00:00+01:00"
+            "date_start": "2021-12-01T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -6867,8 +6867,8 @@
             "possible_patient": 5,
             "filter_id": "firehouse_missions",
             "need_traffic_car_only_if_present": true,
-            "date_start": "2020-12-01T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -6906,8 +6906,8 @@
                 "0": 198
             },
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-12-01T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -6938,8 +6938,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-12-01T00:00:00+01:00",
-            "date_end": "2020-12-27T00:00:00+01:00",
+            "date_start": "2021-12-01T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -6969,8 +6969,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-12-01T00:00:00+01:00",
-            "date_end": "2020-12-27T00:00:00+01:00",
+            "date_start": "2021-12-01T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
@@ -7004,8 +7004,8 @@
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
             "need_traffic_car_only_if_present": true,
-            "date_start": "2020-12-01T00:00:00+01:00",
-            "date_end": "2020-12-27T00:00:00+01:00",
+            "date_start": "2021-12-01T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
