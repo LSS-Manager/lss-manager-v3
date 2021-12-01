@@ -1641,8 +1641,8 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
-            "date_start": "2020-12-01T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -1674,8 +1674,8 @@
         "additional": {
             "possible_patient": 3,
             "filter_id": "firehouse_missions",
-            "date_start": "2020-12-01T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -1708,8 +1708,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-12-01T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -1737,8 +1737,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-12-01T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00"
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -1769,8 +1769,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-12-01T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -4688,8 +4688,8 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions",
-            "date_start": "2020-12-01T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00"
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 0,
@@ -4721,8 +4721,8 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "police_station_missions",
-            "date_start": "2020-12-01T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -5425,9 +5425,8 @@
                 "1": 668
             },
             "followup_missions_ids": {
-                "0": 27,
-                "1": 43,
-                "2": 83
+                "0": 43,
+                "1": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -7619,8 +7618,8 @@
         "additional": {
             "filter_id": "police_station_missions",
             "max_civil_patrol_replacing_police_cars": 1,
-            "date_start": "2020-12-01T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00"
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -7653,8 +7652,8 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
-            "date_start": "2020-12-01T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -29146,8 +29145,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-12-18T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Allgemeine Chirurgie"
         },
         "prerequisites": {
@@ -29188,8 +29187,8 @@
             "possible_patient": 25,
             "possible_patient_min": 10,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-12-18T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -29233,8 +29232,8 @@
             "possible_patient": 25,
             "possible_patient_min": 10,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-12-18T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -29279,8 +29278,8 @@
             "possible_patient": 70,
             "possible_patient_min": 35,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-12-18T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -29325,8 +29324,8 @@
             "possible_patient": 70,
             "possible_patient_min": 35,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-12-18T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -29373,8 +29372,8 @@
             "possible_patient": 250,
             "possible_patient_min": 120,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-12-18T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -29421,8 +29420,8 @@
             "possible_patient": 250,
             "possible_patient_min": 120,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-12-18T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -29465,8 +29464,8 @@
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
-            "date_start": "2020-12-18T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -29504,8 +29503,8 @@
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
-            "date_start": "2020-12-18T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -29537,8 +29536,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "2020-12-18T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00",
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -29566,8 +29565,8 @@
         "chances": {},
         "additional": {
             "filter_id": "police_station_missions",
-            "date_start": "2020-12-18T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00"
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -29596,8 +29595,8 @@
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
             "max_civil_patrol_replacing_police_cars": 1,
-            "date_start": "2020-12-18T10:00:00+01:00",
-            "date_end": "2020-12-26T23:59:00+01:00"
+            "date_start": "2021-12-01T10:00:00+01:00",
+            "date_end": "2021-12-26T23:59:00+01:00"
         },
         "prerequisites": {
             "main_building": 6,
@@ -35143,9 +35142,9 @@
         "average_credits": null,
         "generated_by": "Rettungswache",
         "icons": {
-            "0": "/images/ambulance_gruen.png",
-            "1": "/images/ambulance_gelb.png",
-            "2": "/images/ambulance_rot.png"
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
         "chances": {
