@@ -5425,8 +5425,9 @@
                 "1": 668
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -35163,5 +35164,53 @@
         },
         "overlay_index": null,
         "base_mission_id": 691
+    },
+    "692": {
+        "id": 692,
+        "name": "Rauchentwicklung in Einkaufszentrum",
+        "place": "Einkaufszentrum",
+        "place_array": {
+            "0": "Einkaufszentrum"
+        },
+        "average_credits": 5000,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "gwmess": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "water_tankers": 50,
+            "mobile_air_vehicles": 40,
+            "gwmess": 10,
+            "hazmat_vehicles": 10,
+            "nef": 25,
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 5,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 8,
+            "police_stations": 4,
+            "fire_stations": 10
+        },
+        "overlay_index": null,
+        "base_mission_id": 692
     }
 }
