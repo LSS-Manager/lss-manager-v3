@@ -8667,6 +8667,460 @@
         "overlay_index": 1,
         "base_mission_id": 242
     },
+    "243": {
+        "id": 243,
+        "name": "Accident survenu pendant la pr\u00e9paration du g\u00e2teau d\u2019anniversaire",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "244": {
+        "id": 244,
+        "name": "Ballon d\u2019anniversaire d\u2019un invit\u00e9 coinc\u00e9 dans un arbre",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "245": {
+        "id": 245,
+        "name": "Incendie provoqu\u00e9 par des d\u00e9corations \u00e9lectriques d\u2019anniversaire (mineur)",
+        "place": null,
+        "average_credits": 1850,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "246": {
+        "id": 246,
+        "name": "Incendie provoqu\u00e9 par des d\u00e9corations \u00e9lectriques d\u2019anniversaire (majeur)",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "247": {
+        "id": 247,
+        "name": "Vol de cadeau d\u2019anniversaire",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "248": {
+        "id": 248,
+        "name": "Sabotage de juke-box d\u2019anniversaire",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "249": {
+        "id": 249,
+        "name": "Disparition d\u2019un invit\u00e9 de f\u00eate d\u2019anniversaire",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "250": {
+        "id": 250,
+        "name": "Vol des d\u00e9corations d\u2019anniversaire par des invit\u00e9s",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "251": {
+        "id": 251,
+        "name": "Vol du g\u00e2teau d\u2019anniversaire par des invit\u00e9s",
+        "place": null,
+        "average_credits": 5000,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "252": {
+        "id": 252,
+        "name": "Consommation excessive de g\u00e2teau d\u2019anniversaire par un invit\u00e9",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "253": {
+        "id": 253,
+        "name": "Coupure par papier apr\u00e8s ouverture des cadeaux d\u2019anniversaire",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "254": {
+        "id": 254,
+        "name": "Douleurs articulaires signal\u00e9es par un invit\u00e9 apr\u00e8s session de danse \u00e0 anniversaire",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 7
+        }
+    },
+    "255": {
+        "id": 255,
+        "name": "Invit\u00e9 bless\u00e9 par bouchon de champagne \u00e0 anniversaire",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "256": {
+        "id": 256,
+        "name": "Perte de connaissance d\u2019un invit\u00e9 \u00e0 anniversaire",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+            "patient_specializations": "Chirurgie cardiaque"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "257": {
+        "id": 257,
+        "name": "Disparition de plusieurs personnes sur la piste de danse",
+        "place": null,
+        "average_credits": 7500,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "20\u00a0minutes",
+            "duration": 1200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "258": {
+        "id": 258,
+        "name": "Gonflage de ballons pour f\u00eate d\u2019anniversaire",
+        "place": null,
+        "average_credits": 15000,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "ambulances": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "10\u00a0minutes",
+            "duration": 600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "259": {
+        "id": 259,
+        "name": "Ingestion de boisson empoisonn\u00e9e par un invit\u00e9 \u00e0 anniversaire",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 18,
+            "possible_patient_min": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-12-03T23:59:00+01:00",
+            "date_end": "2021-12-06T23:59:00+01:00",
+            "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 6
+        }
+    },
     "260": {
         "id": 260,
         "name": "Feu de for\u00eat - Petit",
