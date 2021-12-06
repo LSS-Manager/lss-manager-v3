@@ -13975,5 +13975,36 @@
         },
         "overlay_index": null,
         "base_mission_id": 384
+    },
+    "385": {
+        "id": 385,
+        "name": "Zabarik\u00e1dovan\u00e1 osoba se st\u0159elnou zbran\u00ed",
+        "place": "",
+        "place_array": {},
+        "average_credits": 7500,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 7,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "swat_personnel": 12,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 8,
+            "police_helicopter_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 385
     }
 }

@@ -5322,6 +5322,346 @@
         "overlay_index": null,
         "base_mission_id": 168
     },
+    "169": {
+        "id": 169,
+        "name": "Brandende kerstboom",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 169
+    },
+    "170": {
+        "id": 170,
+        "name": "Brandende kerstboom",
+        "place": "Kerstmarkt",
+        "place_array": {
+            "0": "Kerstmarkt"
+        },
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 170
+    },
+    "171": {
+        "id": 171,
+        "name": "Verkeersongeval door gladheid",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1010,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 40,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 171
+    },
+    "172": {
+        "id": 172,
+        "name": "Gevallen kerstman",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 172
+    },
+    "173": {
+        "id": 173,
+        "name": "Ruzie op de kerstmarkt",
+        "place": "Kerstmarkt",
+        "place_array": {
+            "0": "Kerstmarkt"
+        },
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 173
+    },
+    "174": {
+        "id": 174,
+        "name": "Diefstal op de kerstmarkt",
+        "place": "Kerstmarkt",
+        "place_array": {
+            "0": "Kerstmarkt"
+        },
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 174
+    },
+    "175": {
+        "id": 175,
+        "name": "Brandende kerstmarktkraam",
+        "place": "Kerstmarkt",
+        "place_array": {
+            "0": "Kerstmarkt"
+        },
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 175
+    },
+    "176": {
+        "id": 176,
+        "name": "Gevallen schaatser",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 176
+    },
+    "177": {
+        "id": 177,
+        "name": "Gevallen persoon door gladheid",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 177
+    },
+    "178": {
+        "id": 178,
+        "name": "Donkere dagen offensief",
+        "place": "",
+        "place_array": {},
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 178
+    },
+    "179": {
+        "id": 179,
+        "name": "Snijwond door gebroken kerstbal",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 179
+    },
     "180": {
         "id": 180,
         "name": "Bergen object uit water voor politie",
@@ -12585,6 +12925,176 @@
         "overlay_index": null,
         "base_mission_id": 370
     },
+    "371": {
+        "id": 371,
+        "name": "Verlaten slee langs waterkant",
+        "place": "Meer",
+        "place_array": {
+            "0": "Meer"
+        },
+        "average_credits": 1510,
+        "generated_by": "Waterongevallen",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1,
+            "diver_units": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "main_building": -3,
+            "wasserrettung": 1,
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 371
+    },
+    "372": {
+        "id": 372,
+        "name": "Brandende kerststal",
+        "place": "Kerstmarkt",
+        "place_array": {
+            "0": "Kerstmarkt"
+        },
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 372
+    },
+    "373": {
+        "id": 373,
+        "name": "Brandwonden door gourmetstel",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 373
+    },
+    "374": {
+        "id": 374,
+        "name": "Geluidsoverlast door kerstmuziek",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 374
+    },
+    "375": {
+        "id": 375,
+        "name": "Persoon bekneld onder kerstpakketten",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1420,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 80,
+            "heavy_rescue_vehicles": 20,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 375
+    },
     "376": {
         "id": 376,
         "name": "Persoon te water",
@@ -19384,6 +19894,200 @@
         },
         "overlay_index": null,
         "base_mission_id": 541
+    },
+    "542": {
+        "id": 542,
+        "name": "Verkeersongeval door gladheid",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1010,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 40,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 542
+    },
+    "543": {
+        "id": 543,
+        "name": "Verkeersongeval door gladheid",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1010,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 40,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        },
+        "overlay_index": null,
+        "base_mission_id": 543
+    },
+    "544": {
+        "id": 544,
+        "name": "Gevallen persoon door gladheid",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 544
+    },
+    "545": {
+        "id": 545,
+        "name": "Gevallen persoon door gladheid",
+        "place": "",
+        "place_array": {},
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 3,
+            "rescue_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 545
+    },
+    "546": {
+        "id": 546,
+        "name": "Donkere dagen offensief",
+        "place": "",
+        "place_array": {},
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 546
+    },
+    "547": {
+        "id": 547,
+        "name": "Donkere dagen offensief",
+        "place": "",
+        "place_array": {},
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "2021-12-06T00:00:00+01:00",
+            "date_end": "2021-12-27T00:00:00+01:00"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 2
+        },
+        "overlay_index": null,
+        "base_mission_id": 547
     },
     "548": {
         "id": 548,
@@ -32060,7 +32764,8 @@
         "chances": {},
         "additional": {
             "expansion_missions_ids": {
-                "0": 124
+                "0": 124,
+                "1": 873
             },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions"
@@ -32271,5 +32976,220 @@
         },
         "overlay_index": null,
         "base_mission_id": 879
+    },
+    "880": {
+        "id": 880,
+        "name": "Duinbrand",
+        "place": "Duinen",
+        "place_array": {
+            "0": "Duinen"
+        },
+        "average_credits": 19280,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 122000,
+            "firetrucks": 1,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "elw3": 1,
+            "mobile_air_vehicles": 2,
+            "gwmess": 5,
+            "hazmat_vehicles": 2,
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "ovdp": 2,
+            "water_rescue": 2,
+            "bike_police": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 25,
+            "gwmess": 80,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 5,
+            "expansion_missions_ids": {
+                "0": 866,
+                "1": 867
+            },
+            "followup_missions_ids": {
+                "0": 48,
+                "1": 99,
+                "2": 225,
+                "3": 240,
+                "4": 768,
+                "5": 878,
+                "6": 878,
+                "7": 879,
+                "8": 879
+            },
+            "filter_id": "water_watch_missions",
+            "subsequent_missions_ids": {
+                "0": 877
+            },
+            "need_bike_police_only_if_present": true,
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "main_building": 16,
+            "water_rescue_2": 2,
+            "rescue_stations": 8,
+            "police_stations": 11,
+            "police_helicopter_stations": 1,
+            "bereitschaftspolizei": 2,
+            "fire_stations": 33
+        },
+        "overlay_index": null,
+        "base_mission_id": 880
+    },
+    "881": {
+        "id": 881,
+        "name": "Duinbrand",
+        "place": "Duinen",
+        "place_array": {
+            "0": "Duinen"
+        },
+        "average_credits": 22390,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 130000,
+            "firetrucks": 1,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 2,
+            "elw3": 2,
+            "mobile_air_vehicles": 2,
+            "gwmess": 6,
+            "hazmat_vehicles": 2,
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "ovdp": 2,
+            "water_rescue": 2,
+            "bike_police": 2
+        },
+        "chances": {
+            "elw3": 80,
+            "mobile_air_vehicles": 75,
+            "gwmess": 80,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 5,
+            "expansion_missions_ids": {
+                "0": 867
+            },
+            "followup_missions_ids": {
+                "0": 48,
+                "1": 99,
+                "2": 225,
+                "3": 240,
+                "4": 768,
+                "5": 878,
+                "6": 878,
+                "7": 879,
+                "8": 879
+            },
+            "filter_id": "water_watch_missions",
+            "allow_arff_instead_of_lf": true,
+            "subsequent_missions_ids": {
+                "0": 877
+            },
+            "need_bike_police_only_if_present": true,
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "main_building": 16,
+            "water_rescue_2": 2,
+            "rescue_stations": 8,
+            "police_stations": 11,
+            "police_helicopter_stations": 1,
+            "bereitschaftspolizei": 2,
+            "fire_stations": 39
+        },
+        "overlay_index": null,
+        "base_mission_id": 881
+    },
+    "882": {
+        "id": 882,
+        "name": "Duinbrand",
+        "place": "Duinen",
+        "place_array": {
+            "0": "Duinen"
+        },
+        "average_credits": 24590,
+        "generated_by": "Waterreddingspost",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 168000,
+            "firetrucks": 1,
+            "spokesman": 2,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 2,
+            "elw3": 2,
+            "mobile_air_vehicles": 2,
+            "gwmess": 6,
+            "hazmat_vehicles": 2,
+            "police_helicopters": 1,
+            "police_cars": 8,
+            "ovdp": 2,
+            "water_rescue": 2,
+            "bike_police": 2
+        },
+        "chances": {
+            "elw3": 80,
+            "mobile_air_vehicles": 75,
+            "gwmess": 80,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 5,
+            "followup_missions_ids": {
+                "0": 48,
+                "1": 99,
+                "2": 225,
+                "3": 240,
+                "4": 768,
+                "5": 878,
+                "6": 878,
+                "7": 879,
+                "8": 879
+            },
+            "filter_id": "water_watch_missions",
+            "allow_arff_instead_of_lf": true,
+            "subsequent_missions_ids": {
+                "0": 877
+            },
+            "need_bike_police_only_if_present": true,
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "main_building": 16,
+            "water_rescue_2": 2,
+            "rescue_stations": 8,
+            "police_stations": 13,
+            "police_helicopter_stations": 1,
+            "bereitschaftspolizei": 2,
+            "fire_stations": 46
+        },
+        "overlay_index": null,
+        "base_mission_id": 882
     }
 }

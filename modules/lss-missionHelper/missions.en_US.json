@@ -27552,5 +27552,31 @@
         },
         "overlay_index": null,
         "base_mission_id": 642
+    },
+    "643": {
+        "id": 643,
+        "name": "Disabled Vehicle",
+        "place": "",
+        "place_array": {},
+        "average_credits": 500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 643
     }
 }

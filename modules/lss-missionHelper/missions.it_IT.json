@@ -17589,5 +17589,35 @@
         },
         "overlay_index": null,
         "base_mission_id": 456
+    },
+    "457": {
+        "id": 457,
+        "name": "Legnaia in fiamme",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2900,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 10000,
+            "firetrucks": 1,
+            "brush_truck": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "brush_extension": 1,
+            "fire_stations": 4
+        },
+        "overlay_index": null,
+        "base_mission_id": 457
     }
 }

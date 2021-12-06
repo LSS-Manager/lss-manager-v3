@@ -16095,5 +16095,77 @@
         },
         "overlay_index": null,
         "base_mission_id": 473
+    },
+    "474": {
+        "id": 474,
+        "name": "Po\u017car hotelu",
+        "place": "Hotel",
+        "place_array": {
+            "0": "Hotel"
+        },
+        "average_credits": 8700,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 2,
+            "height_rescue_units": 1
+        },
+        "chances": {
+            "patient_transport": 65,
+            "height_rescue_units": 25,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 6,
+            "fire_stations": 18
+        },
+        "overlay_index": null,
+        "base_mission_id": 474
+    },
+    "475": {
+        "id": 475,
+        "name": "Po\u017car w muzeum",
+        "place": "Muzeum",
+        "place_array": {
+            "0": "Muzeum"
+        },
+        "average_credits": 3200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "fire_stations": 10
+        },
+        "overlay_index": null,
+        "base_mission_id": 475
     }
 }

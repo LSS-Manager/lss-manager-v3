@@ -9679,5 +9679,34 @@
         },
         "overlay_index": null,
         "base_mission_id": 288
+    },
+    "289": {
+        "id": 289,
+        "name": "Esta\u00e7\u00e3o de transforma\u00e7\u00e3o em combust\u00e3o",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 7
+        },
+        "overlay_index": null,
+        "base_mission_id": 289
     }
 }

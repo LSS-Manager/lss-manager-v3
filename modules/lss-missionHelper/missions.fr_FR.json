@@ -13822,5 +13822,43 @@
         },
         "overlay_index": null,
         "base_mission_id": 391
+    },
+    "392": {
+        "id": 392,
+        "name": "Chute d'ULM",
+        "place": "",
+        "place_array": {},
+        "average_credits": 3500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 50,
+            "patient_critical_care": 85
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 6,
+            "police_stations": 5,
+            "fire_stations": 10
+        },
+        "overlay_index": null,
+        "base_mission_id": 392
     }
 }
