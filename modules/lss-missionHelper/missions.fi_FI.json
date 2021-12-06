@@ -764,7 +764,8 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2
+                "1": 2,
+                "2": 29
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
@@ -12558,7 +12559,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "firehouse_missions",
+            "filter_id": "ambulance_station_missions",
             "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
         },

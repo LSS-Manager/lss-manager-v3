@@ -17180,9 +17180,9 @@
     "399": {
         "id": 399,
         "name": "Fire in allotment (Small)",
-        "place": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.allotment\">Allotment</span>",
+        "place": "Allotment",
         "place_array": {
-            "0": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.allotment\">Allotment</span>"
+            "0": "Allotment"
         },
         "average_credits": 700,
         "generated_by": "Fire Station",
@@ -17208,9 +17208,9 @@
     "400": {
         "id": 400,
         "name": "Fire in allotment (Small) (Involving Cylinders)",
-        "place": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.allotment\">Allotment</span>",
+        "place": "Allotment",
         "place_array": {
-            "0": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.allotment\">Allotment</span>"
+            "0": "Allotment"
         },
         "average_credits": 1000,
         "generated_by": "Fire Station",
@@ -17236,9 +17236,9 @@
     "401": {
         "id": 401,
         "name": "Fire in allotment (Medium)",
-        "place": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.allotment\">Allotment</span>",
+        "place": "Allotment",
         "place_array": {
-            "0": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.allotment\">Allotment</span>"
+            "0": "Allotment"
         },
         "average_credits": 2000,
         "generated_by": "Fire Station",
@@ -17265,9 +17265,9 @@
     "402": {
         "id": 402,
         "name": "Fire in allotment (Large)",
-        "place": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.allotment\">Allotment</span>",
+        "place": "Allotment",
         "place_array": {
-            "0": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_GB.poi.allotment\">Allotment</span>"
+            "0": "Allotment"
         },
         "average_credits": 3000,
         "generated_by": "Fire Station",

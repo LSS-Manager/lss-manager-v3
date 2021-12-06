@@ -32764,7 +32764,8 @@
         "chances": {},
         "additional": {
             "expansion_missions_ids": {
-                "0": 124
+                "0": 124,
+                "1": 873
             },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions"
@@ -33018,7 +33019,21 @@
                 "0": 866,
                 "1": 867
             },
+            "followup_missions_ids": {
+                "0": 48,
+                "1": 99,
+                "2": 225,
+                "3": 240,
+                "4": 768,
+                "5": 878,
+                "6": 878,
+                "7": 879,
+                "8": 879
+            },
             "filter_id": "water_watch_missions",
+            "subsequent_missions_ids": {
+                "0": 877
+            },
             "need_bike_police_only_if_present": true,
             "patient_specializations": "Algemene Heelkunde"
         },
@@ -33076,8 +33091,22 @@
             "expansion_missions_ids": {
                 "0": 867
             },
+            "followup_missions_ids": {
+                "0": 48,
+                "1": 99,
+                "2": 225,
+                "3": 240,
+                "4": 768,
+                "5": 878,
+                "6": 878,
+                "7": 879,
+                "8": 879
+            },
             "filter_id": "water_watch_missions",
             "allow_arff_instead_of_lf": true,
+            "subsequent_missions_ids": {
+                "0": 877
+            },
             "need_bike_police_only_if_present": true,
             "patient_specializations": "Algemene Heelkunde"
         },
@@ -33132,8 +33161,22 @@
         "additional": {
             "possible_patient": 10,
             "possible_patient_min": 5,
+            "followup_missions_ids": {
+                "0": 48,
+                "1": 99,
+                "2": 225,
+                "3": 240,
+                "4": 768,
+                "5": 878,
+                "6": 878,
+                "7": 879,
+                "8": 879
+            },
             "filter_id": "water_watch_missions",
             "allow_arff_instead_of_lf": true,
+            "subsequent_missions_ids": {
+                "0": 877
+            },
             "need_bike_police_only_if_present": true,
             "patient_specializations": "Algemene Heelkunde"
         },
