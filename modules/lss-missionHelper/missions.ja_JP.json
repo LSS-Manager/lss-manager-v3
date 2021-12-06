@@ -9936,5 +9936,34 @@
         },
         "overlay_index": null,
         "base_mission_id": 286
+    },
+    "287": {
+        "id": 287,
+        "name": "\u5909\u96fb\u6240\u706b\u707d",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "\u6d88\u9632\u5c40",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 7
+        },
+        "overlay_index": null,
+        "base_mission_id": 287
     }
 }

@@ -4538,7 +4538,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -5739,9 +5741,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 179
-            },
+            "expansion_missions_ids": {},
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
@@ -11975,5 +11975,46 @@
         },
         "overlay_index": null,
         "base_mission_id": 362
+    },
+    "363": {
+        "id": 363,
+        "name": "Personskada - arbetsplatsolycka",
+        "place": "",
+        "place_array": {},
+        "average_credits": 1500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "mobile_air_vehicles": 1,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 50,
+            "patient_transport": 75,
+            "helicopter": 50,
+            "kdow_orgl": 10,
+            "patient_critical_care": 60
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 4,
+            "fire_stations": 5,
+            "main_building_extensions": {
+                "0": 0
+            }
+        },
+        "overlay_index": null,
+        "base_mission_id": 363
     }
 }

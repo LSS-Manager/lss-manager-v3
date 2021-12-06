@@ -9658,5 +9658,34 @@
         },
         "overlay_index": null,
         "base_mission_id": 280
+    },
+    "281": {
+        "id": 281,
+        "name": "Sta\u021bie de transformare \u00een fl\u0103c\u0103ri",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "police_stations": 1,
+            "fire_stations": 7
+        },
+        "overlay_index": null,
+        "base_mission_id": 281
     }
 }
