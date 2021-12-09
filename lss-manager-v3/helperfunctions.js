@@ -113,6 +113,22 @@ if (I18n.locale == 'en_US') {
         32: ['CBRN Vehicle', 1],
         33: ['Mass Casualty Equipment', 1],
         34: ['Ambulance Officer', 1],
+        35: ['BFU', 0],
+        36: ['F/WrC', 0],
+        37: ['WrL CAFS', 0],
+        38: ['RP CAFS', 0],
+        39: ['OSU', 0],
+        40: ['PM', 0],
+        41: ['Water Pod', 0],
+        42: ['Bulk Foam Pod', 0],
+        43: ['Rescue Pod', 0],
+        44: ['Command Pod', 0],
+        45: ['Welfare Pod', 0],
+        46: ['BASU Pod', 0],
+        47: ['Misting Pod', 0],
+        48: ['Hazardous Materials Pod', 0],
+        49: ['OSU Pod', 0],
+        50: ['HVP', 0],
     };
 } else if (I18n.locale == 'en_AU') {
     lssm.carsById = {
