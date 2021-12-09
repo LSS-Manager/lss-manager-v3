@@ -7609,12 +7609,12 @@
         "name": "Schietincident",
         "place": "",
         "place_array": {},
-        "average_credits": 1500,
+        "average_credits": 2480,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
-            "0": "/images/baseball_gruen.png",
-            "1": "/images/baseball_gelb.png",
-            "2": "/images/baseball_rot.png"
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
         "requirements": {
             "police_cars": 5,
@@ -7634,7 +7634,7 @@
         "prerequisites": {
             "main_building": 5,
             "rescue_stations": 10,
-            "police_stations": 5
+            "police_stations": 6
         },
         "overlay_index": null,
         "base_mission_id": 236
@@ -10635,12 +10635,12 @@
         "name": "Bedreiging met vuurwapen",
         "place": "",
         "place_array": {},
-        "average_credits": 1100,
+        "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
-            "0": "/images/baseball_gruen.png",
-            "1": "/images/baseball_gelb.png",
-            "2": "/images/baseball_rot.png"
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
         "requirements": {
             "police_cars": 2
@@ -10652,7 +10652,7 @@
         },
         "prerequisites": {
             "main_building": 5,
-            "police_stations": 3
+            "police_stations": 2
         },
         "overlay_index": null,
         "base_mission_id": 316
@@ -10662,12 +10662,12 @@
         "name": "Bedreiging met vuurwapen",
         "place": "",
         "place_array": {},
-        "average_credits": 2000,
+        "average_credits": 1010,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
-            "0": "/images/baseball_gruen.png",
-            "1": "/images/baseball_gelb.png",
-            "2": "/images/baseball_rot.png"
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
         "requirements": {
             "police_cars": 4
@@ -10679,7 +10679,7 @@
         },
         "prerequisites": {
             "main_building": 5,
-            "police_stations": 6
+            "police_stations": 4
         },
         "overlay_index": null,
         "base_mission_id": 317
@@ -31662,6 +31662,7 @@
             "police_stations": 14,
             "police_helicopter_stations": 1,
             "bereitschaftspolizei": 3,
+            "prisoner_transport_count": 1,
             "main_building_extensions": {
                 "0": 2
             }
@@ -32186,7 +32187,10 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 867,
-                "1": 868
+                "1": 868,
+                "2": 880,
+                "3": 881,
+                "4": 882
             },
             "filter_id": "water_watch_missions"
         },
@@ -32223,7 +32227,10 @@
         "chances": {},
         "additional": {
             "expansion_missions_ids": {
-                "0": 868
+                "0": 868,
+                "1": 880,
+                "2": 881,
+                "3": 882
             },
             "filter_id": "water_watch_missions"
         },
@@ -32280,7 +32287,9 @@
             },
             "filter_id": "water_watch_missions",
             "subsequent_missions_ids": {
-                "0": 877
+                "0": 880,
+                "1": 881,
+                "2": 882
             },
             "need_bike_police_only_if_present": true
         },
@@ -33016,8 +33025,8 @@
             "possible_patient": 10,
             "possible_patient_min": 5,
             "expansion_missions_ids": {
-                "0": 866,
-                "1": 867
+                "0": 881,
+                "1": 882
             },
             "followup_missions_ids": {
                 "0": 48,
@@ -33089,7 +33098,7 @@
             "possible_patient": 10,
             "possible_patient_min": 5,
             "expansion_missions_ids": {
-                "0": 867
+                "0": 882
             },
             "followup_missions_ids": {
                 "0": 48,

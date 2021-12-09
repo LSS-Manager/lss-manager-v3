@@ -98,6 +98,9 @@
         "atv_carrier": "ATV Carrier",
         "police_helicopters": "Police helicopter",
         "kdow_orgl": "Operational Team Leader",
+        "foam": "Foam Unit",
+        "ems_mobile_command": "Ambulance Officer",
+        "mass_casualty_equipment": "Mass Casualty Equipment",
         "allow_rw_instead_of_lf": "Fire engines or Rescue Support Vehicles"
     }
 }
