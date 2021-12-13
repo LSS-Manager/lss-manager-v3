@@ -35211,5 +35211,32 @@
         },
         "overlay_index": null,
         "base_mission_id": 692
+    },
+    "693": {
+        "id": 693,
+        "name": "Kraftstoffdiebstahl",
+        "place": "",
+        "place_array": {},
+        "average_credits": 300,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "police_stations": 1
+        },
+        "overlay_index": null,
+        "base_mission_id": 693
     }
 }
