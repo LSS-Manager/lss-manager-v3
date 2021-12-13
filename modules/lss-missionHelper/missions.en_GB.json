@@ -19860,5 +19860,93 @@
         "overlay_index": null,
         "base_mission_id": 402,
         "additive_overlays": ""
+    },
+    "403": {
+        "id": 403,
+        "name": "Substance in letter",
+        "place": "",
+        "place_array": {},
+        "average_credits": 6000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 10,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-1"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 6,
+            "police_stations": 3,
+            "fire_stations": 11
+        },
+        "overlay_index": null,
+        "base_mission_id": 403,
+        "additive_overlays": ""
+    },
+    "403-0": {
+        "id": "403-0",
+        "name": "Substance in letter",
+        "place": "",
+        "place_array": {},
+        "average_credits": 8000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3,
+            "kdow_orgl": 1,
+            "hazard_response_primary": 2,
+            "hazard_response_secondary": 2
+        },
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 10,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-1"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 6,
+            "police_stations": 3,
+            "fire_stations": 11
+        },
+        "overlay_index": 0,
+        "base_mission_id": 403,
+        "additive_overlays": ""
     }
 }
