@@ -10005,5 +10005,37 @@
         "overlay_index": null,
         "base_mission_id": 289,
         "additive_overlays": ""
+    },
+    "290": {
+        "id": 290,
+        "name": "Ciclista atropelado",
+        "place": "",
+        "place_array": {},
+        "average_credits": 2950,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Cirurgi\u00e3o geral"
+        },
+        "prerequisites": {
+            "main_building": 6,
+            "rescue_stations": 2,
+            "police_stations": 5
+        },
+        "overlay_index": null,
+        "base_mission_id": 290,
+        "additive_overlays": ""
     }
 }

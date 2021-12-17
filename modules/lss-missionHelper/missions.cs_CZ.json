@@ -2638,6 +2638,7 @@
             "main_building": 0,
             "rescue_stations": 4,
             "police_stations": 1,
+            "disaster_response_count": 1,
             "fire_stations": 7
         },
         "overlay_index": 0,

@@ -23037,11 +23037,11 @@
         "place": "",
         "place_array": {},
         "average_credits": null,
-        "generated_by": "Ambulance station",
+        "generated_by": "Fire station",
         "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
         "requirements": {
             "firetrucks": 1,
@@ -23054,7 +23054,7 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
+            "filter_id": "firehouse_missions",
             "patient_us_code_possible": {
                 "0": "29-D-2",
                 "1": "29-D-5",
@@ -23068,7 +23068,7 @@
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
-            "main_building": 3,
+            "main_building": 0,
             "rescue_stations": 2,
             "fire_stations": 6
         },
@@ -28091,6 +28091,7 @@
             "mobile_command_vehicles": 1,
             "platform_trucks": 5,
             "heavy_rescue_vehicles": 6,
+            "hazmat_vehicles": 1,
             "police_cars": 5
         },
         "chances": {
