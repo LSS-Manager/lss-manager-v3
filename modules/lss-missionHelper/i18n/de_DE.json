@@ -180,6 +180,7 @@
         "allow_ktw_instead_of_rtw": "KTW statt RTW kann genutzt werden",
         "allow_arff_instead_of_lf": "Löschfahrzeuge oder Flugfeldlöschfahrzeuge",
         "ktw_or_rtw": "RTW oder KTW oder KTW Typ B",
-        "police_service_group_leader": "Funkstreifenwagen (DGL)"
+        "police_service_group_leader": "Funkstreifenwagen (DGL)",
+        "min_pump_speed": "Min.Pumpenleistung"
     }
 }
