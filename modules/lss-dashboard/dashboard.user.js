@@ -968,8 +968,14 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
         $(document).unbind(lssm.hook.postname("lightboxClose"), closeDashboard)
         $("#" + prefix).remove();
     }
+    
+    let faIncluded = false;
 
     function loadDashboard() {
+        if (!faIncluded) {
+            $('head').append('<script src="https://use.fontawesome.com/12accc0f95.js"></script>');
+            faIncluded = true;
+        }
         $(document).bind(lssm.hook.prename("lightboxClose"), closeDashboard);
         $.get(lssm.getlink("/modules/lss-dashboard/dashboard.html"), function (data) {
             let dom = lssm.modal.show('<div id="' + prefix + '" class="container-fluid"></div>');
@@ -997,7 +1003,6 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
         });
     }
 
-    $('head').append('<script src="https://use.fontawesome.com/12accc0f95.js"></script>');
     let dasboard_button = $('<li><a id="' + prefix + '_activate" href="#"><span class="glyphicon glyphicon-stats"></span> ' + I18n.t('lssm.dashboard.name') + '</a></li>');
     $('#' + lssm.config.prefix + '_menu').append(dasboard_button);
     $('#' + prefix + '_activate').click(function () {
