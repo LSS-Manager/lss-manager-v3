@@ -1569,6 +1569,7 @@
                 14: 'Groot gebouwencomplex',
                 15: 'Klein gebouwencomplex',
                 16: 'Waterreddingspost',
+                17: 'Brandweer, Kazerne (klein)',
             },
             vehicleTypes: {
                 0: 'SI-2',
