@@ -2447,7 +2447,7 @@ lssm.modal = {
  */
 (function (I18n, $) {
     // Append our main css
-    $("head")
+    if (!window.location.pathname.startsWith('/agb')) $("head")
         .prepend('<link href="' + lssm.getlink('/lss-manager-v3/css/main.css') +
             '" rel="stylesheet" type="text/css">');
     // Create the lssm dropdown menu
