@@ -208,18 +208,18 @@ Your LSSM-Team`,
             "Ces données comprennent : votre identifiant, votre nom d'utilisateur, le nombre de gardes, le navigateur utilisé et les modules activés.\r\n\r\n" +
             "Êtes-vous d'accord avec cela ?",
         v4ModulesNote: {
-            title: 'Note for users of LSS-Manager V.3',
-            content: `Dear ${window.user_name}, <br>
-Thank you for your loyal use of the LSS-Manager V.3!<br>
-With this small pop-up we would like to give you a brief interim status of which of the modules you are currently using are already available in the LSS Manager V.4: <br>
+            title: 'Note pour les utilisateurs de LSS-Manager V.3',
+            content: `Bonjour ${window.user_name}, <br>
+            Merci pour votre utilisation fidèle de LSS-Manager V.3 !<br>
+            Avec ce petit pop-up, nous aimerions vous donner un bref état intermédiaire des modules que vous utilisez actuellement et qui sont déjà disponibles dans le LSS-Manager V.4 : <br>
 <ul>
     ${v4ModulesList}
 </ul>
-Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://proxy.lss-manager.de/v4/docs/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
-Do you prefer not to switch to V4 for certain modules? Tell us why you like the V3 better at this point, maybe there will be a solution in the V4.<br><br>
-Best regards<br>
-Your LSSM-Team`,
-            button: 'Close',
+Bien sûr, vous ne devez pas dire adieu à votre environnement familier, mais cela vaut la peine de jeter un coup d'œil au V4 :wink:. Vous trouverez une vue d'ensemble des modules V3 et de leur emplacement dans la V4 dans notre section <a href="https://proxy.lss-manager.de/v4/docs/fr_FR/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Préférez-vous ne pas rester sur la V4 pour certains modules ? Dites-nous pourquoi vous préférez la V3, peut-être y aura-t-il une solution dans la V4.<br><br>
+Meilleures salutations<br>
+L'équipe de LSSM`,
+            button: 'Fermer',
         }
     };
     I18n.translations.ko_KR.lssm.telemetry = {
@@ -268,18 +268,19 @@ Your LSSM-Team`,
             'Deze gegevens omvatten: uw ID, gebruikersnaam, het aantal posten, de gebruikte browser en ingeschakelde modules.\r\n\r\n' +
             'Bent u het hiermee eens?',
         v4ModulesNote: {
-            title: 'Note for users of LSS-Manager V.3',
-            content: `Dear ${window.user_name}, <br>
-Thank you for your loyal use of the LSS-Manager V.3!<br>
-With this small pop-up we would like to give you a brief interim status of which of the modules you are currently using are already available in the LSS Manager V.4: <br>
+            title: 'Mededeling voor gebruikers van LSS-Manager V.3',
+            content: `Beste ${window.user_name}, <br>
+Beddankt voor het gebruiken van LSS-Manager V.3!<br>
+Met deze kleine mededeling willen we je graag een korte status geven van welke modules die je nu gebruikt, beschikbaar zijn in LSS Manager V.4: <br>
 <ul>
     ${v4ModulesList}
 </ul>
-Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://proxy.lss-manager.de/v4/docs/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
-Do you prefer not to switch to V4 for certain modules? Tell us why you like the V3 better at this point, maybe there will be a solution in the V4.<br><br>
-Best regards<br>
-Your LSSM-Team`,
-            button: 'Close',
+Uiteraard hoef je nog geen afscheid te nemen van je vertrouwde omgevind, maar het is het waard om een kijkje te nemen bij V4 😉 . 
+Je kan een overzicht vinden van welke V3 modules gevonden kunnen worden in V4 in onze <a href="https://proxy.lss-manager.de/v4/docs/nl_NL/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Gebruik je liever een bepaalde module in V3? Vertel ons waarom je de V3 versie beter vindt. Misschien kunnen we een oplossing vinden in V4.<br><br>
+Met vriendelijke groet<br>
+Het LSSM-Team`,
+            button: 'Sluiten',
         }
     };
 
