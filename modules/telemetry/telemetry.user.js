@@ -410,7 +410,7 @@ body.dark .lssm-modal-modal {
         <div data-modal="dialog" aria-expanded="true" class="lssm-modal-overlay">
             <div class="lssm-modal-top-right-slot"></div>
         </div>
-        <div aria-expanded="true" role="dialog" aria-modal="true" class="lssm-modal-modal v--modal vue-dialog" style="width: 500px; height: auto; transform: translate(calc(50vw - 250px), 50px); position: absolute;">
+        <div aria-expanded="true" role="dialog" aria-modal="true" class="lssm-modal-modal v--modal vue-dialog" style="width: 500px; height: auto; transform: translate(calc(50vw - 250px), 50px); position: absolute; max-height: calc(100vh - 100px) !important;">
             <div class="dialog-content">
                 <div class="dialog-c-title">${I18n.t('lssm.telemetry.v4ModulesNote.title')}</div>
                 <div class="dialog-c-text">
