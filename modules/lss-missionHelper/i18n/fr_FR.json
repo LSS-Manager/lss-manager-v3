@@ -123,6 +123,13 @@
         "hose": "Camion dévidoir",
         "pump": "Motopompes",
         "foam": "FMOGP",
+        "riot_police": "VR",
+        "detention_unit": "VTP",
+        "riot_police_command": "VCT",
+        "riot_police_equipment": "RAM",
+        "riot_police_maintenance": "VAT",
+        "riot_police_trailer": "Barres-ponts",
+        "wasserwerfer": "ELE",
         "allow_rw_instead_of_lf": "Camions de pompiers ou sauvetage lourd ou Véhicule Tout Usage"
     }
 }

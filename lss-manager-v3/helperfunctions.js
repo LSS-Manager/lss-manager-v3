@@ -503,6 +503,13 @@ if (I18n.locale == 'en_US') {
         36: ["CDHR", 0],
         37: ["FDGP", 0],
         38: ["MPR", 0],
+        39: ["VR", 2],
+        40: ["VCT", 2],
+        41: ["RAM", 2],
+        42: ["VTP", 2],
+        43: ["ELE", 2],
+        44: ["reBP", 2],
+        45: ["VAT", 2],
     };
 } else if (I18n.locale == 'es_ES') {
     lssm.carsById = {
