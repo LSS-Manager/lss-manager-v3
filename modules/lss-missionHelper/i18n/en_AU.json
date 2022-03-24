@@ -114,6 +114,10 @@
         "police_horse": "Mounted Police",
         "brush_truck": "Brush Trucks",
         "fire_aviation": "Airborne Firefighting Vehicles",
+        "police_service_group_leader": "Senior Sergeant",
+        "riot_police": "Riot Police Group Vehicle",
+        "riot_police_equipment": "Riot Police Equipment Vehicle",
+        "riot_police_suv": "Riot Police SUV",
         "allow_rw_instead_of_lf": "Fire trucks or Major Rescue Vehicle"
     }
 }

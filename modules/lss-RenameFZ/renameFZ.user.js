@@ -451,6 +451,10 @@
                 31: 'Fire Helicopter',
                 32: 'Bomber',
                 33: 'Large Air Tanker',
+                34: 'Riot Police SUV',
+                35: 'Riot Police Group Vehicle',
+                36: 'Riot Police Equipment Vehicle',
+                37: 'Senior Sergeant',
             },
         },
     };
