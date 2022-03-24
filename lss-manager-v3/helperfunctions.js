@@ -166,6 +166,10 @@ if (I18n.locale == 'en_US') {
         31: ['Fire Helicopter', 0],
         32: ['Bomber', 0],
         33: ['Large Air Tanker', 0],
+        34: ['Riot Police SUV', 2],
+        35: ['Riot Police Group Vehicle', 2],
+        36: ['Riot Police Equipment Vehicle', 2],
+        37: ['Senior Sergeant', 2],
     };
 } else if (I18n.locale == 'pt_PT') {
     lssm.carsById = {
