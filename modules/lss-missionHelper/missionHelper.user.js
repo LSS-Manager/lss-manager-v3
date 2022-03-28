@@ -668,6 +668,8 @@ const lssm_missionhelper_adjustPosition = () => {
         : window.location.href.match(/\d+([^?]|$)/)[0];
     const overlayIndex = document.getElementById('mission_general_info')?.getAttribute('data-overlay-index') ?? 'null';
     if (MISSION_WINDOW && overlayIndex && overlayIndex !== "null") MISSION_TYPE += "-" + overlayIndex;
+    const additionalOverlays = document.getElementById('mission_general_info')?.getAttribute('data-additive-overlays') ?? 'null';
+    if (MISSION_WINDOW && additionalOverlays && additionalOverlays !== "null") MISSION_TYPE += "/" + additionalOverlays;
     const MISSION_ID = window.location.href.replace(/\D/g, '');
     const SETTINGS = Object.keys(managed_settings.settings).reduce(
         (result, key) => {
