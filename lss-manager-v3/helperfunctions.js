@@ -129,6 +129,12 @@ if (I18n.locale == 'en_US') {
         48: ['Hazardous Materials Pod', 0],
         49: ['OSU Pod', 0],
         50: ['HVP', 0],
+        51: ['PSU Carrier', 2],
+        52: ['Firearms Personnel Carrier', 2],
+        53: ['Multiple Dog Carrier', 2],
+        54: ['Detention Van', 2],
+        55: ['Mounted Unit', 2],
+        56: ['M-RAV', 2],
     };
 } else if (I18n.locale == 'en_AU') {
     lssm.carsById = {
