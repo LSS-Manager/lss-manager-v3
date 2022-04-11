@@ -332,6 +332,7 @@
                 21: 'Clinic',
                 22: 'Home Response Location',
                 25: 'HART Base',
+                26: 'Large Police Depot',
             },
             vehicleTypes: {
                 0: 'Water Ladder',
@@ -385,6 +386,12 @@
                 48: 'Hazardous Materials Pod',
                 49: 'OSU Pod',
                 50: 'HVP',
+                51: 'PSU Carrier',
+                52: 'Firearms Personnel Carrier',
+                53: 'Multiple Dog Carrier',
+                54: 'Detention Van',
+                55: 'Mounted Unit',
+                56: 'M-RAV',
             },
         },
     };

@@ -101,6 +101,7 @@
         "foam": "Foam Unit",
         "ems_mobile_command": "Ambulance Officer",
         "mass_casualty_equipment": "Mass Casualty Equipment",
+        "police_horse": "Mounted Unit",
         "allow_rw_instead_of_lf": "Fire engines or Rescue Support Vehicles"
     }
 }
