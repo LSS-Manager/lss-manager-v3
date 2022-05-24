@@ -430,7 +430,7 @@ if (I18n.locale == 'en_US') {
         63: ["Przyczepa wielofunkcyjna", 0],
         64: ["Kontener wężowy", 0],
         65: ["Furgonetka OPP", 2],
-        66: ["Van OPP"​, 2],
+        66: ["Van OPP", 2],
         67: ["Pickup OPP", 2],
         68: ["Ambulans OPP", 2],
         69: ["Armatka wodna", 2],
