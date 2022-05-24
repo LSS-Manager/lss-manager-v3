@@ -119,6 +119,10 @@
         "height_rescue_units": "Ratownictwo Wyskościowe",
         "foam": "samochody ze zbiornikiem na piane",
         "pump": "samochody wężowe",
+        "road_rescue": "APRD",
+        "police_service_group_leader": "Ruchome Stanowisko Dowodzenia",
+        "riot_police_equipment": "specjalistyczny sprzęt OPP (Pickup)",
+        "wasserwerfer": "armatki wodne",
         "allow_rw_instead_of_lf": "Wozy strażackie lub ciężki ratunek"
     }
 }

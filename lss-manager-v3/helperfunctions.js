@@ -429,6 +429,22 @@ if (I18n.locale == 'en_US') {
         62: ["Przyczepa wężowa", 0],
         63: ["Przyczepa wielofunkcyjna", 0],
         64: ["Kontener wężowy", 0],
+        65: ["Furgonetka OPP", 2],
+        66: ["Van OPP"​, 2],
+        67: ["Pickup OPP", 2],
+        68: ["Ambulans OPP", 2],
+        69: ["Armatka wodna", 2],
+        70: ["Autobus policyjny", 2],
+        71: ["Samochód SM", 2],
+        72: ["Furgonetka SM", 2],
+        73: ["Szybki Radiowóz WRD", 2],
+        74: ["Motocykl WRD", 2],
+        75: ["APRD", 2],
+        76: ["Furgonetka policyjna", 2],
+        77: ["Samochód terenowy", 2],
+        78: ["Ruchome Stanowisko Dowodzenia", 2],
+        79: ["Mała więźniarka", 2],
+        80: ["Duża więźniarka", 2],
     };
 } else if (I18n.locale == 'it_IT') {
     lssm.carsById = {
