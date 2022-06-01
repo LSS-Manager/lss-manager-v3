@@ -1100,6 +1100,10 @@
                 35: 'Canadair',
                 36: 'P.M.A.',
                 37: 'ACT/SCHIUMA',
+                38: 'Pattuglia Polizia Stradale',
+                39: 'Moto Polizia Stradale',
+                40: 'Pattuglia Forestale',
+                41: 'Idrante Antisommossa',
             },
         },
     };

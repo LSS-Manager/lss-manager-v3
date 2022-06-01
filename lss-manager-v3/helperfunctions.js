@@ -486,6 +486,10 @@ if (I18n.locale == 'en_US') {
         35: ['Canadair', 0],
         36: ['P.M.A.', 1],
         37: ['ACT/SCHIUMA', 0],
+        38: ['Pattuglia Polizia Stradale', 2],
+        39: ['Moto Polizia Stradale', 2],
+        40: ['Pattuglia Forestale', 2],
+        41: ['Idrante Antisommossa', 2],
     };
 } else if (I18n.locale == 'fr_FR') {
     lssm.educations = ['SAV (Sauvetage Aquatique)', 'PLG (Plongeur)'];
