@@ -1,5 +1,5 @@
 (function (I18n, $) {
-    const v4Modules = ['aaoZaehler', 'AaoSearch', 'ShareAlliancePost', /*'centermap,*/ 'Clock', 'creditserweiterung', /*'dashboard',*/ 'missionKeyword', /*'missionHelper',*/ 'allianceMissionlistShare', 'extendedBuilding', 'iconFilter', /*'keyboardAlert',*/ /*'heatmap',*/ 'Eventsmission', 'tailoredTabs', 'missionDate', 'MissionOut', 'Notification_Alert', /*'statusCount',*/, 'sumDailyMissions', 'displayUserId', 'showChatButtonAbove', 'showNotTransportButtonAbove', 'WachenHoverStati', 'overview'].filter(module => lssm.Module[module].active);
+    const v4Modules = ['aaoZaehler', 'AaoSearch', 'ShareAlliancePost', /*'centermap,*/ 'Clock', 'creditserweiterung', /*'dashboard',*/ 'missionKeyword', /*'missionHelper',*/ 'allianceMissionlistShare', 'extendedBuilding', 'iconFilter', /*'keyboardAlert',*/ /*'heatmap',*/ 'Eventsmission', 'tailoredTabs', 'missionDate', 'MissionOut', 'Notification_Alert', 'statusCount', 'sumDailyMissions', 'displayUserId', 'showChatButtonAbove', 'showNotTransportButtonAbove', 'WachenHoverStati', 'overview'].filter(module => lssm.Module[module].active);
     const v4ModulesList = v4Modules.map(module => I18n.t(`lssm.apps.${module}.name`)).sort().map(module => `<li style="list-style: unset !important;">${module}</li>`).join('');
     
     I18n.translations.de_DE.lssm.telemetry = {
