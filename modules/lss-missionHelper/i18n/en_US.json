@@ -152,6 +152,14 @@
         "emsmcc": "EMS Mobile Command Unit",
         "brush_truck": "Wildland fire engines",
         "fire_aviation": "Airborne Firefighting Vehicles",
+        "large_coastal_boat": "Large Coastal Boat",
+        "coastal_boat": "Small Coastal Boats",
+        "coastal_command": "Lifeguard Supervisors",
+        "coastal_helicopter": "Coastal Helicopter",
+        "coastal_plane": "Coastal Guard Planes",
+        "coastal_rescue": "Lifeguard Rescue",
+        "gw_wasserrettung": "Lifeguard Trucks",
+        "water_rescue": "Lifeguard Trucks",
         "allow_rw_instead_of_lf": "Fire trucks or Heavy Rescue",
         "allow_drone_instead_of_investigation": "FBI Surveillance Drone can Replace Investigation wagon"
     }

@@ -75,6 +75,13 @@ if (I18n.locale == 'en_US') {
         63: ['Fire Prevention Unit', 0],
         64: ['Foam Tender', 0],
         65: ['Foam Trailer', 0],
+        66: ['Lifeguard Truck', 4],
+        67: ['Lifeguard Rescue', 4],
+        68: ['Lifeguard Supervisor', 4],
+        69: ['Small Coastal Boat', 4],
+        70: ['Large Coastal Boat', 4],
+        71: ['Coastal Helicopter', 4],
+        72: ['Coastal Guard Plane', 4],
     };
 } else if (I18n.locale == 'en_GB') {
     lssm.carsById = {
