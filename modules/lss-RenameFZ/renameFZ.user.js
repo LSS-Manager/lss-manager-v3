@@ -232,7 +232,9 @@
                 16: 'Ambulance station (Small station)',
                 17: 'Firefighting plane station',
                 18: 'Federal Police Station',
-                22: "Fire Marshal's Office"
+                22: "Fire Marshal's Office",
+                23: "Coastal Rescue Station",
+                25: "Coastal Air Station"
             },
             vehicleTypes: {
                 0: 'Type 1 fire engine',
@@ -301,6 +303,13 @@
                 63: 'Fire Prevention Unit',
                 64: 'Foam Tender',
                 65: 'Foam Trailer',
+                66: 'Lifeguard Truck',
+                67: 'Lifeguard Rescue',
+                68: 'Lifeguard Supervisor',
+                69: 'Small Coastal Boat',
+                70: 'Large Coastal Boat',
+                71: 'Coastal Helicopter',
+                72: 'Coastal Guard Plane',
             },
         },
     };
