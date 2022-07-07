@@ -706,6 +706,9 @@ if (I18n.locale == 'en_US') {
         70: ['SBA | Schuimblusaanhanger', 0],
         71: ['MSA', 0],
         72: ['DPA | Dompelpompaanhangwagen', 0],
+        73: ['VW-BB | Vrachtwagen – Bereden Brigade', 2],
+        74: ['BB-A | Bereden Brigade Aanhanger', 2],
+        75: ['DAT-NH | Dienstauto terreinvaardig - Noodhulp', 2],
     };
 } else if (I18n.locale == 'de_DE') {
     lssm.buildingTypes = [
