@@ -2121,6 +2121,12 @@
                     $(`#vehicle_new_name_${vehicleID}`).val(
                         set.vehicles[vehicleID].newName.substr(0, 150)
                     );
+                    document.querySelector(`#vehicle_form_${vehicleID}`)?.addEventListener('submit', () => {
+                        setTimeout(
+                            () => window.lssmv4.$stores.api.getVehicle(parseInt(vehicleID), 'v3-renameFz-buildingComplex'),
+                            1000
+                        );
+                    });
                     if (last && executionFailed !== true) {
                         $(`#${prefix}_status`).html(
                             `Status: ${I18n.t('lssm.renameFz.statusSuccess')}`
