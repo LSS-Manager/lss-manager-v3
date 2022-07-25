@@ -657,7 +657,7 @@ const lssm_missionhelper_adjustPosition = () => {
         lssm.managedSettings.getSetting(SETTINGS_STORAGE, key);
 
     const MISSIONS_FILE = lssm.getlink(
-        `/modules/lss-missionHelper/missions.${I18n.locale}.json`,
+        `/modules/lss-missionHelper/missions/${I18n.locale}.json`,
         true
     );
     const MISSION_WINDOW =

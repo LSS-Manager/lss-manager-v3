@@ -1840,6 +1840,14 @@
     $('#tab_vehicle').on('DOMNodeInserted', 'script', createSettings);
     if ('#vehicle_table') createSettings();
 
+    document.addEventListener('lssmv4-event-buildingComplex-opened-overview-tab', ({detail}) => {
+        document.querySelectorAll(`#toggleRename + br`).forEach(br => br.remove());
+        document.querySelector(`#toggleRename`)?.remove();
+        document.querySelector(`#${prefix}`)?.remove();
+        if (detail !== 'vehicles') return;
+        createSettings(true);
+    })
+
     let executionFailed = false;
     const mode = $('#tab_vehicle')[0] ? 'leitstelle' : 'wache';
 
@@ -1909,7 +1917,7 @@
         }
     }
 
-    function rename() {
+    function rename(v4BcComplex = false) {
         try {
             localStorage[`${prefix}_input`] = JSON.stringify({
                 str: set.str.str,
@@ -1918,7 +1926,7 @@
                     'checked'
                 ),
             });
-            let vehicles = $('#vehicle_table tbody tr:visible');
+            let vehicles = $((v4BcComplex ? '#lssmv4-buildingComplex-vehicle-table' : '#vehicle_table') + ' tbody tr:visible');
             let vehiclesNum = vehicles.length;
             let status = $(`#${prefix}_status`);
             status.html(
@@ -1940,7 +1948,7 @@
             let needNumber = false;
             let needNumberRoman = false;
             set.options.dispatch =
-                mode === 'leitstelle'
+                v4BcComplex ? '–––' : mode === 'leitstelle'
                     ? $('h1').text()
                     : $(
                           '.btn-group.pull-right:first-of-type .btn:nth-of-type(2)'
@@ -1981,18 +1989,18 @@
                 );
                 let vehicleRow = $(vehicles[i]);
                 let vehicleCaption =
-                    mode === 'leitstelle'
+                    v4BcComplex ? vehicleRow.find('td:nth-child(3)') : mode === 'leitstelle'
                         ? vehicleRow.find('[id^=vehicle_caption_]')
                         : vehicleRow.find('td[sortvalue]');
                 let vehicleID =
-                    mode === 'leitstelle'
+                        mode === 'leitstelle'
                         ? vehicleCaption.attr('id').replace(/\D/g, '')
                         : vehicleCaption
                               .find('a')
                               .attr('href')
                               .replace(/\D/g, '');
                 if (
-                    mode === 'wache' &&
+                    (mode === 'wache' || v4BcComplex) &&
                     !$(`#vehicle_form_holder_${vehicleID}`)[0]
                 )
                     vehicleCaption.append(
@@ -2003,6 +2011,7 @@
                             .attr('id', `vehicle_link_${vehicleID}`);
                 let vehicle = lssm.vehicles[vehicleID];
                 let building = buildings[vehicle.building];
+                set.options.dispatch = buildings[building.leitstelle_building_id].caption;
                 set.vehicles[vehicleID] = {};
                 set.vehicles[vehicleID].dispatch = set.options.dispatch;
                 set.vehicles[vehicleID].id = vehicleID;
@@ -2024,7 +2033,10 @@
                 if (needDispatchAlias) {
                     set.vehicles[vehicleID].dispatchAlias =
                         settings[
-                            `renameFz_stations-${(mode === 'leitstelle'
+                            `renameFz_stations-${
+                        v4BcComplex ? building.leitstelle_building_id : 
+                            (
+                                mode === 'leitstelle'
                                 ? window.location.href
                                 : $(
                                       '.btn-group.pull-right:first-of-type .btn:nth-of-type(2)'
@@ -2109,6 +2121,12 @@
                     $(`#vehicle_new_name_${vehicleID}`).val(
                         set.vehicles[vehicleID].newName.substr(0, 150)
                     );
+                    document.querySelector(`#vehicle_form_${vehicleID}`)?.addEventListener('submit', () => {
+                        setTimeout(
+                            () => window.lssmv4.$stores.api.getVehicle(parseInt(vehicleID), 'v3-renameFz-buildingComplex'),
+                            1000
+                        );
+                    });
                     if (last && executionFailed !== true) {
                         $(`#${prefix}_status`).html(
                             `Status: ${I18n.t('lssm.renameFz.statusSuccess')}`
@@ -2159,9 +2177,9 @@
         }
     }
 
-    function createSettings() {
+    function createSettings(v4BcComplex = false) {
         if ($(`#${prefix}`).length) return;
-        $('#vehicle_table').before(`\
+        $(v4BcComplex ? '#lssmv4-buildingComplex-vehicle-table' : '#vehicle_table').before(`\
 <a id="toggleRename" state="${
             localStorage['lssm_renameFz_visibility'] || 'open'
         }"><i class="glyphicon glyphicon-eye-close"></i></a><br>
@@ -2262,7 +2280,7 @@
         }
 
         $(`#${prefix}_string`).change(changeInput).on('keyup', changeInput);
-        $(`#${prefix}_rename`).click(rename);
+        $(`#${prefix}_rename`).click(() => rename(v4BcComplex));
         $(`#${prefix}_saveAll`).click(function () {
             for (
                 let i = 0;
