@@ -1837,7 +1837,7 @@
         },
     };
     const prefix = `${lssm.config.prefix}_renameFzSettings`;
-    $('#tab_vehicle').on('DOMNodeInserted', 'script', createSettings);
+    $('#tab_vehicle').on('DOMNodeInserted', 'script', () => createSettings());
     if ('#vehicle_table') createSettings();
 
     document.addEventListener('lssmv4-event-buildingComplex-opened-overview-tab', ({detail}) => {
