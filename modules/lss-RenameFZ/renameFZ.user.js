@@ -2011,7 +2011,7 @@
                             .attr('id', `vehicle_link_${vehicleID}`);
                 let vehicle = lssm.vehicles[vehicleID];
                 let building = buildings[vehicle.building];
-                set.options.dispatch = buildings[building.leitstelle_building_id].caption;
+                set.options.dispatch = buildings[building.leitstelle_building_id]?.caption ?? '';
                 set.vehicles[vehicleID] = {};
                 set.vehicles[vehicleID].dispatch = set.options.dispatch;
                 set.vehicles[vehicleID].id = vehicleID;
