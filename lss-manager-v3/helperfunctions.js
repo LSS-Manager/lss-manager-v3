@@ -82,6 +82,7 @@ if (I18n.locale == 'en_US') {
         70: ['Large Coastal Boat', 4],
         71: ['Coastal Helicopter', 4],
         72: ['Coastal Guard Plane', 4],
+        73: ['Small Coastal Boat Trailer', 4],
     };
 } else if (I18n.locale == 'en_GB') {
     lssm.carsById = {
