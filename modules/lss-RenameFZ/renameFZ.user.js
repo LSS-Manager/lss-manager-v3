@@ -222,7 +222,7 @@
                 1: 'Dispatch Center',
                 3: 'Ambulance Station',
                 5: 'Police Station',
-                6: 'Helicopter station',
+                6: 'Medical helicopter station',
                 8: 'Police Aviation',
                 11: 'Fire boat dock',
                 12: 'Rescue boat dock',
@@ -234,7 +234,8 @@
                 18: 'Federal Police Station',
                 22: "Fire Marshal's Office",
                 23: "Coastal Rescue Station",
-                25: "Coastal Air Station"
+                25: "Coastal Air Station",
+                26: "Lifeguard Post"
             },
             vehicleTypes: {
                 0: 'Type 1 fire engine',
@@ -310,6 +311,7 @@
                 70: 'Large Coastal Boat',
                 71: 'Coastal Helicopter',
                 72: 'Coastal Guard Plane',
+                73: 'Small Coastal Boat Trailer',
             },
         },
     };
