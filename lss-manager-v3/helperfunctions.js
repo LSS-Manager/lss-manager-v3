@@ -548,6 +548,11 @@ if (I18n.locale == 'en_US') {
         43: ["ELE", 2],
         44: ["reBP", 2],
         45: ["VAT", 2],
+        46: ['Buggy'0],
+        47: ['CSL',0]
+        48: ['CTT',0],
+        49: ['VCSM',0],
+        50: ['Dragon',0],
     };
 } else if (I18n.locale == 'es_ES') {
     lssm.carsById = {
