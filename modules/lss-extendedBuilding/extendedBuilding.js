@@ -1277,7 +1277,7 @@
             let wrapper = document.createElement('div');
             wrapper.classList.add('row');
             let dl = document.querySelector('dl');
-            dl.parentNode.querySelector('h1').after(wrapper);
+            dl.parentNode.querySelector('.building-title').after(wrapper);
             wrapper.appendChild(dl);
             dl.classList.add('col-lg-4');
             let expansionWrapper = document.createElement('table');
