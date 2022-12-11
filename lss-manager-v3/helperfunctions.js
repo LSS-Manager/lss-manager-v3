@@ -715,6 +715,11 @@ if (I18n.locale == 'en_US') {
         73: ['VW-BB | Vrachtwagen – Bereden Brigade', 2],
         74: ['BB-A | Bereden Brigade Aanhanger', 2],
         75: ['DAT-NH | Dienstauto terreinvaardig - Noodhulp', 2],
+        76: ['Quad', 4],
+        77: ['KW-bot | Kustwacht boot', 4],
+        78: ['RB-K | Reddingsboot klein', 4],
+        79: ['RB-G | Reddingsboot groot', 4],
+        80: ['SAR-heli | SAR helikopter', 4],
     };
 } else if (I18n.locale == 'de_DE') {
     lssm.buildingTypes = [
