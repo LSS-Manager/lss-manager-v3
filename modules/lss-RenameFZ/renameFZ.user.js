@@ -1630,6 +1630,9 @@
                 15: 'Klein gebouwencomplex',
                 16: 'Waterreddingspost',
                 17: 'Brandweer, Kazerne (klein)',
+                18: 'Politie opkomstbureau (klein)',
+                19: 'Kustwacht haven',
+                21: 'SAR Helikopter platform',
             },
             vehicleTypes: {
                 0: 'SI-2',
@@ -1708,6 +1711,11 @@
                 73: 'VW-BB',
                 74: 'BB-A',
                 75: 'DAT-NH',
+                76: 'Quad',
+                77: 'KW-boot',
+                78: 'RB-K',
+                79: 'RB-G',
+                80: 'SAR-heli',
             },
         },
     };
