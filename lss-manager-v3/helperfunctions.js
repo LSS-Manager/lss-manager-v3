@@ -83,6 +83,11 @@ if (I18n.locale == 'en_US') {
         71: ['Coastal Helicopter', 4],
         72: ['Coastal Guard Plane', 4],
         73: ['Small Coastal Boat Trailer', 4],
+        74: ['Wildfire MCC', 0],
+        75: ['Wildland Lead Plane', 0],
+        76: ['Smoke Jumper Plane', 0],
+        77: ['Tanker Semi Truck Trailer', 0],
+        78: ['Tanker Trailer', 0]
     };
 } else if (I18n.locale == 'en_GB') {
     lssm.carsById = {
@@ -143,6 +148,24 @@ if (I18n.locale == 'en_US') {
         54: ['Detention Van', 2],
         55: ['Mounted Unit', 2],
         56: ['M-RAV', 2],
+        57: ['CRV', 4],
+        58: ['Coastguard Mud Rescue Unit', 4],
+        59: ['Coastguard Rope Rescue Unit', 4],
+        60: ['Coastguard Commander', 4],
+        61: ['Flood Rescue Unit (Trailer)', 4],
+        62: ['Mud Decontamination Unit', 4],
+        63: ['Support Unit', 4],
+        64: ['Coastguard Rescue Helicopter', 4],
+        65: ['Coastguard Rescue Helicopter (Large)', 4],
+        66: ['4x4 Vehicle', 4],
+        67: ['Inland Rescue Boat (Trailer)', 4],
+        68: ['ILB', 4],
+        69: ['ALB', 4],
+        70: ['Rescue Watercraft (Trailer)', 4],
+        71: ['Hovercraft (Trailer)', 4],
+        72: ['Hovercraft Transporter', 4],
+        73: ['Light 4x4', 4],
+        74: ['Boat Trailer', 4],
     };
 } else if (I18n.locale == 'en_AU') {
     lssm.carsById = {
@@ -184,6 +207,11 @@ if (I18n.locale == 'en_US') {
         35: ['Riot Police Group Vehicle', 2],
         36: ['Riot Police Equipment Vehicle', 2],
         37: ['Senior Sergeant', 2],
+        38: ['VMR Quad', 4],
+        39: ['VMR Boat', 4],
+        40: ['SES Rescue Truck', 4],
+        41: ['SES Mobile Command', 4],
+        42: ['SES Storm Trailer', 4]
     };
 } else if (I18n.locale == 'pt_PT') {
     lssm.carsById = {
@@ -720,6 +748,9 @@ if (I18n.locale == 'en_US') {
         78: ['RB-K | Reddingsboot klein', 4],
         79: ['RB-G | Reddingsboot groot', 4],
         80: ['SAR-heli | SAR helikopter', 4],
+        81: ['DA-RWS | Dienstvoertuig weginspecteur Rijkswaterstaat', 0],
+        82: ['DM-RWS | Dienstmotor weginspecteur Rijkswaterstaat',0],
+        83: ['DA-SIG | Signalisatievoertuig',0]
     };
 } else if (I18n.locale == 'de_DE') {
     lssm.buildingTypes = [
