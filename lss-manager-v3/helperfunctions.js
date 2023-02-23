@@ -883,6 +883,11 @@ if (I18n.locale == 'en_US') {
         101: ['Anh SwPu', 3],
         102: ['Anh 7', 3],
         103: ['FuStW (DGL)', 2],
+        104: ['GW-L1', 0],
+        105: ['GW-L2', 0],
+        106: ['MTF-L', 0],
+        107: ['LF-L', 0],
+        108: ['AB-L', 0],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
