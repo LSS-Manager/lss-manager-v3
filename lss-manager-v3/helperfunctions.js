@@ -26,7 +26,7 @@ if (I18n.locale == 'en_US') {
         14: ['Police helicopter', 2],
         15: ['Fly-Car', 1],
         16: ['SWAT Armoured Vehicle', 2],
-        17: ['ARFF Crash Tender', 0],
+        17: ['Large ARFF Crash Tender', 0],
         18: ['Rescue Engine', 0],
         19: ['K-9 Unit', 2],
         20: ['Mass Casualty Unit', 1],
@@ -87,7 +87,9 @@ if (I18n.locale == 'en_US') {
         75: ['Wildland Lead Plane', 0],
         76: ['Smoke Jumper Plane', 0],
         77: ['Tanker Semi Truck Trailer', 0],
-        78: ['Tanker Trailer', 0]
+        78: ['Tanker Trailer', 0],
+        79: ['Small ARFF Crash Tender', 0],
+        80: ['Medium ARFF Crash Tender', 0]
     };
 } else if (I18n.locale == 'en_GB') {
     lssm.carsById = {
@@ -166,6 +168,15 @@ if (I18n.locale == 'en_US') {
         72: ['Hovercraft Transporter', 4],
         73: ['Light 4x4', 4],
         74: ['Boat Trailer', 4],
+        75: ['Major Foam Tender', 0],
+        76: ['RIV', 0],
+        77: ['Airfield Firefighting Command Vehicle', 0],
+        78: ['Rescue Stairs', 0],
+        79: ['Airfield Operations Vehicle', 0],
+        80: ['Airfield Operations Supervisor', 0],
+        81: ['Medical equipment trailer', 0],
+        82: ['Armed Cell Van', 2],
+        83: ['Medical cycle responder', 1],
     };
 } else if (I18n.locale == 'en_AU') {
     lssm.carsById = {
