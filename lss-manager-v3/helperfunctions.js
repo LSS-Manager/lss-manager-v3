@@ -831,7 +831,7 @@ if (I18n.locale == 'en_US') {
         38: ['KTW', 1],
         39: ['GKW', 3],
         40: ['MTW-TZ', 3],
-        41: ['MzKW', 3],
+        41: ['MzGW (FGr N)', 3],
         42: ['LKW K 9', 3],
         43: ['BRmG R', 3],
         44: ['Anh DLE', 3],
@@ -899,6 +899,11 @@ if (I18n.locale == 'en_US') {
         106: ['MTF-L', 0],
         107: ['LF-L', 0],
         108: ['AB-L', 0],
+        109: ['MzGW SB', 3],
+        110: ['NEA50', 3],
+        111: ['NEA50', 0],
+        112: ['NEA200', 3],
+        113: ['NEA200', 0],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
