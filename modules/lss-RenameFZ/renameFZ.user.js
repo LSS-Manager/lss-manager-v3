@@ -2114,7 +2114,7 @@
                                 mode === 'leitstelle'
                                 ? window.location.href
                                 : $(
-                                      '.btn-group.pull-right:first-of-type .btn:nth-of-type(2)'
+                                      '#building-navigation-container .btn:nth-of-type(2)'
                                   ).attr('href')
                             ).replace(/\D/g, '')}`
                         ];
