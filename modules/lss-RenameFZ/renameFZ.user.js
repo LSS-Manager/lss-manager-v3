@@ -962,14 +962,12 @@
 
         let defaultTypeShortings = Object.fromEntries(Object.entries(lssm.carsById).map(([id, [ caption ]]) => [id, caption]));
 
-        $.each(defaultTypeShortings, function (key, val) {
+        $.each(defaultTypeShortings, function (id, caption) {
             let tmpObject = {
-                ['renameFz_vehicleTypes-' + key]: {
-                    default: val,
+                ['renameFz_vehicleTypes-' + id]: {
+                    default: caption,
                     ui: {
-                        label: `${I18n.t(
-                            `lssm.renameFz.settings.vehicleTypes.${key}`
-                        )}:&nbsp;`,
+                        label: `${caption}:&nbsp;`,
                         type: 'text',
                         description: '',
                         hidden: true,
