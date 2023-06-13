@@ -914,6 +914,9 @@ if (I18n.locale == 'en_US') {
         111: ['NEA50', 0],
         112: ['NEA200', 3],
         113: ['NEA200', 0],
+        114: ['GW Lüfter', 0],
+        115: ['Anh Lüfter', 0],
+        116: ['AB Lüfter', 0],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
