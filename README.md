@@ -6,7 +6,7 @@ Der LSS MANAGER v3 ist eine Erweiterung für das Spiel [leitstellenspiel.de](htt
 
 ### End of Life
 
-Da der LSS-Manager V4 kurz vor dem Release steht, ist der LSS-Manager V3 nun im End of Life. Das heißt, dass es keine neuen Features mehr für den LSS-Manager V3 geben wird. Dringende Bugfixes werden aber weiterhin durchgeführt.
+Da der LSS-Manager V4 nun Released ist, ist der LSS-Manager V3 nun im End of Life. Das heißt, dass es keine neuen Features mehr für den LSS-Manager V3 geben wird. Dringende Bugfixes werden aber weiterhin durchgeführt.
 
 ### Wiki
 
