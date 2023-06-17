@@ -89,7 +89,17 @@ if (I18n.locale == 'en_US') {
         77: ['Tanker Semi Truck Trailer', 0],
         78: ['Tanker Trailer', 0],
         79: ['Small ARFF Crash Tender', 0],
-        80: ['Medium ARFF Crash Tender', 0]
+        80: ['Medium ARFF Crash Tender', 0],
+        81: ['Small K9 Carrier', 0],
+        82: ['Large K9 Carrier', 0],
+        83: ['Riot Police Van', 0],
+        84: ['Riot Police Bus', 0],
+        85: ['Riot Police Trailer', 0],
+        86: ['Police Crew Carrier', 0],
+        87: ['Police Prisoner Van', 0],
+        88: ['Police ATV Trailer', 0],
+        89: ['Police MCV', 0],
+        90: ['Tactical Rescue Truck', 0],
     };
 } else if (I18n.locale == 'en_GB') {
     lssm.carsById = {
@@ -222,7 +232,10 @@ if (I18n.locale == 'en_US') {
         39: ['VMR Boat', 4],
         40: ['SES Rescue Truck', 4],
         41: ['SES Mobile Command', 4],
-        42: ['SES Storm Trailer', 4]
+        42: ['SES Storm Trailer', 4],
+        43: ['ULFV Crash Tender', 0],
+        44: ['RIV', 0],
+        45: ['Emergency Stairs', 0],
     };
 } else if (I18n.locale == 'pt_PT') {
     lssm.carsById = {
@@ -299,6 +312,12 @@ if (I18n.locale == 'en_US') {
         36: ['Slangbil med pump', 0],
         37: ['Skumenhet', 0],
         38: ['Motorspruta',0],
+        39: ['Trafikpolis', 0],
+        40: ['Cykelpolis', 0],
+        41: ['NBS', 0],
+        42: ['YB', 0],
+        43: ['Häktesbuss', 0],
+        44: ['Polistransport', 0],
     };
 } else if (I18n.locale == 'cs_CZ') {
     lssm.carsById = {
