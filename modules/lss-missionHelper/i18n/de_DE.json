@@ -182,6 +182,8 @@
         "ktw_or_rtw": "RTW oder KTW oder KTW Typ B",
         "ventilation": "Lüfter",
         "police_service_group_leader": "Funkstreifenwagen (DGL)",
-        "min_pump_speed": "Min.Pumpenleistung"
+        "min_pump_speed": "Min.Pumpenleistung",
+        "energy_supply":  "NEA50",
+        "energy_supply_2": "NEA200",
     }
 }
