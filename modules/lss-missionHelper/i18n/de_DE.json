@@ -184,6 +184,6 @@
         "police_service_group_leader": "Funkstreifenwagen (DGL)",
         "min_pump_speed": "Min.Pumpenleistung",
         "energy_supply":  "NEA50",
-        "energy_supply_2": "NEA200",
+        "energy_supply_2": "NEA200"
     }
 }
