@@ -29,7 +29,7 @@ let lssm = {
         stats_uri: "https://v3.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
         key_link: "/profile/external_secret_key/", // Domain wo alles liegt
-        version: "3.3.10",
+        version: "3.3.11",
         github: 'https://github.com/LSS-Manager/lss-manager-v3',
         prefix: 'lssm',
         game: window.location.hostname.toLowerCase().replace("www.", ""),
