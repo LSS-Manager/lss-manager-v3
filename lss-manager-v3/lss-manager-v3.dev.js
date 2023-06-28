@@ -50,13 +50,7 @@ let lssm = {
     },
     getlink: function (file, no_cache = false) {
         try {
-            let uid = "";
-            let game = "";
-            if (typeof user_id !== "undefined") {
-                game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
-            }
-            uid = "?uid=" + game + user_id;
-            return this.config.server + file + uid + (no_cache ? `&_=${new Date().getTime()}` : '');
+            return this.config.server + file + (no_cache ? `&_=${new Date().getTime()}` : '');
         } catch (e) {
             console.error("On script load: " + e.message);
         }
@@ -2342,12 +2336,6 @@ lssm.modules = {
     load: function (module) {
         try {
             let path = window.location.pathname.length;
-            let uid = "";
-            let game = "";
-            if (typeof user_id !== "undefined") {
-                game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
-            }
-            uid = "?uid=" + game + user_id;
             this.addLocales(module);
             if (lssm.Module[module].active && lssm.Module.status !== 'develop' &&
                 lssm.appstore.canActivate(lssm.Module[module])) {
