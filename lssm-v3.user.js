@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         LSS Manager v3 Autoupdater
-// @version      3.3.10
+// @version      3.3.11
 // @namespace    https://lss-manager.de/
 // @description  Das Tool für LSS
 // @author       lost | northdegree | mausmajor | dlrg-dominik | mrweezle | sanni | jan
@@ -34,4 +34,4 @@
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
-if("undefined"==typeof jQuery)throw new Error("LSS-Manager: No jQuery! Aborting!");$.ajaxPrefilter(function(e,a,s){("script"==e.dataType||"script"==a.dataType||"stylesheet"==e.dataType||"stylesheet"==a.dataType)&&(e.cache=!0)});var uid="";"undefined"!=typeof user_id&&(game=window.location.hostname.toLowerCase().replace("www.","").split(".")[0],uid="?uid="+game+user_id),$("head").append('<script id="lss_manager_js" src="https://v3.lss-manager.de/lss-manager-v3/lss-manager-v3.dev.js'+uid+'" type="text/javascript"></script>');
+if("undefined"==typeof jQuery)throw new Error("LSS-Manager: No jQuery! Aborting!");$.ajaxPrefilter(function(e,a,s){("script"==e.dataType||"script"==a.dataType||"stylesheet"==e.dataType||"stylesheet"==a.dataType)&&(e.cache=!0)}),$("head").append('<script id="lss_manager_js" src="https://v3.lss-manager.de/lss-manager-v3/lss-manager-v3.dev.js" type="text/javascript"></script>');
