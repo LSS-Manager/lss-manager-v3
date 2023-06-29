@@ -50,7 +50,7 @@ let lssm = {
     },
     getlink: function (file, no_cache = false) {
         try {
-            return this.config.server + file + (no_cache ? `&_=${new Date().getTime()}` : '');
+            return this.config.server + file + (no_cache ? `?_=${new Date().getTime()}` : '');
         } catch (e) {
             console.error("On script load: " + e.message);
         }
