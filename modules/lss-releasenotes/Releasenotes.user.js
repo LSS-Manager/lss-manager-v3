@@ -34,7 +34,7 @@
         let markup = '';
         markup += '<div id="releaseNotes" class="releaseNotesClose" ';
         markup +=
-            'style="background: #fff; z-index: 10001; position: absolute; left: 50%; top: 50%; ';
+            'style="background: #fff; color: rgb(51, 51, 51); z-index: 10001; position: absolute; left: 50%; top: 50%; ';
         markup +=
             'transform: translate(-50%,-50%); min-height: 200px; min-width: 200px; ';
         markup +=
