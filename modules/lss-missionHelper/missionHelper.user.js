@@ -658,7 +658,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
     const MISSIONS_FILE = lssm.getlink(
         `/modules/lss-missionHelper/missions/${I18n.locale}.json`,
-        true
+        10 // cache for 10 Minutes
     );
     const MISSION_WINDOW =
         null === window.location.href.match(/einsaetze\/\d+/);
