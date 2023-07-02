@@ -34,6 +34,10 @@ let lssm = {
         prefix: 'lssm',
         game: window.location.hostname.toLowerCase().replace("www.", ""),
     },
+    /**
+     * @param {string} link
+     * @param {boolean|number} no_cache
+     */
     loadScript: function (link, no_cache = false) {
         try {
             $.getScript(this.getlink(link, no_cache));
@@ -41,6 +45,10 @@ let lssm = {
             console.error("On script load: " + e.message);
         }
     },
+    /**
+     * @param {string} link
+     * @param {boolean|number} no_cache
+     */
     loadStyle: function (link, no_cache = false) {
         try {
             $('body').append('<link href="' + this.getlink(link, no_cache) + '" rel="stylesheet" type="text/css">');
@@ -48,9 +56,16 @@ let lssm = {
             console.error("On script load: " + e.message);
         }
     },
+    /**
+     * @param {string} file
+     * @param {boolean|number} no_cache
+     */
     getlink: function (file, no_cache = false) {
         try {
-            return this.config.server + file + (no_cache ? `?_=${new Date().getTime()}` : '');
+            const filePath = this.config.server + file;
+            if (no_cache === true) return filePath + `?_=${new Date().getTime()}`;
+            else if (typeof no_cache === 'number') return filePath + `?_=${Math.floor(Date.now() / (1000 * 60 * no_cache))}`;
+            return filePath;
         } catch (e) {
             console.error("On script load: " + e.message);
         }

@@ -53,7 +53,7 @@
 
         $('body').append(markup);
 
-        $.get(lssm.getlink('/modules/lss-releasenotes/releaseNotes.json'))
+        $.get(lssm.getlink('/modules/lss-releasenotes/releaseNotes.json', 10)) // cache for 10 Minutes
             .fail(function () {
                 $('#releaseNotesContent').html(
                     '<div>' +
