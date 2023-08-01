@@ -236,6 +236,15 @@ if (I18n.locale == 'en_US') {
         43: ['ULFV Crash Tender', 0],
         44: ['RIV', 0],
         45: ['Emergency Stairs', 0],
+        46: ['SES FOV', 4],
+        47: ['SES Sandbag Trailer', 4],
+        48: ['SES Pump Trailer', 4],
+        49:['SES Emergency Lighting Trailer', 4],
+        50:['SES Aireshelta Trailer', 4],
+        51:['SES Comms Repeater Trailer', 4],
+        52:['SES Solar/Wind Power Trailer', 4],
+        53:['SES Quad Rescue 6x6', 4],
+        54:['SES Search and Rescue Trailer', 4],
     };
 } else if (I18n.locale == 'pt_PT') {
     lssm.carsById = {

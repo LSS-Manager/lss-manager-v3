@@ -32,7 +32,7 @@
         startNumHelp:
             'Hier kann man einen Startwert für den Typzähler angeben. Setzt man da 0 und legt den Hebel nebendran um, so werden Fahrzeuge, die nur einen Typ auf der Wache haben keine durchnummerierung bekommen, sollten sich aber mehrere Fahrzeuge eines Typs auf der Wache befinden, wird der Typ, bei 1 beginnend, durchnummeriert. Man kann dann aber auch den Zähler bei 5 starten lassen (warum auch immer man das wollen sollte, aber es ist möglich ;) )',
         helpTitle: 'Eine kleine Anleitung findest du unter diesem Link: ',
-        helpLink: 'https://docs.lss-manager.de/modules/renameFz',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
         toggleNameCorrect: 'Fahrzeuge mit richtigem Namen ein-/ausblenden',
         settings: {
             show: 'Ein-/Ausblenden',
