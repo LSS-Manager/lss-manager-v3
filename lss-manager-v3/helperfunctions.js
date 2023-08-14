@@ -945,6 +945,11 @@ if (I18n.locale == 'en_US') {
         114: ['GW Lüfter', 0],
         115: ['Anh Lüfter', 0],
         116: ['AB Lüfter', 0],
+        117: ['AB-Tank', 0],
+        118: ['Kleintankwagen', 0],
+        119: ['AB-Lösch', 0],
+        120: ['Tankwagen', 0],
+        121: ['GTLF', 0],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
