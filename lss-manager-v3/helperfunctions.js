@@ -921,7 +921,7 @@ if (I18n.locale == 'en_US') {
         90: ['HLF 10', 0],
         91: ['Rettungshundefahrzeug', 1],
         92: ['Anh Hund', 3],
-        93: ['MTW-OV', 3],
+        93: ['MTW-O', 3],
         94: ['DHuFüKw', 2],
         95: ['Polizeimotorrad', 2],
         96: ['Außenlastbehälter (allgemein)', 2],
@@ -950,6 +950,9 @@ if (I18n.locale == 'en_US') {
         119: ['AB-Lösch', 0],
         120: ['Tankwagen', 0],
         121: ['GTLF', 0],
+        122: ['LKW 7 Lbw (FGr E)', 3],
+        123: ['LKW 7 Lbw (FGr WP)', 3],
+        124: ['MTW-OV', 3],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
