@@ -100,6 +100,16 @@ if (I18n.locale == 'en_US') {
         88: ['Police ATV Trailer', 0],
         89: ['Police MCV', 0],
         90: ['Tactical Rescue Truck', 0],
+        91: ['Flood Equipment Trailer', 0],
+        92: ['Mobile Air Trailer', 0],
+        93: ['Light Tower Trailer', 0],
+        94: ['Energy Generator Trailer', 0],
+        95: ['Double Light Boat Trailer', 0],
+        96: ['Small Heavy Rescue Trailer"', 0],
+        97: ['Large Heavy Rescue Trailer', 0],
+        98: ['Small HazMat Trailer', 0],
+        99: ['Large HazMat Trailer', 0],
+        100: ['Tiller Ladder Trailer', 0],
     };
 } else if (I18n.locale == 'en_GB') {
     lssm.carsById = {
@@ -187,6 +197,17 @@ if (I18n.locale == 'en_US') {
         81: ['Medical equipment trailer', 0],
         82: ['Armed Cell Van', 2],
         83: ['Medical cycle responder', 1],
+        84: ['Pump Trailer', 1],
+        85: ['Control Van', 1],
+        86: ['Operational Support Van', 1],
+        87: ['Operational Support Trailer', 1],
+        88: ['SAR Flood Rescue (Trailer)', 1],
+        89: ['Drone Vehicle (SAR HQ)', 1],
+        90: ['Drone Vehicle (Fire Station)', 1],
+        91: ['Drone Vehicle (Police Station)', 1],
+        92: ['Personal SAR Vehicle', 1],
+        93: ['SAR 4x4', 1],
+        94: ['RRV', 1],
     };
 } else if (I18n.locale == 'en_AU') {
     lssm.carsById = {
