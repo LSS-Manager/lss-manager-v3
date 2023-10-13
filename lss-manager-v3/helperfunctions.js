@@ -651,6 +651,20 @@ if (I18n.locale == 'en_US') {
         58: ['Pélican', 0],
         59: ['Dash Milan', 0],
         60: ['HBE', 0],
+        61:['MaGec',0],
+        62:['VDIP',0],
+        63:['CEDM',0],
+        64:['VDSC',0],
+        65:['TEODOR',0],
+        66:['VTPSC',0],
+        67:['CESD',0],
+        68:['VEC',0],
+        69:['MSAV-SEV',0],
+        70:['MAI',0],
+        71:['MPI',0],
+        72:['UFR',0],
+        73:['VPCE',0],
+    
     };
 } else if (I18n.locale == 'es_ES') {
     lssm.carsById = {
