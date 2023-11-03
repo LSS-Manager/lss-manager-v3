@@ -260,12 +260,18 @@ if (I18n.locale == 'en_US') {
         46: ['SES FOV', 4],
         47: ['SES Sandbag Trailer', 4],
         48: ['SES Pump Trailer', 4],
-        49:['SES Emergency Lighting Trailer', 4],
-        50:['SES Aireshelta Trailer', 4],
-        51:['SES Comms Repeater Trailer', 4],
-        52:['SES Solar/Wind Power Trailer', 4],
-        53:['SES Quad Rescue 6x6', 4],
-        54:['SES Search and Rescue Trailer', 4],
+        49: ['SES Emergency Lighting Trailer', 4],
+        50: ['SES Aireshelta Trailer', 4],
+        51: ['SES Comms Repeater Trailer', 4],
+        52: ['SES Solar/Wind Power Trailer', 4],
+        53: ['SES Quad Rescue 6x6', 4],
+        54: ['SES Search and Rescue Trailer', 4],
+        55: ['CAFS Pumper', 0], 
+        56: ['CAFS Aerial Pumper', 0],
+        57: ['CAFS Bulk Water', 0],
+        58: ['Foam Logistics Vehicle', 0],
+        59: ['HazMat Pumper', 0],
+        60: ['Foam Trailer', 0]
     };
 } else if (I18n.locale == 'pt_PT') {
     lssm.carsById = {
@@ -988,6 +994,10 @@ if (I18n.locale == 'en_US') {
         122: ['LKW 7 Lbw (FGr E)', 3],
         123: ['LKW 7 Lbw (FGr WP)', 3],
         124: ['MTW-OV', 3],
+        125: ['MTW-Tr UL', 3],
+        126: ['MTF Drohne', 0],
+        127: ['GW UAS', 1],
+        128: ['ELW Drohne', 0],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
