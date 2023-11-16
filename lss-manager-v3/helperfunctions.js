@@ -840,7 +840,21 @@ if (I18n.locale == 'en_US') {
         80: ['SAR-heli | SAR helikopter', 4],
         81: ['DA-RWS | Dienstvoertuig weginspecteur Rijkswaterstaat', 0],
         82: ['DM-RWS | Dienstmotor weginspecteur Rijkswaterstaat',0],
-        83: ['DA-SIG | Signalisatievoertuig',0]
+        83: ['DA-SIG | Signalisatievoertuig',0],
+        84: ['Waterwerper',0],
+        85: ['FBO-Heli',0],
+        86: ['DB-Handcrew',0],
+        87: ['DA-LA-NB',0],
+        88: ['VW-NB',0],
+        89: ['NBH',0],
+        90: ['TS-STH',0],
+        91: ['HVH-STH',0],
+        92: ['DB-USAR',0],
+        93: ['TS-USAR',0],
+        94: ['VW-USAR',0],
+        95: ['DM-USAR',0],
+        96: ['Quat-USAR',0],
+        97: ['DB-Speurhonden',0],
     };
 } else if (I18n.locale == 'de_DE') {
     lssm.buildingTypes = [
@@ -998,6 +1012,7 @@ if (I18n.locale == 'en_US') {
         126: ['MTF Drohne', 0],
         127: ['GW UAS', 1],
         128: ['ELW Drohne', 0],
+        129: ['ELW2 Drohne', 0],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
