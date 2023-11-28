@@ -667,9 +667,12 @@ if (I18n.locale == 'en_US') {
         68:['VEC',0],
         69:['MSAV-SEV',0],
         70:['MAI',0],
-        71:['MPI',0],
+        71:['UPM',0],
         72:['UFR',0],
         73:['VPCE',0],
+        74:['Fortress 200',0],
+        75:['Sherpa Light APC',0],
+        76:['VDN',0],
     
     };
 } else if (I18n.locale == 'es_ES') {
