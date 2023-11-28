@@ -853,7 +853,7 @@ if (I18n.locale == 'en_US') {
         93: ['TS-USAR',0],
         94: ['VW-USAR',0],
         95: ['DM-USAR',0],
-        96: ['Quat-USAR',0],
+        96: ['Quad-USAR',0],
         97: ['DB-Speurhonden',0],
     };
 } else if (I18n.locale == 'de_DE') {
@@ -1013,6 +1013,10 @@ if (I18n.locale == 'en_US') {
         127: ['GW UAS', 1],
         128: ['ELW Drohne', 0],
         129: ['ELW2 Drohne', 0],
+        130: ['GW-Bt', 1],
+        131: ['Bt-Kombi', 1],
+        132: ['FKH', 1],
+        133: ['Bt LKW', 1],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
