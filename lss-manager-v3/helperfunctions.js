@@ -803,7 +803,7 @@ if (I18n.locale == 'en_US') {
         43: ['CT (4x4) | Crashtender (4x4)', 0],
         44: ['AFO/OSC | Airport Fire Officer / On Scene Commander', 0],
         45: ['DPH | Dompelpomphaakarmbak', 0],
-        46: ['DM Noodhulp | Dienstmotor Noodhulp', 2],
+        46: ['DM Politie | Dienstmotor Politie', 2],
         47: ['DA Hondengeleider | Dienstauto Hondengeleider', 2],
         48: ['DB Hondengeleider | Dienstbus Hondengeleider', 2],
         49: ['PM-OR | Materieelvoertuig - Oppervlakteredding', 0],
@@ -844,7 +844,7 @@ if (I18n.locale == 'en_US') {
         81: ['DA-RWS | Dienstvoertuig weginspecteur Rijkswaterstaat', 0],
         82: ['DM-RWS | Dienstmotor weginspecteur Rijkswaterstaat',0],
         83: ['DA-SIG | Signalisatievoertuig',0],
-        84: ['Waterwerper',0],
+        84: ['Waterwerper',2],
         85: ['FBO-Heli',0],
         86: ['DB-Handcrew',0],
         87: ['DA-LA-NB',0],
@@ -858,6 +858,8 @@ if (I18n.locale == 'en_US') {
         95: ['DM-USAR',0],
         96: ['Quad-USAR',0],
         97: ['DB-Speurhonden',0],
+        98: ['SIV-P',2],
+        99: ['DB-VOA',2],
     };
 } else if (I18n.locale == 'de_DE') {
     lssm.buildingTypes = [
