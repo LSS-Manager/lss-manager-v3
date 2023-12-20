@@ -587,7 +587,7 @@
             '<b>Erreur pendant la génération!</b> Si cette erreur se reproduit, veuillez le signaler. Veuillez fournir les renseignements suivants :',
         statusWorking:
             'Générer des noms et des formulaires. Cela peut prendre un certain temps, selon le système et le nombre de véhicules.',
-        statusSuccess: 'Noms et Forumlare générés avec succès !',
+        statusSuccess: 'Noms et Formulaire générés avec succès !',
         nameAlreadyCorrect: 'Le nom correspond déjà au modèle !',
         nameToLong: 'Le nom est trop long pour les véhicules suivants :',
         nameToLongOriginalName: "Nom d'origine",
