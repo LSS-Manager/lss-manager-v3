@@ -62,6 +62,7 @@
                 19: 'Polizeiwache (Kleinwache)',
                 20: 'Rettungswache (Kleinwache)',
                 21: 'Rettungshundestaffel',
+                24: 'Reiterstaffel'
             },
         },
     };

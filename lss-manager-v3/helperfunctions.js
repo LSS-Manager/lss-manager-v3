@@ -90,16 +90,16 @@ if (I18n.locale == 'en_US') {
         78: ['Tanker Trailer', 0],
         79: ['Small ARFF Crash Tender', 0],
         80: ['Medium ARFF Crash Tender', 0],
-        81: ['Small K9 Carrier', 0],
-        82: ['Large K9 Carrier', 0],
-        83: ['Riot Police Van', 0],
-        84: ['Riot Police Bus', 0],
-        85: ['Riot Police Trailer', 0],
-        86: ['Police Crew Carrier', 0],
-        87: ['Police Prisoner Van', 0],
-        88: ['Police ATV Trailer', 0],
-        89: ['Police MCV', 0],
-        90: ['Tactical Rescue Truck', 0],
+        81: ['Small K9 Carrier', 2],
+        82: ['Large K9 Carrier', 2],
+        83: ['Riot Police Van', 2],
+        84: ['Riot Police Bus', 2],
+        85: ['Riot Police Trailer', 2],
+        86: ['Police Crew Carrier', 2],
+        87: ['Police Prisoner Van', 2],
+        88: ['Police ATV Trailer', 2],
+        89: ['Police MCV', 2],
+        90: ['Tactical Rescue Truck', 2],
         91: ['Flood Equipment Trailer', 0],
         92: ['Mobile Air Trailer', 0],
         93: ['Light Tower Trailer', 0],
@@ -110,6 +110,10 @@ if (I18n.locale == 'en_US') {
         98: ['Small HazMat Trailer', 0],
         99: ['Large HazMat Trailer', 0],
         100: ['Tiller Ladder Trailer', 0],
+        101: ['Police Traffic Control Unit', 2],
+        102: ['Police Traffic Blocker Unit', 2],
+        103: ['Fire Traffic Control Unit', 0],
+        104: ['Fire Traffic Blocker Unit', 0],
     };
 } else if (I18n.locale == 'en_GB') {
     lssm.carsById = {
@@ -882,6 +886,9 @@ if (I18n.locale == 'en_US') {
         'Polizeiwache (Kleinwache)',
         'Rettungswache (Kleinwache)',
         'Rettungshundestaffel',
+        'Großer Komplex',
+        'Kleiner Komplex',
+        'Reiterstaffel',
     ];
 
     lssm.carsById = {
@@ -1019,6 +1026,10 @@ if (I18n.locale == 'en_US') {
         131: ['Bt-Kombi', 1],
         132: ['FKH', 1],
         133: ['Bt LKW', 1],
+        134: ['Pferdetransporter klein', 2],
+        135: ['Pferdetransporter groß', 2],
+        136: ['Anh Pferdetransport', 2],
+        137: ['Zugfahrzeug Pferdetransport', 2],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
