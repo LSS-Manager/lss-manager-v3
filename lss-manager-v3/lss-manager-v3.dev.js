@@ -121,7 +121,7 @@ if (!I18n.translations.hasOwnProperty('nl_NL')) I18n.translations.nl_NL = {};
 
 I18n.translations.de_DE.lssm = {
     lssm: "LSS-Manager",
-    version: "Beta",
+    version: "Stable",
     appstore: "APPSTORE",
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
