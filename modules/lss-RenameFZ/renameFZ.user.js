@@ -166,6 +166,7 @@
                 27: 'Lifeboat Station',
                 28: 'Coastguard Rescue Station',
                 30: 'Coastal Rescue Heliport',
+                31: 'Search and Rescue HQ',
             },
         },
     };
