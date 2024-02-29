@@ -32,11 +32,13 @@
     height: 100% !important;
     padding: 0 !important;
 }
+
 #buildings_outer .panel-body {
     height: calc(100vh - 135px) !important;
     padding-bottom: 0;
     max-height: 100% !important;
 }
+
 #chat_outer .panel-body,
 #radio_outer .panel-body {
     height: calc(100% - 40px) !important;
@@ -44,12 +46,13 @@
     padding-bottom: 0 !important;
 }
 
-#chat_outer > div,
-#radio_outer > div,
-#radio > div {
+#chat_outer>div,
+#radio_outer>div,
+#radio>div {
     height: 100%;
     margin: 0;
 }
+
 #missions {
     height: 100%;
 }
@@ -90,6 +93,7 @@
     background-color: #c9302c;
     border-radius: 4px;
 }
+
 .lssm_menu_btn_active img {
     -webkit-filter: invert(100%) contrast(10);
     filter: invert(100%) contrast(10);
