@@ -29,6 +29,7 @@
         '#mission_list_sicherheitswache{order:5}' +
         '#mission_list_alliance{order:3}' +
         '#mission_list_alliance_event{order:4}' +
+        '#missions-panel-body > [id*="mission_list"]:not(:has(> .missionSideBarEntry:not(.hidden))) {display: none !important}' +
         '</style>'
     );
 
