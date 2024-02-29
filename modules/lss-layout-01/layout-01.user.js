@@ -18,6 +18,7 @@
             '.lssm_menu_btn_active{padding:10px;background-color:#c9302c;border-radius:4px}' +
             '.lssm_menu_btn_active img,.lssm_menu_btn_svg:hover{-webkit-filter:invert(100%) contrast(10);filter:invert(100%) contrast(10)}' +
             '.lssm_menu_btn_svg{width:20px}#WachenplanungOnMap_settings{left:0!important}' +
+            '.label-speedbutton {padding-top: 4px;padding-bottom: 4px;}' +
             '.missions-panel-head strong{display:none!important}' +
             '</style>'
     );

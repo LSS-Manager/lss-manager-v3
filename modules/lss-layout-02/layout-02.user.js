@@ -12,6 +12,7 @@
             '#missions > div > div > .btn-group{margin-bottom:5px;width:100%;border-radius:3px}' +
             '#missions > div > div > .btn-group a{border:none;border-right:3px solid}' +
             '#missions > div > div > .btn-group a:last-child{border:none}' +
+            '.label-speedbutton {padding-top: 4px;padding-bottom: 4px;}' +
             '.missions-panel-head strong{display:none!important}' +
             '</style>'
     );

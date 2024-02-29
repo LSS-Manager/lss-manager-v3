@@ -102,3 +102,8 @@
 #WachenplanungOnMap_settings {
     left: 0 !important;
 }
+
+.label-speedbutton {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}

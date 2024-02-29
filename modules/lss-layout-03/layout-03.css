@@ -67,3 +67,8 @@
 #missions > div > div > .btn-group a:last-child {
     border: none;
 }
+
+.label-speedbutton {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
