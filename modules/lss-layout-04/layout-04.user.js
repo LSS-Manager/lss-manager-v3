@@ -26,9 +26,9 @@
         '#buildings{overflow:hidden}' +
         '#mission_list{order:1}' +
         '#mission_list_krankentransporte{order:2}' +
-        '#mission_list_sicherheitswache{order:5}' +
         '#mission_list_alliance{order:3}' +
         '#mission_list_alliance_event{order:4}' +
+        '#mission_list_sicherheitswache_alliance{order:5}' +
         '#missions-panel-body > [id*="mission_list"]:not(:has(> .missionSideBarEntry:not(.hidden))) {display: none !important}' +
         '</style>'
     );
@@ -48,7 +48,7 @@
     $('#radio_outer').addClass('col-md-2');
     $('#eventInfo').prependTo('#content');
     $(
-        '#missions-panel-body > div:nth-child(6), #missions-panel-body > div:nth-child(7),#missions-panel-body > div:nth-child(8)'
+        '#missions-panel-body > div:nth-child(4), #missions-panel-body > div:nth-child(9),#missions-panel-body > div:nth-child(10)'
     ).remove();
     if ('undefined' != typeof mapkit) {} else map.invalidateSize(true);
 })();
