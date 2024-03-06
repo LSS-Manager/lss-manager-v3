@@ -677,7 +677,7 @@ if (I18n.locale == 'en_US') {
         74:['Fortress 200',0],
         75:['Sherpa Light APC',0],
         76:['VDN',0],
-    
+        77:['SA 330 PUMA',0],
     };
 } else if (I18n.locale == 'es_ES') {
     lssm.carsById = {
@@ -864,6 +864,9 @@ if (I18n.locale == 'en_US') {
         97: ['DB-Speurhonden',0],
         98: ['SIV-P',2],
         99: ['DB-VOA',2],
+        100: ['GGB', 0],
+        101: ['NHT', 0],
+        102: ['MC-Ambulance', 0],
     };
 } else if (I18n.locale == 'de_DE') {
     lssm.buildingTypes = [
@@ -1033,6 +1036,11 @@ if (I18n.locale == 'en_US') {
         135: ['Pferdetransporter groß', 2],
         136: ['Anh Pferdetransport', 2],
         137: ['Zugfahrzeug Pferdetransport', 2],
+        138: ['GW-Verpflegung', 0],
+        139: ['GW-Küche', 0],
+        140: ['MTW-Verpflegung ', 0],
+        141: ['Anhänger Feldkochherd', 0],
+        142: ['AB-Küche', 0],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
