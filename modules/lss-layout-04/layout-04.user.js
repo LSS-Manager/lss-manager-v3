@@ -4,6 +4,7 @@
         '<style type="text/css" id="lss-layout-04-style">' +
         '#map_outer{height:calc(100vh - 90px)!important;padding-left:0!important;padding-right:0!important;margin-left:20px;width: 33.33333333% !important;}' +
         '#missions_outer{height:49vh!important;padding-left:0;width:calc(66.66666667% - 30px);margin-left:10px;padding-right:10px}' +
+        '#missions{max-height:100%;}' +
         '#missions-panel-body{height:calc(49vh - 45px)!important;display:flex;padding:0!important;margin-right:-10px!important}' +
         'div[id^=mission_list]{display:inline-block;width:100% !important;padding:10px;overflow:scroll}' +
         '#map{height:100%!important}' +
@@ -25,19 +26,15 @@
         '#radio_outer{width:calc(16.66666667% - 40px)}' +
         '#buildings{overflow:hidden}' +
         '#mission_list{order:1}' +
-        '#mission_list_krankentransporte{order:2}' +
+        '#mission_list_krankentransporte,#mission_list_krankentransporte_alliance{order:2}' +
         '#mission_list_alliance{order:3}' +
         '#mission_list_alliance_event{order:4}' +
-        '#mission_list_sicherheitswache_alliance{order:5}' +
+        '#mission_list_sicherheitswache,#mission_list_sicherheitswache_alliance{order:5}' +
         '#missions-panel-body > [id*="mission_list"]:not(:has(> .missionSideBarEntry:not(.hidden))) {display: none !important}' +
         '</style>'
     );
 
-    $('.alliance_events_buttons')
-        .parent()
-        .detach()
-        .insertAfter('#missions .btn-group')
-        .addClass('pull-right');
+    $('.alliance_events_buttons').insertAfter('.filters-info');
 
     $(
         '#missions_outer, #buildings_outer, #radio_outer, #chat_outer'
@@ -47,8 +44,6 @@
     $('#chat_outer').addClass('col-sm-3');
     $('#radio_outer').addClass('col-md-2');
     $('#eventInfo').prependTo('#content');
-    $(
-        '#missions-panel-body > div:nth-child(4), #missions-panel-body > div:nth-child(9),#missions-panel-body > div:nth-child(10)'
-    ).remove();
+    $('#ktw_no_transports').prependTo('#mission_list_krankentransporte');
     if ('undefined' != typeof mapkit) {} else map.invalidateSize(true);
 })();
