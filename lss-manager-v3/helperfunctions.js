@@ -678,6 +678,7 @@ if (I18n.locale == 'en_US') {
         75:['Sherpa Light APC',0],
         76:['VDN',0],
         77:['SA 330 PUMA',0],
+        78:['VPI',0],
     };
 } else if (I18n.locale == 'es_ES') {
     lssm.carsById = {
