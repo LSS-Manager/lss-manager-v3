@@ -114,6 +114,10 @@ if (I18n.locale == 'en_US') {
         102: ['Police Traffic Blocker Unit', 2],
         103: ['Fire Traffic Control Unit', 0],
         104: ['Fire Traffic Blocker Unit', 0],
+        105: ['Wrecker', 0],
+        106: ['Flatbed Carrier', 0],
+        107: ['Fire Wrecker', 0],
+        108: ['Police Wrecker', 2],
     };
 } else if (I18n.locale == 'en_GB') {
     lssm.carsById = {
@@ -865,9 +869,9 @@ if (I18n.locale == 'en_US') {
         97: ['DB-Speurhonden',0],
         98: ['SIV-P',2],
         99: ['DB-VOA',2],
-        100: ['GGB', 0],
-        101: ['NHT', 0],
-        102: ['MC-Ambulance', 0],
+        100: ['GGB', 1],
+        101: ['NHT', 1],
+        102: ['MC-Ambulance', 10],
     };
 } else if (I18n.locale == 'de_DE') {
     lssm.buildingTypes = [
@@ -1042,6 +1046,7 @@ if (I18n.locale == 'en_US') {
         140: ['MTW-Verpflegung ', 0],
         141: ['Anhänger Feldkochherd', 0],
         142: ['AB-Küche', 0],
+        143: ['Anh Schlauch', 0],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
