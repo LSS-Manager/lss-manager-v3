@@ -130,7 +130,8 @@
                 22: "Fire Marshal's Office",
                 23: "Coastal Rescue Station",
                 25: "Coastal Air Station",
-                26: "Lifeguard Post"
+                26: "Lifeguard Post",
+                27: "Tow Truck Station"
             },
         },
     };
@@ -931,6 +932,7 @@
                 19: 'Kustwacht haven',
                 21: 'SAR Helikopter platform',
                 22: 'Steunpunt Rijkswaterstaat',
+                23: 'Militaire hangar',
             },
         },
     };
