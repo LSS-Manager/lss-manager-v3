@@ -871,7 +871,7 @@ if (I18n.locale == 'en_US') {
         99: ['DB-VOA',2],
         100: ['GGB', 1],
         101: ['NHT', 1],
-        102: ['MC-Ambulance', 10],
+        102: ['MC-Ambulance', 1],
     };
 } else if (I18n.locale == 'de_DE') {
     lssm.buildingTypes = [
@@ -954,7 +954,7 @@ if (I18n.locale == 'en_US') {
         48: ['AB-Atemschutz', 0],
         49: ['AB-Öl', 0],
         50: ['GruKw', 2],
-        51: ['FüKw', 2],
+        51: ['FüKw (Polizei)', 2],
         52: ['GefKw', 2],
         53: ['Dekon-P', 0],
         54: ['AB-Dekon-P', 0],
