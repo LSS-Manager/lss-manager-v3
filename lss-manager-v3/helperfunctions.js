@@ -1047,6 +1047,11 @@ if (I18n.locale == 'en_US') {
         141: ['Anhänger Feldkochherd', 0],
         142: ['AB-Küche', 0],
         143: ['Anh Schlauch', 0],
+        144: ['FüKw (THW)', 3],
+        145: ['FüKomKW', 3],
+        146: ['Anh FüLa', 3],
+        147: ['FmKW', 3],
+        148: ['MTW FGr K', 3],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
