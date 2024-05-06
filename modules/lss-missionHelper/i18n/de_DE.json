@@ -143,7 +143,7 @@
         "police_cars": "Funkstreifenwagen",
         "boats": "Boot",
         "lebefkw": "Leichter Befehlskraftwagen",
-        "fukw": "Führungskraftwagen",
+        "fukw": "Führungskraftwagen (Polizei)",
         "grukw": "Gruppenkraftwagen",
         "gefkw": "Gefangenenkraftwagen",
         "wasserwerfer": "Wasserwerfer",
@@ -186,6 +186,19 @@
         "min_pump_speed": "Min.Pumpenleistung",
         "energy_supply":  "NEA50",
         "energy_supply_2": "NEA200",
-        "drone": "Drohneneinheiten"
+        "drone": "Drohneneinheiten",
+        "thw_command": "FüKw (THW)",
+        "thw_command_2": "FüKomKW",
+        "thw_command_3": "FmKW",
+        "thw_command_4": "MTW FGr K",
+        "thw_command_trailer": "Anh FüLa",
+        "police_horse": "Polizeipferd | Polizeipferde",
+        "bucket_only_if_needed": "Außenlastbehälter (allgemein) (nur wenn aktiver Ausbau vorhanden)",
+        "care_affected_people_max": "Kommt später",
+        "care_affected_people_min": "Kommt später",
+        "care_includes_staff_members": "Kommt später",
+        "k9_only_if_needed": "DHuFüKW (nur wenn aktiver Ausbau vorhanden)",
+        "max_civil_patrol_replace_police_cars": "Zivilstreifenwagen kann Funkstreifenwagen ersetzen",
+        "water_carrier": "Beliebiges Großtankfahrzeug"
     }
 }
