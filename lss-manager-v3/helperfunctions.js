@@ -902,6 +902,7 @@ if (I18n.locale == 'en_US') {
         'Großer Komplex',
         'Kleiner Komplex',
         'Reiterstaffel',
+        'Bergrettungswache'
     ];
 
     lssm.carsById = {
@@ -1054,6 +1055,16 @@ if (I18n.locale == 'en_US') {
         146: ['Anh FüLa', 3],
         147: ['FmKW', 3],
         148: ['MTW FGr K', 3],
+        149: ['GW-Bergrettung (NEF)', 1],
+        150: ['GW-Bergrettung', 1],
+        151: ['ELW Bergrettung', 1],
+        152: ['ATV', 1],
+        153: ['Hundestaffel (Bergrettung)', 1],
+        154: ['Schneefahrzeug', 1],
+        155: ['Anh Höhenrettung (Bergrettung)', 1],
+        156: ['Polizeihubschrauber mit verbauter Winde', 1],
+        157: ['RTH Winde', 1],
+        158: ['GW-Höhenrettung (Bergrettung)', 1],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {

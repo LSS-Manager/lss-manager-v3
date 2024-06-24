@@ -199,6 +199,13 @@
         "care_includes_staff_members": "Kommt später",
         "k9_only_if_needed": "DHuFüKW (nur wenn aktiver Ausbau vorhanden)",
         "max_civil_patrol_replace_police_cars": "Zivilstreifenwagen kann Funkstreifenwagen ersetzen",
-        "water_carrier": "Beliebiges Großtankfahrzeug"
+        "water_carrier": "Beliebiges Großtankfahrzeug",
+        "lift": "Hubschrauber mit Winde",
+        "mountain": "Bergrettungsfahrzeug",
+        "mountain_command": "ELW Bergrettung",
+        "mountain_equipment": "GW-Bergrettung",
+        "mountain_height_rescue": "Höhenrettung (Bergrettung)",
+        "mountain_snow": "Schneefahrzeuge",
+        "police_motorcycle": "Polizeimotorräder"
     }
 }
