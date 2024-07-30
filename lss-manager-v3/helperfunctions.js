@@ -118,6 +118,7 @@ if (I18n.locale == 'en_US') {
         106: ['Flatbed Carrier', 0],
         107: ['Fire Wrecker', 0],
         108: ['Police Wrecker', 2],
+        109: ['CCTU', 1]
     };
 } else if (I18n.locale == 'en_GB') {
     lssm.carsById = {
@@ -217,7 +218,9 @@ if (I18n.locale == 'en_US') {
         93: ['SAR 4x4', 4],
         94: ['RRV', 1],
         95: ['Community Midwife', 1],
-        96: ['Specialist Paramedic RRV', 1]
+        96: ['Specialist Paramedic RRV', 1],
+        97: ['Patient Transport Service Ambulance', 1],
+        98: ['Critical Care Transfer Ambulance', 1]
     };
 } else if (I18n.locale == 'en_AU') {
     lssm.carsById = {
@@ -281,7 +284,8 @@ if (I18n.locale == 'en_US') {
         57: ['CAFS Bulk Water', 0],
         58: ['Foam Logistics Vehicle', 0],
         59: ['HazMat Pumper', 0],
-        60: ['Foam Trailer', 0]
+        60: ['Foam Trailer', 0],
+        61: ['Ambulance Transport', 1]
     };
 } else if (I18n.locale == 'pt_PT') {
     lssm.carsById = {
@@ -874,6 +878,7 @@ if (I18n.locale == 'en_US') {
         100: ['GGB', 1],
         101: ['NHT', 1],
         102: ['MC-Ambulance', 1],
+        103: ['MICU', 1]
     };
 } else if (I18n.locale == 'de_DE') {
     lssm.buildingTypes = [

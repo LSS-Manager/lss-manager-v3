@@ -161,7 +161,7 @@
                 18: 'Fire Station (Small)',
                 19: 'Police Station (Small station)',
                 20: 'Ambulance station (Small station)',
-                21: 'Clinic',
+                21: 'Urgent Treatment Center',
                 22: 'Home Response Location',
                 25: 'HART Base',
                 26: 'Large Police Depot',
@@ -169,6 +169,7 @@
                 28: 'Coastguard Rescue Station',
                 30: 'Coastal Rescue Heliport',
                 31: 'Search and Rescue HQ',
+                32: 'GP Surgery',
             },
         },
     };
