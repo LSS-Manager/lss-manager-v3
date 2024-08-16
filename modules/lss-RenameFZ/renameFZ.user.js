@@ -1072,16 +1072,19 @@
     const prefix = `${lssm.config.prefix}_renameFzSettings`;
     // 2024: DOMNodeInserted is deprecated and Google even removed it from chromium: https://chromestatus.com/feature/5083947249172480
     // $('#tab_vehicle').on('DOMNodeInserted', 'script', () => createSettings());
-    new MutationObserver(mutations => {
-        mutations.forEach(record => {
-            if (
-                Array.from(record.addedNodes).some(
-                    node => node.nodeName === 'SCRIPT'
+    const tabVehicle = document.getElementById('tab_vehicle');
+    if (tabVehicle) {
+        new MutationObserver(mutations => {
+            mutations.forEach(record => {
+                if (
+                    Array.from(record.addedNodes).some(
+                        node => node.nodeName === 'SCRIPT'
+                    )
                 )
-            )
-                createSettings();
-        });
-    }).observe(document.getElementById('tab_vehicle'), {childList: true});
+                    createSettings();
+            });
+        }).observe(tabVehicle, {childList: true});
+    }
     if ('#vehicle_table') createSettings();
 
     document.addEventListener('lssmv4-event-buildingComplex-opened-overview-tab', ({detail}) => {
