@@ -63,7 +63,9 @@
                 20: 'Rettungswache (Kleinwache)',
                 21: 'Rettungshundestaffel',
                 24: 'Reiterstaffel',
-                25: 'Bergrettungswache'
+                25: 'Bergrettungswache',
+                26: 'Seenotrettungswache',
+                28: 'Hubschrauberstation (Seenotrettung)'
             },
         },
     };

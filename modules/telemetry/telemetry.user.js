@@ -15,7 +15,7 @@ Mit diesem kleinen Popup möchten wir dir einen kurzen Zwischenstand geben, welc
 <ul>
     ${v4ModulesList}
 </ul>
-Natürlich musst du dich nicht von deiner gewohnten Umgebung verabschieden, allerdings lohnt es sich, mal ein Blick in die V4 zu werfen 😉. Eine Übersicht, welche Module der V3 wo in der V4 zu finden sind, findest du in unserem <a href="https://proxy.lss-manager.de/v4/docs/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Natürlich musst du dich nicht von deiner gewohnten Umgebung verabschieden, allerdings lohnt es sich, mal ein Blick in die V4 zu werfen 😉. Eine Übersicht, welche Module der V3 wo in der V4 zu finden sind, findest du in unserem <a href="https://docs.lss-manager.de/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
 Möchtest du bei bestimmten Modulen ganz bewusst nicht auf die V4 umsteigen? Erzähl uns gerne davon, warum dir die V3 an diesem Punkt besser gefällt, vielleicht findet sich ja eine Lösung in der V4.<br><br>
 Viele Grüße<br>
 Dein LSSM-Team`,
@@ -35,7 +35,7 @@ With this small pop-up we would like to give you a brief interim status of which
 <ul>
     ${v4ModulesList}
 </ul>
-Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://proxy.lss-manager.de/v4/docs/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://docs.lss-manager.de/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
 Do you prefer not to switch to V4 for certain modules? Tell us why you like the V3 better at this point, maybe there will be a solution in the V4.<br><br>
 Best regards<br>
 Your LSSM-Team`,
@@ -55,7 +55,7 @@ With this small pop-up we would like to give you a brief interim status of which
 <ul>
     ${v4ModulesList}
 </ul>
-Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://proxy.lss-manager.de/v4/docs/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://docs.lss-manager.de/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
 Do you prefer not to switch to V4 for certain modules? Tell us why you like the V3 better at this point, maybe there will be a solution in the V4.<br><br>
 Best regards<br>
 Your LSSM-Team`,
@@ -75,7 +75,7 @@ With this small pop-up we would like to give you a brief interim status of which
 <ul>
     ${v4ModulesList}
 </ul>
-Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://proxy.lss-manager.de/v4/docs/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://docs.lss-manager.de/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
 Do you prefer not to switch to V4 for certain modules? Tell us why you like the V3 better at this point, maybe there will be a solution in the V4.<br><br>
 Best regards<br>
 Your LSSM-Team`,
@@ -95,7 +95,7 @@ With this small pop-up we would like to give you a brief interim status of which
 <ul>
     ${v4ModulesList}
 </ul>
-Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://proxy.lss-manager.de/v4/docs/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://docs.lss-manager.de/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
 Do you prefer not to switch to V4 for certain modules? Tell us why you like the V3 better at this point, maybe there will be a solution in the V4.<br><br>
 Best regards<br>
 Your LSSM-Team`,
@@ -115,7 +115,7 @@ With this small pop-up we would like to give you a brief interim status of which
 <ul>
     ${v4ModulesList}
 </ul>
-Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://proxy.lss-manager.de/v4/docs/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://docs.lss-manager.de/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
 Do you prefer not to switch to V4 for certain modules? Tell us why you like the V3 better at this point, maybe there will be a solution in the V4.<br><br>
 Best regards<br>
 Your LSSM-Team`,
@@ -135,7 +135,7 @@ With this small pop-up we would like to give you a brief interim status of which
 <ul>
     ${v4ModulesList}
 </ul>
-Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://proxy.lss-manager.de/v4/docs/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://docs.lss-manager.de/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
 Do you prefer not to switch to V4 for certain modules? Tell us why you like the V3 better at this point, maybe there will be a solution in the V4.<br><br>
 Best regards<br>
 Your LSSM-Team`,
@@ -155,7 +155,7 @@ With this small pop-up we would like to give you a brief interim status of which
 <ul>
     ${v4ModulesList}
 </ul>
-Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://proxy.lss-manager.de/v4/docs/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://docs.lss-manager.de/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
 Do you prefer not to switch to V4 for certain modules? Tell us why you like the V3 better at this point, maybe there will be a solution in the V4.<br><br>
 Best regards<br>
 Your LSSM-Team`,
@@ -175,7 +175,7 @@ With this small pop-up we would like to give you a brief interim status of which
 <ul>
     ${v4ModulesList}
 </ul>
-Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://proxy.lss-manager.de/v4/docs/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://docs.lss-manager.de/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
 Do you prefer not to switch to V4 for certain modules? Tell us why you like the V3 better at this point, maybe there will be a solution in the V4.<br><br>
 Best regards<br>
 Your LSSM-Team`,
@@ -195,7 +195,7 @@ With this small pop-up we would like to give you a brief interim status of which
 <ul>
     ${v4ModulesList}
 </ul>
-Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://proxy.lss-manager.de/v4/docs/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://docs.lss-manager.de/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
 Do you prefer not to switch to V4 for certain modules? Tell us why you like the V3 better at this point, maybe there will be a solution in the V4.<br><br>
 Best regards<br>
 Your LSSM-Team`,
@@ -215,7 +215,7 @@ Your LSSM-Team`,
 <ul>
     ${v4ModulesList}
 </ul>
-Bien sûr, vous ne devez pas dire adieu à votre environnement familier, mais cela vaut la peine de jeter un coup d'œil au V4 :wink:. Vous trouverez une vue d'ensemble des modules V3 et de leur emplacement dans la V4 dans notre section <a href="https://proxy.lss-manager.de/v4/docs/fr_FR/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Bien sûr, vous ne devez pas dire adieu à votre environnement familier, mais cela vaut la peine de jeter un coup d'œil au V4 :wink:. Vous trouverez une vue d'ensemble des modules V3 et de leur emplacement dans la V4 dans notre section <a href="https://docs.lss-manager.de/fr_FR/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
 Préférez-vous ne pas rester sur la V4 pour certains modules ? Dites-nous pourquoi vous préférez la V3, peut-être y aura-t-il une solution dans la V4.<br><br>
 Meilleures salutations<br>
 L'équipe de LSSM`,
@@ -235,7 +235,7 @@ With this small pop-up we would like to give you a brief interim status of which
 <ul>
     ${v4ModulesList}
 </ul>
-Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://proxy.lss-manager.de/v4/docs/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://docs.lss-manager.de/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
 Do you prefer not to switch to V4 for certain modules? Tell us why you like the V3 better at this point, maybe there will be a solution in the V4.<br><br>
 Best regards<br>
 Your LSSM-Team`,
@@ -255,7 +255,7 @@ With this small pop-up we would like to give you a brief interim status of which
 <ul>
     ${v4ModulesList}
 </ul>
-Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://proxy.lss-manager.de/v4/docs/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Of course, you don't have to say goodbye to your familiar environment, but it's worth taking a look at the V4 😉 . You can find an overview of which V3 modules can be found where in the V4 in our <a href="https://docs.lss-manager.de/de_DE/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
 Do you prefer not to switch to V4 for certain modules? Tell us why you like the V3 better at this point, maybe there will be a solution in the V4.<br><br>
 Best regards<br>
 Your LSSM-Team`,
@@ -276,7 +276,7 @@ Met deze kleine mededeling willen we je graag een korte status geven van welke m
     ${v4ModulesList}
 </ul>
 Uiteraard hoef je nog geen afscheid te nemen van je vertrouwde omgevind, maar het is het waard om een kijkje te nemen bij V4 😉 . 
-Je kan een overzicht vinden van welke V3 modules gevonden kunnen worden in V4 in onze <a href="https://proxy.lss-manager.de/v4/docs/nl_NL/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
+Je kan een overzicht vinden van welke V3 modules gevonden kunnen worden in V4 in onze <a href="https://docs.lss-manager.de/nl_NL/apps.html#lssm-v-3-vs-lssm-v-4" target="_blank">Wiki</a>.<br>
 Gebruik je liever een bepaalde module in V3? Vertel ons waarom je de V3 versie beter vindt. Misschien kunnen we een oplossing vinden in V4.<br><br>
 Met vriendelijke groet<br>
 Het LSSM-Team`,

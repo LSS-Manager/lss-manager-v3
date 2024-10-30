@@ -907,7 +907,9 @@ if (I18n.locale == 'en_US') {
         'Großer Komplex',
         'Kleiner Komplex',
         'Reiterstaffel',
-        'Bergrettungswache'
+        'Bergrettungswache',
+        'Seenotrettungswache',
+        'Hubschrauberstation (Seenotrettung)'
     ];
 
     lssm.carsById = {
@@ -1070,6 +1072,9 @@ if (I18n.locale == 'en_US') {
         156: ['Polizeihubschrauber mit verbauter Winde', 1],
         157: ['RTH Winde', 1],
         158: ['GW-Höhenrettung (Bergrettung)', 1],
+        159: ['Seenotrettungskreuzer', 4],
+        160: ['Seenotrettungsboot', 4],
+        161: ['Hubschrauber (Seenotrettung)', 4],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
