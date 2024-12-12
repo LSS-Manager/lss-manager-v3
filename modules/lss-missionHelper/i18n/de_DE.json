@@ -209,6 +209,7 @@
         "police_motorcycle": "Polizeimotorräder",
         "coastal_boat_large": "Seenotrettungskreuzer",
         "coastal_helicopter": "Hubschrauber (Seenotrettung)",
-        "oneof_coastal_rescue_boat_or_boat_large": "Seenotrettungsboote oder Seenotrettungskreuzer"
+        "oneof_coastal_rescue_boat_or_boat_large": "Seenotrettungsboote oder Seenotrettungskreuzer",
+        "railway_fire": "Bahnrettungsfahrzeug"
     }
 }

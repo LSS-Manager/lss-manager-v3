@@ -118,7 +118,10 @@ if (I18n.locale == 'en_US') {
         106: ['Flatbed Carrier', 0],
         107: ['Fire Wrecker', 0],
         108: ['Police Wrecker', 2],
-        109: ['CCTU', 1]
+        109: ['CCTU', 1],
+        110: ['Tactical Rescue Truck with Boat', 2],
+        111: ['Police Water Rescue Boat Trailer', 2],
+        112: ['Police Water Rescue Double Boat Trailer', 2]
     };
 } else if (I18n.locale == 'en_GB') {
     lssm.carsById = {
@@ -1075,6 +1078,9 @@ if (I18n.locale == 'en_US') {
         159: ['Seenotrettungskreuzer', 4],
         160: ['Seenotrettungsboot', 4],
         161: ['Hubschrauber (Seenotrettung)', 4],
+        162: ['RW-Schiene', 0],
+        163: ['HLF Schiene', 0],
+        164: ['AB-Schiene', 0],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
