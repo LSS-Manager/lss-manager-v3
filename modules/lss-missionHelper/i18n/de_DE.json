@@ -210,6 +210,11 @@
         "coastal_boat_large": "Seenotrettungskreuzer",
         "coastal_helicopter": "Hubschrauber (Seenotrettung)",
         "oneof_coastal_rescue_boat_or_boat_large": "Seenotrettungsboote oder Seenotrettungskreuzer",
-        "railway_fire": "Bahnrettungsfahrzeug"
+        "railway_fire": "Bahnrettungsfahrzeug",
+        "oneof_fire_engine_or_rescue": "Löschfahrzeug oder Rüstwagenn",
+        "oneof_police_patrol_or_motorcycle": "Streifenwagen oder Polizeimotorrad",
+        "oneof_police_patrol_or_civil_patrol": "Streifenwagen oder Zivilstreifenwagen",
+        "oneof_police_patrol_or_civil_patrol_or_motorcycle": "Streifenwagen oder Zivilstreifenwagen oder Polizeimotorrad",
+        "oneof_fire_engine_or_rescue_or_oil_equipment": "Löschfahrzeug, Rüstwagen oder Gerätwagen Öl"
     }
 }
