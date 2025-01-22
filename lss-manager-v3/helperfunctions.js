@@ -121,7 +121,8 @@ if (I18n.locale == 'en_US') {
         109: ['CCTU', 1],
         110: ['Tactical Rescue Truck with Boat', 2],
         111: ['Police Water Rescue Boat Trailer', 2],
-        112: ['Police Water Rescue Double Boat Trailer', 2]
+        112: ['Police Water Rescue Double Boat Trailer', 2],
+        113: ['Rotator Truck', 0]
     };
 } else if (I18n.locale == 'en_GB') {
     lssm.carsById = {
@@ -1081,6 +1082,7 @@ if (I18n.locale == 'en_US') {
         162: ['RW-Schiene', 0],
         163: ['HLF Schiene', 0],
         164: ['AB-Schiene', 0],
+        165: ['LauKw', 2],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
