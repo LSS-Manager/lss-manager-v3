@@ -6,6 +6,8 @@
     "prisoners": "Gefangene",
     "water": "Wasserbedarf",
     "water1": "Liter",
+    "foam": "Sonderlöschmittelbedarf",
+    "foam1": "",
     "to": "bis zu",
     "exp": "Ausbreitungen",
     "fwm": "Folgeeinsätze",
@@ -41,6 +43,10 @@
         "water": {
             "label": "Wasserbedarf",
             "description": "Zeigt die insgesamt benötigte Wassermenge an."
+        },
+        "foamde": {
+            "label": "Sonderlöschmittelbedarf",
+            "description": "Zeigt den insgesamt benötigten Sonderlöschmittelbedarf an."
         },
         "vehicles": {
             "label": "Fahrzeuge",

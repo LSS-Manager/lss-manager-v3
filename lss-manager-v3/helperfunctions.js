@@ -224,7 +224,12 @@ if (I18n.locale == 'en_US') {
         95: ['Community Midwife', 1],
         96: ['Specialist Paramedic RRV', 1],
         97: ['Patient Transport Service Ambulance', 1],
-        98: ['Critical Care Transfer Ambulance', 1]
+        98: ['Critical Care Transfer Ambulance', 1],
+        99: ['Mountain Rescue 4x4', 1],
+        100: ['Control Van (Mountain Rescue)', 1],
+        101: ['Search Dog Unit', 1],
+        102: ['Search Dog Unit (SAR)', 1],
+        103: ['Crew Carrier (SAR)', 1],
     };
 } else if (I18n.locale == 'en_AU') {
     lssm.carsById = {
@@ -289,7 +294,9 @@ if (I18n.locale == 'en_US') {
         58: ['Foam Logistics Vehicle', 0],
         59: ['HazMat Pumper', 0],
         60: ['Foam Trailer', 0],
-        61: ['Ambulance Transport', 1]
+        61: ['Ambulance Transport', 1],
+        62: ['Fire Boat', 0],
+        63: ['Patrol Cutter', 0],
     };
 } else if (I18n.locale == 'pt_PT') {
     lssm.carsById = {
@@ -1083,6 +1090,11 @@ if (I18n.locale == 'en_US') {
         163: ['HLF Schiene', 0],
         164: ['AB-Schiene', 0],
         165: ['LauKw', 2],
+        166: ['PTLF 4000', 0],
+        167: ['SLF', 0],
+        168: ['Anh Sonderlöschmittel', 0],
+        169: ['AB-Sonderlöschmittel', 0],
+        170: ['AB-Wasser/Schaum', 0],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
