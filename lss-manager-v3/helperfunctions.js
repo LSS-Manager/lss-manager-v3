@@ -1095,6 +1095,11 @@ if (I18n.locale == 'en_US') {
         168: ['Anh Sonderlöschmittel', 0],
         169: ['AB-Sonderlöschmittel', 0],
         170: ['AB-Wasser/Schaum', 0],
+        171: ['GW TeSi', 1],
+        172: ['LKW Technik (Notstrom)', 1],
+        173: ['MTW TeSi', 1],
+        174: ['Anh TeSi', 1],
+        175: ['NEA50', 1],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
