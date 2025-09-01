@@ -186,6 +186,9 @@
         "min_pump_speed": "Min.Pumpenleistung",
         "energy_supply":  "NEA50",
         "energy_supply_2": "NEA200",
-        "drone": "Drohneneinheiten"
+        "drone": "Drohneneinheiten",
+        "disaster_response_technology_crew": "MTW TeSi",
+        "disaster_response_technology_equipment": "GW TeSi",
+        "disaster_response_technology_trailer": "Anh TeSi"
     }
 }
