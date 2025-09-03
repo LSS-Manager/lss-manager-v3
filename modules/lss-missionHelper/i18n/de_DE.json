@@ -222,7 +222,7 @@
         "oneof_police_patrol_or_civil_patrol": "Streifenwagen oder Zivilstreifenwagen",
         "oneof_police_patrol_or_civil_patrol_or_motorcycle": "Streifenwagen oder Zivilstreifenwagen oder Polizeimotorrad",
         "oneof_fire_engine_or_rescue_or_oil_equipment": "Löschfahrzeug, Rüstwagen oder Gerätwagen Öl",
-        "police_speaker": "LauKw"
+        "police_speaker": "LauKw",
         "disaster_response_technology_crew": "MTW TeSi",
         "disaster_response_technology_equipment": "GW TeSi",
         "disaster_response_technology_trailer": "Anh TeSi"
