@@ -1100,6 +1100,9 @@ if (I18n.locale == 'en_US') {
         173: ['MTW TeSi', 1],
         174: ['Anh TeSi', 1],
         175: ['NEA50', 1],
+        175: ['LKW 7 Lbw (FGr Log-V)', 3],
+        175: ['MTW-FGr Log-V', 3],
+        175: ['Anh 12 Lbw (FGr Log-V)', 3],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
