@@ -1103,6 +1103,8 @@ if (I18n.locale == 'en_US') {
         176: ['LKW 7 Lbw (FGr Log-V)', 3],
         177: ['MTW-FGr Log-V', 3],
         178: ['Anh 12 Lbw (FGr Log-V)', 3],
+        179: ['AB-NEA50', 3],
+        180: ['AB-NEA200', 3],
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
