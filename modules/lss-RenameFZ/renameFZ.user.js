@@ -173,6 +173,7 @@
                 30: 'Coastal Rescue Heliport',
                 31: 'Search and Rescue HQ',
                 32: 'GP Surgery',
+                34: 'Recovery Centre'
             },
         },
     };
