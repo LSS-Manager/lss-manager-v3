@@ -1109,7 +1109,9 @@ if (I18n.locale == 'en_US') {
         181: ['MzGW (FGr BrB)', 3],
         182: ['Mobilkran', 3],
         183: ['Anh Plattform (FGr BrB)', 3],
-        184: ['FuStW (AP)', 2]
+        184: ['FuStW (AP)', 2],
+        185: ['GW-Tierrettung', 0],
+        186: ['Anh Tierrettung', 0]
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {
