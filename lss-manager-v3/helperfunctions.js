@@ -1111,7 +1111,13 @@ if (I18n.locale == 'en_US') {
         183: ['Anh Plattform (FGr BrB)', 3],
         184: ['FuStW (AP)', 2],
         185: ['GW-Tierrettung', 0],
-        186: ['Anh Tierrettung', 0]
+        186: ['Anh Tierrettung', 0],
+        187: ['TLF 3000 W', 0],
+        188: ['TLF 5000 W', 0],
+        189: ['GTLF 10000 W', 0],
+        190: ['GW-Waldbrand', 0],
+        191: ['Anh Waldbrand', 0],
+        192: ['AB-Waldbrand', 0]
     };
 }
 lssm.getVehicleNameById = function (vehicleId) {

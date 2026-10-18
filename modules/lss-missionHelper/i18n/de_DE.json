@@ -230,6 +230,8 @@
         "thw_bridge_construction_equipment": "MzGW (FGr BrB)",
         "thw_bridge_construction_trailer": "Anh Plattform (FGr BrB)",
         "highway_police": "FuStW (AP)",
-        "animal_rescue": "GW-Tierrettung"
+        "animal_rescue": "GW-Tierrettung",
+        "wildfire_equipment": "GW-Waldbrand",
+        "brush_truck": "TLF-W"
     }
 }

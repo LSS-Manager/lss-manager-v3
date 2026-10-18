@@ -135,7 +135,8 @@
                 23: "Coastal Rescue Station",
                 25: "Coastal Air Station",
                 26: "Lifeguard Post",
-                27: "Tow Truck Station"
+                27: "Tow Truck Station",
+                28: "Mountain Rescue Station",
             },
         },
     };
@@ -173,6 +174,10 @@
                 30: 'Coastal Rescue Heliport',
                 31: 'Search and Rescue HQ',
                 32: 'GP Surgery',
+                33: "Mountain Rescue Station",
+                34: "Recovery Centre",
+                35: "Bomb Disposal HQ",
+                37: "Lifeguard Station",
             },
         },
     };
@@ -204,6 +209,9 @@
                 20: 'Ambulance station (Small station)',
                 23: 'Fire Airbase',
                 24: 'Volunteer Marine Rescue',
+                26: "Fire Boat Dock",
+                27: "Police Boat Dock",
+                28: "Water Rescue Heliport",
             },
         },
     };
